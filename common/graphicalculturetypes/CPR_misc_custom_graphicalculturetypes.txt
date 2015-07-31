@@ -1,0 +1,20 @@
+# Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
+
+
+# THESE ARE CUSTOM CULTURES, UNUSED IN GAME
+
+urzhailculturegfx = {
+	skin_tone = 0
+}
+commiegfx = {
+	skin_tone = 0
+}
+otakugfx = {
+	skin_tone = 0
+}
+kpopgfx = {
+	skin_tone = 1
+}
+silkroadgfx = {
+	skin_tone = 1
+}

@@ -1,0 +1,129 @@
+########################################################################################################################
+#
+# Dynasties for Customizer Cultures - Should not be used in-game 
+# Dynasties are only put here so you won't get "Smith" if you want to play the culture in-game for whatever reason
+#
+# 1000092800-1000092899
+# 
+########################################################################################################################
+
+1000092800 = {
+	name="d'Urzalli di Pizza"
+	culture = urzhailculture
+}
+1000092801 = {
+	name="Urzhailid"
+	culture = urzhailculture
+}
+1000092802 = {
+	name="de Urzhail"
+	culture = urzhailculture
+}
+1000092803 = {
+	name="von Urzhail"
+	culture = urzhailculture
+}
+1000092804 = {
+	name="Urzhailson"
+	culture = urzhailculture
+}
+1000092805 = {
+	name="Lenin"
+	culture = commieculture
+}
+1000092806 = {
+	name="Stalin"
+	culture = commieculture
+}
+1000092807 = {
+	name="Mao"
+	culture = commieculture
+}
+1000092808 = {
+	name="Marx"
+	culture = commieculture
+}
+1000092809 = {
+	name="Romanov"
+	culture = commieculture
+}
+1000092810 = {
+	name="Baka"
+	culture = otaku
+}
+1000092811 = {
+	name="Moeblob"
+	culture = otaku
+}
+1000092812 = {
+	name="Samurai"
+	culture = otaku
+}
+1000092813 = {
+	name="Real Life Ninjas were very Different"
+	culture = otaku
+}
+1000092814 = {
+	name="Miso Soup"
+	culture = otaku
+}
+1000092815 = {
+	name="Chan"
+	culture = asiancustom
+}
+1000092816 = {
+	name="Nguyen"
+	culture = asiancustom
+}
+1000092817 = {
+	name="Kim"
+	culture = asiancustom
+}
+1000092818 = {
+	name="Chang"
+	culture = asiancustom
+}
+1000092819 = {
+	name="Lee"
+	culture = asiancustom
+}
+1000092820 = {
+	name="Park"
+	culture = kpop
+}
+1000092821 = {
+	name="Lee"
+	culture = kpop
+}
+1000092822 = {
+	name="Hwang"
+	culture = kpop
+}
+1000092823 = {
+	name="Rhee"
+	culture = kpop
+}
+1000092824 = {
+	name="Surgery"
+	culture = kpop
+}
+1000092825 = {
+	name="Johnouchi" #Look up Missa Johnouchi's music, it's great!
+	culture = silkroad
+}
+1000092826 = {
+	name="von Silk"
+	culture = silkroad
+}
+1000092827 = {
+	name="Dzungar"
+	culture = silkroad
+}
+1000092828 = {
+	name="Liao"
+	culture = silkroad
+}
+1000092829 = {
+	name="Silk"
+	culture = silkroad
+}
