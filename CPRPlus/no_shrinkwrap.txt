@@ -1,0 +1,6 @@
+Existence of this file informs the HIP installation package build tools that these files are currently fresh from GitHub and not already shrinkwrapped (encrypted) for release.
+
+Do not delete/move this file.  It will be automatically removed by super-fly tools when shrinkwrapped for distribution.
+
+Continuous Wearer of Martial Headgear, Khan of the Installer, Prince of EMF, and Lord Protector of HIP,
+-zijistark
