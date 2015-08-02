@@ -20,6 +20,13 @@ spriteTypes = {
 	### steppe MALE ####
 
 	spriteType = {
+		name = "GFX_steppe_male_clothes_behind"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_steppe_male_headgear_behind"
 		texturefile = "gfx\\characters\\steppe_male\\steppe_male_headgear_behind.dds"
 		noOfFrames = 12
@@ -200,6 +207,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_steppe_male_headgear"
 		texturefile = "gfx\\characters\\steppe_male\\steppe_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_steppe_male_clothes_infront"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_clothes_infront.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
@@ -478,7 +492,7 @@ spriteTypes = {
 			"GFX_turkish_male_ear:d7"
 			"GFX_turkish_male_beard:p4:o-1x-1:h:y"
 		   	"GFX_turkish_male_hair:p1:h:y"
-			"GFX_steppe_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"			#20
 			"GFX_character_imprisoned:p6"
 		}
@@ -545,7 +559,7 @@ spriteTypes = {
 			"GFX_turkish_male_ear_midage:d7"
 			"GFX_turkish_male_beard_midage:p4:o-1x-1:h:y"
 			"GFX_turkish_male_hair_midage:p1:h:y"
-			"GFX_steppe_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
@@ -611,7 +625,7 @@ spriteTypes = {
 			"GFX_turkish_male_ear_oldage:d7"
 			"GFX_turkish_male_beard_oldage:p4:o-1x-1:h:y"
 			"GFX_turkish_male_hair_oldage:p1:h:y"
-			"GFX_steppe_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
@@ -842,7 +856,7 @@ spriteTypes = {
 			"GFX_turkish_male_ear:d7"
 			"GFX_turkish_male_beard:p4:o-1x-1:h:y"
 		   	"GFX_turkish_male_hair:p1:h:y"
-			"GFX_steppe_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"			#20
 			"GFX_character_imprisoned:p6"
 		}
@@ -909,7 +923,7 @@ spriteTypes = {
 			"GFX_turkish_male_ear_midage:d7"
 			"GFX_turkish_male_beard_midage:p4:o-1x-1:h:y"
 			"GFX_turkish_male_hair_midage:p1:h:y"
-			"GFX_steppe_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
@@ -975,7 +989,7 @@ spriteTypes = {
 			"GFX_turkish_male_ear_oldage:d7"
 			"GFX_turkish_male_beard_oldage:p4:o-1x-1:h:y"
 			"GFX_turkish_male_hair_oldage:p1:h:y"
-			"GFX_steppe_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
