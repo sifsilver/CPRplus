@@ -1728,7 +1728,7 @@ byzantine = {
 		modifier = greek_culture_modifier
 	}
 	romanian = {
-		graphical_cultures = { westernslavicgfx byzantinegfx }
+		graphical_cultures = { southernslavicgfx byzantinegfx }
 
 		color = { 0.6 0.4 0.4 }
 
@@ -1793,7 +1793,7 @@ byzantine = {
 		allow_looting = yes
 	}
 	udi = {
-		graphical_cultures = { alangfx byzantinegfx }
+		graphical_cultures = { georgiangfx byzantinegfx }
 		
 		color = { 0.5 0.8 0.7 }
 
@@ -1896,7 +1896,7 @@ byzantine = {
 		modifier = greek_culture_modifier
 	}
 	arberian = {
-		graphical_cultures = { southernslavic westernslavicgfx }
+		graphical_cultures = { southernslavicgfx westernslavicgfx }
 		
 		color = { 0.6 0.4 0.4 }
 
