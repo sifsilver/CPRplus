@@ -1324,7 +1324,7 @@ iberian = {
 	graphical_cultures = {westerngfx}
 
 	basque = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = { basquegfx southerngfx occitangfx }
 		
 		color = { 0.55 0.42 0.04 }
 
