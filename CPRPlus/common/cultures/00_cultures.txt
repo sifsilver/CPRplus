@@ -2782,7 +2782,7 @@ east_african = {
 	}
 	
 	somali = {
-		graphical_cultures = { berbergfx africangfx muslimgfx }
+		graphical_cultures = { somaligfx africangfx muslimgfx }
 
 		secondary_event_pictures = bedouin_arabic
 		

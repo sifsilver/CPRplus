@@ -3172,7 +3172,7 @@ arabic = {
 		modifier = arab_culture_modifier
 	}
     sicilian_arabic = { 
-		graphical_cultures = { andalusiangfx muslimgfx }
+		graphical_cultures = { maghrebgfx muslimgfx }
 		
 		color = { 0.3 0.6 0.3 }
 
@@ -4246,7 +4246,7 @@ east_african = {
 		modifier = east_african_culture_modifier
 	}
     somali = {
-		graphical_cultures = { berbergfx africangfx muslimgfx }
+		graphical_cultures = { somaligfx africangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.3 0.6 0.15 }
@@ -4336,7 +4336,7 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	zaghawa = {
-		graphical_cultures = { berbergfx africangfx }
+		graphical_cultures = { somaligfx africangfx }
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.9 0.35 0.85 }
@@ -4691,7 +4691,7 @@ north_african = {
              
 	}
 	masmuda = {
-		graphical_cultures = { maghrebgfx muslimgfx }
+		graphical_cultures = { berbergfx muslimgfx }
 		
 		color = { 0.4 0.4 0.2 }
 		
@@ -4730,7 +4730,7 @@ north_african = {
              
 	}
 	zanata = {
-		graphical_cultures = { maghrebgfx muslimgfx }
+		graphical_cultures = { berbergfx muslimgfx }
 		
 		color = { 0.4 0.7 0.2 }
 		

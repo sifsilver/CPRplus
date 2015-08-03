@@ -1,16 +1,34 @@
 # hair, mouth, chin, nose, eyes, cheek, ear, neck
 spriteTypes = {
 	
-############## Berber Early ##########################
+############## Somali ##########################
 
-	# Berber Male
+	spriteType = {
+		name = "PORTRAIT_somaligfx_child_male"
+		texturefile = "gfx\\characters\\default_son_african.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_somaligfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_african.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+	
+
+
+	# Somali Male
 	portraitType = {
-		name = "PORTRAIT_berbergfx_male_early"
+		name = "PORTRAIT_somaligfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_male_clothes_behind_christian:p3:c0"
-			"GFX_maghreb_male_headgear_behind_early:p5:c1"
+			"GFX_maghreb_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind:p1:h:y"
 			"GFX_muslim_male_beard_behind:p4:y"
 			"GFX_african_male_base:p2"
@@ -31,7 +49,7 @@ spriteTypes = {
 			"GFX_muslim_male_beard:p4:y"
 		   	"GFX_african_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_male_headgear_early:p5:c5"
+			"GFX_maghreb_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -54,12 +72,12 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_berbergfx_male_early1"
+		name = "PORTRAIT_somaligfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_male_clothes_behind_christian:p3:c0"
-			"GFX_maghreb_male_headgear_behind_early:p5:c1"
+			"GFX_maghreb_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind_midage:p1:h:y"
 			"GFX_muslim_male_beard_behind_midage:p4:y"
 			"GFX_african_male_base_midage:p2"
@@ -80,7 +98,7 @@ spriteTypes = {
 			"GFX_muslim_male_beard_midage:p4:y"
 			"GFX_african_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_male_headgear_early:p5:c5"
+			"GFX_maghreb_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -103,12 +121,12 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_berbergfx_male_early2"
+		name = "PORTRAIT_somaligfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_male_clothes_behind_christian:p3:c0"
-			"GFX_maghreb_male_headgear_behind_early:p5:c1"
+			"GFX_maghreb_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind_oldage:p1:h:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:y"
 			"GFX_african_male_base_oldage:p2"
@@ -129,7 +147,7 @@ spriteTypes = {
 			"GFX_muslim_male_beard_oldage:p4:y"
 			"GFX_african_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_male_headgear_early:p5:c5"
+			"GFX_maghreb_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -150,19 +168,19 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-#### Berber FEMALE ####
+#### Somali FEMALE ####
 
 	
-	# CULTURE_INDEX: 0 = clothes_early behind, 1 = headgear_early behind, 2 = clothes_early, 3 = headgear_early mid, 4 = clothes_early infront, 5 = headgear_early
+	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-	# Berber female
+	# Somali female
 	portraitType = {
-		name = "PORTRAIT_berbergfx_female_early"
+		name = "PORTRAIT_somaligfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_female_clothes_behind_christian:p3:c0"            
-			"GFX_maghreb_female_headgear_behind_early:p5:c1" 
+			"GFX_maghreb_female_headgear_behind:p5:c1" 
 			"GFX_african_female_hair_behind:p1:y"
 			"GFX_african_female_base:p2"
 			"GFX_african_female_neck:d0"
@@ -181,7 +199,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_african_female_hair:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_female_headgear_early:p5:c5" 
+			"GFX_maghreb_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -199,14 +217,14 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# Berber female midage
+	# Somali female midage
 	portraitType = {
-		name = "PORTRAIT_berbergfx_female_early1"
+		name = "PORTRAIT_somaligfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_female_clothes_behind_christian:p3:c0"            
-			"GFX_maghreb_female_headgear_behind_early:p5:c1" 
+			"GFX_maghreb_female_headgear_behind:p5:c1" 
 			"GFX_african_female_hair_behind_midage:p1:y"
 			"GFX_african_female_base_midage:p2"
 			"GFX_african_female_neck_midage:d0"
@@ -225,7 +243,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_african_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_female_headgear_early:p5:c5" 
+			"GFX_maghreb_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -243,14 +261,14 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# Berber female oldage
+	# Somali female oldage
 	portraitType = {
-		name = "PORTRAIT_berbergfx_female_early2"
+		name = "PORTRAIT_somaligfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_female_clothes_behind_christian:p3:c0"            
-			"GFX_maghreb_female_headgear_behind_early:p5:c1" 
+			"GFX_maghreb_female_headgear_behind:p5:c1" 
 			"GFX_african_female_hair_behind_oldage:p1:y"
 			"GFX_african_female_base_oldage:p2"
 			"GFX_african_female_neck_oldage:d0"
@@ -269,7 +287,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_african_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_female_headgear_early:p5:c5" 
+			"GFX_maghreb_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -285,6 +303,6 @@ spriteTypes = {
 		}
 		
 		headgear_that_hides_hair = { }
-	}	
+	}
 	
 }
