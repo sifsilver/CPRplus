@@ -867,6 +867,7 @@
 			is_nomadic = yes
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
+			NOT = { has_minor_title = title_prince }
 		}
 	}
 	
@@ -893,6 +894,7 @@
 			is_nomadic = yes
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
+			NOT = { has_minor_title = title_prince }
 		}
 	}
 	
@@ -919,6 +921,7 @@
 			is_nomadic = yes
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
+			NOT = { has_minor_title = title_prince }
 		}
 	}
 	
@@ -947,6 +950,7 @@
 			is_nomadic = yes
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
+			NOT = { has_minor_title = title_prince }
 		}
 	}
 	
@@ -975,6 +979,7 @@
 			is_nomadic = yes
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
+			NOT = { has_minor_title = title_prince }
 		}
 	}
 	
@@ -1003,6 +1008,7 @@
 			is_nomadic = yes
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
+			NOT = { has_minor_title = title_prince }
 		}
 	}
 	
@@ -1403,13 +1409,35 @@
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
 		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		is_nomadic = yes
+		#		is_tribal = yes
+		#	}
+		#	is_tributary = yes
+		#}
 		modifier = {
 			factor = 0
-			OR = {
-				is_nomadic = yes
-				is_tribal = yes
+			is_nomadic = yes
+			NOT = {
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				num_of_king_titles = 4
+				}
+			NOT = {
+				spouse = {
+					has_landed_title = e_mongol_empire
+					has_landed_title = e_golden_horde
+					has_landed_title = e_il-khanate
+					has_landed_title = e_tartaria
+					num_of_emperor_titles = 2
+					num_of_king_titles = 4
+				}
 			}
-			is_tributary = yes
 		}
 		modifier = {
 			factor = 0
@@ -1435,24 +1463,47 @@
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_nomadic = yes
+		#	is_tributary = no
+		#}
 		modifier = {
 			factor = 0
 			is_nomadic = yes
-			is_tributary = no
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			real_tier = king
-		}
-		modifier = {
-			factor = 0
-			is_tribal = yes
 			OR = {
-				independent = no
-				is_tributary = yes
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				AND = {
+					num_of_emperor_titles = 1
+					num_of_king_titles = 4
+				}
+				spouse = {
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						has_landed_title = e_tartaria
+						num_of_emperor_titles = 2
+						AND = {
+							num_of_emperor_titles = 1
+							num_of_king_titles = 4
+						}
+					}
+				}
 			}
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_tribal = yes
+		#	OR = {
+		#		independent = no
+		#		is_tributary = yes
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -1477,24 +1528,47 @@
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_nomadic = yes
+		#	is_tributary = no
+		#}
 		modifier = {
 			factor = 0
 			is_nomadic = yes
-			is_tributary = no
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			real_tier = king
-		}
-		modifier = {
-			factor = 0
-			is_tribal = yes
 			OR = {
-				independent = no
-				is_tributary = yes
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				AND = {
+					num_of_emperor_titles = 1
+					num_of_king_titles = 4
+				}
+				spouse = {
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						has_landed_title = e_tartaria
+						num_of_emperor_titles = 2
+						AND = {
+							num_of_emperor_titles = 1
+							num_of_king_titles = 4
+						}
+					}
+				}
 			}
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_tribal = yes
+		#	OR = {
+		#		independent = no
+		#		is_tributary = yes
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -1519,24 +1593,47 @@
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_nomadic = yes
+		#	is_tributary = no
+		#}
 		modifier = {
 			factor = 0
 			is_nomadic = yes
-			is_tributary = no
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			real_tier = king
-		}
-		modifier = {
-			factor = 0
-			is_tribal = yes
 			OR = {
-				independent = no
-				is_tributary = yes
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				AND = {
+					num_of_emperor_titles = 1
+					num_of_king_titles = 4
+				}
+				spouse = {
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						has_landed_title = e_tartaria
+						num_of_emperor_titles = 2
+						AND = {
+							num_of_emperor_titles = 1
+							num_of_king_titles = 4
+						}
+					}
+				}
 			}
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_tribal = yes
+		#	OR = {
+		#		independent = no
+		#		is_tributary = yes
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -1577,6 +1674,16 @@
 			is_nomadic = yes
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
+			NOT = { has_minor_title = title_prince }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			#OR = {
+				has_minor_title = title_prince
+			#	spouse = { has_minor_title = title_prince }
+			#}
+			liege = { real_tier = king }
 		}
 		modifier = {
 			factor = 0
@@ -1634,8 +1741,7 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			is_nomadic = no
 			OR = {
 				AND = {
 					NOT = { real_tier = count }
@@ -1647,6 +1753,18 @@
 				spouse = { real_tier = duke }
 			}
 		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			NOT = { has_minor_title = title_prince }
+			#NOT = { spouse = { has_minor_title = title_prince } }
+			liege = { real_tier = emperor }
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = peasant_leader }
+			NOT = { trait = heresiarch }
+		}
 	}
 
 	# Common headgear 3 - Red hat
@@ -1654,10 +1772,8 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			is_nomadic = no
 			OR = {
-				#NOT = { religion = orthodox }
 				AND = {
 					NOT = { real_tier = count }
 					NOT = { spouse = { real_tier = count } }
@@ -1667,6 +1783,18 @@
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			NOT = { has_minor_title = title_prince }
+			#NOT = { spouse = { has_minor_title = title_prince } }
+			liege = { real_tier = emperor }
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = peasant_leader }
+			NOT = { trait = heresiarch }
 		}
 	}
 	
