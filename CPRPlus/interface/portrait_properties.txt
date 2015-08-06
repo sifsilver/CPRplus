@@ -55,7 +55,7 @@
 			is_nomadic = yes
 		}
 		modifier = {
-			factor = 10
+			factor = 2
 			is_tribal = yes
 		}
 	}
@@ -132,10 +132,11 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NAND = {
-				religion_group = pagan_group
-				culture_group = celtic
-			}
+			NOT = { religion_group = pagan_group }
+		}
+		modifier = {
+			factor = 0
+			NOT = { culture_group = celtic }
 		}
 		modifier = {
 			factor = 100
@@ -221,7 +222,7 @@
 		}
 	}
 	12 = { # Ocean w ships - changed to tundra/snow
-		factor = 1
+		factor = 2
 		#modifier = {
 			#factor = 0
 			#NOT = { location = { terrain = ocean } }
@@ -234,8 +235,8 @@
 			}
 		}
 		modifier = {
-			factor = 5
-			location = {region = world_europe_north }
+			factor = 2
+			location = { region = world_europe_north }
 		}
 	}
 	13 = { # Muslim interior
