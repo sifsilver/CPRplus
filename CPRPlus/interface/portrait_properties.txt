@@ -43,11 +43,11 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				culture_group = arabic
-				culture_group = north_african
-				culture_group = west_african
-				culture_group = east_african
+			location = {
+				OR = {
+					region = world_india
+					region = world_middle_east
+				}
 			}
 		}
 		modifier = {
@@ -96,8 +96,11 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+		}
 	}
-	
 	6 = { # military camp
 		factor = 100
 		modifier = {
@@ -105,7 +108,6 @@
 			OR = {
 				AND = {
 					is_alive = yes
-					war = no
 					in_command = no
 					NOT = { has_job_title  = job_marshal }
 				}
@@ -130,15 +132,17 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
-			NOT = { culture_group = celtic }
+			NAND = {
+				religion_group = pagan_group
+				culture_group = celtic
+			}
 		}
 		modifier = {
 			factor = 100
 			is_alive = no
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			is_priest = yes
 		}
 	}
@@ -146,15 +150,18 @@
 		factor = 15
 		modifier = {
 			factor = 0
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { religion = west_african_pagan_reformed }
-			NOT = { religion = west_african_pagan }
-			NOT = { culture = falashim }
+			location = {
+				NOT = { region = world_africa_east }
+				NOT = { region = world_africa_west }
+				}
+			}
+		modifier = {
+			factor = 2
+			location = { region = world_africa_west }
 		}
 		modifier = {
 			factor = 2
-			NOT = { culture_group = east_african }
+			is_nomadic = yes
 		}
 	}
 	9 = { # Church
@@ -163,6 +170,10 @@
 			factor = 0
 			NOT = { religion_group = christian }
 		}
+		#modifier = {
+		#	factor = 0
+		#	is_ruler = no
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -176,55 +187,36 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture = turkish }
-			NOT = { culture = mizrahi }
-			NOT = { culture = bukharim }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+			}
 			#NOT = { capital_scope = { terrain = desert } }
 			#NOT = { capital_scope = { terrain = coastal_desert } }
+		}
+		modifier = {
+			factor = 10
+			is_nomadic = yes
+			location = { NOT = { region = world_persia } }
 		}
 	}
 	11 = { # Steppe
 		factor = 1
 		modifier = {
 			factor = 0
-			#NOT = { capital_scope = { terrain = steppe } }
-			#NOT = { capital_scope = { terrain = plains } }
-			NOT = { culture_group = altaic }
-			NOT = {culture = alan}
-			NOT = {culture = tajik}
-			NOT = {culture = udmurt}
-			NOT = {culture = komi}
-			NOT = {culture = samoyed}
-			NOT = {culture = khanty}
-			NOT = { culture_group = sinic }
-			NOT = { culture = crimean_jewish }
-			NOT = { culture = chinese_jewish }
-		}
-		modifier = {
-			factor = 10
-			OR = {
-				culture = tajik
-				culture = udmurt
-				culture = komi
-				culture = samoyed
+			location = {
+				NOT = { region = world_steppe_east }
+				NOT = { region = world_steppe_west }
 			}
 		}
 		modifier = {
-			factor = 10
-			OR = {
-				culture_group = altaic
-				culture = alan
-			}
-			NOT = { culture = turkish }
+			factor = 2
+			is_nomadic = yes
+			is_ruler = no
 		}
 		modifier = {
-			factor = 10
+			factor = 2
 			is_nomadic = yes
 		}
 	}
@@ -236,114 +228,100 @@
 		#}
 		modifier = {
 			factor = 0
-			NOT = { culture_group = north_germanic }
-			NOT = { culture_group = east_slavic }
-			NOT = { culture_group = finno_ugric }
-			NOT = { culture = bolghar }
-			NOT = { religion = norse_pagan }
-			NOT = { religion = norse_pagan_reformed }
-			NOT = { religion = finnish_pagan }
-			NOT = { religion = finnish_pagan_reformed }
+			location = {
+				NOT = { region = world_europe_north }
+				NOT = { region = world_europe_east }
+			}
 		}
 		modifier = {
 			factor = 5
-			NOT = { culture = bolghar }
+			location = {region = world_europe_north }
 		}
 	}
 	13 = { # Muslim interior
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { religion_group = indian_group }
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture = turkish }
-			NOT = { culture = sicilian }
-			NOT = { culture = sephardi }
-			NOT = { culture = mizrahi }
-			NOT = { culture = bukharim }
-			NOT = { culture = indian_jewish }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+				NOT = { region = world_india }
+				NOT = { region = world_steppe_tarim }
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		modifier = {
 			factor = 25
-			culture_group = iberian
+			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
 			factor = 5
-			culture = sicilian
+			location = { region = world_europe_south_italy }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
 		}
 	}
 	14 = { # Harem
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = indian_group }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture_group = sinic }
-			NOT = { culture = turkish }
-			NOT = { culture = sicilian }
-			NOT = { culture_group = israelite }
-			NOT = { religion_group = jewish_group }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+				NOT = { region = world_india }
+				NOT = { region = world_steppe_tarim }
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		modifier = {
 			factor = 25
-			culture_group = iberian
+			location = { region = world_europe_west_iberia }
 		}
+
 		modifier = {
 			factor = 5
-			culture = sicilian
+			location = { region = world_europe_south_italy }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
 		}
 	}
 	15 = { # Muslim interior 2
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion_group = indian_group }
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture = turkish }
-			NOT = { culture = sicilian }
-			NOT = { culture = sephardi }
-			NOT = { culture = mizrahi }
-			NOT = { culture = bukharim }
-			NOT = { culture = indian_jewish }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+				NOT = { region = world_india }
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		modifier = {
 			factor = 25
-			culture_group = iberian
+			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
 			factor = 5
-			culture = sicilian
+			location = { region = world_europe_south_italy }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
 		}
 	}
 
@@ -351,14 +329,19 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { 
-				AND = {
-					culture_group = altaic
-					NOT = { culture = turkish }
-				}
+			location = {
+				NOT = { region = world_steppe_east }
+				NOT = { region = world_steppe_west }
 			}
-			NOT = { culture = crimean_jewish }
-			NOT = { culture = khitan }
+		}
+		modifier = {
+			factor = 2
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 2
+			is_nomadic = yes
+			is_ruler = yes
 		}
 	}
 
@@ -366,14 +349,14 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { 
-				AND = {
-					culture_group = altaic
-					NOT = { culture = turkish }
-				}
+			location = {
+				NOT = { region = world_steppe_east }
+				NOT = { region = world_steppe_west }
 			}
-			NOT = { culture = crimean_jewish }
-			NOT = { culture = khitan }
+		}
+		modifier = {
+			factor = 2
+			is_nomadic = yes
 		}
 	}
 
@@ -410,130 +393,132 @@
 	}
 
 	20 = { # Pagan human sacrifice
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
-			NOT = { death_reason = death_sacrificed }
+			NOR = {
+				AND = {
+					religion_group = pagan_group
+					is_priest = yes
+				}
+				death_reason = death_sacrificed
+			}
 		}
 		modifier = {
-			factor = 1000
+			factor = 200
 			death_reason = death_sacrificed
-		}
-		modifier = {
-			factor = 10
-			is_priest = yes
 		}
 	}
 
 	21 = { # Celtic Green
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = celtic }
-			NOT = { culture_group = west_germanic }
-			NOT = { culture = norman }
+			location = { NOT = { region = world_europe_west_brittania } }
 		}
 		modifier = {
-			factor = 0.1
-			OR = {
-				NOT = { culture = irish }
-				NOT = { culture = scottish }
-				NOT = { culture = cumbrian }
-				NOT = { culture = pictish }
-			}
+			factor = 0.5
+			NOT = { culture = irish }
+			NOT = { culture = scottish }
+			NOT = { culture = cumbrian }
+			NOT = { culture = pictish }
 		}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			culture_group = celtic
 		}
 	}
 
 	22 = { # Celtic Castle
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
+			location = { NOT = { region = world_europe_west_brittania } }
+		}
+		modifier = {
+			factor = 0.5
 			NOT = { culture_group = celtic }
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = celtic
+			is_ruler = yes
 		}
 	}
 	
 	23 = { # Alhambra
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = arabic }
-			NOT = { culture = sephardi }
+			location = {
+				NOT = { region = world_europe_west_iberia }
+				NOT = { region = world_africa_north }
+			}
 		}
 		modifier = {
-			factor = 5
-			OR = {
-				religion_group = muslim
-				culture = andalusian_arabic
-			}
+			factor = 1.5
+			location = { region = world_europe_west_iberia }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
 		}
 	}
 	
 	24 = { # Mediterranean Villa
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = latin }
-			NOT = { culture_group = italian_group }
-			NOT = { culture = greek }
-			NOT = { culture = griko }
-			NOT = { culture = croatian }
-			NOT = { culture = serbian }
-			NOT = { culture = romaniote }
-			NOT = { culture = sephardi }
-			NOT = { 
-				any_demesne_province = {
-					OR = {
-						culture = greek
-						culture = griko
-						culture_group = latin
-						culture_group = italian_group
-					}
+			location = {
+				NOT = { region = world_europe_west_iberia }
+				NOT = { region = world_africa_north }
+				NOT = { region = world_europe_west_francia }
+				NOT = { region = world_europe_south }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			location = {
+				OR = {
+					region = world_europe_south_italy
+					region = world_europe_west_iberia
 				}
 			}
 		}
 		modifier = {
-			factor = 4
-			OR = {
-				culture_group = latin
-				culture_group = italian_group
-				culture = croatian
-			}
+			factor = 0
+			is_nomadic = yes
 		}
 	}
 	
 	25 = { # Indian
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture = afghan }
-			NOT = { culture = baloch }
+			location = { NOT = { region = world_india } }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
 		}
 	}
 	
 	26 = { # African Savanna 2
-		factor = 0
+		factor = 15
 		modifier = {
 			factor = 0
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { religion = west_african_pagan_reformed }
-			NOT = { religion = west_african_pagan }
-			NOT = { culture = falashim }
+			location = {
+				NOT = { region = world_africa_west }
+				NOT = { region = world_africa_east }
+			}
 		}
 		modifier = {
 			factor = 2
-			NOT = { culture_group = east_african }
+			location = { region = world_africa_west }
+		}
+		modifier = {
+			factor = 2
+			is_nomadic = yes
 		}
 	}
 }
