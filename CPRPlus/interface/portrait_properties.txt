@@ -3,14 +3,21 @@
 # p0 background
 0 = {
 	0 = { # castle 1
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 
@@ -52,7 +59,14 @@
 		}
 		modifier = {
 			factor = 0.01
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 		modifier = {
 			factor = 2
@@ -98,7 +112,14 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	6 = { # military camp
@@ -162,7 +183,14 @@
 		}
 		modifier = {
 			factor = 2
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	9 = { # Church
@@ -177,7 +205,14 @@
 		#}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -205,27 +240,48 @@
 		}
 		modifier = {
 			factor = 10
-			is_nomadic = yes
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 			location = { NOT = { region = world_persia } }
 		}
 	}
 	11 = { # Steppe
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_steppe_east }
-				NOT = { region = world_steppe_west }
+				NOT = { region = world_steppe }
 			}
 		}
 		modifier = {
 			factor = 2
-			is_nomadic = yes
 			is_ruler = no
 		}
 		modifier = {
-			factor = 2
-			is_nomadic = yes
+			factor = 0
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
+			location = {
+				NOT = {
+					any_province_holding = {
+						holding_type = nomad
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
 		}
 	}
 	12 = { # Ocean w ships - changed to tundra/snow
@@ -255,7 +311,7 @@
 				NOT = { region = world_middle_east }
 				NOT = { region = world_persia }
 				NOT = { region = world_india }
-				NOT = { region = world_steppe_tarim }
+				NOT = { region = world_steppe }
 				NOT = { religion_group = muslim }
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion_group = indian_group }
@@ -272,7 +328,14 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	14 = { # Harem
@@ -284,7 +347,7 @@
 				NOT = { region = world_middle_east }
 				NOT = { region = world_persia }
 				NOT = { region = world_india }
-				NOT = { region = world_steppe_tarim }
+				NOT = { region = world_steppe }
 				NOT = { religion_group = muslim }
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion_group = indian_group }
@@ -301,7 +364,14 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	15 = { # Muslim interior 2
@@ -329,27 +399,52 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 
 	16 = { # Mongol camp 1
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_steppe_east }
-				NOT = { region = world_steppe_west }
+				NOT = { region = world_steppe }
 			}
 		}
 		modifier = {
 			factor = 2
 			is_nomadic = yes
+			is_ruler = yes
 		}
 		modifier = {
-			factor = 2
-			is_nomadic = yes
-			is_ruler = yes
+			factor = 0
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
+			location = {
+				NOT = {
+					any_province_holding = {
+						holding_type = nomad
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
 		}
 	}
 
@@ -358,13 +453,35 @@
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_steppe_east }
-				NOT = { region = world_steppe_west }
+				NOT = { region = world_steppe }
 			}
 		}
 		modifier = {
 			factor = 2
 			is_nomadic = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
+			location = {
+				NOT = {
+					any_province_holding = {
+						holding_type = nomad
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
 		}
 	}
 
@@ -387,7 +504,14 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 		modifier = {
 			factor = 2
@@ -467,8 +591,19 @@
 			location = { region = world_europe_west_iberia }
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { culture = andalusian_arabic }
+		}
+		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	
@@ -494,7 +629,14 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	
@@ -506,7 +648,14 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	
@@ -525,7 +674,14 @@
 		}
 		modifier = {
 			factor = 2
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 }
@@ -1528,6 +1684,7 @@
 					is_nomadic = no
 					NOT = { real_tier = king }
 					NOT = { spouse = { real_tier = king } }
+					NOT = { spouse = { is_nomadic = yes } }
 				}
 				AND = {
 					is_nomadic = yes
@@ -1596,6 +1753,7 @@
 					is_nomadic = no
 					NOT = { real_tier = king }
 					NOT = { spouse = { real_tier = king } }
+					NOT = { spouse = { is_nomadic = yes } }
 				}
 				AND = {
 					is_nomadic = yes
@@ -1664,6 +1822,7 @@
 					is_nomadic = no
 					NOT = { real_tier = king }
 					NOT = { spouse = { real_tier = king } }
+					NOT = { spouse = { is_nomadic = yes } }
 				}
 				AND = {
 					is_nomadic = yes
@@ -1753,21 +1912,15 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				AND = {
-					real_tier = emperor
-					is_nomadic = yes
-				}
-				spouse = {
-					real_tier = emperor
-					is_nomadic = yes
-				}
-			}
+			real_tier = emperor
+			is_nomadic = yes
 		}
 		modifier = {
 			factor = 0
-			liege = { is_nomadic = yes }
-			is_ruler = no
+			spouse = {
+				real_tier = emperor
+				is_nomadic = yes
+			}
 		}
 		modifier = {
 			factor = 0
