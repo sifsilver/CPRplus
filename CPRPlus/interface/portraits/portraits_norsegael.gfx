@@ -19,7 +19,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_norsegael_female_clothes"
-		texturefile = "gfx\\characters\\norsegael_female\\norsegael_female_clothes_behind.dds"
+		texturefile = "gfx\\characters\\norsegael_female\\norsegael_female_clothes.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
