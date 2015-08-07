@@ -85,7 +85,7 @@
 	}
 	
 	5 = { # tavern
-		factor = 100
+		factor = 10
 		modifier = {
 			factor = 0
 			NOT = { 
@@ -166,7 +166,7 @@
 		}
 	}
 	9 = { # Church
-		factor = 100
+		factor = 10
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
@@ -177,11 +177,18 @@
 		#}
 		modifier = {
 			factor = 0
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
-				NOT = { trait = zealous }
 			}
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
 		}
 	}
 	10 = { # Desert
@@ -255,12 +262,12 @@
 			}
 		}
 		modifier = {
-			factor = 25
+			factor = 4
 			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
-			factor = 5
+			factor = 2
 			location = { region = world_europe_south_italy }
 		}
 		modifier = {
@@ -284,12 +291,12 @@
 			}
 		}
 		modifier = {
-			factor = 25
+			factor = 4
 			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
-			factor = 5
+			factor = 2
 			location = { region = world_europe_south_italy }
 		}
 		modifier = {
@@ -312,12 +319,12 @@
 			}
 		}
 		modifier = {
-			factor = 25
+			factor = 4
 			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
-			factor = 5
+			factor = 2
 			location = { region = world_europe_south_italy }
 		}
 		modifier = {
@@ -373,23 +380,22 @@
 	}
 
 	19 = { # Muslim mosque
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
 		}
-
-#		modifier = {
-#			factor = 0
-#			is_ruler = no
-#		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
-				NOT = { trait = zealous }
-			}
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 2
+			is_ruler = yes
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
 		}
 	}
 
