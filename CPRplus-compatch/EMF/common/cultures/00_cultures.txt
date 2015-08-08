@@ -2885,7 +2885,7 @@ east_african = {
 	}
 	
 	nubian = {
-		graphical_cultures = { africangfx muslimgfx }
+		graphical_cultures = { ethiopiangfx africangfx muslimgfx }
 
 		secondary_event_pictures = bedouin_arabic
 		
