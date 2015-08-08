@@ -99,7 +99,7 @@
 	}
 	
 	5 = { # tavern
-		factor = 10
+		factor = 3
 		modifier = {
 			factor = 0
 			NOT = { 
@@ -109,6 +109,14 @@
 					trait = lustful
 				}
 			}
+		}
+		modifier = {
+			factor = 3
+			trait = drunkard
+		}
+		modifier = {
+			factor = 2
+			trait = hedonist
 		}
 		modifier = {
 			factor = 0
@@ -169,7 +177,7 @@
 		}
 	}
 	8 = { # Gallows - changed to African savanna
-		factor = 15
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
@@ -178,7 +186,7 @@
 				}
 			}
 		modifier = {
-			factor = 2
+			factor = 3
 			location = { region = world_africa_west }
 		}
 		modifier = {
@@ -227,7 +235,7 @@
 		}
 	}
 	10 = { # Desert
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 0
 			location = {
@@ -239,13 +247,16 @@
 			#NOT = { capital_scope = { terrain = coastal_desert } }
 		}
 		modifier = {
-			factor = 10
+			factor = 0.5
+			location = { region = world_persia }
+		}
+		modifier = {
+			factor = 3
 			location = {
 				any_province_holding = {
 					holding_type = nomad
 				}
 			}
-			location = { NOT = { region = world_persia } }
 		}
 	}
 	11 = { # Steppe
@@ -613,7 +624,7 @@
 			factor = 0
 			location = {
 				NOT = { region = world_europe_west_iberia }
-				NOT = { region = world_africa_north }
+				#NOT = { region = world_africa_north }
 				NOT = { region = world_europe_west_francia }
 				NOT = { region = world_europe_south }
 			}
@@ -660,7 +671,7 @@
 	}
 	
 	26 = { # African Savanna 2
-		factor = 15
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
@@ -669,7 +680,7 @@
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			location = { region = world_africa_west }
 		}
 		modifier = {
@@ -2038,6 +2049,14 @@
 			is_ruler = yes
 			is_theocracy = yes
 			religion_group = pagan_group
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = turkishgfx
+				graphical_culture = muslimgfx
+			}
+			NOT = { religion_group = muslim }
 		}
 	}
 
