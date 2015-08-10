@@ -9,10 +9,9 @@
 
 
 CPR_culture_group = {
-	graphical_culture = mongolgfx
 	
 	asiancustom = { #Asian
-		graphical_culture = chinesegfx
+		graphical_cultures = { chinesegfx mongolgfx }
 		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
@@ -27,7 +26,7 @@ CPR_culture_group = {
 		modifier = default_culture_modifier
 	}		
 	otaku = { #Celtic apperance with Asian hair and clothing
-		graphical_culture = otakugfx
+		graphical_cultures = { otakugfx celticgfx }
 		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
@@ -42,7 +41,7 @@ CPR_culture_group = {
 		modifier = default_culture_modifier
 	}		
 	urzhailculture = { #Western apperance with Greek hair and clothing
-		graphical_culture = urzhailculturegfx
+		graphical_cultures = { urzhailculturegfx byzantinegfx westerngfx }
 		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
@@ -57,7 +56,7 @@ CPR_culture_group = {
 		modifier = default_culture_modifier
 	}	
 	commieculture = { #Western apperance with Russian hair and clothing
-		graphical_culture = commiegfx
+		graphical_cultures = { commiegfx easternslavicgfx easterngfx }
 		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
@@ -72,7 +71,7 @@ CPR_culture_group = {
 		modifier = default_culture_modifier
 	}
 	kpop = { #Mongol appearance with Iranian clothes and hair
-		graphical_culture = kpopgfx
+		graphical_cultures = { kpopgfx persiangfx mongolgfx }
 		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
@@ -87,7 +86,7 @@ CPR_culture_group = {
 		modifier = default_culture_modifier
 	}
 	silkroad = { #Mongol appearance with Arab clothes and hair
-		graphical_culture = silkroadgfx
+		graphical_cultures = { silkroadgfx muslimgfx mongolgfx }
 		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
