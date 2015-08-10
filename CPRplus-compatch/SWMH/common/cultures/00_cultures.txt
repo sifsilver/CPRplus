@@ -386,7 +386,7 @@ central_germanic = {
 		modifier = german_culture_modifier
 	}		
 	dutch = {
-		graphical_cultures = { dutchgfx }
+		graphical_cultures = { dutchgfx germangfx }
 		graphical_unit_culture = western
 		
 		color = { 1.0 0.55 0.0 }
@@ -432,7 +432,7 @@ central_germanic = {
 		modifier = dutch_culture_modifier
 	}
 	lombard = {
-		graphical_cultures = { lombardgfx }
+		graphical_cultures = { lombardgfx germangfx }
 		
 		color = { 0.6 0.6 0.8 }
 
@@ -477,7 +477,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	visigothic = {
-		graphical_cultures = { basquegfx southerngfx occitangfx }
+		graphical_cultures = { basquegfx southerngfx }
 		
 		color = { 0.55 0.55 0.15 }
 
@@ -609,7 +609,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}	
 	low_saxon = {
-		graphical_cultures = {saxongfx}
+		graphical_cultures = {germangfx}
 		
 		color = { 0.8 0.0 0.0 } # similar to in game old_saxon
 		

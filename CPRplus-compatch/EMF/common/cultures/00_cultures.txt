@@ -700,7 +700,7 @@ latin = {
 		seafarer = yes
 	}
 	italian = {
-		graphical_cultures = { italiangfx southerngfx }
+		graphical_cultures = { italiangfx occitangfx }
 
 		
 		color = { 0.95 0.95 0.75 }
@@ -788,7 +788,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	roman = {
-		graphical_cultures = { italiangfx southerngfx occitangfx }
+		graphical_cultures = { italiangfx occitangfx }
 
 
 		
@@ -831,7 +831,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	sicilian = {
-		graphical_cultures = { siciliangfx }
+		graphical_cultures = { siciliangfx italiangfx occitangfx }
 		
 		color = { 0.8 0.7 0.15 }
 
@@ -1122,7 +1122,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	alan = {
-		graphical_cultures = { alangfx byzantinegfx easternslavicgfx }
+		graphical_cultures = { alangfx turkishgfx easterngfx }
 
 
 		
@@ -1512,7 +1512,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	ugricbaltic = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { balticgfx ugricgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
