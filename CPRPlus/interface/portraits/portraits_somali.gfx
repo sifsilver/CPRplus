@@ -17,6 +17,20 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_somali_male_headgear_behind"
+		texturefile = "gfx\\characters\\somali_male\\somali_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_somali_male_headgear"
+		texturefile = "gfx\\characters\\somali_male\\somali_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 	
 
@@ -28,7 +42,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_male_clothes_behind_christian:p3:c0"
-			"GFX_maghreb_male_headgear_behind:p5:c1"
+			"GFX_somali_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind:p1:h:y"
 			"GFX_muslim_male_beard_behind:p4:y"
 			"GFX_african_male_base:p2"
@@ -49,7 +63,7 @@ spriteTypes = {
 			"GFX_muslim_male_beard:p4:y"
 		   	"GFX_african_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_male_headgear:p5:c5"
+			"GFX_somali_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -77,7 +91,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_male_clothes_behind_christian:p3:c0"
-			"GFX_maghreb_male_headgear_behind:p5:c1"
+			"GFX_somali_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind_midage:p1:h:y"
 			"GFX_muslim_male_beard_behind_midage:p4:y"
 			"GFX_african_male_base_midage:p2"
@@ -98,7 +112,7 @@ spriteTypes = {
 			"GFX_muslim_male_beard_midage:p4:y"
 			"GFX_african_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_male_headgear:p5:c5"
+			"GFX_somali_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -126,7 +140,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_african_male_clothes_behind_christian:p3:c0"
-			"GFX_maghreb_male_headgear_behind:p5:c1"
+			"GFX_somali_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind_oldage:p1:h:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:y"
 			"GFX_african_male_base_oldage:p2"
@@ -147,7 +161,7 @@ spriteTypes = {
 			"GFX_muslim_male_beard_oldage:p4:y"
 			"GFX_african_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_maghreb_male_headgear:p5:c5"
+			"GFX_somali_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
