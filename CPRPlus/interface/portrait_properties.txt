@@ -3,14 +3,21 @@
 # p0 background
 0 = {
 	0 = { # castle 1
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 
@@ -35,6 +42,7 @@
 		modifier = {
 			factor = 0
 			prisoner = no
+			NOT = { death_reason = death_dungeon }
 		}
 	}
 
@@ -42,19 +50,26 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				culture_group = arabic
-				culture_group = north_african
-				culture_group = west_african
-				culture_group = east_african
+			location = {
+				OR = {
+					region = world_india
+					region = world_middle_east
+				}
 			}
 		}
 		modifier = {
 			factor = 0.01
-			is_nomadic = yes
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 		modifier = {
-			factor = 10
+			factor = 2
 			is_tribal = yes
 		}
 	}
@@ -63,17 +78,28 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			NOT = { trait = incapable }
 			NOT = { trait = infirm }
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0.001
+			OR = {
+				death_reason = death_sacrificed
+				death_reason = death_battle
+				death_reason = death_execution
+				death_reason = death_dungeon
+			}
+		}
+		modifier = {
+			factor = 0.02
 			trait = infirm
+			is_alive = yes
 		}
 	}
 	
 	5 = { # tavern
-		factor = 100
+		factor = 3
 		modifier = {
 			factor = 0
 			NOT = { 
@@ -84,50 +110,105 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 3
+			trait = drunkard
+		}
+		modifier = {
+			factor = 2
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
+		}
 	}
-	
 	6 = { # military camp
 		factor = 100
 		modifier = {
 			factor = 0
-			in_command = no
-			NOT = { has_job_title  = job_marshal }
-		}
-		modifier = {
-			factor = 0.02
-			in_command = no
-			has_job_title  = job_marshal
+			OR = {
+				AND = {
+					is_alive = yes
+					in_command = no
+					#NOT = { has_job_title  = job_marshal }
+				}
+				AND = {
+					is_alive = no
+					NOT = { death_reason = death_battle }
+				}
+			}
 		}
 		modifier = {
 			factor = 0
-			is_alive = no
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					is_ruler = no
+				}
+			}
+			war = no
 		}
+		#modifier = {
+		#	factor = 0.02
+		#	in_command = no
+		#	has_job_title = job_marshal
+		#}
 	}
 	7 = { # Dolmen
 		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan_group }
+		}
+		modifier = {
+			factor = 0
 			NOT = { culture_group = celtic }
+		}
+		modifier = {
+			factor = 100
+			is_alive = no
+		}
+		modifier = {
+			factor = 5
+			is_priest = yes
 		}
 	}
 	8 = { # Gallows - changed to African savanna
-		factor = 15
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { religion = west_african_pagan_reformed }
-			NOT = { religion = west_african_pagan }
-			NOT = { culture = falashim }
+			location = {
+				NOT = { region = world_africa_east }
+				NOT = { region = world_africa_west }
+				}
+			}
+		modifier = {
+			factor = 3
+			location = { region = world_africa_west }
 		}
 		modifier = {
 			factor = 2
-			NOT = { culture_group = east_african }
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	9 = { # Church
-		factor = 100
+		factor = 10
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
@@ -138,200 +219,249 @@
 		#}
 		modifier = {
 			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
-				NOT = { trait = zealous }
 			}
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
 		}
 	}
 	10 = { # Desert
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture = turkish }
-			NOT = { culture = mizrahi }
-			NOT = { culture = bukharim }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+			}
 			#NOT = { capital_scope = { terrain = desert } }
 			#NOT = { capital_scope = { terrain = coastal_desert } }
 		}
+		modifier = {
+			factor = 0.5
+			location = { region = world_persia }
+		}
+		modifier = {
+			factor = 3
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
+		}
 	}
 	11 = { # Steppe
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			#NOT = { capital_scope = { terrain = steppe } }
-			#NOT = { capital_scope = { terrain = plains } }
-			NOT = { culture_group = altaic }
-			NOT = {culture = alan}
-			NOT = {culture = tajik}
-			NOT = {culture = udmurt}
-			NOT = {culture = komi}
-			NOT = {culture = samoyed}
-			NOT = {culture = khanty}
-			NOT = { culture_group = sinic }
-			NOT = { culture = crimean_jewish }
-			NOT = { culture = chinese_jewish }
-		}
-		modifier = {
-			factor = 10
-			OR = {
-				culture = tajik
-				culture = udmurt
-				culture = komi
-				culture = samoyed
+			location = {
+				NOT = { region = world_steppe }
 			}
 		}
 		modifier = {
-			factor = 10
-			OR = {
-				culture_group = altaic
-				culture = alan
-			}
-			NOT = { culture = turkish }
+			factor = 2
+			is_ruler = no
 		}
 		modifier = {
-			factor = 10
-			is_nomadic = yes
+			factor = 0
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
+			location = {
+				NOT = {
+					any_province_holding = {
+						holding_type = nomad
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
 		}
 	}
 	12 = { # Ocean w ships - changed to tundra/snow
-		factor = 1
+		factor = 2
 		#modifier = {
 			#factor = 0
 			#NOT = { location = { terrain = ocean } }
 		#}
 		modifier = {
 			factor = 0
-			NOT = { culture_group = north_germanic }
-			NOT = { culture_group = east_slavic }
-			NOT = { culture_group = finno_ugric }
-			NOT = { culture = bolghar }
-			NOT = { religion = norse_pagan }
-			NOT = { religion = norse_pagan_reformed }
-			NOT = { religion = finnish_pagan }
-			NOT = { religion = finnish_pagan_reformed }
+			location = {
+				NOT = { region = world_europe_north }
+				NOT = { region = world_europe_east }
+			}
 		}
 		modifier = {
-			factor = 5
-			NOT = { culture = bolghar }
+			factor = 2
+			location = { region = world_europe_north }
 		}
 	}
 	13 = { # Muslim interior
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { religion_group = indian_group }
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture = turkish }
-			NOT = { culture = sicilian }
-			NOT = { culture = sephardi }
-			NOT = { culture = mizrahi }
-			NOT = { culture = bukharim }
-			NOT = { culture = indian_jewish }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+				NOT = { region = world_india }
+				NOT = { region = world_steppe }
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		modifier = {
-			factor = 25
-			culture_group = iberian
+			factor = 4
+			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
-			factor = 5
-			culture = sicilian
+			factor = 2
+			location = { region = world_europe_south_italy }
+		}
+		modifier = {
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	14 = { # Harem
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = indian_group }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture_group = sinic }
-			NOT = { culture = turkish }
-			NOT = { culture = sicilian }
-			NOT = { culture_group = israelite }
-			NOT = { religion_group = jewish_group }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+				NOT = { region = world_india }
+				NOT = { region = world_steppe }
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		modifier = {
-			factor = 25
-			culture_group = iberian
+			factor = 4
+			location = { region = world_europe_west_iberia }
+		}
+
+		modifier = {
+			factor = 2
+			location = { region = world_europe_south_italy }
 		}
 		modifier = {
-			factor = 5
-			culture = sicilian
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	15 = { # Muslim interior 2
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion_group = indian_group }
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = arabic }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = iranian }
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture = turkish }
-			NOT = { culture = sicilian }
-			NOT = { culture = sephardi }
-			NOT = { culture = mizrahi }
-			NOT = { culture = bukharim }
-			NOT = { culture = indian_jewish }
+			location = {
+				NOT = { region = world_africa }
+				NOT = { region = world_middle_east }
+				NOT = { region = world_persia }
+				NOT = { region = world_india }
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		modifier = {
-			factor = 25
-			culture_group = iberian
+			factor = 4
+			location = { region = world_europe_west_iberia }
 		}
 
 		modifier = {
-			factor = 5
-			culture = sicilian
+			factor = 2
+			location = { region = world_europe_south_italy }
+		}
+		modifier = {
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 
 	16 = { # Mongol camp 1
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { 
-				AND = {
-					culture_group = altaic
-					NOT = { culture = turkish }
+			location = {
+				NOT = { region = world_steppe }
+			}
+		}
+		modifier = {
+			factor = 2
+			is_nomadic = yes
+			is_ruler = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
+			location = {
+				NOT = {
+					any_province_holding = {
+						holding_type = nomad
+					}
 				}
 			}
-			NOT = { culture = crimean_jewish }
-			NOT = { culture = khitan }
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
 		}
 	}
 
@@ -339,14 +469,36 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { 
-				AND = {
-					culture_group = altaic
-					NOT = { culture = turkish }
+			location = {
+				NOT = { region = world_steppe }
+			}
+		}
+		modifier = {
+			factor = 2
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
+			location = {
+				NOT = {
+					any_province_holding = {
+						holding_type = nomad
+					}
 				}
 			}
-			NOT = { culture = crimean_jewish }
-			NOT = { culture = khitan }
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
+			}
 		}
 	}
 
@@ -362,142 +514,191 @@
 	}
 
 	19 = { # Muslim mosque
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
 		}
-
-#		modifier = {
-#			factor = 0
-#			is_ruler = no
-#		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
-				NOT = { trait = zealous }
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
 			}
+		}
+		modifier = {
+			factor = 2
+			is_ruler = yes
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
 		}
 	}
 
 	20 = { # Pagan human sacrifice
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
+			NOR = {
+				AND = {
+					religion_group = pagan_group
+					is_priest = yes
+				}
+				death_reason = death_sacrificed
+			}
+		}
+		modifier = {
+			factor = 200
+			death_reason = death_sacrificed
 		}
 	}
 
 	21 = { # Celtic Green
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = celtic }
-			NOT = { culture_group = west_germanic }
-			NOT = { culture = norman }
+			location = { NOT = { region = world_europe_west_brittania } }
 		}
 		modifier = {
-			factor = 0.1
-			OR = {
-				NOT = { culture = irish }
-				NOT = { culture = scottish }
-				NOT = { culture = cumbrian }
-				NOT = { culture = pictish }
-			}
+			factor = 0.5
+			NOT = { culture = irish }
+			NOT = { culture = scottish }
+			NOT = { culture = cumbrian }
+			NOT = { culture = pictish }
 		}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			culture_group = celtic
 		}
 	}
 
 	22 = { # Celtic Castle
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
+			location = { NOT = { region = world_europe_west_brittania } }
+		}
+		modifier = {
+			factor = 0.5
 			NOT = { culture_group = celtic }
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = celtic
+			is_ruler = yes
 		}
 	}
 	
 	23 = { # Alhambra
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = arabic }
-			NOT = { culture = sephardi }
+			location = {
+				NOT = { region = world_europe_west_iberia }
+				NOT = { region = world_africa_north }
+			}
 		}
 		modifier = {
-			factor = 5
-			OR = {
-				religion_group = muslim
-				culture = andalusian_arabic
+			factor = 1.5
+			location = { region = world_europe_west_iberia }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { culture = andalusian_arabic }
+		}
+		modifier = {
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
 			}
 		}
 	}
 	
 	24 = { # Mediterranean Villa
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = latin }
-			NOT = { culture_group = italian_group }
-			NOT = { culture = greek }
-			NOT = { culture = griko }
-			NOT = { culture = croatian }
-			NOT = { culture = serbian }
-			NOT = { culture = romaniote }
-			NOT = { culture = sephardi }
-			NOT = { 
-				any_demesne_province = {
-					OR = {
-						culture = greek
-						culture = griko
-						culture_group = latin
-						culture_group = italian_group
-					}
+			location = {
+				NOT = { region = world_europe_west_iberia }
+				#NOT = { region = world_africa_north }
+				NOT = { region = world_europe_west_francia }
+				NOT = { region = world_europe_south }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			location = {
+				OR = {
+					region = world_europe_south_italy
+					region = world_europe_west_iberia
 				}
 			}
 		}
 		modifier = {
-			factor = 4
-			OR = {
-				culture_group = latin
-				culture_group = italian_group
-				culture = croatian
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
 			}
 		}
 	}
 	
 	25 = { # Indian
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = indo_aryan_group }
-			NOT = { culture_group = dravidian_group }
-			NOT = { culture = afghan }
-			NOT = { culture = baloch }
+			location = { NOT = { region = world_india } }
+		}
+		modifier = {
+			factor = 0
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 	
 	26 = { # African Savanna 2
-		factor = 0
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = east_african }
-			NOT = { religion = west_african_pagan_reformed }
-			NOT = { religion = west_african_pagan }
-			NOT = { culture = falashim }
+			location = {
+				NOT = { region = world_africa_west }
+				NOT = { region = world_africa_east }
+			}
+		}
+		modifier = {
+			factor = 3
+			location = { region = world_africa_west }
 		}
 		modifier = {
 			factor = 2
-			NOT = { culture_group = east_african }
+			is_feudal = no
+			is_theocracy = no
+			is_republic = no
+			location = {
+				any_province_holding = {
+					holding_type = nomad
+				}
+			}
 		}
 	}
 }
@@ -855,7 +1056,6 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = no
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = king } }
@@ -864,9 +1064,19 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
+			OR = {
+				AND = {
+					is_nomadic = yes
+					NOT = { real_tier = emperor }
+				}
+				AND = {
+					NOT = { real_tier = emperor }
+					spouse = {
+						is_nomadic = yes
+						NOT = { real_tier = emperor }
+					}
+				}
+			}
 		}
 	}
 	
@@ -881,7 +1091,6 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = no
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = king } }
@@ -890,9 +1099,19 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
+			OR = {
+				AND = {
+					is_nomadic = yes
+					NOT = { real_tier = emperor }
+				}
+				AND = {
+					NOT = { real_tier = emperor }
+					spouse = {
+						is_nomadic = yes
+						NOT = { real_tier = emperor }
+					}
+				}
+			}
 		}
 	}
 	
@@ -907,7 +1126,6 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = no
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = king } }
@@ -916,9 +1134,19 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
+			OR = {
+				AND = {
+					is_nomadic = yes
+					NOT = { real_tier = emperor }
+				}
+				AND = {
+					NOT = { real_tier = emperor }
+					spouse = {
+						is_nomadic = yes
+						NOT = { real_tier = emperor }
+					}
+				}
+			}
 		}
 	}
 	
@@ -933,10 +1161,11 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = no
+			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
 			NOT = { real_tier = baron }
+			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
@@ -944,9 +1173,16 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
+			OR = {
+				AND = {
+					is_nomadic = no
+					real_tier = king
+				}
+				spouse = {
+					is_nomadic = no
+					real_tier = king
+				}
+			}
 		}
 	}
 	
@@ -961,10 +1197,11 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = no
+			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
 			NOT = { real_tier = baron }
+			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
@@ -972,9 +1209,16 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
+			OR = {
+				AND = {
+					is_nomadic = no
+					real_tier = king
+				}
+				spouse = {
+					is_nomadic = no
+					real_tier = king
+				}
+			}
 		}
 	}
 	
@@ -989,10 +1233,11 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = no
+			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
 			NOT = { real_tier = baron }
+			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
@@ -1000,9 +1245,16 @@
 		}
 		modifier = {
 			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
+			OR = {
+				AND = {
+					is_nomadic = no
+					real_tier = king
+				}
+				spouse = {
+					is_nomadic = no
+					real_tier = king
+				}
+			}
 		}
 	}
 	
@@ -1090,36 +1342,43 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			in_command = no
+			NOT = { has_job_title  = job_marshal }
+			NOT = {
+				primary_title = {
+					OR = {
+						mercenary = yes
+						holy_order = yes
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			religion_group = christian
+			OR = {
+				AND = {
+					is_ruler = yes
+					is_theocracy = yes
+				}
+				has_job_title = job_spiritual
+			}
+		}
+		modifier = {
+			factor = 0
 			is_alive = no
 		}
 		modifier = {
 			factor = 0
-			in_command = no
-			is_nomadic = no
-			NOT = { has_job_title = job_marshal }
-			NOT = {
-				primary_title = {
-					OR = {
-						mercenary = yes
-						holy_order = yes
-					}
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					is_ruler = no
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			in_command = no
-			is_nomadic = yes
 			war = no
-			NOT = { has_job_title = job_marshal }
-			NOT = {
-				primary_title = {
-					OR = {
-						mercenary = yes
-						holy_order = yes
-					}
-				}
-			}
+			NOT = { has_job_title  = job_marshal }
 		}
 	}
 	
@@ -1405,11 +1664,30 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_nomadic = yes
-				is_tribal = yes
+			is_nomadic = yes
+			NOR = {
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				num_of_king_titles = 4
 			}
-			is_tributary = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				NOR = {
+					has_landed_title = e_mongol_empire
+					has_landed_title = e_golden_horde
+					has_landed_title = e_il-khanate
+					has_landed_title = e_tartaria
+					num_of_emperor_titles = 2
+					num_of_king_titles = 4
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1425,32 +1703,59 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			is_nomadic = no
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			is_tributary = no
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			real_tier = king
-		}
-		modifier = {
-			factor = 0
-			is_tribal = yes
 			OR = {
-				independent = no
-				is_tributary = yes
+				AND = {
+					is_nomadic = no
+					NOT = { real_tier = king }
+					NOT = { spouse = { real_tier = king } }
+					NOT = { spouse = { is_nomadic = yes } }
+				}
+				AND = {
+					is_nomadic = yes
+					NOT = { real_tier = emperor }
+					NOT = { spouse = { real_tier = emperor } }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			OR = {
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				AND = {
+					num_of_emperor_titles = 1
+					num_of_king_titles = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				OR = {
+					has_landed_title = e_mongol_empire
+					has_landed_title = e_golden_horde
+					has_landed_title = e_il-khanate
+					has_landed_title = e_tartaria
+					num_of_emperor_titles = 2
+					AND = {
+						num_of_emperor_titles = 1
+						num_of_king_titles = 4
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				NOT = { real_tier = emperor }
 			}
 		}
 		modifier = {
@@ -1467,32 +1772,59 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			is_nomadic = no
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			is_tributary = no
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			real_tier = king
-		}
-		modifier = {
-			factor = 0
-			is_tribal = yes
 			OR = {
-				independent = no
-				is_tributary = yes
+				AND = {
+					is_nomadic = no
+					NOT = { real_tier = king }
+					NOT = { spouse = { real_tier = king } }
+					NOT = { spouse = { is_nomadic = yes } }
+				}
+				AND = {
+					is_nomadic = yes
+					NOT = { real_tier = emperor }
+					NOT = { spouse = { real_tier = emperor } }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			OR = {
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				AND = {
+					num_of_emperor_titles = 1
+					num_of_king_titles = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				OR = {
+					has_landed_title = e_mongol_empire
+					has_landed_title = e_golden_horde
+					has_landed_title = e_il-khanate
+					has_landed_title = e_tartaria
+					num_of_emperor_titles = 2
+					AND = {
+						num_of_emperor_titles = 1
+						num_of_king_titles = 4
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				NOT = { real_tier = emperor }
 			}
 		}
 		modifier = {
@@ -1509,32 +1841,59 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			is_nomadic = no
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			is_tributary = no
-		}
-		modifier = {
-			factor = 0
-			is_nomadic = yes
-			real_tier = king
-		}
-		modifier = {
-			factor = 0
-			is_tribal = yes
 			OR = {
-				independent = no
-				is_tributary = yes
+				AND = {
+					is_nomadic = no
+					NOT = { real_tier = king }
+					NOT = { spouse = { real_tier = king } }
+					NOT = { spouse = { is_nomadic = yes } }
+				}
+				AND = {
+					is_nomadic = yes
+					NOT = { real_tier = emperor }
+					NOT = { spouse = { real_tier = emperor } }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			OR = {
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_golden_horde
+				has_landed_title = e_il-khanate
+				has_landed_title = e_tartaria
+				num_of_emperor_titles = 2
+				AND = {
+					num_of_emperor_titles = 1
+					num_of_king_titles = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				OR = {
+					has_landed_title = e_mongol_empire
+					has_landed_title = e_golden_horde
+					has_landed_title = e_il-khanate
+					has_landed_title = e_tartaria
+					num_of_emperor_titles = 2
+					AND = {
+						num_of_emperor_titles = 1
+						num_of_king_titles = 4
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			spouse = {
+				is_nomadic = yes
+				NOT = { real_tier = emperor }
 			}
 		}
 		modifier = {
@@ -1551,7 +1910,10 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			is_feudal = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
 			NOT = { real_tier = duke }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { has_minor_title = title_prince }
@@ -1573,11 +1935,27 @@
 			real_tier = king
 		}
 		modifier = {
-			factor = 0
-			is_nomadic = yes
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
-		}
+            factor = 0
+            OR = {
+                AND = {
+                    real_tier = emperor
+                    is_nomadic = yes
+                }
+                spouse = {
+                    real_tier = emperor
+                    is_nomadic = yes
+                }
+            }
+        }
+        modifier = {
+            factor = 0
+            liege = { is_nomadic = yes }
+            is_ruler = no
+            NOR = {
+                real_tier = king
+                spouse = { real_tier = king }
+            }
+        }
 		modifier = {
 			factor = 0
 			OR = {
@@ -1585,16 +1963,6 @@
 				trait = heresiarch
 			}
 		}
-		#modifier = {
-		#	factor = 0.1
-		#	AND = {
-		#		NOT = { religion_group = pagan_group }
-		#		OR = {
-		#			graphical_culture = africangfx
-		#			graphical_culture = westafricangfx
-		#		}
-		#	}
-		#}
 	}
 
 	# Common headgear 1 - hood
@@ -1608,12 +1976,10 @@
 				real_tier = emperor
 				real_tier = king
 				real_tier = duke
-				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
-				spouse = { real_tier = count }
 			}
 		}
 		modifier = {
@@ -1621,11 +1987,6 @@
 			is_ruler = yes
 			is_theocracy = yes
 			religion_group = pagan_group
-		}
-		#Prevent Guanche from having turbans
-		modifier = {
-			factor = 0
-			graphical_culture = guanchegfx
 		}
 	}
 	
@@ -1637,15 +1998,25 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				AND = {
-					NOT = { real_tier = count }
-					NOT = { spouse = { real_tier = count } }
-				}
 				has_minor_title = title_prince
+				real_tier = emperor
+				real_tier = king
+				real_tier = duke
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				real_tier = count
+				spouse = { real_tier = count }
+			}
+		}
+		modifier = {
+			factor = 0.5
+			is_ruler = no
 		}
 	}
 
@@ -1657,16 +2028,25 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				#NOT = { religion = orthodox }
-				AND = {
-					NOT = { real_tier = count }
-					NOT = { spouse = { real_tier = count } }
-				}
 				has_minor_title = title_prince
+				real_tier = emperor
+				real_tier = king
+				real_tier = duke
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				real_tier = count
+				spouse = { real_tier = count }
+			}
+		}
+		modifier = {
+			factor = 0.5
+			is_ruler = no
 		}
 	}
 	
@@ -1681,18 +2061,25 @@
 				real_tier = emperor
 				real_tier = king
 				real_tier = duke
-				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
-				spouse = { real_tier = count }
 			}
 		}
-		#Prevent Guanche from having turbans
+		modifier = {
+			factor = 10
+			is_ruler = yes
+			is_theocracy = yes
+			religion_group = pagan_group
+		}
 		modifier = {
 			factor = 0
-			graphical_culture = guanchegfx
+			OR = {
+				graphical_culture = turkishgfx
+				graphical_culture = muslimgfx
+			}
+			NOT = { religion_group = muslim }
 		}
 	}
 
@@ -1719,19 +2106,9 @@
 			NOT = { has_job_title = job_spymaster }
 			OR = {
 				real_tier = duke
-				NOT = { intrigue = 10 }
+				NOT = { intrigue = 15 }
 			}
 		}
-		#modifier = {
-		#	factor = 0.1
-		#	AND = {
-		#		NOT = { religion_group = pagan_group }
-		#		OR = {
-		#			graphical_culture = africangfx
-		#			graphical_culture = westafricangfx
-		#		}
-		#	}
-		#}
 	}
 
 	# Martial headgear
@@ -1739,36 +2116,43 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			in_command = no
+			NOT = { has_job_title  = job_marshal }
+			NOT = {
+				primary_title = {
+					OR = {
+						mercenary = yes
+						holy_order = yes
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			religion_group = christian
+			OR = {
+				AND = {
+					is_ruler = yes
+					is_theocracy = yes
+				}
+				has_job_title = job_spiritual
+			}
+		}
+		modifier = {
+			factor = 0
 			is_alive = no
 		}
 		modifier = {
 			factor = 0
-			in_command = no
-			is_nomadic = no
-			NOT = { has_job_title = job_marshal }
-			NOT = {
-				primary_title = {
-					OR = {
-						mercenary = yes
-						holy_order = yes
-					}
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					is_ruler = no
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			in_command = no
-			is_nomadic = yes
 			war = no
-			NOT = { has_job_title = job_marshal }
-			NOT = {
-				primary_title = {
-					OR = {
-						mercenary = yes
-						holy_order = yes
-					}
-				}
-			}
+			NOT = { has_job_title  = job_marshal }
 		}
 	}
 

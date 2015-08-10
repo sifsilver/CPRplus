@@ -4,7 +4,7 @@ bulgargfx = {
 	skin_tone = 0
 }
 berbergfx = {
-	skin_tone = 3
+	skin_tone = 2
 }
 centralasiangfx = {
 	skin_tone = 1
@@ -88,4 +88,16 @@ dutchgfx = {
 }
 khitangfx = {
 	skin_tone = 1
+}
+ashkenazigfx = {
+	skin_tone = 0
+}
+centralindiangfx = {
+	skin_tone = 1
+}
+southindiangfx = {
+	skin_tone = 2
+}
+somaligfx = {
+	skin_tone = 3
 }
