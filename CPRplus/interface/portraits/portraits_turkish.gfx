@@ -365,13 +365,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_turkish_female_headgear_mid_christian"
-		texturefile = "gfx\\characters\\turkish_female_christian\\turkish_female_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_turkish_male_headgear_mid_christian"
 		texturefile = "gfx\\characters\\turkish_male_christian\\turkish_male_headgear_mid.dds"
 		noOfFrames = 12
