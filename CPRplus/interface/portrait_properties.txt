@@ -1976,10 +1976,12 @@
 				real_tier = emperor
 				real_tier = king
 				real_tier = duke
+				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
 			}
 		}
 		modifier = {
@@ -1987,6 +1989,17 @@
 			is_ruler = yes
 			is_theocracy = yes
 			religion_group = pagan_group
+		}
+		modifier = {
+			factor = 2
+			is_ruler = no
+			OR = {
+				liege = { is_nomadic = no }
+				liege = {
+					is_nomadic = yes
+					NOT = { family = ROOT }
+				}
+			}
 		}
 	}
 	
@@ -2009,13 +2022,10 @@
 		}
 		modifier = {
 			factor = 2
-			OR = {
-				real_tier = count
-				spouse = { real_tier = count }
+			liege = {
+				is_nomadic = yes
+				family = ROOT
 			}
-		}
-		modifier = {
-			factor = 0.5
 			is_ruler = no
 		}
 	}
@@ -2039,13 +2049,10 @@
 		}
 		modifier = {
 			factor = 2
-			OR = {
-				real_tier = count
-				spouse = { real_tier = count }
+			liege = {
+				is_nomadic = yes
+				family = ROOT
 			}
-		}
-		modifier = {
-			factor = 0.5
 			is_ruler = no
 		}
 	}
@@ -2061,23 +2068,31 @@
 				real_tier = emperor
 				real_tier = king
 				real_tier = duke
+				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
 			}
 		}
 		modifier = {
-			factor = 10
-			is_ruler = yes
-			is_theocracy = yes
-			religion_group = pagan_group
+			factor = 2
+			is_ruler = no
+			OR = {
+				liege = { is_nomadic = no }
+				liege = {
+					is_nomadic = yes
+					NOT = { family = ROOT }
+				}
+			}
 		}
 		modifier = {
 			factor = 0
 			OR = {
 				graphical_culture = turkishgfx
-				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = maghrebgfx
 			}
 			NOT = { religion_group = muslim }
 		}
@@ -2085,7 +2100,7 @@
 
 	# Shady headgear
 	9 = {
-		factor = 3
+		factor = 5
 		modifier = {
 			factor = 0
 			OR = {
@@ -2158,7 +2173,7 @@
 
 	# Blank
 	11 = {
-		factor = 3
+		factor = 4
 		modifier = {
 			factor = 0
 			OR = {
@@ -2174,10 +2189,17 @@
 			}
 		}
 		modifier = {
-			factor = 0.33
+			factor = 0.25
 			OR = {
 				real_tier = baron
 				spouse = { real_tier = baron }
+				AND = {
+					liege = {
+						is_nomadic = yes
+						family = ROOT
+					}
+					is_ruler = no
+				}
 			}
 		}
 	}
