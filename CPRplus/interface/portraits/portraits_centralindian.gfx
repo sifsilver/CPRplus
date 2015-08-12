@@ -551,13 +551,6 @@ spriteTypes = {
 		noOfFrames = 4
 		norefcount = yes
 	}
-
-	spriteType = {
-		name = "GFX_centralindian_female_headgear_mid"
-		texturefile = "gfx\\characters\\centralindian_female\\centralindian_female_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 	
 	spriteType = {
 		name = "GFX_centralindian_female_headgear"
@@ -591,7 +584,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_centralindian_female_headgear_mid:p5:c3"
+			"GFX_indian_female_headgear_mid:p5:c3"
 			"GFX_centralindian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -640,7 +633,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_centralindian_female_headgear_mid:p5:c3"
+			"GFX_indian_female_headgear_mid:p5:c3"
 			"GFX_centralindian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -683,7 +676,7 @@ spriteTypes = {
 			"GFX_centralindian_female_eyes2:d6:e"
 			"GFX_centralindian_female_ear_oldage:d7"			
 			"GFX_indian_female_clothes:p3:c2"
-			"GFX_centralindian_female_headgear_mid:p5:c3"
+			"GFX_indian_female_headgear_mid:p5:c3"
 			"GFX_indian_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_centralindian_female_headgear:p5:c5"

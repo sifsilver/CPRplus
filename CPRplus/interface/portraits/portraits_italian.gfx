@@ -193,13 +193,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_italian_male_headgear_mid"
-		texturefile = "gfx\\characters\\italian_male\\italian_male_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_italian_male_ear"
@@ -445,14 +438,6 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
-
-
-	spriteType = {
-		name = "GFX_italian_female_headgear_mid"
-		texturefile = "gfx\\characters\\italian_female\\italian_female_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 	
 	spriteType = {
 		name = "GFX_italian_female_headgear"
@@ -487,7 +472,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_italian_male_ear:d7:o27x54"	
 			"GFX_italian_male_clothes:p3:c2"
-			"GFX_italian_male_headgear_mid:p5:c3"		
+			"GFX_empty:p5:c3"		
 			"GFX_southern_male_beard:p4:o2x-2:h:y"
 		   	"GFX_byzantine_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -552,7 +537,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_italian_male_ear_midage:d7:o27x54"
 			"GFX_italian_male_clothes:p3:c2"
-			"GFX_italian_male_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_byzantine_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -617,7 +602,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_italian_male_ear_oldage:d7:o25x51"
 			"GFX_italian_male_clothes:p3:c2"
-			"GFX_italian_male_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_byzantine_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -681,7 +666,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_italian_female_clothes:p3:c2"
 			"GFX_italian_female_ear:d7:o28x54"
-			"GFX_italian_female_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_byzantine_female_hair:o0x6:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_italian_female_headgear:p5:c5"
@@ -744,7 +729,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_italian_female_clothes:p3:c2"		
 			"GFX_italian_female_ear_midage:d7:o28x54"
-			"GFX_italian_female_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_byzantine_female_hair_midage:o0x6:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_italian_female_headgear:p5:c5"
@@ -807,7 +792,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_italian_female_clothes:p3:c2"		
 			"GFX_italian_female_ear_oldage:d7:o28x54"
-			"GFX_italian_female_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_byzantine_female_hair_oldage:o0x6:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_italian_female_headgear:p5:c5"
