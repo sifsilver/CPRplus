@@ -25,13 +25,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_maghreb_male_headgear_behind"
-		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_maghreb_male_base"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_base_1.dds"
 		noOfFrames = 1
@@ -378,7 +371,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_maghreb_male_headgear_behind:p5:c1"
+			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_maghreb_male_hair_behind:p1:h:y"
 			"GFX_maghreb_male_beard_behind:p4:y"
 			"GFX_maghreb_male_base:p2"
@@ -400,8 +393,7 @@ spriteTypes = {
 		   	"GFX_maghreb_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -426,7 +418,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_maghreb_male_headgear_behind:p5:c1"
+			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_maghreb_male_hair_behind_midage:p1:h:y"
 			"GFX_maghreb_male_beard_behind_midage:p4:y"
 			"GFX_maghreb_male_base_midage:p2"
@@ -448,8 +440,7 @@ spriteTypes = {
 			"GFX_maghreb_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -474,7 +465,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_maghreb_male_headgear_behind:p5:c1"
+			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_maghreb_male_hair_behind_oldage:p1:h:y"
 			"GFX_maghreb_male_beard_behind_oldage:p4:y"
 			"GFX_maghreb_male_base_oldage:p2"
@@ -496,8 +487,7 @@ spriteTypes = {
 			"GFX_maghreb_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -520,13 +510,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_maghreb_female_clothes_behind"
 		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_maghreb_female_headgear_behind"
-		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_headgear_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
@@ -780,7 +763,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
-			"GFX_maghreb_female_headgear_behind:p5:c1"
+			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_maghreb_female_hair_behind:p1:y" 
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
@@ -800,8 +783,7 @@ spriteTypes = {
 			"GFX_maghreb_female_hair:p1:y"  
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -828,7 +810,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
-			"GFX_maghreb_female_headgear_behind:p5:c1"
+			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_maghreb_female_hair_behind_midage:p1:y"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
@@ -848,8 +830,7 @@ spriteTypes = {
 			"GFX_maghreb_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -876,7 +857,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
-			"GFX_maghreb_female_headgear_behind:p5:c1"
+			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_maghreb_female_hair_behind_oldage:p1:y"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
@@ -896,8 +877,7 @@ spriteTypes = {
 			"GFX_maghreb_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -949,8 +929,7 @@ spriteTypes = {
 		   	"GFX_maghreb_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -997,8 +976,7 @@ spriteTypes = {
 			"GFX_maghreb_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1045,8 +1023,7 @@ spriteTypes = {
 			"GFX_maghreb_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1095,8 +1072,7 @@ spriteTypes = {
 			"GFX_maghreb_female_hair:p1:y"  
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1143,8 +1119,7 @@ spriteTypes = {
 			"GFX_maghreb_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1191,8 +1166,7 @@ spriteTypes = {
 			"GFX_maghreb_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight

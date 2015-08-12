@@ -248,8 +248,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_northindian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -300,8 +299,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_northindian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -352,8 +350,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_northindian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -603,8 +600,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_northindian_female_headgear_mid:p5:c3"
 			"GFX_northindian_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -653,8 +649,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_northindian_female_headgear_mid:p5:c3"
 			"GFX_northindian_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -703,8 +698,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight

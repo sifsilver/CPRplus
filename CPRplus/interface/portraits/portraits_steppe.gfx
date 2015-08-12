@@ -487,8 +487,7 @@ spriteTypes = {
 		   	"GFX_turkish_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"			#20
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -554,8 +553,7 @@ spriteTypes = {
 			"GFX_turkish_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -620,8 +618,7 @@ spriteTypes = {
 			"GFX_turkish_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -673,8 +670,7 @@ spriteTypes = {
 			"GFX_turkish_female_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -737,8 +733,7 @@ spriteTypes = {
 			"GFX_turkish_female_hair_midage:p1:h:y"			
 			"GFX_empty:p3:c4"
 			"GFX_steppe_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -801,8 +796,7 @@ spriteTypes = {
 			"GFX_turkish_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -851,8 +845,7 @@ spriteTypes = {
 		   	"GFX_turkish_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"			#20
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -918,8 +911,7 @@ spriteTypes = {
 			"GFX_turkish_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -984,8 +976,7 @@ spriteTypes = {
 			"GFX_turkish_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1037,8 +1028,7 @@ spriteTypes = {
 			"GFX_turkish_female_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1101,8 +1091,7 @@ spriteTypes = {
 			"GFX_turkish_female_hair_midage:p1:h:y"			
 			"GFX_empty:p3:c4"
 			"GFX_steppe_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1165,8 +1154,7 @@ spriteTypes = {
 			"GFX_turkish_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-		}
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
