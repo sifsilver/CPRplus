@@ -4223,7 +4223,7 @@ east_african = {
 	graphical_cultures = {muslimgfx} 
        
 	ethiopian = {
-		graphical_cultures = { ethiopiangfx africangfx muslimgfx }
+		graphical_cultures = { ethiopiangfx africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.65 0.35 0.1 }
@@ -4246,7 +4246,7 @@ east_african = {
 		modifier = east_african_culture_modifier
 	}
     somali = {
-		graphical_cultures = { somaligfx africangfx muslimgfx }
+		graphical_cultures = { somaligfx africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.3 0.6 0.15 }
@@ -4275,7 +4275,7 @@ east_african = {
 		modifier = east_african_culture_modifier
 	}
   	afar = {
-		graphical_cultures = { africangfx muslimgfx }
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.4 0.55 0.15 }
@@ -4302,7 +4302,7 @@ east_african = {
 		modifier = east_african_culture_modifier
 	}
 	daju = {
-		graphical_cultures = { africangfx muslimgfx }
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 	
 		color = { 0.95 0.9 0.65 }
@@ -4317,7 +4317,7 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	beja = {
-		graphical_cultures = { africangfx muslimgfx }
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.75 0.9 0.85 }
@@ -4359,7 +4359,7 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	nubian = {
-		graphical_cultures = { ethiopiangfx africangfx muslimgfx }
+		graphical_cultures = { ethiopiangfx africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.3 0.4 0.4 }

@@ -2759,7 +2759,7 @@ east_african = {
 	graphical_cultures = { muslimgfx }
 
 	ethiopian = {
-		graphical_cultures = { ethiopiangfx africangfx muslimgfx }
+		graphical_cultures = { ethiopiangfx africangfx }
 
 		secondary_event_pictures = bedouin_arabic
 		
@@ -2782,7 +2782,7 @@ east_african = {
 	}
 	
 	somali = {
-		graphical_cultures = { somaligfx africangfx muslimgfx }
+		graphical_cultures = { somaligfx africangfx }
 
 		secondary_event_pictures = bedouin_arabic
 		
@@ -2809,7 +2809,7 @@ east_african = {
 	}
 	
 	nubian = {
-		graphical_cultures = { ethiopiangfx africangfx muslimgfx }
+		graphical_cultures = { ethiopiangfx africangfx }
 
 		secondary_event_pictures = bedouin_arabic
 		
@@ -2839,7 +2839,7 @@ east_african = {
 }
 
 west_african = {
-	graphical_cultures = { westafricangfx africangfx  muslimgfx }
+	graphical_cultures = { africangfx muslimgfx }
 
 	
 	manden = {
