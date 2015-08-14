@@ -6078,24 +6078,15 @@ sinic = {
 		color = { 0.95 0.95 0.1 }
 
 		male_names = {
-			Abaoji Abo Abugu Aguo Aguzhi Ala Anquan Anshi Asi Baiqi Baiwen Baiya Bei Bi Bida Biegute Bingchang Bogong Boqing
-			Caolu Chala Changyuan Changyun Cheng Chengjun Chixin Chonggui Chongrong Chucai Chun Chunyou Chuzhi Ci Cite Ciwang
-			Dali Dao Daoyin Dashi Deguang Deming Dewang Deyuan Di Diela Dilie Dilu Dorlipun Du Duolubu Duoluo Duomi Fangde Fuguzhi Fuliu Fuyi
-			Gan Gang Gaoligu Gongmao Gongzao Gou’er Guan Guang Guangbi Gui Guochang Guozhe Hao He Hechen Hongben Hongdao Hongfan Hongji Hongyong Hongzhen Hougu Huaijie Huaixiu Hudujin Hui Huiyuan Hunhe
-			Jie Jin Jing Jingtang Jinzhong Jiqian Jiuli Jiushao Jiyuan Ji’en Jue Jun Junshi Kaigu Kailuo Keda Keling Kenagan Ketuyu Keyong Kuan Kuge Kui Kuo
-			Liangzuo Lihu Lin Linggong Lishan Liuge Loguo Longqing Longxian Longxu Longyou Louguo Lu Luju Luzhi Mada Mai Maozhen Min Ming Mingyi Mohui
-			Naihe Nieli Nielieji Noulisi Nu Paolu Pedie Pusuwan Qi Qianshun Qinde Quchulu Quju Qulie Qulu Renxian Renxiao Ruan Sage Salade Saladi Sha Shao Sheng Shenmi Shi Shihuo Shilu Shinan Shizhong Shu Shulu Si Sicheng Sidao Side Song Songrui Suogu
-			Tabuyan Tadun Tai Taishan Taishi Taiyi Temei Tianxiang Tingjian Tong Tuguci Tuyu Waihe Wangrong Wansi Wanxin Wei Wen Wenshunu Wenzao Wolila Wotela Wuge Wujun Wumo Wuyi Wuyu Wuzheng
-			Xi Xian Xiangwen Xiaozheng Xiaozhong Xiazhen Xidi Xinie Xiu Xiuge Xi’er Xunning Yali Yan Yangxi Yanxi Yanzhang Yaogu Yaoshinu Yi Yilie Yiliu Yixinning Yongning Yougui Youqing Youyu Yu Yuanhao Yunching Yundeshi Yuyu Zanhua Zao Zeduan Zengbo Zhangyuan Zhaosan Zhen Zhengchang Zhengyan Zhibuwu Zhigu Zhilugu Zhixian Zhiyuan Zhong Zhonggong Zhongji Zhongxuan Zhongyan Zhongyuan Zhulie Zongjiao Zongzhen Zuli Zunxu Zuqian
+			Aerlu'on Aerlu'or Anba An-in Agdzi Agdzin Ago Agu Asar Auluon Baisbun Baisbur Baisha-an Baishar Belbur Belbun Biæn Bi'en Bi'er Bug Daudzil Dauluor Dein Dilug Dior Diorin Dænir Dile Dilen Diolin Diluguin Drola-an Dorhan Dza Dzi'en Dzirug Dzirugun Dzobolin Dzoborin Dzuburug Dzirgunn Ebege Ebegin Esbur Esen Esenin Gemin Gileg Gu Guju Guin Guinin Hail Hailin Haru Harun Harubub Harubun Hede Hedenn Heugu Hua Huldzi Inig Inigin Iri'en Iri'er 
+			Kiænshinge Kunn-in Kunnur Kudzi Laugu Laugunn Ma'an Mosa Moshan Moshar Muru'on Muruor Namsiha-an Narsin Niar Niargu Niargun Niarin Niauraq Niauraqan Niomog Niomgu Niomgun Noilhan Noilhar Nomoshan Noyer Odula-an Ordelhan Ordu'on Orduor Paudin Paulir Peyen Pod Poden Poder Pul Pulin Purbu Pösöe'n Pösö'er Qadzu Qadzunn Qann Qan-in Qutug Qutugin Sabo Sabon Saqadzi Sara Saradin Saulir Sha-ar Shilör Shishial Shishialin Siaugu Sinelger Singen Singer Susaq 
+			Tabuyen Tabuye Tabuyer Tannur Telid Tshala Tshalan Tshauer Tshaunn Tshugu Telin Telgen Teme Temen Temer Tiænin Tsha Tshaqal Tsheu'er Tshuburur Tshugunn Tud Tudin Tudedin Tugusir Turburur Udu'on Udu'or Ugul Ugulin Uldzin Uldzi Ulsi Ulsin Urel Urelbun Urelbur Urilhar Uryen Uryer Uröer Uyen Uyer Yænge Yulgu-r Yuldugu Yuldugun
 		}
 
 		female_names = {
-			Ai Ankang Bage Bai Bohai Boshi Cao Chadan Chang Changshou Changshounu Chen Chonghua Chu Chunqin Chuo Cui Cuiba Cuiluan Cuiping Da Daopo Daosheng Deng Deyao Dezhen Dianni Dong Duan
-			Emei Feishan Fengcheng Fu Fujin Gao Ge Guang Guanyinnu Guo Han Hanyue He Hongdu Hongfu Honghong Hou Hu Hua Huang Huarui Huiming Jianchang Jiang Jin Jinfeng Jinluan Jiuge Lanling Li Liang Liao Liu Luanluan
-			Ma Meizhu Meizi Meng Miaoniang Miaoyin Nalan Neiming Noujin Nuoujin Panpan Ping Pucha Puci Puning Pusage Pusuwan Puwei Qian Qiao Qin Qinai Qingnu Qingzhao Qungu Ren Renyi Ruishun Ruizhi
-			Saige She Shen Shengtang Shi Shige Shiguang Shishi Shizhen Shuge Shuiqiu Shuogu Shuzen Shuzheng Siao Song Su Sun Tabuyan Tabuye Taige Taihe Tangqiao Tao Taoge Tian Tong Tudan
-			Wa Wang Wan’er Wenji Wu Wulinda Wuniang Xia Xiao Xiaoming Xiaoxiao Xingge Xingguo Xinyue Xu Xuanji Xuanyi Xueying Xunyang Yan Yange Yaniang Yanmu Yanshounu Yanxiu Yaonian Yaoniang Yaoying Ye Yi Yingtian Yingying Yi’an Yongqing Yongxing Yu Yuan Yuanzhen Yue’e Yuniang Yunying Yushan
-			Zhai Zhang Zhaoyun Zheng Zhenjian Zhong Zhou Zhu Zhuzhu Zihe Ziye
+			Abuq Aerlu'on An Agdzin Ago Agu Agulin Aidan Alidzu Amqa An'e Anu Arel Au'a Auye Auluon-agu Baisbun Baish Baisha-an Baishan Balhan Be'el Be'en Belbun Biæn Bi'en Bugin Burelhan Dali Daqal Dann Daudzi Dei Diamtshan Dile Dilen Dilug Dior Diori Diænir Dorla-an Durin Dorhan Dza Dzaur Dzaugui Dzugu Dzi'en Dzirugun Dzobol Dzobor Dæriai El Gem-shi Gileg Gonu Gu Guju Gugu Guinin Hail Hailin Harun Harur Hediro Hio Hua Huri Inigin Irbu Irier 
+			Kudzi Kun Kunnur Kuren Labu Laugunn Liaugu Libgu Limir Ma'an Manir Masgu Mörö'en Moshan Mæn Mirig Moya Mo-sa Muru'on Naqai Namsiha-an Naihad Narsin Niarhari Niaur None Nugur Niamgonen Niauraq Niargun Noilhan Nomoshan Noyen Niomgun Niar Niargunn Niomgunn Nosilhan Odula-an Ordelhan Ordu'on Paril Paudin Paudun Paulin Peyen Poden Poliæn Pöselgen Pösö'en Purbu Purbun Qadzu Qag Qalaqa Qan Qanan Quguden Quru'on Qutug Sabo Sabon Saq Saqadzi Sara Sarad Siaugu Sinelgen Singen Shishial Shugur Shuru'ui Singer Sonnulhan Suirgen
+			Tabuye Tabuyen Tadi Tann Talis Tannur Taug Telbe Temeyen Telgen Telid Teme Temen Tiæn-ba To'o Tsha Tshadeilhan Tsharde Tshönn Tsheumuyann Tsheu'en Tshubug Tshudgdzi Tshugu Tshugurel Tiænba Tud Tuded Tug Tugusir Tulu'en Un Ugul Urilhan Uryen Uröen Uldzi Urel Uyen Yash Yudgu Yugu Yuldugu Yærel Yeugun Yogun
 		}
 		
 		modifier = default_culture_modifier
