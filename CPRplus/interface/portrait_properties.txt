@@ -1206,6 +1206,9 @@
 		modifier = {
 			factor = 0
 			trait = monk
+			NOT = {
+				age = 50
+			}
 			OR = {
 				graphical_culture = westerngfx
 				graphical_culture = germangfx
