@@ -2467,7 +2467,10 @@
 		modifier = {
 			factor = 0
 			is_female = no
-			NOT = { trait = monk }
+			NOR = {
+				trait = monk
+				has_job_title = job_spiritual
+			}
 			OR = {
 				AND = {
 					year = 900
