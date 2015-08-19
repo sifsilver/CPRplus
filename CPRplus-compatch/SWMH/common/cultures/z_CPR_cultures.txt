@@ -1,0 +1,646 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+
+north_germanic = {
+	graphical_cultures = {westerngfx}
+	
+	norse = {
+		graphical_cultures = {norsegfx}
+	}
+	swedish = {
+		graphical_cultures = {norsegfx}
+	}
+	norwegian = {
+		graphical_cultures = {norsegfx}
+	}
+	danish = {
+		graphical_cultures = {norsegfx}
+	}
+	icelandic = {
+		graphical_cultures = {norsegfx}
+	}
+	frisian = {
+		graphical_cultures = {dutchgfx saxongfx}
+	}    
+	gothic = {
+		graphical_cultures = {norsegfx}
+	}
+}
+
+central_germanic = {
+	graphical_cultures = {westerngfx}
+
+	german = {
+		graphical_cultures = {germangfx}
+	}
+	low_german = {
+		graphical_cultures = {germangfx}
+	}		
+	dutch = {
+		graphical_cultures = {dutchgfx germangfx}
+	}
+	lombard = {
+		graphical_cultures = {lombardgfx germangfx}
+	}
+	visigothic = {
+		graphical_cultures = {basquegfx southerngfx}
+	}
+	old_frankish = {
+		graphical_cultures = {frankishgfx}
+	}
+	suebi = {
+		graphical_cultures = {basquegfx southerngfx}
+	}	
+	low_saxon = {
+		graphical_cultures = {saxongfx}
+	}
+	thuringian = {
+		graphical_cultures = {germangfx}
+	}
+	franconian = {
+		graphical_cultures = {germangfx}
+	}
+	swabian = {
+		graphical_cultures = {germangfx} 
+	}
+	bavarian = {
+		graphical_cultures = {germangfx}
+	}
+	low_frankish = {
+		graphical_cultures = {dutchgfx germangfx}
+	}
+}
+
+west_germanic = {
+	graphical_cultures = {westerngfx}
+
+	english = {
+		graphical_cultures = {englishgfx}
+	}
+	saxon = {
+		graphical_cultures = {saxongfx}
+	}
+	old_saxon = {
+		graphical_cultures = {saxongfx}
+	}
+	anglonorse = {
+		graphical_cultures = {norsegfx}
+	}
+}
+
+latin = {
+	graphical_cultures = {westerngfx}
+
+	frankish = {
+		graphical_cultures = {frankishgfx occitangfx}
+	}
+	arpitan = {
+		graphical_cultures = {occitangfx}
+	}
+	norman = {
+		graphical_cultures = {normangfx}
+	}
+
+	crusader_culture = {
+		graphical_cultures = {normangfx}
+	}
+}
+
+iberian = {
+	graphical_cultures = {westerngfx}
+
+	basque = {
+		graphical_cultures = {basquegfx southerngfx}
+	}
+    andalusian_arabic = {
+		graphical_cultures = {andalusiangfx muslimgfx}
+	}
+    occitan = {
+		graphical_cultures = {occitangfx}
+	}        
+	castillan = {
+		graphical_cultures = {southerngfx occitangfx}
+	}
+	aragonese = {
+		graphical_cultures = {southerngfx occitangfx}
+	}
+	catalan = {
+		graphical_cultures = {southerngfx occitangfx}
+	}
+    galician = {
+		graphical_cultures = {southerngfx occitangfx}
+	}
+    leonese = {
+		graphical_cultures = {southerngfx occitangfx}
+	}
+	portuguese = {
+		graphical_cultures = {southerngfx occitangfx}
+		}
+}
+
+byzantine = {
+	graphical_cultures = {easterngfx}
+
+	armenian = {
+		graphical_cultures = {georgiangfx byzantinegfx}
+	}
+	greek = {
+		graphical_cultures = {byzantinegfx}
+	}
+	east_gothic = {
+		graphical_cultures = {crimeangothicgfx byzantinegfx}
+	}
+	romanian = {
+		graphical_cultures = {southernslavicgfx westernslavicgfx}
+	}
+	alan = {
+		graphical_cultures = {alangfx turkishgfx}
+	}
+	udi = {
+		graphical_cultures = {georgiangfx byzantinegfx}
+	}
+	caucasian_avar = {
+		graphical_cultures = {alangfx turkishgfx}
+	}
+    sicilian_greek = {
+		graphical_cultures = {byzantinegfx}
+	}
+	arberian = {
+		graphical_cultures = {southernslavicgfx westernslavicgfx}
+	}
+	georgian = {
+		graphical_cultures = {georgiangfx byzantinegfx}
+	}
+}
+
+celtic = {
+	graphical_cultures = {westerngfx}
+
+	irish = {
+		graphical_cultures = {celticgfx}
+	}
+	scottish = {
+		graphical_cultures = {celticgfx}
+	}
+	pictish = {
+		graphical_cultures = { celticgfx }
+	}
+	cumbric = {
+		graphical_cultures = {bretongfx celticgfx}
+	}
+	cornish = {
+		graphical_cultures = {bretongfx celticgfx}
+	}
+	welsh = {
+		graphical_cultures = {bretongfx celticgfx}
+	}
+	breton = {
+		graphical_cultures = {bretongfx celticgfx}
+	}
+	norsegaelic = {
+		graphical_cultures = {norsegaelgfx celticgfx}
+	 }
+}
+
+finno_ugric = {
+	graphical_cultures = {easterngfx}
+
+	finnish = {
+		graphical_cultures = {ugricgfx}
+	}
+	karelian = {
+		graphical_cultures = {ugricgfx}
+	}
+	vepsian = {
+		graphical_cultures = {ugricgfx}
+	}
+	mari = {
+		graphical_cultures = {ugricgfx}
+	}
+	lappish	 = {
+		graphical_cultures = {ugricgfx}
+	}
+   	ugricbaltic = {
+		graphical_cultures = {balticgfx ugricgfx}
+	}
+	livonian = {
+		graphical_cultures = {balticgfx ugricgfx}
+	}        
+	komi = {
+		graphical_cultures = {ugricgfx}
+	}
+	khanty = {
+		graphical_cultures = {siberiangfx ugricgfx}
+	}
+        samoyed = { 
+		graphical_cultures = {siberiangfx ugricgfx}
+	}
+	mordvin = {
+		graphical_cultures = {ugricgfx}
+	}
+}
+
+baltic = {
+	graphical_cultures = {easterngfx}
+
+	lettigallish = {
+		graphical_cultures = {balticgfx ugricgfx}
+	}        
+	lithuanian = {
+		graphical_cultures = {balticgfx ugricgfx}
+	}
+	prussian = {
+		graphical_cultures = {balticgfx ugricgfx}
+	}
+}
+
+altaic = {
+	graphical_cultures = {muslimgfx}
+
+	turkish = { # Representing the Anatolian Turkish		
+                graphical_cultures = {turkishgfx}
+		}
+	turkmen = { # Representing the iranized islamized Turks (the Seljuks)
+		graphical_cultures = {turkishgfx}
+	}
+	oghuz = { # original Oghuz Turkish
+		graphical_cultures = {turkishgfx}
+	}
+	uighur = { # non islamic Uighurs
+		graphical_cultures = {khotanesegfx cumangfx turkishgfx}
+	}
+	mongol = {
+		graphical_cultures = { mongolgfx }
+	}
+	cuman = {
+		graphical_cultures = {cumangfx turkishgfx}
+	}
+	pecheneg = { 
+		graphical_cultures = {steppegfx turkishgfx}
+	}
+	khazar = { 
+		graphical_cultures = {steppegfx turkishgfx}
+	}
+	bolghar = { # Turkic Bulghars not to confuse with Bulgarians
+		graphical_cultures = {centralasiangfx turkishgfx}
+	}	
+	avar = { 
+		graphical_cultures = {steppegfx turkishgfx easterngfx }
+	}
+	karluk = {
+		graphical_cultures = {centralasiangfx turkishgfx}
+	}
+	kasogi = {
+		graphical_cultures = {alangfx turkishgfx easterngfx}
+	}
+	kirghiz = {
+		graphical_cultures = {cumangfx turkishgfx}
+	}
+	uyghur = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = {khotanesegfx cumangfx turkishgfx }
+	}
+	bashkir = {
+		graphical_cultures = {centralasiangfx turkishgfx}
+	}
+}
+
+arabic = {
+	graphical_cultures = {muslimgfx}
+
+        bedouin_arabic = { 
+		graphical_cultures = {arabicgfx}
+	}
+	maghreb_arabic = { 
+		graphical_cultures = {maghrebgfx}
+	}
+	levantine_arabic = {
+		graphical_cultures = {levantinegfx}
+	}
+	egyptian_arabic = {
+		graphical_cultures = {arabicgfx}
+	}
+    sicilian_arabic = { 
+		graphical_cultures = {maghrebgfx}
+	}	
+}
+
+east_slavic = {
+	graphical_cultures = {easterngfx}                    
+    
+	russian = {
+		graphical_cultures = {easternslavicgfx}
+	}
+	ilmenian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = { easternslavicgfx }
+	}
+	severian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = { easternslavicgfx }
+	}
+	volhynian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = { easternslavicgfx }
+	}
+}
+
+west_slavic = {
+	graphical_cultures = {westerngfx}
+
+	pommeranian = {
+		graphical_cultures = {westernslavicgfx}
+	}
+	polish = {
+		graphical_cultures = {westernslavicgfx}
+	}        
+	bohemian = {
+		graphical_cultures = {bohemiangfx westernslavicgfx}
+	}
+	moravian = {
+		graphical_cultures = {bohemiangfx westernslavicgfx}
+	}
+}
+south_slavic = {
+	graphical_cultures = {easterngfx}
+
+	karantanci = {
+		graphical_cultures = {bohemiangfx westernslavicgfx}
+	}
+	croatian = {
+		graphical_cultures = {bohemiangfx westernslavicgfx}
+	}       
+	serbian = {
+		graphical_cultures = {southernslavicgfx westernslavicgfx}
+	}        
+	bosnian = {
+		graphical_cultures = {bohemiangfx westernslavicgfx}
+	}
+	bulgarian = {
+		graphical_cultures = {southernslavicgfx westernslavicgfx}
+	}        
+}
+magyar = {
+	graphical_cultures = {easterngfx}
+
+	hungarian = {
+		graphical_cultures = {hungariangfx westernslavicgfx}
+	}
+	szekely = {
+		graphical_cultures = {hungariangfx westernslavicgfx}
+	}
+}
+iranian = {
+	graphical_cultures = {muslimgfx}
+
+	pahlavi = {
+		graphical_cultures = {persiangfx}
+	}
+	persian = {
+		graphical_cultures = {persiangfx}
+	}
+	sogdian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = { sogdiangfx persiangfx }
+	}
+	tocharian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = { sogdiangfx persiangfx }
+	}
+	tajik = {
+		graphical_cultures = {sogdiangfx persiangfx}
+	}
+	daylamite = {
+		graphical_cultures = {persiangfx}
+	}
+	khalaj = {
+		graphical_cultures = {persiangfx}
+	}
+	soghdian = {
+		graphical_cultures = {sogdiangfx persiangfx}
+	}
+	khwarezmi = {
+		graphical_cultures = {persiangfx}
+	}
+	khorasani = {
+		graphical_cultures = {persiangfx}
+	}
+	kurdish = {
+		graphical_cultures = {persiangfx} 
+	}
+	pashtun = { # a.k.a. Afghani
+		graphical_cultures = {persiangfx} 
+	}
+	afghan = { # a.k.a. Pashtun ## VANILLA COMPATIBILITY ONLY (REQ'D)
+		graphical_cultures = { persiangfx } #arabicgfx
+	}
+	baloch = {
+		graphical_cultures = {persiangfx} 
+	}
+	qufs = {
+		graphical_cultures = {persiangfx} 
+	}
+}
+
+east_african = {
+	graphical_cultures = {muslimgfx} 
+       
+	ethiopian = {
+		graphical_cultures = {ethiopiangfx africangfx}
+	}
+    somali = {
+		graphical_cultures = {somaligfx africangfx}
+	}
+  	afar = {
+		graphical_cultures = {africangfx}
+	}
+	daju = {
+		graphical_cultures = {africangfx}
+	}
+	beja = {
+		graphical_cultures = {africangfx}
+	}
+	zaghawa = {
+		graphical_cultures = {somaligfx africangfx}
+	}
+	nubian = {
+		graphical_cultures = {ethiopiangfx africangfx} #muslimgfx 
+	}
+}
+
+west_african = {
+	graphical_cultures = {africangfx muslimgfx}
+	
+	manden = {
+		graphical_cultures = {westafricangfx}
+	}
+	soninke = {
+	}
+	wolof = {
+		graphical_cultures = {westafricangfx}
+	}
+	songhai = {
+		graphical_cultures = {westafricangfx}
+	}	
+	kanuri = {
+		graphical_cultures = {africangfx}
+	}
+	hausa = {
+		graphical_cultures = {africangfx}
+	}
+}
+
+north_african = {
+	graphical_cultures = {muslimgfx}
+
+	berber = {
+		graphical_cultures = {berbergfx}
+	}
+	sanhaja = {
+		graphical_cultures = {berbergfx}
+	}
+  	tagelmust = {
+		graphical_cultures = {africangfx}
+	}
+	masmuda = {
+		graphical_cultures = {berbergfx}
+	}
+	zanata = {
+		graphical_cultures = {berbergfx}
+	}
+	tuareg = {
+		graphical_cultures = {africangfx}
+	}
+}
+
+israelite = {
+	#graphical_cultures = {easterngfx}
+
+	ashkenazi = {
+		graphical_cultures = {ashkenazigfx easterngfx}
+	}
+	sephardi = {
+		graphical_cultures = {andalusiangfx southerngfx}
+	}
+  	falashim = { #Beta-Israel, originally compiled by Frostschaden, many more names added by cybrxkhan, some added and changed by elvain
+        graphical_cultures = {ethiopiangfx africangfx muslimgfx}
+	}
+}
+
+italian_group = {
+	graphical_cultures = {westerngfx}
+
+	sardinian = {
+		graphical_cultures = {italiangfx occitangfx}
+	}
+	sicilian = {
+		graphical_cultures = {italiangfx occitangfx}
+	}
+	corsican = {
+		graphical_cultures = {italiangfx occitangfx}
+	}
+	central_italian = {
+		graphical_cultures = { italiangfx occitangfx }
+	}
+	southern_italian = {
+		graphical_cultures = { siciliangfx italiangfx occitangfx }
+	}
+	neapolitan = {
+		graphical_cultures = { siciliangfx italiangfx occitangfx }
+	}
+	tuscan = {
+		graphical_cultures = { italiangfx occitangfx }
+	}
+	ligurian = {
+		graphical_cultures = { occitangfx italiangfx }
+	}
+	langobardisch = {
+		graphical_cultures = {lombardgfx italiangfx}
+	}
+	italian = {
+		graphical_cultures = { italiangfx occitangfx }
+	}
+	venetian = {
+		graphical_cultures = { italiangfx occitangfx }
+	}
+	dalmatian = {		
+		graphical_cultures = { italiangfx occitangfx }
+	}
+	roman = {
+		graphical_cultures = { italiangfx occitangfx }
+	}
+}
+mesoamerican = {
+	graphical_cultures = {muslimgfx}
+
+	nahuatl = {
+		graphical_cultures = {mesoamericangfx}
+	}
+}
+indo_aryan_group = {
+	graphical_cultures = {indiangfx muslimgfx}
+	
+	bengali = { # Indo-Aryan
+		graphical_cultures = {southindiangfx indiangfx}
+	}
+	
+	oriya = { # Indo-Aryan
+		graphical_cultures = {centralindiangfx indiangfx}
+	}
+	
+	assamese = { # Indo-Aryan
+		graphical_cultures = {assamesegfx indiangfx}
+	}
+
+	hindustani = { # Indo-Aryan
+		graphical_cultures = {centralindiangfx indiangfx}
+	}
+	
+	gujurati = { # Indo-Aryan
+		graphical_cultures = {centralindiangfx indiangfx}
+	}
+	
+	panjabi = { # Indo-Aryan
+		graphical_cultures = {sindhigfx indiangfx}
+	}
+	
+	rajput = { # Indo-Aryan
+		graphical_cultures = {northindiangfx indiangfx}
+	}
+
+	sindhi = { # Indo-Aryan
+		graphical_cultures = {sindhigfx indiangfx}
+	}
+
+	marathi = { # Indo-Aryan
+		graphical_cultures = {centralindiangfx indiangfx}
+	}
+
+	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
+		graphical_cultures = {indiangfx}
+	}
+}
+
+dravidian_group = {
+	graphical_cultures = {indiangfx muslimgfx}
+
+	tamil = { # Dravidian - Southern India except Sri Lanka
+		graphical_cultures = {indiangfx}
+	}
+	
+	telugu = { # Dravidian
+		graphical_cultures = {southindiangfx indiangfx}
+	}
+	
+	brahui = { # Dravidian
+		graphical_cultures = {sindhigfx indiangfx}
+	}
+	
+	kannada = { # Dravidian
+		graphical_cultures = {southindiangfx indiangfx}
+	}
+}
+sinic = {
+	graphical_cultures = {mongolgfx}
+	
+	khitan = {
+		graphical_cultures = {khitangfx mongolgfx}
+	}
+}
+
+
+
