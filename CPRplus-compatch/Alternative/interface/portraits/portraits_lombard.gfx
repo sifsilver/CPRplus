@@ -400,7 +400,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
-			"GFX_german_male_headgear_behind_early:p5:c1"
+			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_byzantine_male_hair_behind:p1:h:y:o3x2"
 			"GFX_byzantine_male_beard_behind:p4:o2x-2:h:y"
 			"GFX_german_male_base:p2"
@@ -421,7 +421,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard:p4:o2x-2:h:y"
 		   	"GFX_byzantine_male_hair:p1:h:y:o3x2"
 			"GFX_empty:p3:c4"
-			"GFX_german_male_headgear_early:p5:c5"
+			"GFX_western_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -461,7 +461,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
-			"GFX_german_male_headgear_behind_early:p5:c1"
+			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_byzantine_male_hair_behind_midage:p1:h:y:o3x2"
 			"GFX_byzantine_male_beard_behind_midage:p4:o2x-2:h:y"
 			"GFX_german_male_base_midage:p2"
@@ -482,7 +482,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_byzantine_male_hair_midage:p1:h:y:o3x2"
 			"GFX_empty:p3:c4"
-			"GFX_german_male_headgear_early:p5:c5"
+			"GFX_western_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -522,7 +522,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
-			"GFX_german_male_headgear_behind_early:p5:c1"
+			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_byzantine_male_hair_behind_oldage:p1:h:y:o3x2"
 			"GFX_byzantine_male_beard_behind_oldage:p4:o2x-2:h:y"
 			"GFX_german_male_base_oldage:p2"
@@ -543,7 +543,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_byzantine_male_hair_oldage:p1:h:y:o3x2"
 			"GFX_empty:p3:c4"
-			"GFX_german_male_headgear_early:p5:c5"
+			"GFX_western_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -587,7 +587,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_early:p3:c0"
-			"GFX_german_female_headgear_behind_early:p5:c1"
+			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_byzantine_female_hair_behind:o-1x7:p1:h:y"
 			"GFX_german_female_base:p2"
 			"GFX_german_female_neck:d0"
@@ -606,7 +606,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_byzantine_female_hair:p1:o-1x7:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_german_female_headgear_early:p5:c5"
+			"GFX_western_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -646,7 +646,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_early:p3:c0"
-			"GFX_german_female_headgear_behind_early:p5:c1"
+			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_byzantine_female_hair_behind_midage:o-1x7:p1:h:y"
 			"GFX_german_female_base_midage:p2"
 			"GFX_german_female_neck_midage:d0"
@@ -665,7 +665,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_byzantine_female_hair_midage:o-1x7:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_german_female_headgear_early:p5:c5"
+			"GFX_western_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -705,7 +705,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_early:p3:c0"
-			"GFX_german_female_headgear_behind_early:p5:c1"
+			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_byzantine_female_hair_behind_oldage:o-1x7:p1:y"
 			"GFX_german_female_base_oldage:p2"
 			"GFX_german_female_neck_oldage:d0"
@@ -724,7 +724,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_byzantine_female_hair_oldage:o-1x7:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_german_female_headgear_early:p5:c5"
+			"GFX_western_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		
