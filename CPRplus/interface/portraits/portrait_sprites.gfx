@@ -550,7 +550,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_cheeks"
 		texturefile = "gfx\\characters\\western_female\\western_female_cheeks_1.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -558,7 +558,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_cheeks_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_cheeks_2.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -566,7 +566,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_cheeks_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_cheeks_3.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -574,7 +574,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_chin"
 		texturefile = "gfx\\characters\\western_female\\western_female_chin_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -582,7 +582,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_chin_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_chin_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -590,7 +590,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_chin_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_chin_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -598,7 +598,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_mouth"
 		texturefile = "gfx\\characters\\western_female\\western_female_mouth_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -606,7 +606,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_mouth_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_mouth_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -614,7 +614,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_mouth_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_mouth_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -622,7 +622,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_nose"
 		texturefile = "gfx\\characters\\western_female\\western_female_nose_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -630,7 +630,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_nose_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_nose_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -638,7 +638,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_nose_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_nose_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -824,6 +824,7 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 	
+	
 ############## MUSLIM ##########################
 
 
@@ -874,7 +875,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_beard_behind"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_beard_behind_1.dds"
-		noOfFrames = 10
+		noOfFrames = 7
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -882,7 +883,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_beard_behind_midage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_beard_behind_2.dds"
-		noOfFrames = 10
+		noOfFrames = 7
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -890,7 +891,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_beard_behind_oldage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_beard_behind_3.dds"
-		noOfFrames = 10
+		noOfFrames = 7
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -946,7 +947,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_cheeks"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_cheeks_1.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -955,7 +956,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_cheeks_midage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_cheeks_2.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -963,7 +964,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_cheeks_oldage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_cheeks_3.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -971,7 +972,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_chin"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_chin_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -979,7 +980,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_chin_midage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_chin_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -987,7 +988,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_chin_oldage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_chin_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1003,7 +1004,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_mouth"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_mouth_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1011,7 +1012,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_mouth_midage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_mouth_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1019,7 +1020,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_mouth_oldage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_mouth_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1067,7 +1068,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_beard"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_beard_1.dds"
-		noOfFrames = 10
+		noOfFrames = 7
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1075,7 +1076,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_beard_midage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_beard_2.dds"
-		noOfFrames = 10
+		noOfFrames = 7
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1083,7 +1084,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_male_beard_oldage"
 		texturefile = "gfx\\characters\\muslim_male\\muslim_male_beard_3.dds"
-		noOfFrames = 10
+		noOfFrames = 7
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1265,7 +1266,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_cheeks"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_cheeks_1.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1273,7 +1274,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_cheeks_midage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_cheeks_2.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1281,7 +1282,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_cheeks_oldage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_cheeks_3.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1289,7 +1290,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_chin"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_chin_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1297,7 +1298,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_chin_midage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_chin_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1305,7 +1306,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_chin_oldage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_chin_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1313,7 +1314,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_mouth"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_mouth_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1321,7 +1322,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_mouth_midage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_mouth_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1329,7 +1330,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_mouth_oldage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_mouth_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1337,7 +1338,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_nose"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_nose_1.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1345,7 +1346,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_nose_midage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_nose_2.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -1353,7 +1354,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_muslim_female_nose_oldage"
 		texturefile = "gfx\\characters\\muslim_female\\muslim_female_nose_3.dds"
-		noOfFrames = 10
+		noOfFrames = 13
 		norefcount = yes
 		can_be_lowres = yes
 	}
