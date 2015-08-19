@@ -2368,7 +2368,7 @@
 			trait = nun
 			OR = {
 				AND = {
-					year = 900
+					year = 950
 					OR = {
 						graphical_culture = westerngfx
 						graphical_culture = germangfx
@@ -2408,7 +2408,7 @@
 			NOR = {
 				AND = {
 					is_female = no
-					year = 900
+					year = 950
 						OR = {
 							graphical_culture = westerngfx
 							graphical_culture = germangfx
@@ -2470,7 +2470,7 @@
 			NOT = { trait = monk }
 			OR = {
 				AND = {
-					year = 900
+					year = 950
 						OR = {
 							graphical_culture = westerngfx
 							graphical_culture = germangfx
@@ -2592,7 +2592,7 @@
 			trait = nun
 			OR = {
 				AND = {
-					NOT = { year = 900 }
+					NOT = { year = 950 }
 					OR = {
 						graphical_culture = westerngfx
 						graphical_culture = germangfx
