@@ -352,7 +352,7 @@ west_african = {
 }
 
 mesoamerican = {
-	graphical_cultures = { mesoamericangfx muslimgfx }
+	graphical_cultures = { muslimgfx }
 
 
 	nahuatl = {

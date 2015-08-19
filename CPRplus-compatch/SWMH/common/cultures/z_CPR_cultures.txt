@@ -107,7 +107,7 @@ latin = {
 }
 
 iberian = {
-	graphical_cultures = {westerngfx}
+	graphical_cultures = {occitangfx}
 
 	basque = {
 		graphical_cultures = {basquegfx southerngfx}
@@ -119,22 +119,22 @@ iberian = {
 		graphical_cultures = {occitangfx}
 	}        
 	castillan = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = {southerngfx}
 	}
 	aragonese = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = {southerngfx}
 	}
 	catalan = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = {southerngfx}
 	}
     galician = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = {southerngfx}
 	}
     leonese = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = {southerngfx}
 	}
 	portuguese = {
-		graphical_cultures = {southerngfx occitangfx}
+		graphical_cultures = {southerngfx}
 		}
 }
 
@@ -166,7 +166,7 @@ byzantine = {
 		graphical_cultures = {byzantinegfx}
 	}
 	arberian = {
-		graphical_cultures = {southernslavicgfx westernslavicgfx}
+		graphical_cultures = {southernslavicgfx byzantinegfx}
 	}
 	georgian = {
 		graphical_cultures = {georgiangfx byzantinegfx}
@@ -267,7 +267,7 @@ altaic = {
 		graphical_cultures = {turkishgfx}
 	}
 	uighur = { # non islamic Uighurs
-		graphical_cultures = {khotanesegfx cumangfx turkishgfx}
+		graphical_cultures = {khotanesegfx turkishgfx}
 	}
 	mongol = {
 		graphical_cultures = { mongolgfx }
@@ -297,7 +297,7 @@ altaic = {
 		graphical_cultures = {cumangfx turkishgfx}
 	}
 	uyghur = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = {khotanesegfx cumangfx turkishgfx }
+		graphical_cultures = {khotanesegfx turkishgfx }
 	}
 	bashkir = {
 		graphical_cultures = {centralasiangfx turkishgfx}
