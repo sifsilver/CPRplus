@@ -144,7 +144,7 @@ finno_ugric = {
 		graphical_cultures = { ugricgfx }
 	}
 	ugricbaltic = {
-		graphical_cultures = { balticgfx ugricgfx }
+		graphical_cultures = { ugricgfx }
 	}
 	komi = {
 		graphical_cultures = { ugricgfx }
