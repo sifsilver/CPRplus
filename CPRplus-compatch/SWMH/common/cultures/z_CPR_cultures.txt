@@ -408,7 +408,7 @@ iranian = {
 		graphical_cultures = {persiangfx}
 	}
 	khalaj = {
-		graphical_cultures = {persiangfx}
+		graphical_cultures = {sogdiangfx persiangfx}
 	}
 	soghdian = {
 		graphical_cultures = {sogdiangfx persiangfx}
@@ -423,10 +423,10 @@ iranian = {
 		graphical_cultures = {persiangfx} 
 	}
 	pashtun = { # a.k.a. Afghani
-		graphical_cultures = {persiangfx} 
+		graphical_cultures = {sogdiangfx persiangfx} 
 	}
 	afghan = { # a.k.a. Pashtun ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = { persiangfx } #arabicgfx
+		graphical_cultures = { sogdiangfx persiangfx } #arabicgfx
 	}
 	baloch = {
 		graphical_cultures = {persiangfx} 
