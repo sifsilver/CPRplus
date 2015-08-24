@@ -52,7 +52,7 @@ central_germanic = {
 		graphical_cultures = {basquegfx southerngfx}
 	}	
 	low_saxon = {
-		graphical_cultures = {saxongfx}
+		graphical_cultures = {dutchgfx saxongfx}
 	}
 	thuringian = {
 		graphical_cultures = {germangfx}
