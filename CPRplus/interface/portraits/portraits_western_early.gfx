@@ -1,39 +1,5 @@
 spriteTypes = {
 
-###WESTERN MALE SPRITE LOCATIONS###
-
-	spriteType = {
-		name = "GFX_western_male_clothes_behind_early"
-		texturefile = "gfx\\characters\\western_male\\western_male_clothes_behind_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_western_male_headgear_behind_early"
-		texturefile = "gfx\\characters\\western_male\\western_male_headgear_behind_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_western_male_clothes_early"
-		texturefile = "gfx\\characters\\western_male\\western_male_clothes_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_western_male_headgear_early"
-		texturefile = "gfx\\characters\\western_male\\western_male_headgear_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
 ###WESTERN MALE SPRITE ORDER###
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
@@ -199,40 +165,6 @@ spriteTypes = {
 		}
 		
 		headgear_that_hides_hair = { }
-	}
-	
-###WESTERN FEMALE SPRITE LOCATIONS###
-
-	spriteType = {
-		name = "GFX_western_female_clothes_behind_early"
-		texturefile = "gfx\\characters\\western_female\\western_female_clothes_behind_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_western_female_headgear_behind_early"
-		texturefile = "gfx\\characters\\western_female\\western_female_headgear_behind_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_western_female_clothes_early"
-		texturefile = "gfx\\characters\\western_female\\western_female_clothes_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_western_female_headgear_early"
-		texturefile = "gfx\\characters\\western_female\\western_female_headgear_early.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
 	}
 	
 ###WESTERN FEMALE SPRITE ORDER###
