@@ -41,8 +41,16 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			prisoner = no
-			NOT = { death_reason = death_dungeon }
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOR = {
+				death_reason = death_dungeon
+				death_reason = death_execution
+			}
 		}
 	}
 
@@ -796,6 +804,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -837,6 +846,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -878,6 +888,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -981,6 +992,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1037,6 +1049,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1120,6 +1133,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1166,6 +1180,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1241,6 +1256,7 @@
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1714,6 +1730,8 @@
 			factor = 0
 			religion_group = muslim
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
+			NOT = { trait = leper }
 		}
 		modifier = {
 			factor = 0
@@ -1725,6 +1743,7 @@
 				}
 			}
 			is_priest = yes
+			NOT = { trait = leper }
 		}
 		modifier = {
 			factor = 5
@@ -1743,6 +1762,7 @@
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
 			}
+			NOT = { trait = leper }
 		}
 		modifier = {
 			factor = 50
@@ -1770,6 +1790,10 @@
 			factor = 2
 			culture = pecheneg
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	2 = { #Beard
 		factor = 1
@@ -1785,6 +1809,10 @@
 			factor = 0
 			culture = pecheneg
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	3 = { #Beard
 		factor = 1
@@ -1799,6 +1827,10 @@
 		modifier = {
 			factor = 2
 			culture = pecheneg
+		}
+		modifier = {
+			factor = 0
+			trait = leper
 		}
 	}
 	4 = { #Small mustache and beard
@@ -1818,6 +1850,10 @@
 			factor = 5
 			culture = pecheneg
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	5 = { #Spanish mustache
 		factor = 1
@@ -1836,6 +1872,10 @@
 			factor = 5
 			culture = pecheneg
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	6 = { #Beard no mustache
 		factor = 1
@@ -1850,6 +1890,10 @@
 		modifier = {
 			factor = 0
 			culture = pecheneg
+		}
+		modifier = {
+			factor = 0
+			trait = leper
 		}
 	}
 	7 = { #Evil stache
@@ -1876,6 +1920,10 @@
 		modifier = {
 			factor = 5
 			culture = pecheneg
+		}
+		modifier = {
+			factor = 0
+			trait = leper
 		}
 	}
 	8 = { #No Beard
@@ -1907,6 +1955,10 @@
 			factor = 50
 			culture = norman
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	9 = { #Light Beard
 		factor = 1
@@ -1934,6 +1986,10 @@
 			factor = 0
 			culture = pecheneg
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	10 = { #Beard
 		factor = 1
@@ -1941,6 +1997,7 @@
 			factor = 0
 			religion_group = muslim
 			NOT = { graphical_culture = muslimgfx }
+			NOT = { graphical_culture = arabicgfx }
 		}
 		modifier = {
 			factor = 20
@@ -1962,6 +2019,10 @@
 				graphical_culture = southerngfx
 				graphical_culture = byzantinegfx
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
 		}
 	}
 }
@@ -2368,7 +2429,7 @@
 			trait = nun
 			OR = {
 				AND = {
-					year = 900
+					year = 950
 					OR = {
 						graphical_culture = westerngfx
 						graphical_culture = germangfx
@@ -2408,7 +2469,7 @@
 			NOR = {
 				AND = {
 					is_female = no
-					year = 900
+					year = 950
 						OR = {
 							graphical_culture = westerngfx
 							graphical_culture = germangfx
@@ -2467,13 +2528,10 @@
 		modifier = {
 			factor = 0
 			is_female = no
-			NOR = {
-				trait = monk
-				has_job_title = job_spiritual
-			}
+			NOT = { trait = monk }
 			OR = {
 				AND = {
-					year = 900
+					year = 950
 						OR = {
 							graphical_culture = westerngfx
 							graphical_culture = germangfx
@@ -2595,7 +2653,7 @@
 			trait = nun
 			OR = {
 				AND = {
-					NOT = { year = 900 }
+					NOT = { year = 950 }
 					OR = {
 						graphical_culture = westerngfx
 						graphical_culture = germangfx
@@ -2766,65 +2824,104 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = maimed
 				trait = wounded
 				trait = scarred
+				trait = maimed
+				trait = incapable
 			}
 		}
    	}
 
 	1 = { # scar 1
-		factor = 1
+		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-				}
+			NOR = {
+				trait = wounded
+				trait = scarred
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = maimed
+				trait = incapable
 			}
 		}
    	}
 
 	2 = { # scar 2
-		factor = 1
+		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-				}
+			NOR = {
+				trait = wounded
+				trait = scarred
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = maimed
+				trait = incapable
 			}
 		}
    	}
 
 	3 = { # scar 3
-		factor = 1
+		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-				}
+			NOR = {
+				trait = wounded
+				trait = scarred
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = maimed
+				trait = incapable
 			}
 		}
    	}
 
 	4 = { # scar 4
-		factor = 1
+		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
-				}
+			NOR = {
+				trait = wounded
+				trait = scarred
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = maimed
+				trait = incapable
+			}
+		}
+   	}
+	5 = { # maimed
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				trait = maimed
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = incapable
+		}
+   	}
+	6 = { # incapable
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				trait = incapable
 			}
 		}
    	}
@@ -2837,22 +2934,112 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = has_measles
-				trait = has_small_pox
+				trait = fair
+				trait = ugly
+				trait = drunkard
+				trait = stressed
+				trait = depressed
+				trait = possessed
+				trait = infirm
 			}
 		}
  	}
 
-	1 = { # red dots
+	1 = { # fair
 		factor = 100
 		modifier = {
 			factor = 0
+			NOT = { trait = fair }
+		}
+		modifier = {
+			factor = 0
 			OR = {
-				NOT = {
-					trait = has_measles
-					trait = has_small_pox
-				}
+				trait = drunkard
+				trait = stressed
+				trait = depressed
+				trait = possessed
+				trait = infirm
 			}
+		}
+  	}
+	2 = { # ugly
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = ugly }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = drunkard
+				trait = stressed
+				trait = depressed
+				trait = possessed
+				trait = infirm
+			}
+		}
+  	}
+	3 = { # drunkard
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = drunkard }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = stressed
+				trait = depressed
+				trait = possessed
+				trait = infirm
+			}
+		}
+  	}
+	4 = { # stressed
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = stressed }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = depressed
+				trait = possessed
+				trait = infirm
+			}
+		}
+  	}
+	5 = { # depressed
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = depressed }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = possessed
+				trait = infirm
+			}
+		}
+  	}
+	6 = { # possessed
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = possessed }
+		}
+		modifier = {
+			factor = 0
+			trait = infirm
+		}
+  	}
+	7 = { # infirm
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = infirm }
 		}
   	}
 }
@@ -2865,23 +3052,77 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = ill
+				trait = pneumonic
 				trait = has_bubonic_plague
+				trait = has_measles
+				trait = has_small_pox
+				trait = syphilitic
+				trait = leper
 			}
 		}
  	}
-
-	1 = { # boils
+	1 = { # boil
 		factor = 100
 		modifier = {
 			factor = 0
+			NOR = {
+				trait = has_bubonic_plague
+				trait = syphilitic
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
+ 	}
+	2 = { # red dots
+		factor = 100
+		modifier = {
+			factor = 0
+			NOR = {
+				trait = has_measles
+				trait = has_small_pox
+			}
+		}
+		modifier = {
+			factor = 0
 			OR = {
-				NOT = {
-					trait = has_bubonic_plague
-				}
+				trait = has_bubonic_plague
+				trait = syphilitic
+				trait = leper
 			}
 		}
  	}
- 	
+	3 = { # ill/pneumonic
+		factor = 100
+		modifier = {
+			factor = 0
+			NOR = {
+				trait = ill
+				trait = pneumonic
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_measles
+				trait = has_small_pox
+				trait = syphilitic
+				trait = leper
+			}
+		}
+ 	}
+ 	4 = { # leper
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				trait = leper
+			}
+		}
+ 	}
 }
 
 # p10 blinded
@@ -2890,16 +3131,46 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			trait = blinded
+			OR = {
+				trait = blinded
+				trait = lunatic
+			}
 		}
 	}
 	
-	1 =  {
+	1 =  { #blinded
 		factor = 100
 		modifier = {
 			factor = 0
 			NOT = {
 				trait = blinded
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = lunatic
+		}
+	}
+	2 =  { #lunatic
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				trait = lunatic
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
+	}
+	3 =  { #blinded and lunatic
+		factor = 100
+		modifier = {
+			factor = 0
+			NAND = {
+				trait = blinded
+				trait = lunatic
 			}
 		}
 	}
