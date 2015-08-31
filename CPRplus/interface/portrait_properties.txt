@@ -334,6 +334,7 @@
 					region = world_middle_east
 					region = world_persia
 					region = world_asia_minor
+					region = world_steppe_tarim
 				}
 			}
 			location = { NOT = { terrain = desert } }
@@ -346,6 +347,7 @@
 					region = world_middle_east
 					region = world_persia
 					region = world_asia_minor
+					region = world_steppe_tarim
 				}
 			}
 			location = { NOT = { terrain = desert } }
@@ -423,6 +425,7 @@
 			factor = 0
 			location = {
 				OR = {
+					region = world_steppe_tarim
 					terrain = steppe
 					terrain = plains
 					terrain = farmlands
@@ -571,6 +574,7 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { siege = { is_attacker = no } }
 			location = {
 				OR = {
 					terrain = arctic
@@ -700,6 +704,7 @@
 				NOR = {
 					region = world_europe
 					region = world_asia_minor
+					region = world_steppe_west
 				}
 			}
 		}
