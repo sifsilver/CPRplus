@@ -99,7 +99,6 @@
 				OR = {
 					terrain = marsh
 					terrain = desert
-					terrain = coastal_desert
 					terrain = arctic
 					terrain = plains
 					terrain = steppe
@@ -164,43 +163,37 @@
 			is_alive = yes
 		}
 	}
-	
-	5 = { # tavern
-		factor = 3
+	5 = { # tavern - changed to tundra/snow
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_europe }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				OR = {
-					trait = drunkard
-					trait = hedonist
-					trait = lustful
+				NOR	= {
+					region = world_europe_north
+					region = world_europe_east
+					region = world_steppe
 				}
 			}
 		}
 		modifier = {
-			factor = 3
-			trait = drunkard
-		}
-		modifier = {
-			factor = 2
-			trait = hedonist
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-			NOT = { siege = { is_attacker = no } }
+			factor = 1.5
+			location = { terrain = arctic }
 		}
 		modifier = {
 			factor = 0
 			location = {
-				holding_type = nomad
+				OR = {
+					region = world_steppe_tarim
+					terrain = steppe
+					terrain = plains
+					terrain = farmlands
+					terrain = desert
+				}
 			}
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
 		}
 	}
 	6 = { # military camp
@@ -250,12 +243,7 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				OR = {
-					terrain = desert
-					terrain = coastal_desert
-				}
-			}
+			location = { terrain = desert }
 		}
 	}
 	8 = { # Gallows - changed to African savanna
@@ -405,41 +393,20 @@
 			siege = { is_attacker = no }
 		}
 	}
-	12 = { # Ocean w ships - changed to tundra/snow
-		factor = 2
-		#modifier = {
-			#factor = 0
-			#NOT = { location = { terrain = ocean } }
-		#}
+	12 = { # Ocean w ships
+		factor = 1
 		modifier = {
 			factor = 0
 			location = {
-				NOR	= {
-					region = world_europe_north
-					region = world_europe_east
-					region = world_steppe
-				}
-			}
-		}
-		modifier = {
-			factor = 1.5
-			location = { terrain = arctic }
-		}
-		modifier = {
-			factor = 0
-			location = {
-				OR = {
-					region = world_steppe_tarim
-					terrain = steppe
-					terrain = plains
-					terrain = farmlands
-					terrain = desert
+				NOR = {
+					port = yes
+					is_land = no
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			siege = { is_attacker = no }
+			is_alive = no
 		}
 	}
 	13 = { # Muslim interior
