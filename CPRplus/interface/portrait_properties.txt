@@ -325,7 +325,7 @@
 		}
 	}
 	10 = { # Desert
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0.5
 			location = {
@@ -353,11 +353,15 @@
 			location = { NOT = { terrain = desert } }
 		}
 		modifier = {
+			factor = 2
+			location = { terrain = desert }
+		}
+		modifier = {
 			factor = 0
 			siege = { is_attacker = no }
 		}
 		modifier = {
-			factor = 3
+			factor = 5
 			location = {
 				holding_type = nomad
 			}
