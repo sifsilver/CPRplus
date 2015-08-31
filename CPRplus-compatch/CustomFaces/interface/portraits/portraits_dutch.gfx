@@ -327,7 +327,7 @@ spriteTypes = {
 			"GFX_german_female_cheeks_midage:d4"
 			"GFX_german_female_chin_midage:d1"
 			"GFX_german_female_mouth_midage:d2:o72x49"
-			"GFX_germanfemale_nose_midage:d3:o80x64"			
+			"GFX_german_female_nose_midage:d3:o80x64"			
 			"GFX_german_female_eyes_midage:d6:o46x76"
 			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"

@@ -803,14 +803,6 @@
 		modifier = {
 			factor = 2
 			location = { culture_group = andalusian_arabic }
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-				AND = {
-					liege = { family = ROOT }
-					is_ruler = no
-				}
-			}
 		}
 		modifier = {
 			factor = 0
