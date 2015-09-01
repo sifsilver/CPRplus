@@ -345,6 +345,10 @@
 		}
 		modifier = {
 			factor = 0
+			location = { terrain = marsh }
+		}
+		modifier = {
+			factor = 0
 			siege = { is_attacker = no }
 		}
 		modifier = {
