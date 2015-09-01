@@ -111,7 +111,6 @@
 				OR = {
 					terrain = woods
 					terrain = forest
-					terrain = mountain
 				}
 			}
 		}
@@ -451,43 +450,28 @@
 			}
 		}
 	}
-	14 = { # Harem
-		factor = 3
+	14 = { # Harem - changed to mountain
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				religion_group = christian
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				OR = {
-					trait = decadent
-					trait = drunkard
-					trait = hedonist
-					trait = lustful
+				NOR = {
+					terrain = mountain
+					terrain = hills
 				}
 			}
 		}
 		modifier = {
-			factor = 3
-			trait = decadent
-		}
-		modifier = {
-			factor = 2
-			trait = lustful
+			factor = 1.5
+			location = { terrain = mountain }
 		}
 		modifier = {
 			factor = 0
-			in_command = yes
-			NOT = { siege = { is_attacker = no } }
+			location = { terrain = arctic }
 		}
 		modifier = {
 			factor = 0
-			location = {
-				holding_type = nomad
-			}
+			siege = { is_attacker = no }
 		}
 	}
 	15 = { # Muslim interior 2
@@ -553,7 +537,6 @@
 					terrain = desert
 					terrain = jungle
 					terrain = marsh
-					terrain = mountain
 				}
 			}
 		}
@@ -686,6 +669,7 @@
 					terrain = arctic
 					terrain = desert
 					terrain = steppe
+					terrain = mountain
 				}
 			}
 		}
@@ -719,6 +703,7 @@
 					terrain = steppe
 					terrain = forest
 					terrain = marsh
+					terrain = mountain
 				}
 			}
 		}
