@@ -654,7 +654,7 @@
 		}
 	}
 
-	20 = { # Pagan human sacrifice - changed to Meadow
+	20 = { # Pagan human sacrifice - changed to "meadow"
 		factor = 1
 		modifier = {
 			factor = 0
@@ -663,6 +663,7 @@
 					region = world_europe
 					region = world_asia_minor
 					region = world_steppe_west
+					region = world_india
 				}
 			}
 		}
