@@ -814,10 +814,14 @@
 	}
 	
 	25 = { # Indian
-		factor = 5
+		factor = 2
 		modifier = {
 			factor = 0
 			location = { NOT = { region = world_india } }
+		}
+		modifier = {
+			factor = 1.5
+			religion_group = indian_group
 		}
 		modifier = {
 			factor = 0
