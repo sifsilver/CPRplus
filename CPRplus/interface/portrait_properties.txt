@@ -78,6 +78,7 @@
 			NOR = {
 				death_reason = death_dungeon
 				death_reason = death_execution
+				death_reason = death_sacrificed
 			}
 		}
 	}
@@ -405,6 +406,12 @@
 					port = yes
 					is_land = no
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				holding_type = nomad
 			}
 		}
 		modifier = {
@@ -3070,6 +3077,11 @@
 			factor = 0
 			trait = incapable
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOT = { death_reason = death_accident }
+		}
    	}
 	6 = { # incapable
 		factor = 100
@@ -3078,6 +3090,10 @@
 			NOT = {
 				trait = incapable
 			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
    	}
 }
@@ -3149,6 +3165,10 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
   	}
 	4 = { # stressed
 		factor = 100
@@ -3164,6 +3184,10 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
   	}
 	5 = { # depressed
 		factor = 100
@@ -3178,6 +3202,10 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
   	}
 	6 = { # possessed
 		factor = 100
@@ -3189,12 +3217,20 @@
 			factor = 0
 			trait = infirm
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
   	}
 	7 = { # infirm
 		factor = 100
 		modifier = {
 			factor = 0
 			NOT = { trait = infirm }
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
   	}
 }
@@ -3212,7 +3248,7 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
-				trait = syphilitic
+				trait = has_aztec_disease
 				trait = leper
 			}
 		}
@@ -3223,7 +3259,7 @@
 			factor = 0
 			NOR = {
 				trait = has_bubonic_plague
-				trait = syphilitic
+				trait = has_aztec_disease
 			}
 		}
 		modifier = {
@@ -3244,7 +3280,7 @@
 			factor = 0
 			OR = {
 				trait = has_bubonic_plague
-				trait = syphilitic
+				trait = has_aztec_disease
 				trait = leper
 			}
 		}
@@ -3264,9 +3300,13 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
-				trait = syphilitic
+				trait = has_aztec_disease
 				trait = leper
 			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
  	}
  	4 = { # leper
@@ -3317,6 +3357,10 @@
 		modifier = {
 			factor = 0
 			trait = blinded
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
 	}
 	3 =  { #blinded and lunatic
