@@ -423,13 +423,13 @@ iranian = {
 		graphical_cultures = {persiangfx} 
 	}
 	pashtun = { # a.k.a. Afghani
-		graphical_cultures = {persiangfx} 
+		graphical_cultures = {afghangfx persiangfx} 
 	}
 	afghan = { # a.k.a. Pashtun ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = { persiangfx } #arabicgfx
+		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 	baloch = {
-		graphical_cultures = {persiangfx} 
+		graphical_cultures = {afghangfx persiangfx} 
 	}
 	qufs = {
 		graphical_cultures = {persiangfx} 
@@ -627,7 +627,7 @@ dravidian_group = {
 	}
 	
 	brahui = { # Dravidian
-		graphical_cultures = {sindhigfx indiangfx}
+		graphical_cultures = {southindiangfx indiangfx}
 	}
 	
 	kannada = { # Dravidian
