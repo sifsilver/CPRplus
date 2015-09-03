@@ -24,12 +24,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-	spriteType = {
-		name = "GFX_somali_female_headgear"
-		texturefile = "gfx\\characters\\somali_female\\somali_female_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 	
@@ -213,7 +207,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_african_female_hair:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_somali_female_headgear:p5:c5" 
+			"GFX_muslim_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -257,7 +251,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_african_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_somali_female_headgear:p5:c5" 
+			"GFX_muslim_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
@@ -301,7 +295,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_african_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_somali_female_headgear:p5:c5" 
+			"GFX_muslim_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11"
 		}
