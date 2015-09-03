@@ -52,20 +52,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-	spriteType = {
-		name = "GFX_sogdian_female_headgear_behind"
-		texturefile = "gfx\\characters\\sogdian_female\\sogdian_female_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_sogdian_female_headgear"
-		texturefile = "gfx\\characters\\sogdian_female\\sogdian_female_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
 
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
@@ -255,7 +241,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_ear:d7"
 			"GFX_persian_female_clothes:p3:c2"
-			"GFX_sogdian_female_headgear_mid:p5:c3"
+			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_turkish_female_hair:p1:o-2x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_female_headgear:p5:c5"
@@ -306,7 +292,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_ear_midage:d7"		
 			"GFX_persian_female_clothes:p3:c2"
-			"GFX_sogdian_female_headgear_mid:p5:c3"
+			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_turkish_female_hair_midage:p1:o-2x-1:h:y"				
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_female_headgear:p5:c5"
@@ -357,7 +343,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_ear_oldage:d7"		
 			"GFX_persian_female_clothes:p3:c2"
-			"GFX_sogdian_female_headgear_mid:p5:c3"
+			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_turkish_female_hair_oldage:p1:o-2x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_female_headgear:p5:c5"

@@ -74,28 +74,7 @@ spriteTypes = {
 		noOfFrames = 14
 		norefcount = yes
 	}
-
-	spriteType = {
-		name = "GFX_afghan_male_beard_behind"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_beard_behind_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_beard_behind_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_beard_behind_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
+	
 	
 	spriteType = {
 		name = "GFX_afghan_male_cheeks"
@@ -326,7 +305,7 @@ spriteTypes = {
 			"GFX_indian_male_clothes_behind:p3:c0"
 			"GFX_persian_male_headgear_behind:p5:c1"
 			"GFX_indian_male_hair_behind:p1:h:y"
-			"GFX_afghan_male_beard_behind:p4:h:y"
+			"GFX_persian_male_beard_behind:p4:h:y"
 			"GFX_afghan_male_base:p2"					
 			"GFX_afghan_male_neck:d0"
 			"GFX_afghan_male_chin:d1"
@@ -377,7 +356,7 @@ spriteTypes = {
 			"GFX_indian_male_clothes_behind:p3:c0"
 			"GFX_persian_male_headgear_behind:p5:c1"
 			"GFX_indian_male_hair_behind_midage:p1:h:y"
-			"GFX_afghan_male_beard_behind_midage:p4:h:y"
+			"GFX_persian_male_beard_behind_midage:p4:h:y"
 			"GFX_afghan_male_base_midage:p2"
 			"GFX_afghan_male_neck_midage:d0"
 			"GFX_afghan_male_chin_midage:d1"
@@ -428,7 +407,7 @@ spriteTypes = {
 			"GFX_indian_male_clothes_behind:p3:c0"
 			"GFX_persian_male_headgear_behind:p5:c1"
 			"GFX_indian_male_hair_behind_oldage:p1:h:y"
-			"GFX_afghan_male_beard_behind_oldage:p4:h:y"
+			"GFX_persian_male_beard_behind_oldage:p4:h:y"
 			"GFX_afghan_male_base_oldage:p2"
 			"GFX_afghan_male_neck_oldage:d0"
 			"GFX_afghan_male_chin_oldage:d1"
@@ -471,20 +450,6 @@ spriteTypes = {
 	}
 
 #### afghan FEMALE ####
-
-	spriteType = {
-		name = "GFX_afghan_female_clothes_behind"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_female_headgear_behind"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_afghan_female_hair_behind"
@@ -686,13 +651,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_afghan_female_clothes"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_clothes.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_afghan_female_hair"
 		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_1.dds"
 		noOfFrames = 10
@@ -710,13 +668,6 @@ spriteTypes = {
 		name = "GFX_afghan_female_hair_oldage"
 		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_3.dds"
 		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_afghan_female_headgear"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_headgear.dds"
-		noOfFrames = 12
 		norefcount = yes
 	}
 
