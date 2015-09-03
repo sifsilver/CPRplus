@@ -176,13 +176,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_centralindian_male_eyes2"
-		texturefile = "gfx\\characters\\centralindian_male\\centralindian_male_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_centralindian_male_ear"
 		texturefile = "gfx\\characters\\centralindian_male\\centralindian_male_ear_1.dds"
 		noOfFrames = 4
@@ -229,7 +222,7 @@ spriteTypes = {
 			"GFX_centralindian_male_mouth:d2"
 			"GFX_centralindian_male_nose:d3"
 			"GFX_centralindian_male_eyes:d6"
-			"GFX_centralindian_male_eyes2:d6:e"
+			"GFX_indian_male_eyes2:d6:e"
 			"GFX_indian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"	
 			"GFX_centralindian_male_ear:d7"	
@@ -280,7 +273,7 @@ spriteTypes = {
 			"GFX_centralindian_male_mouth_midage:d2"
 			"GFX_centralindian_male_nose_midage:d3"
 			"GFX_centralindian_male_eyes_midage:d6"
-			"GFX_centralindian_male_eyes2:d6:e"
+			"GFX_indian_male_eyes2:d6:e"
 			"GFX_indian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_centralindian_male_ear_midage:d7"
@@ -331,7 +324,7 @@ spriteTypes = {
 			"GFX_centralindian_male_mouth_oldage:d2"
 			"GFX_centralindian_male_nose_oldage:d3"
 			"GFX_centralindian_male_eyes_oldage:d6"
-			"GFX_centralindian_male_eyes2:d6:e"			
+			"GFX_indian_male_eyes2:d6:e"			
 			"GFX_indian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_centralindian_male_ear_oldage:d7"
@@ -523,13 +516,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_centralindian_female_eyes2"
-		texturefile = "gfx\\characters\\centralindian_female\\centralindian_female_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_centralindian_female_ear"
@@ -575,7 +561,7 @@ spriteTypes = {
 			"GFX_centralindian_female_chin:d1"
 			"GFX_centralindian_female_cheeks:d4"
 			"GFX_centralindian_female_eyes:d6"
-			"GFX_centralindian_female_eyes2:d6:e"
+			"GFX_indian_female_eyes2:d6:e"
 			"GFX_centralindian_female_ear:d7"			
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_hair:p1:h:y"
@@ -624,7 +610,7 @@ spriteTypes = {
 			"GFX_centralindian_female_chin_midage:d1"
 			"GFX_centralindian_female_cheeks_midage:d4"
 			"GFX_centralindian_female_eyes_midage:d6"
-			"GFX_centralindian_female_eyes2:d6:e"
+			"GFX_indian_female_eyes2:d6:e"
 			"GFX_centralindian_female_ear_midage:d7"		
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_hair_midage:p1:h:y"			
@@ -673,7 +659,7 @@ spriteTypes = {
 			"GFX_centralindian_female_chin_oldage:d1"
 			"GFX_centralindian_female_cheeks_oldage:d4"
 			"GFX_centralindian_female_eyes_oldage:d6"
-			"GFX_centralindian_female_eyes2:d6:e"
+			"GFX_indian_female_eyes2:d6:e"
 			"GFX_centralindian_female_ear_oldage:d7"			
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_headgear_mid:p5:c3"

@@ -150,13 +150,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_andalusian_male_eyes2"
-		texturefile = "gfx\\characters\\andalusian_male\\andalusian_male_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_andalusian_male_ear"
 		texturefile = "gfx\\characters\\andalusian_male\\andalusian_male_ear_1.dds"
 		noOfFrames = 4
@@ -330,13 +323,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_andalusian_female_eyes2"
-		texturefile = "gfx\\characters\\andalusian_female\\andalusian_female_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_andalusian_female_ear"
 		texturefile = "gfx\\characters\\andalusian_female\\andalusian_female_ear_1.dds"
 		noOfFrames = 4
@@ -393,7 +379,7 @@ spriteTypes = {
 			"GFX_andalusian_male_mouth:d2"
 			"GFX_andalusian_male_nose:d3"
 			"GFX_andalusian_male_eyes:d6"
-			"GFX_andalusian_male_eyes2:d6:e"
+			"GFX_southern_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -449,7 +435,7 @@ spriteTypes = {
 			"GFX_andalusian_male_mouth_midage:d2"
 			"GFX_andalusian_male_nose_midage:d3"
 			"GFX_andalusian_male_eyes_midage:d6"
-			"GFX_andalusian_male_eyes2:d6:e"
+			"GFX_southern_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -504,7 +490,7 @@ spriteTypes = {
 			"GFX_andalusian_male_mouth_oldage:d2"
 			"GFX_andalusian_male_nose_oldage:d3"
 			"GFX_andalusian_male_eyes_oldage:d6"
-			"GFX_andalusian_male_eyes2:d6:e"
+			"GFX_southern_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -558,7 +544,7 @@ spriteTypes = {
 			"GFX_andalusian_male_mouth:d2"
 			"GFX_andalusian_male_nose:d3"
 			"GFX_andalusian_male_eyes:d6"
-			"GFX_andalusian_male_eyes2:d6:e"
+			"GFX_southern_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -614,7 +600,7 @@ spriteTypes = {
 			"GFX_andalusian_male_mouth_midage:d2"
 			"GFX_andalusian_male_nose_midage:d3"
 			"GFX_andalusian_male_eyes_midage:d6"
-			"GFX_andalusian_male_eyes2:d6:e"
+			"GFX_southern_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -669,7 +655,7 @@ spriteTypes = {
 			"GFX_andalusian_male_mouth_oldage:d2"
 			"GFX_andalusian_male_nose_oldage:d3"
 			"GFX_andalusian_male_eyes_oldage:d6"
-			"GFX_andalusian_male_eyes2:d6:e"
+			"GFX_southern_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -723,7 +709,7 @@ spriteTypes = {
 			"GFX_andalusian_female_cheeks:d4"
 			"GFX_andalusian_female_mouth:d2"
 			"GFX_andalusian_female_eyes:d6"
-			"GFX_andalusian_female_eyes2:d6:e"
+			"GFX_southern_female_eyes2:d6:e"
 			"GFX_andalusian_female_nose:d3"
 			"GFX_andalusian_female_ear:d7"
 			"GFX_character_scars:p7:y"
@@ -775,7 +761,7 @@ spriteTypes = {
 			"GFX_andalusian_female_cheeks_midage:d4"
 			"GFX_andalusian_female_mouth_midage:d2"
 			"GFX_andalusian_female_eyes_midage:d6"
-			"GFX_andalusian_female_eyes2:d6:e"
+			"GFX_southern_female_eyes2:d6:e"
 			"GFX_andalusian_female_nose_midage:d3"
 			"GFX_andalusian_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
@@ -827,7 +813,7 @@ spriteTypes = {
 			"GFX_andalusian_female_cheeks_oldage:d4"
 			"GFX_andalusian_female_mouth_oldage:d2"
 			"GFX_andalusian_female_eyes_oldage:d6"
-			"GFX_andalusian_female_eyes2:d6:e"
+			"GFX_southern_female_eyes2:d6:e"
 			"GFX_andalusian_female_nose_oldage:d3"
 			"GFX_andalusian_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
@@ -880,7 +866,7 @@ spriteTypes = {
 			"GFX_andalusian_female_cheeks:d4"
 			"GFX_andalusian_female_mouth:d2"
 			"GFX_andalusian_female_eyes:d6"
-			"GFX_andalusian_female_eyes2:d6:e"
+			"GFX_southern_female_eyes2:d6:e"
 			"GFX_andalusian_female_nose:d3"
 			"GFX_andalusian_female_ear:d7"
 			"GFX_character_scars:p7:y"
@@ -932,7 +918,7 @@ spriteTypes = {
 			"GFX_andalusian_female_cheeks_midage:d4"
 			"GFX_andalusian_female_mouth_midage:d2"
 			"GFX_andalusian_female_eyes_midage:d6"
-			"GFX_andalusian_female_eyes2:d6:e"
+			"GFX_southern_female_eyes2:d6:e"
 			"GFX_andalusian_female_nose_midage:d3"
 			"GFX_andalusian_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
@@ -984,7 +970,7 @@ spriteTypes = {
 			"GFX_andalusian_female_cheeks_oldage:d4"
 			"GFX_andalusian_female_mouth_oldage:d2"
 			"GFX_andalusian_female_eyes_oldage:d6"
-			"GFX_andalusian_female_eyes2:d6:e"
+			"GFX_southern_female_eyes2:d6:e"
 			"GFX_andalusian_female_nose_oldage:d3"
 			"GFX_andalusian_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
