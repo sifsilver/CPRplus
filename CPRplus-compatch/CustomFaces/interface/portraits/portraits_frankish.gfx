@@ -186,13 +186,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_frankish_male_eyes2"
-		texturefile = "gfx\\characters\\frankish_male\\frankish_male_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_frankish_male_ear"
@@ -396,13 +389,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_frankish_female_eyes2"
-		texturefile = "gfx\\characters\\frankish_female\\frankish_female_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_frankish_female_ear"
@@ -458,7 +444,7 @@ spriteTypes = {
 			"GFX_frankish_male_mouth:d2:o75x49"
 			"GFX_frankish_male_nose:d3:o80x65"
 			"GFX_frankish_male_eyes:d6:o47x74"
-			"GFX_frankish_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -523,7 +509,7 @@ spriteTypes = {
 			"GFX_frankish_male_mouth_midage:d2:o80x51"
 			"GFX_frankish_male_nose_midage:d3:o81x65"
 			"GFX_frankish_male_eyes_midage:d6:o46x74"
-			"GFX_frankish_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -588,7 +574,7 @@ spriteTypes = {
 			"GFX_frankish_male_mouth_oldage:d2:o75x52"
 			"GFX_frankish_male_nose_oldage:d3:o80x66"
 			"GFX_frankish_male_eyes_oldage:d6:o46x73"
-			"GFX_frankish_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -652,7 +638,7 @@ spriteTypes = {
 			"GFX_frankish_female_mouth:d2:o72x48"
 			"GFX_frankish_female_nose:d3:o80x65"
 			"GFX_frankish_female_eyes:d6:o49x79"
-			"GFX_frankish_female_eyes2:d6:e:o72x88"
+			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -715,7 +701,7 @@ spriteTypes = {
 			"GFX_frankish_female_mouth_midage:d2:o72x49"
 			"GFX_frankish_female_nose_midage:d3:o80x64"			
 			"GFX_frankish_female_eyes_midage:d6:o46x76"
-			"GFX_frankish_female_eyes2:d6:e:o72x88"
+			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -778,7 +764,7 @@ spriteTypes = {
 			"GFX_frankish_female_mouth_oldage:d2:o72x50"
 			"GFX_frankish_female_nose_oldage:d3:o79x64"			
 			"GFX_frankish_female_eyes_oldage:d6:o47x74"
-			"GFX_frankish_female_eyes2:d6:e:o72x88"
+			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -845,7 +831,7 @@ spriteTypes = {
 			"GFX_frankish_male_mouth:d2:o75x49"
 			"GFX_frankish_male_nose:d3:o80x65"
 			"GFX_frankish_male_eyes:d6:o47x74"
-			"GFX_frankish_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -912,7 +898,7 @@ spriteTypes = {
 			"GFX_frankish_male_mouth_midage:d2:o80x51"
 			"GFX_frankish_male_nose_midage:d3:o81x65"
 			"GFX_frankish_male_eyes_midage:d6:o46x74"
-			"GFX_frankish_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -978,7 +964,7 @@ spriteTypes = {
 			"GFX_frankish_male_mouth_oldage:d2:o75x52"
 			"GFX_frankish_male_nose_oldage:d3:o80x66"
 			"GFX_frankish_male_eyes_oldage:d6:o46x73"
-			"GFX_frankish_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -1048,7 +1034,7 @@ spriteTypes = {
 			"GFX_frankish_female_mouth:d2:o72x48"
 			"GFX_frankish_female_nose:d3:o80x65"
 			"GFX_frankish_female_eyes:d6:o49x79"
-			"GFX_frankish_female_eyes2:d6:e:o72x88"
+			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -1111,7 +1097,7 @@ spriteTypes = {
 			"GFX_frankish_female_mouth_midage:d2:o72x49"
 			"GFX_frankish_female_nose_midage:d3:o80x64"			
 			"GFX_frankish_female_eyes_midage:d6:o46x76"
-			"GFX_frankish_female_eyes2:d6:e:o72x88"
+			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -1174,7 +1160,7 @@ spriteTypes = {
 			"GFX_frankish_female_mouth_oldage:d2:o72x50"
 			"GFX_frankish_female_nose_oldage:d3:o79x64"			
 			"GFX_frankish_female_eyes_oldage:d6:o47x74"
-			"GFX_frankish_female_eyes2:d6:e:o72x88"
+			"GFX_german_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
