@@ -330,11 +330,11 @@ iranian = {
 	}
 	
 	afghan = { # a.k.a. Pashtun
-		graphical_cultures = { sogdiangfx persiangfx } #arabicgfx
+		graphical_cultures = { afghangfx } #arabicgfx
 	}
 	
 	baloch = {
-		graphical_cultures = { persiangfx } #arabicgfx
+		graphical_cultures = { afghangfx } #arabicgfx
 	}
 }
 

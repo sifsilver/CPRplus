@@ -101,3 +101,6 @@ southindiangfx = {
 somaligfx = {
 	skin_tone = 3
 }
+afghangfx = {
+	skin_tone = 2
+}

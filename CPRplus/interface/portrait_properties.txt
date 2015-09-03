@@ -3,20 +3,41 @@
 # p0 background
 0 = {
 	0 = { # castle 1
-		factor = 3
+		factor = 1
 		modifier = {
-			factor = 0
-			NOT = { religion_group = christian }
+			factor = 2
+			location = {
+				region = world_europe
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
+				}
+			}
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
 			location = {
-				any_province_holding = {
-					holding_type = nomad
+				NOR = {
+					holding_type = castle
+					holding_type = city
 				}
+			}
+			NOR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
 			}
 		}
 	}
@@ -30,9 +51,16 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_nomadic = yes
-				is_tribal = yes
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					holding_type = nomad
+					holding_type = tribal
+				}
 			}
 		}
 	}
@@ -50,6 +78,7 @@
 			NOR = {
 				death_reason = death_dungeon
 				death_reason = death_execution
+				death_reason = death_sacrificed
 			}
 		}
 	}
@@ -59,27 +88,52 @@
 		modifier = {
 			factor = 0
 			location = {
-				OR = {
-					region = world_india
-					region = world_middle_east
+				NOR = {
+					region = world_europe
+					region = world_asia_minor
 				}
 			}
 		}
 		modifier = {
-			factor = 0.01
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
+			factor = 0
 			location = {
-				any_province_holding = {
-					holding_type = nomad
+				OR = {
+					terrain = marsh
+					terrain = desert
+					terrain = arctic
+					terrain = plains
+					terrain = steppe
 				}
 			}
 		}
 		modifier = {
 			factor = 2
-			is_tribal = yes
+			location = {
+				OR = {
+					terrain = woods
+					terrain = forest
+				}
+			}
 		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
+		}
+		#modifier = {
+		#	factor = 0.01
+		#	is_feudal = no
+		#	is_theocracy = no
+		#	is_republic = no
+		#	location = {
+		#		any_province_holding = {
+		#			holding_type = nomad
+		#		}
+		#	}
+		#}
+		#modifier = {
+		#	factor = 2
+		#	is_tribal = yes
+		#}
 	}
 
 	4 = { # bed
@@ -89,6 +143,10 @@
 			is_alive = yes
 			NOT = { trait = incapable }
 			NOT = { trait = infirm }
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
 		}
 		modifier = {
 			factor = 0.001
@@ -105,37 +163,37 @@
 			is_alive = yes
 		}
 	}
-	
-	5 = { # tavern
-		factor = 3
+	5 = { # tavern - changed to tundra/snow
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { 
-				OR = {
-					trait = drunkard
-					trait = hedonist
-					trait = lustful
-				}
-			}
-		}
-		modifier = {
-			factor = 3
-			trait = drunkard
-		}
-		modifier = {
-			factor = 2
-			trait = hedonist
-		}
-		modifier = {
-			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
-					holding_type = nomad
+				NOR	= {
+					region = world_europe_north
+					region = world_europe_east
+					region = world_steppe
 				}
 			}
+		}
+		modifier = {
+			factor = 1.5
+			location = { terrain = arctic }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					region = world_steppe_tarim
+					terrain = steppe
+					terrain = plains
+					terrain = farmlands
+					terrain = desert
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
 		}
 	}
 	6 = { # military camp
@@ -145,7 +203,8 @@
 			OR = {
 				AND = {
 					is_alive = yes
-					in_command = no
+					#in_command = no
+					NOT = { siege = { is_attacker = yes } }
 					#NOT = { has_job_title  = job_marshal }
 				}
 				AND = {
@@ -154,40 +213,37 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_nomadic = yes
-				AND = {
-					liege = { is_nomadic = yes }
-					is_ruler = no
-				}
-			}
-			war = no
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		is_nomadic = yes
+		#		AND = {
+		#			liege = { is_nomadic = yes }
+		#			is_ruler = no
+		#		}
+		#	}
+		#	war = no
+		#}
 		#modifier = {
 		#	factor = 0.02
 		#	in_command = no
 		#	has_job_title = job_marshal
 		#}
 	}
-	7 = { # Dolmen
-		factor = 1
+	7 = { # Dolmen - changed to African village
+		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
+			location = {
+				NOR = {
+					region = world_africa_east
+					region = world_africa_west
+				}
+			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { culture_group = celtic }
-		}
-		modifier = {
-			factor = 100
-			is_alive = no
-		}
-		modifier = {
-			factor = 5
-			is_priest = yes
+			location = { terrain = desert }
 		}
 	}
 	8 = { # Gallows - changed to African savanna
@@ -195,23 +251,28 @@
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_africa_east }
-				NOT = { region = world_africa_west }
+				NOR = {
+					region = world_africa_east
+					region = world_africa_west
 				}
 			}
+		}
 		modifier = {
-			factor = 3
-			location = { region = world_africa_west }
+			factor = 0
+			location = { terrain = desert }
+		}
+		modifier = {
+			factor = 1.5
+			location = { region = world_africa_east }
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
 		}
 		modifier = {
 			factor = 2
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
-					holding_type = nomad
-				}
+				holding_type = nomad
 			}
 		}
 	}
@@ -227,20 +288,23 @@
 		#}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
 			location = {
-				any_province_holding = {
-					holding_type = nomad
-				}
+				holding_type = nomad
 			}
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
+			NOR = {
+				is_theocracy = yes
+				trait = zealot
+				trait = monk
+				trait = nun
+				trait = theologian
 			}
 		}
 		modifier = {
@@ -249,27 +313,49 @@
 		}
 	}
 	10 = { # Desert
-		factor = 3
+		factor = 1
+		modifier = {
+			factor = 0.5
+			location = {
+				OR = {
+					region = world_africa
+					region = world_middle_east
+					region = world_persia
+					region = world_asia_minor
+					region = world_steppe_tarim
+				}
+			}
+			location = { NOT = { terrain = desert } }
+		}
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_africa }
-				NOT = { region = world_middle_east }
-				NOT = { region = world_persia }
-			}
-			#NOT = { capital_scope = { terrain = desert } }
-			#NOT = { capital_scope = { terrain = coastal_desert } }
-		}
-		modifier = {
-			factor = 0.5
-			location = { region = world_persia }
-		}
-		modifier = {
-			factor = 3
-			location = {
-				any_province_holding = {
-					holding_type = nomad
+				NOR = {
+					region = world_africa
+					region = world_middle_east
+					region = world_persia
+					region = world_asia_minor
+					region = world_steppe_tarim
 				}
+			}
+			location = { NOT = { terrain = desert } }
+		}
+		modifier = {
+			factor = 2
+			location = { terrain = desert }
+		}
+		modifier = {
+			factor = 0
+			location = { terrain = marsh }
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
+		}
+		modifier = {
+			factor = 5
+			location = {
+				holding_type = nomad
 			}
 		}
 	}
@@ -278,159 +364,166 @@
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_steppe }
+				NOR = {
+					region = world_steppe
+					region = world_europe
+				}
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0
+			location = {
+				region = world_steppe
+				NOR = {
+					terrain = steppe
+					terrain = plains
+					terrain = hills
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				region = world_europe
+				NOT = { terrain = steppe }
+			}
+		}
+		modifier = {
+			factor = 3
 			is_ruler = no
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_feudal = yes
-				is_theocracy = yes
-				is_republic = yes
-			}
+			siege = { is_attacker = no }
+		}
+	}
+	12 = { # Ocean w ships
+		factor = 1
+		modifier = {
+			factor = 0
 			location = {
-				NOT = {
-					any_province_holding = {
-						holding_type = nomad
-					}
+				NOR = {
+					port = yes
+					is_land = no
 				}
 			}
 		}
 		modifier = {
-			factor = 0.5
-			OR = {
-				is_feudal = yes
-				is_theocracy = yes
-				is_republic = yes
-			}
-		}
-	}
-	12 = { # Ocean w ships - changed to tundra/snow
-		factor = 2
-		#modifier = {
-			#factor = 0
-			#NOT = { location = { terrain = ocean } }
-		#}
-		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_europe_north }
-				NOT = { region = world_europe_east }
+				holding_type = nomad
 			}
 		}
 		modifier = {
-			factor = 2
-			location = { region = world_europe_north }
+			factor = 0
+			is_alive = no
 		}
 	}
 	13 = { # Muslim interior
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_africa }
-				NOT = { region = world_middle_east }
-				NOT = { region = world_persia }
-				NOT = { region = world_india }
-				NOT = { region = world_steppe }
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = zoroastrian_group }
-				NOT = { religion_group = indian_group }
+				NOR = {
+					religion_group = muslim
+					religion_group = indian_group
+				}
 			}
 		}
 		modifier = {
-			factor = 4
-			location = { region = world_europe_west_iberia }
+			factor = 0
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
 		}
-
 		modifier = {
-			factor = 2
-			location = { region = world_europe_south_italy }
+			factor = 5
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
+				}
+			}
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
-					holding_type = nomad
+				NOR = {
+					holding_type = castle
+					holding_type = city
 				}
+			}
+			NOR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
 			}
 		}
 	}
-	14 = { # Harem
-		factor = 1
+	14 = { # Harem - changed to mountain
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_africa }
-				NOT = { region = world_middle_east }
-				NOT = { region = world_persia }
-				NOT = { region = world_india }
-				NOT = { region = world_steppe }
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = zoroastrian_group }
-				NOT = { religion_group = indian_group }
-			}
-		}
-		modifier = {
-			factor = 4
-			location = { region = world_europe_west_iberia }
-		}
-
-		modifier = {
-			factor = 2
-			location = { region = world_europe_south_italy }
-		}
-		modifier = {
-			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
-			location = {
-				any_province_holding = {
-					holding_type = nomad
+				NOR = {
+					terrain = mountain
+					terrain = hills
 				}
 			}
+		}
+		modifier = {
+			factor = 1.5
+			location = { terrain = mountain }
+		}
+		modifier = {
+			factor = 0
+			location = { terrain = arctic }
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
 		}
 	}
 	15 = { # Muslim interior 2
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_africa }
-				NOT = { region = world_middle_east }
-				NOT = { region = world_persia }
-				NOT = { region = world_india }
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = zoroastrian_group }
-				NOT = { religion_group = indian_group }
+				NOR = {
+					religion_group = muslim
+					religion_group = indian_group
+				}
 			}
 		}
 		modifier = {
-			factor = 4
-			location = { region = world_europe_west_iberia }
+			factor = 0
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
 		}
-
 		modifier = {
-			factor = 2
-			location = { region = world_europe_south_italy }
+			factor = 5
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
+				}
+			}
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
-					holding_type = nomad
+				NOR = {
+					holding_type = castle
+					holding_type = city
 				}
+			}
+			NOR = {
+				is_feudal = yes
+				is_theocracy = yes
+				is_republic = yes
 			}
 		}
 	}
@@ -440,72 +533,70 @@
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_steppe }
-			}
-		}
-		modifier = {
-			factor = 2
-			is_nomadic = yes
-			is_ruler = yes
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_feudal = yes
-				is_theocracy = yes
-				is_republic = yes
-			}
-			location = {
 				NOT = {
-					any_province_holding = {
-						holding_type = nomad
-					}
+					holding_type = nomad
 				}
 			}
 		}
 		modifier = {
-			factor = 0.5
-			OR = {
-				is_feudal = yes
-				is_theocracy = yes
-				is_republic = yes
+			factor = 0
+			NOT = { siege = { is_attacker = no } }
+			location = {
+				OR = {
+					terrain = arctic
+					terrain = mountain
+					terrain = desert
+					terrain = jungle
+					terrain = marsh
+				}
 			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
 		}
 	}
 
-	17 = { # Mongol camp 2
-		factor = 1
+	17 = { # Mongol camp 2 - changed to "tribal" interior 
+		factor = 2
 		modifier = {
-			factor = 0
-			location = {
-				NOT = { region = world_steppe }
-			}
-		}
-		modifier = {
-			factor = 2
-			is_nomadic = yes
-		}
-		modifier = {
-			factor = 0
+			factor = 10
 			OR = {
-				is_feudal = yes
-				is_theocracy = yes
-				is_republic = yes
-			}
-			location = {
-				NOT = {
-					any_province_holding = {
-						holding_type = nomad
-					}
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
 				}
 			}
 		}
 		modifier = {
-			factor = 0.5
-			OR = {
-				is_feudal = yes
-				is_theocracy = yes
-				is_republic = yes
+			factor = 0
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				NOR = {
+					holding_type = tribal
+					AND = {
+						holding_type = temple
+						religion_group = pagan_group
+					}
+				}
 			}
 		}
 	}
@@ -516,8 +607,13 @@
 			factor = 0
 			NOT = { has_landed_title = k_papal_state }
 			NOT = { has_landed_title = d_fraticelli }
-			NOT = { has_claim = k_papal_state }
-			NOT = { has_claim = d_fraticelli }
+			#NOT = { has_claim = k_papal_state }
+			#NOT = { has_claim = d_fraticelli }
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
 		}
 	}
 
@@ -529,59 +625,112 @@
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
 			location = {
-				any_province_holding = {
+				OR = {
 					holding_type = nomad
+					holding_type = tribal
 				}
 			}
 		}
 		modifier = {
-			factor = 2
-			is_ruler = yes
+			factor = 5
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
+				}
+			}
 		}
 		modifier = {
 			factor = 2
 			trait = zealous
 		}
+		modifier = {
+			factor = 2
+			OR = {
+				trait = zealous
+				trait = faqih
+			}
+		}
 	}
 
-	20 = { # Pagan human sacrifice
-		factor = 3
+	20 = { # Pagan human sacrifice - changed to "meadow"
+		factor = 1
 		modifier = {
 			factor = 0
-			NOR = {
-				AND = {
-					religion_group = pagan_group
-					is_priest = yes
+			location = {
+				NOR = {
+					region = world_europe
+					region = world_asia_minor
+					region = world_steppe_west
+					region = world_india
 				}
-				death_reason = death_sacrificed
 			}
 		}
 		modifier = {
-			factor = 200
-			death_reason = death_sacrificed
+			factor = 0
+			location = {
+				OR = {
+					terrain = arctic
+					terrain = desert
+					terrain = steppe
+					terrain = mountain
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			location = {
+				OR = {
+					terrain = plains
+					terrain = woods
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
 		}
 	}
 
-	21 = { # Celtic Green
-		factor = 2
+	21 = { # Celtic Green - used as generic European hills
+		factor = 1
 		modifier = {
 			factor = 0
-			location = { NOT = { region = world_europe_west_brittania } }
+			location = { NOT = { region = world_europe } }
 		}
 		modifier = {
-			factor = 0.5
-			NOT = { culture = irish }
-			NOT = { culture = scottish }
-			NOT = { culture = cumbrian }
-			NOT = { culture = pictish }
+			factor = 0
+			location = {
+				OR = {
+					terrain = arctic
+					terrain = desert
+					terrain = steppe
+					terrain = forest
+					terrain = marsh
+					terrain = mountain
+				}
+			}
 		}
 		modifier = {
-			factor = 1.5
-			culture_group = celtic
+			factor = 2
+			location = {
+				OR = {
+					terrain = farmlands
+					terrain = hills
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
 		}
 	}
 
@@ -596,55 +745,63 @@
 			NOT = { culture_group = celtic }
 		}
 		modifier = {
-			factor = 1.5
-			culture_group = celtic
-			is_ruler = yes
+			factor = 2
+			location = { culture_group = celtic }
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_ruler = no
+				}
+			}
 		}
 	}
 	
 	23 = { # Alhambra
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_europe_west_iberia }
-				NOT = { region = world_africa_north }
+				NOR = {
+					region = world_europe_west_iberia
+					region = world_africa_north
+				}
 			}
 		}
 		modifier = {
-			factor = 1.5
-			location = { region = world_europe_west_iberia }
+			factor = 0
+			location = { NOT = { religion_group = muslim } }
 		}
 		modifier = {
-			factor = 0.5
-			NOT = { culture = andalusian_arabic }
+			factor = 2
+			location = { culture_group = andalusian_arabic }
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
+				OR = {
 					holding_type = nomad
+					holding_type = tribal
 				}
 			}
 		}
 	}
 	
 	24 = { # Mediterranean Villa
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_europe_west_iberia }
-				#NOT = { region = world_africa_north }
-				NOT = { region = world_europe_west_francia }
-				NOT = { region = world_europe_south }
+				NOR = {
+					region = world_europe_west_iberia
+					#region = world_europe_west_francia
+					region = world_europe_south
+				}
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			location = {
 				OR = {
 					region = world_europe_south_italy
@@ -654,12 +811,10 @@
 		}
 		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
+				OR = {
 					holding_type = nomad
+					holding_type = tribal
 				}
 			}
 		}
@@ -672,40 +827,47 @@
 			location = { NOT = { region = world_india } }
 		}
 		modifier = {
+			factor = 1.5
+			religion_group = indian_group
+		}
+		modifier = {
 			factor = 0
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
+				OR = {
 					holding_type = nomad
+					holding_type = tribal
 				}
 			}
 		}
 	}
 	
-	26 = { # African Savanna 2
+	26 = { # African Savanna 2 - changed to African desert
 		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOT = { region = world_africa_west }
-				NOT = { region = world_africa_east }
+				NOR = {
+					region = world_africa_west
+					region = world_africa_east
+				}
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			location = { region = world_africa_west }
 		}
 		modifier = {
+			factor = 0
+			location = { terrain = mountain }
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
+		}
+		modifier = {
 			factor = 2
-			is_feudal = no
-			is_theocracy = no
-			is_republic = no
 			location = {
-				any_province_holding = {
-					holding_type = nomad
-				}
+				holding_type = nomad
 			}
 		}
 	}
@@ -2823,12 +2985,19 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			OR = {
 				trait = wounded
 				trait = scarred
 				trait = maimed
 				trait = incapable
 			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			trait = maimed
+			death_reason = death_accident
 		}
    	}
 
@@ -2915,6 +3084,11 @@
 			factor = 0
 			trait = incapable
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOT = { death_reason = death_accident }
+		}
    	}
 	6 = { # incapable
 		factor = 100
@@ -2923,6 +3097,10 @@
 			NOT = {
 				trait = incapable
 			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
    	}
 }
@@ -2933,6 +3111,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			OR = {
 				trait = fair
 				trait = ugly
@@ -2941,6 +3120,26 @@
 				trait = depressed
 				trait = possessed
 				trait = infirm
+			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			OR = {
+				trait = fair
+				trait = ugly
+				AND = {
+					trait = drunkard
+					has_nickname = nick_the_drunkard
+				}
+				AND = {
+					trait = possessed
+					OR = {
+						has_nickname = nick_the_accursed
+						has_nickname = nick_the_wicked
+						has_nickname = nick_the_bewitched
+					}
+				}
 			}
 		}
  	}
@@ -2994,6 +3193,11 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOT = { has_nickname = nick_the_drunkard }
+		}
   	}
 	4 = { # stressed
 		factor = 100
@@ -3009,6 +3213,10 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
   	}
 	5 = { # depressed
 		factor = 100
@@ -3023,6 +3231,10 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
   	}
 	6 = { # possessed
 		factor = 100
@@ -3034,12 +3246,25 @@
 			factor = 0
 			trait = infirm
 		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOR = {
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+			}
+		}
   	}
 	7 = { # infirm
 		factor = 100
 		modifier = {
 			factor = 0
 			NOT = { trait = infirm }
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
   	}
 }
@@ -3051,13 +3276,25 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			OR = {
 				trait = ill
 				trait = pneumonic
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
-				trait = syphilitic
+				trait = has_aztec_disease
+				trait = leper
+			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_measles
+				trait = has_small_pox
+				trait = has_aztec_disease
 				trait = leper
 			}
 		}
@@ -3068,7 +3305,7 @@
 			factor = 0
 			NOR = {
 				trait = has_bubonic_plague
-				trait = syphilitic
+				trait = has_aztec_disease
 			}
 		}
 		modifier = {
@@ -3089,7 +3326,7 @@
 			factor = 0
 			OR = {
 				trait = has_bubonic_plague
-				trait = syphilitic
+				trait = has_aztec_disease
 				trait = leper
 			}
 		}
@@ -3109,9 +3346,13 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
-				trait = syphilitic
+				trait = has_aztec_disease
 				trait = leper
 			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
 		}
  	}
  	4 = { # leper
@@ -3131,9 +3372,21 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			is_alive = yes
 			OR = {
 				trait = blinded
 				trait = lunatic
+			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			OR = {
+				trait = blinded
+				AND = {
+					trait = lunatic
+					has_nickname = nick_the_mad
+				}
 			}
 		}
 	}
@@ -3149,6 +3402,13 @@
 		modifier = {
 			factor = 0
 			trait = lunatic
+			is_alive = yes
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			trait = lunatic
+			has_nickname = nick_the_mad
 		}
 	}
 	2 =  { #lunatic
@@ -3162,6 +3422,15 @@
 		modifier = {
 			factor = 0
 			trait = blinded
+			is_alive = yes
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			OR = {
+				NOT = { has_nickname = nick_the_mad }
+				trait = blinded
+			}
 		}
 	}
 	3 =  { #blinded and lunatic
@@ -3172,6 +3441,11 @@
 				trait = blinded
 				trait = lunatic
 			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+			NOT = { has_nickname = nick_the_mad }
 		}
 	}
 }

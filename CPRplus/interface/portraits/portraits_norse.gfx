@@ -947,6 +947,13 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "GFX_norse_female_clothes_infront"
+		texturefile = "gfx\\characters\\norse_female\\norse_female_clothes_infront.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
 
 	spriteType = {
 		name = "GFX_norse_female_hair"
@@ -1040,7 +1047,7 @@ spriteTypes = {
 			"GFX_norse_female_ear:d7"			
 			"GFX_norse_female_clothes:p3:c2"
 			"GFX_norse_female_hair:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_norse_female_clothes_infront:p3:c4"
 			"GFX_character_scars:p7"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -1069,7 +1076,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# norse female midage
@@ -1097,7 +1104,7 @@ spriteTypes = {
 			"GFX_norse_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_midage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_norse_female_clothes_infront:p3:c4"
 			"GFX_norse_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -1121,7 +1128,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# norse female oldage
@@ -1149,7 +1156,7 @@ spriteTypes = {
 			"GFX_norse_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_oldage:p1:y"
-			"GFX_empty:p3:c4"
+			"GFX_norse_female_clothes_infront:p3:c4"
 			"GFX_norse_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -1167,7 +1174,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	
