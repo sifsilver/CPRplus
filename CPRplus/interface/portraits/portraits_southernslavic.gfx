@@ -22,6 +22,13 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_southernslavic_male_clothes_infront_early"
+		texturefile = "gfx\\characters\\southernslavic_male\\southernslavic_male_clothes_infront_early.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
 	
 	### Southern Slavic MALE ####
 	
@@ -216,7 +223,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_ear:d7"			
 			"GFX_byzantine_male_beard:o2x-4:p4:h:y"
 		   	"GFX_byzantine_male_hair:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -270,7 +277,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_ear_midage:d7"
 			"GFX_byzantine_male_beard_midage:o2x-4:p4:h:y"
 			"GFX_byzantine_male_hair_midage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -325,7 +332,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_ear_oldage:d7"
 			"GFX_byzantine_male_beard_oldage:o2x-4:p4:h:y"
 			"GFX_byzantine_male_hair_oldage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -406,7 +413,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Southern Slavic female midage
@@ -458,7 +465,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Southern Slavic female oldage
@@ -511,7 +518,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	portraitType = {
@@ -562,7 +569,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Southern Slavic female midage
@@ -614,7 +621,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Southern Slavic female oldage
@@ -667,7 +674,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }
