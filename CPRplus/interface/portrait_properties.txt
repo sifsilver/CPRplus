@@ -367,6 +367,7 @@
 				NOR = {
 					region = world_steppe
 					region = world_europe
+					region = world_persia
 				}
 			}
 		}
@@ -384,7 +385,10 @@
 		modifier = {
 			factor = 0
 			location = {
-				region = world_europe
+				OR = {
+					region = world_europe
+					region = world_persia
+				}
 				NOT = { terrain = steppe }
 			}
 		}
@@ -542,13 +546,13 @@
 			factor = 0
 			NOT = { siege = { is_attacker = no } }
 			location = {
-				OR = {
-					terrain = arctic
-					terrain = mountain
+				#OR = {
+				#	terrain = arctic
+				#	terrain = mountain
 					terrain = desert
-					terrain = jungle
-					terrain = marsh
-				}
+				#	terrain = jungle
+				#	terrain = marsh
+				#}
 			}
 		}
 		modifier = {
@@ -595,6 +599,10 @@
 					AND = {
 						holding_type = temple
 						religion_group = pagan_group
+					}
+					AND = {
+						holding_type = nomad
+						terrain = desert
 					}
 				}
 			}
@@ -2318,6 +2326,30 @@
 				trait = nun
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					real_tier = emperor
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						has_landed_title = e_tartaria
+						num_of_emperor_titles = 2
+						AND = {
+							num_of_emperor_titles = 1
+							num_of_king_titles = 4
+						}
+					}
+				}
+			}
+		}
 	}
 
 	# Royal crown/turban 2
@@ -2393,6 +2425,30 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					real_tier = emperor
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						has_landed_title = e_tartaria
+						num_of_emperor_titles = 2
+						AND = {
+							num_of_emperor_titles = 1
+							num_of_king_titles = 4
+						}
+					}
+				}
 			}
 		}
 	}
@@ -2472,6 +2528,30 @@
 				trait = nun
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					real_tier = emperor
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						has_landed_title = e_tartaria
+						num_of_emperor_titles = 2
+						AND = {
+							num_of_emperor_titles = 1
+							num_of_king_titles = 4
+						}
+					}
+				}
+			}
+		}
 	}
 
 	# Simple golden band/turban
@@ -2538,6 +2618,22 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+					}
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+				}
 			}
 		}
 	}
@@ -2722,6 +2818,26 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+						real_tier = duke
+					}
+					is_nomadic = no
+				}
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+					}
+					is_nomadic = yes
+				}
+			}
+		}
 	}
 
 	# Common headgear 3 - Red hat
@@ -2755,6 +2871,26 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+						real_tier = duke
+					}
+					is_nomadic = no
+				}
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+					}
+					is_nomadic = yes
+				}
 			}
 		}
 	}
