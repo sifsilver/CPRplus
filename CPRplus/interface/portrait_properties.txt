@@ -546,13 +546,13 @@
 			factor = 0
 			NOT = { siege = { is_attacker = no } }
 			location = {
-				#OR = {
+				OR = {
 				#	terrain = arctic
-				#	terrain = mountain
+					terrain = mountain
 					terrain = desert
 				#	terrain = jungle
 				#	terrain = marsh
-				#}
+				}
 			}
 		}
 		modifier = {
@@ -602,7 +602,10 @@
 					}
 					AND = {
 						holding_type = nomad
-						terrain = desert
+						OR = {
+							terrain = desert
+							terrain = mountain
+						}
 					}
 				}
 			}
@@ -849,15 +852,12 @@
 		}
 	}
 	
-	26 = { # African Savanna 2 - changed to African desert
+	26 = { # African Savanna 2 - changed to African dune
 		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOR = {
-					region = world_africa_west
-					region = world_africa_east
-				}
+				NOT = { region = world_africa }
 			}
 		}
 		modifier = {
@@ -867,6 +867,13 @@
 		modifier = {
 			factor = 0
 			location = { terrain = mountain }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				region = world_africa_north
+				NOT = { terrain = desert }
+			}
 		}
 		modifier = {
 			factor = 0
