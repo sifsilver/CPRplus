@@ -205,7 +205,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# basque Male
+	# basque Male early
 	portraitType = {
 		name = "PORTRAIT_basquegfx_male_early"
 		effectFile = "gfx/FX/portrait.lua"
