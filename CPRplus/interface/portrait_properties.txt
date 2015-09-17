@@ -2665,7 +2665,7 @@
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
 						graphical_culture = bohemiangfx
-						graphical_culture = bretongfx
+						#graphical_culture = bretongfx
 						graphical_culture = normangfx
 						graphical_culture = occitangfx
 					}
@@ -2704,7 +2704,7 @@
 							graphical_culture = englishgfx
 							graphical_culture = frankishgfx
 							graphical_culture = bohemiangfx
-							graphical_culture = bretongfx
+							#graphical_culture = bretongfx
 							graphical_culture = normangfx
 							graphical_culture = occitangfx
 							graphical_culture = westernslavicgfx
@@ -2766,7 +2766,7 @@
 							graphical_culture = englishgfx
 							graphical_culture = frankishgfx
 							graphical_culture = bohemiangfx
-							graphical_culture = bretongfx
+							#graphical_culture = bretongfx
 							graphical_culture = normangfx
 							graphical_culture = occitangfx
 							graphical_culture = westernslavicgfx
@@ -2929,7 +2929,7 @@
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
 						graphical_culture = bohemiangfx
-						graphical_culture = bretongfx
+						#graphical_culture = bretongfx
 						graphical_culture = normangfx
 						graphical_culture = occitangfx
 						graphical_culture = italiangfx
