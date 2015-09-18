@@ -324,34 +324,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_muslimkhitan_male_headgear_behind"
-		texturefile = "gfx\\characters\\khitan_male\\muslimkhitan_male_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_muslimkhitan_male_headgear"
-		texturefile = "gfx\\characters\\khitan_male\\muslimkhitan_male_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_muslimkhitan_female_headgear_behind"
-		texturefile = "gfx\\characters\\khitan_female\\muslimkhitan_female_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_muslimkhitan_female_headgear"
-		texturefile = "gfx\\characters\\khitan_female\\muslimkhitan_female_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_khitan_female_clothes_behind"
 		texturefile = "gfx\\characters\\khitan_female\\khitan_female_clothes_behind.dds"
 		noOfFrames = 12
