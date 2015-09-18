@@ -209,14 +209,14 @@ altaic = {
 	}
 	
 	karluk = {
-		graphical_cultures = { centralasiangfx cumangfx turkishgfx }
+		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	
 	kirghiz = {
 		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	uyghur = {
-		graphical_cultures = { khotanesegfx cumangfx turkishgfx }
+		graphical_cultures = { khotanesegfx turkishgfx }
 	}
 
 	mongol = {
