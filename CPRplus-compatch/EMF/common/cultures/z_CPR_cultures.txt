@@ -200,7 +200,7 @@ altaic = {
 	}
 	
 	bolghar = { # Oghur Turkish
-		graphical_cultures = { centralasiangfx turkishgfx }
+		graphical_cultures = { steppegfx turkishgfx }
 	}
 	
 	avar = { # Oghur Turkish
@@ -213,7 +213,7 @@ altaic = {
 		}
 	
 	kirghiz = {
-		graphical_cultures = { cumangfx turkishgfx }
+		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	uyghur = {
 		graphical_cultures = { khotanesegfx cumangfx turkishgfx }

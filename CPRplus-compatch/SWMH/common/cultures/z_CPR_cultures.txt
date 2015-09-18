@@ -282,7 +282,7 @@ altaic = {
 		graphical_cultures = {steppegfx turkishgfx}
 	}
 	bolghar = { # Turkic Bulghars not to confuse with Bulgarians
-		graphical_cultures = {centralasiangfx turkishgfx}
+		graphical_cultures = {steppegfx turkishgfx}
 	}	
 	avar = { 
 		graphical_cultures = {steppegfx turkishgfx easterngfx }
@@ -294,13 +294,13 @@ altaic = {
 		graphical_cultures = {alangfx turkishgfx easterngfx}
 	}
 	kirghiz = {
-		graphical_cultures = {cumangfx turkishgfx}
+		graphical_cultures = {centralasiangfx turkishgfx}
 	}
 	uyghur = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
 		graphical_cultures = {khotanesegfx turkishgfx }
 	}
 	bashkir = {
-		graphical_cultures = {centralasiangfx turkishgfx}
+		graphical_cultures = {cumangfx turkishgfx}
 	}
 }
 
