@@ -92,7 +92,7 @@ arabicgfx = {
 	skin_tone = 2
 }
 turkishgfx = {
-	skin_tone = 1
+	skin_tone = 2
 	christian_portraits = yes
 }
 cumangfx = {
