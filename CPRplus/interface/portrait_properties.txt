@@ -629,7 +629,7 @@
 	}
 
 	19 = { # Muslim mosque
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
@@ -649,7 +649,7 @@
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 2
 			OR = {
 				is_ruler = yes
 				spouse = { is_ruler = yes }
@@ -660,8 +660,8 @@
 			}
 		}
 		modifier = {
-			factor = 2
-			trait = zealous
+			factor = 2.5
+			holding_type = temple
 		}
 		modifier = {
 			factor = 2
