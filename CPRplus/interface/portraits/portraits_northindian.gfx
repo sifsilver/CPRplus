@@ -175,13 +175,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_northindian_male_eyes2"
-		texturefile = "gfx\\characters\\northindian_male\\northindian_male_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
 	#spriteType = {
 	#	name = "GFX_northindian_male_headgear_mid"
 	#	texturefile = "gfx\\characters\\northindian_male\\northindian_male_headgear_mid.dds"
@@ -236,7 +229,7 @@ spriteTypes = {
 			"GFX_northindian_male_mouth:d2"
 			"GFX_northindian_male_nose:d3"
 			"GFX_northindian_male_eyes:d6:o52x78"
-			"GFX_northindian_male_eyes2:d6:e:o72x91"
+			"GFX_muslim_male_eyes2:d6:e:o72x91"
 			"GFX_indian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"	
 			"GFX_northindian_male_ear:d7"	
@@ -287,7 +280,7 @@ spriteTypes = {
 			"GFX_northindian_male_mouth_midage:d2"
 			"GFX_northindian_male_nose_midage:d3"
 			"GFX_northindian_male_eyes_midage:d6:o48x77"
-			"GFX_northindian_male_eyes2:d6:e:o72x91"
+			"GFX_muslim_male_eyes2:d6:e:o72x91"
 			"GFX_indian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_northindian_male_ear_midage:d7"
@@ -338,7 +331,7 @@ spriteTypes = {
 			"GFX_northindian_male_mouth_oldage:d2"
 			"GFX_northindian_male_nose_oldage:d3"
 			"GFX_northindian_male_eyes_oldage:d6:o47x75"
-			"GFX_northindian_male_eyes2:d6:e:o72x90"			
+			"GFX_muslim_male_eyes2:d6:e:o72x90"			
 			"GFX_indian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_northindian_male_ear_oldage:d7"
@@ -530,13 +523,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_northindian_female_eyes2"
-		texturefile = "gfx\\characters\\northindian_female\\northindian_female_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_northindian_female_ear"
@@ -582,7 +568,7 @@ spriteTypes = {
 			"GFX_northindian_female_chin:d1"
 			"GFX_northindian_female_cheeks:d4"
 			"GFX_northindian_female_eyes:d6:o51x78"
-			"GFX_northindian_female_eyes2:d6:e:o72x88"
+			"GFX_muslim_female_eyes2:d6:e:o72x88"
 			"GFX_northindian_female_ear:d7"			
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_persian_female_hair:p1:h:y"
@@ -631,7 +617,7 @@ spriteTypes = {
 			"GFX_northindian_female_chin_midage:d1"
 			"GFX_northindian_female_cheeks_midage:d4"
 			"GFX_northindian_female_eyes_midage:d6:o50x73"
-			"GFX_northindian_female_eyes2:d6:e:o72x88"
+			"GFX_muslim_female_eyes2:d6:e:o72x88"
 			"GFX_northindian_female_ear_midage:d7"		
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_persian_female_hair_midage:p1:h:y"			
@@ -680,7 +666,7 @@ spriteTypes = {
 			"GFX_northindian_female_chin_oldage:d1"
 			"GFX_northindian_female_cheeks_oldage:d4"
 			"GFX_northindian_female_eyes_oldage:d6:o48x74"
-			"GFX_northindian_female_eyes2:d6:e:o72x88"
+			"GFX_muslim_female_eyes2:d6:e:o72x88"
 			"GFX_northindian_female_ear_oldage:d7"			
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_headgear_mid:p5:c3"

@@ -187,13 +187,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_assamese_male_eyes2"
-		texturefile = "gfx\\characters\\assamese_male\\assamese_male_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_assamese_male_ear"
 		texturefile = "gfx\\characters\\assamese_male\\assamese_male_ear_1.dds"
 		noOfFrames = 4
@@ -384,13 +377,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_assamese_female_eyes2"
-		texturefile = "gfx\\characters\\assamese_female\\assamese_female_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_assamese_female_ear"
@@ -429,7 +415,7 @@ spriteTypes = {
 			"GFX_assamese_male_mouth:d2"
 			"GFX_assamese_male_nose:d3"					#10
 			"GFX_assamese_male_eyes:d6"
-			"GFX_assamese_male_eyes2:d6:e"
+			"GFX_mongol_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -480,7 +466,7 @@ spriteTypes = {
 			"GFX_assamese_male_mouth_midage:d2"
 			"GFX_assamese_male_nose_midage:d3"
 			"GFX_assamese_male_eyes_midage:d6"
-			"GFX_assamese_male_eyes2:d6:e"
+			"GFX_mongol_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -531,7 +517,7 @@ spriteTypes = {
 			"GFX_assamese_male_mouth_oldage:d2"
 			"GFX_assamese_male_nose_oldage:d3"
 			"GFX_assamese_male_eyes_oldage:d6"
-			"GFX_assamese_male_eyes2:d6:e"
+			"GFX_mongol_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -576,7 +562,7 @@ spriteTypes = {
 			"GFX_assamese_female_mouth:d2"
 			"GFX_assamese_female_nose:d3"
 			"GFX_assamese_female_eyes:d6"
-			"GFX_assamese_female_eyes2:d6:e"
+			"GFX_mongol_female_eyes2:d6:e"
 			"GFX_assamese_female_ear:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -626,7 +612,7 @@ spriteTypes = {
 			"GFX_assamese_female_mouth_midage:d2"
 			"GFX_assamese_female_nose_midage:d3"
 			"GFX_assamese_female_eyes_midage:d6"
-			"GFX_assamese_female_eyes2:d6:e"
+			"GFX_mongol_female_eyes2:d6:e"
 			"GFX_assamese_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -675,7 +661,7 @@ spriteTypes = {
 			"GFX_assamese_female_mouth_oldage:d2"
 			"GFX_assamese_female_nose_oldage:d3"
 			"GFX_assamese_female_eyes_oldage:d6"
-			"GFX_assamese_female_eyes2:d6:e"
+			"GFX_mongol_female_eyes2:d6:e"
 			"GFX_assamese_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"

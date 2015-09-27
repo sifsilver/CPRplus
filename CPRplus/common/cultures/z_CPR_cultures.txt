@@ -194,7 +194,7 @@ altaic = {
 	}
 	
 	bolghar = { # Oghur Turkish
-		graphical_cultures = { centralasiangfx turkishgfx }
+		graphical_cultures = { bulgargfx turkishgfx }
 	}
 	
 	avar = { # Oghur Turkish
@@ -203,14 +203,14 @@ altaic = {
 	}
 	
 	karluk = {
-		graphical_cultures = { centralasiangfx cumangfx turkishgfx }
+		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	
 	kirghiz = {
-		graphical_cultures = { cumangfx turkishgfx }
+		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	uyghur = {
-		graphical_cultures = { khotanesegfx cumangfx turkishgfx }
+		graphical_cultures = { khotanesegfx turkishgfx }
 	}
 
 	mongol = {
@@ -330,11 +330,11 @@ iranian = {
 	}
 	
 	afghan = { # a.k.a. Pashtun
-		graphical_cultures = { afghangfx } #arabicgfx
+		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 	
 	baloch = {
-		graphical_cultures = { afghangfx } #arabicgfx
+		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 }
 

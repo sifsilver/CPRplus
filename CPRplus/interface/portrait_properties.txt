@@ -367,6 +367,7 @@
 				NOR = {
 					region = world_steppe
 					region = world_europe
+					region = world_persia
 				}
 			}
 		}
@@ -384,7 +385,10 @@
 		modifier = {
 			factor = 0
 			location = {
-				region = world_europe
+				OR = {
+					region = world_europe
+					region = world_persia
+				}
 				NOT = { terrain = steppe }
 			}
 		}
@@ -543,11 +547,11 @@
 			NOT = { siege = { is_attacker = no } }
 			location = {
 				OR = {
-					terrain = arctic
+				#	terrain = arctic
 					terrain = mountain
 					terrain = desert
-					terrain = jungle
-					terrain = marsh
+				#	terrain = jungle
+				#	terrain = marsh
 				}
 			}
 		}
@@ -596,6 +600,13 @@
 						holding_type = temple
 						religion_group = pagan_group
 					}
+					AND = {
+						holding_type = nomad
+						OR = {
+							terrain = desert
+							terrain = mountain
+						}
+					}
 				}
 			}
 		}
@@ -618,7 +629,7 @@
 	}
 
 	19 = { # Muslim mosque
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
@@ -638,7 +649,7 @@
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 2
 			OR = {
 				is_ruler = yes
 				spouse = { is_ruler = yes }
@@ -649,8 +660,8 @@
 			}
 		}
 		modifier = {
-			factor = 2
-			trait = zealous
+			factor = 2.5
+			holding_type = temple
 		}
 		modifier = {
 			factor = 2
@@ -841,15 +852,12 @@
 		}
 	}
 	
-	26 = { # African Savanna 2 - changed to African desert
+	26 = { # African Savanna 2 - changed to African dune
 		factor = 2
 		modifier = {
 			factor = 0
 			location = {
-				NOR = {
-					region = world_africa_west
-					region = world_africa_east
-				}
+				NOT = { region = world_africa }
 			}
 		}
 		modifier = {
@@ -859,6 +867,13 @@
 		modifier = {
 			factor = 0
 			location = { terrain = mountain }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				region = world_africa_north
+				NOT = { terrain = desert }
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2206,9 +2221,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
-				has_landed_title = e_tartaria
 				num_of_emperor_titles = 2
-				num_of_king_titles = 4
+				population_and_manpower = 60000
 			}
 		}
 		modifier = {
@@ -2220,9 +2234,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
-					has_landed_title = e_tartaria
 					num_of_emperor_titles = 2
-					num_of_king_titles = 4
+					population_and_manpower = 60000
 				}
 			}
 		}
@@ -2269,12 +2282,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
-				has_landed_title = e_tartaria
 				num_of_emperor_titles = 2
-				AND = {
-					num_of_emperor_titles = 1
-					num_of_king_titles = 4
-				}
+				population_and_manpower = 60000
 			}
 		}
 		modifier = {
@@ -2286,12 +2295,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
-					has_landed_title = e_tartaria
 					num_of_emperor_titles = 2
-					AND = {
-						num_of_emperor_titles = 1
-						num_of_king_titles = 4
-					}
+					population_and_manpower = 60000
 				}
 			}
 		}
@@ -2316,6 +2321,26 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					real_tier = emperor
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						num_of_emperor_titles = 2
+						population_and_manpower = 60000
+					}
+				}
 			}
 		}
 	}
@@ -2346,12 +2371,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
-				has_landed_title = e_tartaria
 				num_of_emperor_titles = 2
-				AND = {
-					num_of_emperor_titles = 1
-					num_of_king_titles = 4
-				}
+				population_and_manpower = 60000
 			}
 		}
 		modifier = {
@@ -2363,12 +2384,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
-					has_landed_title = e_tartaria
 					num_of_emperor_titles = 2
-					AND = {
-						num_of_emperor_titles = 1
-						num_of_king_titles = 4
-					}
+					population_and_manpower = 60000
 				}
 			}
 		}
@@ -2393,6 +2410,26 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					real_tier = emperor
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						num_of_emperor_titles = 2
+						population_and_manpower = 60000
+					}
+				}
 			}
 		}
 	}
@@ -2423,12 +2460,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
-				has_landed_title = e_tartaria
 				num_of_emperor_titles = 2
-				AND = {
-					num_of_emperor_titles = 1
-					num_of_king_titles = 4
-				}
+				population_and_manpower = 60000
 			}
 		}
 		modifier = {
@@ -2440,12 +2473,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
-					has_landed_title = e_tartaria
 					num_of_emperor_titles = 2
-					AND = {
-						num_of_emperor_titles = 1
-						num_of_king_titles = 4
-					}
+					population_and_manpower = 60000
 				}
 			}
 		}
@@ -2470,6 +2499,26 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					real_tier = emperor
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_golden_horde
+						has_landed_title = e_il-khanate
+						num_of_emperor_titles = 2
+						population_and_manpower = 60000
+					}
+				}
 			}
 		}
 	}
@@ -2540,6 +2589,22 @@
 				trait = nun
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+					}
+					is_nomadic = no
+				}
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+				}
+			}
+		}
 	}
 
 	# Common headgear 1 - hood
@@ -2600,7 +2665,7 @@
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
 						graphical_culture = bohemiangfx
-						graphical_culture = bretongfx
+						#graphical_culture = bretongfx
 						graphical_culture = normangfx
 						graphical_culture = occitangfx
 					}
@@ -2639,7 +2704,7 @@
 							graphical_culture = englishgfx
 							graphical_culture = frankishgfx
 							graphical_culture = bohemiangfx
-							graphical_culture = bretongfx
+							#graphical_culture = bretongfx
 							graphical_culture = normangfx
 							graphical_culture = occitangfx
 							graphical_culture = westernslavicgfx
@@ -2701,7 +2766,7 @@
 							graphical_culture = englishgfx
 							graphical_culture = frankishgfx
 							graphical_culture = bohemiangfx
-							graphical_culture = bretongfx
+							#graphical_culture = bretongfx
 							graphical_culture = normangfx
 							graphical_culture = occitangfx
 							graphical_culture = westernslavicgfx
@@ -2719,6 +2784,26 @@
 				AND = {
 					graphical_culture = balticgfx
 					religion_group = christian
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+						real_tier = duke
+					}
+					is_nomadic = no
+				}
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+					}
+					is_nomadic = yes
 				}
 			}
 		}
@@ -2755,6 +2840,26 @@
 				prisoner = yes
 				trait = monk
 				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+						real_tier = duke
+					}
+					is_nomadic = no
+				}
+				AND = {
+					OR = {
+						real_tier = emperor
+						real_tier = king
+					}
+					is_nomadic = yes
+				}
 			}
 		}
 	}
@@ -2824,7 +2929,7 @@
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
 						graphical_culture = bohemiangfx
-						graphical_culture = bretongfx
+						#graphical_culture = bretongfx
 						graphical_culture = normangfx
 						graphical_culture = occitangfx
 						graphical_culture = italiangfx
