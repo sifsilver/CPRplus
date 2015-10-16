@@ -126,10 +126,10 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_male_clothes:p3:c2"
-			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_easternslavic_male_ear:d7"			
 			"GFX_westernslavic_male_beard:p4:o-3x0:h:y"
 		   	"GFX_easternslavic_male_hair:p1:h:y"
+			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -180,10 +180,10 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_male_clothes:p3:c2"
-			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_easternslavic_male_ear_midage:d7"
 			"GFX_westernslavic_male_beard_midage:p4:o-3x0:h:y"
 			"GFX_easternslavic_male_hair_midage:p1:h:y"
+			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -234,10 +234,10 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_male_clothes:p3:c2"
-			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_easternslavic_male_ear_oldage:d7"
 			"GFX_westernslavic_male_beard_oldage:p4:o-3x0:h:y"
 			"GFX_easternslavic_male_hair_oldage:p1:h:y"
+			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -379,7 +379,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Westernslavic female midage
@@ -430,7 +430,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Westernslavic female oldage
@@ -479,7 +479,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 

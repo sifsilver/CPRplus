@@ -177,13 +177,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 36 35 29 } { 184 150 97 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 148 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 30 22 18 } { 176 119 86 } { 255 255 255 }
-			{ 30 22 18 } { 186 112 63 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -220,10 +217,10 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_male_ear:d7"			
+			"GFX_easternslavic_male_ear:d7"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_byzantine_male_beard:o2x-4:p4:h:y"
 		   	"GFX_byzantine_male_hair:p1:h:y"
-			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -275,9 +272,9 @@ spriteTypes = {
 			"GFX_byzantine_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_midage:d7"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_byzantine_male_beard_midage:o2x-4:p4:h:y"
 			"GFX_byzantine_male_hair_midage:p1:h:y"
-			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -330,22 +327,19 @@ spriteTypes = {
 			"GFX_byzantine_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_oldage:d7"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_byzantine_male_beard_oldage:o2x-4:p4:h:y"
 			"GFX_byzantine_male_hair_oldage:p1:h:y"
-			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 36 35 29 } { 184 150 97 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 148 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 30 22 18 } { 176 119 86 } { 255 255 255 }
-			{ 30 22 18 } { 186 112 63 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -501,13 +495,10 @@ spriteTypes = {
 		
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 36 35 29 } { 184 150 97 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 148 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 30 22 18 } { 176 119 86 } { 255 255 255 }
-			{ 30 22 18 } { 186 112 63 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -657,13 +648,10 @@ spriteTypes = {
 		
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 36 35 29 } { 184 150 97 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 148 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 30 22 18 } { 176 119 86 } { 255 255 255 }
-			{ 30 22 18 } { 186 112 63 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
