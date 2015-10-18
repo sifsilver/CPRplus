@@ -695,7 +695,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Westernslavic female midage
@@ -746,7 +746,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Westernslavic female oldage
@@ -795,7 +795,7 @@ spriteTypes = {
 			{ 166 223 244 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }
