@@ -515,7 +515,7 @@ spriteTypes = {
 			"GFX_western_female_ear:d7:o28x54"                         #13
 			"GFX_empty:p5:c3"              #14
 			"GFX_norse_female_hair_christian:p1:h:y"                 #15
-			"GFX_empty:p3:c4"									#19
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"									#19
 			"GFX_westernslavic_female_headgear_early:p5:c5"                 #20
 			"GFX_character_imprisoned:p6"                       #21
 		}
@@ -566,7 +566,7 @@ spriteTypes = {
 			"GFX_western_female_ear_midage:d7:o28x54"
 			"GFX_empty:p5:c3" 
 			"GFX_norse_female_hair_midage_christian:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -616,7 +616,7 @@ spriteTypes = {
 			"GFX_western_female_ear_oldage:d7:o28x54"
 			"GFX_empty:p5:c3" 
 			"GFX_norse_female_hair_oldage_christian:p1:y"
-			"GFX_empty:p3:c4"
+			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
