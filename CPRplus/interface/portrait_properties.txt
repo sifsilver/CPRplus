@@ -2607,6 +2607,28 @@
 			}
 		}
 		modifier = {
+			factor = 40
+			trait = nun
+			NOT = { year = 950 }
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = englishgfx
+				graphical_culture = frankishgfx
+				graphical_culture = westernslavicgfx
+				graphical_culture = bohemiangfx
+				#graphical_culture = bretongfx
+				graphical_culture = normangfx
+				graphical_culture = occitangfx
+				graphical_culture = italiangfx
+				graphical_culture = lombardgfx
+				graphical_culture = siciliangfx
+				graphical_culture = southerngfx
+				graphical_culture = basquegfx
+			}
+		}
+		modifier = {
 			factor = 0
 			trait = nun
 			OR = {
@@ -2705,6 +2727,23 @@
 			OR = {
 				prisoner = yes
 				trait = nun
+				AND = {
+					trait = monk
+					NOT = { year = 950 }
+					OR = {
+						graphical_culture = westerngfx
+						graphical_culture = germangfx
+						graphical_culture = dutchgfx
+						graphical_culture = englishgfx
+						graphical_culture = frankishgfx
+						graphical_culture = bohemiangfx
+						#graphical_culture = bretongfx
+						graphical_culture = normangfx
+						graphical_culture = occitangfx
+						graphical_culture = westernslavicgfx
+						graphical_culture = southernslavicgfx
+					}
+				}
 			}
 		}
 		modifier = {
@@ -2871,6 +2910,39 @@
 			}
 		}
 		modifier = {
+			factor = 40
+			trait = nun
+			OR = {
+				AND = {
+					year = 950
+					OR = {
+						graphical_culture = westerngfx
+						graphical_culture = germangfx
+						graphical_culture = dutchgfx
+						graphical_culture = englishgfx
+						graphical_culture = frankishgfx
+						graphical_culture = westernslavicgfx
+						graphical_culture = bohemiangfx
+						#graphical_culture = bretongfx
+						graphical_culture = normangfx
+						graphical_culture = occitangfx
+					}
+				}
+				AND = {
+					graphical_culture = hungariangfx
+					religion_group = christian
+				}
+				AND = {
+					graphical_culture = norsegfx
+					religion_group = christian
+				}
+				AND = {
+					graphical_culture = balticgfx
+					religion_group = christian
+				}
+			}
+		}
+		modifier = {
 			factor = 0
 			trait = nun
 			NOT = { year = 950 }
@@ -2995,8 +3067,39 @@
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 				spouse = { real_tier = count }
-				trait = nun
-				trait = monk
+				AND = {
+					trait = monk
+					OR = {
+						AND = {
+							year = 950
+							OR = {
+								graphical_culture = westerngfx
+								graphical_culture = germangfx
+								graphical_culture = dutchgfx
+								graphical_culture = englishgfx
+								graphical_culture = frankishgfx
+								graphical_culture = bohemiangfx
+								#graphical_culture = bretongfx
+								graphical_culture = normangfx
+								graphical_culture = occitangfx
+								graphical_culture = westernslavicgfx
+								graphical_culture = southernslavicgfx
+							}
+						}
+						AND = {
+							graphical_culture = hungariangfx
+							religion_group = christian
+						}
+						AND = {
+							graphical_culture = norsegfx
+							religion_group = christian
+						}
+						AND = {
+							graphical_culture = balticgfx
+							religion_group = christian
+						}
+					}
+				}
 			}
 		}
 		modifier = {
