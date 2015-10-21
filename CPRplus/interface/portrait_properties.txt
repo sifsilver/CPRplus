@@ -959,10 +959,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1001,10 +998,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1043,10 +1037,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1085,10 +1076,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1123,10 +1111,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1204,10 +1189,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1260,10 +1242,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1284,10 +1263,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1330,10 +1306,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1377,10 +1350,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1411,10 +1381,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1453,10 +1420,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1477,10 +1441,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1511,10 +1472,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1535,10 +1493,7 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
+				graphical_culture = normangfx
 				graphical_culture = otakugfx
 			}
 		}
