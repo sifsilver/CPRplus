@@ -305,7 +305,7 @@ spriteTypes = {
 			"GFX_ethiopian_male_mouth_oldage:d2"
 			"GFX_ethiopian_male_nose_oldage:d3"
 			"GFX_ethiopian_male_eyes_oldage:d6"
-			"GFX_ethiopian_male_eyes2:d6:e"
+			"GFX_african_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -484,13 +484,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ethiopian_female_eyes_oldage"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_eyes_3.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_ethiopian_female_eyes2"
-		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_eyes2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
