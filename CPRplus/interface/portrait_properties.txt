@@ -921,9 +921,14 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			graphical_culture = africangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
+			}
+			NOT = { culture_group = east_african }
+			NOT = { culture_group = west_african }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -954,9 +959,10 @@
 				graphical_culture = africangfx
 				graphical_culture = ethiopiangfx
 				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
 			}
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			NOT = { culture_group = east_african }
+			NOT = { culture_group = west_african }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -990,14 +996,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1031,14 +1036,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1072,14 +1076,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1116,9 +1119,10 @@
 				graphical_culture = africangfx
 				graphical_culture = ethiopiangfx
 				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
 			}
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			NOT = { culture_group = east_african }
+			NOT = { culture_group = west_african }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1176,14 +1180,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1199,9 +1202,10 @@
 				graphical_culture = africangfx
 				graphical_culture = ethiopiangfx
 				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
 			}
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			NOT = { culture_group = east_african }
+			NOT = { culture_group = west_african }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1236,14 +1240,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1259,9 +1262,10 @@
 				graphical_culture = africangfx
 				graphical_culture = ethiopiangfx
 				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
 			}
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
+			NOT = { culture_group = east_african }
+			NOT = { culture_group = west_african }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1320,14 +1324,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1366,14 +1369,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1438,14 +1440,13 @@
 			factor = 0
 			is_female = yes
 			OR = {
-				culture = manden
-				culture = ethiopian
+				culture_group = east_african
+				culture_group = west_african
 			}
 			NOT = { graphical_culture = africangfx }
 			NOT = { graphical_culture = ethiopiangfx }
 			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			NOT = { graphical_culture = westafricangfx }
 			OR = {
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
@@ -1912,8 +1913,8 @@
 		modifier = {
 			factor = 0
 			religion_group = muslim
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
+			#NOT = { graphical_culture = muslimgfx }
+			#NOT = { graphical_culture = arabicgfx }
 			NOT = { trait = leper }
 		}
 		modifier = {
@@ -1949,7 +1950,7 @@
 			NOT = { trait = leper }
 		}
 		modifier = {
-			factor = 50
+			factor = 25
 			culture = pecheneg
 		}
 		modifier = {
@@ -1970,10 +1971,10 @@
 			}
 			is_priest = yes
 		}
-		modifier = {
-			factor = 2
-			culture = pecheneg
-		}
+		#modifier = {
+		#	factor = 2
+		#	culture = pecheneg
+		#}
 		modifier = {
 			factor = 0
 			trait = leper
@@ -1990,10 +1991,10 @@
 				graphical_culture = commiegfx
 			}
 		}
-		modifier = {
-			factor = 0
-			culture = pecheneg
-		}
+		#modifier = {
+		#	factor = 0
+		#	culture = pecheneg
+		#}
 		modifier = {
 			factor = 0
 			trait = leper
@@ -2010,10 +2011,10 @@
 				graphical_culture = commiegfx
 			}
 		}
-		modifier = {
-			factor = 2
-			culture = pecheneg
-		}
+		#modifier = {
+		#	factor = 2
+		#	culture = pecheneg
+		#}
 		modifier = {
 			factor = 0
 			trait = leper
@@ -2033,7 +2034,7 @@
 			is_priest = yes
 		}
 		modifier = {
-			factor = 5
+			factor = 2.5
 			culture = pecheneg
 		}
 		modifier = {
@@ -2055,7 +2056,7 @@
 			is_priest = yes
 		}
 		modifier = {
-			factor = 5
+			factor = 2.5
 			culture = pecheneg
 		}
 		modifier = {
@@ -2074,10 +2075,10 @@
 				graphical_culture = commiegfx
 			}
 		}
-		modifier = {
-			factor = 0
-			culture = pecheneg
-		}
+		#modifier = {
+		#	factor = 0
+		#	culture = pecheneg
+		#}
 		modifier = {
 			factor = 0
 			trait = leper
@@ -2106,7 +2107,7 @@
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 2.5
 			culture = pecheneg
 		}
 		modifier = {
@@ -2136,10 +2137,10 @@
 				graphical_culture = commiegfx
 			}
 		}
-		modifier = {
-			factor = 0
-			culture = pecheneg
-		}
+		#modifier = {
+		#	factor = 0
+		#	culture = pecheneg
+		#}
 		modifier = {
 			factor = 50
 			culture = norman
@@ -2173,10 +2174,10 @@
 			}
 			is_priest = yes
 		}
-		modifier = {
-			factor = 0
-			culture = pecheneg
-		}
+		#modifier = {
+		#	factor = 0
+		#	culture = pecheneg
+		#}
 		modifier = {
 			factor = 0
 			trait = leper
