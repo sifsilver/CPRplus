@@ -931,16 +931,16 @@
 			}
 		}
 		# Does not suit Occitan or Basque females
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = occitangfx
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = basquegfx
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	graphical_culture = occitangfx
+		#}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	graphical_culture = basquegfx
+		#}
 	}
 
 	1 = { # Black Adder
@@ -950,7 +950,11 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			graphical_culture = africangfx
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+			}
 			NOT = { culture = manden }
 			NOT = { culture = ethiopian }
 			OR = {
@@ -990,6 +994,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1029,6 +1035,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1068,6 +1076,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1102,7 +1112,11 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			graphical_culture = africangfx
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+			}
 			NOT = { culture = manden }
 			NOT = { culture = ethiopian }
 			OR = {
@@ -1166,6 +1180,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1179,7 +1195,11 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			graphical_culture = africangfx
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+			}
 			NOT = { culture = manden }
 			NOT = { culture = ethiopian }
 			OR = {
@@ -1220,6 +1240,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1233,7 +1255,11 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			graphical_culture = africangfx
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+			}
 			NOT = { culture = manden }
 			NOT = { culture = ethiopian }
 			OR = {
@@ -1298,6 +1324,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1342,6 +1370,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1412,6 +1442,8 @@
 				culture = ethiopian
 			}
 			NOT = { graphical_culture = africangfx }
+			NOT = { graphical_culture = ethiopiangfx }
+			NOT = { graphical_culture = somaligfx }
 			NOT = { graphical_culture = muslimgfx }
 			NOT = { graphical_culture = arabicgfx }
 			OR = {
@@ -1912,6 +1944,7 @@
 				#graphical_culture = byzantinegfx
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
+				graphical_culture = commiegfx
 			}
 			NOT = { trait = leper }
 		}
@@ -1954,6 +1987,7 @@
 				graphical_culture = byzantinegfx
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
+				graphical_culture = commiegfx
 			}
 		}
 		modifier = {
@@ -1973,6 +2007,7 @@
 				graphical_culture = byzantinegfx
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
+				graphical_culture = commiegfx
 			}
 		}
 		modifier = {
@@ -2036,6 +2071,7 @@
 				graphical_culture = byzantinegfx
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
+				graphical_culture = commiegfx
 			}
 		}
 		modifier = {
@@ -2066,6 +2102,7 @@
 				#graphical_culture = byzantinegfx
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
+				graphical_culture = commiegfx
 			}
 		}
 		modifier = {
@@ -2096,6 +2133,7 @@
 				#graphical_culture = byzantinegfx
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
+				graphical_culture = commiegfx
 			}
 		}
 		modifier = {
@@ -2120,6 +2158,8 @@
 			OR = {
 				graphical_culture = southerngfx
 				graphical_culture = byzantinegfx
+				graphical_culture = italiangfx
+				graphical_culture = siciliangfx
 			}
 		}
 		modifier = {
@@ -2157,6 +2197,8 @@
 			OR = {
 				graphical_culture = southerngfx
 				graphical_culture = byzantinegfx
+				graphical_culture = italiangfx
+				graphical_culture = siciliangfx
 			}
 		}
 		modifier = {
@@ -2169,6 +2211,8 @@
 			OR = {
 				graphical_culture = southerngfx
 				graphical_culture = byzantinegfx
+				graphical_culture = italiangfx
+				graphical_culture = siciliangfx
 			}
 		}
 		modifier = {
@@ -2636,6 +2680,7 @@
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				graphical_culture = westernslavicgfx
+				graphical_culture = southernslavicgfx
 				graphical_culture = bohemiangfx
 				graphical_culture = saxongfx
 				graphical_culture = normangfx
@@ -2660,6 +2705,7 @@
 						graphical_culture = englishgfx
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
+						graphical_culture = southernslavicgfx
 						graphical_culture = bohemiangfx
 						graphical_culture = saxongfx
 						graphical_culture = normangfx
@@ -2755,12 +2801,17 @@
 						graphical_culture = dutchgfx
 						graphical_culture = englishgfx
 						graphical_culture = frankishgfx
+						graphical_culture = westernslavicgfx
+						graphical_culture = southernslavicgfx
 						graphical_culture = bohemiangfx
 						graphical_culture = saxongfx
 						graphical_culture = normangfx
 						graphical_culture = occitangfx
-						graphical_culture = westernslavicgfx
-						graphical_culture = southernslavicgfx
+						graphical_culture = italiangfx
+						graphical_culture = lombardgfx
+						graphical_culture = siciliangfx
+						graphical_culture = southerngfx
+						graphical_culture = basquegfx
 					}
 				}
 			}
@@ -2941,6 +2992,7 @@
 						graphical_culture = englishgfx
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
+						graphical_culture = southernslavicgfx
 						graphical_culture = bohemiangfx
 						graphical_culture = saxongfx
 						graphical_culture = normangfx
@@ -2972,6 +3024,7 @@
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				graphical_culture = westernslavicgfx
+				graphical_culture = southernslavicgfx
 				graphical_culture = bohemiangfx
 				graphical_culture = saxongfx
 				graphical_culture = normangfx
