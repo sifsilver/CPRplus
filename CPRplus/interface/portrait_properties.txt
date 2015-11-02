@@ -1913,13 +1913,7 @@
 		modifier = {
 			factor = 0
 			religion_group = muslim
-			OR = {
-				graphical_culture = muslimgfx
-				graphical_culture = arabicgfx
-				graphical_culture = persiangfx
-				graphical_culture = afghangfx
-				graphical_culture = turkishgfx
-			}
+			age = 20
 			NOT = { trait = leper }
 		}
 		modifier = {
