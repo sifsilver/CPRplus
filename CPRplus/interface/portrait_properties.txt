@@ -1913,8 +1913,13 @@
 		modifier = {
 			factor = 0
 			religion_group = muslim
-			#NOT = { graphical_culture = muslimgfx }
-			#NOT = { graphical_culture = arabicgfx }
+			OR = {
+				graphical_culture = muslimgfx
+				graphical_culture = arabicgfx
+				graphical_culture = persiangfx
+				graphical_culture = afghangfx
+				graphical_culture = turkishgfx
+			}
 			NOT = { trait = leper }
 		}
 		modifier = {
@@ -2185,12 +2190,12 @@
 	}
 	10 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 0
-			religion_group = muslim
-			NOT = { graphical_culture = muslimgfx }
-			NOT = { graphical_culture = arabicgfx }
-		}
+		#modifier = {
+		#	factor = 0
+		#	religion_group = muslim
+		#	NOT = { graphical_culture = muslimgfx }
+		#	NOT = { graphical_culture = arabicgfx }
+		#}
 		modifier = {
 			factor = 20
 			religion_group = christian
