@@ -104,3 +104,6 @@ somaligfx = {
 afghangfx = {
 	skin_tone = 2
 }
+kurdishgfx = {
+	skin_tone = 1
+}

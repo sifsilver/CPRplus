@@ -420,7 +420,7 @@ iranian = {
 		graphical_cultures = {persiangfx}
 	}
 	kurdish = {
-		graphical_cultures = {persiangfx} 
+		graphical_cultures = {kurdishgfx persiangfx} 
 	}
 	pashtun = { # a.k.a. Afghani
 		graphical_cultures = {afghangfx persiangfx} 

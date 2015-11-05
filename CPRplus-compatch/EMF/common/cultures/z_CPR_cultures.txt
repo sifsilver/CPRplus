@@ -332,7 +332,7 @@ iranian = {
 	}
 	
 	kurdish = {
-		graphical_cultures = { persiangfx } #arabicgfx
+		graphical_cultures = { kurdishgfx persiangfx } #arabicgfx
 	}
 	
 	afghan = { # a.k.a. Pashtun
