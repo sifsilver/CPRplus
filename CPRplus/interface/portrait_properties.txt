@@ -2969,6 +2969,7 @@
 				}
 				graphical_culture = arabicgfx
 				graphical_culture = maghrebgfx
+				graphical_culture = kurdishgfx
 			}
 			NOT = { religion_group = muslim }
 		}
