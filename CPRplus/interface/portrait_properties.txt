@@ -1523,27 +1523,6 @@
 			}
 		}
 	}
-	
-	15 = { # Mohawk
-		factor = 1
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
-	}
 }
 
 # p2 base
@@ -2215,6 +2194,34 @@
 				graphical_culture = siciliangfx
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
+	}
+	11 = { #Beard
+		factor = 1
+		modifier = {
+			factor = 0
+			trait = leper
+		}
+	}
+	12 = { #Beard
+		factor = 1
+		modifier = {
+			factor = 0
+			trait = leper
+		}
+	}
+	13 = { #Beard
+		factor = 1
+		modifier = {
+			factor = 0
+			trait = leper
+		}
+	}
+	14 = { #Beard
+		factor = 1
 		modifier = {
 			factor = 0
 			trait = leper
