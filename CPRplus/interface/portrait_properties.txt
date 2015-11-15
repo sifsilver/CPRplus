@@ -2968,17 +2968,21 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { religion_group = muslim }
 			is_female = yes
 			OR = {
 				AND = {
 					graphical_culture = turkishgfx
 					NOT = { religion_group = pagan_group }
 				}
+				AND = {
+					graphical_culture = bulgargfx
+					year = 950
+				}
 				graphical_culture = arabicgfx
 				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 			}
-			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
