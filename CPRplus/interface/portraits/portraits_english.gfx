@@ -108,7 +108,7 @@ spriteTypes = {
 			"GFX_western_male_headgear_mid:p5:c3"		
 			"GFX_western_male_beard:p4:h:y"
 		   	"GFX_western_male_hair:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -174,7 +174,7 @@ spriteTypes = {
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_western_male_beard_midage:p4:h:y"
 			"GFX_western_male_hair_midage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -240,7 +240,7 @@ spriteTypes = {
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_western_male_beard_oldage:p4:h:y"
 			"GFX_western_male_hair_oldage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
