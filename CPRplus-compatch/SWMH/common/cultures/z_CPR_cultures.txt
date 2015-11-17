@@ -293,7 +293,7 @@ altaic = {
 	kirghiz = {
 		graphical_cultures = {centralasiangfx turkishgfx}
 	}
-	uyghur = {
+	uyghur = { # non islamic Uighurs
 		graphical_cultures = {khotanesegfx turkishgfx }
 	}
 	bashkir = {
@@ -313,19 +313,19 @@ arabic = {
 	graphical_cultures = {muslimgfx}
 
     bedouin_arabic = { 
-		graphical_cultures = {arabicgfx}
+		graphical_cultures = {arabicgfx muslimgfx}
 	}
 	maghreb_arabic = { 
-		graphical_cultures = {maghrebgfx}
+		graphical_cultures = {maghrebgfx muslimgfx}
 	}
 	levantine_arabic = {
-		graphical_cultures = {levantinegfx}
+		graphical_cultures = {levantinegfx muslimgfx}
 	}
 	egyptian_arabic = {
-		graphical_cultures = {arabicgfx}
+		graphical_cultures = {arabicgfx muslimgfx}
 	}
     sicilian_arabic = { 
-		graphical_cultures = {maghrebgfx}
+		graphical_cultures = {maghrebgfx muslimgfx}
 	}	
 }
 
@@ -400,7 +400,7 @@ iranian = {
 	persian = {
 		graphical_cultures = {persiangfx}
 	}
-	sogdian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+	sogdian = {
 		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	tocharian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
@@ -418,9 +418,6 @@ iranian = {
 	khalaj = {
 		graphical_cultures = {sogdiangfx persiangfx}
 	}
-	soghdian = {
-		graphical_cultures = {sogdiangfx persiangfx}
-	}
 	khwarezmi = {
 		graphical_cultures = {persiangfx}
 	}
@@ -430,7 +427,7 @@ iranian = {
 	kurdish = {
 		graphical_cultures = {kurdishgfx persiangfx} 
 	}
-	afghan = { # a.k.a. Pashtun ## VANILLA COMPATIBILITY ONLY (REQ'D)
+	afghan = { # a.k.a. Pashtun
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 	baloch = {
@@ -496,19 +493,19 @@ north_african = {
 	graphical_cultures = {muslimgfx}
 
 	berber = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
 	sanhaja = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
   	tagelmust = {
 		graphical_cultures = {africangfx}
 	}
 	masmuda = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
 	zanata = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
 	tuareg = {
 		graphical_cultures = {africangfx}
