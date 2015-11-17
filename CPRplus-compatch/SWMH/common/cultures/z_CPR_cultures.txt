@@ -266,9 +266,6 @@ altaic = {
 	oghuz = { # original Oghuz Turkish
 		graphical_cultures = {turkishgfx}
 	}
-	uighur = { # non islamic Uighurs
-		graphical_cultures = {khotanesegfx turkishgfx}
-	}
 	mongol = {
 		graphical_cultures = { mongolgfx }
 	}
@@ -296,7 +293,7 @@ altaic = {
 	kirghiz = {
 		graphical_cultures = {centralasiangfx turkishgfx}
 	}
-	uyghur = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+	uyghur = {
 		graphical_cultures = {khotanesegfx turkishgfx }
 	}
 	bashkir = {
@@ -304,10 +301,18 @@ altaic = {
 	}
 }
 
+aramaic = {
+	graphical_cultures = {muslimgfx}
+
+	assyrian = { 
+		graphical_cultures = {copticgfx muslimgfx}
+	}
+}
+	
 arabic = {
 	graphical_cultures = {muslimgfx}
 
-        bedouin_arabic = { 
+    bedouin_arabic = { 
 		graphical_cultures = {arabicgfx}
 	}
 	maghreb_arabic = { 
@@ -407,6 +412,9 @@ iranian = {
 	daylamite = {
 		graphical_cultures = {persiangfx}
 	}
+	adhari = {
+		graphical_cultures = {persiangfx}
+	}
 	khalaj = {
 		graphical_cultures = {sogdiangfx persiangfx}
 	}
@@ -421,9 +429,6 @@ iranian = {
 	}
 	kurdish = {
 		graphical_cultures = {kurdishgfx persiangfx} 
-	}
-	pashtun = { # a.k.a. Afghani
-		graphical_cultures = {afghangfx persiangfx} 
 	}
 	afghan = { # a.k.a. Pashtun ## VANILLA COMPATIBILITY ONLY (REQ'D)
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
@@ -456,6 +461,9 @@ east_african = {
 	}
 	zaghawa = {
 		graphical_cultures = {somaligfx africangfx}
+	}
+	coptic = {
+		graphical_cultures = {copticgfx muslimgfx}
 	}
 	nubian = {
 		graphical_cultures = {ethiopiangfx africangfx} #muslimgfx 
@@ -504,6 +512,9 @@ north_african = {
 	}
 	tuareg = {
 		graphical_cultures = {africangfx}
+	}
+	canarian = {
+		graphical_cultures = {guanchegfx africangfx}
 	}
 }
 

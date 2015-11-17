@@ -2733,6 +2733,12 @@
 				}
 			}
 		}
+		#Prevent Guanche from having turbans
+		modifier = {
+			factor = 0
+			graphical_culture = guanchegfx
+			is_female = no
+		}
 	}
 	
 	# Common headgear 2 - hood
@@ -3047,6 +3053,12 @@
 				graphical_culture = southerngfx
 				graphical_culture = basquegfx
 			}
+		}
+		#Prevent Guanche from having turbans
+		modifier = {
+			factor = 0
+			graphical_culture = guanchegfx
+			is_female = no
 		}
 	}
 
