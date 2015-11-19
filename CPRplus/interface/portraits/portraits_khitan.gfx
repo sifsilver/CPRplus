@@ -66,48 +66,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_khitan_male_hair_behind"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_behind_1.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_hair_behind_midage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_behind_2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_hair_behind_oldage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_behind_3.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_beard_behind"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_beard_behind_1.dds"
-		noOfFrames = 7
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_beard_behind_2.dds"
-		noOfFrames = 7
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_beard_behind_3.dds"
-		noOfFrames = 7
-		norefcount = yes
-	}
-
 	
 	spriteType = {
 		name = "GFX_khitan_male_cheeks"
@@ -238,13 +196,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_khitan_male_headgear_mid"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_khitan_male_ear"
@@ -268,48 +219,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_khitan_male_beard"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_beard_1.dds"
-		noOfFrames = 7
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_beard_midage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_beard_2.dds"
-		noOfFrames = 7
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_beard_oldage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_beard_3.dds"
-		noOfFrames = 7
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_hair"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_1.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_hair_midage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_male_hair_oldage"
-		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_3.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_khitan_male_clothes"
 		texturefile = "gfx\\characters\\khitan_male\\khitan_male_clothes.dds"
 		noOfFrames = 12
@@ -322,13 +231,6 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
-	
-	spriteType = {
-		name = "GFX_khitan_female_clothes_behind"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_khitan_female_headgear_behind"
@@ -337,26 +239,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_khitan_female_hair_behind"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_hair_behind_1.dds"
-		noOfFrames = 11
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_female_hair_behind_midage"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_hair_behind_2.dds"
-		noOfFrames = 11
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_female_hair_behind_oldage"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_hair_behind_3.dds"
-		noOfFrames = 11
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_khitan_female_base"
@@ -527,34 +409,6 @@ spriteTypes = {
 		name = "GFX_khitan_female_ear_oldage"
 		texturefile = "gfx\\characters\\khitan_female\\khitan_female_ear_3.dds"
 		noOfFrames = 4
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_female_clothes"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_clothes.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_female_hair"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_hair_1.dds"
-		noOfFrames = 11
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_female_hair_midage"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_hair_2.dds"
-		noOfFrames = 11
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_khitan_female_hair_oldage"
-		texturefile = "gfx\\characters\\khitan_female\\khitan_female_hair_3.dds"
-		noOfFrames = 11
 		norefcount = yes
 	}
 

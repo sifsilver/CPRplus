@@ -16,13 +16,6 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 	}
-	
-	spriteType = {
-		name = "GFX_maghreb_male_clothes_behind"
-		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_maghreb_male_base"
@@ -278,13 +271,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_maghreb_male_clothes"
-		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_clothes.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_maghreb_male_headgear"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_headgear.dds"
 		noOfFrames = 12
@@ -455,13 +441,6 @@ spriteTypes = {
 	}
 
 #### North African FEMALE ####
-
-	spriteType = {
-		name = "GFX_maghreb_female_clothes_behind"
-		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_maghreb_female_hair_behind"
@@ -651,13 +630,6 @@ spriteTypes = {
 		name = "GFX_maghreb_female_ear_oldage"
 		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_ear_3.dds"
 		noOfFrames = 4
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_maghreb_female_clothes"
-		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_clothes.dds"
-		noOfFrames = 12
 		norefcount = yes
 	}
 	

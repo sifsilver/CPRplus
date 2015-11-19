@@ -20,20 +20,6 @@ spriteTypes = {
 	}
 	
 	### levantine MALE ####
-	
-	spriteType = {
-		name = "GFX_levantine_male_clothes_behind"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_headgear_behind"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_levantine_male_base"
@@ -208,13 +194,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_levantine_male_headgear_mid"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_levantine_male_ear"
@@ -258,42 +237,7 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_levantine_male_clothes"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_clothes.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-		
-	spriteType = {
-		name = "GFX_levantine_male_clothes_infront"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_clothes_infront.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_headgear"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
 #### levantine FEMALE ####
-
-	spriteType = {
-		name = "GFX_levantine_female_clothes_behind"
-		texturefile = "gfx\\characters\\levantine_female\\levantine_female_clothes_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_female_headgear_behind"
-		texturefile = "gfx\\characters\\levantine_female\\levantine_female_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_levantine_female_base"
@@ -464,27 +408,6 @@ spriteTypes = {
 		name = "GFX_levantine_female_ear_oldage"
 		texturefile = "gfx\\characters\\levantine_female\\levantine_female_ear_3.dds"
 		noOfFrames = 4
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_female_clothes"
-		texturefile = "gfx\\characters\\levantine_female\\levantine_female_clothes.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_female_headgear_mid"
-		texturefile = "gfx\\characters\\levantine_female\\levantine_female_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_levantine_female_headgear"
-		texturefile = "gfx\\characters\\levantine_female\\levantine_female_headgear.dds"
-		noOfFrames = 12
 		norefcount = yes
 	}
 

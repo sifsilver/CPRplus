@@ -34,13 +34,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_afghan_male_headgear_behind"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_afghan_male_base"
 		texturefile = "gfx\\characters\\afghan_male\\afghan_male_base_1.dds"
 		noOfFrames = 1
@@ -211,13 +204,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_afghan_male_headgear_mid"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_afghan_male_ear"
 		texturefile = "gfx\\characters\\afghan_male\\afghan_male_ear_1.dds"
 		noOfFrames = 4
@@ -283,13 +269,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_afghan_male_clothes"
 		texturefile = "gfx\\characters\\afghan_male\\afghan_male_clothes.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_afghan_male_headgear"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_headgear.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
