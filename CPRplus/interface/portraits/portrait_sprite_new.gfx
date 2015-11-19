@@ -3,22 +3,6 @@ spriteTypes = {
 ### WESTERN MALE ####
 
 	spriteType = {
-		name = "PORTRAIT_germangfx_child_male"
-		texturefile = "gfx\\characters\\default_son.tga"
-		noOfFrames = 1
-		norefcount = yes
-		can_be_lowres = yes
-	}
-	
-	spriteType = {
-		name = "PORTRAIT_germangfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter.tga"
-		noOfFrames = 1
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
 		name = "GFX_german_male_beard_behind"
 		texturefile = "gfx\\characters\\german_male\\german_male_beard_behind_1.dds"
 		noOfFrames = 8
@@ -490,22 +474,6 @@ spriteTypes = {
 	}
 	
 	### MUSLIM MALE ####
-
-	spriteType = {
-		name = "PORTRAIT_arabicgfx_child_male"
-		texturefile = "gfx\\characters\\default_son_muslim.tga"
-		noOfFrames = 1
-		norefcount = yes
-		can_be_lowres = yes
-	}
-	
-	spriteType = {
-		name = "PORTRAIT_arabicgfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_muslim.tga"
-		noOfFrames = 1
-		norefcount = yes
-		can_be_lowres = yes
-	}
 	
 
 	spriteType = {
@@ -935,15 +903,6 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 
-	
-
-	spriteType = {
-		name = "GFX_arabic_female_eyes2"
-		texturefile = "gfx\\characters\\arabic_female\\arabic_female_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-		can_be_lowres = yes
-	}
 
 	spriteType = {
 		name = "GFX_arabic_female_ear"

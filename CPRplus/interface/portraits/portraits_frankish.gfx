@@ -186,13 +186,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_frankish_male_eyes2"
-		texturefile = "gfx\\characters\\frankish_male\\frankish_male_eyes2.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
 
 	spriteType = {
 		name = "GFX_frankish_male_ear"
@@ -392,13 +385,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_frankish_female_eyes_oldage"
 		texturefile = "gfx\\characters\\frankish_female\\frankish_female_eyes_3.dds"
-		noOfFrames = 13
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_frankish_female_eyes2"
-		texturefile = "gfx\\characters\\frankish_female\\frankish_female_eyes2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
