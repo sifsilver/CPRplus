@@ -916,6 +916,24 @@
 			factor = 0.1
 			is_female = yes
 		}
+		modifier = {
+			factor = 50
+			trait = monk
+			age = 50
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				#graphical_culture = dutchgfx
+				graphical_culture = englishgfx
+				graphical_culture = frankishgfx
+				AND = {
+					graphical_culture = hungariangfx
+					religion_group = christian
+				}
+				graphical_culture = normangfx
+				graphical_culture = otakugfx
+			}
+		}
 		
 		# Does not suit African females of a Western Culture
 		modifier = {
@@ -969,23 +987,6 @@
 				has_minor_title = title_prince
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
 	}
 	
 	2 = { # Page
@@ -1007,23 +1008,6 @@
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
 				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
 			}
 		}
 	}
@@ -1049,23 +1033,6 @@
 				has_minor_title = title_prince
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
 	}
 
 	4 = { # Long Straight
@@ -1089,23 +1056,6 @@
 				has_minor_title = title_prince
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
 	}
 
 	5 = { # Long Curly
@@ -1127,23 +1077,6 @@
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
 				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
 			}
 		}
 	}
@@ -1213,9 +1146,8 @@
 			}
 		}
 		modifier = {
-			factor = 0
-			is_female = no
-			NOT = { trait = monk }
+			factor = 50
+			trait = monk
 			OR = {
 				graphical_culture = westerngfx
 				graphical_culture = germangfx
@@ -1272,44 +1204,11 @@
 				has_minor_title = title_prince
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
 	}
 	
 	8 = { # Short Curly
 		factor = 1
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
+		
 	}
 	
 	9 = {  # Short Uncouth
@@ -1335,23 +1234,6 @@
 				higher_tier_than = count
 				spouse = { higher_tier_than = count }
 				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
 			}
 		}
 	}
@@ -1382,23 +1264,6 @@
 				has_minor_title = title_prince
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
 	}
 	
 	11 = { # Balding
@@ -1408,26 +1273,6 @@
 			is_female = no
 			NOT = {
 				age = 50
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			NOT = {
-				age = 50
-			}
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
 			}
 		}
 	}
@@ -1453,44 +1298,11 @@
 				has_minor_title = title_prince
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
 	}
 	
 	13 = { # Mohawk
 		factor = 1
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
-		}
+		
 	}
 	
 	14 = { # Mohawk
@@ -1504,23 +1316,6 @@
 			}
 			is_female = no
 			NOT = { religion_group = pagan_group }
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = otakugfx
-			}
 		}
 	}
 }
@@ -2677,9 +2472,10 @@
 			}
 		}
 		modifier = {
-			factor = 40
+			factor = 80
 			trait = nun
 			NOT = { year = 950 }
+			in_command = no
 			OR = {
 				graphical_culture = westerngfx
 				graphical_culture = germangfx
@@ -2699,40 +2495,6 @@
 				graphical_culture = basquegfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = nun
-			OR = {
-				AND = {
-					year = 950
-					OR = {
-						graphical_culture = westerngfx
-						graphical_culture = germangfx
-						graphical_culture = dutchgfx
-						graphical_culture = englishgfx
-						graphical_culture = frankishgfx
-						graphical_culture = westernslavicgfx
-						graphical_culture = southernslavicgfx
-						graphical_culture = bohemiangfx
-						graphical_culture = saxongfx
-						graphical_culture = normangfx
-						graphical_culture = occitangfx
-					}
-				}
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = balticgfx
-					religion_group = christian
-				}
-			}
-		}
 		#Prevent Guanche from having turbans
 		modifier = {
 			factor = 0
@@ -2748,40 +2510,6 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOR = {
-				AND = {
-					is_female = no
-					year = 950
-						OR = {
-							graphical_culture = westerngfx
-							graphical_culture = germangfx
-							graphical_culture = dutchgfx
-							graphical_culture = englishgfx
-							graphical_culture = frankishgfx
-							graphical_culture = bohemiangfx
-							graphical_culture = saxongfx
-							graphical_culture = normangfx
-							graphical_culture = occitangfx
-							graphical_culture = westernslavicgfx
-							graphical_culture = southernslavicgfx
-						}
-					}
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-					is_female = no
-				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-					is_female = no
-				}
-				AND = {
-					graphical_culture = balticgfx
-					religion_group = christian
-					is_female = no
-				}
-			}
 			OR = {
 				has_minor_title = title_prince
 				real_tier = emperor
@@ -2803,70 +2531,6 @@
 		modifier = {
 			factor = 0
 			OR = {
-				prisoner = yes
-				trait = nun
-				AND = {
-					trait = monk
-					NOT = { year = 950 }
-					OR = {
-						graphical_culture = westerngfx
-						graphical_culture = germangfx
-						graphical_culture = dutchgfx
-						graphical_culture = englishgfx
-						graphical_culture = frankishgfx
-						graphical_culture = westernslavicgfx
-						graphical_culture = southernslavicgfx
-						graphical_culture = bohemiangfx
-						graphical_culture = saxongfx
-						graphical_culture = normangfx
-						graphical_culture = occitangfx
-						graphical_culture = italiangfx
-						graphical_culture = lombardgfx
-						graphical_culture = siciliangfx
-						graphical_culture = southerngfx
-						graphical_culture = basquegfx
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			is_female = no
-			NOT = { trait = monk }
-			OR = {
-				AND = {
-					year = 950
-						OR = {
-							graphical_culture = westerngfx
-							graphical_culture = germangfx
-							graphical_culture = dutchgfx
-							graphical_culture = englishgfx
-							graphical_culture = frankishgfx
-							graphical_culture = bohemiangfx
-							graphical_culture = saxongfx
-							graphical_culture = normangfx
-							graphical_culture = occitangfx
-							graphical_culture = westernslavicgfx
-							graphical_culture = southernslavicgfx
-						}
-					}
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = balticgfx
-					religion_group = christian
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
 				AND = {
 					OR = {
 						real_tier = emperor
@@ -2881,6 +2545,41 @@
 						real_tier = king
 					}
 					is_nomadic = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 80
+			trait = monk
+			in_command = no
+			OR = {
+				AND = {
+					year = 950
+					OR = {
+						graphical_culture = westerngfx
+						graphical_culture = germangfx
+						graphical_culture = dutchgfx
+						graphical_culture = englishgfx
+						graphical_culture = frankishgfx
+						graphical_culture = westernslavicgfx
+						graphical_culture = southernslavicgfx
+						graphical_culture = bohemiangfx
+						graphical_culture = saxongfx
+						graphical_culture = normangfx
+						graphical_culture = occitangfx
+					}
+				}
+				AND = {
+					graphical_culture = hungariangfx
+					religion_group = christian
+				}
+				AND = {
+					graphical_culture = norsegfx
+					religion_group = christian
+				}
+				AND = {
+					graphical_culture = balticgfx
+					religion_group = christian
 				}
 			}
 		}
@@ -2998,7 +2697,7 @@
 			}
 		}
 		modifier = {
-			factor = 40
+			factor = 80
 			trait = nun
 			OR = {
 				AND = {
@@ -3029,29 +2728,6 @@
 					graphical_culture = balticgfx
 					religion_group = christian
 				}
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = nun
-			NOT = { year = 950 }
-			OR = {
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				graphical_culture = westernslavicgfx
-				graphical_culture = southernslavicgfx
-				graphical_culture = bohemiangfx
-				graphical_culture = saxongfx
-				graphical_culture = normangfx
-				graphical_culture = occitangfx
-				graphical_culture = italiangfx
-				graphical_culture = lombardgfx
-				graphical_culture = siciliangfx
-				graphical_culture = southerngfx
-				graphical_culture = basquegfx
 			}
 		}
 		#Prevent Guanche from having turbans
@@ -3163,39 +2839,6 @@
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 				spouse = { real_tier = count }
-				AND = {
-					trait = monk
-					OR = {
-						AND = {
-							year = 950
-							OR = {
-								graphical_culture = westerngfx
-								graphical_culture = germangfx
-								graphical_culture = dutchgfx
-								graphical_culture = englishgfx
-								graphical_culture = frankishgfx
-								graphical_culture = bohemiangfx
-								graphical_culture = saxongfx
-								graphical_culture = normangfx
-								graphical_culture = occitangfx
-								graphical_culture = westernslavicgfx
-								graphical_culture = southernslavicgfx
-							}
-						}
-						AND = {
-							graphical_culture = hungariangfx
-							religion_group = christian
-						}
-						AND = {
-							graphical_culture = norsegfx
-							religion_group = christian
-						}
-						AND = {
-							graphical_culture = balticgfx
-							religion_group = christian
-						}
-					}
-				}
 			}
 		}
 		modifier = {
@@ -3210,6 +2853,30 @@
 					}
 					is_ruler = no
 				}
+			}
+		}
+		modifier = {
+			factor = 80
+			trait = monk
+			NOT = { year = 950 }
+			in_command = no
+			OR = {
+				graphical_culture = westerngfx
+				graphical_culture = germangfx
+				graphical_culture = dutchgfx
+				graphical_culture = englishgfx
+				graphical_culture = frankishgfx
+				graphical_culture = westernslavicgfx
+				graphical_culture = southernslavicgfx
+				graphical_culture = bohemiangfx
+				graphical_culture = saxongfx
+				graphical_culture = normangfx
+				graphical_culture = occitangfx
+				graphical_culture = italiangfx
+				graphical_culture = lombardgfx
+				graphical_culture = siciliangfx
+				graphical_culture = southerngfx
+				graphical_culture = basquegfx
 			}
 		}
 	}

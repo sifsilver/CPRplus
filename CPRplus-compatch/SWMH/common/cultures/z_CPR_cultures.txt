@@ -92,7 +92,7 @@ latin = {
 	graphical_cultures = {westerngfx}
 
 	frankish = {
-		graphical_cultures = {frankishgfx occitangfx}
+		graphical_cultures = {frankishgfx}
 	}
 	arpitan = {
 		graphical_cultures = {occitangfx}
@@ -107,7 +107,7 @@ latin = {
 }
 
 iberian = {
-	graphical_cultures = {occitangfx}
+	graphical_cultures = {westerngfx}
 
 	basque = {
 		graphical_cultures = {basquegfx southerngfx}
@@ -533,25 +533,25 @@ italian_group = {
 	graphical_cultures = {westerngfx}
 
 	sardinian = {
-		graphical_cultures = {italiangfx occitangfx}
+		graphical_cultures = {italiangfx}
 	}
 	sicilian = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 	corsican = {
-		graphical_cultures = {italiangfx occitangfx}
+		graphical_cultures = {italiangfx}
 	}
 	central_italian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	southern_italian = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 	neapolitan = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 	tuscan = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	ligurian = {
 		graphical_cultures = { occitangfx italiangfx }
@@ -560,16 +560,16 @@ italian_group = {
 		graphical_cultures = {lombardgfx italiangfx}
 	}
 	italian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	venetian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	dalmatian = {		
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	roman = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 }
 mesoamerican = {

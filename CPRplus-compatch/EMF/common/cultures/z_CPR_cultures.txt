@@ -63,28 +63,28 @@ latin = {
 	graphical_cultures = { westerngfx }
 
 	frankish = {
-		graphical_cultures = { frankishgfx occitangfx }
+		graphical_cultures = { frankishgfx }
 	}
 	
 	norman = {
 		graphical_cultures = { normangfx }
 	}
 	italian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	occitan = {
 		graphical_cultures = { occitangfx }
 	}
 	roman = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	sicilian = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 }
 
 iberian = {
-	graphical_cultures = { occitangfx }
+	graphical_cultures = { westerngfx }
 
 	basque = {
 		graphical_cultures = { basquegfx southerngfx }
