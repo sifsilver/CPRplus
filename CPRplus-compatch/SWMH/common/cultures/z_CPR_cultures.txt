@@ -474,6 +474,7 @@ west_african = {
 		graphical_cultures = {westafricangfx}
 	}
 	soninke = {
+		graphical_cultures = {westafricangfx}
 	}
 	wolof = {
 		graphical_cultures = {westafricangfx}
