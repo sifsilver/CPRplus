@@ -46,7 +46,7 @@ spriteTypes = {
 			"GFX_mongol_male_ear:d7"
 			"GFX_eastasian_male_beard:p4:h:y"
 		   	"GFX_eastasian_male_hair:p1:h:y"
-			"GFX_eastasian_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_eastasian_male_headgear:p5:c5"				#20
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -98,7 +98,7 @@ spriteTypes = {
 			"GFX_mongol_male_ear_midage:d7"
 			"GFX_eastasian_male_beard_midage:p4:h:y"
 		   	"GFX_eastasian_male_hair_midage:p1:h:y"
-			"GFX_eastasian_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_eastasian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -150,7 +150,7 @@ spriteTypes = {
 			"GFX_mongol_male_ear_oldage:d7"
 			"GFX_eastasian_male_beard_oldage:p4:h:y"
 		   	"GFX_eastasian_male_hair_oldage:p1:h:y"
-			"GFX_eastasian_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_eastasian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}

@@ -48,7 +48,7 @@ spriteTypes = {
 			"GFX_celtic_male_ear:d7"			
 			"GFX_western_male_beard:p4:o-3x1:h:y"
 		   	"GFX_western_male_hair:p1:h:y"
-			"GFX_eastasian_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_eastasian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -111,7 +111,7 @@ spriteTypes = {
 			"GFX_celtic_male_ear_midage:d7"
 			"GFX_western_male_beard_midage:p4:o-3x1:h:y"
 			"GFX_western_male_hair_midage:p1:h:y"
-			"GFX_eastasian_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_eastasian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
@@ -174,7 +174,7 @@ spriteTypes = {
 			"GFX_celtic_male_ear_oldage:d7"
 			"GFX_western_male_beard_oldage:p4:o-3x1:h:y"
 			"GFX_western_male_hair_oldage:p1:h:y"
-			"GFX_eastasian_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_eastasian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
