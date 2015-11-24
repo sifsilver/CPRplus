@@ -911,6 +911,15 @@
 			NOT = {
 				age = 50
 			}
+			NOR = {
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = ugricgfx
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -968,6 +977,19 @@
 
 	1 = { # Black Adder
 		factor = 1
+		
+		modifier = { # Norman bowl cut
+			factor = 50
+			culture = norman
+			is_female = no
+			OR = {
+				graphical_culture = normangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+			}
+			NOT = { trait = monk }
+		}
 		
 		# Does not suit African females of a Western Culture
 		modifier = {
@@ -1037,6 +1059,23 @@
 
 	4 = { # Long Straight
 		factor = 1
+		
+		modifier = {
+			factor = 0.1
+			is_female = no
+			NOT = {
+				age = 50
+			}
+			OR = {
+				graphical_culture = bretongfx
+				graphical_culture = bohemiangfx
+				graphical_culture = ugricgfx
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
+			}
+		}
 		
 		# Does not suit Western females with African style headgear
 		modifier = {
@@ -1709,7 +1748,7 @@
 			NOT = { trait = leper }
 		}
 		modifier = {
-			factor = 20
+			factor = 75
 			#AND = {
 				#religion_group = christian
 				#NOT = {
@@ -1724,23 +1763,26 @@
 			}
 			#NOT = { trait = leper }
 		}
+		#modifier = {
+		#	factor = 5
+		#	religion_group = orthodox
+		#	culture_group = byzantine
+		#}
 		modifier = {
-			factor = 5
-			religion_group = orthodox
-			culture_group = byzantine
-		}
-		modifier = {
-			factor = 15
+			factor = 10
 			religion_group = christian
-			culture_group = iberian
+			OR = {
+				culture_group = iberian
+				culture_group = latin
+				culture_group = italian_group
+			}
 		}
 		modifier = {
 			factor = 0.5
 			OR = {
 				#graphical_culture = byzantinegfx
-				graphical_culture = steppegfx
-				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
+				culture_group = altaic
+				culture_group = east_slavic
 			}
 		}
 		modifier = {
@@ -1780,15 +1822,14 @@
 	}
 	2 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 30
-			OR = {
-				graphical_culture = byzantinegfx
-				graphical_culture = steppegfx
-				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
-			}
-		}
+		#modifier = {
+		#	factor = 30
+		#	OR = {
+		#		culture_group = byzantine
+		#		culture_group = altaic
+		#		culture_group = east_slavic
+		#	}
+		#}
 		#modifier = {
 		#	factor = 0
 		#	culture = pecheneg
@@ -1800,15 +1841,14 @@
 	}
 	3 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 30
-			OR = {
-				graphical_culture = byzantinegfx
-				graphical_culture = steppegfx
-				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
-			}
-		}
+		#modifier = {
+		#	factor = 30
+		#	OR = {
+		#		culture_group = byzantine
+		#		culture_group = altaic
+		#		culture_group = east_slavic
+		#	}
+		#}
 		#modifier = {
 		#	factor = 2
 		#	culture = pecheneg
@@ -1864,15 +1904,14 @@
 	}
 	6 = { #Beard no mustache
 		factor = 1
-		modifier = {
-			factor = 30
-			OR = {
-				graphical_culture = byzantinegfx
-				graphical_culture = steppegfx
-				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
-			}
-		}
+		#modifier = {
+		#	factor = 30
+		#	OR = {
+		#		culture_group = byzantine
+		#		culture_group = altaic
+		#		culture_group = east_slavic
+		#	}
+		#}
 		#modifier = {
 		#	factor = 0
 		#	culture = pecheneg
@@ -1895,18 +1934,20 @@
 		#	}
 		#	is_priest = yes
 		#}
-		modifier = {
-			factor = 0.5
-			OR = {
-				#graphical_culture = byzantinegfx
-				graphical_culture = steppegfx
-				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
-			}
-		}
+		#modifier = {
+		#	factor = 0.5
+		#	OR = {
+		#		#culture_group = byzantine
+		#		culture_group = altaic
+		#		culture_group = east_slavic
+		#	}
+		#}
 		modifier = {
 			factor = 0
-			graphical_culture = maghrebgfx
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+			}
 		}
 		modifier = {
 			factor = 2.5
@@ -1930,30 +1971,30 @@
 		#	}
 		#	is_priest = yes
 		#}
-		modifier = {
-			factor = 0.5
-			OR = {
-				#graphical_culture = byzantinegfx
-				graphical_culture = steppegfx
-				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
-			}
-		}
+		#modifier = {
+		#	factor = 0.5
+		#	OR = {
+		#		#graphical_culture = byzantinegfx
+		#		graphical_culture = steppegfx
+		#		graphical_culture = easternslavicgfx
+		#		graphical_culture = commiegfx
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				graphical_culture = maghrebgfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
 		#modifier = {
 		#	factor = 0
 		#	culture = pecheneg
 		#}
-		modifier = {
-			factor = 50
-			culture = norman
-		}
+		#modifier = {
+		#	factor = 50
+		#	culture = norman
+		#}
 		#modifier = {
 		#	factor = 0
 		#	trait = leper
@@ -1980,7 +2021,7 @@
 			factor = 0
 			OR = {
 				graphical_culture = maghrebgfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
 		#modifier = {
@@ -2007,34 +2048,34 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 				graphical_culture = persiangfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
-		modifier = {
-			factor = 20
-			religion_group = christian
-			culture_group = iberian
-			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = byzantinegfx
-				graphical_culture = italiangfx
-				graphical_culture = siciliangfx
-			}
-		}
-		modifier = {
-			factor = 40
-			religion_group = christian
-			OR = {
-				culture = greek
-				culture = italian
-			}
-			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = byzantinegfx
-				graphical_culture = italiangfx
-				graphical_culture = siciliangfx
-			}
-		}
+		#modifier = {
+		#	factor = 20
+		#	religion_group = christian
+		#	culture_group = iberian
+		#	OR = {
+		#		graphical_culture = southerngfx
+		#		graphical_culture = byzantinegfx
+		#		graphical_culture = italiangfx
+		#		graphical_culture = siciliangfx
+		#	}
+		#}
+		#modifier = {
+		#	factor = 40
+		#	religion_group = christian
+		#	OR = {
+		#		culture = greek
+		#		culture = italian
+		#	}
+		#	OR = {
+		#		graphical_culture = southerngfx
+		#		graphical_culture = byzantinegfx
+		#		graphical_culture = italiangfx
+		#		graphical_culture = siciliangfx
+		#	}
+		#}
 		#modifier = {
 		#	factor = 0
 		#	trait = leper
@@ -2053,7 +2094,7 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 				graphical_culture = persiangfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
 		#modifier = {
@@ -2074,7 +2115,7 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 				graphical_culture = persiangfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
 		#modifier = {
@@ -2096,7 +2137,7 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 				graphical_culture = persiangfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
 		#modifier = {
@@ -2117,7 +2158,7 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 				graphical_culture = persiangfx
-				graphical_culture = normangfx
+				graphical_culture = berbergfx
 			}
 		}
 		#modifier = {
