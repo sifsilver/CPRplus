@@ -1327,12 +1327,12 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			is_female = no
 			OR = {
 				graphical_culture = westernslavicgfx
 				graphical_culture = easternslavicgfx
 				graphical_culture = commiegfx
 			}
-			is_female = no
 			NOT = { religion_group = pagan_group }
 		}
 	}
@@ -1709,16 +1709,20 @@
 			NOT = { trait = leper }
 		}
 		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
+			factor = 20
+			#AND = {
+				#religion_group = christian
+				#NOT = {
 					religion = catholic
-					is_heresy_of = catholic
-				}
+				#	is_heresy_of = catholic
+				#}
+			#}
+			OR = {
+				is_priest = yes
+				trait = monk
+				is_theocracy = yes
 			}
-			is_priest = yes
-			NOT = { trait = leper }
+			#NOT = { trait = leper }
 		}
 		modifier = {
 			factor = 5
@@ -1751,17 +1755,17 @@
 	}
 	1 = { #Light beard
 		factor = 1
-		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-			}
-			is_priest = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	AND = {
+		#		religion_group = christian
+		#		NOT = {
+		#			religion = catholic
+		#			is_heresy_of = catholic
+		#		}
+		#	}
+		#	is_priest = yes
+		#}
 		#modifier = {
 		#	factor = 2
 		#	culture = pecheneg
@@ -1813,17 +1817,17 @@
 	}
 	4 = { #Small mustache and beard
 		factor = 1
-		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-			}
-			is_priest = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	AND = {
+		#		religion_group = christian
+		#		NOT = {
+		#			religion = catholic
+		#			is_heresy_of = catholic
+		#		}
+		#	}
+		#	is_priest = yes
+		#}
 		modifier = {
 			factor = 2.5
 			culture = pecheneg
@@ -1835,17 +1839,17 @@
 	}
 	5 = { #Spanish mustache
 		factor = 1
-		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-			}
-			is_priest = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	AND = {
+		#		religion_group = christian
+		#		NOT = {
+		#			religion = catholic
+		#			is_heresy_of = catholic
+		#		}
+		#	}
+		#	is_priest = yes
+		#}
 		modifier = {
 			factor = 2.5
 			culture = pecheneg
@@ -1877,17 +1881,17 @@
 	}
 	7 = { #Evil stache
 		factor = 1
-		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-			}
-			is_priest = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	AND = {
+		#		religion_group = christian
+		#		NOT = {
+		#			religion = catholic
+		#			is_heresy_of = catholic
+		#		}
+		#	}
+		#	is_priest = yes
+		#}
 		modifier = {
 			factor = 0.5
 			OR = {
@@ -1896,6 +1900,10 @@
 				graphical_culture = easternslavicgfx
 				graphical_culture = commiegfx
 			}
+		}
+		modifier = {
+			factor = 0
+			graphical_culture = maghrebgfx
 		}
 		modifier = {
 			factor = 2.5
@@ -1908,33 +1916,17 @@
 	}
 	8 = { #No Beard
 		factor = 1
-		modifier = {
-			factor = 0
-			is_female = no
-			OR = {
-				graphical_culture = bretongfx
-				graphical_culture = englishgfx
-				graphical_culture = otakugfx
-				graphical_culture = normangfx
-				graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = frankishgfx
-					year = 950
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-			}
-			is_priest = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	AND = {
+		#		religion_group = christian
+		#		NOT = {
+		#			religion = catholic
+		#			is_heresy_of = catholic
+		#		}
+		#	}
+		#	is_priest = yes
+		#}
 		modifier = {
 			factor = 0.5
 			OR = {
@@ -1942,6 +1934,13 @@
 				graphical_culture = steppegfx
 				graphical_culture = easternslavicgfx
 				graphical_culture = commiegfx
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = normangfx
 			}
 		}
 		#modifier = {
@@ -1961,46 +1960,26 @@
 		factor = 1
 		#modifier = {
 		#	factor = 0
-		#	is_female = no
-		#	OR = {
-		#		graphical_culture = bretongfx
-		#		graphical_culture = englishgfx
-		#		graphical_culture = otakugfx
-		#		graphical_culture = normangfx
-		#		graphical_culture = westerngfx
-		#		graphical_culture = germangfx
-		#		AND = {
-		#			graphical_culture = frankishgfx
-		#			year = 950
+		#	AND = {
+		#		religion_group = christian
+		#		NOT = {
+		#			religion = catholic
+		#			is_heresy_of = catholic
 		#		}
 		#	}
+		#	is_priest = yes
 		#}
-		modifier = {
-			factor = 5
-			religion_group = christian
-			culture_group = iberian
-			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = byzantinegfx
-				graphical_culture = italiangfx
-				graphical_culture = siciliangfx
-			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				religion_group = christian
-				NOT = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-			}
-			is_priest = yes
-		}
 		#modifier = {
 		#	factor = 0
 		#	culture = pecheneg
 		#}
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = normangfx
+			}
+		}
 		modifier = {
 			factor = 0
 			trait = leper
@@ -2014,35 +1993,18 @@
 		#	NOT = { graphical_culture = muslimgfx }
 		#	NOT = { graphical_culture = arabicgfx }
 		#}
-		#modifier = {
-		#	factor = 0
-		#	is_female = no
-		#	OR = {
-		#		graphical_culture = bretongfx
-		#		graphical_culture = englishgfx
-		#		graphical_culture = otakugfx
-		#		graphical_culture = normangfx
-		#		graphical_culture = westerngfx
-		#		graphical_culture = germangfx
-		#		AND = {
-		#			graphical_culture = frankishgfx
-		#			year = 950
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = 0
-			is_female = no
 			OR = {
 				graphical_culture = arabicgfx
-				graphical_culture = muslimgfx
+				graphical_culture = levantinegfx
 				graphical_culture = somaligfx
-				graphical_culture = silkroadgfx
-				graphical_culture = ethiopiangfx
-				AND = {
-					graphical_culture = africangfx
-					religion_group = pagan_group
-				}
+				graphical_culture = afghangfx
+				graphical_culture = africangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = persiangfx
+				graphical_culture = normangfx
 			}
 		}
 		modifier = {
@@ -2077,35 +2039,18 @@
 	}
 	11 = { #Beard
 		factor = 1
-		#modifier = {
-		#	factor = 0
-		#	is_female = no
-		#	OR = {
-		#		graphical_culture = bretongfx
-		#		graphical_culture = englishgfx
-		#		graphical_culture = otakugfx
-		#		graphical_culture = normangfx
-		#		graphical_culture = westerngfx
-		#		graphical_culture = germangfx
-		#		AND = {
-		#			graphical_culture = frankishgfx
-		#			year = 950
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = 0
-			is_female = no
 			OR = {
 				graphical_culture = arabicgfx
-				graphical_culture = muslimgfx
+				graphical_culture = levantinegfx
 				graphical_culture = somaligfx
-				graphical_culture = silkroadgfx
-				graphical_culture = ethiopiangfx
-				AND = {
-					graphical_culture = africangfx
-					religion_group = pagan_group
-				}
+				graphical_culture = afghangfx
+				graphical_culture = africangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = persiangfx
+				graphical_culture = normangfx
 			}
 		}
 		modifier = {
@@ -2115,35 +2060,18 @@
 	}
 	12 = { #Beard
 		factor = 1
-		#modifier = {
-		#	factor = 0
-		#	is_female = no
-		#	OR = {
-		#		graphical_culture = bretongfx
-		#		graphical_culture = englishgfx
-		#		graphical_culture = otakugfx
-		#		graphical_culture = normangfx
-		#		graphical_culture = westerngfx
-		#		graphical_culture = germangfx
-		#		AND = {
-		#			graphical_culture = frankishgfx
-		#			year = 950
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = 0
-			is_female = no
 			OR = {
 				graphical_culture = arabicgfx
-				graphical_culture = muslimgfx
+				graphical_culture = levantinegfx
 				graphical_culture = somaligfx
-				graphical_culture = silkroadgfx
-				graphical_culture = ethiopiangfx
-				AND = {
-					graphical_culture = africangfx
-					religion_group = pagan_group
-				}
+				graphical_culture = afghangfx
+				graphical_culture = africangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = persiangfx
+				graphical_culture = normangfx
 			}
 		}
 		modifier = {
@@ -2154,34 +2082,18 @@
 	13 = { #Beard
 		factor = 1
 		#modifier = {
-		#	factor = 0
-		#	is_female = no
-		#	OR = {
-		#		graphical_culture = bretongfx
-		#		graphical_culture = englishgfx
-		#		graphical_culture = otakugfx
-		#		graphical_culture = normangfx
-		#		graphical_culture = westerngfx
-		#		graphical_culture = germangfx
-		#		AND = {
-		#			graphical_culture = frankishgfx
-		#			year = 950
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = 0
-			is_female = no
 			OR = {
 				graphical_culture = arabicgfx
-				graphical_culture = muslimgfx
+				graphical_culture = levantinegfx
 				graphical_culture = somaligfx
-				graphical_culture = silkroadgfx
-				graphical_culture = ethiopiangfx
-				AND = {
-					graphical_culture = africangfx
-					religion_group = pagan_group
-				}
+				graphical_culture = afghangfx
+				graphical_culture = africangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = persiangfx
+				graphical_culture = normangfx
 			}
 		}
 		modifier = {
@@ -2191,35 +2103,18 @@
 	}
 	14 = { #Beard
 		factor = 1
-		#modifier = {
-		#	factor = 0
-		#	is_female = no
-		#	OR = {
-		#		graphical_culture = bretongfx
-		#		graphical_culture = englishgfx
-		#		graphical_culture = otakugfx
-		#		graphical_culture = normangfx
-		#		graphical_culture = westerngfx
-		#		graphical_culture = germangfx
-		#		AND = {
-		#			graphical_culture = frankishgfx
-		#			year = 950
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = 0
-			is_female = no
 			OR = {
 				graphical_culture = arabicgfx
-				graphical_culture = muslimgfx
+				graphical_culture = levantinegfx
 				graphical_culture = somaligfx
-				graphical_culture = silkroadgfx
-				graphical_culture = ethiopiangfx
-				AND = {
-					graphical_culture = africangfx
-					religion_group = pagan_group
-				}
+				graphical_culture = afghangfx
+				graphical_culture = africangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = persiangfx
+				graphical_culture = normangfx
 			}
 		}
 		modifier = {
