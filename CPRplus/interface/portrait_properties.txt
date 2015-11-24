@@ -1742,7 +1742,6 @@
 				graphical_culture = easternslavicgfx
 				graphical_culture = commiegfx
 			}
-			NOT = { trait = leper }
 		}
 		modifier = {
 			factor = 25
@@ -1751,6 +1750,10 @@
 		modifier = {
 			factor = 50
 			culture = norman
+		}
+		modifier = {
+			factor = 100
+			trait = leper
 		}
 	}
 	1 = { #Light beard
@@ -1770,10 +1773,10 @@
 		#	factor = 2
 		#	culture = pecheneg
 		#}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	2 = { #Beard
 		factor = 1
@@ -1790,10 +1793,10 @@
 		#	factor = 0
 		#	culture = pecheneg
 		#}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	3 = { #Beard
 		factor = 1
@@ -1810,10 +1813,10 @@
 		#	factor = 2
 		#	culture = pecheneg
 		#}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	4 = { #Small mustache and beard
 		factor = 1
@@ -1832,10 +1835,10 @@
 			factor = 2.5
 			culture = pecheneg
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	5 = { #Spanish mustache
 		factor = 1
@@ -1854,10 +1857,10 @@
 			factor = 2.5
 			culture = pecheneg
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	6 = { #Beard no mustache
 		factor = 1
@@ -1874,10 +1877,10 @@
 		#	factor = 0
 		#	culture = pecheneg
 		#}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	7 = { #Evil stache
 		factor = 1
@@ -1909,10 +1912,10 @@
 			factor = 2.5
 			culture = pecheneg
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	8 = { #No Beard
 		factor = 1
@@ -1951,10 +1954,10 @@
 			factor = 50
 			culture = norman
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	9 = { #Light Beard
 		factor = 1
@@ -1980,10 +1983,10 @@
 				graphical_culture = normangfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	10 = { #Beard
 		factor = 1
@@ -2032,10 +2035,10 @@
 				graphical_culture = siciliangfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	11 = { #Beard
 		factor = 1
@@ -2053,10 +2056,10 @@
 				graphical_culture = normangfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	12 = { #Beard
 		factor = 1
@@ -2074,10 +2077,10 @@
 				graphical_culture = normangfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	13 = { #Beard
 		factor = 1
@@ -2096,10 +2099,10 @@
 				graphical_culture = normangfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 	14 = { #Beard
 		factor = 1
@@ -2117,10 +2120,10 @@
 				graphical_culture = normangfx
 			}
 		}
-		modifier = {
-			factor = 0
-			trait = leper
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = leper
+		#}
 	}
 }
 
