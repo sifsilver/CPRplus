@@ -988,6 +988,7 @@
 				graphical_culture = englishgfx
 				graphical_culture = germangfx
 			}
+			NOT = { year = 1100 }
 			NOT = { trait = monk }
 		}
 		
@@ -1075,6 +1076,20 @@
 				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
 			}
+		}
+		
+		modifier = { # Norman modified bowl cut
+			factor = 25
+			culture = norman
+			is_female = no
+			OR = {
+				graphical_culture = normangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+			}
+			year = 1100
+			NOT = { trait = monk }
 		}
 		
 		# Does not suit Western females with African style headgear
@@ -1223,6 +1238,20 @@
 	
 	7 = {  # Short
 		factor = 1
+		
+		modifier = { # Norman modified bowl cut
+			factor = 25
+			culture = norman
+			is_female = no
+			OR = {
+				graphical_culture = normangfx
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+			}
+			year = 1100
+			NOT = { trait = monk }
+		}
 		
 		# Does not suit Western females with African style headgear
 		modifier = {
@@ -1748,20 +1777,13 @@
 			NOT = { trait = leper }
 		}
 		modifier = {
-			factor = 75
-			#AND = {
-				#religion_group = christian
-				#NOT = {
-					religion = catholic
-				#	is_heresy_of = catholic
-				#}
-			#}
+			factor = 100
+			religion = catholic
 			OR = {
 				is_priest = yes
+				has_job_title = job_spiritual
 				trait = monk
-				is_theocracy = yes
 			}
-			#NOT = { trait = leper }
 		}
 		#modifier = {
 		#	factor = 5
@@ -2125,7 +2147,6 @@
 	}
 	13 = { #Beard
 		factor = 1
-		#modifier = {
 		modifier = {
 			factor = 0
 			OR = {

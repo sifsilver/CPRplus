@@ -18,90 +18,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_hungarian_male_hair_behind"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_behind_1.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_behind_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_behind_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_behind_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_behind_3.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_behind"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_hungarian_male_beard"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_1.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_3.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_hungarian_male_headgear_behind"
 		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_headgear_behind.dds"
 		noOfFrames = 12
@@ -169,8 +85,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind_early:p3:c0"
 			"GFX_hungarian_male_headgear_behind:p5:c1"
-			"GFX_hungarian_male_hair_behind:p1:h:y"
-			"GFX_hungarian_male_beard_behind:p4:h:y"
+			"GFX_steppe_male_hair_behind:p1:o-2x-3:h:y"
+			"GFX_steppe_male_beard_behind:p4:o-2x2:h:y"
 			"GFX_easternslavic_male_base:p2"
 			"GFX_easternslavic_male_neck:d0"
 			"GFX_easternslavic_male_chin:d1"
@@ -186,8 +102,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear:d7"			
-			"GFX_hungarian_male_beard:p4:h:y"
-		   	"GFX_hungarian_male_hair:p1:h:y"
+			"GFX_steppe_male_beard:p4:o-2x2:h:y"
+		   	"GFX_steppe_male_hair:p1:o-2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -209,7 +125,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -225,8 +141,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind_early:p3:c0"
 			"GFX_hungarian_male_headgear_behind:p5:c1"
-			"GFX_hungarian_male_hair_behind_midage:p1:h:y"
-			"GFX_hungarian_male_beard_behind_midage:p4:h:y"
+			"GFX_steppe_male_hair_behind_midage:p1:o-2x-3:h:y"
+			"GFX_steppe_male_beard_behind_midage:p4:o-2x2:h:y"
 			"GFX_easternslavic_male_base_midage:p2"
 			"GFX_easternslavic_male_neck_midage:d0"
 			"GFX_easternslavic_male_chin_midage:d1"
@@ -242,8 +158,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_midage:d7"
-			"GFX_hungarian_male_beard_midage:p4:h:y"
-			"GFX_hungarian_male_hair_midage:p1:h:y"
+			"GFX_steppe_male_beard_midage:p4:o-2x2:h:y"
+			"GFX_steppe_male_hair_midage:p1:o-2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -265,7 +181,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -281,8 +197,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind_early:p3:c0"
 			"GFX_hungarian_male_headgear_behind:p5:c1"
-			"GFX_hungarian_male_hair_behind_oldage:p1:h:y"
-			"GFX_hungarian_male_beard_behind_oldage:p4:h:y"
+			"GFX_steppe_male_hair_behind_oldage:p1:o-2x-3:h:y"
+			"GFX_steppe_male_beard_behind_oldage:p4:o-2x2:h:y"
 			"GFX_easternslavic_male_base_oldage:p2"
 			"GFX_easternslavic_male_neck_oldage:d0"
 			"GFX_easternslavic_male_chin_oldage:d1"
@@ -298,8 +214,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_oldage:d7"
-			"GFX_hungarian_male_beard_oldage:p4:h:y"
-			"GFX_hungarian_male_hair_oldage:p1:h:y"
+			"GFX_steppe_male_beard_oldage:p4:o-2x2:h:y"
+			"GFX_steppe_male_hair_oldage:p1:o-2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -319,7 +235,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -375,7 +291,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -431,7 +347,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -485,7 +401,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -542,7 +458,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -595,7 +511,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -646,7 +562,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -698,7 +614,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -751,7 +667,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -802,7 +718,7 @@ spriteTypes = {
 			{ 120 74 46 }
 			{ 74 120 182}
 			{ 34 103 36 }
-			{ 159 209 225 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
