@@ -1777,7 +1777,7 @@
 			NOT = { trait = leper }
 		}
 		modifier = {
-			factor = 100
+			factor = 85
 			religion = catholic
 			OR = {
 				is_priest = yes
