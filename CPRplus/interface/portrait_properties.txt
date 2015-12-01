@@ -1777,19 +1777,30 @@
 			NOT = { trait = leper }
 		}
 		modifier = {
-			factor = 85
-			religion = catholic
-			OR = {
-				is_priest = yes
-				has_job_title = job_spiritual
-				trait = monk
-			}
+			factor = 0.5
+			age = 20
 		}
 		#modifier = {
 		#	factor = 5
 		#	religion_group = orthodox
 		#	culture_group = byzantine
 		#}
+		modifier = {
+			factor = 0
+			OR = {
+				religion = orthodox
+				is_heresy_of = orthodox
+			}
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOT = { trait = leper }
+		}
 		modifier = {
 			factor = 10
 			religion_group = christian
@@ -1799,31 +1810,20 @@
 				culture_group = italian_group
 			}
 		}
+		#modifier = {
+		#	factor = 0.5
+		#	OR = {
+		#		culture_group = altaic
+		#		culture_group = east_slavic
+		#	}
+		#}
 		modifier = {
-			factor = 0.5
-			OR = {
-				AND = {
-					is_priest = yes
-					OR = {
-						religion = orthodox
-						is_heresy_of = orthodox
-					}
-				}
-				culture_group = altaic
-				culture_group = east_slavic
-			}
-		}
-		modifier = {
-			factor = 25
+			factor = 15
 			culture = pecheneg
 		}
 		modifier = {
 			factor = 50
 			culture = norman
-		}
-		modifier = {
-			factor = 100
-			trait = leper
 		}
 	}
 	1 = { #Light beard
@@ -1843,10 +1843,22 @@
 		#	factor = 2
 		#	culture = pecheneg
 		#}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	2 = { #Beard
 		factor = 1
@@ -1862,10 +1874,22 @@
 		#	factor = 0
 		#	culture = pecheneg
 		#}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	3 = { #Beard
 		factor = 1
@@ -1881,10 +1905,22 @@
 		#	factor = 2
 		#	culture = pecheneg
 		#}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	4 = { #Small mustache and beard
 		factor = 1
@@ -1899,14 +1935,26 @@
 		#	}
 		#	is_priest = yes
 		#}
-		modifier = {
-			factor = 2.5
-			culture = pecheneg
-		}
 		#modifier = {
-		#	factor = 0
-		#	trait = leper
+		#	factor = 2.5
+		#	culture = pecheneg
 		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	5 = { #Spanish mustache
 		factor = 1
@@ -1921,14 +1969,26 @@
 		#	}
 		#	is_priest = yes
 		#}
-		modifier = {
-			factor = 2.5
-			culture = pecheneg
-		}
 		#modifier = {
-		#	factor = 0
-		#	trait = leper
+		#	factor = 2.5
+		#	culture = pecheneg
 		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	6 = { #Beard no mustache
 		factor = 1
@@ -1944,10 +2004,22 @@
 		#	factor = 0
 		#	culture = pecheneg
 		#}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	7 = { #Evil stache
 		factor = 1
@@ -1977,14 +2049,26 @@
 				graphical_culture = berbergfx
 			}
 		}
-		modifier = {
-			factor = 2.5
-			culture = pecheneg
-		}
 		#modifier = {
-		#	factor = 0
-		#	trait = leper
+		#	factor = 2.5
+		#	culture = pecheneg
 		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	8 = { #No Beard
 		factor = 1
@@ -2023,10 +2107,22 @@
 		#	factor = 50
 		#	culture = norman
 		#}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	9 = { #Light Beard
 		factor = 1
@@ -2052,10 +2148,22 @@
 				graphical_culture = berbergfx
 			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	10 = { #Beard
 		factor = 1
@@ -2104,10 +2212,22 @@
 		#		graphical_culture = siciliangfx
 		#	}
 		#}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	11 = { #Beard
 		factor = 1
@@ -2125,10 +2245,22 @@
 				graphical_culture = berbergfx
 			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	12 = { #Beard
 		factor = 1
@@ -2146,10 +2278,22 @@
 				graphical_culture = berbergfx
 			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	13 = { #Beard
 		factor = 1
@@ -2167,10 +2311,22 @@
 				graphical_culture = berbergfx
 			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 	14 = { #Beard
 		factor = 1
@@ -2188,10 +2344,22 @@
 				graphical_culture = berbergfx
 			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	trait = leper
-		#}
+		modifier = {
+			factor = 0
+			religion = catholic
+			OR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = leper
+		}
 	}
 }
 
