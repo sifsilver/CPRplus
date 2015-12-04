@@ -13,11 +13,11 @@
 		modifier = {
 			factor = 5
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -62,6 +62,10 @@
 					holding_type = tribal
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
 		}
 	}
 
@@ -232,7 +236,7 @@
 		#		is_nomadic = yes
 		#		AND = {
 		#			liege = { is_nomadic = yes }
-		#			is_ruler = no
+		#			is_landed = no
 		#		}
 		#	}
 		#	war = no
@@ -297,7 +301,7 @@
 		}
 		#modifier = {
 		#	factor = 0
-		#	is_ruler = no
+		#	is_landed = no
 		#}
 		modifier = {
 			factor = 0
@@ -407,7 +411,7 @@
 		}
 		modifier = {
 			factor = 3
-			is_ruler = no
+			is_landed = no
 		}
 		modifier = {
 			factor = 0
@@ -455,11 +459,11 @@
 		modifier = {
 			factor = 5
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -521,11 +525,11 @@
 		modifier = {
 			factor = 5
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -571,11 +575,11 @@
 		modifier = {
 			factor = 5
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -591,11 +595,11 @@
 		modifier = {
 			factor = 10
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -664,11 +668,11 @@
 		modifier = {
 			factor = 2
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -772,11 +776,11 @@
 			factor = 2
 			location = { culture_group = celtic }
 			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				AND = {
 					liege = { family = ROOT }
-					is_ruler = no
+					is_landed = no
 				}
 			}
 		}
@@ -1140,7 +1144,7 @@
 		#modifier = {
 		#	factor = 0
 		#	is_female = no
-		#	is_ruler = yes
+		#	is_landed = yes
 		#}
 		#modifier = {
 		#	factor = 0
@@ -1418,6 +1422,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -1453,6 +1458,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -1488,6 +1494,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -1523,6 +1530,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -1559,6 +1567,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -1595,6 +1604,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -1630,35 +1640,33 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				is_ruler = yes
+				higher_real_tier_than = baron
+				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
 			}
 		}
-		modifier = {
-			factor = 10
-			is_ruler = yes
-			is_theocracy = yes
-			religion_group = pagan_group
-		}
+		#modifier = {
+		#	factor = 10
+		#	is_landed = yes
+		#	is_theocracy = yes
+		#	religion_group = pagan_group
+		#}
 	}
 	7 = { # Modest clothes 2
 		factor = 1
 		modifier = {
 			factor = 0
+			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				is_ruler = yes
+				higher_real_tier_than = baron
+				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
 			}
 		}
 	}
@@ -1667,14 +1675,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				is_ruler = yes
+				higher_real_tier_than = baron
+				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
-				spouse = { real_tier = emperor }
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
 			}
 		}
 	}
@@ -1726,8 +1733,8 @@
 			religion_group = christian
 			OR = {
 				AND = {
-					is_ruler = yes
-					is_theocracy = yes
+					government = theocracy_government
+					is_landed = yes
 				}
 				has_job_title = job_spiritual
 			}
@@ -2402,6 +2409,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -2471,6 +2479,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -2560,6 +2569,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -2649,6 +2659,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -2737,6 +2748,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				trait = peasant_leader
 				trait = heresiarch
 			}
@@ -2787,12 +2799,12 @@
 				spouse = { real_tier = count }
 			}
 		}
-		modifier = {
-			factor = 10
-			is_ruler = yes
-			is_theocracy = yes
-			religion_group = pagan_group
-		}
+		#modifier = {
+		#	factor = 10
+		#	is_landed = yes
+		#	is_theocracy = yes
+		#	religion_group = pagan_group
+		#}
 		modifier = {
 			factor = 2
 			is_ruler = no
@@ -2807,6 +2819,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				prisoner = yes
 				trait = monk
 			}
@@ -2925,7 +2938,10 @@
 		}
 		modifier = {
 			factor = 0
-			is_ruler = yes
+			OR = {
+				real_tier = count
+				real_tier = baron
+			}
 			NOT = { trait = monk }
 			OR = {
 				AND = {
@@ -2956,6 +2972,13 @@
 					graphical_culture = balticgfx
 					religion_group = christian
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = in_hiding
+				prisoner = yes
 			}
 		}
 	}
@@ -2992,6 +3015,10 @@
 				trait = monk
 				trait = nun
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
 		}
 		modifier = {
 			factor = 0
@@ -3067,6 +3094,7 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = in_hiding
 				prisoner = yes
 				trait = monk
 			}
@@ -3147,6 +3175,10 @@
 				trait = nun
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 
 	# Martial headgear
@@ -3170,8 +3202,8 @@
 			religion_group = christian
 			OR = {
 				AND = {
-					is_ruler = yes
-					is_theocracy = yes
+					government = theocracy_government
+					is_landed = yes
 				}
 				has_job_title = job_spiritual
 			}
@@ -3204,6 +3236,7 @@
 		modifier = {
 			factor = 0
 			prisoner = no
+			NOT = { trait = in_hiding }
 			OR = {
 				real_tier = emperor
 				real_tier = king
