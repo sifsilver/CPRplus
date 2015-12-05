@@ -1008,7 +1008,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1048,7 +1048,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1088,7 +1088,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1159,7 +1159,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1199,7 +1199,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1282,7 +1282,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1355,7 +1355,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1376,7 +1376,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1434,7 +1434,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1479,7 +1479,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1500,7 +1500,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1540,7 +1540,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1561,7 +1561,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1592,7 +1592,7 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				#graphical_culture = dutchgfx
+				graphical_culture = bretongfx
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -2107,7 +2107,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2138,7 +2141,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2169,7 +2175,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2203,7 +2212,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2237,7 +2249,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2268,7 +2283,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2317,7 +2335,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2371,7 +2392,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2412,7 +2436,10 @@
 		}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2476,7 +2503,10 @@
 		#}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2509,7 +2539,10 @@
 		}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2542,7 +2575,10 @@
 		}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2575,7 +2611,10 @@
 		}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2608,7 +2647,10 @@
 		}
 		modifier = {
 			factor = 0
-			religion = catholic
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
 			OR = {
 				AND = {
 					government = theocracy_government
