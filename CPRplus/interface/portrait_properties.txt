@@ -923,6 +923,12 @@
 				graphical_culture = crimeangothicgfx
 				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
 			}
 		}
 		modifier = {
@@ -931,23 +937,23 @@
 		}
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				graphical_culture = africangfx
-				graphical_culture = ethiopiangfx
-				graphical_culture = somaligfx
-				graphical_culture = westafricangfx
-			}
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = west_african }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		graphical_culture = africangfx
+		#		graphical_culture = ethiopiangfx
+		#		graphical_culture = somaligfx
+		#		graphical_culture = westafricangfx
+		#	}
+		#	NOT = { culture_group = east_african }
+		#	NOT = { culture_group = west_african }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		# Does not suit Occitan or Basque females
 		#modifier = {
 		#	factor = 0
@@ -979,23 +985,23 @@
 		}
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				graphical_culture = africangfx
-				graphical_culture = ethiopiangfx
-				graphical_culture = somaligfx
-				graphical_culture = westafricangfx
-			}
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = west_african }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		graphical_culture = africangfx
+		#		graphical_culture = ethiopiangfx
+		#		graphical_culture = somaligfx
+		#		graphical_culture = westafricangfx
+		#	}
+		#	NOT = { culture_group = east_african }
+		#	NOT = { culture_group = west_african }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1019,23 +1025,23 @@
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1059,23 +1065,23 @@
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1130,23 +1136,23 @@
 		}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1170,23 +1176,23 @@
 		factor = 1
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				graphical_culture = africangfx
-				graphical_culture = ethiopiangfx
-				graphical_culture = somaligfx
-				graphical_culture = westafricangfx
-			}
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = west_african }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		graphical_culture = africangfx
+		#		graphical_culture = ethiopiangfx
+		#		graphical_culture = somaligfx
+		#		graphical_culture = westafricangfx
+		#	}
+		#	NOT = { culture_group = east_african }
+		#	NOT = { culture_group = west_african }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1234,42 +1240,42 @@
 		#}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				graphical_culture = africangfx
-				graphical_culture = ethiopiangfx
-				graphical_culture = somaligfx
-				graphical_culture = westafricangfx
-			}
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = west_african }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		graphical_culture = africangfx
+		#		graphical_culture = ethiopiangfx
+		#		graphical_culture = somaligfx
+		#		graphical_culture = westafricangfx
+		#	}
+		#	NOT = { culture_group = east_african }
+		#	NOT = { culture_group = west_african }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { trait = monk }
@@ -1307,42 +1313,42 @@
 		}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				graphical_culture = africangfx
-				graphical_culture = ethiopiangfx
-				graphical_culture = somaligfx
-				graphical_culture = westafricangfx
-			}
-			NOT = { culture_group = east_african }
-			NOT = { culture_group = west_african }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		graphical_culture = africangfx
+		#		graphical_culture = ethiopiangfx
+		#		graphical_culture = somaligfx
+		#		graphical_culture = westafricangfx
+		#	}
+		#	NOT = { culture_group = east_african }
+		#	NOT = { culture_group = west_african }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1391,21 +1397,35 @@
 		#}
 		
 		# Does not suit Western females with African style headgear
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
+			factor = 0.1
+			NOT = {
+				age = 50
 			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
 			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
+				graphical_culture = africangfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = somaligfx
+				graphical_culture = westafricangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
 			}
 		}
 		modifier = {
@@ -1436,23 +1456,23 @@
 		#}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1497,23 +1517,23 @@
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture_group = east_african
-				culture_group = west_african
-			}
-			NOT = { graphical_culture = africangfx }
-			NOT = { graphical_culture = ethiopiangfx }
-			NOT = { graphical_culture = somaligfx }
-			NOT = { graphical_culture = westafricangfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_female = yes
+		#	OR = {
+		#		culture_group = east_african
+		#		culture_group = west_african
+		#	}
+		#	NOT = { graphical_culture = africangfx }
+		#	NOT = { graphical_culture = ethiopiangfx }
+		#	NOT = { graphical_culture = somaligfx }
+		#	NOT = { graphical_culture = westafricangfx }
+		#	OR = {
+		#		higher_real_tier_than = count
+		#		spouse = { higher_real_tier_than = count }
+		#		has_minor_title = title_prince
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -1608,8 +1628,17 @@
 		}
 		modifier = {
 			factor = 0
-			lower_real_tier_than = king
-			spouse = { lower_real_tier_than = king }
+			OR = {
+				trait = monk
+				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			NOT = { real_tier = king }
+			NOT = { spouse = { real_tier = emperor } }
+			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
 		}
 		modifier = {
@@ -1645,8 +1674,17 @@
 		}
 		modifier = {
 			factor = 0
-			lower_real_tier_than = king
-			spouse = { lower_real_tier_than = king }
+			OR = {
+				trait = monk
+				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			NOT = { real_tier = king }
+			NOT = { spouse = { real_tier = emperor } }
+			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
 		}
 		modifier = {
@@ -1682,8 +1720,17 @@
 		}
 		modifier = {
 			factor = 0
-			lower_real_tier_than = king
-			spouse = { lower_real_tier_than = king }
+			OR = {
+				trait = monk
+				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { real_tier = emperor }
+			NOT = { real_tier = king }
+			NOT = { spouse = { real_tier = emperor } }
+			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
 		}
 		modifier = {
@@ -1715,6 +1762,13 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = monk
+				trait = nun
 			}
 		}
 		modifier = {
@@ -1759,6 +1813,13 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				trait = monk
+				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
@@ -1799,6 +1860,13 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				trait = monk
+				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
@@ -1831,6 +1899,8 @@
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { trait = monk }
+			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -1851,6 +1921,8 @@
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { trait = monk }
+			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -1866,6 +1938,8 @@
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { trait = monk }
+			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
