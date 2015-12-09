@@ -927,8 +927,6 @@
 				graphical_culture = ethiopiangfx
 				graphical_culture = somaligfx
 				graphical_culture = westafricangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = berbergfx
 			}
 		}
 		modifier = {
@@ -1424,8 +1422,6 @@
 				graphical_culture = ethiopiangfx
 				graphical_culture = somaligfx
 				graphical_culture = westafricangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = berbergfx
 			}
 		}
 		modifier = {
