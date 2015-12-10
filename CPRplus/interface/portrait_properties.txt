@@ -916,7 +916,7 @@
 				age = 50
 			}
 			NOR = {
-				graphical_culture = bretongfx
+				#graphical_culture = bretongfx
 				graphical_culture = bohemiangfx
 				graphical_culture = ugricgfx
 				graphical_culture = norsegfx
@@ -1006,7 +1006,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1046,7 +1049,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1086,7 +1092,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1109,7 +1118,7 @@
 				age = 50
 			}
 			OR = {
-				graphical_culture = bretongfx
+				#graphical_culture = bretongfx
 				graphical_culture = bohemiangfx
 				graphical_culture = ugricgfx
 				graphical_culture = norsegfx
@@ -1157,7 +1166,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1197,7 +1209,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1280,7 +1295,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1353,7 +1371,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1374,7 +1395,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1430,7 +1454,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1475,7 +1502,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1496,7 +1526,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1536,7 +1569,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1557,7 +1593,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -1588,7 +1627,10 @@
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
-				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
 				AND = {
@@ -3234,6 +3276,9 @@
 						#graphical_culture = westerngfx
 						graphical_culture = germangfx
 						graphical_culture = dutchgfx
+						graphical_culture = bretongfx
+						graphical_culture = celticgfx
+						graphical_culture = norsegaelgfx
 						graphical_culture = englishgfx
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
@@ -3274,6 +3319,9 @@
 						#graphical_culture = westerngfx
 						graphical_culture = germangfx
 						graphical_culture = dutchgfx
+						graphical_culture = bretongfx
+						graphical_culture = celticgfx
+						graphical_culture = norsegaelgfx
 						graphical_culture = englishgfx
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
@@ -3455,6 +3503,9 @@
 						#graphical_culture = westerngfx
 						graphical_culture = germangfx
 						graphical_culture = dutchgfx
+						graphical_culture = bretongfx
+						graphical_culture = celticgfx
+						graphical_culture = norsegaelgfx
 						graphical_culture = englishgfx
 						graphical_culture = frankishgfx
 						graphical_culture = westernslavicgfx
