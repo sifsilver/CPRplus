@@ -383,12 +383,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -434,12 +429,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -485,10 +475,6 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
-			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
-			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
@@ -533,12 +519,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -583,12 +564,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -633,10 +609,6 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
-			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
-			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
@@ -907,7 +879,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_mongol_female_clothes_behind:p3:c0"
 			"GFX_mongol_female_headgear_behind:p5:c1"
-			"GFX_mongol_female_hair_behind:p1:y"
+			"GFX_mongol_female_hair_behind:p1:h"
 			"GFX_mongol_female_base:p2"
 			"GFX_mongol_female_neck:d0"
 			"GFX_mongol_female_chin:d1"
@@ -923,7 +895,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_mongol_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_mongol_female_hair:p1:y"
+			"GFX_mongol_female_hair:p1:h"
 			"GFX_empty:p3:c4"
 			"GFX_mongol_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
@@ -931,7 +903,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -950,7 +922,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_mongol_female_clothes_behind:p3:c0"
 			"GFX_mongol_female_headgear_behind:p5:c1"
-			"GFX_mongol_female_hair_behind_midage:p1:y"
+			"GFX_mongol_female_hair_behind_midage:p1:h"
 			"GFX_mongol_female_base_midage:p2"
 			"GFX_mongol_female_neck_midage:d0"
 			"GFX_mongol_female_chin_midage:d1"
@@ -966,7 +938,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_mongol_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_mongol_female_hair_midage:p1:y"			
+			"GFX_mongol_female_hair_midage:p1:h"			
 			"GFX_empty:p3:c4"
 			"GFX_mongol_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
@@ -974,7 +946,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -993,7 +965,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_mongol_female_clothes_behind:p3:c0"
 			"GFX_mongol_female_headgear_behind:p5:c1"
-			"GFX_mongol_female_hair_behind_oldage:p1:y"
+			"GFX_mongol_female_hair_behind_oldage:p1:h"
 			"GFX_mongol_female_base_oldage:p2"
 			"GFX_mongol_female_neck_oldage:d0"
 			"GFX_mongol_female_chin_oldage:d1"
@@ -1009,7 +981,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_mongol_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_mongol_female_hair_oldage:p1:y"
+			"GFX_mongol_female_hair_oldage:p1:h"
 			"GFX_empty:p3:c4"
 			"GFX_mongol_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
@@ -1017,7 +989,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -1035,7 +1007,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_persian_female_clothes_behind:p3:c0"
 			"GFX_mongol_female_headgear_behind_christian:p5:c1"
-			"GFX_mongol_female_hair_behind:p1:y"
+			"GFX_mongol_female_hair_behind:p1:h"
 			"GFX_mongol_female_base:p2"
 			"GFX_mongol_female_neck:d0"
 			"GFX_mongol_female_chin:d1"
@@ -1051,7 +1023,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_mongol_female_hair:p1:y"
+			"GFX_mongol_female_hair:p1:h"
 			"GFX_empty:p3:c4"
 			"GFX_mongol_female_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
@@ -1059,7 +1031,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -1078,7 +1050,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_persian_female_clothes_behind:p3:c0"
 			"GFX_mongol_female_headgear_behind_christian:p5:c1"
-			"GFX_mongol_female_hair_behind_midage:p1:y"
+			"GFX_mongol_female_hair_behind_midage:p1:h"
 			"GFX_mongol_female_base_midage:p2"
 			"GFX_mongol_female_neck_midage:d0"
 			"GFX_mongol_female_chin_midage:d1"
@@ -1094,7 +1066,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_mongol_female_hair_midage:p1:y"			
+			"GFX_mongol_female_hair_midage:p1:h"			
 			"GFX_empty:p3:c4"
 			"GFX_mongol_female_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
@@ -1102,7 +1074,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
 		}
 
 		eye_color_index = 9
@@ -1121,7 +1093,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_persian_female_clothes_behind:p3:c0"
 			"GFX_mongol_female_headgear_behind_christian:p5:c1"
-			"GFX_mongol_female_hair_behind_oldage:p1:y"
+			"GFX_mongol_female_hair_behind_oldage:p1:h"
 			"GFX_mongol_female_base_oldage:p2"
 			"GFX_mongol_female_neck_oldage:d0"
 			"GFX_mongol_female_chin_oldage:d1"
@@ -1137,7 +1109,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_mongol_female_hair_oldage:p1:y"
+			"GFX_mongol_female_hair_oldage:p1:h"
 			"GFX_empty:p3:c4"
 			"GFX_mongol_female_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
@@ -1145,7 +1117,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
