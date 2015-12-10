@@ -66,6 +66,26 @@ spriteTypes = {
 		norefcount = yes
 	}
 
+	spriteType = {
+		name = "GFX_khitan_male_hair_behind"
+		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_behind_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_khitan_male_hair_behind_midage"
+		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_behind_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_khitan_male_hair_behind_oldage"
+		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_behind_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
 	
 	spriteType = {
 		name = "GFX_khitan_male_cheeks"
@@ -215,6 +235,27 @@ spriteTypes = {
 		name = "GFX_khitan_male_ear_oldage"
 		texturefile = "gfx\\characters\\khitan_male\\khitan_male_ear_3.dds"
 		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_khitan_male_hair"
+		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_khitan_male_hair_midage"
+		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_khitan_male_hair_oldage"
+		texturefile = "gfx\\characters\\khitan_male\\khitan_male_hair_3.dds"
+		noOfFrames = 13
 		norefcount = yes
 	}
 
@@ -429,7 +470,7 @@ spriteTypes = {
 			"GFX_character_background:p0"				
 			"GFX_eastasian_male_clothes_behind:p3:c0"
 			"GFX_khitan_male_headgear_behind:p5:c1"
-			"GFX_cuman_male_hair_behind:p1:h:y"
+			"GFX_khitan_male_hair_behind:p1:h:y"
 			"GFX_eastasian_male_beard_behind:p4:o-2x2:h:y"
 			"GFX_khitan_male_base:p2"					
 			"GFX_khitan_male_neck:d0"
@@ -447,7 +488,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"			
 			"GFX_khitan_male_ear:d7"
 			"GFX_eastasian_male_beard:p4:o-2x2:h:y"
-		   	"GFX_cuman_male_hair:p1:h:y"
+		   	"GFX_khitan_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_khitan_male_headgear:p5:c5"				
 			"GFX_character_imprisoned:p6"
@@ -482,7 +523,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_eastasian_male_clothes_behind:p3:c0"
 			"GFX_khitan_male_headgear_behind:p5:c1"
-			"GFX_cuman_male_hair_behind_midage:p1:h:y"
+			"GFX_khitan_male_hair_behind_midage:p1:h:y"
 			"GFX_eastasian_male_beard_behind_midage:p4:o-2x2:h:y"
 			"GFX_khitan_male_base_midage:p2"
 			"GFX_khitan_male_neck_midage:d0"
@@ -500,7 +541,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_khitan_male_ear_midage:d7"
 			"GFX_eastasian_male_beard_midage:p4:o-2x2:h:y"
-		   	"GFX_cuman_male_hair_midage:p1:h:y"
+		   	"GFX_khitan_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_khitan_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -535,7 +576,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_eastasian_male_clothes_behind:p3:c0"
 			"GFX_khitan_male_headgear_behind:p5:c1"
-			"GFX_cuman_male_hair_behind_oldage:p1:h:y"
+			"GFX_khitan_male_hair_behind_oldage:p1:h:y"
 			"GFX_eastasian_male_beard_behind_oldage:p4:o-2x2:h:y"
 			"GFX_khitan_male_base_oldage:p2"
 			"GFX_khitan_male_neck_oldage:d0"
@@ -553,7 +594,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"	
 			"GFX_khitan_male_ear_oldage:d7"
 			"GFX_eastasian_male_beard_oldage:p4:o-2x2:h:y"
-		   	"GFX_cuman_male_hair_oldage:p1:h:y"
+		   	"GFX_khitan_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_khitan_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -591,7 +632,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_eastasian_female_clothes_behind:p3:c0"
 			"GFX_khitan_female_headgear_behind:p5:c1"
-			"GFX_eastasian_female_hair_behind:p1:h"
+			"GFX_mongol_female_hair_behind:p1:h"
 			"GFX_khitan_female_base:p2"
 			"GFX_khitan_female_neck:d0"
 			"GFX_khitan_female_chin:d1"
@@ -607,7 +648,7 @@ spriteTypes = {
 			"GFX_khitan_female_ear:d7"			
 			"GFX_eastasian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_eastasian_female_hair:p1:h"
+			"GFX_mongol_female_hair:p1:h"
 			"GFX_empty:p3:c4"
 			"GFX_khitan_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -642,7 +683,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_eastasian_female_clothes_behind:p3:c0"
 			"GFX_khitan_female_headgear_behind:p5:c1"
-			"GFX_eastasian_female_hair_behind_midage:p1:h"
+			"GFX_mongol_female_hair_behind_midage:p1:h"
 			"GFX_khitan_female_base_midage:p2"
 			"GFX_khitan_female_neck_midage:d0"
 			"GFX_khitan_female_chin_midage:d1"
@@ -658,7 +699,7 @@ spriteTypes = {
 			"GFX_khitan_female_ear_midage:d7"		
 			"GFX_eastasian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_eastasian_female_hair_midage:p1:h"				
+			"GFX_mongol_female_hair_midage:p1:h"				
 			"GFX_empty:p3:c4"
 			"GFX_khitan_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -693,7 +734,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_eastasian_female_clothes_behind:p3:c0"
 			"GFX_khitan_female_headgear_behind:p5:c1"
-			"GFX_eastasian_female_hair_behind_oldage:p1:h"
+			"GFX_mongol_female_hair_behind_oldage:p1:h"
 			"GFX_khitan_female_base_oldage:p2"
 			"GFX_khitan_female_neck_oldage:d0"
 			"GFX_khitan_female_chin_oldage:d1"
@@ -709,7 +750,7 @@ spriteTypes = {
 			"GFX_khitan_female_ear_oldage:d7"		
 			"GFX_eastasian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_eastasian_female_hair_oldage:p1:h"	
+			"GFX_mongol_female_hair_oldage:p1:h"	
 			"GFX_empty:p3:c4"
 			"GFX_khitan_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"

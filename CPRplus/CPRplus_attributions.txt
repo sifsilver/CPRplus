@@ -11,7 +11,7 @@ LordPeter: retouched existing portrait background images from CPR and Wikimedia 
 
 SirRitter: retouched military headgear assets for Georgian and Baltic portrait sets
 
-Huanglukuzhu: military headgear assets for Uyghur, Khitan, and non-pagan Mongol portrait sets from Horse Lords Remake + New Portraits & Units mod
+Huanglukuzhu: headgear assets for Uyghur, Khitan, and non-pagan Mongol portrait sets, taken from Horse Lords Remake + New Portraits & Units mod
 (https://steamcommunity.com/sharedfiles/filedetails/?id=485482054)
 
 CrackdToothGrin: Orthodox priest robe from Better Klobuk mod; beard, hair, cloth, and headgear assets in the steppe area from Steppe Faces mod
