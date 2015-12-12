@@ -1986,7 +1986,7 @@
 		}
 	}
 	9 = { # Shady clothes
-		factor = 5
+		factor = 100
 		modifier = {
 			factor = 0
 			OR = {
@@ -1997,10 +1997,6 @@
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
-			OR = {
-				real_tier = duke
-				NOT = { intrigue = 15 }
-			}
 		}
 	}
 	
@@ -3540,7 +3536,7 @@
 
 	# Shady headgear
 	9 = {
-		factor = 5
+		factor = 100
 		modifier = {
 			factor = 0
 			OR = {
@@ -3551,10 +3547,6 @@
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
-			OR = {
-				real_tier = duke
-				NOT = { intrigue = 15 }
-			}
 		}
 		modifier = {
 			factor = 0
