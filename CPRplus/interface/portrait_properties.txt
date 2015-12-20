@@ -2156,6 +2156,10 @@
 		}
 		modifier = {
 			factor = 0
+			graphical_culture = sogdiangfx
+		}
+		modifier = {
+			factor = 0
 			trait = leper
 		}
 	}
