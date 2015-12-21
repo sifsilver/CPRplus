@@ -294,7 +294,7 @@ altaic = {
 		graphical_cultures = {centralasiangfx turkishgfx}
 	}
 	uyghur = { # non islamic Uighurs
-		graphical_cultures = {khotanesegfx turkishgfx }
+		graphical_cultures = {uyghurgfx turkishgfx }
 	}
 	bashkir = {
 		graphical_cultures = {bulgargfx turkishgfx}
@@ -408,6 +408,9 @@ iranian = {
 	}
 	tajik = {
 		graphical_cultures = {sogdiangfx persiangfx}
+	}
+	khotanese = {
+		graphical_cultures = {khotanesegfx persiangfx}
 	}
 	daylamite = {
 		graphical_cultures = {persiangfx}

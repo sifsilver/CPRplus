@@ -50,6 +50,9 @@ crimeangothicgfx = {
 sogdiangfx = {
 	skin_tone = 1
 }
+uyghurgfx = {
+	skin_tone = 1
+}
 khotanesegfx = {
 	skin_tone = 2
 }

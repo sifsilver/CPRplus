@@ -216,7 +216,7 @@ altaic = {
 		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	uyghur = {
-		graphical_cultures = { khotanesegfx turkishgfx }
+		graphical_cultures = { uyghurgfx turkishgfx }
 	}
 
 	mongol = {
