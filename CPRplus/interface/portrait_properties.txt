@@ -2157,6 +2157,7 @@
 		modifier = {
 			factor = 0
 			graphical_culture = sogdiangfx
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -3198,22 +3199,16 @@
 			NOT = { year = 950 }
 			in_command = no
 			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				graphical_culture = westernslavicgfx
-				graphical_culture = southernslavicgfx
-				graphical_culture = bohemiangfx
-				graphical_culture = saxongfx
-				graphical_culture = normangfx
-				graphical_culture = occitangfx
-				graphical_culture = italiangfx
-				graphical_culture = lombardgfx
-				graphical_culture = siciliangfx
-				graphical_culture = southerngfx
-				graphical_culture = basquegfx
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = italian_group
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
+				culture_group = west_slavic
+				culture_group = south_slavic
 			}
 		}
 		#Prevent Guanche from having turbans
@@ -3231,6 +3226,7 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { trait = monk }
 			OR = {
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
@@ -3264,6 +3260,7 @@
 					is_nomadic = yes
 				}
 			}
+			NOT = { trait = monk }
 		}
 		modifier = {
 			factor = 100
@@ -3273,33 +3270,35 @@
 				AND = {
 					year = 950
 					OR = {
-						#graphical_culture = westerngfx
-						graphical_culture = germangfx
-						graphical_culture = dutchgfx
-						graphical_culture = bretongfx
-						graphical_culture = celticgfx
-						graphical_culture = norsegaelgfx
-						graphical_culture = englishgfx
-						graphical_culture = frankishgfx
-						graphical_culture = westernslavicgfx
-						graphical_culture = southernslavicgfx
-						graphical_culture = bohemiangfx
-						graphical_culture = saxongfx
-						graphical_culture = normangfx
-						graphical_culture = occitangfx
+						AND = {
+							culture_group = central_germanic
+							NOR = {
+								culture = visigothic
+								culture = suebi
+							}
+						}
+						culture_group = west_germanic
+						AND = {
+							culture_group = latin
+							NOT = {
+								culture = italian
+							}
+						}
+						culture = occitan
+						culture = ligurian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = south_slavic
 					}
 				}
 				AND = {
-					graphical_culture = hungariangfx
 					religion_group = christian
-				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = balticgfx
-					religion_group = christian
+					OR = {
+						culture_group = magyar
+						culture_group = north_germanic
+						culture_group = baltic
+						culture = livonian
+					}
 				}
 			}
 		}
@@ -3316,33 +3315,35 @@
 				AND = {
 					year = 950
 					OR = {
-						#graphical_culture = westerngfx
-						graphical_culture = germangfx
-						graphical_culture = dutchgfx
-						graphical_culture = bretongfx
-						graphical_culture = celticgfx
-						graphical_culture = norsegaelgfx
-						graphical_culture = englishgfx
-						graphical_culture = frankishgfx
-						graphical_culture = westernslavicgfx
-						graphical_culture = southernslavicgfx
-						graphical_culture = bohemiangfx
-						graphical_culture = saxongfx
-						graphical_culture = normangfx
-						graphical_culture = occitangfx
+						AND = {
+							culture_group = central_germanic
+							NOR = {
+								culture = visigothic
+								culture = suebi
+							}
+						}
+						culture_group = west_germanic
+						AND = {
+							culture_group = latin
+							NOT = {
+								culture = italian
+							}
+						}
+						culture = occitan
+						culture = ligurian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = south_slavic
 					}
 				}
 				AND = {
-					graphical_culture = hungariangfx
 					religion_group = christian
-				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = balticgfx
-					religion_group = christian
+					OR = {
+						culture_group = magyar
+						culture_group = north_germanic
+						culture_group = baltic
+						culture = livonian
+					}
 				}
 			}
 		}
@@ -3500,33 +3501,35 @@
 				AND = {
 					year = 950
 					OR = {
-						#graphical_culture = westerngfx
-						graphical_culture = germangfx
-						graphical_culture = dutchgfx
-						graphical_culture = bretongfx
-						graphical_culture = celticgfx
-						graphical_culture = norsegaelgfx
-						graphical_culture = englishgfx
-						graphical_culture = frankishgfx
-						graphical_culture = westernslavicgfx
-						graphical_culture = southernslavicgfx
-						graphical_culture = bohemiangfx
-						graphical_culture = saxongfx
-						graphical_culture = normangfx
-						graphical_culture = occitangfx
+						AND = {
+							culture_group = central_germanic
+							NOR = {
+								culture = visigothic
+								culture = suebi
+							}
+						}
+						culture_group = west_germanic
+						AND = {
+							culture_group = latin
+							NOT = {
+								culture = italian
+							}
+						}
+						culture = occitan
+						culture = ligurian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = south_slavic
 					}
 				}
 				AND = {
-					graphical_culture = hungariangfx
 					religion_group = christian
-				}
-				AND = {
-					graphical_culture = norsegfx
-					religion_group = christian
-				}
-				AND = {
-					graphical_culture = balticgfx
-					religion_group = christian
+					OR = {
+						culture_group = magyar
+						culture_group = north_germanic
+						culture_group = baltic
+						culture = livonian
+					}
 				}
 			}
 		}
@@ -3642,24 +3645,40 @@
 		modifier = {
 			factor = 0
 			trait = monk
-			year = 950
 			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				graphical_culture = dutchgfx
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				graphical_culture = westernslavicgfx
-				graphical_culture = southernslavicgfx
-				graphical_culture = bohemiangfx
-				graphical_culture = saxongfx
-				graphical_culture = normangfx
-				graphical_culture = occitangfx
-				graphical_culture = italiangfx
-				graphical_culture = lombardgfx
-				graphical_culture = siciliangfx
-				graphical_culture = southerngfx
-				graphical_culture = basquegfx
+				AND = {
+					year = 950
+					OR = {
+						AND = {
+							culture_group = central_germanic
+							NOR = {
+								culture = visigothic
+								culture = suebi
+							}
+						}
+						culture_group = west_germanic
+						AND = {
+							culture_group = latin
+							NOT = {
+								culture = italian
+							}
+						}
+						culture = occitan
+						culture = ligurian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = south_slavic
+					}
+				}
+				AND = {
+					religion_group = christian
+					OR = {
+						culture_group = magyar
+						culture_group = north_germanic
+						culture_group = baltic
+						culture = livonian
+					}
+				}
 			}
 		}
 	}
