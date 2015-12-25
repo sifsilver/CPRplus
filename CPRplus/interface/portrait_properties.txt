@@ -1998,6 +1998,10 @@
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
 		}
+		modifier = {
+			factor = 0
+			in_command = yes
+		}
 	}
 	
 	# Martial
@@ -2718,6 +2722,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
+				has_landed_title = e_chagatai
+				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
 			}
@@ -2731,6 +2737,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
+					has_landed_title = e_chagatai
+					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
 				}
@@ -2786,6 +2794,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
+				has_landed_title = e_chagatai
+				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
 			}
@@ -2799,6 +2809,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
+					has_landed_title = e_chagatai
+					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
 				}
@@ -2848,6 +2860,8 @@
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_golden_horde
 						has_landed_title = e_il-khanate
+						has_landed_title = e_chagatai
+						has_landed_title = e_khitan
 						num_of_emperor_titles = 2
 						population_and_manpower = 60000
 					}
@@ -2882,6 +2896,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
+				has_landed_title = e_chagatai
+				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
 			}
@@ -2895,6 +2911,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
+					has_landed_title = e_chagatai
+					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
 				}
@@ -2944,6 +2962,8 @@
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_golden_horde
 						has_landed_title = e_il-khanate
+						has_landed_title = e_chagatai
+						has_landed_title = e_khitan
 						num_of_emperor_titles = 2
 						population_and_manpower = 60000
 					}
@@ -2978,6 +2998,8 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_golden_horde
 				has_landed_title = e_il-khanate
+				has_landed_title = e_chagatai
+				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
 			}
@@ -2991,6 +3013,8 @@
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_golden_horde
 					has_landed_title = e_il-khanate
+					has_landed_title = e_chagatai
+					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
 				}
@@ -3040,6 +3064,8 @@
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_golden_horde
 						has_landed_title = e_il-khanate
+						has_landed_title = e_chagatai
+						has_landed_title = e_khitan
 						num_of_emperor_titles = 2
 						population_and_manpower = 60000
 					}
@@ -3549,6 +3575,10 @@
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
 		}
 		modifier = {
 			factor = 0
