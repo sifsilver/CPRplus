@@ -2022,6 +2022,14 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+			in_command = no
+		}
+		modifier = {
+			factor = 0
 			religion_group = christian
 			OR = {
 				AND = {
@@ -2720,9 +2728,6 @@
 			is_nomadic = yes
 			NOR = {
 				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-				has_landed_title = e_chagatai
 				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
@@ -2735,9 +2740,6 @@
 				is_nomadic = yes
 				NOR = {
 					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-					has_landed_title = e_chagatai
 					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
@@ -2792,9 +2794,6 @@
 			is_nomadic = yes
 			OR = {
 				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-				has_landed_title = e_chagatai
 				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
@@ -2807,9 +2806,6 @@
 				is_nomadic = yes
 				OR = {
 					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-					has_landed_title = e_chagatai
 					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
@@ -2858,9 +2854,6 @@
 					is_nomadic = yes
 					OR = {
 						has_landed_title = e_mongol_empire
-						has_landed_title = e_golden_horde
-						has_landed_title = e_il-khanate
-						has_landed_title = e_chagatai
 						has_landed_title = e_khitan
 						num_of_emperor_titles = 2
 						population_and_manpower = 60000
@@ -2894,9 +2887,6 @@
 			is_nomadic = yes
 			OR = {
 				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-				has_landed_title = e_chagatai
 				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
@@ -2909,9 +2899,6 @@
 				is_nomadic = yes
 				OR = {
 					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-					has_landed_title = e_chagatai
 					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
@@ -2960,9 +2947,6 @@
 					is_nomadic = yes
 					OR = {
 						has_landed_title = e_mongol_empire
-						has_landed_title = e_golden_horde
-						has_landed_title = e_il-khanate
-						has_landed_title = e_chagatai
 						has_landed_title = e_khitan
 						num_of_emperor_titles = 2
 						population_and_manpower = 60000
@@ -2996,9 +2980,6 @@
 			is_nomadic = yes
 			OR = {
 				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-				has_landed_title = e_chagatai
 				has_landed_title = e_khitan
 				num_of_emperor_titles = 2
 				population_and_manpower = 60000
@@ -3011,9 +2992,6 @@
 				is_nomadic = yes
 				OR = {
 					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-					has_landed_title = e_chagatai
 					has_landed_title = e_khitan
 					num_of_emperor_titles = 2
 					population_and_manpower = 60000
@@ -3062,9 +3040,6 @@
 					is_nomadic = yes
 					OR = {
 						has_landed_title = e_mongol_empire
-						has_landed_title = e_golden_horde
-						has_landed_title = e_il-khanate
-						has_landed_title = e_chagatai
 						has_landed_title = e_khitan
 						num_of_emperor_titles = 2
 						population_and_manpower = 60000
@@ -3605,6 +3580,14 @@
 					}
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+			in_command = no
 		}
 		modifier = {
 			factor = 0
