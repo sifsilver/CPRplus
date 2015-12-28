@@ -2729,7 +2729,10 @@
 			NOR = {
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
-				num_of_emperor_titles = 2
+				primary_title = {
+					real_tier = emperor
+					is_titular = no
+				}
 				population_and_manpower = 60000
 			}
 		}
@@ -2741,7 +2744,10 @@
 				NOR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
-					num_of_emperor_titles = 2
+					primary_title = {
+						real_tier = emperor
+						is_titular = no
+					}
 					population_and_manpower = 60000
 				}
 			}
@@ -2795,7 +2801,10 @@
 			OR = {
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
-				num_of_emperor_titles = 2
+				primary_title = {
+					real_tier = emperor
+					is_titular = no
+				}
 				population_and_manpower = 60000
 			}
 		}
@@ -2807,7 +2816,10 @@
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
-					num_of_emperor_titles = 2
+					primary_title = {
+						real_tier = emperor
+						is_titular = no
+					}
 					population_and_manpower = 60000
 				}
 			}
@@ -2855,7 +2867,10 @@
 					OR = {
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_khitan
-						num_of_emperor_titles = 2
+						primary_title = {
+							real_tier = emperor
+							is_titular = no
+						}
 						population_and_manpower = 60000
 					}
 				}
@@ -2888,7 +2903,10 @@
 			OR = {
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
-				num_of_emperor_titles = 2
+				primary_title = {
+					real_tier = emperor
+					is_titular = no
+				}
 				population_and_manpower = 60000
 			}
 		}
@@ -2900,7 +2918,10 @@
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
-					num_of_emperor_titles = 2
+					primary_title = {
+						real_tier = emperor
+						is_titular = no
+					}
 					population_and_manpower = 60000
 				}
 			}
@@ -2948,7 +2969,10 @@
 					OR = {
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_khitan
-						num_of_emperor_titles = 2
+						primary_title = {
+							real_tier = emperor
+							is_titular = no
+						}
 						population_and_manpower = 60000
 					}
 				}
@@ -2981,7 +3005,10 @@
 			OR = {
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
-				num_of_emperor_titles = 2
+				primary_title = {
+					real_tier = emperor
+					is_titular = no
+				}
 				population_and_manpower = 60000
 			}
 		}
@@ -2993,7 +3020,10 @@
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
-					num_of_emperor_titles = 2
+					primary_title = {
+						real_tier = emperor
+						is_titular = no
+					}
 					population_and_manpower = 60000
 				}
 			}
@@ -3041,7 +3071,10 @@
 					OR = {
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_khitan
-						num_of_emperor_titles = 2
+						primary_title = {
+							real_tier = emperor
+							is_titular = no
+						}
 						population_and_manpower = 60000
 					}
 				}
