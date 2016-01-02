@@ -2087,6 +2087,14 @@
 			factor = 0.5
 			age = 20
 		}
+		modifier = {
+			factor = 1.2
+			NOT = { age = 17 }
+		}
+		modifier = {
+			factor = 50
+			NOT = { age = 19 }
+		}
 		#modifier = {
 		#	factor = 5
 		#	religion_group = orthodox
@@ -2117,6 +2125,7 @@
 				culture_group = italian_group
 			}
 			NOT = { culture = norman }
+			age = 19
 		}
 		#modifier = {
 		#	factor = 0.5
@@ -2128,10 +2137,12 @@
 		modifier = {
 			factor = 15
 			culture = pecheneg
+			age = 19
 		}
 		modifier = {
 			factor = 60
 			culture = norman
+			age = 19
 		}
 	}
 	1 = { #Light beard
