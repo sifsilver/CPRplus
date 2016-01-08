@@ -2077,42 +2077,6 @@
 4 = {
 	0 = { #Beardless
 		factor = 1
-		modifier = {
-			factor = 0
-			age = 20
-			NOR = {
-				culture = norse
-				culture = norman
-				culture = pecheneg
-				AND = {
-					religion_group = christian
-					OR = {
-						culture_group = iberian
-						culture_group = latin
-						culture_group = italian_group
-					}
-				}
-				AND = {
-					OR = {
-						religion = catholic
-						is_heresy_of = catholic
-					}
-					OR = {
-						AND = {
-							government = theocracy_government
-							is_landed = yes
-						}
-						has_job_title = job_spiritual
-						trait = monk
-					}
-				}
-			}
-			NOT = { trait = leper }
-		}
-		modifier = {
-			factor = 100
-			NOT = { age = 20 }
-		}
 		#modifier = {
 		#	factor = 5
 		#	religion_group = orthodox
@@ -2143,7 +2107,6 @@
 				culture_group = italian_group
 			}
 			NOT = { culture = norman }
-			age = 20
 		}
 		#modifier = {
 		#	factor = 0.5
@@ -2155,17 +2118,14 @@
 		modifier = {
 			factor = 15
 			culture = pecheneg
-			age = 20
 		}
 		modifier = {
 			factor = 20
 			culture = norse
-			age = 20
 		}
 		modifier = {
 			factor = 30
 			culture = norman
-			age = 20
 		}
 	}
 	1 = { #Light beard
