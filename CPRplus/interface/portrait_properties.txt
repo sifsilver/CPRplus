@@ -585,6 +585,26 @@
 		}
 		modifier = {
 			factor = 0
+			NOR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					is_ruler = no
+				}
+			}
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					is_ruler = no
+				}
+			}
+			war = yes
 			in_command = yes
 			NOT = { siege = { is_attacker = no } }
 		}
@@ -2053,7 +2073,10 @@
 				}
 			}
 			war = no
-			NOT = { has_job_title  = job_marshal }
+			NOR = {
+				siege = { is_attacker = yes }
+				has_job_title  = job_marshal
+			}
 		}
 	}
 	
@@ -3641,7 +3664,10 @@
 				}
 			}
 			war = no
-			NOT = { has_job_title  = job_marshal }
+			NOR = {
+				siege = { is_attacker = yes }
+				has_job_title  = job_marshal
+			}
 		}
 		modifier = {
 			factor = 0
