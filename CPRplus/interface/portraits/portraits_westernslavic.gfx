@@ -111,8 +111,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
-			"GFX_easternslavic_male_hair_behind:p1:h:y"
-			"GFX_westernslavic_male_beard_behind:p4:o-3x0:h:y"
+			"GFX_ugric_male_hair_behind:p1:o-1x0:h:y"
+			"GFX_ugric_male_beard_behind:p4:o-2x-2:h:y"
 			"GFX_easternslavic_male_base:p2"
 			"GFX_easternslavic_male_neck:d0"
 			"GFX_easternslavic_male_chin:d1"
@@ -127,12 +127,14 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_easternslavic_male_ear:d7"			
-			"GFX_westernslavic_male_beard:p4:o-3x0:h:y"
-		   	"GFX_easternslavic_male_hair:p1:h:y"
+			"GFX_ugric_male_beard:p4:o-2x-2:h:y"
+		   	"GFX_ugric_male_hair:p1:o-1x0:h:y"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -165,8 +167,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
-			"GFX_easternslavic_male_hair_behind_midage:p1:h:y"
-			"GFX_westernslavic_male_beard_behind_midage:p4:o-3x0:h:y"
+			"GFX_ugric_male_hair_behind_midage:p1:o-1x0:h:y"
+			"GFX_ugric_male_beard_behind_midage:p4:o-2x-2:h:y"
 			"GFX_easternslavic_male_base_midage:p2"
 			"GFX_easternslavic_male_neck_midage:d0"
 			"GFX_easternslavic_male_chin_midage:d1"
@@ -181,12 +183,14 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_easternslavic_male_ear_midage:d7"
-			"GFX_westernslavic_male_beard_midage:p4:o-3x0:h:y"
-			"GFX_easternslavic_male_hair_midage:p1:h:y"
+			"GFX_ugric_male_beard_midage:p4:o-2x-2:h:y"
+			"GFX_ugric_male_hair_midage:p1:o-1x0:h:y"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -219,8 +223,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
-			"GFX_easternslavic_male_hair_behind_oldage:p1:h:y"
-			"GFX_westernslavic_male_beard_behind_oldage:p4:o-3x0:h:y"
+			"GFX_ugric_male_hair_behind_oldage:p1:o-1x0:h:y"
+			"GFX_ugric_male_beard_behind_oldage:p4:o-2x-2:h:y"
 			"GFX_easternslavic_male_base_oldage:p2"
 			"GFX_easternslavic_male_neck_oldage:d0"
 			"GFX_easternslavic_male_chin_oldage:d1"
@@ -235,12 +239,14 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_easternslavic_male_ear_oldage:d7"
-			"GFX_westernslavic_male_beard_oldage:p4:o-3x0:h:y"
-			"GFX_easternslavic_male_hair_oldage:p1:h:y"
+			"GFX_ugric_male_beard_oldage:p4:o-2x-2:h:y"
+			"GFX_ugric_male_hair_oldage:p1:o-1x0:h:y"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -339,7 +345,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1"             #2
-			"GFX_norse_female_hair_behind_christian:p1:o0x-1:h:y" 
+			"GFX_ugric_female_hair_behind:p1:o0x-1:h:y" 
 			"GFX_easternslavic_female_base:p2"
 			"GFX_easternslavic_female_neck:d0"
 			"GFX_easternslavic_female_mouth:d2"
@@ -355,10 +361,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_female_clothes:p3:c2"
 			"GFX_western_female_headgear_mid:p5:c3"             #14
-			"GFX_norse_female_hair_christian:p1:o0x-1:h:y" 
+			"GFX_ugric_female_hair:p1:o0x-1:h:y" 
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -390,7 +398,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1"
-			"GFX_norse_female_hair_behind_midage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_behind_midage:p1:o0x-1:h:y"
 			"GFX_easternslavic_female_base_midage:p2"
 			"GFX_easternslavic_female_neck_midage:d0"
 			"GFX_easternslavic_female_mouth_midage:d2"
@@ -406,10 +414,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_female_clothes:p3:c2"
 			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_norse_female_hair_midage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_midage:p1:o0x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -441,7 +451,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1"
-			"GFX_norse_female_hair_behind_oldage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_behind_oldage:p1:o0x-1:h:y"
 			"GFX_easternslavic_female_base_oldage:p2"
 			"GFX_easternslavic_female_neck_oldage:d0"
 			"GFX_easternslavic_female_mouth_oldage:d2"
@@ -457,10 +467,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_westernslavic_female_clothes:p3:c2"
 			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_norse_female_hair_oldage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_oldage:p1:o0x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -491,8 +503,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_pagan:p3:c0"
 			"GFX_westernslavic_male_headgear_behind_early:p5:c1"
-			"GFX_easternslavic_male_hair_behind:p1:h:y"
-			"GFX_westernslavic_male_beard_behind:p4:o-3x0:h:y"
+			"GFX_ugric_male_hair_behind:p1:o-1x0:h:y"
+			"GFX_ugric_male_beard_behind:p4:o-2x-2:h:y"
 			"GFX_easternslavic_male_base:p2"
 			"GFX_easternslavic_male_neck:d0"
 			"GFX_easternslavic_male_chin:d1"
@@ -508,11 +520,13 @@ spriteTypes = {
 			"GFX_western_male_clothes_pagan:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear:d7"			
-			"GFX_westernslavic_male_beard:p4:o-3x0:h:y"
-		   	"GFX_easternslavic_male_hair:p1:h:y"
+			"GFX_ugric_male_beard:p4:o-2x-2:h:y"
+		   	"GFX_ugric_male_hair:p1:o-1x0:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -545,8 +559,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_pagan:p3:c0"
 			"GFX_westernslavic_male_headgear_behind_early:p5:c1"
-			"GFX_easternslavic_male_hair_behind_midage:p1:h:y"
-			"GFX_westernslavic_male_beard_behind_midage:p4:o-3x0:h:y"
+			"GFX_ugric_male_hair_behind_midage:p1:o-1x0:h:y"
+			"GFX_ugric_male_beard_behind_midage:p4:o-2x-2:h:y"
 			"GFX_easternslavic_male_base_midage:p2"
 			"GFX_easternslavic_male_neck_midage:d0"
 			"GFX_easternslavic_male_chin_midage:d1"
@@ -562,11 +576,13 @@ spriteTypes = {
 			"GFX_western_male_clothes_pagan:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_midage:d7"
-			"GFX_westernslavic_male_beard_midage:p4:o-3x0:h:y"
-			"GFX_easternslavic_male_hair_midage:p1:h:y"
+			"GFX_ugric_male_beard_midage:p4:o-2x-2:h:y"
+			"GFX_ugric_male_hair_midage:p1:o-1x0:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -599,8 +615,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_pagan:p3:c0"
 			"GFX_westernslavic_male_headgear_behind_early:p5:c1"
-			"GFX_easternslavic_male_hair_behind_oldage:p1:h:y"
-			"GFX_westernslavic_male_beard_behind_oldage:p4:o-3x0:h:y"
+			"GFX_ugric_male_hair_behind_oldage:p1:o-1x0:h:y"
+			"GFX_ugric_male_beard_behind_oldage:p4:o-2x-2:h:y"
 			"GFX_easternslavic_male_base_oldage:p2"
 			"GFX_easternslavic_male_neck_oldage:d0"
 			"GFX_easternslavic_male_chin_oldage:d1"
@@ -616,11 +632,13 @@ spriteTypes = {
 			"GFX_western_male_clothes_pagan:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_easternslavic_male_ear_oldage:d7"
-			"GFX_westernslavic_male_beard_oldage:p4:o-3x0:h:y"
-			"GFX_easternslavic_male_hair_oldage:p1:h:y"
+			"GFX_ugric_male_beard_oldage:p4:o-2x-2:h:y"
+			"GFX_ugric_male_hair_oldage:p1:o-1x0:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -655,7 +673,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_pagan:p3:c0"
 			"GFX_westernslavic_female_headgear_behind_early:p5:c1"             #2
-			"GFX_norse_female_hair_behind_christian:p1:o0x-1:h:y" 
+			"GFX_ugric_female_hair_behind:p1:o0x-1:h:y" 
 			"GFX_easternslavic_female_base:p2"
 			"GFX_easternslavic_female_neck:d0"
 			"GFX_easternslavic_female_mouth:d2"
@@ -671,10 +689,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_female_clothes_pagan:p3:c2"
 			"GFX_empty:p5:c3"             #14
-			"GFX_norse_female_hair_christian:p1:o0x-1:h:y" 
+			"GFX_ugric_female_hair:p1:o0x-1:h:y" 
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -706,7 +726,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_pagan:p3:c0"
 			"GFX_westernslavic_female_headgear_behind_early:p5:c1"
-			"GFX_norse_female_hair_behind_midage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_behind_midage:p1:o0x-1:h:y"
 			"GFX_easternslavic_female_base_midage:p2"
 			"GFX_easternslavic_female_neck_midage:d0"
 			"GFX_easternslavic_female_mouth_midage:d2"
@@ -722,10 +742,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_female_clothes_pagan:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_norse_female_hair_midage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_midage:p1:o0x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -757,7 +779,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_pagan:p3:c0"
 			"GFX_westernslavic_female_headgear_behind_early:p5:c1"
-			"GFX_norse_female_hair_behind_oldage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_behind_oldage:p1:o0x-1:h:y"
 			"GFX_easternslavic_female_base_oldage:p2"
 			"GFX_easternslavic_female_neck_oldage:d0"
 			"GFX_easternslavic_female_mouth_oldage:d2"
@@ -773,10 +795,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_female_clothes_pagan:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_norse_female_hair_oldage_christian:p1:o0x-1:h:y"
+			"GFX_ugric_female_hair_oldage:p1:o0x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
