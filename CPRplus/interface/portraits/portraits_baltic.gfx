@@ -17,6 +17,34 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_baltic_male_headgear_christian"
+		texturefile = "gfx\\characters\\baltic_male_christian\\baltic_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_baltic_male_headgear_behind_christian"
+		texturefile = "gfx\\characters\\baltic_male_christian\\baltic_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_baltic_female_headgear_christian"
+		texturefile = "gfx\\characters\\baltic_female_christian\\baltic_female_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_baltic_female_headgear_behind_christian"
+		texturefile = "gfx\\characters\\baltic_female_christian\\baltic_female_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
 	### Baltic MALE ####
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
