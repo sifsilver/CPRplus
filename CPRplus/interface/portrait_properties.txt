@@ -3704,6 +3704,13 @@
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
 			}
+			NAND = {
+				trait = blinded
+				graphical_culture = westafricangfx
+				religion_group = pagan_group
+				is_alive = yes
+				NOT = { trait = lunatic }
+			}
 		}
 		modifier = {
 			factor = 0.25
