@@ -3174,6 +3174,14 @@
 		}
 		modifier = {
 			factor = 0
+			trait = blinded
+			graphical_culture = westafricangfx
+			religion_group = pagan_group
+			is_alive = yes
+			NOT = { trait = lunatic }
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				AND = {
 					OR = {
@@ -3672,6 +3680,14 @@
 		modifier = {
 			factor = 0
 			prisoner = yes
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
+			graphical_culture = westafricangfx
+			religion_group = pagan_group
+			is_alive = yes
+			NOT = { trait = lunatic }
 		}
 	}
 
