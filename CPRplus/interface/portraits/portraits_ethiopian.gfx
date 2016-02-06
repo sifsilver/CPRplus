@@ -17,6 +17,21 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	
+	spriteType = {
+		name = "GFX_ethiopian_male_clothes_behind"
+		texturefile = "gfx\\characters\\ethiopian_male\\ethiopian_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ethiopian_male_clothes"
+		texturefile = "gfx\\characters\\ethiopian_male\\ethiopian_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
 	spriteType = {
 		name = "GFX_ethiopian_male_base"
 		texturefile = "gfx\\characters\\ethiopian_male\\ethiopian_male_base_1.dds"
@@ -198,7 +213,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_male_clothes_behind:p3:c0"
+			"GFX_ethiopian_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind:p1:h:y"
 			"GFX_arabic_male_beard_behind:p4:y"
@@ -214,7 +229,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_male_clothes:p3:c2"
+			"GFX_ethiopian_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
 			"GFX_ethiopian_male_ear:d7"			
 			"GFX_arabic_male_beard:p4:y"
@@ -244,7 +259,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_male_clothes_behind:p3:c0"
+			"GFX_ethiopian_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind_midage:p1:h:y"
 			"GFX_arabic_male_beard_behind_midage:p4:y"
@@ -260,7 +275,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_male_clothes:p3:c2"
+			"GFX_ethiopian_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
 			"GFX_ethiopian_male_ear_midage:d7"
 			"GFX_arabic_male_beard_midage:p4:y"
@@ -290,7 +305,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_male_clothes_behind:p3:c0"
+			"GFX_ethiopian_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_african_male_hair_behind_oldage:p1:h:y"
 			"GFX_arabic_male_beard_behind_oldage:p4:y"
@@ -306,7 +321,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_male_clothes:p3:c2"
+			"GFX_ethiopian_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
 			"GFX_ethiopian_male_ear_oldage:d7"
 			"GFX_arabic_male_beard_oldage:p4:y"
@@ -332,6 +347,20 @@ spriteTypes = {
 
 #### Ethiopian FEMALE ####
 
+	spriteType = {
+		name = "GFX_ethiopian_female_clothes_behind"
+		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ethiopian_female_clothes"
+		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
 	spriteType = {
 		name = "GFX_ethiopian_female_base"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_base_1.dds"
@@ -512,7 +541,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_female_clothes_behind:p3:c0"
+			"GFX_ethiopian_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1" 
 			"GFX_african_female_hair_behind:p1:y"
 			"GFX_ethiopian_female_base:p2"
@@ -528,7 +557,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_female_clothes:p3:c2"                 
+			"GFX_ethiopian_female_clothes:p3:c2"                 
 			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_african_female_hair:p1:y"
 			"GFX_empty:p3:c4"
@@ -555,7 +584,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_female_clothes_behind:p3:c0"
+			"GFX_ethiopian_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
 			"GFX_african_female_hair_behind_midage:p1:y"
 			"GFX_ethiopian_female_base_midage:p2"
@@ -571,7 +600,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_female_clothes:p3:c2"                  
+			"GFX_ethiopian_female_clothes:p3:c2"                  
 			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_african_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
@@ -598,7 +627,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_female_clothes_behind:p3:c0"
+			"GFX_ethiopian_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
 			"GFX_african_female_hair_behind_oldage:p1:y"
 			"GFX_ethiopian_female_base_oldage:p2"
@@ -614,7 +643,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_female_clothes:p3:c2"                  
+			"GFX_ethiopian_female_clothes:p3:c2"                  
 			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_african_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
@@ -647,7 +676,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_male_clothes_behind:p3:c0"
+			"GFX_ethiopian_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_african_male_hair_behind:p1:h:y"
 			"GFX_arabic_male_beard_behind:p4:y"
@@ -663,7 +692,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_male_clothes:p3:c2"
+			"GFX_ethiopian_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid_early:p5:c3"
 			"GFX_ethiopian_male_ear:d7"			
 			"GFX_arabic_male_beard:p4:y"
@@ -695,7 +724,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_male_clothes_behind:p3:c0"
+			"GFX_ethiopian_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_african_male_hair_behind_midage:p1:h:y"
 			"GFX_arabic_male_beard_behind_midage:p4:y"
@@ -711,7 +740,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_male_clothes:p3:c2"
+			"GFX_ethiopian_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid_early:p5:c3"
 			"GFX_ethiopian_male_ear_midage:d7"
 			"GFX_arabic_male_beard_midage:p4:y"
@@ -743,7 +772,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_male_clothes_behind:p3:c0"
+			"GFX_ethiopian_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_african_male_hair_behind_oldage:p1:h:y"
 			"GFX_arabic_male_beard_behind_oldage:p4:y"
@@ -759,7 +788,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_male_clothes:p3:c2"
+			"GFX_ethiopian_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid_early:p5:c3"
 			"GFX_ethiopian_male_ear_oldage:d7"
 			"GFX_arabic_male_beard_oldage:p4:y"
@@ -790,7 +819,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_female_clothes_behind:p3:c0"
+			"GFX_ethiopian_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind_early:p5:c1" 
 			"GFX_african_female_hair_behind:p1:y"
 			"GFX_ethiopian_female_base:p2"
@@ -806,7 +835,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_female_clothes:p3:c2"                 
+			"GFX_ethiopian_female_clothes:p3:c2"                 
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_african_female_hair:p1:y"
 			"GFX_empty:p3:c4"
@@ -833,7 +862,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_female_clothes_behind:p3:c0"
+			"GFX_ethiopian_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind_early:p5:c1"
 			"GFX_african_female_hair_behind_midage:p1:y"
 			"GFX_ethiopian_female_base_midage:p2"
@@ -849,7 +878,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_female_clothes:p3:c2"                  
+			"GFX_ethiopian_female_clothes:p3:c2"                  
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_african_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
@@ -876,7 +905,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_african_female_clothes_behind:p3:c0"
+			"GFX_ethiopian_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind_early:p5:c1"
 			"GFX_african_female_hair_behind_oldage:p1:y"
 			"GFX_ethiopian_female_base_oldage:p2"
@@ -892,7 +921,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_african_female_clothes:p3:c2"                  
+			"GFX_ethiopian_female_clothes:p3:c2"                  
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_african_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
