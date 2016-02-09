@@ -98,9 +98,6 @@ ashkenazigfx = {
 centralindiangfx = {
 	skin_tone = 1
 }
-southindiangfx = {
-	skin_tone = 2
-}
 somaligfx = {
 	skin_tone = 3
 }
