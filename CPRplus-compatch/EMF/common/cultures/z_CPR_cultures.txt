@@ -144,13 +144,13 @@ finno_ugric = {
 	graphical_cultures = { easterngfx }
 
 	finnish = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { finnishgfx ugricgfx }
 	}
 	lappish	 = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { finnishgfx ugricgfx }
 	}
 	ugricbaltic = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { finnishgfx ugricgfx }
 	}
 	komi = {
 		graphical_cultures = { ugricgfx }

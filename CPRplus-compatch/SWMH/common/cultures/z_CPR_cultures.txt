@@ -206,10 +206,10 @@ finno_ugric = {
 	graphical_cultures = {easterngfx}
 
 	finnish = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
 	karelian = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
 	vepsian = {
 		graphical_cultures = {ugricgfx}
@@ -218,10 +218,10 @@ finno_ugric = {
 		graphical_cultures = {ugricgfx}
 	}
 	lappish	 = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
    	ugricbaltic = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
 	livonian = {
 		graphical_cultures = {balticgfx ugricgfx}

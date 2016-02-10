@@ -110,3 +110,6 @@ kurdishgfx = {
 copticgfx = {
 	skin_tone = 2
 }
+finnishgfx = {
+	skin_tone = 0
+}
