@@ -1094,7 +1094,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# African female midage
@@ -1136,7 +1136,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# African female oldage
@@ -1178,7 +1178,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
