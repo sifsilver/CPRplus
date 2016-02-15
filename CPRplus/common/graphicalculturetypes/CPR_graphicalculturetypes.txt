@@ -113,3 +113,6 @@ copticgfx = {
 finnishgfx = {
 	skin_tone = 0
 }
+bejagfx = {
+	skin_tone = 3
+}

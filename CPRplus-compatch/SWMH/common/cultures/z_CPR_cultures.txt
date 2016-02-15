@@ -451,13 +451,13 @@ east_african = {
 		graphical_cultures = {somaligfx africangfx}
 	}
   	afar = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {bejagfx africangfx}
 	}
 	daju = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {bejagfx africangfx}
 	}
 	beja = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {bejagfx africangfx}
 	}
 	zaghawa = {
 		graphical_cultures = {somaligfx africangfx}
@@ -500,7 +500,7 @@ north_african = {
 		graphical_cultures = {berbergfx muslimgfx}
 	}
 	sanhaja = {
-		graphical_cultures = {berbergfx muslimgfx}
+		graphical_cultures = {maghrebgfx muslimgfx}
 	}
   	tagelmust = {
 		graphical_cultures = {africangfx}

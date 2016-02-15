@@ -250,7 +250,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# middle age
@@ -296,7 +296,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# old age
@@ -342,7 +342,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 #### Ethiopian FEMALE ####
@@ -575,7 +575,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Ethiopian female midage
@@ -618,7 +618,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Ethiopian female oldage
@@ -661,7 +661,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 
@@ -715,7 +715,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# middle age
@@ -763,7 +763,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# old age
@@ -811,7 +811,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	portraitType = {
@@ -853,7 +853,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Ethiopian female midage
@@ -896,7 +896,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Ethiopian female oldage
@@ -939,7 +939,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}	
 	
 }
