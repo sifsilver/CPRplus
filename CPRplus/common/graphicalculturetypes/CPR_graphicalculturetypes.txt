@@ -98,6 +98,9 @@ ashkenazigfx = {
 centralindiangfx = {
 	skin_tone = 1
 }
+kanadaindiangfx = {
+	skin_tone = 2
+}
 somaligfx = {
 	skin_tone = 3
 }
@@ -112,7 +115,4 @@ copticgfx = {
 }
 finnishgfx = {
 	skin_tone = 0
-}
-bejagfx = {
-	skin_tone = 3
 }
