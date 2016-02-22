@@ -384,12 +384,12 @@ israelite = {
 }
 
 indo_aryan_group = {
-	graphical_cultures = { southindiangfx muslimgfx }
+	graphical_cultures = { indiangfx muslimgfx }
 
 	
 	bengali = { # Indo-Aryan
 
-		graphical_cultures = { kanadaindiangfx indiangfx }
+		graphical_cultures = { southindiangfx indiangfx }
 	}
 	
 	oriya = { # Indo-Aryan
@@ -443,10 +443,10 @@ dravidian_group = {
 	}
 	
 	telugu = { # Dravidian
-		graphical_cultures = { kanadaindiangfx indiangfx }
+		graphical_cultures = { southindiangfx indiangfx }
 	}
 	
 	kannada = { # Dravidian
-		graphical_cultures = { kanadaindiangfx indiangfx }
+		graphical_cultures = { southindiangfx indiangfx }
 	}
 }
