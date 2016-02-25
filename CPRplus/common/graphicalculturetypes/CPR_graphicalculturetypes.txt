@@ -116,3 +116,6 @@ finnishgfx = {
 bejagfx = {
 	skin_tone = 3
 }
+qasrumgfx = {
+	skin_tone = 2
+}
