@@ -58,48 +58,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_westernslavic_male_beard"
-		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_beard_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_westernslavic_male_beard_midage"
-		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_beard_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_westernslavic_male_beard_oldage"
-		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_beard_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_westernslavic_male_beard_behind"
-		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_beard_behind_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_westernslavic_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_beard_behind_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_westernslavic_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_beard_behind_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_westernslavic_male_clothes_behind_early"
 		texturefile = "gfx\\characters\\westernslavic_male\\westernslavic_male_clothes_behind_early.dds"
 		noOfFrames = 12
