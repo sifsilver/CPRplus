@@ -936,12 +936,8 @@
 				age = 50
 			}
 			NOR = {
-				#graphical_culture = bretongfx
-				graphical_culture = bohemiangfx
-				graphical_culture = ugricgfx
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
-				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
 				graphical_culture = africangfx
 				graphical_culture = ethiopiangfx
@@ -1138,12 +1134,8 @@
 				age = 50
 			}
 			OR = {
-				#graphical_culture = bretongfx
-				graphical_culture = bohemiangfx
-				graphical_culture = ugricgfx
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
-				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
 			}
 		}
