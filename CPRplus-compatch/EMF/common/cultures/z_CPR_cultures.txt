@@ -127,7 +127,7 @@ celtic = {
 		graphical_cultures = { celticgfx }
 	}
 	scottish = {
-		graphical_cultures = { bretongfx celticgfx }
+		graphical_cultures = { celticgfx }
 	}
 	pictish = {
 		graphical_cultures = { celticgfx }
