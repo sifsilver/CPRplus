@@ -3332,7 +3332,14 @@
 						}
 						culture = occitan
 						culture = ligurian
-						culture_group = celtic
+						AND = {
+							culture_group = celtic
+							NOR = {
+								culture = scottish
+								culture = irish
+								culture = pictish
+							}
+						}
 						culture_group = west_slavic
 						culture_group = south_slavic
 					}
@@ -3377,7 +3384,14 @@
 						}
 						culture = occitan
 						culture = ligurian
-						culture_group = celtic
+						AND = {
+							culture_group = celtic
+							NOR = {
+								culture = scottish
+								culture = irish
+								culture = pictish
+							}
+						}
 						culture_group = west_slavic
 						culture_group = south_slavic
 					}
@@ -3741,7 +3755,14 @@
 						}
 						culture = occitan
 						culture = ligurian
-						culture_group = celtic
+						AND = {
+							culture_group = celtic
+							NOR = {
+								culture = scottish
+								culture = irish
+								culture = pictish
+							}
+						}
 						culture_group = west_slavic
 						culture_group = south_slavic
 					}
