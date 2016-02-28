@@ -3523,16 +3523,24 @@
 			is_female = yes
 			OR = {
 				AND = {
-					graphical_culture = turkishgfx
+					OR = {
+						culture = turkish
+						culture = turkmen
+						culture = oghuz
+					}
 					NOT = { religion_group = pagan_group }
 				}
 				AND = {
-					graphical_culture = bulgargfx
+					OR = {
+						culture_group = arabic
+						culture = bolghar
+						culture = andalusian_arabic
+						culture = sephardi
+						culture = kurdish
+						culture = bashkir
+					}
 					year = 950
 				}
-				graphical_culture = arabicgfx
-				graphical_culture = maghrebgfx
-				graphical_culture = kurdishgfx
 			}
 		}
 		modifier = {
