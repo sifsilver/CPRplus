@@ -84,7 +84,7 @@ west_germanic = {
 		graphical_cultures = {saxongfx}
 	}
 	anglonorse = {
-		graphical_cultures = {norsegfx}
+		graphical_cultures = {saxongfx}
 	}
 }
 
