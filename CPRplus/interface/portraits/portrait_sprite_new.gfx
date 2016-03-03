@@ -3,30 +3,6 @@ spriteTypes = {
 ### WESTERN MALE ####
 
 	spriteType = {
-		name = "GFX_german_male_beard_behind"
-		texturefile = "gfx\\characters\\german_male\\german_male_beard_behind_1.dds"
-		noOfFrames = 8
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_german_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\german_male\\german_male_beard_behind_2.dds"
-		noOfFrames = 8
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_german_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\german_male\\german_male_beard_behind_3.dds"
-		noOfFrames = 8
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
 		name = "GFX_german_male_base"
 		texturefile = "gfx\\characters\\german_male\\german_male_base_1.dds"
 		noOfFrames = 1
@@ -230,30 +206,6 @@ spriteTypes = {
 		name = "GFX_german_male_ear_oldage"
 		texturefile = "gfx\\characters\\german_male\\german_male_ear_3.dds"
 		noOfFrames = 10
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_german_male_beard"
-		texturefile = "gfx\\characters\\german_male\\german_male_beard_1.dds"
-		noOfFrames = 8
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_german_male_beard_midage"
-		texturefile = "gfx\\characters\\german_male\\german_male_beard_2.dds"
-		noOfFrames = 8
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_german_male_beard_oldage"
-		texturefile = "gfx\\characters\\german_male\\german_male_beard_3.dds"
-		noOfFrames = 8
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -474,31 +426,6 @@ spriteTypes = {
 	}
 	
 	### MUSLIM MALE ####
-	
-
-	spriteType = {
-		name = "GFX_arabic_male_beard_behind"
-		texturefile = "gfx\\characters\\arabic_male\\arabic_male_beard_behind_1.dds"
-		noOfFrames = 15
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_arabic_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\arabic_male\\arabic_male_beard_behind_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_arabic_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\arabic_male\\arabic_male_beard_behind_3.dds"
-		noOfFrames = 15
-		norefcount = yes
-		can_be_lowres = yes
-	}
 
 	spriteType = {
 		name = "GFX_arabic_male_base"
@@ -649,30 +576,6 @@ spriteTypes = {
 		name = "GFX_arabic_male_eyes_oldage"
 		texturefile = "gfx\\characters\\arabic_male\\arabic_male_eyes_3.dds"
 		noOfFrames = 13
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_arabic_male_beard"
-		texturefile = "gfx\\characters\\arabic_male\\arabic_male_beard_1.dds"
-		noOfFrames = 15
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_arabic_male_beard_midage"
-		texturefile = "gfx\\characters\\arabic_male\\arabic_male_beard_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
-		name = "GFX_arabic_male_beard_oldage"
-		texturefile = "gfx\\characters\\arabic_male\\arabic_male_beard_3.dds"
-		noOfFrames = 15
 		norefcount = yes
 		can_be_lowres = yes
 	}

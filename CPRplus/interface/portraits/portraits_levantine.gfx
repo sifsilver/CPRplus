@@ -43,27 +43,6 @@ spriteTypes = {
 	}
 
 
-	spriteType = {
-		name = "GFX_levantine_male_beard_behind"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_beard_behind_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_beard_behind_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_beard_behind_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
 	
 	spriteType = {
 		name = "GFX_levantine_male_cheeks"
@@ -213,27 +192,6 @@ spriteTypes = {
 		name = "GFX_levantine_male_ear_oldage"
 		texturefile = "gfx\\characters\\levantine_male\\levantine_male_ear_3.dds"
 		noOfFrames = 4
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_beard"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_beard_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_beard_midage"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_beard_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_levantine_male_beard_oldage"
-		texturefile = "gfx\\characters\\levantine_male\\levantine_male_beard_3.dds"
-		noOfFrames = 10
 		norefcount = yes
 	}
 
@@ -422,7 +380,7 @@ spriteTypes = {
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:y"
-			"GFX_arabic_male_beard_behind:p4:y:o-2x2"
+			"GFX_muslim_male_beard_behind:p4:y:o-2x2"
 			"GFX_levantine_male_base:p2"
 			"GFX_levantine_male_neck:d0"
 			"GFX_levantine_male_chin:d1"
@@ -438,7 +396,7 @@ spriteTypes = {
 			"GFX_muslim_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_levantine_male_ear:d7"			
-			"GFX_arabic_male_beard:p4:y:o-2x2"
+			"GFX_muslim_male_beard:p4:y:o-2x2"
 			"GFX_muslim_male_hair:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
@@ -475,7 +433,7 @@ spriteTypes = {
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:y"
-			"GFX_arabic_male_beard_behind_midage:p4:y:o-2x2"
+			"GFX_muslim_male_beard_behind_midage:p4:y:o-2x2"
 			"GFX_levantine_male_base_midage:p2"
 			"GFX_levantine_male_neck_midage:d0"
 			"GFX_levantine_male_chin_midage:d1"
@@ -491,7 +449,7 @@ spriteTypes = {
 			"GFX_muslim_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_levantine_male_ear_midage:d7"
-			"GFX_arabic_male_beard_midage:p4:y:o-2x2"
+			"GFX_muslim_male_beard_midage:p4:y:o-2x2"
 			"GFX_muslim_male_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
@@ -527,7 +485,7 @@ spriteTypes = {
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:y"
-			"GFX_arabic_male_beard_behind_oldage:p4:y:o-2x2"
+			"GFX_muslim_male_beard_behind_oldage:p4:y:o-2x2"
 			"GFX_levantine_male_base_oldage:p2"
 			"GFX_levantine_male_neck_oldage:d0"
 			"GFX_levantine_male_chin_oldage:d1"
@@ -543,7 +501,7 @@ spriteTypes = {
 			"GFX_muslim_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_levantine_male_ear_oldage:d7"
-			"GFX_arabic_male_beard_oldage:p4:y:o-2x2"
+			"GFX_muslim_male_beard_oldage:p4:y:o-2x2"
 			"GFX_muslim_male_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
