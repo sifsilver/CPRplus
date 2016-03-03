@@ -2377,13 +2377,13 @@
 		#		culture_group = east_slavic
 		#	}
 		#}
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = maghrebgfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		#modifier = {
 		#	factor = 2.5
 		#	culture = pecheneg
@@ -2430,13 +2430,13 @@
 		#		graphical_culture = commiegfx
 		#	}
 		#}
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = maghrebgfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		#modifier = {
 		#	factor = 0
 		#	culture = pecheneg
@@ -2482,13 +2482,13 @@
 		#	factor = 0
 		#	culture = pecheneg
 		#}
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = maghrebgfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -2517,20 +2517,15 @@
 		#	NOT = { graphical_culture = muslimgfx }
 		#	NOT = { graphical_culture = arabicgfx }
 		#}
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = arabicgfx
-				graphical_culture = levantinegfx
-				graphical_culture = somaligfx
-				graphical_culture = afghangfx
-				graphical_culture = africangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = kurdishgfx
-				graphical_culture = persiangfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = afghangfx
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = persiangfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		#modifier = {
 		#	factor = 20
 		#	religion_group = christian
@@ -2578,20 +2573,15 @@
 	}
 	11 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = arabicgfx
-				graphical_culture = levantinegfx
-				graphical_culture = somaligfx
-				graphical_culture = afghangfx
-				graphical_culture = africangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = kurdishgfx
-				graphical_culture = persiangfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = afghangfx
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = persiangfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -2614,20 +2604,15 @@
 	}
 	12 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = arabicgfx
-				graphical_culture = levantinegfx
-				graphical_culture = somaligfx
-				graphical_culture = afghangfx
-				graphical_culture = africangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = kurdishgfx
-				graphical_culture = persiangfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = afghangfx
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = persiangfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -2650,20 +2635,15 @@
 	}
 	13 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = arabicgfx
-				graphical_culture = levantinegfx
-				graphical_culture = somaligfx
-				graphical_culture = afghangfx
-				graphical_culture = africangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = kurdishgfx
-				graphical_culture = persiangfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = afghangfx
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = persiangfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -2686,20 +2666,15 @@
 	}
 	14 = { #Beard
 		factor = 1
-		modifier = {
-			factor = 0
-			OR = {
-				graphical_culture = arabicgfx
-				graphical_culture = levantinegfx
-				graphical_culture = somaligfx
-				graphical_culture = afghangfx
-				graphical_culture = africangfx
-				graphical_culture = maghrebgfx
-				graphical_culture = kurdishgfx
-				graphical_culture = persiangfx
-				graphical_culture = berbergfx
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		graphical_culture = afghangfx
+		#		graphical_culture = maghrebgfx
+		#		graphical_culture = persiangfx
+		#		graphical_culture = berbergfx
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			OR = {
