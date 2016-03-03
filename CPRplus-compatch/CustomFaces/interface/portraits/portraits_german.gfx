@@ -26,9 +26,9 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_western_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_german_male_ear:d7:o27x54"			
+			"GFX_german_male_ear:d7:o27x54"
+			"GFX_german_male_nose:d3:o80x65"			
 			"GFX_western_male_beard:p4:o-2x-1:h:y"
-			"GFX_german_male_nose:d3:o80x65"
 			"GFX_character_blinded_eyes:p10"
 		   	"GFX_western_male_hair:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
@@ -85,9 +85,9 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_western_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_german_male_ear_midage:d7:o27x54"					#15
+			"GFX_german_male_ear_midage:d7:o27x54"
+			"GFX_german_male_nose_midage:d3:o81x65"					#10					#15
 			"GFX_western_male_beard_midage:p4:o-2x-1:h:y"
-			"GFX_german_male_nose_midage:d3:o81x65"					#10
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_hair_midage:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
@@ -146,8 +146,8 @@ spriteTypes = {
 			"GFX_western_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_oldage:d7:o25x51"
-			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
 			"GFX_german_male_nose_oldage:d3:o80x66"
+			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_hair_oldage:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
