@@ -353,7 +353,7 @@ spriteTypes = {
 			"GFX_german_female_chin:d1"
 			"GFX_german_female_mouth:d2:o72x48"
 			"GFX_german_female_nose:d3:o80x65"
-			"GFX_saxon_female_eyes:d6:o30x65"
+			"GFX_saxon_female_eyes:d6:o30x66"
 			"GFX_norse_female_eyes2:d6:o40x41:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -409,7 +409,7 @@ spriteTypes = {
 			"GFX_german_female_chin_midage:d1"
 			"GFX_german_female_mouth_midage:d2:o72x49"
 			"GFX_german_female_nose_midage:d3:o80x64"
-			"GFX_saxon_female_eyes_midage:d6:o30x72"
+			"GFX_saxon_female_eyes_midage:d6:o30x73"
 			"GFX_norse_female_eyes2:d6:o40x41:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -701,7 +701,7 @@ spriteTypes = {
 			"GFX_german_female_chin:d1"                        #7
 			"GFX_german_female_mouth:d2:o72x48"                       #8
 			"GFX_german_female_nose:d3:o80x65"
-			"GFX_saxon_female_eyes:d6:o30x65"
+			"GFX_saxon_female_eyes:d6:o30x66"
 			"GFX_norse_female_eyes2:d6:o40x41:e"		            #11
 			"GFX_character_scars:p7:y"                            #16
 			"GFX_character_reddots:p8"                          #17
@@ -757,7 +757,7 @@ spriteTypes = {
 			"GFX_german_female_chin_midage:d1"
 			"GFX_german_female_mouth_midage:d2:o72x49"
 			"GFX_german_female_nose_midage:d3:o80x64"
-			"GFX_saxon_female_eyes_midage:d6:o30x72"
+			"GFX_saxon_female_eyes_midage:d6:o30x73"
 			"GFX_norse_female_eyes2:d6:o40x41:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
