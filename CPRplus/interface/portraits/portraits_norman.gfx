@@ -168,6 +168,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } {  110 110 110 } { 255 255 255 }
 		}
 
@@ -333,6 +334,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } {  110 110 110 } { 255 255 255 }
 		}
 
@@ -498,6 +500,7 @@ spriteTypes = {
 		
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } {  110 110 110 } { 255 255 255 }
 		}
 
@@ -657,6 +660,7 @@ spriteTypes = {
 		
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } {  110 110 110 } { 255 255 255 }
 		}
 
