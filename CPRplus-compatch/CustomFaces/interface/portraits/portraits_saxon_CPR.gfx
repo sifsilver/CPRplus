@@ -693,7 +693,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind:p3:c0"             #1
-			"GFX_celtic_female_headgear_behind:p5:c1"           #2
+			"GFX_anglo_female_headgear_behind:p5:c1"           #2
 			"GFX_norse_female_hair_behind_christian:p1:h:y"            #3
 			"GFX_german_female_base:p2"                        #4
 			"GFX_german_female_neck:d0"                        #5
@@ -712,7 +712,7 @@ spriteTypes = {
 			"GFX_celtic_female_headgear_mid:p5:c3"             #14
 			"GFX_norse_female_hair_christian:p1:h:y"                 #15
 			"GFX_empty:p3:c4"									#19
-			"GFX_celtic_female_headgear:p5:c5"                 #20
+			"GFX_anglo_female_headgear:p5:c5"                 #20
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"                       #21
 		}
 
@@ -749,7 +749,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind:p3:c0"
-			"GFX_celtic_female_headgear_behind:p5:c1"
+			"GFX_anglo_female_headgear_behind:p5:c1"
 			"GFX_norse_female_hair_behind_midage_christian:p1:h:y"
 			"GFX_german_female_base_midage:p2"
 			"GFX_german_female_neck_midage:d0"
@@ -768,7 +768,7 @@ spriteTypes = {
 			"GFX_celtic_female_headgear_mid:p5:c3"
 			"GFX_norse_female_hair_midage_christian:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_celtic_female_headgear:p5:c5"
+			"GFX_anglo_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
@@ -805,7 +805,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind:p3:c0"
-			"GFX_celtic_female_headgear_behind:p5:c1"
+			"GFX_anglo_female_headgear_behind:p5:c1"
 			"GFX_norse_female_hair_behind_oldage_christian:p1:y"
 			"GFX_german_female_base_oldage:p2"
 			"GFX_german_female_neck_oldage:d0"
@@ -824,7 +824,7 @@ spriteTypes = {
 			"GFX_celtic_female_headgear_mid:p5:c3"
 			"GFX_norse_female_hair_oldage_christian:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_celtic_female_headgear:p5:c5"
+			"GFX_anglo_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
