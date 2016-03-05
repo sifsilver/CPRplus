@@ -374,7 +374,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"             #14
+			"GFX_byzantine_female_headgear_mid:p5:c3"             #14
 			"GFX_byzantine_female_hair:p1:h:y" 
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
@@ -426,7 +426,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_byzantine_female_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
@@ -478,7 +478,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_byzantine_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
@@ -527,7 +527,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_female_clothes_early:p3:c2"
-			"GFX_empty:p5:c3"             #14
+			"GFX_byzantine_female_headgear_mid_early:p5:c3"             #14
 			"GFX_byzantine_female_hair:p1:h:y" 
 			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_byzantine_female_headgear_early:p5:c5"
@@ -579,7 +579,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_female_clothes_early:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_byzantine_female_hair_midage:p1:h:y"
 			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_byzantine_female_headgear_early:p5:c5"
@@ -631,7 +631,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_byzantine_female_clothes_early:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_byzantine_female_hair_oldage:p1:h:y"
 			"GFX_southernslavic_male_clothes_infront_early:p3:c4"
 			"GFX_byzantine_female_headgear_early:p5:c5"
