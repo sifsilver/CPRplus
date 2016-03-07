@@ -108,6 +108,14 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_anglo_male_headgear_mid"
+		texturefile = "gfx\\characters\\saxon_male\\anglo_male_headgear_mid.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
 		name = "GFX_anglo_female_headgear_behind"
 		texturefile = "gfx\\characters\\saxon_female\\anglo_female_headgear_behind.dds"
 		noOfFrames = 12
@@ -529,7 +537,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_clothes:p3:c2"
-			"GFX_celtic_male_headgear_mid:p5:c3"
+			"GFX_anglo_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear:d7:o27x54"		
 			"GFX_norse_male_beard_christian:p4:o-3x4:h:y"
 		   	"GFX_norse_male_hair_christian:p1:h:y:o-3x0"
@@ -587,7 +595,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_clothes:p3:c2"
-			"GFX_celtic_male_headgear_mid:p5:c3"
+			"GFX_anglo_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_midage:d7:o27x54"					#15
 			"GFX_norse_male_beard_midage_christian:p4:o-3x4:h:y"
 			"GFX_norse_male_hair_midage_christian:p1:h:y:o-3x0"
@@ -646,7 +654,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_clothes:p3:c2"
-			"GFX_celtic_male_headgear_mid:p5:c3"
+			"GFX_anglo_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_oldage:d7:o25x51"
 			"GFX_norse_male_beard_oldage_christian:p4:o-3x4:h:y"
 			"GFX_norse_male_hair_oldage_christian:p1:h:y:o-3x0"
@@ -709,7 +717,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_female_clothes:p3:c2"                  #12
 			"GFX_german_female_ear:d7:o28x54"                          #13
-			"GFX_celtic_female_headgear_mid:p5:c3"             #14
+			"GFX_empty:p5:c3"             #14
 			"GFX_norse_female_hair_christian:p1:h:y"                 #15
 			"GFX_empty:p3:c4"									#19
 			"GFX_anglo_female_headgear:p5:c5"                 #20
@@ -765,7 +773,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_female_clothes:p3:c2"			
 			"GFX_german_female_ear_midage:d7:o28x54"
-			"GFX_celtic_female_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_midage_christian:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_anglo_female_headgear:p5:c5"
@@ -821,7 +829,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_female_clothes:p3:c2"			
 			"GFX_german_female_ear_oldage:d7:o28x54"
-			"GFX_celtic_female_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_oldage_christian:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_anglo_female_headgear:p5:c5"
