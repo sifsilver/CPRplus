@@ -950,9 +950,28 @@
 				}
 			}
 		}
+		#modifier = {
+		#	factor = 0.1
+		#	is_female = yes
+		#}
 		modifier = {
-			factor = 0.1
-			is_female = yes
+			factor = 0
+			age = 81
+			is_female = no
+			OR = {
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = saxongfx
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+				graphical_culture = celticgfx
+				graphical_culture = norsegaelgfx
+				AND = {
+					graphical_culture = bretongfx
+					NOT = { year = 950 }
+				}
+			}
 		}
 		
 		# Does not suit African females of a Western Culture
@@ -1216,6 +1235,11 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = saxongfx
+			}
 		}
 	}
 
@@ -1276,6 +1300,11 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+			}
 		}
 	}
 
@@ -1382,6 +1411,14 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = celticgfx
+				graphical_culture = norsegaelgfx
+				AND = {
+					graphical_culture = bretongfx
+					NOT = { year = 950 }
+				}
+			}
 		}
 	}
 	
@@ -1555,6 +1592,11 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+			}
 		}
 	}
 	
