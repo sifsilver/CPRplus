@@ -939,6 +939,7 @@
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
 				graphical_culture = saxongfx
+				graphical_culture = dutchgfx
 				graphical_culture = ethiopiangfx
 				graphical_culture = guanchegfx
 				graphical_culture = westafricangfx
@@ -962,6 +963,7 @@
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
 				graphical_culture = saxongfx
+				graphical_culture = dutchgfx
 				graphical_culture = ethiopiangfx
 				graphical_culture = guanchegfx
 				graphical_culture = westafricangfx
@@ -1176,6 +1178,7 @@
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
 				graphical_culture = saxongfx
+				graphical_culture = dutchgfx
 			}
 		}
 		
@@ -1239,6 +1242,7 @@
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
 				graphical_culture = saxongfx
+				graphical_culture = dutchgfx
 			}
 		}
 	}
