@@ -2265,31 +2265,55 @@
 			factor = 0
 			age = 18
 			NOR = {
-				trait = leper
+				religion = catholic
+				is_heresy_of = catholic
+			}
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOT = { trait = leper }
+			OR = {
 				AND = {
-					OR = {
-						religion = catholic
-						is_heresy_of = catholic
-					}
-					OR = {
-						AND = {
-							government = theocracy_government
-							is_landed = yes
-						}
-						has_job_title = job_spiritual
-						trait = monk
-						trait = celibate
-						trait = temperate
-						trait = charitable
-						trait = chaste
-						trait = zealous
-						has_nickname = nick_the_pious
-						has_nickname = nick_the_apostle
-						has_nickname = nick_the_blessed
-						has_nickname = nick_the_confessor
-						has_nickname = nick_the_monk
-					}
+					government = theocracy_government
+					is_landed = yes
 				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			trait = bad_priest_christian
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOT = { trait = leper }
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			OR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		#modifier = {
@@ -2331,11 +2355,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2343,16 +2367,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2380,11 +2423,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2392,16 +2435,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2429,11 +2491,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2441,16 +2503,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2481,11 +2562,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2493,16 +2574,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2533,11 +2633,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2545,16 +2645,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2582,11 +2701,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2594,16 +2713,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2649,11 +2787,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2661,16 +2799,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2721,11 +2878,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2733,16 +2890,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2780,11 +2956,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2792,16 +2968,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2857,11 +3052,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2869,16 +3064,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2903,11 +3117,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2915,16 +3129,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2949,11 +3182,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2961,16 +3194,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -2995,11 +3247,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -3007,16 +3259,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
@@ -3041,11 +3312,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -3053,16 +3324,35 @@
 				}
 				has_job_title = job_spiritual
 				trait = monk
-				trait = celibate
-				trait = temperate
-				trait = charitable
-				trait = chaste
-				trait = zealous
-				has_nickname = nick_the_pious
-				has_nickname = nick_the_apostle
-				has_nickname = nick_the_blessed
-				has_nickname = nick_the_confessor
-				has_nickname = nick_the_monk
+			}
+			NOT = { trait = bad_priest_christian }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				AND = {
+					government = theocracy_government
+					is_landed = yes
+				}
+				has_job_title = job_spiritual
+				trait = monk
+			}
+			NOR = {
+				trait = proud
+				trait = hedonist
+				trait = lustful
+				trait = depressed
+				trait = lunatic
+				trait = possessed
+				has_nickname = nick_the_accursed
+				has_nickname = nick_the_wicked
+				has_nickname = nick_the_bewitched
+				has_nickname = nick_priest_hater
 			}
 		}
 		modifier = {
