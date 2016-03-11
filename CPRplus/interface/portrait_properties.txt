@@ -2233,6 +2233,8 @@
 						has_job_title = job_spiritual
 						trait = monk
 						trait = celibate
+						trait = temperate
+						trait = charitable
 						trait = chaste
 						trait = zealous
 						has_nickname = nick_the_pious
@@ -2296,6 +2298,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2343,6 +2347,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2390,6 +2396,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2440,6 +2448,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2490,6 +2500,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2537,6 +2549,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2602,6 +2616,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2672,6 +2688,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2729,6 +2747,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2804,6 +2824,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2848,6 +2870,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2892,6 +2916,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2936,6 +2962,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
@@ -2980,6 +3008,8 @@
 				has_job_title = job_spiritual
 				trait = monk
 				trait = celibate
+				trait = temperate
+				trait = charitable
 				trait = chaste
 				trait = zealous
 				has_nickname = nick_the_pious
