@@ -2218,6 +2218,7 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
 			martial = 15
 			combat_rating = 3
 			year = 950
@@ -4376,6 +4377,7 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
 			martial = 15
 			combat_rating = 3
 			year = 950
@@ -4450,6 +4452,7 @@
 				NOT = { trait = lunatic }
 			}
 			NAND = {
+				in_command = yes
 				martial = 15
 				combat_rating = 3
 				year = 950
@@ -4489,6 +4492,7 @@
 				}
 			}
 			NAND = {
+				in_command = yes
 				martial = 15
 				combat_rating = 3
 				year = 950
@@ -4553,6 +4557,7 @@
 				}
 			}
 			NAND = {
+				in_command = yes
 				martial = 15
 				combat_rating = 3
 				year = 950
@@ -4580,6 +4585,7 @@
 		}
 		modifier = {
 			factor = 25
+			in_command = yes
 			martial = 15
 			combat_rating = 3
 			year = 950
