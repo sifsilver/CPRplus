@@ -2204,6 +2204,11 @@
 		}
 		modifier = {
 			factor = 0
+			martial = 15
+			combat_rating = 10
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				is_nomadic = yes
 				AND = {
@@ -4308,6 +4313,11 @@
 		}
 		modifier = {
 			factor = 0
+			martial = 15
+			combat_rating = 10
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				is_nomadic = yes
 				AND = {
@@ -4420,6 +4430,12 @@
 			factor = 0
 			prisoner = yes
 		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			martial = 15
+			combat_rating = 10
+		}
 	}
 
 	1 = { # prisoner
@@ -4429,6 +4445,129 @@
 			prisoner = no
 		}
 	}
+	
+	2 = { # Western knight armor #1
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	3 = { # Western knight armor #2
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	4 = { # Western knight armor #3
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	5 = { # Western knight armor #4
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	6 = { # Crusader armor #1
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	7 = { # Crusader armor #2
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	8 = { # Crusader armor #3
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 10 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
 }
 
 # p7 scars
