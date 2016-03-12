@@ -51,8 +51,48 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
-	
+		
+	spriteType = {
+		name = "GFX_sogdian_male_hair_behind"
+		texturefile = "gfx\\characters\\sogdian_male\\sogdian_male_hair_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
 
+	spriteType = {
+		name = "GFX_sogdian_male_hair_behind_midage"
+		texturefile = "gfx\\characters\\sogdian_male\\sogdian_male_hair_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_sogdian_male_hair_behind_oldage"
+		texturefile = "gfx\\characters\\sogdian_male\\sogdian_male_hair_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_sogdian_male_hair"
+		texturefile = "gfx\\characters\\sogdian_male\\sogdian_male_hair_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_sogdian_male_hair_midage"
+		texturefile = "gfx\\characters\\sogdian_male\\sogdian_male_hair_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_sogdian_male_hair_oldage"
+		texturefile = "gfx\\characters\\sogdian_male\\sogdian_male_hair_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 	
@@ -64,8 +104,8 @@ spriteTypes = {
 			"GFX_character_background:p0"				
 			"GFX_persian_male_clothes_behind:p3:c0"
 			"GFX_sogdian_male_headgear_behind:p5:c1"
-			"GFX_persian_male_hair_behind:p1:h:y"
-			"GFX_turkish_male_beard_behind:p4:o-5x0:h:y"
+			"GFX_sogdian_male_hair_behind:p1:h:y"
+			"GFX_turkish_male_beard_behind:p4:o-3x2:h:y"
 			"GFX_persian_male_base:p2"					
 			"GFX_persian_male_neck:d0"
 			"GFX_persian_male_chin:d1"
@@ -81,8 +121,8 @@ spriteTypes = {
 			"GFX_persian_male_clothes:p3:c2"
 			"GFX_sogdian_male_headgear_mid:p5:c3"				
 			"GFX_persian_male_ear:d7"
-			"GFX_turkish_male_beard:p4:o-5x0:h:y"
-		   	"GFX_persian_male_hair:p1:h:y"
+			"GFX_turkish_male_beard:p4:o-3x2:h:y"
+		   	"GFX_sogdian_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"				
 			"GFX_character_imprisoned:p6"
@@ -117,8 +157,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_persian_male_clothes_behind:p3:c0"
 			"GFX_sogdian_male_headgear_behind:p5:c1"
-			"GFX_persian_male_hair_behind_midage:p1:h:y"
-			"GFX_turkish_male_beard_behind_midage:p4:o-5x0:h:y"
+			"GFX_sogdian_male_hair_behind_midage:p1:h:y"
+			"GFX_turkish_male_beard_behind_midage:p4:o-3x2:h:y"
 			"GFX_persian_male_base_midage:p2"
 			"GFX_persian_male_neck_midage:d0"
 			"GFX_persian_male_chin_midage:d1"
@@ -134,8 +174,8 @@ spriteTypes = {
 			"GFX_persian_male_clothes:p3:c2"
 			"GFX_sogdian_male_headgear_mid:p5:c3"	
 			"GFX_persian_male_ear_midage:d7"
-			"GFX_turkish_male_beard_midage:p4:o-5x0:h:y"
-			"GFX_persian_male_hair_midage:p1:h:y"
+			"GFX_turkish_male_beard_midage:p4:o-3x2:h:y"
+			"GFX_sogdian_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6"
@@ -170,8 +210,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_persian_male_clothes_behind:p3:c0"
 			"GFX_sogdian_male_headgear_behind:p5:c1"
-			"GFX_persian_male_hair_behind_oldage:p1:h:y"
-			"GFX_turkish_male_beard_behind_oldage:p4:o-5x0:h:y"
+			"GFX_sogdian_male_hair_behind_oldage:p1:h:y"
+			"GFX_turkish_male_beard_behind_oldage:p4:o-3x2:h:y"
 			"GFX_persian_male_base_oldage:p2"
 			"GFX_persian_male_neck_oldage:d0"
 			"GFX_persian_male_chin_oldage:d1"
@@ -187,8 +227,8 @@ spriteTypes = {
 			"GFX_persian_male_clothes:p3:c2"
 			"GFX_sogdian_male_headgear_mid:p5:c3"	
 			"GFX_persian_male_ear_oldage:d7"
-			"GFX_turkish_male_beard_oldage:p4:o-5x0:h:y"
-			"GFX_persian_male_hair_oldage:p1:h:y"
+			"GFX_turkish_male_beard_oldage:p4:o-3x2:h:y"
+			"GFX_sogdian_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6"
@@ -379,8 +419,8 @@ spriteTypes = {
 			"GFX_character_background:p0"				
 			"GFX_afghan_male_clothes_behind:p3:c0"
 			"GFX_sogdian_male_headgear_behind:p5:c1"
-			"GFX_turkish_male_hair_behind:p1:o-3x-1:h:y"
-			"GFX_centralasian_male_beard_behind:p4:o-3x5:h:y"
+			"GFX_sogdian_male_hair_behind:p1:h:y"
+			"GFX_steppe_male_beard_behind:p4:o-4x5:h:y"
 			"GFX_persian_male_base:p2"					
 			"GFX_persian_male_neck:d0"
 			"GFX_persian_male_chin:d1"
@@ -396,8 +436,8 @@ spriteTypes = {
 			"GFX_afghan_male_clothes:p3:c2"
 			"GFX_sogdian_male_headgear_mid:p5:c3"				
 			"GFX_persian_male_ear:d7"
-			"GFX_centralasian_male_beard:p4:o-3x5:h:y"
-		   	"GFX_turkish_male_hair:p1:o-3x-1:h:y"
+			"GFX_steppe_male_beard:p4:o-4x5:h:y"
+		   	"GFX_sogdian_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"				
 			"GFX_character_imprisoned:p6"
@@ -432,8 +472,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_afghan_male_clothes_behind:p3:c0"
 			"GFX_sogdian_male_headgear_behind:p5:c1"
-			"GFX_turkish_male_hair_behind_midage:p1:o-3x-1:h:y"
-			"GFX_centralasian_male_beard_behind_midage:p4:o-3x5:h:y"
+			"GFX_sogdian_male_hair_behind_midage:p1:h:y"
+			"GFX_steppe_male_beard_behind_midage:p4:o-4x5:h:y"
 			"GFX_persian_male_base_midage:p2"
 			"GFX_persian_male_neck_midage:d0"
 			"GFX_persian_male_chin_midage:d1"
@@ -449,8 +489,8 @@ spriteTypes = {
 			"GFX_afghan_male_clothes:p3:c2"
 			"GFX_sogdian_male_headgear_mid:p5:c3"	
 			"GFX_persian_male_ear_midage:d7"
-			"GFX_centralasian_male_beard_midage:p4:o-3x5:h:y"
-			"GFX_turkish_male_hair_midage:p1:o-3x-1:h:y"
+			"GFX_steppe_male_beard_midage:p4:o-4x5:h:y"
+			"GFX_sogdian_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6"
@@ -485,8 +525,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_afghan_male_clothes_behind:p3:c0"
 			"GFX_sogdian_male_headgear_behind:p5:c1"
-			"GFX_turkish_male_hair_behind_oldage:p1:o-3x-1:h:y"
-			"GFX_centralasian_male_beard_behind_oldage:p4:o-3x5:h:y"
+			"GFX_sogdian_male_hair_behind_oldage:p1:h:y"
+			"GFX_steppe_male_beard_behind_oldage:p4:o-4x5:h:y"
 			"GFX_persian_male_base_oldage:p2"
 			"GFX_persian_male_neck_oldage:d0"
 			"GFX_persian_male_chin_oldage:d1"
@@ -502,8 +542,8 @@ spriteTypes = {
 			"GFX_afghan_male_clothes:p3:c2"
 			"GFX_sogdian_male_headgear_mid:p5:c3"	
 			"GFX_persian_male_ear_oldage:d7"
-			"GFX_centralasian_male_beard_oldage:p4:o-3x5:h:y"
-			"GFX_turkish_male_hair_oldage:p1:o-3x-1:h:y"
+			"GFX_steppe_male_beard_oldage:p4:o-4x5:h:y"
+			"GFX_sogdian_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6"

@@ -84,7 +84,7 @@ west_germanic = {
 		graphical_cultures = {saxongfx}
 	}
 	anglonorse = {
-		graphical_cultures = {norsegfx}
+		graphical_cultures = {saxongfx}
 	}
 }
 
@@ -92,7 +92,7 @@ latin = {
 	graphical_cultures = {westerngfx}
 
 	frankish = {
-		graphical_cultures = {frankishgfx occitangfx}
+		graphical_cultures = {frankishgfx}
 	}
 	arpitan = {
 		graphical_cultures = {occitangfx}
@@ -107,7 +107,7 @@ latin = {
 }
 
 iberian = {
-	graphical_cultures = {occitangfx}
+	graphical_cultures = {westerngfx}
 
 	basque = {
 		graphical_cultures = {basquegfx southerngfx}
@@ -206,10 +206,10 @@ finno_ugric = {
 	graphical_cultures = {easterngfx}
 
 	finnish = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
 	karelian = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
 	vepsian = {
 		graphical_cultures = {ugricgfx}
@@ -218,10 +218,10 @@ finno_ugric = {
 		graphical_cultures = {ugricgfx}
 	}
 	lappish	 = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
    	ugricbaltic = {
-		graphical_cultures = {ugricgfx}
+		graphical_cultures = {finnishgfx ugricgfx}
 	}
 	livonian = {
 		graphical_cultures = {balticgfx ugricgfx}
@@ -266,9 +266,6 @@ altaic = {
 	oghuz = { # original Oghuz Turkish
 		graphical_cultures = {turkishgfx}
 	}
-	uighur = { # non islamic Uighurs
-		graphical_cultures = {khotanesegfx turkishgfx}
-	}
 	mongol = {
 		graphical_cultures = { mongolgfx }
 	}
@@ -276,7 +273,7 @@ altaic = {
 		graphical_cultures = {cumangfx turkishgfx}
 	}
 	pecheneg = { 
-		graphical_cultures = {steppegfx turkishgfx}
+		graphical_cultures = {qasrumgfx turkishgfx}
 	}
 	khazar = { 
 		graphical_cultures = {steppegfx turkishgfx}
@@ -296,31 +293,39 @@ altaic = {
 	kirghiz = {
 		graphical_cultures = {centralasiangfx turkishgfx}
 	}
-	uyghur = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = {khotanesegfx turkishgfx }
+	uyghur = { # non islamic Uighurs
+		graphical_cultures = {uyghurgfx turkishgfx }
 	}
 	bashkir = {
 		graphical_cultures = {bulgargfx turkishgfx}
 	}
 }
 
+aramaic = {
+	graphical_cultures = {muslimgfx}
+
+	assyrian = { 
+		graphical_cultures = {copticgfx muslimgfx}
+	}
+}
+	
 arabic = {
 	graphical_cultures = {muslimgfx}
 
-        bedouin_arabic = { 
-		graphical_cultures = {arabicgfx}
+    bedouin_arabic = { 
+		graphical_cultures = {arabicgfx muslimgfx}
 	}
 	maghreb_arabic = { 
-		graphical_cultures = {maghrebgfx}
+		graphical_cultures = {maghrebgfx muslimgfx}
 	}
 	levantine_arabic = {
-		graphical_cultures = {levantinegfx}
+		graphical_cultures = {levantinegfx muslimgfx}
 	}
 	egyptian_arabic = {
-		graphical_cultures = {arabicgfx}
+		graphical_cultures = {arabicgfx muslimgfx}
 	}
     sicilian_arabic = { 
-		graphical_cultures = {maghrebgfx}
+		graphical_cultures = {maghrebgfx muslimgfx}
 	}	
 }
 
@@ -395,7 +400,7 @@ iranian = {
 	persian = {
 		graphical_cultures = {persiangfx}
 	}
-	sogdian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
+	sogdian = {
 		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	tocharian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
@@ -404,13 +409,16 @@ iranian = {
 	tajik = {
 		graphical_cultures = {sogdiangfx persiangfx}
 	}
+	khotanese = {
+		graphical_cultures = {khotanesegfx persiangfx}
+	}
 	daylamite = {
 		graphical_cultures = {persiangfx}
 	}
-	khalaj = {
-		graphical_cultures = {sogdiangfx persiangfx}
+	adhari = {
+		graphical_cultures = {persiangfx}
 	}
-	soghdian = {
+	khalaj = {
 		graphical_cultures = {sogdiangfx persiangfx}
 	}
 	khwarezmi = {
@@ -420,12 +428,9 @@ iranian = {
 		graphical_cultures = {persiangfx}
 	}
 	kurdish = {
-		graphical_cultures = {persiangfx} 
+		graphical_cultures = {kurdishgfx persiangfx} 
 	}
-	pashtun = { # a.k.a. Afghani
-		graphical_cultures = {afghangfx persiangfx} 
-	}
-	afghan = { # a.k.a. Pashtun ## VANILLA COMPATIBILITY ONLY (REQ'D)
+	afghan = { # a.k.a. Pashtun
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 	baloch = {
@@ -446,16 +451,19 @@ east_african = {
 		graphical_cultures = {somaligfx africangfx}
 	}
   	afar = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {bejagfx africangfx}
 	}
 	daju = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {bejagfx africangfx}
 	}
 	beja = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {bejagfx africangfx}
 	}
 	zaghawa = {
 		graphical_cultures = {somaligfx africangfx}
+	}
+	coptic = {
+		graphical_cultures = {copticgfx muslimgfx}
 	}
 	nubian = {
 		graphical_cultures = {ethiopiangfx africangfx} #muslimgfx 
@@ -469,6 +477,7 @@ west_african = {
 		graphical_cultures = {westafricangfx}
 	}
 	soninke = {
+		graphical_cultures = {westafricangfx}
 	}
 	wolof = {
 		graphical_cultures = {westafricangfx}
@@ -488,22 +497,25 @@ north_african = {
 	graphical_cultures = {muslimgfx}
 
 	berber = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
 	sanhaja = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {maghrebgfx muslimgfx}
 	}
   	tagelmust = {
 		graphical_cultures = {africangfx}
 	}
 	masmuda = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
 	zanata = {
-		graphical_cultures = {berbergfx}
+		graphical_cultures = {berbergfx muslimgfx}
 	}
 	tuareg = {
 		graphical_cultures = {africangfx}
+	}
+	canarian = {
+		graphical_cultures = {guanchegfx africangfx}
 	}
 }
 
@@ -525,25 +537,25 @@ italian_group = {
 	graphical_cultures = {westerngfx}
 
 	sardinian = {
-		graphical_cultures = {italiangfx occitangfx}
+		graphical_cultures = {italiangfx}
 	}
 	sicilian = {
-		graphical_cultures = {italiangfx occitangfx}
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 	corsican = {
-		graphical_cultures = {italiangfx occitangfx}
+		graphical_cultures = {italiangfx}
 	}
 	central_italian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	southern_italian = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 	neapolitan = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 	tuscan = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	ligurian = {
 		graphical_cultures = { occitangfx italiangfx }
@@ -552,16 +564,16 @@ italian_group = {
 		graphical_cultures = {lombardgfx italiangfx}
 	}
 	italian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	venetian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	dalmatian = {		
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	roman = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 }
 mesoamerican = {

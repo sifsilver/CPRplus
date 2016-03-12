@@ -90,7 +90,7 @@ spriteTypes = {
 			"GFX_english_male_clothes_behind:p3:c0"
 			"GFX_english_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_german_male_beard_behind:p4:o2x-2:h:y"
+			"GFX_western_male_beard_behind:p4:o-2x-1:h:y"
 			"GFX_german_male_base:p2"
 			"GFX_german_male_neck:d0"
 			"GFX_german_male_cheeks:d4"
@@ -106,9 +106,9 @@ spriteTypes = {
 			"GFX_german_male_ear:d7:o27x54"	
 			"GFX_english_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"		
-			"GFX_german_male_beard:p4:o2x-2:h:y"
+			"GFX_western_male_beard:p4:o-2x-1:h:y"
 		   	"GFX_western_male_hair:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -135,10 +135,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -155,7 +156,7 @@ spriteTypes = {
 			"GFX_english_male_clothes_behind:p3:c0"
 			"GFX_english_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_german_male_beard_behind_midage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_behind_midage:p4:o-2x-1:h:y"
 			"GFX_german_male_base_midage:p2"
 			"GFX_german_male_neck_midage:d0"
 			"GFX_german_male_cheeks_midage:d4"
@@ -171,9 +172,9 @@ spriteTypes = {
 			"GFX_german_male_ear_midage:d7:o27x54"
 			"GFX_english_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_german_male_beard_midage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_midage:p4:o-2x-1:h:y"
 			"GFX_western_male_hair_midage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -200,10 +201,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -220,7 +222,7 @@ spriteTypes = {
 			"GFX_english_male_clothes_behind:p3:c0"
 			"GFX_english_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_german_male_beard_behind_oldage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_behind_oldage:p4:o-2x-1:h:y"
 			"GFX_german_male_base_oldage:p2"
 			"GFX_german_male_neck_oldage:d0"
 			"GFX_german_male_cheeks_oldage:d4"
@@ -236,9 +238,9 @@ spriteTypes = {
 			"GFX_german_male_ear_oldage:d7:o25x51"
 			"GFX_english_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_german_male_beard_oldage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
 			"GFX_western_male_hair_oldage:p1:h:y"
-			"GFX_empty:p3:c4"
+			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -265,10 +267,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -328,10 +331,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -391,10 +395,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -455,10 +460,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -477,7 +483,7 @@ spriteTypes = {
 			"GFX_german_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_german_male_beard_behind:p4:o2x-2:h:y"
+			"GFX_western_male_beard_behind:p4:o-2x-1:h:y"
 			"GFX_german_male_base:p2"
 			"GFX_german_male_neck:d0"
 			"GFX_german_male_cheeks:d4"
@@ -493,7 +499,7 @@ spriteTypes = {
 			"GFX_german_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear:d7:o27x54"			
-			"GFX_german_male_beard:p4:o2x-2:h:y"
+			"GFX_western_male_beard:p4:o-2x-1:h:y"
 		   	"GFX_western_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
@@ -524,10 +530,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -544,7 +551,7 @@ spriteTypes = {
 			"GFX_german_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_german_male_beard_behind_midage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_behind_midage:p4:o-2x-1:h:y"
 			"GFX_german_male_base_midage:p2"
 			"GFX_german_male_neck_midage:d0"
 			"GFX_german_male_cheeks_midage:d4"
@@ -560,7 +567,7 @@ spriteTypes = {
 			"GFX_german_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear_midage:d7:o27x54"
-			"GFX_german_male_beard_midage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_midage:p4:o-2x-1:h:y"
 			"GFX_western_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
@@ -590,10 +597,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -610,7 +618,7 @@ spriteTypes = {
 			"GFX_german_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_german_male_beard_behind_oldage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_behind_oldage:p4:o-2x-1:h:y"
 			"GFX_german_male_base_oldage:p2"
 			"GFX_german_male_neck_oldage:d0"
 			"GFX_german_male_cheeks_oldage:d4"
@@ -626,7 +634,7 @@ spriteTypes = {
 			"GFX_german_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear_oldage:d7:o25x51"
-			"GFX_german_male_beard_oldage:p4:o2x-2:h:y"
+			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
 			"GFX_western_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
@@ -656,10 +664,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -724,10 +733,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -787,10 +797,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -852,10 +863,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 101 119 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}

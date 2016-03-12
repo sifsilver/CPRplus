@@ -18,17 +18,17 @@ spriteTypes = {
 	}
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
-
+	
 	# Occitan Male
 	portraitType = {
 		name = "PORTRAIT_occitangfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
+			"GFX_frankish_male_clothes_behind:p3:c0"
 			"GFX_western_male_headgear_behind:p5:c1"
 			"GFX_southern_male_hair_behind:p1:h:y"
-			"GFX_southern_male_beard_behind:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_behind:p4:o0x-2:h:y"
 			"GFX_frankish_male_base:p2"
 			"GFX_frankish_male_neck:d0"
 			"GFX_frankish_male_cheeks:d4"
@@ -41,10 +41,10 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
+			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_ear:d7:o27x54"			
-			"GFX_southern_male_beard:p4:o2x-2:h:y"
+			"GFX_southern_male_beard:p4:o0x-2:h:y"
 		   	"GFX_southern_male_hair:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
@@ -74,9 +74,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -88,10 +92,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
+			"GFX_frankish_male_clothes_behind:p3:c0"
 			"GFX_western_male_headgear_behind:p5:c1"
 			"GFX_southern_male_hair_behind_midage:p1:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_behind_midage:p4:o0x-2:h:y"
 			"GFX_frankish_male_base_midage:p2"
 			"GFX_frankish_male_neck_midage:d0"
 			"GFX_frankish_male_cheeks_midage:d4"
@@ -104,10 +108,10 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
+			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_ear_midage:d7:o27x54"
-			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_midage:p4:o0x-2:h:y"
 			"GFX_southern_male_hair_midage:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
@@ -137,9 +141,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -151,10 +159,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
+			"GFX_frankish_male_clothes_behind:p3:c0"
 			"GFX_western_male_headgear_behind:p5:c1"
 			"GFX_southern_male_hair_behind_oldage:p1:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_behind_oldage:p4:o0x-2:h:y"
 			"GFX_frankish_male_base_oldage:p2"
 			"GFX_frankish_male_neck_oldage:d0"
 			"GFX_frankish_male_cheeks_oldage:d4"
@@ -167,10 +175,10 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
+			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_ear_oldage:d7:o25x51"
-			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_oldage:p4:o0x-2:h:y"
 			"GFX_southern_male_hair_oldage:p1:h:y"
 			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
@@ -200,9 +208,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -214,9 +226,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
+			"GFX_frankish_female_clothes_behind:p3:c0"
 			"GFX_western_female_headgear_behind:p5:c1"
-			"GFX_southern_female_hair_behind:o0x6:p1:h:y"
+			"GFX_southern_female_hair_behind:p1:h:y"
 			"GFX_frankish_female_base:p2"
 			"GFX_frankish_female_neck:d0"
 			"GFX_frankish_female_cheeks:d4"
@@ -229,10 +241,10 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_female_clothes:p3:c2"
+			"GFX_frankish_female_clothes:p3:c2"
 			"GFX_frankish_female_ear:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair:p1:o0x6:h:y"
+			"GFX_southern_female_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -261,9 +273,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -275,9 +291,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
+			"GFX_frankish_female_clothes_behind:p3:c0"
 			"GFX_western_female_headgear_behind:p5:c1"
-			"GFX_southern_female_hair_behind_midage:o0x6:p1:h:y"
+			"GFX_southern_female_hair_behind_midage:p1:h:y"
 			"GFX_frankish_female_base_midage:p2"
 			"GFX_frankish_female_neck_midage:d0"
 			"GFX_frankish_female_cheeks_midage:d4"
@@ -290,10 +306,10 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_female_clothes:p3:c2"			
+			"GFX_frankish_female_clothes:p3:c2"			
 			"GFX_frankish_female_ear_midage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair_midage:o0x6:p1:h:y"
+			"GFX_southern_female_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -322,9 +338,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -336,9 +356,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
+			"GFX_frankish_female_clothes_behind:p3:c0"
 			"GFX_western_female_headgear_behind:p5:c1"
-			"GFX_southern_female_hair_behind_oldage:o0x6:p1:y"
+			"GFX_southern_female_hair_behind_oldage:p1:y"
 			"GFX_frankish_female_base_oldage:p2"
 			"GFX_frankish_female_neck_oldage:d0"
 			"GFX_frankish_female_cheeks_oldage:d4"
@@ -351,10 +371,10 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_female_clothes:p3:c2"			
+			"GFX_frankish_female_clothes:p3:c2"			
 			"GFX_frankish_female_ear_oldage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair_oldage:o0x6:p1:y"
+			"GFX_southern_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -384,9 +404,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -400,8 +424,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_southern_male_hair_behind:p1:o2x2:h:y"
-			"GFX_southern_male_beard_behind:p4:h:y"
+			"GFX_southern_male_hair_behind:p1:h:y"
+			"GFX_southern_male_beard_behind:p4:o0x-2:h:y"
 			"GFX_frankish_male_base:p2"
 			"GFX_frankish_male_neck:d0"
 			"GFX_frankish_male_cheeks:d4"
@@ -417,8 +441,8 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_ear:d7:o27x54"			
-			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
-		   	"GFX_southern_male_hair_midage:p1:o2x2:h:y"
+			"GFX_southern_male_beard_midage:p4:o0x-2:h:y"
+		   	"GFX_southern_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -443,9 +467,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -459,8 +487,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_southern_male_hair_behind_midage:p1:o2x2:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:h:y"
+			"GFX_southern_male_hair_behind_midage:p1:h:y"
+			"GFX_southern_male_beard_behind_midage:p4:o0x-2:h:y"
 			"GFX_frankish_male_base_midage:p2"
 			"GFX_frankish_male_neck_midage:d0"
 			"GFX_frankish_male_cheeks_midage:d4"
@@ -476,8 +504,8 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_ear_midage:d7:o27x54"
-			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
-			"GFX_southern_male_hair_midage:p1:o2x2:h:y"
+			"GFX_southern_male_beard_midage:p4:o0x-2:h:y"
+			"GFX_southern_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -502,9 +530,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -518,8 +550,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_southern_male_hair_behind_oldage:p1:o2x2:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:h:y"
+			"GFX_southern_male_hair_behind_oldage:p1:h:y"
+			"GFX_southern_male_beard_behind_oldage:p4:o0x-2:h:y"
 			"GFX_frankish_male_base_oldage:p2"
 			"GFX_frankish_male_neck_oldage:d0"
 			"GFX_frankish_male_cheeks_oldage:d4"
@@ -535,8 +567,8 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_ear_oldage:d7:o25x51"
-			"GFX_southern_male_beard_oldage:p4:h:y"
-			"GFX_southern_male_hair_oldage:p1:o2x2:h:y"
+			"GFX_southern_male_beard_oldage:p4:o0x-2:h:y"
+			"GFX_southern_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -561,9 +593,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -618,9 +654,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -675,9 +715,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -732,9 +776,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 101 119 150} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }

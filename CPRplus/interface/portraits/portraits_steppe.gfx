@@ -211,6 +211,90 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_steppe_male_hair_behind"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_hair_behind_1.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_hair_behind_midage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_hair_behind_2.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_hair_behind_oldage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_hair_behind_3.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_steppe_male_hair"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_hair_1.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_hair_midage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_hair_2.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_hair_oldage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_hair_3.dds"
+		noOfFrames = 14
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_steppe_male_beard_behind"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_beard_behind_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_beard_behind_midage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_beard_behind_2.dds"
+		noOfFrames = 9
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_beard_behind_oldage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_beard_behind_3.dds"
+		noOfFrames = 9
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_steppe_male_beard"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_beard_1.dds"
+		noOfFrames = 9
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_beard_midage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_beard_2.dds"
+		noOfFrames = 9
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_steppe_male_beard_oldage"
+		texturefile = "gfx\\characters\\steppe_male\\steppe_male_beard_3.dds"
+		noOfFrames = 9
+		norefcount = yes
+	}
+	
 	#### steppe FEMALE ####
 
 	spriteType = {
@@ -466,8 +550,8 @@ spriteTypes = {
 			"GFX_character_background:p0"				#0
 			"GFX_steppe_male_clothes_behind:p3:c0"
 			"GFX_steppe_male_headgear_behind:p5:c1"
-			"GFX_turkish_male_hair_behind:p1:h:y"
-			"GFX_turkish_male_beard_behind:p4:o-1x-1:h:y"
+			"GFX_steppe_male_hair_behind:p1:o2x-3:h:y"
+			"GFX_steppe_male_beard_behind:p4:o2x3:h:y"
 			"GFX_steppe_male_base:p2"					#5
 			"GFX_steppe_male_neck:d0"
 			"GFX_steppe_male_chin:d1"
@@ -483,8 +567,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid_christian:p5:c3"		#15
 			"GFX_turkish_male_ear:d7"
-			"GFX_turkish_male_beard:p4:o-1x-1:h:y"
-		   	"GFX_turkish_male_hair:p1:h:y"
+			"GFX_steppe_male_beard:p4:o2x3:h:y"
+		   	"GFX_steppe_male_hair:p1:o2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"			#20
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -509,9 +593,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -527,8 +611,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind:p3:c0"
 			"GFX_steppe_male_headgear_behind:p5:c1"
-			"GFX_turkish_male_hair_behind_midage:p1:h:y"
-			"GFX_turkish_male_beard_behind_midage:p4:o-1x-1:h:y"
+			"GFX_steppe_male_hair_behind_midage:p1:o2x-3:h:y"
+			"GFX_steppe_male_beard_behind_midage:p4:o2x3:h:y"
 			"GFX_steppe_male_base_midage:p2"
 			"GFX_steppe_male_neck_midage:d0"
 			"GFX_steppe_male_chin_midage:d1"
@@ -544,8 +628,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid_christian:p5:c3"
 			"GFX_turkish_male_ear_midage:d7"
-			"GFX_turkish_male_beard_midage:p4:o-1x-1:h:y"
-			"GFX_turkish_male_hair_midage:p1:h:y"
+			"GFX_steppe_male_beard_midage:p4:o2x3:h:y"
+			"GFX_steppe_male_hair_midage:p1:o2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -569,9 +653,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -587,8 +671,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind:p3:c0"
 			"GFX_steppe_male_headgear_behind:p5:c1"
-			"GFX_turkish_male_hair_behind_oldage:p1:h:y"
-			"GFX_turkish_male_beard_behind_oldage:p4:o-1x-1:h:y"
+			"GFX_steppe_male_hair_behind_oldage:p1:o2x-3:h:y"
+			"GFX_steppe_male_beard_behind_oldage:p4:o2x3:h:y"
 			"GFX_steppe_male_base_oldage:p2"
 			"GFX_steppe_male_neck_oldage:d0"
 			"GFX_steppe_male_chin_oldage:d1"
@@ -604,23 +688,24 @@ spriteTypes = {
 			"GFX_steppe_male_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid_christian:p5:c3"
 			"GFX_turkish_male_ear_oldage:d7"
-			"GFX_turkish_male_beard_oldage:p4:o-1x-1:h:y"
-			"GFX_turkish_male_hair_oldage:p1:h:y"
+			"GFX_steppe_male_beard_oldage:p4:o2x3:h:y"
+			"GFX_steppe_male_hair_oldage:p1:o2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -677,9 +762,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -736,9 +821,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -777,15 +862,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -801,8 +887,8 @@ spriteTypes = {
 			"GFX_character_background:p0"				#0
 			"GFX_steppe_male_clothes_behind_early:p3:c0"
 			"GFX_steppe_male_headgear_behind_early:p5:c1"
-			"GFX_turkish_male_hair_behind:p1:h:y"
-			"GFX_turkish_male_beard_behind:p4:o-1x-1:h:y"
+			"GFX_steppe_male_hair_behind:p1:o2x-3:h:y"
+			"GFX_steppe_male_beard_behind:p4:o2x3:h:y"
 			"GFX_steppe_male_base:p2"					#5
 			"GFX_steppe_male_neck:d0"
 			"GFX_steppe_male_chin:d1"
@@ -818,8 +904,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"		#15
 			"GFX_turkish_male_ear:d7"
-			"GFX_turkish_male_beard:p4:o-1x-1:h:y"
-		   	"GFX_turkish_male_hair:p1:h:y"
+			"GFX_steppe_male_beard:p4:o2x3:h:y"
+		   	"GFX_steppe_male_hair:p1:o2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"			#20
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -844,9 +930,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -862,8 +948,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind_early:p3:c0"
 			"GFX_steppe_male_headgear_behind_early:p5:c1"
-			"GFX_turkish_male_hair_behind_midage:p1:h:y"
-			"GFX_turkish_male_beard_behind_midage:p4:o-1x-1:h:y"
+			"GFX_steppe_male_hair_behind_midage:p1:o2x-3:h:y"
+			"GFX_steppe_male_beard_behind_midage:p4:o2x3:h:y"
 			"GFX_steppe_male_base_midage:p2"
 			"GFX_steppe_male_neck_midage:d0"
 			"GFX_steppe_male_chin_midage:d1"
@@ -879,8 +965,8 @@ spriteTypes = {
 			"GFX_steppe_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_turkish_male_ear_midage:d7"
-			"GFX_turkish_male_beard_midage:p4:o-1x-1:h:y"
-			"GFX_turkish_male_hair_midage:p1:h:y"
+			"GFX_steppe_male_beard_midage:p4:o2x3:h:y"
+			"GFX_steppe_male_hair_midage:p1:o2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -904,9 +990,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -922,8 +1008,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_steppe_male_clothes_behind_early:p3:c0"
 			"GFX_steppe_male_headgear_behind_early:p5:c1"
-			"GFX_turkish_male_hair_behind_oldage:p1:h:y"
-			"GFX_turkish_male_beard_behind_oldage:p4:o-1x-1:h:y"
+			"GFX_steppe_male_hair_behind_oldage:p1:o2x-3:h:y"
+			"GFX_steppe_male_beard_behind_oldage:p4:o2x3:h:y"
 			"GFX_steppe_male_base_oldage:p2"
 			"GFX_steppe_male_neck_oldage:d0"
 			"GFX_steppe_male_chin_oldage:d1"
@@ -939,23 +1025,24 @@ spriteTypes = {
 			"GFX_steppe_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_turkish_male_ear_oldage:d7"
-			"GFX_turkish_male_beard_oldage:p4:o-1x-1:h:y"
-			"GFX_turkish_male_hair_oldage:p1:h:y"
+			"GFX_steppe_male_beard_oldage:p4:o2x3:h:y"
+			"GFX_steppe_male_hair_oldage:p1:o2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_steppe_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -1012,9 +1099,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -1071,9 +1158,9 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}
@@ -1112,15 +1199,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
 		}

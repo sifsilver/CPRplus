@@ -50,9 +50,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 101 119 150} #Light Blue
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -72,8 +77,8 @@ spriteTypes = {
 			"GFX_western_male_neck_midage:d0"
 			"GFX_western_male_cheeks_midage:d4"
 			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"					
+			"GFX_western_male_mouth_midage:d2:o80x51"					
+			"GFX_western_male_nose_midage:d3:o81x65"
 			"GFX_western_male_eyes_midage:d6:o46x74"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -105,9 +110,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 101 119 150} #Light Blue
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -159,9 +169,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 101 119 150} #Light Blue
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -213,9 +228,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 101 119 150} #Light Blue
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -265,9 +285,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 101 119 150} #Light Blue
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -317,9 +342,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 101 119 150} #Light Blue
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }

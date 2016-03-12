@@ -63,28 +63,28 @@ latin = {
 	graphical_cultures = { westerngfx }
 
 	frankish = {
-		graphical_cultures = { frankishgfx occitangfx }
+		graphical_cultures = { frankishgfx }
 	}
 	
 	norman = {
 		graphical_cultures = { normangfx }
 	}
 	italian = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	occitan = {
 		graphical_cultures = { occitangfx }
 	}
 	roman = {
-		graphical_cultures = { italiangfx occitangfx }
+		graphical_cultures = { italiangfx }
 	}
 	sicilian = {
-		graphical_cultures = { siciliangfx italiangfx occitangfx }
+		graphical_cultures = { siciliangfx italiangfx }
 	}
 }
 
 iberian = {
-	graphical_cultures = { occitangfx }
+	graphical_cultures = { westerngfx }
 
 	basque = {
 		graphical_cultures = { basquegfx southerngfx }
@@ -144,13 +144,13 @@ finno_ugric = {
 	graphical_cultures = { easterngfx }
 
 	finnish = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { finnishgfx ugricgfx }
 	}
 	lappish	 = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { finnishgfx ugricgfx }
 	}
 	ugricbaltic = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { finnishgfx ugricgfx }
 	}
 	komi = {
 		graphical_cultures = { ugricgfx }
@@ -189,7 +189,7 @@ altaic = {
 		graphical_cultures = { turkishgfx }
 	}
 	pecheneg = { # Oghuz Turkish
-		graphical_cultures = { steppegfx turkishgfx }
+		graphical_cultures = { qasrumgfx turkishgfx }
 	}
 	cuman = { # Kipchak Turkish
 		graphical_cultures = { cumangfx turkishgfx }
@@ -216,7 +216,7 @@ altaic = {
 		graphical_cultures = { centralasiangfx turkishgfx }
 		}
 	uyghur = {
-		graphical_cultures = { khotanesegfx turkishgfx }
+		graphical_cultures = { uyghurgfx turkishgfx }
 	}
 
 	mongol = {
@@ -332,7 +332,7 @@ iranian = {
 	}
 	
 	kurdish = {
-		graphical_cultures = { persiangfx } #arabicgfx
+		graphical_cultures = { kurdishgfx persiangfx } #arabicgfx
 	}
 	
 	afghan = { # a.k.a. Pashtun

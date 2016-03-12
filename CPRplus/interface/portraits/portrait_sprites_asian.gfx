@@ -119,7 +119,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_eastasian_female_headgear_behind"
 		texturefile = "gfx\\characters\\eastasian_female\\eastasian_female_headgear_behind.dds"
-		noOfFrames = 16
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -177,7 +177,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_eastasian_female_headgear"
 		texturefile = "gfx\\characters\\eastasian_female\\eastasian_female_headgear.dds"
-		noOfFrames = 16
+		noOfFrames = 12
 		norefcount = yes
 	}
 	

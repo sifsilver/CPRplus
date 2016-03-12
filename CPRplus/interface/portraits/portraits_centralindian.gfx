@@ -19,12 +19,6 @@ spriteTypes = {
 
 	### indian MALE ####
 
-	spriteType = {
-		name = "GFX_centralindian_male_headgear_behind"
-		texturefile = "gfx\\characters\\centralindian_male\\centralindian_male_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_centralindian_male_base"
@@ -195,13 +189,7 @@ spriteTypes = {
 		noOfFrames = 4
 		norefcount = yes
 	}
-	
-	spriteType = {
-		name = "GFX_centralindian_male_headgear"
-		texturefile = "gfx\\characters\\centralindian_male\\centralindian_male_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
+
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 	
@@ -212,7 +200,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_indian_male_clothes_behind:p3:c0"
-			"GFX_centralindian_male_headgear_behind:p5:c1"
+			"GFX_indian_male_headgear_behind:p5:c1"
 			"GFX_indian_male_hair_behind:p1:h:y"
 			"GFX_persian_male_beard_behind:p4:h:y:o4x0"
 			"GFX_centralindian_male_base:p2"
@@ -233,7 +221,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_centralindian_male_headgear:p5:c5"
+			"GFX_indian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -263,7 +251,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_indian_male_clothes_behind:p3:c0"
-			"GFX_centralindian_male_headgear_behind:p5:c1"
+			"GFX_indian_male_headgear_behind:p5:c1"
 			"GFX_indian_male_hair_behind_midage:p1:h:y"
 			"GFX_persian_male_beard_behind_midage:p4:h:y:o4x0"
 			"GFX_centralindian_male_base_midage:p2"
@@ -284,7 +272,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_centralindian_male_headgear:p5:c5"
+			"GFX_indian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -314,7 +302,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_indian_male_clothes_behind:p3:c0"
-			"GFX_centralindian_male_headgear_behind:p5:c1"
+			"GFX_indian_male_headgear_behind:p5:c1"
 			"GFX_indian_male_hair_behind_oldage:p1:h:y"
 			"GFX_persian_male_beard_behind_oldage:p4:h:y:o4x0"
 			"GFX_centralindian_male_base_oldage:p2"
@@ -335,7 +323,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_centralindian_male_headgear:p5:c5"
+			"GFX_indian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -359,13 +347,6 @@ spriteTypes = {
 	}
 
 #### centralindian FEMALE ####
-
-	spriteType = {
-		name = "GFX_centralindian_female_headgear_behind"
-		texturefile = "gfx\\characters\\centralindian_female\\centralindian_female_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_centralindian_female_base"
@@ -538,13 +519,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-	spriteType = {
-		name = "GFX_centralindian_female_headgear"
-		texturefile = "gfx\\characters\\centralindian_female\\centralindian_female_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-
 	# centralindian female
 	portraitType = {
 		name = "PORTRAIT_centralindiangfx_female"
@@ -552,16 +526,16 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_indian_female_clothes_behind:p3:c0"
-			"GFX_centralindian_female_headgear_behind:p5:c1"
+			"GFX_indian_female_headgear_behind:p5:c1"
 			"GFX_indian_female_hair_behind:p1:h:y"
 			"GFX_centralindian_female_base:p2"
 			"GFX_centralindian_female_neck:d0"
-			"GFX_centralindian_female_mouth:d2"
-			"GFX_centralindian_female_nose:d3"
 			"GFX_centralindian_female_chin:d1"
 			"GFX_centralindian_female_cheeks:d4"
 			"GFX_centralindian_female_eyes:d6"
 			"GFX_indian_female_eyes2:d6:e"
+			"GFX_centralindian_female_mouth:d2"
+			"GFX_centralindian_female_nose:d3"
 			"GFX_centralindian_female_ear:d7"			
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_hair:p1:h:y"
@@ -571,7 +545,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_indian_female_headgear_mid:p5:c3"
-			"GFX_centralindian_female_headgear:p5:c5"
+			"GFX_indian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -601,16 +575,16 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_indian_female_clothes_behind:p3:c0"
-			"GFX_centralindian_female_headgear_behind:p5:c1"
+			"GFX_indian_female_headgear_behind:p5:c1"
 			"GFX_indian_female_hair_behind_midage:p1:h:y"
 			"GFX_centralindian_female_base_midage:p2"
 			"GFX_centralindian_female_neck_midage:d0"
-			"GFX_centralindian_female_mouth_midage:d2"
-			"GFX_centralindian_female_nose_midage:d3"
 			"GFX_centralindian_female_chin_midage:d1"
 			"GFX_centralindian_female_cheeks_midage:d4"
 			"GFX_centralindian_female_eyes_midage:d6"
 			"GFX_indian_female_eyes2:d6:e"
+			"GFX_centralindian_female_mouth_midage:d2"
+			"GFX_centralindian_female_nose_midage:d3"
 			"GFX_centralindian_female_ear_midage:d7"		
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_hair_midage:p1:h:y"			
@@ -620,7 +594,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_indian_female_headgear_mid:p5:c3"
-			"GFX_centralindian_female_headgear:p5:c5"
+			"GFX_indian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -650,22 +624,22 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_indian_female_clothes_behind:p3:c0"
-			"GFX_centralindian_female_headgear_behind:p5:c1"
+			"GFX_indian_female_headgear_behind:p5:c1"
 			"GFX_indian_female_hair_behind_oldage:p1:h:y"
 			"GFX_centralindian_female_base_oldage:p2"
 			"GFX_centralindian_female_neck_oldage:d0"
-			"GFX_centralindian_female_mouth_oldage:d2"
-			"GFX_centralindian_female_nose_oldage:d3"
 			"GFX_centralindian_female_chin_oldage:d1"
 			"GFX_centralindian_female_cheeks_oldage:d4"
 			"GFX_centralindian_female_eyes_oldage:d6"
 			"GFX_indian_female_eyes2:d6:e"
+			"GFX_centralindian_female_mouth_oldage:d2"
+			"GFX_centralindian_female_nose_oldage:d3"
 			"GFX_centralindian_female_ear_oldage:d7"			
 			"GFX_indian_female_clothes:p3:c2"
 			"GFX_indian_female_headgear_mid:p5:c3"
 			"GFX_indian_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_centralindian_female_headgear:p5:c5"
+			"GFX_indian_female_headgear:p5:c5"
 			"GFX_character_scars:p7"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"

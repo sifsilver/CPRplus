@@ -1,10 +1,24 @@
 Adam63: Wikimedia Commons image of countryside near Goa
 (https://commons.wikimedia.org/wiki/File:Countryside_South_of_Goa_-_India.JPG)
 
-LordPeter: retouched existing portrait background images from CPR and Wikimedia Commons images (Adam63's and Richard Seidenmann's)
-
 Richard Seidenmann: Wikimedia Commons image of a forest in Sächsische Schweiz
 (https://commons.wikimedia.org/wiki/File:NatS%C3%A4chsSchwz.jpg)
 
 Tout-pour-la-science: Wikimedia Commons image of Col d'Izoard
 (https://commons.wikimedia.org/wiki/File:Isoard2.JPG)
+
+LordPeter: retouched existing portrait background images from CPR and Wikimedia Commons images (Adam63's and Richard Seidenmann's)
+
+SirRitter: retouched military headgear assets for Georgian and Baltic portrait sets
+
+Lux Invicta: various headgear, including the Italian "martial" headgear
+(https://forum.paradoxplaza.com/forum/index.php?threads/mod-lux-invicta.612823/)
+
+A Game of Thrones: various headgear
+(https://forum.paradoxplaza.com/forum/index.php?threads/release-a-game-of-thrones-v1-0.889743/)
+
+Huanglukuzhu: headgear assets for Uyghur, Khitan, and non-pagan Mongol portrait sets, taken from Horse Lords Remake + New Portraits & Units mod
+(https://steamcommunity.com/sharedfiles/filedetails/?id=485482054)
+
+CrackdToothGrin: Orthodox priest robe from Better Klobuk mod; beard, hair, cloth, and headgear assets in the steppe area from Steppe Faces mod
+(https://forum.paradoxplaza.com/forum/index.php?threads/mod-crackdtoothgrins-graphical-goodies.603794/)

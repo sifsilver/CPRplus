@@ -44,7 +44,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_clothes:p3:c2"
-			"GFX_italian_male_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_western_male_ear:d7:o27x54"			
 			"GFX_byzantine_male_beard:p4:o2x-2:h:y"
 		   	"GFX_byzantine_male_hair:p1:h:y:o3x2"
@@ -74,7 +74,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -105,7 +105,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_clothes:p3:c2"
-			"GFX_italian_male_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_western_male_ear_midage:d7:o27x54"
 			"GFX_byzantine_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_byzantine_male_hair_midage:p1:h:y:o3x2"
@@ -135,7 +135,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -166,7 +166,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_western_male_clothes:p3:c2"
-			"GFX_italian_male_headgear_mid:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_western_male_ear_oldage:d7:o25x51"
 			"GFX_byzantine_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_byzantine_male_hair_oldage:p1:h:y:o3x2"
@@ -196,7 +196,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -259,7 +259,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -318,7 +318,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -378,7 +378,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -446,7 +446,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -507,7 +507,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -568,7 +568,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -631,7 +631,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -690,7 +690,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -750,7 +750,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}

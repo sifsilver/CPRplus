@@ -29,7 +29,7 @@ ethiopiangfx = {
 	skin_tone = 3
 }
 guanchegfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 alangfx = {
 	skin_tone = 1
@@ -48,6 +48,9 @@ crimeangothicgfx = {
 	skin_tone = 0
 }
 sogdiangfx = {
+	skin_tone = 1
+}
+uyghurgfx = {
 	skin_tone = 1
 }
 khotanesegfx = {
@@ -95,12 +98,24 @@ ashkenazigfx = {
 centralindiangfx = {
 	skin_tone = 1
 }
-southindiangfx = {
-	skin_tone = 2
-}
 somaligfx = {
 	skin_tone = 3
 }
 afghangfx = {
+	skin_tone = 2
+}
+kurdishgfx = {
+	skin_tone = 1
+}
+copticgfx = {
+	skin_tone = 2
+}
+finnishgfx = {
+	skin_tone = 0
+}
+bejagfx = {
+	skin_tone = 3
+}
+qasrumgfx = {
 	skin_tone = 2
 }

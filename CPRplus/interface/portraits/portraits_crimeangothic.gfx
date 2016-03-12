@@ -28,7 +28,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_norse_male_hair_behind_christian:p1:o-4x0:h:y"
-			"GFX_celtic_male_beard_behind:p4:h:y"
+			"GFX_byzantine_male_beard_behind:p4:o3x-2:h:y"
 			"GFX_norse_male_base:p2"
 			"GFX_norse_male_neck:d0"
 			"GFX_norse_male_chin:d1"
@@ -44,7 +44,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
 			"GFX_norse_male_ear:d7"			
-			"GFX_celtic_male_beard:p4:h:y"
+			"GFX_byzantine_male_beard:p4:o3x-2:h:y"
 		   	"GFX_norse_male_hair_christian:p1:o-4x0:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
@@ -65,7 +65,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		
@@ -83,7 +83,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_norse_male_hair_behind_midage_christian:p1:o-4x0:h:y"
-			"GFX_celtic_male_beard_behind_midage:p4:h:y"
+			"GFX_byzantine_male_beard_behind_midage:p4:o3x-2:h:y"
 			"GFX_norse_male_base_midage:p2"
 			"GFX_norse_male_neck_midage:d0"
 			"GFX_norse_male_chin_midage:d1"
@@ -99,7 +99,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
 			"GFX_norse_male_ear_midage:d7"
-			"GFX_celtic_male_beard_midage:p4:h:y"
+			"GFX_byzantine_male_beard_midage:p4:o3x-2:h:y"
 			"GFX_norse_male_hair_midage_christian:p1:o-4x0:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
@@ -120,7 +120,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -138,7 +138,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_norse_male_hair_behind_oldage_christian:p1:o-4x0:h:y"
-			"GFX_celtic_male_beard_behind_oldage:p4:h:y"
+			"GFX_byzantine_male_beard_behind_oldage:p4:o3x-2:h:y"
 			"GFX_norse_male_base_oldage:p2"
 			"GFX_norse_male_neck_oldage:d0"
 			"GFX_norse_male_chin_oldage:d1"
@@ -154,7 +154,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
 			"GFX_norse_male_ear_oldage:d7"
-			"GFX_celtic_male_beard_oldage:p4:h:y"
+			"GFX_byzantine_male_beard_oldage:p4:o3x-2:h:y"
 			"GFX_norse_male_hair_oldage_christian:p1:o-4x0:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
@@ -169,7 +169,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -186,7 +186,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_norse_male_hair_behind_christian:p1:h:y"
-			"GFX_celtic_male_beard_behind:p4:h:y"
+			"GFX_byzantine_male_beard_behind:p4:o3x-2:h:y"
 			"GFX_norse_male_base:p2"
 			"GFX_norse_male_neck:d0"
 			"GFX_norse_male_chin:d1"
@@ -202,7 +202,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_male_ear:d7"			
-			"GFX_celtic_male_beard:p4:h:y"
+			"GFX_byzantine_male_beard:p4:o3x-2:h:y"
 		   	"GFX_norse_male_hair_christian:p1:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
@@ -224,7 +224,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		
@@ -242,7 +242,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_norse_male_hair_behind_midage_christian:p1:h:y"
-			"GFX_celtic_male_beard_behind_midage:p4:h:y"
+			"GFX_byzantine_male_beard_behind_midage:p4:o3x-2:h:y"
 			"GFX_norse_male_base_midage:p2"
 			"GFX_norse_male_neck_midage:d0"
 			"GFX_norse_male_chin_midage:d1"
@@ -258,7 +258,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_male_ear_midage:d7"
-			"GFX_celtic_male_beard_midage:p4:h:y"
+			"GFX_byzantine_male_beard_midage:p4:o3x-2:h:y"
 			"GFX_norse_male_hair_midage_christian:p1:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
@@ -280,7 +280,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -298,7 +298,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_norse_male_hair_behind_oldage_christian:p1:h:y"
-			"GFX_celtic_male_beard_behind_oldage:p4:h:y"
+			"GFX_byzantine_male_beard_behind_oldage:p4:o3x-2:h:y"
 			"GFX_norse_male_base_oldage:p2"
 			"GFX_norse_male_neck_oldage:d0"
 			"GFX_norse_male_chin_oldage:d1"
@@ -314,7 +314,7 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_male_ear_oldage:d7"
-			"GFX_celtic_male_beard_oldage:p4:h:y"
+			"GFX_byzantine_male_beard_oldage:p4:o3x-2:h:y"
 			"GFX_norse_male_hair_oldage_christian:p1:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
@@ -330,7 +330,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -346,9 +346,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_easternslavic_female_clothes_behind:p3:o3x1:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
-			"GFX_celtic_female_hair_behind:p1:h:y"  
+			"GFX_byzantine_female_hair_behind:p1:o-1x1:h:y"  
 			"GFX_norse_female_base:p2"
 			"GFX_norse_female_neck:d0"
 			"GFX_norse_female_chin:d1"
@@ -362,12 +362,13 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear:d7"			
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
 			"GFX_empty:p5:c3"
-			"GFX_celtic_female_hair:p1:h:y" 
+			"GFX_byzantine_female_hair:p1:o-1x1:h:y" 
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -384,7 +385,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -399,9 +400,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_easternslavic_female_clothes_behind:p3:o3x1:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
-			"GFX_celtic_female_hair_behind_midage:p1:h:y"
+			"GFX_byzantine_female_hair_behind_midage:p1:o-1x1:h:y"
 			"GFX_norse_female_base_midage:p2"
 			"GFX_norse_female_neck_midage:d0"
 			"GFX_norse_female_chin_midage:d1"
@@ -415,12 +416,13 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear_midage:d7"		
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
 			"GFX_empty:p5:c3"
-			"GFX_celtic_female_hair_midage:p1:h:y"
+			"GFX_byzantine_female_hair_midage:p1:o-1x1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -437,7 +439,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -452,9 +454,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_easternslavic_female_clothes_behind:p3:o3x1:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
-			"GFX_celtic_female_hair_behind_oldage:p1:y"
+			"GFX_byzantine_female_hair_behind_oldage:p1:o-1x1:h:y"
 			"GFX_norse_female_base_oldage:p2"
 			"GFX_norse_female_neck_oldage:d0"
 			"GFX_norse_female_chin_oldage:d1"
@@ -468,12 +470,13 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear_oldage:d7"		
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
 			"GFX_empty:p5:c3"
-			"GFX_celtic_female_hair_oldage:p1"
+			"GFX_byzantine_female_hair_oldage:p1:o-1x1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -484,7 +487,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -498,9 +501,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_easternslavic_female_clothes_behind:p3:o3x1:c0"
 			"GFX_byzantine_female_headgear_behind_early:p5:c1"
-			"GFX_celtic_female_hair_behind:p1:h:y"  
+			"GFX_byzantine_female_hair_behind:p1:o-1x1:h:y"  
 			"GFX_norse_female_base:p2"
 			"GFX_norse_female_neck:d0"
 			"GFX_norse_female_chin:d1"
@@ -514,9 +517,9 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear:d7"			
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
-			"GFX_celtic_female_hair:p1:h:y" 
+			"GFX_byzantine_female_hair:p1:o-1x1:h:y" 
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -537,7 +540,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -552,9 +555,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_easternslavic_female_clothes_behind:p3:o3x1:c0"
 			"GFX_byzantine_female_headgear_behind_early:p5:c1"
-			"GFX_celtic_female_hair_behind_midage:p1:h:y"
+			"GFX_byzantine_female_hair_behind_midage:p1:o-1x1:h:y"
 			"GFX_norse_female_base_midage:p2"
 			"GFX_norse_female_neck_midage:d0"
 			"GFX_norse_female_chin_midage:d1"
@@ -568,9 +571,9 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear_midage:d7"		
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
-			"GFX_celtic_female_hair_midage:p1:h:y"
+			"GFX_byzantine_female_hair_midage:p1:o-1x1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -591,7 +594,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			
@@ -606,9 +609,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_easternslavic_female_clothes_behind:p3:o3x1:c0"
 			"GFX_byzantine_female_headgear_behind_early:p5:c1"
-			"GFX_celtic_female_hair_behind_oldage:p1:y"
+			"GFX_byzantine_female_hair_behind_oldage:p1:o-1x1:h:y"
 			"GFX_norse_female_base_oldage:p2"
 			"GFX_norse_female_neck_oldage:d0"
 			"GFX_norse_female_chin_oldage:d1"
@@ -622,9 +625,9 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear_oldage:d7"		
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
-			"GFX_celtic_female_hair_oldage:p1"
+			"GFX_byzantine_female_hair_oldage:p1:o-1x1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -639,7 +642,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			

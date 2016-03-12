@@ -18,90 +18,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_hungarian_male_hair_behind"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_behind_1.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_behind_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_behind_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_behind_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_behind_3.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_behind"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_hungarian_male_beard"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_beard_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_1.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_midage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_hungarian_male_hair_oldage"
-		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_hair_3.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_hungarian_male_headgear_behind"
 		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_headgear_behind.dds"
 		noOfFrames = 12
@@ -130,8 +46,36 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_hungarian_male_clothes_behind"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_hungarian_male_clothes_behind_christian"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_clothes_behind_christian.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_hungarian_male_clothes"
 		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_hungarian_male_clothes_christian"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_clothes_christian.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_hungarian_female_clothes_behind"
+		texturefile = "gfx\\characters\\hungarian_female\\hungarian_female_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
@@ -143,6 +87,42 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_hungarian_female_clothes_behind_christian"
+		texturefile = "gfx\\characters\\hungarian_female\\hungarian_female_clothes_behind_christian.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_hungarian_female_clothes_christian"
+		texturefile = "gfx\\characters\\hungarian_female\\hungarian_female_clothes_christian.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_hungarian_male_eyes"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_hungarian_male_eyes_midage"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_hungarian_male_eyes_oldage"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	
 	### hungarian MALE ####
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
@@ -153,27 +133,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_male_clothes_behind:p3:c0"
+			"GFX_hungarian_male_clothes_behind:p3:c0"
 			"GFX_hungarian_male_headgear_behind:p5:c1"
-			"GFX_hungarian_male_hair_behind:p1:h:y"
-			"GFX_hungarian_male_beard_behind:p4:h:y"
-			"GFX_easternslavic_male_base:p2"
-			"GFX_easternslavic_male_neck:d0"
-			"GFX_easternslavic_male_chin:d1"
-			"GFX_easternslavic_male_cheeks:d4"
-			"GFX_easternslavic_male_mouth:d2"
-			"GFX_easternslavic_male_nose:d3"
-			"GFX_easternslavic_male_eyes:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_steppe_male_hair_behind:p1:o-2x-3:h:y"
+			"GFX_steppe_male_beard_behind:p4:o-1x3:h:y"
+			"GFX_ugric_male_base:p2"
+			"GFX_ugric_male_neck:d0"
+			"GFX_ugric_male_chin:d1"
+			"GFX_ugric_male_cheeks:d4"
+			"GFX_ugric_male_mouth:d2"
+			"GFX_ugric_male_nose:d3"
+			"GFX_hungarian_male_eyes:d6"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_male_ear:d7"			
-			"GFX_hungarian_male_beard:p4:h:y"
-		   	"GFX_hungarian_male_hair:p1:h:y"
+			"GFX_ugric_male_ear:d7"			
+			"GFX_steppe_male_beard:p4:o-1x3:h:y"
+		   	"GFX_steppe_male_hair:p1:o-2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -192,10 +172,12 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -207,27 +189,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_male_clothes_behind:p3:c0"
+			"GFX_hungarian_male_clothes_behind:p3:c0"
 			"GFX_hungarian_male_headgear_behind:p5:c1"
-			"GFX_hungarian_male_hair_behind_midage:p1:h:y"
-			"GFX_hungarian_male_beard_behind_midage:p4:h:y"
-			"GFX_easternslavic_male_base_midage:p2"
-			"GFX_easternslavic_male_neck_midage:d0"
-			"GFX_easternslavic_male_chin_midage:d1"
-			"GFX_easternslavic_male_cheeks_midage:d4"
-			"GFX_easternslavic_male_mouth_midage:d2"
-			"GFX_easternslavic_male_nose_midage:d3"
-			"GFX_easternslavic_male_eyes_midage:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_steppe_male_hair_behind_midage:p1:o-2x-3:h:y"
+			"GFX_steppe_male_beard_behind_midage:p4:o-1x3:h:y"
+			"GFX_ugric_male_base_midage:p2"
+			"GFX_ugric_male_neck_midage:d0"
+			"GFX_ugric_male_chin_midage:d1"
+			"GFX_ugric_male_cheeks_midage:d4"
+			"GFX_ugric_male_mouth_midage:d2"
+			"GFX_ugric_male_nose_midage:d3"
+			"GFX_hungarian_male_eyes_midage:d6"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_male_ear_midage:d7"
-			"GFX_hungarian_male_beard_midage:p4:h:y"
-			"GFX_hungarian_male_hair_midage:p1:h:y"
+			"GFX_ugric_male_ear_midage:d7"
+			"GFX_steppe_male_beard_midage:p4:o-1x3:h:y"
+			"GFX_steppe_male_hair_midage:p1:o-2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -246,10 +228,12 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -261,27 +245,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_male_clothes_behind:p3:c0"
+			"GFX_hungarian_male_clothes_behind:p3:c0"
 			"GFX_hungarian_male_headgear_behind:p5:c1"
-			"GFX_hungarian_male_hair_behind_oldage:p1:h:y"
-			"GFX_hungarian_male_beard_behind_oldage:p4:h:y"
-			"GFX_easternslavic_male_base_oldage:p2"
-			"GFX_easternslavic_male_neck_oldage:d0"
-			"GFX_easternslavic_male_chin_oldage:d1"
-			"GFX_easternslavic_male_cheeks_oldage:d4"
-			"GFX_easternslavic_male_mouth_oldage:d2"
-			"GFX_easternslavic_male_nose_oldage:d3"
-			"GFX_easternslavic_male_eyes_oldage:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_steppe_male_hair_behind_oldage:p1:o-2x-3:h:y"
+			"GFX_steppe_male_beard_behind_oldage:p4:o-1x3:h:y"
+			"GFX_ugric_male_base_oldage:p2"
+			"GFX_ugric_male_neck_oldage:d0"
+			"GFX_ugric_male_chin_oldage:d1"
+			"GFX_ugric_male_cheeks_oldage:d4"
+			"GFX_ugric_male_mouth_oldage:d2"
+			"GFX_ugric_male_nose_oldage:d3"
+			"GFX_hungarian_male_eyes_oldage:d6"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_male_ear_oldage:d7"
-			"GFX_hungarian_male_beard_oldage:p4:h:y"
-			"GFX_hungarian_male_hair_oldage:p1:h:y"
+			"GFX_ugric_male_ear_oldage:d7"
+			"GFX_steppe_male_beard_oldage:p4:o-1x3:h:y"
+			"GFX_steppe_male_hair_oldage:p1:o-2x-3:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -290,18 +274,20 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
-			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -313,28 +299,28 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
+			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_german_male_beard_behind:p4:h:y:o-1x-5"
-			"GFX_easternslavic_male_base:p2"
-			"GFX_easternslavic_male_neck:d0"
-			"GFX_easternslavic_male_chin:d1"
-			"GFX_easternslavic_male_cheeks:d4"
-			"GFX_easternslavic_male_mouth:d2"
-			"GFX_easternslavic_male_nose:d3"
-			"GFX_easternslavic_male_eyes:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_dutch_male_beard_behind:p4:h:y:o0x4"
+			"GFX_ugric_male_base:p2"
+			"GFX_ugric_male_neck:d0"
+			"GFX_ugric_male_chin:d1"
+			"GFX_ugric_male_cheeks:d4"
+			"GFX_ugric_male_mouth:d2"
+			"GFX_ugric_male_nose:d3"
+			"GFX_hungarian_male_eyes:d6"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_easternslavic_male_ear:d7"			
-			"GFX_german_male_beard:p4:h:y:o-1x-5"
+			"GFX_hungarian_male_clothes_christian:p3:c2"
+			"GFX_ugric_male_ear:d7"			
+			"GFX_dutch_male_beard:p4:h:y:o0x4"
 		   	"GFX_western_male_hair:p1:h:y"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
-			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -352,10 +338,12 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -367,28 +355,28 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
+			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_german_male_beard_behind_midage:p4:h:y:o-1x-5"
-			"GFX_easternslavic_male_base_midage:p2"
-			"GFX_easternslavic_male_neck_midage:d0"
-			"GFX_easternslavic_male_chin_midage:d1"
-			"GFX_easternslavic_male_cheeks_midage:d4"
-			"GFX_easternslavic_male_mouth_midage:d2"
-			"GFX_easternslavic_male_nose_midage:d3"
-			"GFX_easternslavic_male_eyes_midage:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_dutch_male_beard_behind_midage:p4:h:y:o0x4"
+			"GFX_ugric_male_base_midage:p2"
+			"GFX_ugric_male_neck_midage:d0"
+			"GFX_ugric_male_chin_midage:d1"
+			"GFX_ugric_male_cheeks_midage:d4"
+			"GFX_ugric_male_mouth_midage:d2"
+			"GFX_ugric_male_nose_midage:d3"
+			"GFX_hungarian_male_eyes_midage:d6"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_easternslavic_male_ear_midage:d7"
-			"GFX_german_male_beard_midage:p4:h:y:o-1x-5"
+			"GFX_hungarian_male_clothes_christian:p3:c2"
+			"GFX_ugric_male_ear_midage:d7"
+			"GFX_dutch_male_beard_midage:p4:h:y:o0x4"
 			"GFX_western_male_hair_midage:p1:h:y"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
-			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -406,10 +394,12 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -421,28 +411,28 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_western_male_clothes_behind:p3:c0"
+			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_german_male_beard_behind_oldage:p4:h:y:o-1x-5"
-			"GFX_easternslavic_male_base_oldage:p2"
-			"GFX_easternslavic_male_neck_oldage:d0"
-			"GFX_easternslavic_male_chin_oldage:d1"
-			"GFX_easternslavic_male_cheeks_oldage:d4"
-			"GFX_easternslavic_male_mouth_oldage:d2"
-			"GFX_easternslavic_male_nose_oldage:d3"
-			"GFX_easternslavic_male_eyes_oldage:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_dutch_male_beard_behind_oldage:p4:h:y:o0x4"
+			"GFX_ugric_male_base_oldage:p2"
+			"GFX_ugric_male_neck_oldage:d0"
+			"GFX_ugric_male_chin_oldage:d1"
+			"GFX_ugric_male_cheeks_oldage:d4"
+			"GFX_ugric_male_mouth_oldage:d2"
+			"GFX_ugric_male_nose_oldage:d3"
+			"GFX_hungarian_male_eyes_oldage:d6"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_western_male_clothes:p3:c2"
-			"GFX_easternslavic_male_ear_oldage:d7"
-			"GFX_german_male_beard_oldage:p4:h:y:o-1x-5"
+			"GFX_hungarian_male_clothes_christian:p3:c2"
+			"GFX_ugric_male_ear_oldage:d7"
+			"GFX_dutch_male_beard_oldage:p4:h:y:o0x4"
 			"GFX_western_male_hair_oldage:p1:h:y"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
-			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -450,18 +440,20 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
-			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -477,23 +469,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_hungarian_female_clothes_behind:p3:c0"
 			"GFX_hungarian_female_headgear_behind:p5:c1"
 			"GFX_turkish_female_hair_behind:p1:h:y"
-			"GFX_easternslavic_female_base:p2"
-			"GFX_easternslavic_female_neck:d0"
-			"GFX_easternslavic_female_mouth:d2"
-			"GFX_easternslavic_female_nose:d3"
-			"GFX_easternslavic_female_chin:d1"
-			"GFX_easternslavic_female_cheeks:d4"
-			"GFX_easternslavic_female_eyes:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear:d7"
+			"GFX_ugric_female_base:p2"
+			"GFX_ugric_female_neck:d0"
+			"GFX_ugric_female_chin:d1"
+			"GFX_ugric_female_cheeks:d4"
+			"GFX_ugric_female_mouth:d2"
+			"GFX_ugric_female_nose:d3"
+			"GFX_ugric_female_eyes:d6"
+			"GFX_ugric_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_female_clothes:p3:c2"
+			"GFX_ugric_female_ear:d7"
 			"GFX_empty:p5:c3"
 			"GFX_turkish_female_hair:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -513,13 +505,15 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# hungarian female midage
@@ -528,23 +522,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_hungarian_female_clothes_behind:p3:c0"
 			"GFX_hungarian_female_headgear_behind:p5:c1"
 			"GFX_turkish_female_hair_behind_midage:p1:h:y"
-			"GFX_easternslavic_female_base_midage:p2"
-			"GFX_easternslavic_female_neck_midage:d0"
-			"GFX_easternslavic_female_mouth_midage:d2"
-			"GFX_easternslavic_female_nose_midage:d3"
-			"GFX_easternslavic_female_chin_midage:d1"
-			"GFX_easternslavic_female_cheeks_midage:d4"
-			"GFX_easternslavic_female_eyes_midage:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear_midage:d7"
+			"GFX_ugric_female_base_midage:p2"
+			"GFX_ugric_female_neck_midage:d0"
+			"GFX_ugric_female_chin_midage:d1"
+			"GFX_ugric_female_cheeks_midage:d4"
+			"GFX_ugric_female_mouth_midage:d2"
+			"GFX_ugric_female_nose_midage:d3"
+			"GFX_ugric_female_eyes_midage:d6"
+			"GFX_ugric_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_female_clothes:p3:c2"
+			"GFX_ugric_female_ear_midage:d7"
 			"GFX_empty:p5:c3"
 			"GFX_turkish_female_hair_midage:p1:h:y"			
 			"GFX_empty:p3:c4"
@@ -564,13 +558,15 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# hungarian female oldage
@@ -579,23 +575,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
+			"GFX_hungarian_female_clothes_behind:p3:c0"
 			"GFX_hungarian_female_headgear_behind:p5:c1"
 			"GFX_turkish_female_hair_behind_oldage:p1:h:y"
-			"GFX_easternslavic_female_base_oldage:p2"
-			"GFX_easternslavic_female_neck_oldage:d0"
-			"GFX_easternslavic_female_mouth_oldage:d2"
-			"GFX_easternslavic_female_nose_oldage:d3"
-			"GFX_easternslavic_female_chin_oldage:d1"
-			"GFX_easternslavic_female_cheeks_oldage:d4"
-			"GFX_easternslavic_female_eyes_oldage:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear_oldage:d7"
+			"GFX_ugric_female_base_oldage:p2"
+			"GFX_ugric_female_neck_oldage:d0"
+			"GFX_ugric_female_chin_oldage:d1"
+			"GFX_ugric_female_cheeks_oldage:d4"
+			"GFX_ugric_female_mouth_oldage:d2"
+			"GFX_ugric_female_nose_oldage:d3"
+			"GFX_ugric_female_eyes_oldage:d6"
+			"GFX_ugric_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_female_clothes:p3:c2"
+			"GFX_ugric_female_ear_oldage:d7"
 			"GFX_empty:p5:c3"
 			"GFX_turkish_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -605,21 +601,23 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
-			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	# Westernslavic female
 	portraitType = {
@@ -627,23 +625,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_westernslavic_female_clothes_behind:p3:c0"
+			"GFX_hungarian_female_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1"             #2
 			"GFX_western_female_hair_behind:p1:h:y" 
-			"GFX_easternslavic_female_base:p2"
-			"GFX_easternslavic_female_neck:d0"
-			"GFX_easternslavic_female_mouth:d2"
-			"GFX_easternslavic_female_nose:d3"
-			"GFX_easternslavic_female_chin:d1"
-			"GFX_easternslavic_female_cheeks:d4"
-			"GFX_easternslavic_female_eyes:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear:d7"
+			"GFX_ugric_female_base:p2"
+			"GFX_ugric_female_neck:d0"
+			"GFX_ugric_female_chin:d1"
+			"GFX_ugric_female_cheeks:d4"
+			"GFX_ugric_female_mouth:d2"
+			"GFX_ugric_female_nose:d3"
+			"GFX_ugric_female_eyes:d6"
+			"GFX_ugric_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_westernslavic_female_clothes:p3:c2"
+			"GFX_hungarian_female_clothes_christian:p3:c2"
+			"GFX_ugric_female_ear:d7"
 			"GFX_western_female_headgear_mid:p5:c3"             #14
 			"GFX_western_female_hair:p1:h:y" 
 			"GFX_empty:p3:c4"
@@ -663,10 +661,12 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -678,23 +678,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_westernslavic_female_clothes_behind:p3:c0"
+			"GFX_hungarian_female_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_midage:p1:h:y"
-			"GFX_easternslavic_female_base_midage:p2"
-			"GFX_easternslavic_female_neck_midage:d0"
-			"GFX_easternslavic_female_mouth_midage:d2"
-			"GFX_easternslavic_female_nose_midage:d3"
-			"GFX_easternslavic_female_chin_midage:d1"
-			"GFX_easternslavic_female_cheeks_midage:d4"
-			"GFX_easternslavic_female_eyes_midage:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear_midage:d7"
+			"GFX_ugric_female_base_midage:p2"
+			"GFX_ugric_female_neck_midage:d0"
+			"GFX_ugric_female_chin_midage:d1"
+			"GFX_ugric_female_cheeks_midage:d4"
+			"GFX_ugric_female_mouth_midage:d2"
+			"GFX_ugric_female_nose_midage:d3"
+			"GFX_ugric_female_eyes_midage:d6"
+			"GFX_ugric_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_westernslavic_female_clothes:p3:c2"
+			"GFX_hungarian_female_clothes_christian:p3:c2"
+			"GFX_ugric_female_ear_midage:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -714,10 +714,12 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -729,23 +731,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_westernslavic_female_clothes_behind:p3:c0"
+			"GFX_hungarian_female_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_oldage:p1:h:y"
-			"GFX_easternslavic_female_base_oldage:p2"
-			"GFX_easternslavic_female_neck_oldage:d0"
-			"GFX_easternslavic_female_mouth_oldage:d2"
-			"GFX_easternslavic_female_nose_oldage:d3"
-			"GFX_easternslavic_female_chin_oldage:d1"
-			"GFX_easternslavic_female_cheeks_oldage:d4"
-			"GFX_easternslavic_female_eyes_oldage:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear_oldage:d7"
+			"GFX_ugric_female_base_oldage:p2"
+			"GFX_ugric_female_neck_oldage:d0"
+			"GFX_ugric_female_chin_oldage:d1"
+			"GFX_ugric_female_cheeks_oldage:d4"
+			"GFX_ugric_female_mouth_oldage:d2"
+			"GFX_ugric_female_nose_oldage:d3"
+			"GFX_ugric_female_eyes_oldage:d6"
+			"GFX_ugric_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_westernslavic_female_clothes:p3:c2"
+			"GFX_hungarian_female_clothes_christian:p3:c2"
+			"GFX_ugric_female_ear_oldage:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
@@ -755,18 +757,20 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
-			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
-			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }
 			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 		
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
 			{ 120 74 46 }
+			{ 74 120 182}
 			{ 34 103 36 }
-			{ 166 223 244 }
+			{ 101 119 150 }
+			{ 86 74 46 }
+			{ 36 32 24 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
