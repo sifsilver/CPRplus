@@ -2267,28 +2267,31 @@
 			OR = {
 				AND = {
 					prisoner = no
-					martial = 15
-					combat_rating = 3
-					year = 950
-					OR = {
-						religion = catholic
-						is_heresy_of = catholic
-					}
-					OR = {
-						culture_group = north_germanic
-						culture_group = central_germanic
-						culture_group = west_germanic
-						culture_group = latin
-						culture_group = iberian
-						culture_group = celtic
-						culture_group = west_slavic
-						culture_group = magyar
-						culture_group = baltic
-						AND = {
-							culture_group = south_slavic
-							NOT = { culture = bulgarian }
+					NAND = {
+						in_command = yes
+						martial = 15
+						combat_rating = 3
+						year = 950
+						OR = {
+							religion = catholic
+							is_heresy_of = catholic
 						}
-						culture_group = italian_group
+						OR = {
+							culture_group = north_germanic
+							culture_group = central_germanic
+							culture_group = west_germanic
+							culture_group = latin
+							culture_group = iberian
+							culture_group = celtic
+							culture_group = west_slavic
+							culture_group = magyar
+							culture_group = baltic
+							AND = {
+								culture_group = south_slavic
+								NOT = { culture = bulgarian }
+							}
+							culture_group = italian_group
+						}
 					}
 				}
 				AND = {
