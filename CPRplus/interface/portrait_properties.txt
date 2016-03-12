@@ -2219,7 +2219,28 @@
 		modifier = {
 			factor = 0
 			martial = 15
-			combat_rating = 7
+			combat_rating = 3
+			year = 950
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2244,7 +2265,32 @@
 		modifier = {
 			factor = 0
 			OR = {
-				prisoner = no
+				AND = {
+					prisoner = no
+					martial = 15
+					combat_rating = 3
+					year = 950
+					OR = {
+						religion = catholic
+						is_heresy_of = catholic
+					}
+					OR = {
+						culture_group = north_germanic
+						culture_group = central_germanic
+						culture_group = west_germanic
+						culture_group = latin
+						culture_group = iberian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = magyar
+						culture_group = baltic
+						AND = {
+							culture_group = south_slavic
+							NOT = { culture = bulgarian }
+						}
+						culture_group = italian_group
+					}
+				}
 				AND = {
 					prisoner = yes
 					has_character_modifier = house_arrest
@@ -4328,7 +4374,28 @@
 		modifier = {
 			factor = 0
 			martial = 15
-			combat_rating = 7
+			combat_rating = 3
+			year = 950
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4379,6 +4446,31 @@
 				is_alive = yes
 				NOT = { trait = lunatic }
 			}
+			NAND = {
+				martial = 15
+				combat_rating = 3
+				year = 950
+				OR = {
+					religion = catholic
+					is_heresy_of = catholic
+				}
+				OR = {
+					culture_group = north_germanic
+					culture_group = central_germanic
+					culture_group = west_germanic
+					culture_group = latin
+					culture_group = iberian
+					culture_group = celtic
+					culture_group = west_slavic
+					culture_group = magyar
+					culture_group = baltic
+					AND = {
+						culture_group = south_slavic
+						NOT = { culture = bulgarian }
+					}
+					culture_group = italian_group
+				}
+			}
 		}
 		modifier = {
 			factor = 0.25
@@ -4391,6 +4483,31 @@
 						family = ROOT
 					}
 					is_ruler = no
+				}
+			}
+			NAND = {
+				martial = 15
+				combat_rating = 3
+				year = 950
+				OR = {
+					religion = catholic
+					is_heresy_of = catholic
+				}
+				OR = {
+					culture_group = north_germanic
+					culture_group = central_germanic
+					culture_group = west_germanic
+					culture_group = latin
+					culture_group = iberian
+					culture_group = celtic
+					culture_group = west_slavic
+					culture_group = magyar
+					culture_group = baltic
+					AND = {
+						culture_group = south_slavic
+						NOT = { culture = bulgarian }
+					}
+					culture_group = italian_group
 				}
 			}
 		}
@@ -4432,6 +4549,57 @@
 					}
 				}
 			}
+			NAND = {
+				martial = 15
+				combat_rating = 3
+				year = 950
+				OR = {
+					religion = catholic
+					is_heresy_of = catholic
+				}
+				OR = {
+					culture_group = north_germanic
+					culture_group = central_germanic
+					culture_group = west_germanic
+					culture_group = latin
+					culture_group = iberian
+					culture_group = celtic
+					culture_group = west_slavic
+					culture_group = magyar
+					culture_group = baltic
+					AND = {
+						culture_group = south_slavic
+						NOT = { culture = bulgarian }
+					}
+					culture_group = italian_group
+				}
+			}
+		}
+		modifier = {
+			factor = 25
+			martial = 15
+			combat_rating = 3
+			year = 950
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
 		}
 	}
 }
@@ -4448,7 +4616,8 @@
 			factor = 0
 			in_command = yes
 			martial = 15
-			combat_rating = 7
+			combat_rating = 3
+			year = 950
 		}
 	}
 
@@ -4468,12 +4637,39 @@
 		}
 		modifier = {
 			factor = 0
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOT = { combat_rating = 3 }
 		}
 		modifier = {
 			factor = 0
 			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -4489,12 +4685,39 @@
 		}
 		modifier = {
 			factor = 0
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOT = { combat_rating = 3 }
 		}
 		modifier = {
 			factor = 0
 			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -4510,12 +4733,39 @@
 		}
 		modifier = {
 			factor = 0
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOT = { combat_rating = 3 }
 		}
 		modifier = {
 			factor = 0
 			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -4531,12 +4781,39 @@
 		}
 		modifier = {
 			factor = 0
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOT = { combat_rating = 3 }
 		}
 		modifier = {
 			factor = 0
 			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -4552,12 +4829,39 @@
 		}
 		modifier = {
 			factor = 0
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOT = { combat_rating = 3 }
 		}
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -4573,13 +4877,40 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { trait = crusader }
-			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
 		}
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
@@ -4595,13 +4926,40 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { trait = crusader }
-			NOT = { martial = 15 }
-			NOT = { combat_rating = 7 }
+			NOR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
 		}
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
+			NOT = { martial = 15 }
+			NOT = { combat_rating = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = {
 			factor = 0
