@@ -2201,17 +2201,17 @@
 			}
 			in_command = no
 		}
-		modifier = {
-			factor = 0
-			religion_group = christian
-			OR = {
-				AND = {
-					government = theocracy_government
-					is_landed = yes
-				}
-				has_job_title = job_spiritual
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	religion_group = christian
+		#	OR = {
+		#		AND = {
+		#			government = theocracy_government
+		#			is_landed = yes
+		#		}
+		#		has_job_title = job_spiritual
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			is_alive = no
@@ -4310,17 +4310,17 @@
 			}
 			in_command = no
 		}
-		modifier = {
-			factor = 0
-			religion_group = christian
-			OR = {
-				AND = {
-					government = theocracy_government
-					is_landed = yes
-				}
-				has_job_title = job_spiritual
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	religion_group = christian
+		#	OR = {
+		#		AND = {
+		#			government = theocracy_government
+		#			is_landed = yes
+		#		}
+		#		has_job_title = job_spiritual
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			is_alive = no
