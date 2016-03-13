@@ -2218,33 +2218,6 @@
 		}
 		modifier = {
 			factor = 0
-			in_command = yes
-			martial = 15
-			combat_rating = 3
-			year = 950
-			OR = {
-				religion = catholic
-				is_heresy_of = catholic
-			}
-			OR = {
-				culture_group = north_germanic
-				culture_group = central_germanic
-				culture_group = west_germanic
-				culture_group = latin
-				culture_group = iberian
-				culture_group = celtic
-				culture_group = west_slavic
-				culture_group = magyar
-				culture_group = baltic
-				AND = {
-					culture_group = south_slavic
-					NOT = { culture = bulgarian }
-				}
-				culture_group = italian_group
-			}
-		}
-		modifier = {
-			factor = 0
 			OR = {
 				is_nomadic = yes
 				AND = {
@@ -2266,35 +2239,7 @@
 		modifier = {
 			factor = 0
 			OR = {
-				AND = {
-					prisoner = no
-					NAND = {
-						in_command = yes
-						martial = 15
-						combat_rating = 3
-						year = 950
-						OR = {
-							religion = catholic
-							is_heresy_of = catholic
-						}
-						OR = {
-							culture_group = north_germanic
-							culture_group = central_germanic
-							culture_group = west_germanic
-							culture_group = latin
-							culture_group = iberian
-							culture_group = celtic
-							culture_group = west_slavic
-							culture_group = magyar
-							culture_group = baltic
-							AND = {
-								culture_group = south_slavic
-								NOT = { culture = bulgarian }
-							}
-							culture_group = italian_group
-						}
-					}
-				}
+				prisoner = no
 				AND = {
 					prisoner = yes
 					has_character_modifier = house_arrest
@@ -4377,33 +4322,6 @@
 		}
 		modifier = {
 			factor = 0
-			in_command = yes
-			martial = 15
-			combat_rating = 3
-			year = 950
-			OR = {
-				religion = catholic
-				is_heresy_of = catholic
-			}
-			OR = {
-				culture_group = north_germanic
-				culture_group = central_germanic
-				culture_group = west_germanic
-				culture_group = latin
-				culture_group = iberian
-				culture_group = celtic
-				culture_group = west_slavic
-				culture_group = magyar
-				culture_group = baltic
-				AND = {
-					culture_group = south_slavic
-					NOT = { culture = bulgarian }
-				}
-				culture_group = italian_group
-			}
-		}
-		modifier = {
-			factor = 0
 			OR = {
 				is_nomadic = yes
 				AND = {
@@ -4451,32 +4369,6 @@
 				is_alive = yes
 				NOT = { trait = lunatic }
 			}
-			NAND = {
-				in_command = yes
-				martial = 15
-				combat_rating = 3
-				year = 950
-				OR = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-				OR = {
-					culture_group = north_germanic
-					culture_group = central_germanic
-					culture_group = west_germanic
-					culture_group = latin
-					culture_group = iberian
-					culture_group = celtic
-					culture_group = west_slavic
-					culture_group = magyar
-					culture_group = baltic
-					AND = {
-						culture_group = south_slavic
-						NOT = { culture = bulgarian }
-					}
-					culture_group = italian_group
-				}
-			}
 		}
 		modifier = {
 			factor = 0.25
@@ -4489,32 +4381,6 @@
 						family = ROOT
 					}
 					is_ruler = no
-				}
-			}
-			NAND = {
-				in_command = yes
-				martial = 15
-				combat_rating = 3
-				year = 950
-				OR = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-				OR = {
-					culture_group = north_germanic
-					culture_group = central_germanic
-					culture_group = west_germanic
-					culture_group = latin
-					culture_group = iberian
-					culture_group = celtic
-					culture_group = west_slavic
-					culture_group = magyar
-					culture_group = baltic
-					AND = {
-						culture_group = south_slavic
-						NOT = { culture = bulgarian }
-					}
-					culture_group = italian_group
 				}
 			}
 		}
@@ -4556,39 +4422,33 @@
 					}
 				}
 			}
-			NAND = {
-				in_command = yes
-				martial = 15
-				combat_rating = 3
-				year = 950
-				OR = {
-					religion = catholic
-					is_heresy_of = catholic
-				}
-				OR = {
-					culture_group = north_germanic
-					culture_group = central_germanic
-					culture_group = west_germanic
-					culture_group = latin
-					culture_group = iberian
-					culture_group = celtic
-					culture_group = west_slavic
-					culture_group = magyar
-					culture_group = baltic
-					AND = {
-						culture_group = south_slavic
-						NOT = { culture = bulgarian }
-					}
-					culture_group = italian_group
-				}
-			}
+		}
+	}
+}
+
+# p6 imprisoned
+6 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			prisoner = yes
 		}
 		modifier = {
-			factor = 25
+			factor = 0
 			in_command = yes
 			martial = 15
-			combat_rating = 3
 			year = 950
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
@@ -4609,24 +4469,6 @@
 				}
 				culture_group = italian_group
 			}
-		}
-	}
-}
-
-# p6 imprisoned
-6 = {
-	0 = { # blank
-		factor = 100
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-			martial = 15
-			combat_rating = 3
-			year = 950
 		}
 	}
 
@@ -4670,7 +4512,16 @@
 		modifier = {
 			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4718,7 +4569,16 @@
 		modifier = {
 			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4766,7 +4626,16 @@
 		modifier = {
 			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4814,7 +4683,16 @@
 		modifier = {
 			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4862,7 +4740,16 @@
 		modifier = {
 			factor = 0
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4911,7 +4798,16 @@
 			factor = 0
 			NOT = { trait = crusader }
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4960,7 +4856,16 @@
 			factor = 0
 			NOT = { trait = crusader }
 			NOT = { martial = 15 }
-			NOT = { combat_rating = 3 }
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 		}
 		modifier = {
 			factor = 0
