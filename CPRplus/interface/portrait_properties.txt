@@ -4437,16 +4437,16 @@
 		modifier = {
 			factor = 0
 			in_command = yes
-			martial = 15
+			#martial = 15
 			year = 950
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 			OR = {
@@ -4511,15 +4511,15 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
@@ -4568,15 +4568,15 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
@@ -4625,15 +4625,15 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
@@ -4682,15 +4682,15 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
@@ -4739,15 +4739,15 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
@@ -4797,15 +4797,15 @@
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
@@ -4855,15 +4855,15 @@
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
-			NOT = { martial = 15 }
+			#NOT = { martial = 15 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 8
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					combat_rating = 2
 				}
 			}
 		}
