@@ -4437,7 +4437,7 @@
 		modifier = {
 			factor = 0
 			in_command = yes
-			#martial = 15
+			martial = 8
 			year = 950
 			OR = {
 				AND = {
@@ -4449,10 +4449,7 @@
 					combat_rating = 2
 				}
 			}
-			OR = {
-				religion = catholic
-				is_heresy_of = catholic
-			}
+			religion_group = christian
 			OR = {
 				culture_group = north_germanic
 				culture_group = central_germanic
@@ -4481,16 +4478,15 @@
 	}
 	
 	2 = { # Western knight armor #1
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4511,7 +4507,7 @@
 		}
 		modifier = {
 			factor = 0
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4538,16 +4534,15 @@
 	}
 	
 	3 = { # Western knight armor #2
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4568,7 +4563,7 @@
 		}
 		modifier = {
 			factor = 0
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4595,16 +4590,15 @@
 	}
 	
 	4 = { # Western knight armor #3
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4625,7 +4619,7 @@
 		}
 		modifier = {
 			factor = 0
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4652,16 +4646,15 @@
 	}
 	
 	5 = { # Western knight armor #4
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4682,7 +4675,7 @@
 		}
 		modifier = {
 			factor = 0
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4709,16 +4702,15 @@
 	}
 	
 	6 = { # Crusader armor #1
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4739,7 +4731,7 @@
 		}
 		modifier = {
 			factor = 0
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4766,16 +4758,15 @@
 	}
 	
 	7 = { # Crusader armor #2
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4797,7 +4788,7 @@
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4824,16 +4815,15 @@
 	}
 	
 	8 = { # Crusader armor #3
-		factor = 1
+		factor = 51
 		modifier = {
 			factor = 0
 			in_command = no
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = catholic
-				is_heresy_of = catholic
+			NOT = {
+				religion_group = christian
 			}
 			NOR = {
 				culture_group = north_germanic
@@ -4855,7 +4845,7 @@
 		modifier = {
 			factor = 0
 			NOT = { trait = crusader }
-			#NOT = { martial = 15 }
+			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
