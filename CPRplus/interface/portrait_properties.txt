@@ -4787,7 +4787,7 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 7
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4843,7 +4843,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 7
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4856,11 +4856,11 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 7
+					combat_rating = 9
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 4
+					combat_rating = 5
 				}
 			}
 		}
@@ -4912,11 +4912,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 7
+					combat_rating = 9
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 4
+					combat_rating = 5
 				}
 			}
 		}
