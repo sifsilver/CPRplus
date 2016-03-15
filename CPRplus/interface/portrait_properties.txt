@@ -4442,7 +4442,7 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 5
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4478,7 +4478,7 @@
 	}
 	
 	2 = { # Western knight armor #1
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4511,11 +4511,24 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 5
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
 					combat_rating = 2
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 6
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
 				}
 			}
 		}
@@ -4534,7 +4547,7 @@
 	}
 	
 	3 = { # Western knight armor #2
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4571,7 +4584,20 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 7
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 4
 				}
 			}
 		}
@@ -4590,7 +4616,7 @@
 	}
 	
 	4 = { # Western knight armor #3
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4623,11 +4649,24 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 7
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 9
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 5
 				}
 			}
 		}
@@ -4646,7 +4685,7 @@
 	}
 	
 	5 = { # Western knight armor #4
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4679,11 +4718,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 9
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 5
 				}
 			}
 		}
@@ -4702,7 +4741,7 @@
 	}
 	
 	6 = { # Crusader armor #1
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4735,11 +4774,24 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 5
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
 					combat_rating = 2
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 6
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
 				}
 			}
 		}
@@ -4758,7 +4810,7 @@
 	}
 	
 	7 = { # Crusader armor #2
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4787,7 +4839,6 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { trait = crusader }
 			NOT = { martial = 8 }
 			NOR = {
 				AND = {
@@ -4796,7 +4847,20 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 7
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 4
 				}
 			}
 		}
@@ -4815,7 +4879,7 @@
 	}
 	
 	8 = { # Crusader armor #3
-		factor = 75
+		factor = 100
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4844,16 +4908,15 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { trait = crusader }
 			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 7
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 4
 				}
 			}
 		}
