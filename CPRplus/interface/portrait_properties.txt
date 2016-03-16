@@ -4523,7 +4523,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
@@ -4607,7 +4607,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
@@ -4678,7 +4678,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
@@ -4749,7 +4749,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
@@ -4833,7 +4833,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
@@ -4900,7 +4900,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
@@ -4971,7 +4971,7 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 6
+						combat_rating = 7
 						AND = {
 							combat_rating = 5
 							trait = brilliant_strategist
