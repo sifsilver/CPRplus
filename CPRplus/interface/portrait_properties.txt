@@ -4437,7 +4437,7 @@
 		modifier = {
 			factor = 0
 			in_command = yes
-			martial = 8
+			martial = 10
 			year = 950
 			OR = {
 				AND = {
@@ -4446,7 +4446,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 3
 				}
 			}
 			religion_group = christian
@@ -4507,7 +4507,6 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4515,7 +4514,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 3
 				}
 			}
 		}
@@ -4524,13 +4523,29 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			martial = 10
 		}
 		modifier = {
 			factor = 0
@@ -4576,11 +4591,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 6
+					combat_rating = 5
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4593,17 +4607,29 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 7
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 4
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			trait = crusader
+			NOT = { martial = 10 }
 		}
 		modifier = {
 			factor = 0
@@ -4645,30 +4671,32 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 7
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 4
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				AND = {
-					has_global_flag = EMF
-					combat_rating = 9
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					combat_rating = 5
-				}
-			}
+			martial = 10
 		}
 		modifier = {
 			factor = 0
@@ -4714,17 +4742,32 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 9
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 5
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 10 }
 		}
 		modifier = {
 			factor = 0
@@ -4770,7 +4813,6 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
@@ -4778,7 +4820,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 2
+					combat_rating = 3
 				}
 			}
 		}
@@ -4787,11 +4829,23 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 7
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
 		}
@@ -4839,30 +4893,32 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 7
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 3
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				AND = {
-					has_global_flag = EMF
-					combat_rating = 9
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					combat_rating = 5
-				}
-			}
+			martial = 15
 		}
 		modifier = {
 			factor = 0
@@ -4908,17 +4964,32 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 8 }
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 9
+					OR = {
+						combat_rating = 6
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 5
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 15 }
 		}
 		modifier = {
 			factor = 0
