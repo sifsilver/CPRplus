@@ -4437,7 +4437,6 @@
 		modifier = {
 			factor = 0
 			in_command = yes
-			martial = 10
 			year = 950
 			OR = {
 				AND = {
@@ -4545,7 +4544,7 @@
 		}
 		modifier = {
 			factor = 0
-			martial = 10
+			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -4629,7 +4628,11 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 10 }
+			NOT = { martial = 20 }
+		}
+		modifier = {
+			factor = 0
+			trait = crusader
 		}
 		modifier = {
 			factor = 0
@@ -4696,7 +4699,7 @@
 		}
 		modifier = {
 			factor = 0
-			martial = 10
+			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -4767,7 +4770,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 10 }
+			NOT = { martial = 20 }
 		}
 		modifier = {
 			factor = 0
@@ -4918,7 +4921,7 @@
 		}
 		modifier = {
 			factor = 0
-			martial = 15
+			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -4989,7 +4992,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 15 }
+			NOT = { martial = 20 }
 		}
 		modifier = {
 			factor = 0
