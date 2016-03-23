@@ -67,7 +67,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 2 8 10 12 }
 	}
 	
 	# middle age
@@ -116,7 +116,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 2 8 10 12 }
 	}
 	
 	# old age
@@ -165,7 +165,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 2 8 10 12 }
 	}
 
 #### beja FEMALE ####
@@ -214,7 +214,7 @@ spriteTypes = {
 			{ 255 255 255}
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 1 2 9 10 12 }
 	}
 
 	# beja female midage
@@ -258,7 +258,7 @@ spriteTypes = {
 			{ 255 255 255}
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 1 2 9 10 12 }
 	}
 
 	# beja female oldage
@@ -302,7 +302,7 @@ spriteTypes = {
 			{ 255 255 255}
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 1 2 9 10 12 }
 	}
 	
 }

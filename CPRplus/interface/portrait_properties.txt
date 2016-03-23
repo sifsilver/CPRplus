@@ -5380,7 +5380,7 @@
 			factor = 0
 			OR = {
 				trait = nun
-				has_minor_title = title_cardinal
+				any_heir_title = { title = k_papal_state }
 			}
 		}
 	}
@@ -5415,7 +5415,7 @@
 		modifier = {
 			factor = 0
 			NOT = {
-				has_minor_title = title_cardinal
+				any_heir_title = { title = k_papal_state }
 			}
 		}
 	}
