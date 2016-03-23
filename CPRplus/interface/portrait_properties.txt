@@ -4032,10 +4032,13 @@
 				AND = {
 					OR = {
 						culture_group = arabic
-						culture = bolghar
 						culture = andalusian_arabic
-						culture = sephardi
+						culture = bolghar
+						culture = somali
 						culture = kurdish
+						culture = sephardi
+						culture = sanhaja
+						culture = zaghawa
 						culture = bashkir
 					}
 					year = 950
