@@ -1839,10 +1839,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -1885,10 +1882,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -1931,10 +1925,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -1977,10 +1968,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2024,10 +2012,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2071,10 +2056,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2111,7 +2093,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2133,7 +2114,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2150,7 +2130,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2317,17 +2296,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			OR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			NOR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		#modifier = {
@@ -2399,17 +2373,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2467,17 +2436,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2535,17 +2499,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2606,17 +2565,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2677,17 +2631,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2745,17 +2694,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2831,17 +2775,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2922,17 +2861,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3000,17 +2934,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3096,17 +3025,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3161,17 +3085,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3226,17 +3145,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3291,17 +3205,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3356,17 +3265,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3436,10 +3340,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 	}
 	
@@ -3516,10 +3417,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -3618,10 +3516,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -3720,10 +3615,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -3817,10 +3709,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -3855,7 +3744,6 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -3889,31 +3777,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				AND = {
-					trait = nun
-					year = 950
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			trait = nun
-			NOT = { year = 950 }
-			in_command = no
-			OR = {
-				culture_group = central_germanic
-				culture_group = west_germanic
-				culture_group = latin
-				culture_group = italian_group
-				AND = {
-					culture_group = iberian
-					NOT = { culture = andalusian_arabic }
-				}
-				culture_group = west_slavic
-				culture_group = south_slavic
-			}
+			trait = monk
 		}
 		#Prevent Guanche from having turbans
 		modifier = {
@@ -4061,13 +3925,8 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = nun
-				AND = {
-					trait = monk
-					NOT = { year = 950 }
-				}
-			}
+			trait = monk
+			NOT = { year = 950 }
 		}
 	}
 
@@ -4109,10 +3968,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -4143,7 +3999,6 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -4197,53 +4052,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				AND = {
-					trait = nun
-					NOT = { year = 950 }
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			trait = nun
-			in_command = no
-			OR = {
-				AND = {
-					year = 950
-					OR = {
-						AND = {
-							culture_group = central_germanic
-							NOR = {
-								culture = visigothic
-								culture = suebi
-							}
-						}
-						culture_group = west_germanic
-						AND = {
-							culture_group = latin
-							NOT = {
-								culture = italian
-							}
-						}
-						culture = occitan
-						culture = ligurian
-						culture_group = celtic
-						culture_group = west_slavic
-						culture_group = south_slavic
-					}
-				}
-				AND = {
-					religion_group = christian
-					OR = {
-						culture_group = magyar
-						culture_group = north_germanic
-						culture_group = baltic
-						culture = livonian
-					}
-				}
-			}
+			trait = monk
 		}
 		#Prevent Guanche from having turbans
 		modifier = {
@@ -5191,6 +5000,16 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = westafricangfx
+				graphical_culture = africangfx
+				graphical_culture = bejagfx
+				graphical_culture = somaligfx
+			}
+		}
   	}
 	2 = { # ugly
 		factor = 100
@@ -5296,6 +5115,33 @@
 		modifier = {
 			factor = 0
 			is_alive = no
+		}
+  	}
+	8 = { # fair - dark skinned
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = fair }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = drunkard
+				trait = stressed
+				trait = depressed
+				trait = possessed
+				trait = infirm
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = westafricangfx
+				graphical_culture = africangfx
+				graphical_culture = bejagfx
+				graphical_culture = somaligfx
+			}
 		}
   	}
 }
@@ -5492,6 +5338,13 @@
 				multiplayer = yes
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = nun
+				has_minor_title = title_cardinal
+			}
+		}
 	}
 
 	1 = { # player
@@ -5501,6 +5354,26 @@
 			OR = {
 				ai = yes
 				multiplayer = no
+			}
+		}
+	}
+	
+	2 = { # nun
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				trait = nun
+			}
+		}
+	}
+	
+	3 = { # cardinal
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				has_minor_title = title_cardinal
 			}
 		}
 	}

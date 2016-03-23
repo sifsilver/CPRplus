@@ -5,7 +5,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_player_overlay"
 		texturefile = "gfx\\characters\\shared\\player_overlay.dds"
-		noOfFrames = 2
+		noOfFrames = 4
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -21,7 +21,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_character_reddots"
 		texturefile = "gfx\\characters\\shared\\red_dots.dds"
-		noOfFrames = 8
+		noOfFrames = 9
 		norefcount = yes
 		can_be_lowres = yes
 	}
