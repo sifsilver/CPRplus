@@ -4544,7 +4544,7 @@
 		}
 		modifier = {
 			factor = 0
-			martial = 20
+			martial = 25
 		}
 		modifier = {
 			factor = 0
@@ -4615,7 +4615,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 20 }
+			NOT = { martial = 25 }
 		}
 		modifier = {
 			factor = 0
@@ -4766,7 +4766,7 @@
 		}
 		modifier = {
 			factor = 0
-			martial = 20
+			martial = 25
 		}
 		modifier = {
 			factor = 0
@@ -4837,7 +4837,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { martial = 20 }
+			NOT = { martial = 25 }
 		}
 		modifier = {
 			factor = 0
