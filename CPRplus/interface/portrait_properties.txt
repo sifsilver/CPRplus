@@ -5380,7 +5380,7 @@
 			factor = 0
 			OR = {
 				trait = nun
-				any_heir_title = { title = k_papal_state }
+				k_papal_state = { current_heir = { character = ROOT } }
 			}
 		}
 	}
@@ -5408,6 +5408,10 @@
 			factor = 0
 			in_command = yes
 		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
 	}
 	
 	3 = { # cardinal
@@ -5415,8 +5419,16 @@
 		modifier = {
 			factor = 0
 			NOT = {
-				any_heir_title = { title = k_papal_state }
+				k_papal_state = { current_heir = { character = ROOT } }
 			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
 		}
 	}
 }
