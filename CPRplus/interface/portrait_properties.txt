@@ -3340,7 +3340,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 	}
 	
@@ -3417,7 +3420,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		modifier = {
 			factor = 0
@@ -3516,7 +3522,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		modifier = {
 			factor = 0
@@ -3615,7 +3624,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		modifier = {
 			factor = 0
@@ -3709,7 +3721,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		modifier = {
 			factor = 0
@@ -3777,7 +3792,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		#Prevent Guanche from having turbans
 		modifier = {
@@ -3928,6 +3946,10 @@
 			trait = monk
 			NOT = { year = 950 }
 		}
+		modifier = {
+			factor = 0
+			trait = nun
+		}
 	}
 
 	# Common headgear 3 - Red hat
@@ -3968,7 +3990,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4055,7 +4080,10 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
+			OR = {
+				trait = monk
+				trait = nun
+			}
 		}
 		#Prevent Guanche from having turbans
 		modifier = {
@@ -4090,6 +4118,10 @@
 		modifier = {
 			factor = 0
 			trait = in_hiding
+		}
+		modifier = {
+			factor = 0
+			trait = nun
 		}
 	}
 
@@ -4169,6 +4201,7 @@
 			prisoner = no
 			NOT = { trait = in_hiding }
 			NOT = { trait = monk }
+			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -5368,6 +5401,10 @@
 			NOT = {
 				trait = nun
 			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
 		}
 	}
 	
