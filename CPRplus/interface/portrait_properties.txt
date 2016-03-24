@@ -294,7 +294,7 @@
 		}
 	}
 	9 = { # Church
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
@@ -315,7 +315,7 @@
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 10
 			OR = {
 				is_priest = yes
 				trait = monk
