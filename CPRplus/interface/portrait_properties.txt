@@ -5382,6 +5382,10 @@
 				trait = nun
 				k_papal_state = { current_heir = { character = ROOT } }
 			}
+			NOR = {
+				in_command = yes
+				prisoner = yes
+			}
 		}
 	}
 
