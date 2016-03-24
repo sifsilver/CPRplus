@@ -326,6 +326,7 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
 		}
@@ -377,6 +378,7 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
 		}
@@ -428,6 +430,7 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
 		}
@@ -692,6 +695,7 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
 		}
@@ -741,6 +745,7 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
 		}
@@ -790,6 +795,7 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
 		}
