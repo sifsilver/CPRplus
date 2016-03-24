@@ -294,7 +294,7 @@
 		}
 	}
 	9 = { # Church
-		factor = 10
+		factor = 2
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
@@ -315,10 +315,9 @@
 			}
 		}
 		modifier = {
-			factor = 0
-			NOR = {
-				is_theocracy = yes
-				trait = zealot
+			factor = 5
+			OR = {
+				is_priest = yes
 				trait = monk
 				trait = nun
 				trait = theologian
@@ -326,7 +325,11 @@
 		}
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				is_priest = yes
+				is_theocracy = yes
+				trait = zealot
+			}
 		}
 	}
 	10 = { # Desert
@@ -656,9 +659,18 @@
 			NOT = {
 				location = { province_id = 333 }
 			}
+		}
+		modifier = {
+			factor = 0
 			NOR = {
 				has_landed_title = b_roma
-				liege = { has_landed_title = b_roma }
+				AND = {
+					liege = { has_landed_title = b_roma }
+					OR = {
+						is_councillor = yes
+						is_landed = no
+					}
+				}
 			}
 		}
 		modifier = {
