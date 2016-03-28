@@ -315,6 +315,12 @@ arabic = {
     bedouin_arabic = { 
 		graphical_cultures = {arabicgfx muslimgfx}
 	}
+	yemeni = { 
+		graphical_cultures = {arabicgfx muslimgfx}
+	}
+	hijazi = { 
+		graphical_cultures = {arabicgfx muslimgfx}
+	}
 	maghreb_arabic = { 
 		graphical_cultures = {maghrebgfx muslimgfx}
 	}

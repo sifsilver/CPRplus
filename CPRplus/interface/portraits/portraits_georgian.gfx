@@ -54,6 +54,62 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_georgian_male_eyes"
+		texturefile = "gfx\\characters\\georgian_male\\georgian_male_eyes_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_georgian_male_eyes_midage"
+		texturefile = "gfx\\characters\\georgian_male\\georgian_male_eyes_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_georgian_male_eyes_oldage"
+		texturefile = "gfx\\characters\\georgian_male\\georgian_male_eyes_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_georgian_male_eyes2"
+		texturefile = "gfx\\characters\\georgian_male\\georgian_male_eyes2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_georgian_female_eyes"
+		texturefile = "gfx\\characters\\georgian_female\\georgian_female_eyes_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_georgian_female_eyes_midage"
+		texturefile = "gfx\\characters\\georgian_female\\georgian_female_eyes_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_georgian_female_eyes_oldage"
+		texturefile = "gfx\\characters\\georgian_female\\georgian_female_eyes_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_georgian_female_eyes2"
+		texturefile = "gfx\\characters\\georgian_female\\georgian_female_eyes2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
 	# Georgian Male
@@ -72,8 +128,8 @@ spriteTypes = {
 			"GFX_byzantine_male_cheeks:d4"
 			"GFX_byzantine_male_mouth:d2"
 			"GFX_byzantine_male_nose:d3"
-			"GFX_byzantine_male_eyes:d6"
-			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_georgian_male_eyes:d6"
+			"GFX_georgian_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -101,8 +157,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -124,8 +182,8 @@ spriteTypes = {
 			"GFX_byzantine_male_cheeks_midage:d4"
 			"GFX_byzantine_male_mouth_midage:d2"
 			"GFX_byzantine_male_nose_midage:d3"
-			"GFX_byzantine_male_eyes_midage:d6"
-			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_georgian_male_eyes_midage:d6"
+			"GFX_georgian_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -153,8 +211,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -176,8 +236,8 @@ spriteTypes = {
 			"GFX_byzantine_male_cheeks_oldage:d4"
 			"GFX_byzantine_male_mouth_oldage:d2"
 			"GFX_byzantine_male_nose_oldage:d3"
-			"GFX_byzantine_male_eyes_oldage:d6"
-			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_georgian_male_eyes_oldage:d6"
+			"GFX_georgian_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -205,8 +265,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -227,8 +289,8 @@ spriteTypes = {
 			"GFX_byzantine_male_cheeks:d4"
 			"GFX_byzantine_male_mouth:d2"
 			"GFX_byzantine_male_nose:d3"
-			"GFX_byzantine_male_eyes:d6"
-			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_georgian_male_eyes:d6"
+			"GFX_georgian_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -256,8 +318,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -279,8 +343,8 @@ spriteTypes = {
 			"GFX_byzantine_male_cheeks_midage:d4"
 			"GFX_byzantine_male_mouth_midage:d2"
 			"GFX_byzantine_male_nose_midage:d3"
-			"GFX_byzantine_male_eyes_midage:d6"
-			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_georgian_male_eyes_midage:d6"
+			"GFX_georgian_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -308,8 +372,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -331,8 +397,8 @@ spriteTypes = {
 			"GFX_byzantine_male_cheeks_oldage:d4"
 			"GFX_byzantine_male_mouth_oldage:d2"
 			"GFX_byzantine_male_nose_oldage:d3"
-			"GFX_byzantine_male_eyes_oldage:d6"
-			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_georgian_male_eyes_oldage:d6"
+			"GFX_georgian_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -360,8 +426,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -386,8 +454,8 @@ spriteTypes = {
 			"GFX_byzantine_female_cheeks:d4"
 			"GFX_byzantine_female_mouth:d2"
 			"GFX_byzantine_female_ear:d7"
-			"GFX_byzantine_female_eyes:d6"
-			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_georgian_female_eyes:d6"
+			"GFX_georgian_female_eyes2:d6:e"
 			"GFX_byzantine_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -414,8 +482,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { }
@@ -436,8 +506,8 @@ spriteTypes = {
 			"GFX_byzantine_female_cheeks_midage:d4"
 			"GFX_byzantine_female_mouth_midage:d2"
 			"GFX_byzantine_female_ear_midage:d7"
-			"GFX_byzantine_female_eyes_midage:d6"
-			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_georgian_female_eyes_midage:d6"
+			"GFX_georgian_female_eyes2:d6:e"
 			"GFX_byzantine_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -464,8 +534,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { }
@@ -486,8 +558,8 @@ spriteTypes = {
 			"GFX_byzantine_female_cheeks_oldage:d4"
 			"GFX_byzantine_female_mouth_oldage:d2"
 			"GFX_byzantine_female_ear_oldage:d7"
-			"GFX_byzantine_female_eyes_oldage:d6"
-			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_georgian_female_eyes_oldage:d6"
+			"GFX_georgian_female_eyes2:d6:e"
 			"GFX_byzantine_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -514,8 +586,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { }
@@ -535,8 +609,8 @@ spriteTypes = {
 			"GFX_byzantine_female_cheeks:d4"
 			"GFX_byzantine_female_mouth:d2"
 			"GFX_byzantine_female_ear:d7"
-			"GFX_byzantine_female_eyes:d6"
-			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_georgian_female_eyes:d6"
+			"GFX_georgian_female_eyes2:d6:e"
 			"GFX_byzantine_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -563,8 +637,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { }
@@ -585,8 +661,8 @@ spriteTypes = {
 			"GFX_byzantine_female_cheeks_midage:d4"
 			"GFX_byzantine_female_mouth_midage:d2"
 			"GFX_byzantine_female_ear_midage:d7"
-			"GFX_byzantine_female_eyes_midage:d6"
-			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_georgian_female_eyes_midage:d6"
+			"GFX_georgian_female_eyes2:d6:e"
 			"GFX_byzantine_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -613,8 +689,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { }
@@ -635,8 +713,8 @@ spriteTypes = {
 			"GFX_byzantine_female_cheeks_oldage:d4"
 			"GFX_byzantine_female_mouth_oldage:d2"
 			"GFX_byzantine_female_ear_oldage:d7"
-			"GFX_byzantine_female_eyes_oldage:d6"
-			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_georgian_female_eyes_oldage:d6"
+			"GFX_georgian_female_eyes2:d6:e"
 			"GFX_byzantine_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -663,8 +741,10 @@ spriteTypes = {
 		eye_color = {
 			{ 120 74 46 } #Brown
 			{ 34 103 36 } #Green
+			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 101 119 150} #Light Blue
 		}
 		
 		headgear_that_hides_hair = { }

@@ -294,7 +294,7 @@
 		}
 	}
 	9 = { # Church
-		factor = 10
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { religion_group = christian }
@@ -315,10 +315,9 @@
 			}
 		}
 		modifier = {
-			factor = 0
-			NOR = {
-				is_theocracy = yes
-				trait = zealot
+			factor = 10
+			OR = {
+				is_priest = yes
 				trait = monk
 				trait = nun
 				trait = theologian
@@ -326,7 +325,11 @@
 		}
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				is_priest = yes
+				is_theocracy = yes
+				trait = zealot
+			}
 		}
 	}
 	10 = { # Desert
@@ -650,14 +653,37 @@
 	}
 
 	18 = { # Papal palace
-		factor = 100
+		factor = 20
 		modifier = {
 			factor = 0
-			NOT = { has_landed_title = k_papal_state }
-			NOT = { has_landed_title = d_fraticelli }
+			NOT = {
+				location = { province_id = 333 }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				has_landed_title = b_roma
+				AND = {
+					liege = { has_landed_title = b_roma }
+					OR = {
+						is_councillor = yes
+						is_landed = no
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			has_landed_title = b_roma
+		}
+		#modifier = {
+		#	factor = 0
+		#	NOT = { has_landed_title = k_papal_state }
+		#	NOT = { has_landed_title = d_fraticelli }
 			#NOT = { has_claim = k_papal_state }
 			#NOT = { has_claim = d_fraticelli }
-		}
+		#}
 		modifier = {
 			factor = 0
 			in_command = yes
@@ -1825,10 +1851,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -1871,10 +1894,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -1917,10 +1937,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -1963,10 +1980,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2010,10 +2024,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2057,10 +2068,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
+			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2097,7 +2105,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2119,7 +2126,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2136,7 +2142,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2187,17 +2192,17 @@
 			}
 			in_command = no
 		}
-		modifier = {
-			factor = 0
-			religion_group = christian
-			OR = {
-				AND = {
-					government = theocracy_government
-					is_landed = yes
-				}
-				has_job_title = job_spiritual
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	religion_group = christian
+		#	OR = {
+		#		AND = {
+		#			government = theocracy_government
+		#			is_landed = yes
+		#		}
+		#		has_job_title = job_spiritual
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			is_alive = no
@@ -2303,17 +2308,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			OR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			NOR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		#modifier = {
@@ -2385,17 +2385,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2453,17 +2448,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2521,17 +2511,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2592,17 +2577,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2663,17 +2643,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2731,17 +2706,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2817,17 +2787,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2908,17 +2873,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -2986,17 +2946,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3082,17 +3037,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3147,17 +3097,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3212,17 +3157,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3277,17 +3217,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3342,17 +3277,12 @@
 				has_job_title = job_spiritual
 				trait = monk
 			}
-			NOR = {
-				trait = proud
-				trait = hedonist
-				trait = lustful
-				trait = cynical
-				trait = lunatic
-				trait = possessed
-				#has_nickname = nick_the_accursed
-				#has_nickname = nick_the_wicked
-				#has_nickname = nick_the_bewitched
-				#has_nickname = nick_priest_hater
+			OR = {
+				has_nickname = nick_the_pious
+				has_nickname = nick_the_apostle
+				has_nickname = nick_the_blessed
+				has_nickname = nick_the_confessor
+				has_nickname = nick_the_monk
 			}
 		}
 		modifier = {
@@ -3841,7 +3771,6 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -3877,28 +3806,7 @@
 			factor = 0
 			OR = {
 				trait = monk
-				AND = {
-					trait = nun
-					year = 950
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			trait = nun
-			NOT = { year = 950 }
-			in_command = no
-			OR = {
-				culture_group = central_germanic
-				culture_group = west_germanic
-				culture_group = latin
-				culture_group = italian_group
-				AND = {
-					culture_group = iberian
-					NOT = { culture = andalusian_arabic }
-				}
-				culture_group = west_slavic
-				culture_group = south_slavic
+				trait = nun
 			}
 		}
 		#Prevent Guanche from having turbans
@@ -4047,13 +3955,12 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = nun
-				AND = {
-					trait = monk
-					NOT = { year = 950 }
-				}
-			}
+			trait = monk
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			trait = nun
 		}
 	}
 
@@ -4129,7 +4036,6 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -4163,10 +4069,13 @@
 				AND = {
 					OR = {
 						culture_group = arabic
-						culture = bolghar
 						culture = andalusian_arabic
-						culture = sephardi
+						culture = bolghar
+						culture = somali
 						culture = kurdish
+						culture = sephardi
+						culture = sanhaja
+						culture = zaghawa
 						culture = bashkir
 					}
 					year = 950
@@ -4185,50 +4094,7 @@
 			factor = 0
 			OR = {
 				trait = monk
-				AND = {
-					trait = nun
-					NOT = { year = 950 }
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			trait = nun
-			in_command = no
-			OR = {
-				AND = {
-					year = 950
-					OR = {
-						AND = {
-							culture_group = central_germanic
-							NOR = {
-								culture = visigothic
-								culture = suebi
-							}
-						}
-						culture_group = west_germanic
-						AND = {
-							culture_group = latin
-							NOT = {
-								culture = italian
-							}
-						}
-						culture = occitan
-						culture = ligurian
-						culture_group = celtic
-						culture_group = west_slavic
-						culture_group = south_slavic
-					}
-				}
-				AND = {
-					religion_group = christian
-					OR = {
-						culture_group = magyar
-						culture_group = north_germanic
-						culture_group = baltic
-						culture = livonian
-					}
-				}
+				trait = nun
 			}
 		}
 		#Prevent Guanche from having turbans
@@ -4265,6 +4131,10 @@
 			factor = 0
 			trait = in_hiding
 		}
+		modifier = {
+			factor = 0
+			trait = nun
+		}
 	}
 
 	# Martial headgear
@@ -4291,17 +4161,17 @@
 			}
 			in_command = no
 		}
-		modifier = {
-			factor = 0
-			religion_group = christian
-			OR = {
-				AND = {
-					government = theocracy_government
-					is_landed = yes
-				}
-				has_job_title = job_spiritual
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	religion_group = christian
+		#	OR = {
+		#		AND = {
+		#			government = theocracy_government
+		#			is_landed = yes
+		#		}
+		#		has_job_title = job_spiritual
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			is_alive = no
@@ -4343,6 +4213,7 @@
 			prisoner = no
 			NOT = { trait = in_hiding }
 			NOT = { trait = monk }
+			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -4420,6 +4291,38 @@
 			factor = 0
 			prisoner = yes
 		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			year = 950
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+			religion_group = christian
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
 	}
 
 	1 = { # prisoner
@@ -4429,6 +4332,539 @@
 			prisoner = no
 		}
 	}
+	
+	2 = { # Western knight armor #1
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	3 = { # Western knight armor #2
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 20 }
+		}
+		modifier = {
+			factor = 0
+			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	4 = { # Western knight armor #3
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 25
+		}
+		modifier = {
+			factor = 0
+			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	5 = { # Western knight armor #4
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 25 }
+		}
+		modifier = {
+			factor = 0
+			trait = crusader
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	6 = { # Crusader armor #1
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	7 = { # Crusader armor #2
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 25
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	8 = { # Crusader armor #3
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+			NOR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = west_slavic
+				culture_group = magyar
+				culture_group = baltic
+				AND = {
+					culture_group = south_slavic
+					NOT = { culture = bulgarian }
+				}
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { martial = 25 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { trait = crusader }
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
 }
 
 # p7 scars
@@ -4612,6 +5048,17 @@
 				trait = infirm
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = westafricangfx
+				graphical_culture = africangfx
+				graphical_culture = bejagfx
+				graphical_culture = somaligfx
+				graphical_culture = indiangfx
+			}
+		}
   	}
 	2 = { # ugly
 		factor = 100
@@ -4717,6 +5164,34 @@
 		modifier = {
 			factor = 0
 			is_alive = no
+		}
+  	}
+	8 = { # fair - dark skinned
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { trait = fair }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = drunkard
+				trait = stressed
+				trait = depressed
+				trait = possessed
+				trait = infirm
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = westafricangfx
+				graphical_culture = africangfx
+				graphical_culture = bejagfx
+				graphical_culture = somaligfx
+				graphical_culture = indiangfx
+			}
 		}
   	}
 }
@@ -4913,6 +5388,17 @@
 				multiplayer = yes
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = nun
+				k_papal_state = { current_heir = { character = ROOT } }
+			}
+			NOR = {
+				in_command = yes
+				prisoner = yes
+			}
+		}
 	}
 
 	1 = { # player
@@ -4923,6 +5409,42 @@
 				ai = yes
 				multiplayer = no
 			}
+		}
+	}
+	
+	2 = { # nun
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				trait = nun
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+	}
+	
+	3 = { # cardinal
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				k_papal_state = { current_heir = { character = ROOT } }
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
 		}
 	}
 }

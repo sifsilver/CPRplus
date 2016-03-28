@@ -28,7 +28,7 @@ spriteTypes = {
 			"GFX_character_background:p0"						#0
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind:p1:y"
+			"GFX_muslim_male_hair_behind:p1:h:y"
 			"GFX_byzantine_male_beard_behind:p4:o2x0:h:y"
 			"GFX_arabic_male_base:p2"							#5
 			"GFX_arabic_male_neck:d0"
@@ -45,7 +45,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard:p4:o2x0:h:y"
 			"GFX_arabic_male_nose:d3:o80x66"
 			"GFX_arabic_male_ear:d7:o24x48"							#15
-			"GFX_muslim_male_hair:p1:y"
+			"GFX_muslim_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"											#20
 			"GFX_byzantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -54,7 +54,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -73,7 +75,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind_midage:p1:y"
+			"GFX_muslim_male_hair_behind_midage:p1:h:y"
 			"GFX_byzantine_male_beard_behind_midage:p4:o2x0:h:y"
 			"GFX_arabic_male_base_midage:p2"
 			"GFX_arabic_male_neck_midage:d0"
@@ -90,7 +92,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard_midage:p4:o2x0:h:y"
 			"GFX_arabic_male_nose_midage:d3:o80x65"
 			"GFX_arabic_male_ear_midage:d7:o25x53"
-			"GFX_muslim_male_hair_midage:p1:y"
+			"GFX_muslim_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -99,7 +101,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -118,7 +122,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind_oldage:p1:y"
+			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
 			"GFX_byzantine_male_beard_behind_oldage:p4:o2x0:h:y"
 			"GFX_arabic_male_base_oldage:p2"
 			"GFX_arabic_male_neck_oldage:d0"
@@ -135,7 +139,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard_oldage:p4:o2x0:h:y"
 			"GFX_arabic_male_nose_oldage:d3:o80x66"
 			"GFX_arabic_male_ear_oldage:d7:o23x50"
-			"GFX_muslim_male_hair_oldage:p1:y"
+			"GFX_muslim_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -144,7 +148,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -190,7 +196,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -233,7 +241,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -276,7 +286,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -295,7 +307,7 @@ spriteTypes = {
 			"GFX_character_background:p0"						
 			"GFX_muslim_male_clothes_behind_early:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
-			"GFX_muslim_male_hair_behind:p1:y"
+			"GFX_muslim_male_hair_behind:p1:h:y"
 			"GFX_byzantine_male_beard_behind:p4:o2x0:h:y"
 			"GFX_arabic_male_base:p2"							
 			"GFX_arabic_male_neck:d0"
@@ -312,7 +324,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard:p4:o2x0:h:y"
 			"GFX_arabic_male_nose:d3:o80x66"
 			"GFX_arabic_male_ear:d7:o24x48"							
-			"GFX_muslim_male_hair:p1:y"
+			"GFX_muslim_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"											
 			"GFX_byzantine_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -321,7 +333,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -340,7 +354,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind_early:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
-			"GFX_muslim_male_hair_behind_midage:p1:y"
+			"GFX_muslim_male_hair_behind_midage:p1:h:y"
 			"GFX_byzantine_male_beard_behind_midage:p4:o2x0:h:y"
 			"GFX_arabic_male_base_midage:p2"
 			"GFX_arabic_male_neck_midage:d0"
@@ -357,7 +371,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard_midage:p4:o2x0:h:y"
 			"GFX_arabic_male_nose_midage:d3:o80x65"
 			"GFX_arabic_male_ear_midage:d7:o25x53"
-			"GFX_muslim_male_hair_midage:p1:y"
+			"GFX_muslim_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -366,7 +380,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -385,7 +401,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind_early:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
-			"GFX_muslim_male_hair_behind_oldage:p1:y"
+			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
 			"GFX_byzantine_male_beard_behind_oldage:p4:o2x0:h:y"
 			"GFX_arabic_male_base_oldage:p2"
 			"GFX_arabic_male_neck_oldage:d0"
@@ -402,7 +418,7 @@ spriteTypes = {
 			"GFX_byzantine_male_beard_oldage:p4:o2x0:h:y"
 			"GFX_arabic_male_nose_oldage:d3:o80x66"
 			"GFX_arabic_male_ear_oldage:d7:o23x50"
-			"GFX_muslim_male_hair_oldage:p1:y"
+			"GFX_muslim_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -411,7 +427,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -456,7 +474,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -499,7 +519,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -542,7 +564,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
