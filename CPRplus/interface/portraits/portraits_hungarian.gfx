@@ -234,6 +234,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -288,6 +291,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -344,6 +350,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -400,6 +409,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -454,6 +466,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -511,6 +526,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -564,6 +582,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -615,6 +636,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -667,6 +691,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -720,6 +747,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -771,6 +801,9 @@ spriteTypes = {
 			{ 101 119 150 }
 			{ 86 74 46 }
 			{ 36 32 24 }
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
