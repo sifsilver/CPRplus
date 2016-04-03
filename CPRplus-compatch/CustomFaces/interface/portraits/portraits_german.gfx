@@ -21,7 +21,7 @@ spriteTypes = {
 			"GFX_german_male_mouth:d2:o75x49"
 			"GFX_german_male_nose:d3:o80x65"
 			"GFX_german_male_eyes:d6:o47x74"
-			"GFX_german_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -58,6 +58,9 @@ spriteTypes = {
 			{ 56 80 57 } #Green
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -80,7 +83,7 @@ spriteTypes = {
 			"GFX_german_male_mouth_midage:d2:o80x51"
 			"GFX_german_male_nose_midage:d3:o81x65"					#10
 			"GFX_german_male_eyes_midage:d6:o46x74"
-			"GFX_german_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"							#20
 			"GFX_character_boils:p9"
@@ -119,6 +122,9 @@ spriteTypes = {
 			{ 56 80 57 } #Green
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -141,7 +147,7 @@ spriteTypes = {
 			"GFX_german_male_mouth_oldage:d2:o75x52"
 			"GFX_german_male_nose_oldage:d3:o80x66"
 			"GFX_german_male_eyes_oldage:d6:o46x73"
-			"GFX_german_male_eyes2:d6:e:o74x92"
+			"GFX_german_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -178,6 +184,9 @@ spriteTypes = {
 			{ 56 80 57 } #Green
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -239,6 +248,9 @@ spriteTypes = {
 			{ 56 80 57 } #Green
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }
@@ -296,6 +308,9 @@ spriteTypes = {
 			{ 56 80 57 } #Green
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }
@@ -354,6 +369,9 @@ spriteTypes = {
 			{ 56 80 57 } #Green
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }

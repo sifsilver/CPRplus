@@ -19,6 +19,7 @@ spriteTypes = {
 			"GFX_arabic_male_mouth:d2:o73x46"
 			"GFX_arabic_male_nose:d3:o80x66"
 			"GFX_arabic_male_eyes:d6:o51x76"
+			"GFX_muslim_male_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -43,7 +44,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 150 139 92 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -66,6 +71,7 @@ spriteTypes = {
 			"GFX_arabic_male_mouth_midage:d2:o73x46"
 			"GFX_arabic_male_nose_midage:d3:o80x65"
 			"GFX_arabic_male_eyes_midage:d6:o47x75"
+			"GFX_muslim_male_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -90,7 +96,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 150 139 92 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -113,13 +123,13 @@ spriteTypes = {
 			"GFX_arabic_male_mouth_oldage:d2:o74x46"
 			"GFX_arabic_male_nose_oldage:d3:o80x66"
 			"GFX_arabic_male_eyes_oldage:d6:o46x74"
+			"GFX_muslim_male_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_male_clothes_early:p3:c2"
-			"GFX_empty:p5:c3"
-			
+			"GFX_empty:p5:c3"			
 			"GFX_muslim_male_beard_oldage:p4:h:y"
 			"GFX_arabic_male_ear_oldage:d7:o23x50"
 			"GFX_muslim_male_hair_oldage:p1:h:y"
@@ -138,7 +148,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 150 139 92 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -161,7 +175,8 @@ spriteTypes = {
 			"GFX_arabic_female_nose:d3:o78x64"                      
 			"GFX_arabic_female_cheeks:d4"                    
 			"GFX_arabic_female_chin:d1"                      
-			"GFX_arabic_female_eyes:d6:o50x78"                      
+			"GFX_arabic_female_eyes:d6:o50x78" 
+			"GFX_muslim_female_eyes2:d6:e:o72x88"                     
 			"GFX_arabic_female_ear:d7:o28x51"                  
 			"GFX_character_scars:p7:y"                         
 			"GFX_character_reddots:p8"                       
@@ -185,7 +200,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 150 139 92 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -207,6 +226,7 @@ spriteTypes = {
 			"GFX_arabic_female_cheeks_midage:d4"
 			"GFX_arabic_female_chin_midage:d1"
 			"GFX_arabic_female_eyes_midage:d6:o49x74"
+			"GFX_muslim_female_eyes2:d6:e:o72x88"
 			"GFX_arabic_female_ear_midage:d7:o28x52"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -230,7 +250,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 150 139 92 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -252,6 +276,7 @@ spriteTypes = {
 			"GFX_arabic_female_cheeks_oldage:d4"
 			"GFX_arabic_female_chin_oldage:d1"
 			"GFX_arabic_female_eyes_oldage:d6:o47x75"
+			"GFX_muslim_female_eyes2:d6:e:o72x88"
 			"GFX_arabic_female_ear_oldage:d7:o28x60"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -275,7 +300,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 150 139 92 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }

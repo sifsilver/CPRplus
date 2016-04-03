@@ -26,28 +26,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-
-	spriteType = {
-		name = "GFX_northindian_male_eyes"
-		texturefile = "gfx\\characters\\northindian_male\\northindian_male_eyes_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_northindian_male_eyes_midage"
-		texturefile = "gfx\\characters\\northindian_male\\northindian_male_eyes_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_northindian_male_eyes_oldage"
-		texturefile = "gfx\\characters\\northindian_male\\northindian_male_eyes_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
 	#spriteType = {
 	#	name = "GFX_northindian_male_headgear_mid"
 	#	texturefile = "gfx\\characters\\northindian_male\\northindian_male_headgear_mid.dds"
@@ -81,7 +59,7 @@ spriteTypes = {
 			"GFX_southindian_male_cheeks:d4"
 			"GFX_southindian_male_mouth:d2"
 			"GFX_southindian_male_nose:d3"
-			"GFX_northindian_male_eyes:d6"
+			"GFX_southindian_male_eyes:d6"
 			"GFX_southindian_male_eyes2:d6:e"
 			"GFX_southindian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"	
@@ -110,9 +88,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 34 103 36 } #Green
+			{ 150 139 92 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -134,7 +113,7 @@ spriteTypes = {
 			"GFX_southindian_male_cheeks_midage:d4"
 			"GFX_southindian_male_mouth_midage:d2"
 			"GFX_southindian_male_nose_midage:d3"
-			"GFX_northindian_male_eyes_midage:d6"
+			"GFX_southindian_male_eyes_midage:d6"
 			"GFX_southindian_male_eyes2:d6:e"
 			"GFX_southindian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
@@ -163,9 +142,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 34 103 36 } #Green
+			{ 150 139 92 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -187,7 +167,7 @@ spriteTypes = {
 			"GFX_southindian_male_cheeks_oldage:d4"
 			"GFX_southindian_male_mouth_oldage:d2"
 			"GFX_southindian_male_nose_oldage:d3"
-			"GFX_northindian_male_eyes_oldage:d6"
+			"GFX_southindian_male_eyes_oldage:d6"
 			"GFX_southindian_male_eyes2:d6:e"			
 			"GFX_southindian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
@@ -216,9 +196,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 34 103 36 } #Green
+			{ 150 139 92 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -283,9 +264,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 34 103 36 } #Green
+			{ 150 139 92 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -334,9 +316,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 34 103 36 } #Green
+			{ 150 139 92 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -385,9 +368,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 34 103 36 } #Green
+			{ 150 139 92 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }

@@ -440,7 +440,7 @@ spriteTypes = {
 			"GFX_norse_male_ear:d7"			
 			"GFX_norse_male_beard:p4:o-2x0:h:y"
 		   	"GFX_norse_male_hair:p1:h:y"
-			"GFX_norse_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_norse_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -461,6 +461,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		
 		}
 
@@ -494,7 +497,7 @@ spriteTypes = {
 			"GFX_norse_male_ear_midage:d7"
 			"GFX_norse_male_beard_midage:p4:o-2x0:h:y"
 			"GFX_norse_male_hair_midage:p1:h:y"
-			"GFX_norse_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_norse_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -515,6 +518,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -548,7 +554,7 @@ spriteTypes = {
 			"GFX_norse_male_ear_oldage:d7"
 			"GFX_norse_male_beard_oldage:p4:o-2x0:h:y"
 			"GFX_norse_male_hair_oldage:p1:h:y"
-			"GFX_norse_male_clothes_infront:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_norse_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -563,6 +569,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -596,7 +605,7 @@ spriteTypes = {
 			"GFX_norse_male_ear:d7"			
 			"GFX_norse_male_beard_christian:p4:o-2x0:h:y"
 		   	"GFX_norse_male_hair_christian:p1:h:y"
-			"GFX_norse_male_clothes_infront:p3:c4"
+			"GFX_norse_female_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -617,6 +626,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		
 		}
 
@@ -650,7 +662,7 @@ spriteTypes = {
 			"GFX_norse_male_ear_midage:d7"
 			"GFX_norse_male_beard_midage_christian:p4:o-2x0:h:y"
 			"GFX_norse_male_hair_midage_christian:p1:h:y"
-			"GFX_norse_male_clothes_infront:p3:c4"
+			"GFX_norse_female_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -671,6 +683,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -704,7 +719,7 @@ spriteTypes = {
 			"GFX_norse_male_ear_oldage:d7"
 			"GFX_norse_male_beard_oldage_christian:p4:o-2x0:h:y"
 			"GFX_norse_male_hair_oldage_christian:p1:h:y"
-			"GFX_norse_male_clothes_infront:p3:c4"
+			"GFX_norse_female_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
@@ -719,6 +734,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -1073,6 +1091,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -1125,6 +1146,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -1172,6 +1196,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -1224,6 +1251,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -1276,6 +1306,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 
@@ -1323,6 +1356,9 @@ spriteTypes = {
 			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
+			{ 120 146 165 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 			
 		}
 

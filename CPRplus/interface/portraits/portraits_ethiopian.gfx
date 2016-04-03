@@ -318,6 +318,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -364,6 +365,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -410,6 +412,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -520,21 +523,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ethiopian_female_mouth"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_mouth_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ethiopian_female_mouth_midage"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_mouth_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ethiopian_female_mouth_oldage"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_mouth_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
@@ -643,6 +646,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -686,6 +690,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -729,6 +734,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
+			{ 148 96 72 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
