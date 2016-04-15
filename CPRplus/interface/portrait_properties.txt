@@ -576,6 +576,12 @@
 			}
 		}
 		modifier = {
+			factor = 0
+			location = {
+				region = world_africa
+			}
+		}
+		modifier = {
 			factor = 5
 			OR = {
 				is_landed = yes
@@ -645,6 +651,7 @@
 						OR = {
 							terrain = desert
 							terrain = mountain
+							region = world_africa
 						}
 					}
 				}
