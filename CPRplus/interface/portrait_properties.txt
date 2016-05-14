@@ -2808,6 +2808,16 @@
 		}
 		modifier = {
 			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = leper
 		}
 	}
@@ -2894,6 +2904,16 @@
 		}
 		modifier = {
 			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = leper
 		}
 	}
@@ -2964,6 +2984,16 @@
 		modifier = {
 			factor = 0
 			NOT = { age = 18 }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
 		}
 		modifier = {
 			factor = 0
@@ -3058,6 +3088,16 @@
 		}
 		modifier = {
 			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = leper
 		}
 	}
@@ -3115,6 +3155,16 @@
 		modifier = {
 			factor = 0
 			NOT = { age = 18 }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
 		}
 		modifier = {
 			factor = 0
@@ -3178,6 +3228,16 @@
 		}
 		modifier = {
 			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = leper
 		}
 	}
@@ -3238,6 +3298,16 @@
 		}
 		modifier = {
 			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = leper
 		}
 	}
@@ -3295,6 +3365,16 @@
 		modifier = {
 			factor = 0
 			NOT = { age = 18 }
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = westafricangfx
+				graphical_culture = guanchegfx
+			}
 		}
 		modifier = {
 			factor = 0
