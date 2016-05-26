@@ -378,6 +378,13 @@
 				holding_type = nomad
 			}
 		}
+		modifier = {
+			factor = 3
+			OR = {
+				trait = desert_father
+				trait = desert_mother
+			}
+		}
 	}
 	11 = { # Steppe
 		factor = 2
@@ -982,6 +989,7 @@
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
 				}
+				trait = desert_father
 			}
 		}
 		#modifier = {
@@ -1100,6 +1108,10 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			trait = desert_father
+		}
 	}
 	
 	2 = { # Page
@@ -1147,6 +1159,10 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 		}
 	}
 
@@ -1196,6 +1212,10 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			trait = desert_father
+		}
 	}
 
 	4 = { # Long Straight
@@ -1213,6 +1233,7 @@
 				graphical_culture = saxongfx
 				graphical_culture = dutchgfx
 			}
+			NOT = { trait = desert_father }
 		}
 		
 		modifier = { # Norman modified bowl cut
@@ -1278,6 +1299,16 @@
 				graphical_culture = dutchgfx
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = desert_father
+			NOR = {
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = saxongfx
+				graphical_culture = dutchgfx
+			}
+		}
 	}
 
 	5 = { # Long Curly
@@ -1312,6 +1343,7 @@
 				graphical_culture = guanchegfx
 				graphical_culture = westafricangfx
 			}
+			NOT = { trait = desert_father }
 		}
 		modifier = {
 			factor = 0
@@ -1337,6 +1369,15 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 			NOR = {
 				graphical_culture = ethiopiangfx
 				graphical_culture = guanchegfx
@@ -1423,6 +1464,7 @@
 					NOT = { year = 950 }
 				}
 			}
+			NOT = { trait = desert_father }
 		}
 		modifier = {
 			factor = 0
@@ -1448,6 +1490,18 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = celticgfx
+				graphical_culture = norsegaelgfx
+				AND = {
+					graphical_culture = bretongfx
+					NOT = { year = 950 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 			NOR = {
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
@@ -1538,6 +1592,10 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			trait = desert_father
+		}
 	}
 	
 	8 = { # Short Curly
@@ -1566,6 +1624,10 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 		}
 	}
 	
@@ -1604,6 +1666,7 @@
 				graphical_culture = guanchegfx
 				graphical_culture = westafricangfx
 			}
+			NOT = { trait = desert_father }
 		}
 		modifier = {
 			factor = 0
@@ -1629,6 +1692,15 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 			NOR = {
 				graphical_culture = ethiopiangfx
 				graphical_culture = guanchegfx
@@ -1688,6 +1760,10 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			trait = desert_father
+		}
 	}
 	
 	11 = { # Balding
@@ -1716,6 +1792,10 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 		}
 	}
 	
@@ -1765,6 +1845,10 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			trait = desert_father
+		}
 	}
 	
 	13 = { # Mohawk
@@ -1793,6 +1877,10 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 		}
 	}
 	
@@ -1832,6 +1920,10 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			trait = desert_father
 		}
 	}
 }
