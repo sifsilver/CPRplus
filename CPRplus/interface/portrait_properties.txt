@@ -11,6 +11,16 @@
 			}
 		}
 		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					region = world_africa_west
+					region = world_steppe_west
+					region = world_steppe_east
+				}
+			}
+		}
+		modifier = {
 			factor = 5
 			OR = {
 				is_landed = yes
@@ -57,10 +67,12 @@
 		modifier = {
 			factor = 0
 			location = {
-				OR = {
-					holding_type = nomad
-					holding_type = tribal
+				NOT = {
+					holding_type = castle
 				}
+			}
+			NOT = {
+				is_feudal = yes
 			}
 		}
 		modifier = {
@@ -320,6 +332,7 @@
 				trait = monk
 				trait = nun
 				trait = theologian
+				is_priest = yes
 			}
 		}
 		modifier = {
@@ -659,6 +672,9 @@
 			location = {
 				NOR = {
 					holding_type = tribal
+					region = world_africa_west
+					region = world_steppe_west
+					region = world_steppe_east
 					AND = {
 						holding_type = temple
 						religion_group = pagan_group
