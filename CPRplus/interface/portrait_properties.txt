@@ -315,20 +315,30 @@
 			}
 		}
 		modifier = {
-			factor = 10
+			factor = 2
 			OR = {
-				is_priest = yes
 				trait = monk
 				trait = nun
 				trait = theologian
 			}
 		}
 		modifier = {
-			factor = 2
-			OR = {
+			factor = 10
+			government = theocracy_government
+			is_landed = yes
+		}
+		modifier = {
+			factor = 0
+			NOR = {
 				is_priest = yes
+				trait = monk
+				trait = nun
+				trait = theologian
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+				government = theocracy_government
 				is_theocracy = yes
-				trait = zealot
 			}
 		}
 	}
