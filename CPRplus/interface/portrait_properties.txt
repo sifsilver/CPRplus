@@ -1011,9 +1011,17 @@
 				graphical_culture = westafricangfx
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
+				graphical_culture = arabicgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = levantinegfx
+				graphical_culture = copticgfx
 				AND = {
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
+				}
+				AND = {
+					graphical_culture = turkishgfx
+					NOT = { religion_group = pagan_group }
 				}
 				trait = desert_father
 			}
@@ -1036,9 +1044,17 @@
 				graphical_culture = westafricangfx
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
+				graphical_culture = arabicgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = levantinegfx
+				graphical_culture = copticgfx
 				AND = {
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
+				}
+				AND = {
+					graphical_culture = turkishgfx
+					NOT = { religion_group = pagan_group }
 				}
 			}
 		}
@@ -1594,6 +1610,24 @@
 		#	}
 		#}
 		modifier = {
+			factor = 0.1
+			is_female = no
+			NOT = {
+				age = 50
+			}
+			OR = {
+				graphical_culture = arabicgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = levantinegfx
+				graphical_culture = copticgfx
+				AND = {
+					graphical_culture = turkishgfx
+					NOT = { religion_group = pagan_group }
+				}
+			}
+			NOT = { trait = desert_father }
+		}
+		modifier = {
 			factor = 0
 			trait = monk
 			OR = {
@@ -1617,10 +1651,30 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = arabicgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = levantinegfx
+				graphical_culture = copticgfx
+				AND = {
+					graphical_culture = turkishgfx
+					NOT = { religion_group = pagan_group }
+				}
+			}
 		}
 		modifier = {
 			factor = 0
 			trait = desert_father
+			NOR = {
+				graphical_culture = arabicgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = levantinegfx
+				graphical_culture = copticgfx
+				AND = {
+					graphical_culture = turkishgfx
+					NOT = { religion_group = pagan_group }
+				}
+			}
 		}
 	}
 	

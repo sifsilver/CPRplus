@@ -1146,7 +1146,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# turkish female midage
@@ -1197,7 +1197,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# turkish female oldage
@@ -1248,7 +1248,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 	
 }

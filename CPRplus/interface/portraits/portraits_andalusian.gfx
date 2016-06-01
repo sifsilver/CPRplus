@@ -418,7 +418,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	# middle age
@@ -476,7 +476,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	# old age
@@ -534,7 +534,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	portraitType = {
@@ -764,7 +764,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# andalusian female midage
@@ -819,7 +819,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# andalusian female oldage
@@ -876,7 +876,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 	
 	portraitType = {

@@ -67,7 +67,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	# middle age
@@ -118,7 +118,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	# old age
@@ -169,7 +169,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 
 #### Silk Road FEMALE ####
@@ -218,7 +218,7 @@ spriteTypes = {
 			{ 74 120 182}
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# Silk Road female midage
@@ -265,7 +265,7 @@ spriteTypes = {
 			{ 74 120 182}
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# Silk Road female oldage
@@ -312,7 +312,7 @@ spriteTypes = {
 			{ 74 120 182}
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	

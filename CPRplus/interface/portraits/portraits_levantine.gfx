@@ -434,7 +434,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	# middle age
@@ -499,7 +499,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 	# old age
@@ -564,7 +564,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 
 #### Levantine FEMALE ####
@@ -630,7 +630,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# Levantine female midage
@@ -692,7 +692,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# Levantine female oldage
@@ -755,7 +755,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}		
 	
 }

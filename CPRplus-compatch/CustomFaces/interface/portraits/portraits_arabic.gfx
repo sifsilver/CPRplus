@@ -53,7 +53,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 
 	# Muslim male midage
@@ -105,7 +105,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 
 	# Muslim male oldage
@@ -157,7 +157,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 9 10 }
 	}
 	
 ### MUSLIM FEMALE ####
@@ -209,7 +209,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# arabic female midage
@@ -259,7 +259,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# arabic female oldage
@@ -309,7 +309,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 8 10 }
 	}
 	
 }

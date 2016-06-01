@@ -411,7 +411,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# Bulgar female midage
@@ -465,7 +465,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 
 	# Bulgar female oldage
@@ -518,7 +518,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 8 10 }
 	}
 	
 	portraitType = {
