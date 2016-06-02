@@ -930,7 +930,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 	# andalusian female midage
@@ -985,7 +985,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 	# andalusian female oldage
@@ -1042,6 +1042,6 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 }

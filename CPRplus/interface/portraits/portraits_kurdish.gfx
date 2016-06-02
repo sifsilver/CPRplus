@@ -558,7 +558,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 	# kurdish female midage
@@ -609,7 +609,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 	# kurdish female oldage
@@ -661,7 +661,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 }
