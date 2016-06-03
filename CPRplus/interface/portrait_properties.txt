@@ -5651,7 +5651,13 @@
 			factor = 0
 			OR = {
 				trait = nun
-				k_papal_state = { current_heir = { character = ROOT } }
+				AND = {
+					has_character_flag = cardinal
+					NOR = {
+						has_landed_title = k_papal_state
+						has_landed_title = d_fraticelli
+					}
+				}
 			}
 			NOR = {
 				in_command = yes
@@ -5694,7 +5700,14 @@
 		modifier = {
 			factor = 0
 			NOT = {
-				k_papal_state = { current_heir = { character = ROOT } }
+				has_character_flag = cardinal
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
 			}
 		}
 		modifier = {
