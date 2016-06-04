@@ -1,0 +1,11 @@
+CPRplus is compatible with two overhaul mods listed below, but you must make sure to provide a compatibility measure
+(If you installed CPRplus through the HIP installer, no further step is necessary for using CPRplus with Historical Immersion Project)
+
+Patch for CK2 Plus: https://forum.paradoxplaza.com/forum/index.php?threads/sub-mod-viet.802186/
+Patch for Historical Immersion Project: (installing CPRplus from the HIP installer recommended): https://forum.paradoxplaza.com/forum/index.php?threads/historical-immersion-project-download-faq.748775/
+
+In addition to other overhaul and portrait mods,  CPRplus is not compatible with mods that modify the following files:
+
+- common/religious_titles/00_religious_titles.txt
+
+Feel free to post in the CPRplus thread in the Paradox forums for help!
