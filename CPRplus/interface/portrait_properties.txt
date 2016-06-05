@@ -4071,7 +4071,7 @@
 		#Prevent Guanche from having turbans
 		modifier = {
 			factor = 0
-			graphical_culture = guanchegfx
+			culture = canarian
 			is_female = no
 		}
 	}
@@ -4206,6 +4206,56 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { higher_real_tier_than = baron }
+			NOT = { real_tier = baron }
+			OR = {
+				is_married = no
+				spouse = {
+					NOR = {
+						higher_real_tier_than = baron
+						real_tier = baron
+					}
+				}
+			}
+			NOT = { trait = monk }
+			NOR = {
+				AND = {
+					year = 950
+					OR = {
+						AND = {
+							culture_group = central_germanic
+							NOR = {
+								culture = visigothic
+								culture = suebi
+							}
+						}
+						culture_group = west_germanic
+						AND = {
+							culture_group = latin
+							NOT = {
+								culture = italian
+							}
+						}
+						culture = occitan
+						culture = ligurian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = south_slavic
+					}
+				}
+				AND = {
+					religion_group = christian
+					OR = {
+						culture_group = magyar
+						culture_group = north_germanic
+						culture_group = baltic
+						culture = livonian
+					}
+				}
+			}
+		}			
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -4233,6 +4283,22 @@
 			OR = {
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
+				AND = {
+					NOT = { higher_real_tier_than = baron }
+					NOT = { real_tier = baron }
+					OR = {
+						is_married = no
+						spouse = {
+							OR = {
+								AND = {
+									NOT = { higher_real_tier_than = baron }
+									NOT = { real_tier = baron }
+								}
+								higher_real_tier_than = count
+							}
+						}
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
@@ -4359,7 +4425,7 @@
 		#Prevent Guanche from having turbans
 		modifier = {
 			factor = 0
-			graphical_culture = guanchegfx
+			culture = canarian
 			is_female = no
 		}
 	}
