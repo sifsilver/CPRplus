@@ -17,6 +17,12 @@ north_germanic = {
 	danish = {
 		graphical_cultures = { norsegfx }
 	}
+	gothic = {
+		graphical_cultures = { norsegfx }
+	}
+	icelandic = {
+		graphical_cultures = { norsegfx }
+	}
 	norsegaelic = { #Gall-Ghàidheil
 		graphical_cultures = { norsegaelgfx celticgfx }
 	}
