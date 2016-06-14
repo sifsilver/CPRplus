@@ -1024,6 +1024,13 @@
 					NOT = { religion_group = pagan_group }
 				}
 				trait = desert_father
+				AND = {
+					has_character_flag = cardinal
+					NOR = {
+						has_landed_title = k_papal_state
+						has_landed_title = d_fraticelli
+					}
+				}
 			}
 		}
 		#modifier = {
@@ -1152,6 +1159,14 @@
 		}
 		modifier = {
 			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = desert_father
 		}
 	}
@@ -1201,6 +1216,14 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1256,6 +1279,14 @@
 		}
 		modifier = {
 			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = desert_father
 		}
 	}
@@ -1276,6 +1307,13 @@
 				graphical_culture = dutchgfx
 			}
 			NOT = { trait = desert_father }
+			NOT = {
+				has_character_flag = cardinal
+				NOR = {
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+				}
+			}
 		}
 		
 		modifier = { # Norman modified bowl cut
@@ -1351,6 +1389,20 @@
 				graphical_culture = dutchgfx
 			}
 		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+			NOR = {
+				graphical_culture = norsegfx
+				graphical_culture = crimeangothicgfx
+				graphical_culture = saxongfx
+				graphical_culture = dutchgfx
+			}
+		}
 	}
 
 	5 = { # Long Curly
@@ -1386,6 +1438,13 @@
 				graphical_culture = westafricangfx
 			}
 			NOT = { trait = desert_father }
+			NOT = {
+				has_character_flag = cardinal
+				NOR = {
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1411,6 +1470,19 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+			}
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 			NOR = {
 				graphical_culture = ethiopiangfx
 				graphical_culture = guanchegfx
@@ -1507,6 +1579,13 @@
 				}
 			}
 			NOT = { trait = desert_father }
+			NOT = {
+				has_character_flag = cardinal
+				NOR = {
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1532,6 +1611,22 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = celticgfx
+				graphical_culture = norsegaelgfx
+				AND = {
+					graphical_culture = bretongfx
+					NOT = { year = 950 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 			NOR = {
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
@@ -1626,6 +1721,13 @@
 				}
 			}
 			NOT = { trait = desert_father }
+			NOT = {
+				has_character_flag = cardinal
+				NOR = {
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1651,6 +1753,24 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = arabicgfx
+				graphical_culture = kurdishgfx
+				graphical_culture = levantinegfx
+				graphical_culture = copticgfx
+				AND = {
+					graphical_culture = turkishgfx
+					NOT = { religion_group = pagan_group }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 			NOR = {
 				graphical_culture = arabicgfx
 				graphical_culture = kurdishgfx
@@ -1707,6 +1827,14 @@
 		}
 		modifier = {
 			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = desert_father
 		}
 	}
@@ -1747,6 +1875,13 @@
 				graphical_culture = westafricangfx
 			}
 			NOT = { trait = desert_father }
+			NOT = {
+				has_character_flag = cardinal
+				NOR = {
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1772,6 +1907,19 @@
 			factor = 0
 			age = 81
 			is_female = no
+			NOR = {
+				graphical_culture = ethiopiangfx
+				graphical_culture = guanchegfx
+				graphical_culture = westafricangfx
+			}
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 			NOR = {
 				graphical_culture = ethiopiangfx
 				graphical_culture = guanchegfx
@@ -1842,6 +1990,14 @@
 		}
 		modifier = {
 			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = desert_father
 		}
 	}
@@ -1872,6 +2028,14 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1927,6 +2091,14 @@
 		}
 		modifier = {
 			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = desert_father
 		}
 	}
@@ -1957,6 +2129,14 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2000,6 +2180,14 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5715,19 +5903,18 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = nun
-				AND = {
-					has_character_flag = cardinal
-					NOR = {
-						has_landed_title = k_papal_state
-						has_landed_title = d_fraticelli
-					}
-				}
-			}
+			trait = nun
 			NOR = {
 				in_command = yes
 				prisoner = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = cardinal
+			NOR = {
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
 			}
 		}
 	}
@@ -5776,13 +5963,13 @@
 				has_landed_title = d_fraticelli
 			}
 		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	in_command = yes
+		#}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 	}
 }
