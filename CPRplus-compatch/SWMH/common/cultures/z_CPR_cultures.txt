@@ -282,7 +282,7 @@ altaic = {
 		graphical_cultures = {bulgargfx turkishgfx}
 	}	
 	avar = { 
-		graphical_cultures = {steppegfx turkishgfx easterngfx }
+		graphical_cultures = {hungariangfx turkishgfx easterngfx }
 	}
 	karluk = {
 		graphical_cultures = {centralasiangfx turkishgfx}
