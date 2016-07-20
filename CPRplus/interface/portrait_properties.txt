@@ -103,6 +103,22 @@
 				death_reason = death_sacrificed
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = saint
+			has_global_flag = EMF
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_global_flag = EMF }
+			is_alive = no
+			OR = {
+				has_nickname = nick_the_saint
+				has_nickname = nick_the_martyr
+				has_nickname = nick_the_apostle
+				
+			}
+		}
 	}
 
 	3 = { # forest
@@ -191,6 +207,22 @@
 			is_alive = yes
 			prisoner = no
 		}
+		modifier = {
+			factor = 0
+			trait = saint
+			has_global_flag = EMF
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_global_flag = EMF }
+			is_alive = no
+			OR = {
+				has_nickname = nick_the_saint
+				has_nickname = nick_the_martyr
+				has_nickname = nick_the_apostle
+				
+			}
+		}
 	}
 	5 = { # tavern - changed to tundra/snow
 		factor = 2
@@ -240,6 +272,22 @@
 					is_alive = no
 					NOT = { death_reason = death_battle }
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = saint
+			has_global_flag = EMF
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_global_flag = EMF }
+			is_alive = no
+			OR = {
+				has_nickname = nick_the_saint
+				has_nickname = nick_the_martyr
+				has_nickname = nick_the_apostle
+				
 			}
 		}
 		#modifier = {
@@ -955,37 +1003,25 @@
 		}
 	}
 	
-	26 = { # African Savanna 2 - changed to African dune
-		factor = 2
+	26 = { # African Savanna 2 - changed to African dune - changed to saint
+		factor = 100
 		modifier = {
 			factor = 0
-			location = {
-				NOT = { region = world_africa }
-			}
-		}
-		modifier = {
-			factor = 1.5
-			location = { region = world_africa_west }
+			is_alive = yes
 		}
 		modifier = {
 			factor = 0
-			location = { terrain = mountain }
+			has_global_flag = EMF
+			NOT = { trait = saint }
 		}
 		modifier = {
 			factor = 0
-			location = {
-				region = world_africa_north
-				NOT = { terrain = desert }
-			}
-		}
-		modifier = {
-			factor = 0
-			siege = { is_attacker = no }
-		}
-		modifier = {
-			factor = 2
-			location = {
-				holding_type = nomad
+			NOT = { has_global_flag = EMF }
+			NOR = {
+				has_nickname = nick_the_saint
+				has_nickname = nick_the_martyr
+				has_nickname = nick_the_apostle
+				
 			}
 		}
 	}
