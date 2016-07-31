@@ -690,7 +690,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# frankish female midage
@@ -755,7 +755,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# frankish female oldage
@@ -821,7 +821,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 ########## frankish MALES ##########
