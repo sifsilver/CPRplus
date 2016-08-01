@@ -579,7 +579,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Central Asian female midage
@@ -633,7 +633,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Central Asian female oldage
@@ -681,7 +681,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	portraitType = {
@@ -734,7 +734,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Central Asian female midage
@@ -788,7 +788,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Central Asian female oldage
@@ -836,7 +836,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }

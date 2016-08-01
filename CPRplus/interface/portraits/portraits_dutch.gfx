@@ -688,7 +688,7 @@ spriteTypes = {
 			{ 34 103 36 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# dutch female midage
@@ -748,7 +748,7 @@ spriteTypes = {
 			{ 34 103 36 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# dutch female oldage
@@ -809,5 +809,5 @@ spriteTypes = {
 			{ 34 103 36 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}

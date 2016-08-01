@@ -971,7 +971,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Baltic Christian female midage
@@ -1026,7 +1026,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Baltic Christian female oldage
@@ -1077,6 +1077,6 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 }

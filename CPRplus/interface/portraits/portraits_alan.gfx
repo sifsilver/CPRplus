@@ -240,7 +240,7 @@ spriteTypes = {
 			{ 56 80 57 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Alan female midage
@@ -292,7 +292,7 @@ spriteTypes = {
 			{ 56 80 57 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Alan female oldage
@@ -345,7 +345,7 @@ spriteTypes = {
 			{ 56 80 57 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	

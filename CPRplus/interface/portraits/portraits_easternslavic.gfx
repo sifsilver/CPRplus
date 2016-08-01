@@ -974,7 +974,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# easternslavic female midage
@@ -1028,7 +1028,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# easternslavic female oldage
@@ -1080,7 +1080,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	portraitType = {

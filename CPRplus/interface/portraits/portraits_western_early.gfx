@@ -60,7 +60,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# middle age
@@ -120,7 +120,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# old age
@@ -179,7 +179,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 ###WESTERN FEMALE SPRITE ORDER###

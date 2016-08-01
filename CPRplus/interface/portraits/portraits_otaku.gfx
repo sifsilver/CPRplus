@@ -262,7 +262,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Otaku female midage
@@ -323,7 +323,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Otaku female oldage
@@ -372,7 +372,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }

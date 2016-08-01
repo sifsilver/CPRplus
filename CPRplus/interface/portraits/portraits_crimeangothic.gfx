@@ -363,7 +363,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear:d7"			
 			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_byzantine_female_hair:p1:o-1x1:h:y" 
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
@@ -391,7 +391,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# norse female midage
@@ -417,7 +417,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear_midage:d7"		
 			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_byzantine_female_hair_midage:p1:o-1x1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
@@ -445,7 +445,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# norse female oldage
@@ -471,7 +471,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_norse_female_ear_oldage:d7"		
 			"GFX_easternslavic_female_clothes:p3:o3x1:c2"
-			"GFX_empty:p5:c3"
+			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_byzantine_female_hair_oldage:p1:o-1x1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
@@ -493,7 +493,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	portraitType = {
@@ -546,7 +546,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# norse female midage
@@ -600,7 +600,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# norse female oldage
@@ -648,6 +648,6 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 }

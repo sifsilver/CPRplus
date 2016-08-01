@@ -222,7 +222,7 @@ spriteTypes = {
 			{ 150 193 200 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Western female midage
@@ -274,7 +274,7 @@ spriteTypes = {
 			{ 150 193 200 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Western female oldage
@@ -325,7 +325,7 @@ spriteTypes = {
 			{ 150 193 200 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }

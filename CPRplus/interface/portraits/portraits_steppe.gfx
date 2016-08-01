@@ -769,7 +769,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Steppe female midage
@@ -828,7 +828,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Steppe female oldage
@@ -876,7 +876,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# Steppe Male
@@ -1106,7 +1106,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Steppe female midage
@@ -1165,7 +1165,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Steppe female oldage
@@ -1213,7 +1213,7 @@ spriteTypes = {
 			{ 36 32 24 }
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }

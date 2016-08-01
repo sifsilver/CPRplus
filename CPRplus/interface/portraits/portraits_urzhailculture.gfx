@@ -292,7 +292,7 @@ spriteTypes = {
 			{ 93 57 35 } #Light Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Western female midage
@@ -361,7 +361,7 @@ spriteTypes = {
 			{ 93 57 35 } #Light Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Western female oldage
@@ -431,7 +431,7 @@ spriteTypes = {
 			{ 93 57 35 } #Light Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	############################
@@ -500,7 +500,7 @@ spriteTypes = {
 			{ 93 57 35 } #Light Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# middle age
@@ -567,7 +567,7 @@ spriteTypes = {
 			{ 93 57 35 } #Light Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# old age
@@ -637,7 +637,7 @@ spriteTypes = {
 			{ 93 57 35 } #Light Brown
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Western female
