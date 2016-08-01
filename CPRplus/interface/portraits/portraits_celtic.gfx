@@ -577,7 +577,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# middle age
@@ -635,7 +635,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# old age
@@ -687,7 +687,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 #### celtic FEMALE ####
