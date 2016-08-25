@@ -5,14 +5,14 @@ spriteTypes = {
 
 	spriteType = {
 		name = "PORTRAIT_somaligfx_child_male"
-		texturefile = "gfx\\characters\\default_son_african.tga"
+		texturefile = "gfx\\characters\\default_son_westafrican.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "PORTRAIT_somaligfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_african.tga"
+		texturefile = "gfx\\characters\\default_daughter_westafrican.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
@@ -52,7 +52,7 @@ spriteTypes = {
 			"GFX_ethiopian_male_mouth:d2"
 			"GFX_ethiopian_male_nose:d3"
 			"GFX_ethiopian_male_eyes:d6"
-			"GFX_african_male_eyes2:d6:e"
+			"GFX_westafrican_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -101,7 +101,7 @@ spriteTypes = {
 			"GFX_ethiopian_male_mouth_midage:d2"
 			"GFX_ethiopian_male_nose_midage:d3"
 			"GFX_ethiopian_male_eyes_midage:d6"
-			"GFX_african_male_eyes2:d6:e"
+			"GFX_westafrican_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -150,7 +150,7 @@ spriteTypes = {
 			"GFX_ethiopian_male_mouth_oldage:d2"
 			"GFX_ethiopian_male_nose_oldage:d3"
 			"GFX_ethiopian_male_eyes_oldage:d6"
-			"GFX_african_male_eyes2:d6:e"
+			"GFX_westafrican_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -203,7 +203,7 @@ spriteTypes = {
 			"GFX_ethiopian_female_chin:d1"
 			"GFX_ethiopian_female_cheeks:d4"
 			"GFX_ethiopian_female_eyes:d6"
-			"GFX_african_female_eyes2:d6:e"
+			"GFX_westafrican_female_eyes2:d6:e"
 			"GFX_ethiopian_female_ear:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -247,7 +247,7 @@ spriteTypes = {
 			"GFX_ethiopian_female_chin_midage:d1"
 			"GFX_ethiopian_female_cheeks_midage:d4"
 			"GFX_ethiopian_female_eyes_midage:d6"
-			"GFX_african_female_eyes2:d6:e"
+			"GFX_westafrican_female_eyes2:d6:e"
 			"GFX_ethiopian_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -291,7 +291,7 @@ spriteTypes = {
 			"GFX_ethiopian_female_chin_oldage:d1"
 			"GFX_ethiopian_female_cheeks_oldage:d4"
 			"GFX_ethiopian_female_eyes_oldage:d6"
-			"GFX_african_female_eyes2:d6:e"
+			"GFX_westafrican_female_eyes2:d6:e"
 			"GFX_ethiopian_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
