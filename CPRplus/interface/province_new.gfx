@@ -320,182 +320,182 @@ spriteTypes = {
 	# Berbers
 
 	spriteType = {
-		name = "GFX_settlement_castle_berbergfx"
+		name = "GFX_settlement_castle_somaligfx"
 		texturefile = "gfx\\interface\\placeholder_castle_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_city_berbergfx"
+		name = "GFX_settlement_city_somaligfx"
 		texturefile = "gfx\\interface\\placeholder_city_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_westerngfx"
+		name = "GFX_settlement_temple_somaligfx_westerngfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_jewishgfx"
+		name = "GFX_settlement_temple_somaligfx_jewishgfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		
 	spriteType = {
-		name = "GFX_settlement_temple_muslimgfx_berbergfx"
+		name = "GFX_settlement_temple_muslimgfx_somaligfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_norsegfx"
+		name = "GFX_settlement_temple_somaligfx_norsegfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_mongolgfx"
+		name = "GFX_settlement_temple_somaligfx_mongolgfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_mesoamericangfx"
+		name = "GFX_settlement_temple_somaligfx_mesoamericangfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_persiangfx"
+		name = "GFX_settlement_temple_somaligfx_persiangfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_westafricangfx"
+		name = "GFX_settlement_temple_somaligfx_westafricangfx"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		
 	spriteType = {
-		name = "GFX_settlement_castle_berbergfx_looted"
+		name = "GFX_settlement_castle_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_castle_desert_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_city_berbergfx_looted"
+		name = "GFX_settlement_city_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_city_desert_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_westerngfx_looted"
+		name = "GFX_settlement_temple_somaligfx_westerngfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_other_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_temple_westerngfx_berbergfx_looted"
+		name = "GFX_settlement_temple_westerngfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_western_muslim_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_berbergfx_muslimgfx_looted"
+		name = "GFX_settlement_temple_somaligfx_muslimgfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_desert_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_norsegfx_berbergfx_looted"
+		name = "GFX_settlement_temple_norsegfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_norse_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_temple_westafricangfx_berbergfx_looted"
+		name = "GFX_settlement_temple_westafricangfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_west_african_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_persiangfx_berbergfx_looted"
+		name = "GFX_settlement_temple_persiangfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_zoro_other_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_mongolgfx_berbergfx_looted"
+		name = "GFX_settlement_temple_mongolgfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_mongol_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_turkishgfx_berbergfx_looted"
+		name = "GFX_settlement_temple_turkishgfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_mongol_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_ugricgfx_berbergfx_looted"
+		name = "GFX_settlement_temple_ugricgfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_norse_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_easternslavicgfx_berbergfx_looted"
+		name = "GFX_settlement_temple_easternslavicgfx_somaligfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_norse_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_family_palace_berbergfx"
+		name = "GFX_settlement_family_palace_somaligfx"
 		texturefile = "gfx\\interface\\placeholder_palace_desert.tga"
 		noOfFrames = 3
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_trade_post_berbergfx"
+		name = "GFX_settlement_trade_post_somaligfx"
 		texturefile = "gfx\\interface\\placeholder_trade_post_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_new_berbergfx"
+		name = "GFX_settlement_new_somaligfx"
 		texturefile = "gfx\\interface\\province_new_settlement_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_settlement_building_berbergfx"
+		name = "GFX_settlement_building_somaligfx"
 		texturefile = "gfx\\interface\\placeholder_building_settlement_desert.tga"
 		noOfFrames = 1
 		norefcount = yes
