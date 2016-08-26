@@ -492,10 +492,10 @@ west_african = {
 		graphical_cultures = {westafricangfx}
 	}	
 	kanuri = {
-		graphical_cultures = {tuareggfx westafricangfx}
+		graphical_cultures = {southernberbergfx westafricangfx}
 	}
 	hausa = {
-		graphical_cultures = {tuareggfx westafricangfx}
+		graphical_cultures = {southernberbergfx westafricangfx}
 	}
 }
 
@@ -509,7 +509,7 @@ north_african = {
 		graphical_cultures = {maghrebgfx muslimgfx}
 	}
   	tagelmust = {
-		graphical_cultures = {tuareggfx africangfx}
+		graphical_cultures = {southernberbergfx africangfx}
 	}
 	masmuda = {
 		graphical_cultures = {berbergfx muslimgfx}
@@ -518,7 +518,7 @@ north_african = {
 		graphical_cultures = {berbergfx muslimgfx}
 	}
 	tuareg = {
-		graphical_cultures = {tuareggfx africangfx}
+		graphical_cultures = {southernberbergfx africangfx}
 	}
 	canarian = {
 		graphical_cultures = {guanchegfx africangfx}
