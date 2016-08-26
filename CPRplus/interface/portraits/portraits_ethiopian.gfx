@@ -566,21 +566,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ethiopian_female_eyes"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_eyes_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ethiopian_female_eyes_midage"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_eyes_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_ethiopian_female_eyes_oldage"
 		texturefile = "gfx\\characters\\ethiopian_female\\ethiopian_female_eyes_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
