@@ -451,28 +451,28 @@ east_african = {
 	graphical_cultures = {muslimgfx} 
        
 	ethiopian = {
-		graphical_cultures = {ethiopiangfx africangfx}
+		graphical_cultures = {africangfx westafricangfx}
 	}
     somali = {
-		graphical_cultures = {somaligfx africangfx}
+		graphical_cultures = {somaligfx africangfx westafricangfx}
 	}
   	afar = {
-		graphical_cultures = {bejagfx africangfx}
+		graphical_cultures = {bejagfx africangfx westafricangfx}
 	}
 	daju = {
-		graphical_cultures = {bejagfx africangfx}
+		graphical_cultures = {bejagfx africangfx westafricangfx}
 	}
 	beja = {
-		graphical_cultures = {bejagfx africangfx}
+		graphical_cultures = {bejagfx africangfx westafricangfx}
 	}
 	zaghawa = {
-		graphical_cultures = {somaligfx africangfx}
+		graphical_cultures = {somaligfx africangfx westafricangfx}
 	}
 	coptic = {
 		graphical_cultures = {copticgfx muslimgfx}
 	}
 	nubian = {
-		graphical_cultures = {ethiopiangfx africangfx} #muslimgfx 
+		graphical_cultures = {africangfx westafricangfx} #muslimgfx 
 	}
 }
 
@@ -492,10 +492,10 @@ west_african = {
 		graphical_cultures = {westafricangfx}
 	}	
 	kanuri = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {tuareggfx westafricangfx}
 	}
 	hausa = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {tuareggfx westafricangfx}
 	}
 }
 
@@ -509,7 +509,7 @@ north_african = {
 		graphical_cultures = {maghrebgfx muslimgfx}
 	}
   	tagelmust = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {tuareggfx africangfx}
 	}
 	masmuda = {
 		graphical_cultures = {berbergfx muslimgfx}
@@ -518,7 +518,7 @@ north_african = {
 		graphical_cultures = {berbergfx muslimgfx}
 	}
 	tuareg = {
-		graphical_cultures = {africangfx}
+		graphical_cultures = {tuareggfx africangfx}
 	}
 	canarian = {
 		graphical_cultures = {guanchegfx africangfx}
@@ -535,7 +535,7 @@ israelite = {
 		graphical_cultures = {andalusiangfx southerngfx}
 	}
   	falashim = { #Beta-Israel, originally compiled by Frostschaden, many more names added by cybrxkhan, some added and changed by elvain
-        graphical_cultures = {ethiopiangfx africangfx muslimgfx}
+        graphical_cultures = { africangfx muslimgfx}
 	}
 }
 

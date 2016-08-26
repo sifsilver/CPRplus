@@ -630,6 +630,48 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "GFX_maghreb_female_hair"
+		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_hair_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_maghreb_female_hair_midage"
+		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_hair_2.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_maghreb_female_hair_oldage"
+		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_hair_3.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_maghreb_female_hair_behind"
+		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_hair_behind_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_maghreb_female_hair_behind_midage"
+		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_hair_behind_2.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_maghreb_female_hair_behind_oldage"
+		texturefile = "gfx\\characters\\maghreb_female\\maghreb_female_hair_behind_3.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
@@ -641,7 +683,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
-			"GFX_ethiopian_female_hair_behind:p1:y" 
+			"GFX_maghreb_female_hair_behind:p1:y" 
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
 			"GFX_maghreb_female_chin:d1"
@@ -657,7 +699,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_ethiopian_female_hair:p1:y"  
+			"GFX_maghreb_female_hair:p1:y"  
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -690,7 +732,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
-			"GFX_ethiopian_female_hair_behind_midage:p1:y"
+			"GFX_maghreb_female_hair_behind_midage:p1:y"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
 			"GFX_maghreb_female_chin_midage:d1"
@@ -706,7 +748,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_ethiopian_female_hair_midage:p1:y"
+			"GFX_maghreb_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -739,7 +781,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
-			"GFX_ethiopian_female_hair_behind_oldage:p1:y"
+			"GFX_maghreb_female_hair_behind_oldage:p1:y"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
 			"GFX_maghreb_female_chin_oldage:d1"
@@ -755,7 +797,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_ethiopian_female_hair_oldage:p1:y"
+			"GFX_maghreb_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -942,7 +984,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind_early:p3:c0"
 			"GFX_maghreb_female_headgear_behind_early:p5:c1"
-			"GFX_ethiopian_female_hair_behind:p1:y" 
+			"GFX_maghreb_female_hair_behind:p1:y" 
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
 			"GFX_maghreb_female_chin:d1"
@@ -958,7 +1000,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_ethiopian_female_hair:p1:y"  
+			"GFX_maghreb_female_hair:p1:y"  
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -991,7 +1033,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind_early:p3:c0"
 			"GFX_maghreb_female_headgear_behind_early:p5:c1"
-			"GFX_ethiopian_female_hair_behind_midage:p1:y"
+			"GFX_maghreb_female_hair_behind_midage:p1:y"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
 			"GFX_maghreb_female_chin_midage:d1"
@@ -1007,7 +1049,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_ethiopian_female_hair_midage:p1:y"
+			"GFX_maghreb_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -1040,7 +1082,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind_early:p3:c0"
 			"GFX_maghreb_female_headgear_behind_early:p5:c1"
-			"GFX_ethiopian_female_hair_behind_oldage:p1:y"
+			"GFX_maghreb_female_hair_behind_oldage:p1:y"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
 			"GFX_maghreb_female_chin_oldage:d1"
@@ -1056,7 +1098,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_ethiopian_female_hair_oldage:p1:y"
+			"GFX_maghreb_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_maghreb_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}

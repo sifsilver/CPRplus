@@ -25,7 +25,7 @@ bretongfx = {
 bohemiangfx = {
 	skin_tone = 0
 }
-ethiopiangfx = {
+southernberbergfx = {
 	skin_tone = 3
 }
 guanchegfx = {

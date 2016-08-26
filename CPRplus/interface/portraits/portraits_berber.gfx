@@ -26,7 +26,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_ethiopian_male_clothes_behind:p3:c0"
-			"GFX_african_male_headgear_behind_christian:p5:c1"
+			"GFX_westafrican_male_headgear_behind_christian:p5:c1"
 			"GFX_maghreb_male_hair_behind:p1:h:y"
 			"GFX_maghreb_male_beard_behind:p4:y"
 			"GFX_maghreb_male_base:p2"
@@ -47,7 +47,7 @@ spriteTypes = {
 			"GFX_maghreb_male_beard:p4:y"
 		   	"GFX_maghreb_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_african_male_headgear_christian:p5:c5"
+			"GFX_westafrican_male_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -73,7 +73,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_ethiopian_male_clothes_behind:p3:c0"
-			"GFX_african_male_headgear_behind_christian:p5:c1"
+			"GFX_westafrican_male_headgear_behind_christian:p5:c1"
 			"GFX_maghreb_male_hair_behind_midage:p1:h:y"
 			"GFX_maghreb_male_beard_behind_midage:p4:y"
 			"GFX_maghreb_male_base_midage:p2"
@@ -94,7 +94,7 @@ spriteTypes = {
 			"GFX_maghreb_male_beard_midage:p4:y"
 			"GFX_maghreb_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_african_male_headgear_christian:p5:c5"
+			"GFX_westafrican_male_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -120,7 +120,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_ethiopian_male_clothes_behind:p3:c0"
-			"GFX_african_male_headgear_behind_christian:p5:c1"
+			"GFX_westafrican_male_headgear_behind_christian:p5:c1"
 			"GFX_maghreb_male_hair_behind_oldage:p1:h:y"
 			"GFX_maghreb_male_beard_behind_oldage:p4:y"
 			"GFX_maghreb_male_base_oldage:p2"
@@ -141,7 +141,7 @@ spriteTypes = {
 			"GFX_maghreb_male_beard_oldage:p4:y"
 			"GFX_maghreb_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_african_male_headgear_christian:p5:c5"
+			"GFX_westafrican_male_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -171,8 +171,8 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_ethiopian_female_clothes_behind:p3:c0"
-			"GFX_african_female_headgear_behind_christian:p5:c1"
-			"GFX_ethiopian_female_hair_behind:p1:y" 
+			"GFX_westafrican_female_headgear_behind_christian:p5:c1"
+			"GFX_maghreb_female_hair_behind:p1:y" 
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
 			"GFX_maghreb_female_chin:d1"
@@ -188,9 +188,9 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_ethiopian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_ethiopian_female_hair:p1:y"  
+			"GFX_maghreb_female_hair:p1:y"  
 			"GFX_empty:p3:c4"
-			"GFX_african_female_headgear_christian:p5:c5"
+			"GFX_westafrican_female_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -218,8 +218,8 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_ethiopian_female_clothes_behind:p3:c0"
-			"GFX_african_female_headgear_behind_christian:p5:c1"
-			"GFX_ethiopian_female_hair_behind_midage:p1:y"
+			"GFX_westafrican_female_headgear_behind_christian:p5:c1"
+			"GFX_maghreb_female_hair_behind_midage:p1:y"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
 			"GFX_maghreb_female_chin_midage:d1"
@@ -235,9 +235,9 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_ethiopian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_ethiopian_female_hair_midage:p1:y"
+			"GFX_maghreb_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_african_female_headgear_christian:p5:c5"
+			"GFX_westafrican_female_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
@@ -265,8 +265,8 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_ethiopian_female_clothes_behind:p3:c0"
-			"GFX_african_female_headgear_behind_christian:p5:c1"
-			"GFX_ethiopian_female_hair_behind_oldage:p1:y"
+			"GFX_westafrican_female_headgear_behind_christian:p5:c1"
+			"GFX_maghreb_female_hair_behind_oldage:p1:y"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
 			"GFX_maghreb_female_chin_oldage:d1"
@@ -282,9 +282,9 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_ethiopian_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_ethiopian_female_hair_oldage:p1:y"
+			"GFX_maghreb_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_african_female_headgear_christian:p5:c5"
+			"GFX_westafrican_female_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8

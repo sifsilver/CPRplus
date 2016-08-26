@@ -342,15 +342,15 @@ east_african = {
 	graphical_cultures = { muslimgfx }
 
 	ethiopian = {
-		graphical_cultures = { ethiopiangfx africangfx }
+		graphical_cultures = { africangfx westafricangfx }
 	}
 	
 	somali = {
-		graphical_cultures = { somaligfx africangfx }
+		graphical_cultures = { somaligfx africangfx westafricangfx }
 	}
 	
 	nubian = {
-		graphical_cultures = { ethiopiangfx africangfx }
+		graphical_cultures = { africangfx westafricangfx }
 	}
 }
 
