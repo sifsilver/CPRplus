@@ -416,7 +416,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# middle age
@@ -464,7 +464,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# old age
@@ -512,7 +512,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { }
 	}
 
 	#### westafrican FEMALE ####
@@ -811,7 +811,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { }
 	}
 
 	# westafrican female midage
@@ -856,7 +856,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { }
 	}
 
 	# westafrican female oldage
@@ -901,7 +901,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { }
 	}
 	
 	############## West westafrican Christian/westafrican ##########################
