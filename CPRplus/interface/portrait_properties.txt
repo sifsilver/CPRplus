@@ -5952,37 +5952,39 @@
 				has_landed_title = k_papal_state
 				has_landed_title = d_fraticelli
 			}
-			NOT = {
-				in_command = yes
-				religion_group = christian
-				OR = {
-					culture_group = north_germanic
-					culture_group = central_germanic
-					culture_group = west_germanic
-					culture_group = latin
-					culture_group = iberian
-					culture_group = celtic
-					culture_group = west_slavic
-					culture_group = magyar
-					culture_group = baltic
-					AND = {
-						culture_group = south_slavic
-						NOT = { culture = bulgarian }
+			NOR = {
+				AND = {
+					in_command = yes
+					year = 950
+					OR = {
+						AND = {
+							has_global_flag = EMF
+							combat_rating = 5
+						}
+						AND = {
+							NOT = { has_global_flag = EMF }
+							combat_rating = 3
+						}
 					}
-					culture_group = italian_group
+					religion_group = christian
+					OR = {
+						culture_group = north_germanic
+						culture_group = central_germanic
+						culture_group = west_germanic
+						culture_group = latin
+						culture_group = iberian
+						culture_group = celtic
+						culture_group = west_slavic
+						culture_group = magyar
+						culture_group = baltic
+						AND = {
+							culture_group = south_slavic
+							NOT = { culture = bulgarian }
+						}
+						culture_group = italian_group
+					}
 				}
-				prisoner = no
-				year = 950
-				OR = {
-					AND = {
-						has_global_flag = EMF
-						combat_rating = 5
-					}
-					AND = {
-						NOT = { has_global_flag = EMF }
-						combat_rating = 3
-					}
-				}
+				prisoner = yes
 			}
 		}
 	}
@@ -6034,6 +6036,17 @@
 		modifier = {
 			factor = 0
 			in_command = yes
+			year = 950
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
 			religion_group = christian
 			OR = {
 				culture_group = north_germanic
@@ -6051,27 +6064,11 @@
 				}
 				culture_group = italian_group
 			}
-			prisoner = no
-			year = 950
-			OR = {
-				AND = {
-					has_global_flag = EMF
-					combat_rating = 5
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					combat_rating = 3
-				}
-			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	in_command = yes
-		#}
-		#modifier = {
-		#	factor = 0
-		#	prisoner = yes
-		#}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
 	}
 }
 
