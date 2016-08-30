@@ -6505,6 +6505,7 @@
 			factor = 0
 			trait = one_eyed
 			NOT = { has_character_modifier = glass_eye }
+			NOT = { trait = blinded }
 		}
 	}
 
@@ -6517,6 +6518,10 @@
 				has_character_modifier = glass_eye
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	2 = { # eyepatch 2 - red leather
@@ -6527,6 +6532,10 @@
 				NOT = { trait = one_eyed }
 				has_character_modifier = glass_eye
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
 		}
 	}
 	
@@ -6552,6 +6561,10 @@
 				trait = possessed
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	4 = { # eyepatch 4 - red
@@ -6562,6 +6575,10 @@
 				NOT = { trait = one_eyed }
 				has_character_modifier = glass_eye
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
 		}
 	}
 	
@@ -6581,6 +6598,10 @@
 				is_theocracy = yes
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	6 = { # eyepatch 6 - blue rag
@@ -6599,6 +6620,10 @@
 				religion = tengri_pagan_reformed
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	7 = { # eyepatch 7 - green rag
@@ -6614,6 +6639,10 @@
 			factor = 2
 			religion_group = muslim
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	8 = { # eyepatch 8 - red rag
@@ -6624,6 +6653,10 @@
 				NOT = { trait = one_eyed }
 				has_character_modifier = glass_eye
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
 		}
 	}
 	
@@ -6655,6 +6688,10 @@
 			factor = 2
 			martial = 12
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	10 = { # eyepatch 10 - tartan rag
@@ -6668,6 +6705,10 @@
 				}
 				has_character_modifier = glass_eye
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
 		}
 	}
 	
@@ -6689,6 +6730,10 @@
 				trait = stubborn
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = blinded
+		}
 	}
 	
 	12 = { # eyepatch 12 - scarred eye 2
@@ -6708,6 +6753,10 @@
 				is_nomadic = yes
 				trait = stubborn
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = blinded
 		}
 	}
 }
