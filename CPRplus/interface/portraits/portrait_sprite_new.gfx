@@ -3,6 +3,20 @@ spriteTypes = {
 ### WESTERN MALE ####
 
 	spriteType = {
+		name = "PORTRAIT_germangfx_child_male"
+		texturefile = "gfx\\characters\\default_son.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_germangfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
 		name = "GFX_german_male_base"
 		texturefile = "gfx\\characters\\german_male\\german_male_base_1.dds"
 		noOfFrames = 1
@@ -426,6 +440,22 @@ spriteTypes = {
 	}
 	
 	### MUSLIM MALE ####
+	
+	spriteType = {
+		name = "PORTRAIT_arabicgfx_child_male"
+		texturefile = "gfx\\characters\\default_son_muslim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_arabicgfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_muslim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
 
 	spriteType = {
 		name = "GFX_arabic_male_base"
