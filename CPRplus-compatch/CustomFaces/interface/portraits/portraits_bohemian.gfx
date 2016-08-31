@@ -43,10 +43,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_german_male_ear:d7:o27x54"		
 			"GFX_easternslavic_male_beard:p4:o-2x1:h:y"
 		   	"GFX_ugric_male_hair:p1:h:y:o0x-2"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
@@ -95,10 +97,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"							#20
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_german_male_ear_midage:d7:o27x54"						#15
 			"GFX_easternslavic_male_beard_midage:p4:o-2x1:h:y"
 			"GFX_ugric_male_hair_midage:p1:h:y:o0x-2"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
@@ -148,10 +152,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_german_male_ear_oldage:d7:o25x51"
 			"GFX_easternslavic_male_beard_oldage:p4:o-2x1:h:y"
 			"GFX_ugric_male_hair_oldage:p1:h:y:o0x-2"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
@@ -199,11 +205,13 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear:d7:o27x54"		
 			"GFX_easternslavic_male_beard:p4:o-2x1:h:y"
 		   	"GFX_ugric_male_hair:p1:h:y:o0x-2"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -251,11 +259,13 @@ spriteTypes = {
 			"GFX_character_reddots:p8"							#20
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear_midage:d7:o27x54"						#15
 			"GFX_easternslavic_male_beard_midage:p4:o-2x1:h:y"
 			"GFX_ugric_male_hair_midage:p1:h:y:o0x-2"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -304,11 +314,13 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear_oldage:d7:o25x51"
 			"GFX_easternslavic_male_beard_oldage:p4:o-2x1:h:y"
 			"GFX_ugric_male_hair_oldage:p1:h:y:o0x-2"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
@@ -360,10 +372,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"                          #17
 			"GFX_character_boils:p9"                            #18
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_female_clothes:p3:c2"                 #12
 			"GFX_german_female_ear:d7:o28x54"                         #13
 			"GFX_western_female_headgear_mid:p5:c3"              #14
 			"GFX_ugric_female_hair:p1:o-2x-1:h:y"                 #15
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"									#19
 			"GFX_westernslavic_female_headgear:p5:c5"                 #20
 			"GFX_character_imprisoned:p6"                       #21
@@ -411,10 +425,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_female_clothes:p3:c2"			
 			"GFX_german_female_ear_midage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3" 
 			"GFX_ugric_female_hair_midage:p1:o-2x-1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -463,10 +479,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_female_clothes:p3:c2"			
 			"GFX_german_female_ear_oldage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3" 
 			"GFX_ugric_female_hair_oldage:p1:o-2x-1:y"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -515,10 +533,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"                          #17
 			"GFX_character_boils:p9"                            #18
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_female_clothes_early:p3:c2"                 #12
 			"GFX_german_female_ear:d7:o28x54"                         #13
 			"GFX_empty:p5:c3"              #14
 			"GFX_ugric_female_hair:p1:o-2x-1:h:y"                 #15
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"									#19
 			"GFX_westernslavic_female_headgear_early:p5:c5"                 #20
 			"GFX_character_imprisoned:p6"                       #21
@@ -566,10 +586,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_female_clothes_early:p3:c2"			
 			"GFX_german_female_ear_midage:d7:o28x54"
 			"GFX_empty:p5:c3" 
 			"GFX_ugric_female_hair_midage:p1:o-2x-1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -618,10 +640,12 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_westernslavic_female_clothes_early:p3:c2"			
 			"GFX_german_female_ear_oldage:d7:o28x54"
 			"GFX_empty:p5:c3" 
 			"GFX_ugric_female_hair_oldage:p1:o-2x-1:y"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
