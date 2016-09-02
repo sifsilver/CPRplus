@@ -198,6 +198,49 @@ spriteTypes = {
 
 #### Somali FEMALE ####
 
+	spriteType = {
+		name = "GFX_somali_female_mouth"
+		texturefile = "gfx\\characters\\somali_female\\somali_female_mouth_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_somali_female_mouth_midage"
+		texturefile = "gfx\\characters\\somali_female\\somali_female_mouth_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_somali_female_mouth_oldage"
+		texturefile = "gfx\\characters\\somali_female\\somali_female_mouth_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_somali_female_eyes"
+		texturefile = "gfx\\characters\\somali_female\\somali_female_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_somali_female_eyes_midage"
+		texturefile = "gfx\\characters\\somali_female\\somali_female_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_somali_female_eyes_oldage"
+		texturefile = "gfx\\characters\\somali_female\\somali_female_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
 	# Somali female
@@ -214,8 +257,8 @@ spriteTypes = {
 			"GFX_african_female_chin:d1"
 			"GFX_african_female_cheeks:d4"
 			"GFX_african_female_nose:d3"
-			"GFX_ethiopian_female_mouth:d2"
-			"GFX_ethiopian_female_eyes:d6"
+			"GFX_somali_female_mouth:d2"
+			"GFX_somali_female_eyes:d6"
 			"GFX_african_female_eyes2:d6:e"
 			"GFX_african_female_ear:d7"
 			"GFX_character_scars:p7:y"
@@ -267,8 +310,8 @@ spriteTypes = {
 			"GFX_african_female_chin_midage:d1"
 			"GFX_african_female_cheeks_midage:d4"
 			"GFX_african_female_nose_midage:d3"
-			"GFX_ethiopian_female_mouth_midage:d2"
-			"GFX_ethiopian_female_eyes_midage:d6"
+			"GFX_somali_female_mouth_midage:d2"
+			"GFX_somali_female_eyes_midage:d6"
 			"GFX_african_female_eyes2:d6:e"
 			"GFX_african_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
@@ -320,8 +363,8 @@ spriteTypes = {
 			"GFX_african_female_chin_oldage:d1"
 			"GFX_african_female_cheeks_oldage:d4"
 			"GFX_african_female_nose_oldage:d3"
-			"GFX_ethiopian_female_mouth_oldage:d2"
-			"GFX_ethiopian_female_eyes_oldage:d6"
+			"GFX_somali_female_mouth_oldage:d2"
+			"GFX_somali_female_eyes_oldage:d6"
 			"GFX_african_female_eyes2:d6:e"
 			"GFX_african_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
