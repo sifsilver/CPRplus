@@ -4,7 +4,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "PORTRAIT_copticgfx_child_male"
-		texturefile = "gfx\\characters\\default_son_muslim.tga"
+		texturefile = "gfx\\characters\\default_son_byzantine.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -12,590 +12,832 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_copticgfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_muslim.tga"
+		texturefile = "gfx\\characters\\default_daughter_byzantine.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
 	}
 	
-### MUSLIM MALE ####
+### COPTIC MALE ####
 
-	# Muslim male
+	# Coptic male
 	portraitType = {
 		name = "PORTRAIT_copticgfx_male"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"						#0
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:h:y"
-			"GFX_byzantine_male_beard_behind:p4:o2x0:h:y"
-			"GFX_muslim_male_base:p2"							#5
-			"GFX_muslim_male_neck:d0"
-			"GFX_muslim_male_cheeks:d4"		
-			"GFX_muslim_male_chin:d1"
-			"GFX_muslim_male_mouth:d2:o73x46"
-			"GFX_muslim_male_eyes:d6:o51x76"
+			"GFX_byzantine_male_beard_behind:p4:h:y"
+			"GFX_levantine_male_base:p2"
+			"GFX_levantine_male_neck:d0"
+			"GFX_levantine_male_chin:d1"
+			"GFX_levantine_male_cheeks:d4"
+			"GFX_levantine_male_mouth:d2"
+			"GFX_levantine_male_eyes:d6"
+			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_levantine_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_muslim_male_clothes:p3:c2"
-			"GFX_byzantine_male_headgear_mid:p5:c3"											#10
-			"GFX_byzantine_male_beard:p4:o2x0:h:y"
-			"GFX_muslim_male_nose:d3:o80x66"
-			"GFX_muslim_male_ear:d7:o24x48"							#15
+			"GFX_byzantine_male_headgear_mid:p5:c3"
+			"GFX_levantine_male_ear:d7"			
+			"GFX_byzantine_male_beard:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"											#20
+			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
-
-	# Muslim male midage
+	
+	# middle age
 	portraitType = {
 		name = "PORTRAIT_copticgfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_midage:p4:o2x0:h:y"
-			"GFX_muslim_male_base_midage:p2"
-			"GFX_muslim_male_neck_midage:d0"
-			"GFX_muslim_male_cheeks_midage:d4"
-			"GFX_muslim_male_chin_midage:d1"
-			"GFX_muslim_male_mouth_midage:d2:o73x46"			
-			"GFX_muslim_male_eyes_midage:d6:o47x75"
+			"GFX_byzantine_male_beard_behind_midage:p4:h:y"
+			"GFX_levantine_male_base_midage:p2"
+			"GFX_levantine_male_neck_midage:d0"
+			"GFX_levantine_male_chin_midage:d1"
+			"GFX_levantine_male_cheeks_midage:d4"
+			"GFX_levantine_male_mouth_midage:d2"
+			"GFX_levantine_male_eyes_midage:d6"
+			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_levantine_male_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_muslim_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
-			"GFX_byzantine_male_beard_midage:p4:o2x0:h:y"
-			"GFX_muslim_male_nose_midage:d3:o80x65"
-			"GFX_muslim_male_ear_midage:d7:o25x53"
+			"GFX_levantine_male_ear_midage:d7"
+			"GFX_byzantine_male_beard_midage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
-
-	# Muslim male oldage
+	
+	# old age
 	portraitType = {
 		name = "PORTRAIT_copticgfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_oldage:p4:o2x0:h:y"
-			"GFX_muslim_male_base_oldage:p2"
-			"GFX_muslim_male_neck_oldage:d0"
-			"GFX_muslim_male_cheeks_oldage:d4"
-			"GFX_muslim_male_chin_oldage:d1"
-			"GFX_muslim_male_mouth_oldage:d2:o74x46"			
-			"GFX_muslim_male_eyes_oldage:d6:o46x74"
+			"GFX_byzantine_male_beard_behind_oldage:p4:h:y"
+			"GFX_levantine_male_base_oldage:p2"
+			"GFX_levantine_male_neck_oldage:d0"
+			"GFX_levantine_male_chin_oldage:d1"
+			"GFX_levantine_male_cheeks_oldage:d4"
+			"GFX_levantine_male_mouth_oldage:d2"
+			"GFX_levantine_male_eyes_oldage:d6"
+			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_levantine_male_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_muslim_male_clothes:p3:c2"
 			"GFX_byzantine_male_headgear_mid:p5:c3"
-			"GFX_byzantine_male_beard_oldage:p4:o2x0:h:y"
-			"GFX_muslim_male_nose_oldage:d3:o80x66"
-			"GFX_muslim_male_ear_oldage:d7:o23x50"
+			"GFX_levantine_male_ear_oldage:d7"
+			"GFX_byzantine_male_beard_oldage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			
+			 { 10 10 10 } { 100 100 100 } { 255 255 255 }
+			 { 10 10 10 } { 120 120 120 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 30 30 30 } { 150 150 150 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 
-### MUSLIM FEMALE ####
+#### COPTIC FEMALE ####
+	
+	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-
-	# Muslim female
+	# Coptic female
 	portraitType = {
 		name = "PORTRAIT_copticgfx_female"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"                    #0
-			"GFX_muslim_female_clothes_behind:p3:c0"            
-			"GFX_byzantine_female_headgear_behind:p5:c1"           
-			"GFX_byzantine_female_hair_behind:p1:o-3x4:h:y"           
-			"GFX_muslim_female_base:p2"                      
-			"GFX_muslim_female_neck:d0"                      #5
-			"GFX_muslim_female_mouth:d2:o74x49"                     
-			"GFX_muslim_female_nose:d3:o78x64"                      
-			"GFX_muslim_female_cheeks:d4"                    
-			"GFX_muslim_female_chin:d1"                      
-			"GFX_muslim_female_eyes:d6:o50x78"                      #10
-			"GFX_muslim_female_ear:d7:o28x51"                  
-			"GFX_character_scars:p7:y"                         #15
-			"GFX_character_reddots:p8"                       
-			"GFX_character_boils:p9"                                            
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_character_background:p0"
+			"GFX_muslim_female_clothes_behind:p3:c0"
+			"GFX_byzantine_female_headgear_behind:p5:c1"
+			"GFX_byzantine_female_hair_behind:p1:h:y" 
+			"GFX_levantine_female_base:p2"
+			"GFX_levantine_female_neck:d0"
+			"GFX_levantine_female_chin:d1"
+			"GFX_levantine_female_cheeks:d4"
+			"GFX_levantine_female_mouth:d2"
+			"GFX_levantine_female_ear:d7"
+			"GFX_levantine_female_eyes:d6"
+			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_levantine_female_nose:d3"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_muslim_female_clothes:p3:c2"                   
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid:p5:c3"
-			"GFX_byzantine_female_hair:p1:o-3x4:h:y"                         
+			"GFX_byzantine_female_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_byzantine_female_headgear:p5:c5"               #20
+			"GFX_byzantine_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"
-		}                                                    
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 
-	# Muslim female midage
+	# Coptic female midage
 	portraitType = {
 		name = "PORTRAIT_copticgfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
-			"GFX_byzantine_female_hair_behind_midage:p1:o-3x4:h:y"
-			"GFX_muslim_female_base_midage:p2"
-			"GFX_muslim_female_neck_midage:d0"
-			"GFX_muslim_female_mouth_midage:d2:o74x52"
-			"GFX_muslim_female_nose_midage:d3:o79x61"
-			"GFX_muslim_female_cheeks_midage:d4"
-			"GFX_muslim_female_chin_midage:d1"
-			"GFX_muslim_female_eyes_midage:d6:o49x74"
-			"GFX_muslim_female_ear_midage:d7:o28x52"
+			"GFX_byzantine_female_hair_behind_midage:p1:h:y"
+			"GFX_levantine_female_base_midage:p2"
+			"GFX_levantine_female_neck_midage:d0"
+			"GFX_levantine_female_chin_midage:d1"
+			"GFX_levantine_female_cheeks_midage:d4"
+			"GFX_levantine_female_mouth_midage:d2"
+			"GFX_levantine_female_ear_midage:d7"
+			"GFX_levantine_female_eyes_midage:d6"
+			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_levantine_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid:p5:c3"
-			"GFX_byzantine_female_hair_midage:p1:o-3x4:h:y"
+			"GFX_byzantine_female_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 
-	# Muslim female oldage
+	# Coptic female oldage
 	portraitType = {
 		name = "PORTRAIT_copticgfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_byzantine_female_headgear_behind:p5:c1"
-			"GFX_byzantine_female_hair_behind_oldage:p1:o-3x4:h:y"
-			"GFX_muslim_female_base_oldage:p2"
-			"GFX_muslim_female_neck_oldage:d0"
-			"GFX_muslim_female_mouth_oldage:d2:o74x52"
-			"GFX_muslim_female_nose_oldage:d3:o79x61"
-			"GFX_muslim_female_cheeks_oldage:d4"
-			"GFX_muslim_female_chin_oldage:d1"
-			"GFX_muslim_female_eyes_oldage:d6:o47x75"
-			"GFX_muslim_female_ear_oldage:d7:o28x60"
+			"GFX_byzantine_female_hair_behind_oldage:p1:h:y"
+			"GFX_levantine_female_base_oldage:p2"
+			"GFX_levantine_female_neck_oldage:d0"
+			"GFX_levantine_female_chin_oldage:d1"
+			"GFX_levantine_female_cheeks_oldage:d4"
+			"GFX_levantine_female_mouth_oldage:d2"
+			"GFX_levantine_female_ear_oldage:d7"
+			"GFX_levantine_female_eyes_oldage:d6"
+			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_levantine_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid:p5:c3"
-			"GFX_byzantine_female_hair_oldage:p1:o-3x4:h:y"
+			"GFX_byzantine_female_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			 { 10 10 10 } { 100 100 100 } { 255 255 255 }
+			 { 10 10 10 } { 120 120 120 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 30 30 30 } { 150 150 150 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+		
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+
+	
+	# Coptic Male
+	portraitType = {
+		name = "PORTRAIT_copticgfx_male_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_character_background:p0"
+			"GFX_muslim_male_clothes_behind_early:p3:c0"
+			"GFX_byzantine_male_headgear_behind_early:p5:c1"
+			"GFX_muslim_male_hair_behind:p1:h:y"
+			"GFX_byzantine_male_beard_behind:p4:h:y"
+			"GFX_levantine_male_base:p2"
+			"GFX_levantine_male_neck:d0"
+			"GFX_levantine_male_chin:d1"
+			"GFX_levantine_male_cheeks:d4"
+			"GFX_levantine_male_mouth:d2"
+			"GFX_levantine_male_eyes:d6"
+			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_levantine_male_nose:d3"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_muslim_male_clothes_early:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_levantine_male_ear:d7"			
+			"GFX_byzantine_male_beard:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_muslim_male_hair:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_byzantine_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	# Muslim male
-	portraitType = {
-		name = "PORTRAIT_copticgfx_male_early"
-		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"						
-			"GFX_muslim_male_clothes_behind_early:p3:c0"
-			"GFX_byzantine_male_headgear_behind_early:p5:c1"
-			"GFX_muslim_male_hair_behind:p1:h:y"
-			"GFX_byzantine_male_beard_behind:p4:o2x0:h:y"
-			"GFX_muslim_male_base:p2"							
-			"GFX_muslim_male_neck:d0"
-			"GFX_muslim_male_cheeks:d4"		
-			"GFX_muslim_male_chin:d1"
-			"GFX_muslim_male_mouth:d2:o73x46"
-			"GFX_muslim_male_eyes:d6:o51x76"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_muslim_male_clothes_early:p3:c2"
-			"GFX_empty:p5:c3"											
-			"GFX_byzantine_male_beard:p4:o2x0:h:y"
-			"GFX_muslim_male_nose:d3:o80x66"
-			"GFX_muslim_male_ear:d7:o24x48"							
-			"GFX_muslim_male_hair:p1:h:y"
-			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"											
-			"GFX_byzantine_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
-		}
-
-		hair_color_index = 8
-		hair_color = { # dark, base, highlight
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
-		}
-
-		eye_color_index = 9
-		eye_color = {
-			{ 74 120 182}
-		}
-		
-		headgear_that_hides_hair = { 10 }
-	}
-
-	# Muslim male midage
+	# middle age
 	portraitType = {
 		name = "PORTRAIT_copticgfx_male_early1"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind_early:p3:c0"
 			"GFX_byzantine_male_headgear_behind_early:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_midage:p4:o2x0:h:y"
-			"GFX_muslim_male_base_midage:p2"
-			"GFX_muslim_male_neck_midage:d0"
-			"GFX_muslim_male_cheeks_midage:d4"
-			"GFX_muslim_male_chin_midage:d1"
-			"GFX_muslim_male_mouth_midage:d2:o73x46"			
-			"GFX_muslim_male_eyes_midage:d6:o47x75"
+			"GFX_byzantine_male_beard_behind_midage:p4:h:y"
+			"GFX_levantine_male_base_midage:p2"
+			"GFX_levantine_male_neck_midage:d0"
+			"GFX_levantine_male_chin_midage:d1"
+			"GFX_levantine_male_cheeks_midage:d4"
+			"GFX_levantine_male_mouth_midage:d2"
+			"GFX_levantine_male_eyes_midage:d6"
+			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_levantine_male_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_byzantine_male_beard_midage:p4:o2x0:h:y"
-			"GFX_muslim_male_nose_midage:d3:o80x65"
-			"GFX_muslim_male_ear_midage:d7:o25x53"
+			"GFX_levantine_male_ear_midage:d7"
+			"GFX_byzantine_male_beard_midage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
-		}
-		
-		headgear_that_hides_hair = { 10 }
-	}
-
-	# Muslim male oldage
-	portraitType = {
-		name = "PORTRAIT_copticgfx_male_early2"
-		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind_early:p3:c0"
-			"GFX_byzantine_male_headgear_behind_early:p5:c1"
-			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_oldage:p4:o2x0:h:y"
-			"GFX_muslim_male_base_oldage:p2"
-			"GFX_muslim_male_neck_oldage:d0"
-			"GFX_muslim_male_cheeks_oldage:d4"
-			"GFX_muslim_male_chin_oldage:d1"
-			"GFX_muslim_male_mouth_oldage:d2:o74x46"			
-			"GFX_muslim_male_eyes_oldage:d6:o46x74"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_muslim_male_clothes_early:p3:c2"
-			"GFX_empty:p5:c3"
-			"GFX_byzantine_male_beard_oldage:p4:o2x0:h:y"
-			"GFX_muslim_male_nose_oldage:d3:o80x66"
-			"GFX_muslim_male_ear_oldage:d7:o23x50"
-			"GFX_muslim_male_hair_oldage:p1:h:y"
-			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_byzantine_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
-		}
-
-		hair_color_index = 8
-		hair_color = { # dark, base, highlight
-			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
-		}
-
-		eye_color_index = 9
-		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
 	}
 	
-	### MUSLIM FEMALE ####
-
-	# Muslim female
+	# old age
 	portraitType = {
-		name = "PORTRAIT_copticgfx_female_early"
+		name = "PORTRAIT_copticgfx_male_early2"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"                    
-			"GFX_muslim_female_clothes_behind_early:p3:c0"            
-			"GFX_byzantine_female_headgear_behind_early:p5:c1"           
-			"GFX_byzantine_female_hair_behind:p1:o-3x4:h:y"           
-			"GFX_muslim_female_base:p2"                      
-			"GFX_muslim_female_neck:d0"                      
-			"GFX_muslim_female_mouth:d2:o74x49"                     
-			"GFX_muslim_female_nose:d3:o78x64"                      
-			"GFX_muslim_female_cheeks:d4"                    
-			"GFX_muslim_female_chin:d1"                      
-			"GFX_muslim_female_eyes:d6:o50x78"                      
-			"GFX_muslim_female_ear:d7:o28x51"                  
-			"GFX_character_scars:p7:y"                         
-			"GFX_character_reddots:p8"                       
-			"GFX_character_boils:p9"                                            
-			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_muslim_female_clothes_early:p3:c2"                   
-			"GFX_byzantine_female_headgear_mid_early:p5:c3"
-			"GFX_byzantine_female_hair:p1:o-3x4:h:y"                         
-			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_byzantine_female_headgear_early:p5:c5"               
-			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
-		}                                                    
-
-		hair_color_index = 8
-		hair_color = { # dark, base, highlight
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
-		}
-
-		eye_color_index = 9
-		eye_color = {
-			{ 74 120 182}
-		}
-		
-		headgear_that_hides_hair = { 10 }
-	}
-
-	# Muslim female midage
-	portraitType = {
-		name = "PORTRAIT_copticgfx_female_early1"
-		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_female_clothes_behind_early:p3:c0"
-			"GFX_byzantine_female_headgear_behind_early:p5:c1"
-			"GFX_byzantine_female_hair_behind_midage:p1:o-3x4:h:y"
-			"GFX_muslim_female_base_midage:p2"
-			"GFX_muslim_female_neck_midage:d0"
-			"GFX_muslim_female_mouth_midage:d2:o74x52"
-			"GFX_muslim_female_nose_midage:d3:o79x61"
-			"GFX_muslim_female_cheeks_midage:d4"
-			"GFX_muslim_female_chin_midage:d1"
-			"GFX_muslim_female_eyes_midage:d6:o49x74"
-			"GFX_muslim_female_ear_midage:d7:o28x52"
+			"GFX_muslim_male_clothes_behind_early:p3:c0"
+			"GFX_byzantine_male_headgear_behind_early:p5:c1"
+			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
+			"GFX_byzantine_male_beard_behind_oldage:p4:h:y"
+			"GFX_levantine_male_base_oldage:p2"
+			"GFX_levantine_male_neck_oldage:d0"
+			"GFX_levantine_male_chin_oldage:d1"
+			"GFX_levantine_male_cheeks_oldage:d4"
+			"GFX_levantine_male_mouth_oldage:d2"
+			"GFX_levantine_male_eyes_oldage:d6"
+			"GFX_byzantine_male_eyes2:d6:e"
+			"GFX_levantine_male_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_muslim_female_clothes_early:p3:c2"
-			"GFX_byzantine_female_headgear_mid_early:p5:c3"
-			"GFX_byzantine_female_hair_midage:p1:o-3x4:h:y"
+			"GFX_muslim_male_clothes_early:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_levantine_male_ear_oldage:d7"
+			"GFX_byzantine_male_beard_oldage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_muslim_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_byzantine_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_byzantine_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
-			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
-		}
-
-		eye_color_index = 9
-		eye_color = {
-			{ 74 120 182}
-		}
-		
-		headgear_that_hides_hair = { 10 }
-	}
-
-	# Muslim female oldage
-	portraitType = {
-		name = "PORTRAIT_copticgfx_female_early2"
-		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"
-			"GFX_muslim_female_clothes_behind_early:p3:c0"
-			"GFX_byzantine_female_headgear_behind_early:p5:c1"
-			"GFX_byzantine_female_hair_behind_oldage:p1:o-3x4:h:y"
-			"GFX_muslim_female_base_oldage:p2"
-			"GFX_muslim_female_neck_oldage:d0"
-			"GFX_muslim_female_mouth_oldage:d2:o74x52"
-			"GFX_muslim_female_nose_oldage:d3:o79x61"
-			"GFX_muslim_female_cheeks_oldage:d4"
-			"GFX_muslim_female_chin_oldage:d1"
-			"GFX_muslim_female_eyes_oldage:d6:o47x75"
-			"GFX_muslim_female_ear_oldage:d7:o28x60"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
-			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
-			"GFX_muslim_female_clothes_early:p3:c2"
-			"GFX_byzantine_female_headgear_mid_early:p5:c3"
-			"GFX_byzantine_female_hair_oldage:p1:o-3x4:h:y"
-			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_byzantine_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
-		}
-
-		hair_color_index = 8
-		hair_color = { # dark, base, highlight
+			
+			 { 10 10 10 } { 100 100 100 } { 255 255 255 }
+			 { 10 10 10 } { 120 120 120 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 30 30 30 } { 150 150 150 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	#### Coptic FEMALE ####
+	
+	# CULTURE_INDEX: 0 = clothes_early behind, 1 = headgear_early behind, 2 = clothes_early, 3 = headgear_early mid, 4 = clothes_early infront, 5 = headgear_early
+
+	# Coptic female
+	portraitType = {
+		name = "PORTRAIT_copticgfx_female_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_character_background:p0"
+			"GFX_muslim_female_clothes_behind_early:p3:c0"
+			"GFX_byzantine_female_headgear_behind_early:p5:c1"
+			"GFX_byzantine_female_hair_behind:p1:h:y" 
+			"GFX_levantine_female_base:p2"
+			"GFX_levantine_female_neck:d0"
+			"GFX_levantine_female_chin:d1"
+			"GFX_levantine_female_cheeks:d4"
+			"GFX_levantine_female_mouth:d2"
+			"GFX_levantine_female_ear:d7"
+			"GFX_levantine_female_eyes:d6"
+			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_levantine_female_nose:d3"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_muslim_female_clothes_early:p3:c2"
+			"GFX_byzantine_female_headgear_mid_early:p5:c3"
+			"GFX_byzantine_female_hair:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_byzantine_female_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+
+	# Coptic female midage
+	portraitType = {
+		name = "PORTRAIT_copticgfx_female_early1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_character_background:p0"
+			"GFX_muslim_female_clothes_behind_early:p3:c0"
+			"GFX_byzantine_female_headgear_behind_early:p5:c1"
+			"GFX_byzantine_female_hair_behind_midage:p1:h:y"
+			"GFX_levantine_female_base_midage:p2"
+			"GFX_levantine_female_neck_midage:d0"
+			"GFX_levantine_female_chin_midage:d1"
+			"GFX_levantine_female_cheeks_midage:d4"
+			"GFX_levantine_female_mouth_midage:d2"
+			"GFX_levantine_female_ear_midage:d7"
+			"GFX_levantine_female_eyes_midage:d6"
+			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_levantine_female_nose_midage:d3"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_muslim_female_clothes_early:p3:c2"
+			"GFX_byzantine_female_headgear_mid_early:p5:c3"
+			"GFX_byzantine_female_hair_midage:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_byzantine_female_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			 { 10 10 10 } {  50 50 50 } { 255 255 255 }
+			 { 10 10 10 } {  67 55 50 } { 255 255 255 }
+			 { 10 10 10 } { 93 66 53 } { 255 255 255 }
+			 { 10 10 10 } { 125 85 56 } { 255 255 255 }
+			 { 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+
+	# Coptic female oldage
+	portraitType = {
+		name = "PORTRAIT_copticgfx_female_early2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_character_background:p0"
+			"GFX_muslim_female_clothes_behind_early:p3:c0"
+			"GFX_byzantine_female_headgear_behind_early:p5:c1"
+			"GFX_byzantine_female_hair_behind_oldage:p1:h:y"
+			"GFX_levantine_female_base_oldage:p2"
+			"GFX_levantine_female_neck_oldage:d0"
+			"GFX_levantine_female_chin_oldage:d1"
+			"GFX_levantine_female_cheeks_oldage:d4"
+			"GFX_levantine_female_mouth_oldage:d2"
+			"GFX_levantine_female_ear_oldage:d7"
+			"GFX_levantine_female_eyes_oldage:d6"
+			"GFX_byzantine_female_eyes2:d6:e"
+			"GFX_levantine_female_nose_oldage:d3"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_muslim_female_clothes_early:p3:c2"
+			"GFX_byzantine_female_headgear_mid_early:p5:c3"
+			"GFX_byzantine_female_hair_oldage:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_byzantine_female_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			 { 10 10 10 } { 100 100 100 } { 255 255 255 }
+			 { 10 10 10 } { 120 120 120 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 10 10 10 } { 130 130 130 } { 255 255 255 }
+			 { 30 30 30 } { 150 150 150 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+		
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
+			{ 150 139 92 } #Green
+			{ 148 96 72 } #Auburn 
+			{ 146 146 170 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 10 }
