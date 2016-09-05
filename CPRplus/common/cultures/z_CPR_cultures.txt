@@ -177,7 +177,7 @@ baltic = {
 }
 
 altaic = {
-	graphical_cultures = { muslimgfx }
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
 
 	turkish = { # Oghuz Turkish
 		graphical_cultures = { turkishgfx }
@@ -238,16 +238,16 @@ arabic = {
 	graphical_cultures = { muslimgfx }
 	
 	bedouin_arabic = { 
-		graphical_cultures = { arabicgfx }
+		graphical_cultures = { arabicgfx muslimgfx }
 	}
 	maghreb_arabic = { # Berber
-		graphical_cultures = { maghrebgfx }
+		graphical_cultures = { maghrebgfx arabicgfx muslimgfx }
 	}
 	levantine_arabic = {
-		graphical_cultures = { levantinegfx }
+		graphical_cultures = { levantinegfx arabicgfx muslimgfx }
 	}
 	egyptian_arabic = {
-		graphical_cultures = { egyptiangfx }
+		graphical_cultures = { egyptiangfx arabicgfx muslimgfx }
 	}
 	andalusian_arabic = {
 		graphical_cultures = { andalusiangfx } #westerngfx
