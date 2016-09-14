@@ -1048,6 +1048,7 @@
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
 				graphical_culture = arabicgfx
+				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
 				graphical_culture = copticgfx
@@ -1088,6 +1089,7 @@
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
 				graphical_culture = arabicgfx
+				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
 				graphical_culture = copticgfx
@@ -1748,6 +1750,7 @@
 			}
 			OR = {
 				graphical_culture = arabicgfx
+				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
 				graphical_culture = copticgfx
@@ -1791,6 +1794,7 @@
 			is_female = no
 			NOR = {
 				graphical_culture = arabicgfx
+				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
 				graphical_culture = copticgfx
@@ -1809,6 +1813,7 @@
 			}
 			NOR = {
 				graphical_culture = arabicgfx
+				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
 				graphical_culture = copticgfx
@@ -1823,6 +1828,7 @@
 			trait = desert_father
 			NOR = {
 				graphical_culture = arabicgfx
+				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
 				graphical_culture = copticgfx
