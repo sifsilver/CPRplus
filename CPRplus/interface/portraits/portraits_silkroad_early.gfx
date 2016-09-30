@@ -53,7 +53,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# middle age
@@ -106,7 +106,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# old age
@@ -159,7 +159,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 #### Silk Road FEMALE ####

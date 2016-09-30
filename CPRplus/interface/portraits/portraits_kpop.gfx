@@ -69,7 +69,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 10 }
 	}
 	
 	# middle age
@@ -122,7 +122,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 10 }
 	}
 	
 	# old age
@@ -175,7 +175,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 7 10 }
 	}
 
 #### kpop FEMALE ####

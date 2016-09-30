@@ -68,7 +68,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
 	}
 	
 	# middle age
@@ -118,7 +118,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
 	}
 	
 	# old age
@@ -168,7 +168,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
 	}
 
 	#### AFRICAN FEMALE ####
@@ -220,7 +220,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
 	}
 
 	# African female midage
@@ -267,7 +267,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
 	}
 
 	# African female oldage
@@ -315,5 +315,5 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
 	}

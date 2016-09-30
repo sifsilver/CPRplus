@@ -420,7 +420,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 7 9 10 }
+		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	# middle age
@@ -480,7 +480,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 7 9 10 }
+		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	# old age
@@ -540,7 +540,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 7 9 10 }
+		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	portraitType = {
@@ -600,7 +600,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# middle age
@@ -660,7 +660,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# old age
@@ -720,7 +720,7 @@ spriteTypes = {
 			{ 146 146 170 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	############# ANDALUSIAN FEMALE #######################

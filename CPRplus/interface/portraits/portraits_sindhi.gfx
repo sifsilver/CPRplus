@@ -430,7 +430,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 5 7 9 10 }
 	}
 	
 	# middle age
@@ -484,7 +484,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 5 7 9 10 }
 	}
 	
 	# old age
@@ -538,7 +538,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 5 7 9 10 }
 	}
 
 #### sindhi FEMALE ####

@@ -963,7 +963,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
 	}
 	
 	# middle age
@@ -1011,7 +1011,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
 	}
 	
 	# old age
@@ -1059,7 +1059,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
 	}
 
 #### westafrican FEMALE ####
@@ -1109,7 +1109,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
 	}
 
 	# westafrican female midage
@@ -1154,7 +1154,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
 	}
 
 	# westafrican female oldage
@@ -1199,7 +1199,7 @@ spriteTypes = {
 			{ 148 96 72 } #Auburn 
 		}
 		
-		headgear_that_hides_hair = { 1 2 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
 	}
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear

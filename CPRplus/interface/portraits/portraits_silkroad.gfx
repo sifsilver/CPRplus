@@ -69,7 +69,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 7 9 10 }
+		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	# middle age
@@ -122,7 +122,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 7 9 10 }
+		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	# old age
@@ -175,7 +175,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_that_hides_hair = { 7 9 10 }
+		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
 
 #### Silk Road FEMALE ####
