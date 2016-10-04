@@ -63,9 +63,9 @@ spriteTypes = {
 			{ 34 103 36 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -130,9 +130,9 @@ spriteTypes = {
 			{ 34 103 36 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -197,9 +197,9 @@ spriteTypes = {
 			{ 34 103 36 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -265,9 +265,9 @@ spriteTypes = {
 			{ 34 103 36 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }
@@ -329,9 +329,9 @@ spriteTypes = {
 			{ 34 103 36 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }
@@ -394,9 +394,9 @@ spriteTypes = {
 			{ 34 103 36 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }

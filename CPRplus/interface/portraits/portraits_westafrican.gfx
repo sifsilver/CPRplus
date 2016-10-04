@@ -415,7 +415,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -465,7 +465,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -515,7 +515,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -816,7 +816,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -863,7 +863,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -910,7 +910,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -960,7 +960,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
@@ -1008,7 +1008,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
@@ -1056,7 +1056,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
@@ -1106,7 +1106,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
@@ -1151,7 +1151,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
@@ -1196,7 +1196,7 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 148 96 72 } #Auburn 
+			{ 128 74 47 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }

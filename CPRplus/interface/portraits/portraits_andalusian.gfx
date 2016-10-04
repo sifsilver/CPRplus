@@ -408,16 +408,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -468,16 +468,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -528,16 +528,16 @@ spriteTypes = {
 		
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -588,16 +588,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -648,16 +648,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -708,16 +708,16 @@ spriteTypes = {
 		
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -766,16 +766,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -823,16 +823,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -882,16 +882,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -938,16 +938,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }
@@ -995,16 +995,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }
@@ -1054,16 +1054,16 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			#{ 101 119 150} #Light Blue
+			#{ 85 110 150} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
 			{ 10 10 10 } #Black
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
-			{ 150 139 92 } #Green
-			{ 148 96 72 } #Auburn 
-			{ 146 146 170 } #Blueish
+			{ 140 90 28 } #Green
+			{ 128 74 47 } #Auburn 
+			{ 82 101 155 } #Blueish
 		}
 		
 		headgear_that_hides_hair = { }

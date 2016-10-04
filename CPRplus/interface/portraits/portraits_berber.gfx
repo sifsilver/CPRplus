@@ -211,7 +211,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
+			{ 85 110 150}
 			{ 120 74 46 }
 			{ 56 80 57 }
 		}
@@ -260,7 +260,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
+			{ 85 110 150}
 			{ 120 74 46 }
 			{ 56 80 57 }
 		}
@@ -310,7 +310,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
+			{ 85 110 150}
 			{ 120 74 46 }
 			{ 56 80 57 }
 		}
