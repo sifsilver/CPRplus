@@ -46,7 +46,7 @@ spriteTypes = {
 			{ 74 120 182}
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 12 5 6 7 9 }
 	}
 
 	# Muslim male midage
@@ -93,7 +93,7 @@ spriteTypes = {
 			{ 74 120 182}
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 12 5 6 7 9 }
 	}
 
 	# Muslim male oldage
@@ -140,7 +140,7 @@ spriteTypes = {
 			{ 74 120 182}
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 12 5 6 7 9 }
 	}
 	
 	### MUSLIM FEMALE ####
