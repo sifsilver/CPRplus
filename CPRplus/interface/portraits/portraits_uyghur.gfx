@@ -323,7 +323,7 @@ spriteTypes = {
 		   	"GFX_eastasian_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_centralasian_male_headgear:p5_early:c5"
+			"GFX_centralasian_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
