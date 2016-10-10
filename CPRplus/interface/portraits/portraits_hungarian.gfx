@@ -158,7 +158,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"	
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -211,12 +213,14 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_ugric_male_ear_midage:d7"
 			"GFX_steppe_male_beard_midage:p4:o-1x2:h:y"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_character_eyepatch:p13:y::o32x63"
 			"GFX_steppe_male_hair_midage:p1:o-2x-3:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -277,7 +281,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -336,7 +342,9 @@ spriteTypes = {
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -397,7 +405,9 @@ spriteTypes = {
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -458,7 +468,9 @@ spriteTypes = {
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -519,7 +531,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -577,7 +591,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -635,7 +651,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -690,7 +708,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -748,7 +768,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -806,7 +828,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight

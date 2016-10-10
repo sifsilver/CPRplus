@@ -451,7 +451,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_norse_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -510,7 +512,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_norse_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -569,7 +573,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_norse_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -622,7 +628,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_norse_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -681,7 +689,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_norse_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -740,7 +750,8 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_norse_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1094,7 +1105,8 @@ spriteTypes = {
 			"GFX_empty:p3:c4"
 			"GFX_norse_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11"		}
+			"GFX_player_overlay:p11"
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1151,7 +1163,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_norse_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1208,7 +1222,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_norse_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1260,7 +1276,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5" 
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1317,7 +1335,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5" 
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1374,7 +1394,9 @@ spriteTypes = {
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5" 
-			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11" 		}
+			"GFX_character_imprisoned:p6" 
+			"GFX_player_overlay:p11" 
+		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
