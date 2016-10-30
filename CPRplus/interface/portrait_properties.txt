@@ -2269,6 +2269,7 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -2312,6 +2313,7 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -2355,6 +2357,7 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -2402,6 +2405,8 @@
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_regent }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -2446,6 +2451,8 @@
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_regent }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -2490,6 +2497,8 @@
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_regent }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -2518,6 +2527,8 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 		#modifier = {
@@ -2539,6 +2550,8 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 	}
@@ -2555,6 +2568,8 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 	}
@@ -4166,6 +4181,8 @@
 			NOT = { real_tier = duke }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_regent }
+			NOT = { has_minor_title = title_queen_mother }
 		}
 		modifier = {
 			factor = 0
@@ -4174,6 +4191,8 @@
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
 			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_regent }
+			NOT = { has_minor_title = title_queen_mother }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = duke } }
@@ -4264,6 +4283,8 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 		#modifier = {
@@ -4318,6 +4339,8 @@
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 		modifier = {
@@ -4530,6 +4553,8 @@
 					}
 				}
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 		modifier = {
@@ -4595,6 +4620,8 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 		}
 		modifier = {
@@ -4773,6 +4800,8 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+				has_minor_title = title_regent
+				has_minor_title = title_queen_mother
 			}
 			NAND = {
 				trait = blinded
