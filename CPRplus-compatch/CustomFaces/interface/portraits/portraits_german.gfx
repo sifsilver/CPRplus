@@ -26,7 +26,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear:d7:o27x54"
@@ -90,7 +90,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"							#20
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_midage:d7:o27x54"					#15
@@ -155,7 +155,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_oldage:d7:o25x51"
@@ -222,7 +222,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"                          #17
 			"GFX_character_boils:p9"                            #18
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes:p3:c2"                  #12
 			"GFX_german_female_ear:d7:o28x54"                         #13
 			"GFX_western_female_headgear_mid:p5:c3"             #14
@@ -284,7 +284,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes:p3:c2"			
 			"GFX_german_female_ear_midage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
@@ -346,7 +346,7 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x70"
+			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes:p3:c2"			
 			"GFX_german_female_ear_oldage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
