@@ -183,7 +183,7 @@ altaic = {
 		graphical_cultures = { turkishgfx }
 	}
 	pecheneg = { # Oghuz Turkish
-		graphical_cultures = { qasrumgfx turkishgfx }
+		graphical_cultures = { pecheneggfx turkishgfx }
 	}
 	cuman = { # Kipchak Turkish
 		graphical_cultures = { cumangfx turkishgfx }
