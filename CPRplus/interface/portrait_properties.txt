@@ -4896,9 +4896,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				religion_group = christian
-			}
+			#NOT = {
+			#	religion_group = christian
+			#}
 			NOR = {
 				culture_group = north_germanic
 				culture_group = central_germanic
@@ -4980,9 +4980,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				religion_group = christian
-			}
+			#NOT = {
+			#	religion_group = christian
+			#}
 			NOR = {
 				culture_group = north_germanic
 				culture_group = central_germanic
@@ -5064,9 +5064,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				religion_group = christian
-			}
+			#NOT = {
+			#	religion_group = christian
+			#}
 			NOR = {
 				culture_group = north_germanic
 				culture_group = central_germanic
@@ -5135,9 +5135,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				religion_group = christian
-			}
+			#NOT = {
+			#	religion_group = christian
+			#}
 			NOR = {
 				culture_group = north_germanic
 				culture_group = central_germanic
