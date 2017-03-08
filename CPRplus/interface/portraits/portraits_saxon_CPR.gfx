@@ -4,7 +4,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "PORTRAIT_saxongfx_child_male"
-		texturefile = "gfx\\characters\\default_son_norse.tga"
+		texturefile = "gfx\\characters\\default_son_english.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -12,7 +12,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_saxongfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_norse.tga"
+		texturefile = "gfx\\characters\\default_daughter_english.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes

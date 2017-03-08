@@ -9,7 +9,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_norman_child_female"
+		name = "PORTRAIT_normangfx_child_female"
 		texturefile = "gfx\\characters\\default_daughter_norse.tga"
 		noOfFrames = 1
 		norefcount = yes
