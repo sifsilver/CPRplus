@@ -3,7 +3,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "PORTRAIT_bohemiangfx_child_male"
-		texturefile = "gfx\\characters\\default_son.tga"
+		texturefile = "gfx\\characters\\default_son_german.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -11,7 +11,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_bohemiangfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter.tga"
+		texturefile = "gfx\\characters\\default_daughter_german.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -29,8 +29,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
-			"GFX_ugric_male_hair_behind:p1:h:y:o0x-2"
-			"GFX_easternslavic_male_beard_behind:p4:o-2x1:h:y"
+			"GFX_ugric_male_hair_behind:p1:h:y:o0x-3"
+			"GFX_easternslavic_male_beard_behind:p4:o-2x2:h:y"
 			"GFX_german_male_base:p2"
 			"GFX_german_male_neck:d0"
 			"GFX_german_male_cheeks:d4"
@@ -46,8 +46,8 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_german_male_ear:d7"		
-			"GFX_easternslavic_male_beard:p4:o-2x1:h:y"
-		   	"GFX_ugric_male_hair:p1:h:y:o0x-2"
+			"GFX_easternslavic_male_beard:p4:o-2x2:h:y"
+		   	"GFX_ugric_male_hair:p1:h:y:o0x-3"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
@@ -85,8 +85,8 @@ spriteTypes = {
 			"GFX_character_background:p0"						#0
 			"GFX_westernslavic_male_clothes_behind:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
-			"GFX_ugric_male_hair_behind_midage:p1:h:y:o0x-2"
-			"GFX_easternslavic_male_beard_behind_midage:p4:o-2x1:h:y"
+			"GFX_ugric_male_hair_behind_midage:p1:h:y:o0x-3"
+			"GFX_easternslavic_male_beard_behind_midage:p4:o-2x2:h:y"
 			"GFX_german_male_base_midage:p2"					#5
 			"GFX_german_male_neck_midage:d0"
 			"GFX_german_male_cheeks_midage:d4"
@@ -102,8 +102,8 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_german_male_ear_midage:d7"						#15
-			"GFX_easternslavic_male_beard_midage:p4:o-2x1:h:y"
-			"GFX_ugric_male_hair_midage:p1:h:y:o0x-2"
+			"GFX_easternslavic_male_beard_midage:p4:o-2x2:h:y"
+			"GFX_ugric_male_hair_midage:p1:h:y:o0x-3"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
@@ -142,8 +142,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
-			"GFX_ugric_male_hair_behind_oldage:p1:h:y:o0x-2"
-			"GFX_easternslavic_male_beard_behind_oldage:p4:o-2x1:h:y"
+			"GFX_ugric_male_hair_behind_oldage:p1:h:y:o0x-3"
+			"GFX_easternslavic_male_beard_behind_oldage:p4:o-2x2:h:y"
 			"GFX_german_male_base_oldage:p2"
 			"GFX_german_male_neck_oldage:d0"
 			"GFX_german_male_cheeks_oldage:d4"
@@ -159,8 +159,8 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_westernslavic_male_clothes:p3:c2"
 			"GFX_german_male_ear_oldage:d7"
-			"GFX_easternslavic_male_beard_oldage:p4:o-2x1:h:y"
-			"GFX_ugric_male_hair_oldage:p1:h:y:o0x-2"
+			"GFX_easternslavic_male_beard_oldage:p4:o-2x2:h:y"
+			"GFX_ugric_male_hair_oldage:p1:h:y:o0x-3"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_westernslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
@@ -197,8 +197,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind_early:p3:c0"
 			"GFX_westernslavic_male_headgear_behind_early:p5:c1"
-			"GFX_ugric_male_hair_behind:p1:h:y:o0x-2"
-			"GFX_easternslavic_male_beard_behind:p4:o-2x1:h:y"
+			"GFX_ugric_male_hair_behind:p1:h:y:o0x-3"
+			"GFX_easternslavic_male_beard_behind:p4:o-2x2:h:y"
 			"GFX_german_male_base:p2"
 			"GFX_german_male_neck:d0"
 			"GFX_german_male_cheeks:d4"
@@ -215,8 +215,8 @@ spriteTypes = {
 			"GFX_westernslavic_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear:d7"		
-			"GFX_easternslavic_male_beard:p4:o-2x1:h:y"
-		   	"GFX_ugric_male_hair:p1:h:y:o0x-2"
+			"GFX_easternslavic_male_beard:p4:o-2x2:h:y"
+		   	"GFX_ugric_male_hair:p1:h:y:o0x-3"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
@@ -253,8 +253,8 @@ spriteTypes = {
 			"GFX_character_background:p0"						#0
 			"GFX_westernslavic_male_clothes_behind_early:p3:c0"
 			"GFX_westernslavic_male_headgear_behind_early:p5:c1"
-			"GFX_ugric_male_hair_behind_midage:p1:h:y:o0x-2"
-			"GFX_easternslavic_male_beard_behind_midage:p4:o-2x1:h:y"
+			"GFX_ugric_male_hair_behind_midage:p1:h:y:o0x-3"
+			"GFX_easternslavic_male_beard_behind_midage:p4:o-2x2:h:y"
 			"GFX_german_male_base_midage:p2"					#5
 			"GFX_german_male_neck_midage:d0"
 			"GFX_german_male_cheeks_midage:d4"
@@ -271,8 +271,8 @@ spriteTypes = {
 			"GFX_westernslavic_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear_midage:d7"						#15
-			"GFX_easternslavic_male_beard_midage:p4:o-2x1:h:y"
-			"GFX_ugric_male_hair_midage:p1:h:y:o0x-2"
+			"GFX_easternslavic_male_beard_midage:p4:o-2x2:h:y"
+			"GFX_ugric_male_hair_midage:p1:h:y:o0x-3"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
@@ -310,8 +310,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_male_clothes_behind_early:p3:c0"
 			"GFX_westernslavic_male_headgear_behind_early:p5:c1"
-			"GFX_ugric_male_hair_behind_oldage:p1:h:y:o0x-2"
-			"GFX_easternslavic_male_beard_behind_oldage:p4:o-2x1:h:y"
+			"GFX_ugric_male_hair_behind_oldage:p1:h:y:o0x-3"
+			"GFX_easternslavic_male_beard_behind_oldage:p4:o-2x2:h:y"
 			"GFX_german_male_base_oldage:p2"
 			"GFX_german_male_neck_oldage:d0"
 			"GFX_german_male_cheeks_oldage:d4"
@@ -328,8 +328,8 @@ spriteTypes = {
 			"GFX_westernslavic_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_german_male_ear_oldage:d7"
-			"GFX_easternslavic_male_beard_oldage:p4:o-2x1:h:y"
-			"GFX_ugric_male_hair_oldage:p1:h:y:o0x-2"
+			"GFX_easternslavic_male_beard_oldage:p4:o-2x2:h:y"
+			"GFX_ugric_male_hair_oldage:p1:h:y:o0x-3"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_male_headgear_early:p5:c5"
@@ -371,7 +371,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind:p3:c0"            #1
 			"GFX_westernslavic_female_headgear_behind:p5:c1"           #2
-			"GFX_ugric_female_hair_behind:p1:o-2x-1:h:y"            #3
+			"GFX_ugric_female_hair_behind:p1:o-2x-5:h:y"            #3
 			"GFX_german_female_base:p2"                        #4
 			"GFX_german_female_neck:d0"                        #5
 			"GFX_german_female_cheeks:d4"                      #6
@@ -388,7 +388,7 @@ spriteTypes = {
 			"GFX_westernslavic_female_clothes:p3:c2"                 #12
 			"GFX_german_female_ear:d7"                         #13
 			"GFX_western_female_headgear_mid:p5:c3"              #14
-			"GFX_ugric_female_hair:p1:o-2x-1:h:y"                 #15
+			"GFX_ugric_female_hair:p1:o-2x-5:h:y"                 #15
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"									#19
 			"GFX_westernslavic_female_headgear:p5:c5"                 #20
@@ -424,7 +424,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1" 
-			"GFX_ugric_female_hair_behind_midage:p1:o-2x-1:h:y"
+			"GFX_ugric_female_hair_behind_midage:p1:o-2x-5:h:y"
 			"GFX_german_female_base_midage:p2"
 			"GFX_german_female_neck_midage:d0"
 			"GFX_german_female_cheeks_midage:d4"
@@ -441,7 +441,7 @@ spriteTypes = {
 			"GFX_westernslavic_female_clothes:p3:c2"			
 			"GFX_german_female_ear_midage:d7"
 			"GFX_western_female_headgear_mid:p5:c3" 
-			"GFX_ugric_female_hair_midage:p1:o-2x-1:h:y"
+			"GFX_ugric_female_hair_midage:p1:o-2x-5:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
@@ -478,7 +478,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind:p3:c0"
 			"GFX_westernslavic_female_headgear_behind:p5:c1" 
-			"GFX_ugric_female_hair_behind_oldage:p1:o-2x-1:y"
+			"GFX_ugric_female_hair_behind_oldage:p1:o-2x-5:y"
 			"GFX_german_female_base_oldage:p2"
 			"GFX_german_female_neck_oldage:d0"
 			"GFX_german_female_cheeks_oldage:d4"
@@ -495,7 +495,7 @@ spriteTypes = {
 			"GFX_westernslavic_female_clothes:p3:c2"			
 			"GFX_german_female_ear_oldage:d7"
 			"GFX_western_female_headgear_mid:p5:c3" 
-			"GFX_ugric_female_hair_oldage:p1:o-2x-1:y"
+			"GFX_ugric_female_hair_oldage:p1:o-2x-5:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear:p5:c5"
@@ -532,7 +532,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind_early:p3:c0"            #1
 			"GFX_westernslavic_female_headgear_behind_early:p5:c1"           #2
-			"GFX_ugric_female_hair_behind:p1:o-2x-1:h:y"            #3
+			"GFX_ugric_female_hair_behind:p1:o-2x-5:h:y"            #3
 			"GFX_german_female_base:p2"                        #4
 			"GFX_german_female_neck:d0"                        #5
 			"GFX_german_female_cheeks:d4"                      #6
@@ -549,7 +549,7 @@ spriteTypes = {
 			"GFX_westernslavic_female_clothes_early:p3:c2"                 #12
 			"GFX_german_female_ear:d7"                         #13
 			"GFX_empty:p5:c3"              #14
-			"GFX_ugric_female_hair:p1:o-2x-1:h:y"                 #15
+			"GFX_ugric_female_hair:p1:o-2x-5:h:y"                 #15
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"									#19
 			"GFX_westernslavic_female_headgear_early:p5:c5"                 #20
@@ -585,7 +585,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind_early:p3:c0"
 			"GFX_westernslavic_female_headgear_behind_early:p5:c1" 
-			"GFX_ugric_female_hair_behind_midage:p1:o-2x-1:h:y"
+			"GFX_ugric_female_hair_behind_midage:p1:o-2x-5:h:y"
 			"GFX_german_female_base_midage:p2"
 			"GFX_german_female_neck_midage:d0"
 			"GFX_german_female_cheeks_midage:d4"
@@ -602,7 +602,7 @@ spriteTypes = {
 			"GFX_westernslavic_female_clothes_early:p3:c2"			
 			"GFX_german_female_ear_midage:d7"
 			"GFX_empty:p5:c3" 
-			"GFX_ugric_female_hair_midage:p1:o-2x-1:h:y"
+			"GFX_ugric_female_hair_midage:p1:o-2x-5:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"
@@ -639,7 +639,7 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_westernslavic_female_clothes_behind_early:p3:c0"
 			"GFX_westernslavic_female_headgear_behind_early:p5:c1" 
-			"GFX_ugric_female_hair_behind_oldage:p1:o-2x-1:y"
+			"GFX_ugric_female_hair_behind_oldage:p1:o-2x-5:y"
 			"GFX_german_female_base_oldage:p2"
 			"GFX_german_female_neck_oldage:d0"
 			"GFX_german_female_cheeks_oldage:d4"
@@ -656,7 +656,7 @@ spriteTypes = {
 			"GFX_westernslavic_female_clothes_early:p3:c2"			
 			"GFX_german_female_ear_oldage:d7"
 			"GFX_empty:p5:c3" 
-			"GFX_ugric_female_hair_oldage:p1:o-2x-1:y"
+			"GFX_ugric_female_hair_oldage:p1:o-2x-5:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westernslavic_female_headgear_early:p5:c5"

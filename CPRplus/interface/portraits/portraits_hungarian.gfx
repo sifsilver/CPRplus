@@ -121,6 +121,48 @@ spriteTypes = {
 		noOfFrames = 10
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "GFX_hungarian_male_beard_behind"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_hungarian_male_beard_behind_midage"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_hungarian_male_beard_behind_oldage"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+	
+		spriteType = {
+		name = "GFX_hungarian_male_beard"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_hungarian_male_beard_midage"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_hungarian_male_beard_oldage"
+		texturefile = "gfx\\characters\\hungarian_male\\hungarian_male_beard_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
 
 	
 	### hungarian MALE ####
@@ -213,7 +255,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_ugric_male_ear_midage:d7"
 			"GFX_steppe_male_beard_midage:p4:o-1x2:h:y"
-			"GFX_character_eyepatch:p13:y::o32x63"
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_steppe_male_hair_midage:p1:o-2x-3:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -320,7 +362,7 @@ spriteTypes = {
 			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_dutch_male_beard_behind:p4:h:y:o0x3"
+			"GFX_hungarian_male_beard_behind:p4:h:y:o0x3"
 			"GFX_ugric_male_base:p2"
 			"GFX_ugric_male_neck:d0"
 			"GFX_ugric_male_chin:d1"
@@ -335,7 +377,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_male_clothes_christian:p3:c2"
 			"GFX_ugric_male_ear:d7"			
-			"GFX_dutch_male_beard:p4:h:y:o0x3"
+			"GFX_hungarian_male_beard:p4:h:y:o0x3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_western_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -383,7 +425,7 @@ spriteTypes = {
 			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_dutch_male_beard_behind_midage:p4:h:y:o0x3"
+			"GFX_hungarian_male_beard_behind_midage:p4:h:y:o0x3"
 			"GFX_ugric_male_base_midage:p2"
 			"GFX_ugric_male_neck_midage:d0"
 			"GFX_ugric_male_chin_midage:d1"
@@ -398,7 +440,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_male_clothes_christian:p3:c2"
 			"GFX_ugric_male_ear_midage:d7"
-			"GFX_dutch_male_beard_midage:p4:h:y:o0x3"
+			"GFX_hungarian_male_beard_midage:p4:h:y:o0x3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -446,7 +488,7 @@ spriteTypes = {
 			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
 			"GFX_westernslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_dutch_male_beard_behind_oldage:p4:h:y:o0x3"
+			"GFX_hungarian_male_beard_behind_oldage:p4:h:y:o0x3"
 			"GFX_ugric_male_base_oldage:p2"
 			"GFX_ugric_male_neck_oldage:d0"
 			"GFX_ugric_male_chin_oldage:d1"
@@ -461,7 +503,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_hungarian_male_clothes_christian:p3:c2"
 			"GFX_ugric_male_ear_oldage:d7"
-			"GFX_dutch_male_beard_oldage:p4:h:y:o0x3"
+			"GFX_hungarian_male_beard_oldage:p4:h:y:o0x3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"

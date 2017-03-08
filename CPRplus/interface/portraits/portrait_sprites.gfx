@@ -550,7 +550,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_cheeks"
 		texturefile = "gfx\\characters\\western_female\\western_female_cheeks_1.dds"
-		noOfFrames = 11
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -558,7 +558,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_cheeks_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_cheeks_2.dds"
-		noOfFrames = 11
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -566,7 +566,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_cheeks_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_cheeks_3.dds"
-		noOfFrames = 11
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -574,7 +574,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_chin"
 		texturefile = "gfx\\characters\\western_female\\western_female_chin_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -582,7 +582,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_chin_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_chin_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -590,7 +590,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_chin_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_chin_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -598,7 +598,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_mouth"
 		texturefile = "gfx\\characters\\western_female\\western_female_mouth_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -606,7 +606,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_mouth_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_mouth_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -614,7 +614,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_mouth_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_mouth_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -622,7 +622,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_nose"
 		texturefile = "gfx\\characters\\western_female\\western_female_nose_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -630,7 +630,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_nose_midage"
 		texturefile = "gfx\\characters\\western_female\\western_female_nose_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -638,7 +638,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_western_female_nose_oldage"
 		texturefile = "gfx\\characters\\western_female\\western_female_nose_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
