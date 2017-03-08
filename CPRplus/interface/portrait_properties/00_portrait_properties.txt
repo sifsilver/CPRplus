@@ -2239,8 +2239,8 @@
 }
 
 # p2 base
-#2 = {
-#}
+2 = {
+}
 
 # p3 clothes
 3 = {
@@ -6152,7 +6152,7 @@
 			factor = 0
 			OR = {
 				culture = manden
-				culture = berber
+				culture = maghreb_arabic
 			}
 		}
 	}
@@ -6385,7 +6385,7 @@
 			factor = 0
 			OR = {
 				culture = manden
-				culture = berber
+				culture = maghreb_arabic
 			}
 		}
 	}
@@ -6427,7 +6427,7 @@
 				trait = ambitious
 				trait = envious
 				culture = manden
-				culture = berber
+				culture = maghreb_arabic
 			}
 			NOT = { has_character_modifier = golden_mask }
 		}
