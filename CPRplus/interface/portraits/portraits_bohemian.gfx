@@ -35,8 +35,8 @@ spriteTypes = {
 			"GFX_german_male_neck:d0"
 			"GFX_german_male_cheeks:d4"
 			"GFX_german_male_chin:d1"
-			"GFX_german_male_mouth:d2"
-			"GFX_german_male_nose:d3"
+			"GFX_easternslavic_male_mouth:d2"
+			"GFX_easternslavic_male_nose:d3"
 			"GFX_german_male_eyes:d6"
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -91,8 +91,8 @@ spriteTypes = {
 			"GFX_german_male_neck_midage:d0"
 			"GFX_german_male_cheeks_midage:d4"
 			"GFX_german_male_chin_midage:d1"
-			"GFX_german_male_mouth_midage:d2"
-			"GFX_german_male_nose_midage:d3"					#10
+			"GFX_easternslavic_male_mouth_midage:d2"
+			"GFX_easternslavic_male_nose_midage:d3"					#10
 			"GFX_german_male_eyes_midage:d6"
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -148,8 +148,8 @@ spriteTypes = {
 			"GFX_german_male_neck_oldage:d0"
 			"GFX_german_male_cheeks_oldage:d4"
 			"GFX_german_male_chin_oldage:d1"
-			"GFX_german_male_mouth_oldage:d2"
-			"GFX_german_male_nose_oldage:d3"
+			"GFX_easternslavic_male_mouth_oldage:d2"
+			"GFX_easternslavic_male_nose_oldage:d3"
 			"GFX_german_male_eyes_oldage:d6"
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -203,8 +203,8 @@ spriteTypes = {
 			"GFX_german_male_neck:d0"
 			"GFX_german_male_cheeks:d4"
 			"GFX_german_male_chin:d1"
-			"GFX_german_male_mouth:d2"
-			"GFX_german_male_nose:d3"
+			"GFX_easternslavic_male_mouth:d2"
+			"GFX_easternslavic_male_nose:d3"
 			"GFX_german_male_eyes:d6"
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -259,8 +259,8 @@ spriteTypes = {
 			"GFX_german_male_neck_midage:d0"
 			"GFX_german_male_cheeks_midage:d4"
 			"GFX_german_male_chin_midage:d1"
-			"GFX_german_male_mouth_midage:d2"
-			"GFX_german_male_nose_midage:d3"					#10
+			"GFX_easternslavic_male_mouth_midage:d2"
+			"GFX_easternslavic_male_nose_midage:d3"					#10
 			"GFX_german_male_eyes_midage:d6"
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -316,8 +316,8 @@ spriteTypes = {
 			"GFX_german_male_neck_oldage:d0"
 			"GFX_german_male_cheeks_oldage:d4"
 			"GFX_german_male_chin_oldage:d1"
-			"GFX_german_male_mouth_oldage:d2"
-			"GFX_german_male_nose_oldage:d3"
+			"GFX_easternslavic_male_mouth_oldage:d2"
+			"GFX_easternslavic_male_nose_oldage:d3"
 			"GFX_german_male_eyes_oldage:d6"
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -376,8 +376,8 @@ spriteTypes = {
 			"GFX_german_female_neck:d0"                        #5
 			"GFX_german_female_cheeks:d4"                      #6
 			"GFX_german_female_chin:d1"                        #7
-			"GFX_german_female_mouth:d2"                       #8
-			"GFX_german_female_nose:d3"                        #9
+			"GFX_easternslavic_female_mouth:d2"                       #8
+			"GFX_easternslavic_female_nose:d3"                        #9
 			"GFX_german_female_eyes:d6"                        #10
 			"GFX_german_female_eyes2:d6:e"				            #11
 			"GFX_character_scars:p7:y"                            #16
@@ -429,8 +429,8 @@ spriteTypes = {
 			"GFX_german_female_neck_midage:d0"
 			"GFX_german_female_cheeks_midage:d4"
 			"GFX_german_female_chin_midage:d1"
-			"GFX_german_female_mouth_midage:d2"
-			"GFX_german_female_nose_midage:d3"
+			"GFX_easternslavic_female_mouth_midage:d2"
+			"GFX_easternslavic_female_nose_midage:d3"
 			"GFX_german_female_eyes_midage:d6"
 			"GFX_german_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -483,8 +483,8 @@ spriteTypes = {
 			"GFX_german_female_neck_oldage:d0"
 			"GFX_german_female_cheeks_oldage:d4"
 			"GFX_german_female_chin_oldage:d1"
-			"GFX_german_female_mouth_oldage:d2"
-			"GFX_german_female_nose_oldage:d3"
+			"GFX_easternslavic_female_mouth_oldage:d2"
+			"GFX_easternslavic_female_nose_oldage:d3"
 			"GFX_german_female_eyes_oldage:d6"
 			"GFX_german_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -537,8 +537,8 @@ spriteTypes = {
 			"GFX_german_female_neck:d0"                        #5
 			"GFX_german_female_cheeks:d4"                      #6
 			"GFX_german_female_chin:d1"                        #7
-			"GFX_german_female_mouth:d2"                       #8
-			"GFX_german_female_nose:d3"                        #9
+			"GFX_easternslavic_female_mouth:d2"                       #8
+			"GFX_easternslavic_female_nose:d3"                        #9
 			"GFX_german_female_eyes:d6"                        #10
 			"GFX_german_female_eyes2:d6:e"				            #11
 			"GFX_character_scars:p7:y"                            #16
@@ -590,8 +590,8 @@ spriteTypes = {
 			"GFX_german_female_neck_midage:d0"
 			"GFX_german_female_cheeks_midage:d4"
 			"GFX_german_female_chin_midage:d1"
-			"GFX_german_female_mouth_midage:d2"
-			"GFX_german_female_nose_midage:d3"
+			"GFX_easternslavic_female_mouth_midage:d2"
+			"GFX_easternslavic_female_nose_midage:d3"
 			"GFX_german_female_eyes_midage:d6"
 			"GFX_german_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -644,8 +644,8 @@ spriteTypes = {
 			"GFX_german_female_neck_oldage:d0"
 			"GFX_german_female_cheeks_oldage:d4"
 			"GFX_german_female_chin_oldage:d1"
-			"GFX_german_female_mouth_oldage:d2"
-			"GFX_german_female_nose_oldage:d3"
+			"GFX_easternslavic_female_mouth_oldage:d2"
+			"GFX_easternslavic_female_nose_oldage:d3"
 			"GFX_german_female_eyes_oldage:d6"
 			"GFX_german_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
