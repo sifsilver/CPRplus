@@ -366,8 +366,8 @@ spriteTypes = {
 			"GFX_english_female_hair_behind:p1:h:y" 
 			"GFX_english_female_base:p2"
 			"GFX_english_female_neck:d0"
-			"GFX_english_female_cheeks:d4"
 			"GFX_english_female_chin:d1"
+			"GFX_english_female_cheeks:d4"
 			"GFX_english_female_mouth:d2"
 			"GFX_saxon_female_eyes:d6:o30x66"
 			"GFX_german_female_eyes2:d6:e"
@@ -425,8 +425,8 @@ spriteTypes = {
 			"GFX_english_female_hair_behind_midage:p1:h:y"
 			"GFX_english_female_base_midage:p2"
 			"GFX_english_female_neck_midage:d0"
-			"GFX_english_female_cheeks_midage:d4"
 			"GFX_english_female_chin_midage:d1"
+			"GFX_english_female_cheeks_midage:d4"
 			"GFX_english_female_mouth_midage:d2"
 			"GFX_saxon_female_eyes_midage:d6:o30x73"
 			"GFX_german_female_eyes2:d6:e"
@@ -484,8 +484,8 @@ spriteTypes = {
 			"GFX_english_female_hair_behind_oldage:p1:y"
 			"GFX_english_female_base_oldage:p2"
 			"GFX_english_female_neck_oldage:d0"
-			"GFX_english_female_cheeks_oldage:d4"
 			"GFX_english_female_chin_oldage:d1"
+			"GFX_english_female_cheeks_oldage:d4"
 			"GFX_english_female_mouth_oldage:d2"
 			"GFX_saxon_female_eyes_oldage:d6:o30x59"
 			"GFX_german_female_eyes2:d6:e"
@@ -732,8 +732,8 @@ spriteTypes = {
 			"GFX_english_female_hair_behind:p1:h:y"            #3
 			"GFX_english_female_base:p2"                        #4
 			"GFX_english_female_neck:d0"                        #5
-			"GFX_english_female_cheeks:d4"                      #6
 			"GFX_english_female_chin:d1"                        #7
+			"GFX_english_female_cheeks:d4"                      #6
 			"GFX_english_female_mouth:d2"                       #8
 			"GFX_saxon_female_eyes:d6:o30x66"
 			"GFX_german_female_eyes2:d6:e"		            #11
@@ -791,8 +791,8 @@ spriteTypes = {
 			"GFX_english_female_hair_behind_midage:p1:h:y"
 			"GFX_english_female_base_midage:p2"
 			"GFX_english_female_neck_midage:d0"
-			"GFX_english_female_cheeks_midage:d4"
 			"GFX_english_female_chin_midage:d1"
+			"GFX_english_female_cheeks_midage:d4"
 			"GFX_english_female_mouth_midage:d2"
 			"GFX_saxon_female_eyes_midage:d6:o30x73"
 			"GFX_german_female_eyes2:d6:e"
@@ -850,8 +850,8 @@ spriteTypes = {
 			"GFX_english_female_hair_behind_oldage:p1:y"
 			"GFX_english_female_base_oldage:p2"
 			"GFX_english_female_neck_oldage:d0"
-			"GFX_english_female_cheeks_oldage:d4"
 			"GFX_english_female_chin_oldage:d1"
+			"GFX_english_female_cheeks_oldage:d4"
 			"GFX_english_female_mouth_oldage:d2"
 			"GFX_saxon_female_eyes_oldage:d6:o30x59"
 			"GFX_german_female_eyes2:d6:e"
