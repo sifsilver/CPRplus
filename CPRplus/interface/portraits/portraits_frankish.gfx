@@ -436,24 +436,24 @@ spriteTypes = {
 			"GFX_frankish_male_clothes_behind:p3:c0"
 			"GFX_frankish_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_southern_male_beard_behind:p4:o2x-2:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_southern_male_beard_behind:p4:o0x-2:h:y"
+			"GFX_frankish_male_base:p2"
+			"GFX_frankish_male_neck:d0"
+			"GFX_frankish_male_cheeks:d4"
+			"GFX_frankish_male_chin:d1"
+			"GFX_frankish_male_mouth:d2:o75x49"
+			"GFX_frankish_male_nose:d3:o80x65"
+			"GFX_frankish_male_eyes:d6:o47x74"
+			"GFX_western_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_male_ear:d7:o27x54"	
+			"GFX_frankish_male_ear:d7:o27x54"	
 			"GFX_frankish_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"		
-			"GFX_southern_male_beard:p4:o2x-2:h:y"
+			"GFX_western_male_headgear_mid:p5:c3"
+			"GFX_southern_male_beard:p4:o0x-2:h:y"
 		   	"GFX_western_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_western_male_clothes_infront:p3:c4"
@@ -488,7 +488,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -505,24 +507,24 @@ spriteTypes = {
 			"GFX_frankish_male_clothes_behind:p3:c0"
 			"GFX_frankish_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:o2x-2:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"
-			"GFX_western_male_eyes_midage:d6:o46x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_southern_male_beard_behind_midage:p4:o0x-2:h:y"
+			"GFX_frankish_male_base_midage:p2"
+			"GFX_frankish_male_neck_midage:d0"
+			"GFX_frankish_male_cheeks_midage:d4"
+			"GFX_frankish_male_chin_midage:d1"
+			"GFX_frankish_male_mouth_midage:d2:o80x51"
+			"GFX_frankish_male_nose_midage:d3:o81x65"
+			"GFX_frankish_male_eyes_midage:d6:o46x74"
+			"GFX_western_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_male_ear_midage:d7:o27x54"
+			"GFX_frankish_male_ear_midage:d7:o27x54"
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_midage:p4:o0x-2:h:y"
 			"GFX_western_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_western_male_clothes_infront:p3:c4"
@@ -557,7 +559,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -574,24 +578,24 @@ spriteTypes = {
 			"GFX_frankish_male_clothes_behind:p3:c0"
 			"GFX_frankish_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:o2x-2:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_southern_male_beard_behind_oldage:p4:o0x-2:h:y"
+			"GFX_frankish_male_base_oldage:p2"
+			"GFX_frankish_male_neck_oldage:d0"
+			"GFX_frankish_male_cheeks_oldage:d4"
+			"GFX_frankish_male_chin_oldage:d1"
+			"GFX_frankish_male_mouth_oldage:d2:o75x52"
+			"GFX_frankish_male_nose_oldage:d3:o80x66"
+			"GFX_frankish_male_eyes_oldage:d6:o46x73"
+			"GFX_western_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_male_ear_oldage:d7:o25x51"
+			"GFX_frankish_male_ear_oldage:d7:o25x51"
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
+			"GFX_southern_male_beard_oldage:p4:o0x-2:h:y"
 			"GFX_western_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_western_male_clothes_infront:p3:c4"
@@ -626,7 +630,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -643,13 +649,13 @@ spriteTypes = {
 			"GFX_frankish_female_clothes_behind:p3:c0"
 			"GFX_frankish_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"
-			"GFX_western_female_nose:d3:o80x65"
-			"GFX_western_female_eyes:d6:o49x79"
+			"GFX_frankish_female_base:p2"
+			"GFX_frankish_female_neck:d0"
+			"GFX_frankish_female_cheeks:d4"
+			"GFX_frankish_female_chin:d1"
+			"GFX_frankish_female_mouth:d2:o72x48"
+			"GFX_frankish_female_nose:d3:o80x65"
+			"GFX_frankish_female_eyes:d6:o49x79"
 			"GFX_western_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -657,7 +663,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_frankish_female_clothes:p3:c2"
-			"GFX_western_female_ear:d7:o28x54"
+			"GFX_frankish_female_ear:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -693,7 +699,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -710,13 +718,13 @@ spriteTypes = {
 			"GFX_frankish_female_clothes_behind:p3:c0"
 			"GFX_frankish_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_midage:p1:h:y"
-			"GFX_western_female_base_midage:p2"
-			"GFX_western_female_neck_midage:d0"
-			"GFX_western_female_cheeks_midage:d4"
-			"GFX_western_female_chin_midage:d1"
-			"GFX_western_female_mouth_midage:d2:o72x49"
-			"GFX_western_female_nose_midage:d3:o80x64"			
-			"GFX_western_female_eyes_midage:d6:o46x76"
+			"GFX_frankish_female_base_midage:p2"
+			"GFX_frankish_female_neck_midage:d0"
+			"GFX_frankish_female_cheeks_midage:d4"
+			"GFX_frankish_female_chin_midage:d1"
+			"GFX_frankish_female_mouth_midage:d2:o72x49"
+			"GFX_frankish_female_nose_midage:d3:o80x64"			
+			"GFX_frankish_female_eyes_midage:d6:o46x76"
 			"GFX_western_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -724,7 +732,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_frankish_female_clothes:p3:c2"		
-			"GFX_western_female_ear_midage:d7:o28x54"
+			"GFX_frankish_female_ear_midage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -760,7 +768,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -777,13 +787,13 @@ spriteTypes = {
 			"GFX_frankish_female_clothes_behind:p3:c0"
 			"GFX_frankish_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_oldage:p1:y"
-			"GFX_western_female_base_oldage:p2"
-			"GFX_western_female_neck_oldage:d0"
-			"GFX_western_female_cheeks_oldage:d4"
-			"GFX_western_female_chin_oldage:d1"
-			"GFX_western_female_mouth_oldage:d2:o72x50"
-			"GFX_western_female_nose_oldage:d3:o79x64"			
-			"GFX_western_female_eyes_oldage:d6:o47x74"
+			"GFX_frankish_female_base_oldage:p2"
+			"GFX_frankish_female_neck_oldage:d0"
+			"GFX_frankish_female_cheeks_oldage:d4"
+			"GFX_frankish_female_chin_oldage:d1"
+			"GFX_frankish_female_mouth_oldage:d2:o72x50"
+			"GFX_frankish_female_nose_oldage:d3:o79x64"			
+			"GFX_frankish_female_eyes_oldage:d6:o47x74"
 			"GFX_western_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -791,7 +801,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_frankish_female_clothes:p3:c2"		
-			"GFX_western_female_ear_oldage:d7:o28x54"
+			"GFX_frankish_female_ear_oldage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_oldage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -828,7 +838,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -847,15 +859,15 @@ spriteTypes = {
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_western_male_beard_behind:p4:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_western_male_beard_behind:p4:o-2x-1:h:y"
+			"GFX_frankish_male_base:p2"
+			"GFX_frankish_male_neck:d0"
+			"GFX_frankish_male_cheeks:d4"
+			"GFX_frankish_male_chin:d1"
+			"GFX_frankish_male_mouth:d2:o75x49"
+			"GFX_frankish_male_nose:d3:o80x65"
+			"GFX_frankish_male_eyes:d6:o47x74"
+			"GFX_western_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -863,8 +875,8 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_western_male_ear:d7:o27x54"			
-			"GFX_western_male_beard:p4:h:y"
+			"GFX_frankish_male_ear:d7:o27x54"
+			"GFX_western_male_beard:p4:o-2x-1:h:y"
 		   	"GFX_western_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -901,7 +913,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -918,15 +932,15 @@ spriteTypes = {
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_western_male_beard_behind_midage:p4:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"
-			"GFX_western_male_eyes_midage:d6:o46x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_western_male_beard_behind_midage:p4:o-2x-1:h:y"
+			"GFX_frankish_male_base_midage:p2"
+			"GFX_frankish_male_neck_midage:d0"
+			"GFX_frankish_male_cheeks_midage:d4"
+			"GFX_frankish_male_chin_midage:d1"
+			"GFX_frankish_male_mouth_midage:d2:o80x51"
+			"GFX_frankish_male_nose_midage:d3:o81x65"
+			"GFX_frankish_male_eyes_midage:d6:o46x74"
+			"GFX_western_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -934,8 +948,8 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_western_male_ear_midage:d7:o27x54"
-			"GFX_western_male_beard_midage:p4:h:y"
+			"GFX_frankish_male_ear_midage:d7:o27x54"
+			"GFX_western_male_beard_midage:p4:o-2x-1:h:y"
 			"GFX_western_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -971,7 +985,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -988,15 +1004,15 @@ spriteTypes = {
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_western_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_western_male_beard_behind_oldage:p4:o-2x-1:h:y"
+			"GFX_frankish_male_base_oldage:p2"
+			"GFX_frankish_male_neck_oldage:d0"
+			"GFX_frankish_male_cheeks_oldage:d4"
+			"GFX_frankish_male_chin_oldage:d1"
+			"GFX_frankish_male_mouth_oldage:d2:o75x52"
+			"GFX_frankish_male_nose_oldage:d3:o80x66"
+			"GFX_frankish_male_eyes_oldage:d6:o46x73"
+			"GFX_western_male_eyes2:d6:e:o74x93"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -1004,8 +1020,8 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"
-			"GFX_western_male_beard_oldage:p4:h:y"
+			"GFX_frankish_male_ear_oldage:d7:o25x51"
+			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
 			"GFX_western_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1041,7 +1057,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -1063,13 +1081,13 @@ spriteTypes = {
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_western_female_hair_behind:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"
-			"GFX_western_female_nose:d3:o80x65"
-			"GFX_western_female_eyes:d6:o49x79"
+			"GFX_frankish_female_base:p2"
+			"GFX_frankish_female_neck:d0"
+			"GFX_frankish_female_cheeks:d4"
+			"GFX_frankish_female_chin:d1"
+			"GFX_frankish_female_mouth:d2:o72x48"
+			"GFX_frankish_female_nose:d3:o80x65"
+			"GFX_frankish_female_eyes:d6:o49x79"
 			"GFX_western_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -1077,7 +1095,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_ear:d7:o28x54"
+			"GFX_frankish_female_ear:d7:o28x54"
 			"GFX_empty:p5:c3"
 			"GFX_western_female_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -1113,7 +1131,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -1130,13 +1150,13 @@ spriteTypes = {
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_western_female_hair_behind_midage:p1:h:y"
-			"GFX_western_female_base_midage:p2"
-			"GFX_western_female_neck_midage:d0"
-			"GFX_western_female_cheeks_midage:d4"
-			"GFX_western_female_chin_midage:d1"
-			"GFX_western_female_mouth_midage:d2:o72x49"
-			"GFX_western_female_nose_midage:d3:o80x64"			
-			"GFX_western_female_eyes_midage:d6:o46x76"
+			"GFX_frankish_female_base_midage:p2"
+			"GFX_frankish_female_neck_midage:d0"
+			"GFX_frankish_female_cheeks_midage:d4"
+			"GFX_frankish_female_chin_midage:d1"
+			"GFX_frankish_female_mouth_midage:d2:o72x49"
+			"GFX_frankish_female_nose_midage:d3:o80x64"			
+			"GFX_frankish_female_eyes_midage:d6:o46x76"
 			"GFX_western_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -1144,7 +1164,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_ear_midage:d7:o28x54"
+			"GFX_frankish_female_ear_midage:d7:o28x54"
 			"GFX_empty:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -1180,7 +1200,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}
@@ -1197,13 +1219,13 @@ spriteTypes = {
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_western_female_hair_behind_oldage:p1:y"
-			"GFX_western_female_base_oldage:p2"
-			"GFX_western_female_neck_oldage:d0"
-			"GFX_western_female_cheeks_oldage:d4"
-			"GFX_western_female_chin_oldage:d1"
-			"GFX_western_female_mouth_oldage:d2:o72x50"
-			"GFX_western_female_nose_oldage:d3:o79x64"			
-			"GFX_western_female_eyes_oldage:d6:o47x74"
+			"GFX_frankish_female_base_oldage:p2"
+			"GFX_frankish_female_neck_oldage:d0"
+			"GFX_frankish_female_cheeks_oldage:d4"
+			"GFX_frankish_female_chin_oldage:d1"
+			"GFX_frankish_female_mouth_oldage:d2:o72x50"
+			"GFX_frankish_female_nose_oldage:d3:o79x64"			
+			"GFX_frankish_female_eyes_oldage:d6:o47x74"
 			"GFX_western_female_eyes2:d6:e:o72x88"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -1211,7 +1233,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"		
-			"GFX_western_female_ear_oldage:d7:o28x54"
+			"GFX_frankish_female_ear_oldage:d7:o28x54"
 			"GFX_empty:p5:c3"
 			"GFX_western_female_hair_oldage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -1249,7 +1271,9 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 10 10 10 } #Black
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
 			{ 93 57 35 } #Light Brown
 			{ 54 43 34 } #Dark Brown 2
 		}

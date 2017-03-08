@@ -34,7 +34,7 @@ spriteTypes = {
 			"GFX_western_male_cheeks:d4"
 			"GFX_western_male_chin:d1"
 			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
+			"GFX_southern_male_nose:d3:o-2x-1"
 			"GFX_western_male_eyes:d6:o47x74"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -76,7 +76,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -99,7 +99,7 @@ spriteTypes = {
 			"GFX_western_male_cheeks_midage:d4"
 			"GFX_western_male_chin_midage:d1"
 			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"
+			"GFX_southern_male_nose_midage:d3:o-2x-1"
 			"GFX_western_male_eyes_midage:d6:o46x74"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -141,7 +141,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -164,7 +164,7 @@ spriteTypes = {
 			"GFX_western_male_cheeks_oldage:d4"
 			"GFX_western_male_chin_oldage:d1"
 			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
+			"GFX_southern_male_nose_oldage:d3:o-2x-1"
 			"GFX_western_male_eyes_oldage:d6:o46x73"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -206,7 +206,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -229,7 +229,7 @@ spriteTypes = {
 			"GFX_western_male_cheeks:d4"
 			"GFX_western_male_chin:d1"
 			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
+			"GFX_southern_male_nose:d3:o-2x-1"
 			"GFX_western_male_eyes:d6:o47x74"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -271,7 +271,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -294,7 +294,7 @@ spriteTypes = {
 			"GFX_western_male_cheeks_midage:d4"
 			"GFX_western_male_chin_midage:d1"
 			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"
+			"GFX_southern_male_nose_midage:d3:o-2x-1"
 			"GFX_western_male_eyes_midage:d6:o46x74"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -336,7 +336,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -359,7 +359,7 @@ spriteTypes = {
 			"GFX_western_male_cheeks_oldage:d4"
 			"GFX_western_male_chin_oldage:d1"
 			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
+			"GFX_southern_male_nose_oldage:d3:o-2x-1"
 			"GFX_western_male_eyes_oldage:d6:o46x73"
 			"GFX_western_male_eyes2:d6:e:o74x92"
 			"GFX_character_scars:p7:y"
@@ -401,7 +401,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -464,7 +464,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -527,7 +527,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -591,7 +591,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -654,7 +654,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -717,7 +717,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}
@@ -781,7 +781,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193}
+			{ 74 120 182}
 			{ 120 74 46 }
 			{ 34 103 36 }
 		}

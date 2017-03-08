@@ -257,7 +257,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"                            #18
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes:p3:c2"                  #12
+			"GFX_byzantine_female_clothes:p3:c2"                  #12
 			"GFX_western_female_ear:d7:o28x54"                         #13
 			"GFX_byzantine_female_headgear_mid:p5:c3"             #14
 			"GFX_byzantine_female_hair:p1:h:y"                    #15
@@ -329,7 +329,7 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes:p3:c2"			
+			"GFX_byzantine_female_clothes:p3:c2"			
 			"GFX_western_female_ear_midage:d7:o28x54"
 			"GFX_byzantine_female_headgear_mid:p5:c3"
 			"GFX_byzantine_female_hair_midage:p1:h:y"
