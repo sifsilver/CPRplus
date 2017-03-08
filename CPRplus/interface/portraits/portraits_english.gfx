@@ -1,25 +1,23 @@
 # hair, mouth, chin, nose, eyes, cheek, ear, neck
 spriteTypes = {
 	
-############## English ##########################
+############## english ##########################
 
 	spriteType = {
 		name = "PORTRAIT_englishgfx_child_male"
-		texturefile = "gfx\\characters\\default_son.tga"
+		texturefile = "gfx\\characters\\default_son_english.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "PORTRAIT_englishgfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter.tga"
+		texturefile = "gfx\\characters\\default_daughter_english.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
-
-	############## English ##########################
 	
-	### English MALE ####
+	### english MALE ####
 	
 	spriteType = {
 		name = "GFX_english_male_clothes_behind"
@@ -36,8 +34,274 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_english_male_base"
+		texturefile = "gfx\\characters\\english_male\\english_male_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_base_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_base_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_hair_behind"
+		texturefile = "gfx\\characters\\english_male\\english_male_hair_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_hair_behind_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_hair_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_hair_behind_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_hair_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_beard_behind"
+		texturefile = "gfx\\characters\\english_male\\english_male_beard_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_beard_behind_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_beard_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_beard_behind_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_beard_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_male_cheeks"
+		texturefile = "gfx\\characters\\english_male\\english_male_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_male_cheeks_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_male_cheeks_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_neck"
+		texturefile = "gfx\\characters\\english_male\\english_male_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_neck_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_neck_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_chin"
+		texturefile = "gfx\\characters\\english_male\\english_male_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_chin_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_chin_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_mouth"
+		texturefile = "gfx\\characters\\english_male\\english_male_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_mouth_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_mouth_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_nose"
+		texturefile = "gfx\\characters\\english_male\\english_male_nose_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_nose_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_nose_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_male_nose_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_nose_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_eyes"
+		texturefile = "gfx\\characters\\english_male\\english_male_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_eyes_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_eyes_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_eyes2"
+		texturefile = "gfx\\characters\\english_male\\english_male_eyes2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_ear"
+		texturefile = "gfx\\characters\\english_male\\english_male_ear_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_ear_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_ear_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_ear_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_ear_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_beard"
+		texturefile = "gfx\\characters\\english_male\\english_male_beard_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_beard_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_beard_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_beard_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_beard_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_hair"
+		texturefile = "gfx\\characters\\english_male\\english_male_hair_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_hair_midage"
+		texturefile = "gfx\\characters\\english_male\\english_male_hair_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_male_hair_oldage"
+		texturefile = "gfx\\characters\\english_male\\english_male_hair_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
 		name = "GFX_english_male_clothes"
 		texturefile = "gfx\\characters\\english_male\\english_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_male_headgear_mid"
+		texturefile = "gfx\\characters\\english_male\\english_male_headgear_mid.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
@@ -48,8 +312,8 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
-
-#### English FEMALE ####
+	
+	#### english FEMALE ####
 
 	spriteType = {
 		name = "GFX_english_female_clothes_behind"
@@ -66,9 +330,227 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_english_female_hair_behind"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_behind_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_hair_behind_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_behind_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_hair_behind_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_behind_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_base"
+		texturefile = "gfx\\characters\\english_female\\english_female_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_base_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_base_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_english_female_cheeks"
+		texturefile = "gfx\\characters\\english_female\\english_female_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_female_cheeks_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_female_cheeks_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_neck"
+		texturefile = "gfx\\characters\\english_female\\english_female_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_neck_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_neck_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_chin"
+		texturefile = "gfx\\characters\\english_female\\english_female_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_chin_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_chin_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_mouth"
+		texturefile = "gfx\\characters\\english_female\\english_female_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_mouth_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_mouth_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_nose"
+		texturefile = "gfx\\characters\\english_female\\english_female_nose_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_nose_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_nose_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_female_nose_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_nose_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_eyes"
+		texturefile = "gfx\\characters\\english_female\\english_female_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_eyes_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_eyes_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_eyes2"
+		texturefile = "gfx\\characters\\english_female\\english_female_eyes2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_ear"
+		texturefile = "gfx\\characters\\english_female\\english_female_ear_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_ear_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_ear_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_ear_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_ear_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
 		name = "GFX_english_female_clothes"
 		texturefile = "gfx\\characters\\english_female\\english_female_clothes.dds"
 		noOfFrames = 12
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_hair"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_hair_midage"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_english_female_hair_oldage"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_3.dds"
+		noOfFrames = 10
 		norefcount = yes
 	}
 	
@@ -76,6 +558,20 @@ spriteTypes = {
 		name = "GFX_english_female_headgear"
 		texturefile = "gfx\\characters\\english_female\\english_female_headgear.dds"
 		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_female_hair_ties_front"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_ties_front.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_english_female_hair_ties_behind"
+		texturefile = "gfx\\characters\\english_female\\english_female_hair_ties_behind.dds"
+		noOfFrames = 10
 		norefcount = yes
 	}
 	
@@ -89,28 +585,28 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_english_male_clothes_behind:p3:c0"
 			"GFX_english_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_western_male_beard_behind:p4:o-2x-1:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_english_male_hair_behind:p1:h:y"
+			"GFX_english_male_beard_behind:p4::h:y"
+			"GFX_english_male_base:p2"
+			"GFX_english_male_neck:d0"
+			"GFX_english_male_chin:d1"
+			"GFX_english_male_cheeks:d4"
+			"GFX_english_male_mouth:d2"
+			"GFX_english_male_nose:d3"
+			"GFX_english_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_male_ear:d7:o27x54"	
+			"GFX_english_male_ear:d7:"	
 			"GFX_english_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"		
-			"GFX_western_male_beard:p4:o-2x-1:h:y"
-		   	"GFX_western_male_hair:p1:h:y"
+			"GFX_english_male_headgear_mid:p5:c3"		
+			"GFX_english_male_beard:p4::h:y"
+		   	"GFX_english_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_english_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
@@ -118,15 +614,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -162,28 +659,28 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_english_male_clothes_behind:p3:c0"
 			"GFX_english_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_western_male_beard_behind_midage:p4:o-2x-1:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"
-			"GFX_western_male_eyes_midage:d6:o46x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_english_male_hair_behind_midage:p1:h:y"
+			"GFX_english_male_beard_behind_midage:p4::h:y"
+			"GFX_english_male_base_midage:p2"
+			"GFX_english_male_neck_midage:d0"
+			"GFX_english_male_chin_midage:d1"
+			"GFX_english_male_cheeks_midage:d4"
+			"GFX_english_male_mouth_midage:d2"
+			"GFX_english_male_nose_midage:d3"
+			"GFX_english_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_male_ear_midage:d7:o27x54"
+			"GFX_english_male_ear_midage:d7:"
 			"GFX_english_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_beard_midage:p4:o-2x-1:h:y"
-			"GFX_western_male_hair_midage:p1:h:y"
+			"GFX_english_male_headgear_mid:p5:c3"
+			"GFX_english_male_beard_midage:p4::h:y"
+			"GFX_english_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_english_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
@@ -191,15 +688,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -235,28 +733,28 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_english_male_clothes_behind:p3:c0"
 			"GFX_english_male_headgear_behind:p5:c1"
-			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_western_male_beard_behind_oldage:p4:o-2x-1:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_english_male_hair_behind_oldage:p1:h:y"
+			"GFX_english_male_beard_behind_oldage:p4::h:y"
+			"GFX_english_male_base_oldage:p2"
+			"GFX_english_male_neck_oldage:d0"
+			"GFX_english_male_chin_oldage:d1"
+			"GFX_english_male_cheeks_oldage:d4"
+			"GFX_english_male_mouth_oldage:d2"
+			"GFX_english_male_nose_oldage:d3"
+			"GFX_english_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_male_ear_oldage:d7:o25x51"
+			"GFX_english_male_ear_oldage:d7"
 			"GFX_english_male_clothes:p3:c2"
-			"GFX_western_male_headgear_mid:p5:c3"
-			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
-			"GFX_western_male_hair_oldage:p1:h:y"
+			"GFX_english_male_headgear_mid:p5:c3"
+			"GFX_english_male_beard_oldage:p4::h:y"
+			"GFX_english_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_english_male_clothes_infront:p3:c4"
 			"GFX_english_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
@@ -264,15 +762,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
+			{ 10 10 10 } { 81 81 81 } { 255 255 255 } #Was black, turned grayish
+			{ 10 10 10 } { 110 110 110  } { 255 255 255 } #Was black, turned white
+			{ 20 12 8 } { 90 78 69 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 108 108 108 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 148 117 93 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 36 26 17 } { 115 115 115 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 135 127 95 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 95 95 95 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 212 207 182 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 110 110 110 } { 255 255 255 } #Light blonde and turns white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
 			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
@@ -308,24 +807,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_english_female_clothes_behind:p3:c0"
 			"GFX_english_female_headgear_behind:p5:c1"
-			"GFX_western_female_hair_behind:o0x6:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"
-			"GFX_western_female_nose:d3:o80x65"
-			"GFX_western_female_eyes:d6:o49x79"
-			"GFX_western_female_eyes2:d6:e:o72x88"
+			"GFX_english_female_hair_behind:p1:h:y"
+			"GFX_english_female_base:p2"
+			"GFX_english_female_neck:d0"
+			"GFX_english_female_chin:d1"
+			"GFX_english_female_cheeks:d4"
+			"GFX_english_female_mouth:d2"
+			"GFX_english_female_nose:d3"
+			"GFX_english_female_eyes:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_english_female_clothes:p3:c2"
-			"GFX_western_female_ear:d7:o28x54"
-			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_western_female_hair:o0x6:p1:h:y"
+			"GFX_english_female_ear:d7"
+			"GFX_english_female_headgear_mid:p5:c3"
+			"GFX_english_female_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear:p5:c5"
@@ -335,15 +834,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -379,24 +879,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_english_female_clothes_behind:p3:c0"
 			"GFX_english_female_headgear_behind:p5:c1"
-			"GFX_western_female_hair_behind_midage:o0x6:p1:h:y"
-			"GFX_western_female_base_midage:p2"
-			"GFX_western_female_neck_midage:d0"
-			"GFX_western_female_cheeks_midage:d4"
-			"GFX_western_female_chin_midage:d1"
-			"GFX_western_female_mouth_midage:d2:o72x49"
-			"GFX_western_female_nose_midage:d3:o80x64"			
-			"GFX_western_female_eyes_midage:d6:o46x76"
-			"GFX_western_female_eyes2:d6:e:o72x88"
+			"GFX_english_female_hair_behind_midage:p1:h:y"
+			"GFX_english_female_base_midage:p2"
+			"GFX_english_female_neck_midage:d0"
+			"GFX_english_female_chin_midage:d1"
+			"GFX_english_female_cheeks_midage:d4"
+			"GFX_english_female_mouth_midage:d2"
+			"GFX_english_female_nose_midage:d3"			
+			"GFX_english_female_eyes_midage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_english_female_clothes:p3:c2"		
-			"GFX_western_female_ear_midage:d7:o28x54"
-			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_western_female_hair_midage:o0x6:p1:h:y"
+			"GFX_english_female_ear_midage:d7"
+			"GFX_english_female_headgear_mid:p5:c3"
+			"GFX_english_female_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear:p5:c5"
@@ -406,15 +906,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -450,24 +951,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_english_female_clothes_behind:p3:c0"
 			"GFX_english_female_headgear_behind:p5:c1"
-			"GFX_western_female_hair_behind_oldage:o0x6:p1:y"
-			"GFX_western_female_base_oldage:p2"
-			"GFX_western_female_neck_oldage:d0"
-			"GFX_western_female_cheeks_oldage:d4"
-			"GFX_western_female_chin_oldage:d1"
-			"GFX_western_female_mouth_oldage:d2:o72x50"
-			"GFX_western_female_nose_oldage:d3:o79x64"			
-			"GFX_western_female_eyes_oldage:d6:o47x74"
-			"GFX_western_female_eyes2:d6:e:o72x88"
+			"GFX_english_female_hair_behind_oldage:p1:y"
+			"GFX_english_female_base_oldage:p2"
+			"GFX_english_female_neck_oldage:d0"
+			"GFX_english_female_chin_oldage:d1"
+			"GFX_english_female_cheeks_oldage:d4"
+			"GFX_english_female_mouth_oldage:d2"
+			"GFX_english_female_nose_oldage:d3"			
+			"GFX_english_female_eyes_oldage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_english_female_clothes:p3:c2"		
-			"GFX_western_female_ear_oldage:d7:o28x54"
-			"GFX_western_female_headgear_mid:p5:c3"
-			"GFX_western_female_hair_oldage:o0x6:p1:y"
+			"GFX_english_female_ear_oldage:d7"
+			"GFX_english_female_headgear_mid:p5:c3"
+			"GFX_english_female_hair_oldage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear:p5:c5"
@@ -478,15 +979,16 @@ spriteTypes = {
 		
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
+			{ 10 10 10 } { 81 81 81 } { 255 255 255 } #Was black, turned grayish
+			{ 10 10 10 } { 110 110 110  } { 255 255 255 } #Was black, turned white
+			{ 20 12 8 } { 90 78 69 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 108 108 108 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 148 117 93 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 36 26 17 } { 115 115 115 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 135 127 95 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 95 95 95 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 212 207 182 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 110 110 110 } { 255 255 255 } #Light blonde and turns white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
 			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
@@ -524,16 +1026,16 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_western_male_hair_behind:p1:h:y"
-			"GFX_western_male_beard_behind:p4:o-2x-1:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_western_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_western_male_eyes:d6:o47x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_english_male_hair_behind:p1:h:y"
+			"GFX_english_male_beard_behind:p4::h:y"
+			"GFX_english_male_base:p2"
+			"GFX_english_male_neck:d0"
+			"GFX_english_male_chin:d1"
+			"GFX_english_male_cheeks:d4"
+			"GFX_english_male_mouth:d2"
+			"GFX_english_male_nose:d3"
+			"GFX_english_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -541,9 +1043,9 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_western_male_ear:d7:o27x54"			
-			"GFX_western_male_beard:p4:o-2x-1:h:y"
-		   	"GFX_western_male_hair:p1:h:y"
+			"GFX_english_male_ear:d7:"			
+			"GFX_english_male_beard:p4::h:y"
+		   	"GFX_english_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
@@ -554,15 +1056,16 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -599,16 +1102,16 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_western_male_hair_behind_midage:p1:h:y"
-			"GFX_western_male_beard_behind_midage:p4:o-2x-1:h:y"
-			"GFX_western_male_base_midage:p2"
-			"GFX_western_male_neck_midage:d0"
-			"GFX_western_male_cheeks_midage:d4"
-			"GFX_western_male_chin_midage:d1"
-			"GFX_western_male_mouth_midage:d2:o80x51"
-			"GFX_western_male_nose_midage:d3:o81x65"
-			"GFX_western_male_eyes_midage:d6:o46x74"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_english_male_hair_behind_midage:p1:h:y"
+			"GFX_english_male_beard_behind_midage:p4::h:y"
+			"GFX_english_male_base_midage:p2"
+			"GFX_english_male_neck_midage:d0"
+			"GFX_english_male_chin_midage:d1"
+			"GFX_english_male_cheeks_midage:d4"
+			"GFX_english_male_mouth_midage:d2"
+			"GFX_english_male_nose_midage:d3"
+			"GFX_english_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -616,9 +1119,9 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_western_male_ear_midage:d7:o27x54"
-			"GFX_western_male_beard_midage:p4:o-2x-1:h:y"
-			"GFX_western_male_hair_midage:p1:h:y"
+			"GFX_english_male_ear_midage:d7:"
+			"GFX_english_male_beard_midage:p4::h:y"
+			"GFX_english_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
@@ -629,15 +1132,16 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -673,16 +1177,16 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_western_male_hair_behind_oldage:p1:h:y"
-			"GFX_western_male_beard_behind_oldage:p4:o-2x-1:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
+			"GFX_english_male_hair_behind_oldage:p1:h:y"
+			"GFX_english_male_beard_behind_oldage:p4::h:y"
+			"GFX_english_male_base_oldage:p2"
+			"GFX_english_male_neck_oldage:d0"
+			"GFX_english_male_chin_oldage:d1"
+			"GFX_english_male_cheeks_oldage:d4"
+			"GFX_english_male_mouth_oldage:d2"
+			"GFX_english_male_nose_oldage:d3"
+			"GFX_english_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -690,9 +1194,9 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"
-			"GFX_western_male_beard_oldage:p4:o-2x-1:h:y"
-			"GFX_western_male_hair_oldage:p1:h:y"
+			"GFX_english_male_ear_oldage:d7"
+			"GFX_english_male_beard_oldage:p4::h:y"
+			"GFX_english_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
@@ -703,15 +1207,16 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
+			{ 10 10 10 } { 81 81 81 } { 255 255 255 } #Was black, turned grayish
+			{ 10 10 10 } { 110 110 110  } { 255 255 255 } #Was black, turned white
+			{ 20 12 8 } { 90 78 69 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 108 108 108 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 148 117 93 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 36 26 17 } { 115 115 115 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 135 127 95 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 95 95 95 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 212 207 182 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 110 110 110 } { 255 255 255 } #Light blonde and turns white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
 			{ 15 8 0 } { 214 210 195 } { 255 255 255 }
@@ -752,24 +1257,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
-			"GFX_western_female_hair_behind:o0x6:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"
-			"GFX_western_female_nose:d3:o80x65"
-			"GFX_western_female_eyes:d6:o49x79"
-			"GFX_western_female_eyes2:d6:e:o72x88"
+			"GFX_english_female_hair_behind:p1:h:y"
+			"GFX_english_female_base:p2"
+			"GFX_english_female_neck:d0"
+			"GFX_english_female_chin:d1"
+			"GFX_english_female_cheeks:d4"
+			"GFX_english_female_mouth:d2"
+			"GFX_english_female_nose:d3"
+			"GFX_english_female_eyes:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_ear:d7:o28x54"
+			"GFX_english_female_ear:d7"
 			"GFX_empty:p5:c3"
-			"GFX_western_female_hair:o0x6:p1:h:y"
+			"GFX_english_female_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear_early:p5:c5"
@@ -779,15 +1284,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -823,24 +1329,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
-			"GFX_western_female_hair_behind_midage:o0x6:p1:h:y"
-			"GFX_western_female_base_midage:p2"
-			"GFX_western_female_neck_midage:d0"
-			"GFX_western_female_cheeks_midage:d4"
-			"GFX_western_female_chin_midage:d1"
-			"GFX_western_female_mouth_midage:d2:o72x49"
-			"GFX_western_female_nose_midage:d3:o80x64"			
-			"GFX_western_female_eyes_midage:d6:o46x76"
-			"GFX_western_female_eyes2:d6:e:o72x88"
+			"GFX_english_female_hair_behind_midage:p1:h:y"
+			"GFX_english_female_base_midage:p2"
+			"GFX_english_female_neck_midage:d0"
+			"GFX_english_female_chin_midage:d1"
+			"GFX_english_female_cheeks_midage:d4"
+			"GFX_english_female_mouth_midage:d2"
+			"GFX_english_female_nose_midage:d3"			
+			"GFX_english_female_eyes_midage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_ear_midage:d7:o28x54"
+			"GFX_english_female_ear_midage:d7"
 			"GFX_empty:p5:c3"
-			"GFX_western_female_hair_midage:o0x6:p1:h:y"
+			"GFX_english_female_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear_early:p5:c5"
@@ -850,15 +1356,16 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
-			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
@@ -894,24 +1401,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
-			"GFX_western_female_hair_behind_oldage:o0x6:p1:y"
-			"GFX_western_female_base_oldage:p2"
-			"GFX_western_female_neck_oldage:d0"
-			"GFX_western_female_cheeks_oldage:d4"
-			"GFX_western_female_chin_oldage:d1"
-			"GFX_western_female_mouth_oldage:d2:o72x50"
-			"GFX_western_female_nose_oldage:d3:o79x64"			
-			"GFX_western_female_eyes_oldage:d6:o47x74"
-			"GFX_western_female_eyes2:d6:e:o72x88"
+			"GFX_english_female_hair_behind_oldage:p1:y"
+			"GFX_english_female_base_oldage:p2"
+			"GFX_english_female_neck_oldage:d0"
+			"GFX_english_female_chin_oldage:d1"
+			"GFX_english_female_cheeks_oldage:d4"
+			"GFX_english_female_mouth_oldage:d2"
+			"GFX_english_female_nose_oldage:d3"			
+			"GFX_english_female_eyes_oldage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"		
-			"GFX_western_female_ear_oldage:d7:o28x54"
+			"GFX_english_female_ear_oldage:d7"
 			"GFX_empty:p5:c3"
-			"GFX_western_female_hair_oldage:o0x6:p1:y"
+			"GFX_english_female_hair_oldage:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear_early:p5:c5"
@@ -922,15 +1429,16 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 		
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
-			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
+			{ 10 10 10 } { 81 81 81 } { 255 255 255 } #Was black, turned grayish
+			{ 10 10 10 } { 110 110 110  } { 255 255 255 } #Was black, turned white
+			{ 20 12 8 } { 90 78 69 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 108 108 108 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 148 117 93 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 36 26 17 } { 115 115 115 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 135 127 95 } { 255 255 255 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 95 95 95 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 212 207 182 } { 255 255 255 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 110 110 110 } { 255 255 255 } #Light blonde and turns white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
 			{ 15 8 0 } { 214 210 195 } { 255 255 255 }

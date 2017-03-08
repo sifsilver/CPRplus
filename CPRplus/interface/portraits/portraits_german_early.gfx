@@ -1,0 +1,480 @@
+spriteTypes = {
+
+###GERMAN MALE SPRITE LOCATIONS###
+
+	spriteType = {
+		name = "GFX_german_male_clothes_behind_early"
+		texturefile = "gfx/characters/german_male/german_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_german_male_headgear_behind_early"
+		texturefile = "gfx/characters/german_male/german_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_german_male_clothes_early"
+		texturefile = "gfx/characters/german_male/german_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_german_male_headgear_early"
+		texturefile = "gfx/characters/german_male/german_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	###GERMAN FEMALE SPRITE LOCATIONS###
+
+	spriteType = {
+		name = "GFX_german_female_clothes_behind_early"
+		texturefile = "gfx/characters/german_female/german_female_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_german_female_headgear_behind_early"
+		texturefile = "gfx/characters/german_female/german_female_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_german_female_clothes_early"
+		texturefile = "gfx/characters/german_female/german_female_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_german_female_headgear_early"
+		texturefile = "gfx/characters/german_female/german_female_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+###WESTERN MALE SPRITE ORDER###
+	
+	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+	
+	portraitType = {
+		name = "PORTRAIT_germangfx_male_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_western_male_clothes_behind_early:p3:c0"
+			"GFX_western_male_headgear_behind_early:p5:c1"
+			"GFX_german_male_hair_behind:p1:h:y"
+			"GFX_german_male_beard_behind:p4::h:y"
+			"GFX_german_male_base:p2"
+			"GFX_german_male_neck:d0"
+			"GFX_german_male_chin:d1"
+			"GFX_german_male_cheeks:d4"
+			"GFX_german_male_mouth:d2"
+			"GFX_german_male_nose:d3"
+			"GFX_german_male_eyes:d6"
+			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_western_male_clothes_early:p3:c2"
+			"GFX_western_male_headgear_mid:p5:c3"
+			"GFX_german_male_ear:d7"
+			"GFX_german_male_beard:p4::h:y"
+		   	"GFX_german_male_hair:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_western_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 228 207 138 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 219 204 153 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 250 240 190 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
+			{ 23 4 6 } { 125 24 12 } { 255 255 255 } #Red
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 85 110 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# middle age
+	portraitType = {
+		name = "PORTRAIT_germangfx_male1_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"						#0
+			"GFX_western_male_clothes_behind_early:p3:c0"
+			"GFX_western_male_headgear_behind_early:p5:c1"
+			"GFX_german_male_hair_behind_midage:p1:h:y"
+			"GFX_german_male_beard_behind_midage:p4::h:y"
+			"GFX_german_male_base_midage:p2"					#5
+			"GFX_german_male_neck_midage:d0"
+			"GFX_german_male_chin_midage:d1"
+			"GFX_german_male_cheeks_midage:d4"
+			"GFX_german_male_mouth_midage:d2"
+			"GFX_german_male_nose_midage:d3"					#10
+			"GFX_german_male_eyes_midage:d6"
+			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"							#20
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_western_male_clothes_early:p3:c2"
+			"GFX_western_male_headgear_mid:p5:c3"
+			"GFX_german_male_ear_midage:d7"					#15
+			"GFX_german_male_beard_midage:p4::h:y"
+			"GFX_german_male_hair_midage:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_western_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+		
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 228 207 138 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 219 204 153 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 250 240 190 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
+			{ 23 4 6 } { 125 24 12 } { 255 255 255 } #Red
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 85 110 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# old age
+	portraitType = {
+		name = "PORTRAIT_germangfx_male2_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_western_male_clothes_behind_early:p3:c0"
+			"GFX_western_male_headgear_behind_early:p5:c1"
+			"GFX_german_male_hair_behind_oldage:p1:h:y"
+			"GFX_german_male_beard_behind_oldage:p4::h:y"
+			"GFX_german_male_base_oldage:p2"
+			"GFX_german_male_neck_oldage:d0"
+			"GFX_german_male_chin_oldage:d1"
+			"GFX_german_male_cheeks_oldage:d4"
+			"GFX_german_male_mouth_oldage:d2"
+			"GFX_german_male_nose_oldage:d3"
+			"GFX_german_male_eyes_oldage:d6"
+			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_western_male_clothes_early:p3:c2"
+			"GFX_western_male_headgear_mid:p5:c3"
+			"GFX_german_male_ear_oldage:d7"
+			"GFX_german_male_beard_oldage:p4::h:y"
+			"GFX_german_male_hair_oldage:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_western_male_clothes_infront:p3:c4"
+			"GFX_western_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 10 10 10 } { 81 81 81 } { 255 255 255 } #Was black, turned grayish
+			{ 10 10 10 } { 110 110 110  } { 255 255 255 } #Was black, turned white
+			{ 20 12 8 } { 90 78 69 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 108 108 108 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 148 117 93 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 36 26 17 } { 115 115 115 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 135 127 95 } { 235 226 196 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 95 95 95 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 212 207 182 } { 232 225 192 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 110 110 110 } { 255 255 255 } #Light blonde and turns white
+			{ 10 10 10 } { 110 93 91 } { 255 255 255 } #Red
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 85 110 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+###WESTERN FEMALE SPRITE ORDER###
+
+	# Western female
+	portraitType = {
+		name = "PORTRAIT_germangfx_female_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_western_female_clothes_behind_early:p3:c0"              #1
+			"GFX_western_female_headgear_behind_early:p5:c1"             #2
+			"GFX_german_female_hair_behind:p1:h:y"             #3
+			"GFX_german_female_base:p2"                        #4
+			"GFX_german_female_neck:d0"                        #5
+			"GFX_german_female_chin:d1"                        #7
+			"GFX_german_female_cheeks:d4"                      #6
+			"GFX_german_female_mouth:d2"                       #8
+			"GFX_german_female_nose:d3"                        #9
+			"GFX_german_female_eyes:d6"                        #10
+			"GFX_german_female_eyes2:d6:e"			            #11
+			"GFX_character_scars:p7:y"                            #16
+			"GFX_character_reddots:p8"                          #17
+			"GFX_character_boils:p9"                            #18
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_western_female_clothes_early:p3:c2"                  #12
+			"GFX_german_female_ear:d7"                         #13
+			"GFX_western_female_headgear_mid:p5:c3"             #14
+			"GFX_german_female_hair:p1:h:y"                    #15
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"									#19
+			"GFX_western_female_headgear_early:p5:c5"                 #20
+			"GFX_character_imprisoned:p6"                       #21
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 228 207 138 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 219 204 153 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 250 240 190 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
+			{ 23 4 6 } { 125 24 12 } { 255 255 255 } #Red
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 85 110 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# german female midage
+	portraitType = {
+		name = "PORTRAIT_germangfx_female1_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_western_female_clothes_behind_early:p3:c0"
+			"GFX_western_female_headgear_behind_early:p5:c1"
+			"GFX_german_female_hair_behind_midage:p1:h:y"
+			"GFX_german_female_base_midage:p2"
+			"GFX_german_female_neck_midage:d0"
+			"GFX_german_female_chin_midage:d1"
+			"GFX_german_female_cheeks_midage:d4"
+			"GFX_german_female_mouth_midage:d2"
+			"GFX_german_female_nose_midage:d3"
+			"GFX_german_female_eyes_midage:d6"
+			"GFX_german_female_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_western_female_clothes_early:p3:c2"			
+			"GFX_german_female_ear_midage:d7"
+			"GFX_western_female_headgear_mid:p5:c3"
+			"GFX_german_female_hair_midage:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_western_female_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
+			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 139 69 19 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 41 23 8 } { 127 70 26 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 139 124 72 } { 228 207 138 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 85 74 36 } { 219 204 153 } #Dark blonde and turns white
+			{ 30 28 21 } { 215 198 117 } { 250 240 190 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 230 213 124 } { 255 255 255 } #Light blonde and turns white
+			{ 23 4 6 } { 125 24 12 } { 255 255 255 } #Red
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 85 110 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+	# german female oldage
+	portraitType = {
+		name = "PORTRAIT_germangfx_female2_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_western_female_clothes_behind_early:p3:c0"
+			"GFX_western_female_headgear_behind_early:p5:c1"
+			"GFX_german_female_hair_behind_oldage:p1:h:y"
+			"GFX_german_female_base_oldage:p2"
+			"GFX_german_female_neck_oldage:d0"
+			"GFX_german_female_chin_oldage:d1"
+			"GFX_german_female_cheeks_oldage:d4"
+			"GFX_german_female_mouth_oldage:d2"
+			"GFX_german_female_nose_oldage:d3"
+			"GFX_german_female_eyes_oldage:d6"
+			"GFX_german_female_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_western_female_clothes_early:p3:c2"			
+			"GFX_german_female_ear_oldage:d7"
+			"GFX_western_female_headgear_mid:p5:c3"
+			"GFX_german_female_hair_oldage:p1:h:y"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_western_female_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 10 10 10 } { 81 81 81 } { 255 255 255 } #Was black, turned grayish
+			{ 10 10 10 } { 110 110 110  } { 255 255 255 } #Was black, turned white
+			{ 20 12 8 } { 90 78 69 } { 255 255 255 } #Dark Brown and turns brownish gray
+			{ 17 13 8 } { 108 108 108 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 33 19 8 } { 148 117 93 } { 255 255 255 } #Light brown and turns brownish gray
+			{ 36 26 17 } { 115 115 115 } { 255 255 255 } #Light brown and turns white
+			{ 63 44 29 } { 135 127 95 } { 235 226 196 } #Dark blonde and turns grayish blonde
+			{ 43 27 16 } { 95 95 95 } { 255 255 255 } #Dark blonde and turns white
+			{ 30 28 21 } { 212 207 182 } { 232 225 192 } #Light blonde and turns whitish blonde
+			{ 30 29 24 } { 110 110 110 } { 255 255 255 } #Light blonde and turns white
+			{ 10 10 10 } { 110 93 91 } { 255 255 255 } #Red
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 85 110 150} #Light Blue
+			{ 120 74 46 }
+			{ 34 103 36 }
+			{ 74 120 182}
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
+			{ 95 125 145 } #Grey
+			{ 148 96 72 } #Auburn 
+			{ 109 136 151 } #Blueish
+		}
+		
+		headgear_that_hides_hair = { }
+	}
+
+}

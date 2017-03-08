@@ -15,6 +15,47 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
+	spriteType = {
+		name = "GFX_norman_male_eyes"
+		texturefile = "gfx\\characters\\norman_male\\norman_male_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_norman_male_eyes_midage"
+		texturefile = "gfx\\characters\\norman_male\\norman_male_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_norman_male_eyes_oldage"
+		texturefile = "gfx\\characters\\norman_male\\norman_male_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+		spriteType = {
+		name = "GFX_norman_female_eyes"
+		texturefile = "gfx\\characters\\norman_female\\norman_female_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_norman_female_eyes_midage"
+		texturefile = "gfx\\characters\\norman_female\\norman_female_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_norman_female_eyes_oldage"
+		texturefile = "gfx\\characters\\norman_female\\norman_female_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
 	
 	### norman MALE ####
 	
@@ -35,9 +76,9 @@ spriteTypes = {
 			"GFX_norse_male_chin:d1"
 			"GFX_norse_male_cheeks:d4"
 			"GFX_norse_male_mouth:d2"
+			"GFX_norman_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_norse_male_nose:d3"
-			"GFX_norse_male_eyes:d6"
-			"GFX_norse_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -96,9 +137,9 @@ spriteTypes = {
 			"GFX_norse_male_chin_midage:d1"
 			"GFX_norse_male_cheeks_midage:d4"
 			"GFX_norse_male_mouth_midage:d2"
+			"GFX_norman_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_norse_male_nose_midage:d3"
-			"GFX_norse_male_eyes_midage:d6"
-			"GFX_norse_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -158,9 +199,9 @@ spriteTypes = {
 			"GFX_norse_male_chin_oldage:d1"
 			"GFX_norse_male_cheeks_oldage:d4"
 			"GFX_norse_male_mouth_oldage:d2"
+			"GFX_norman_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_norse_male_nose_oldage:d3"
-			"GFX_norse_male_eyes_oldage:d6"
-			"GFX_norse_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -213,9 +254,9 @@ spriteTypes = {
 			"GFX_norse_male_chin:d1"
 			"GFX_norse_male_cheeks:d4"
 			"GFX_norse_male_mouth:d2"
+			"GFX_norman_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_norse_male_nose:d3"
-			"GFX_norse_male_eyes:d6"
-			"GFX_norse_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -274,9 +315,9 @@ spriteTypes = {
 			"GFX_norse_male_chin_midage:d1"
 			"GFX_norse_male_cheeks_midage:d4"
 			"GFX_norse_male_mouth_midage:d2"
+			"GFX_norman_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_norse_male_nose_midage:d3"
-			"GFX_norse_male_eyes_midage:d6"
-			"GFX_norse_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -336,9 +377,9 @@ spriteTypes = {
 			"GFX_norse_male_chin_oldage:d1"
 			"GFX_norse_male_cheeks_oldage:d4"
 			"GFX_norse_male_mouth_oldage:d2"
+			"GFX_norman_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_norse_male_nose_oldage:d3"
-			"GFX_norse_male_eyes_oldage:d6"
-			"GFX_norse_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -396,9 +437,9 @@ spriteTypes = {
 			"GFX_norse_female_chin:d1"
 			"GFX_norse_female_cheeks:d4"
 			"GFX_norse_female_mouth:d2"
+			"GFX_norman_female_eyes:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_norse_female_nose:d3"
-			"GFX_norse_female_eyes:d6"
-			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_ear:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -455,9 +496,9 @@ spriteTypes = {
 			"GFX_norse_female_chin_midage:d1"
 			"GFX_norse_female_cheeks_midage:d4"
 			"GFX_norse_female_mouth_midage:d2"
+			"GFX_norman_female_eyes_midage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_norse_female_nose_midage:d3"
-			"GFX_norse_female_eyes_midage:d6"
-			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -514,9 +555,9 @@ spriteTypes = {
 			"GFX_norse_female_chin_oldage:d1"
 			"GFX_norse_female_cheeks_oldage:d4"
 			"GFX_norse_female_mouth_oldage:d2"
+			"GFX_norman_female_eyes_oldage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_norse_female_nose_oldage:d3"
-			"GFX_norse_female_eyes_oldage:d6"
-			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -568,9 +609,9 @@ spriteTypes = {
 			"GFX_norse_female_chin:d1"
 			"GFX_norse_female_cheeks:d4"
 			"GFX_norse_female_mouth:d2"
+			"GFX_norman_female_eyes:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_norse_female_nose:d3"
-			"GFX_norse_female_eyes:d6"
-			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_ear:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -627,9 +668,9 @@ spriteTypes = {
 			"GFX_norse_female_chin_midage:d1"
 			"GFX_norse_female_cheeks_midage:d4"
 			"GFX_norse_female_mouth_midage:d2"
+			"GFX_norman_female_eyes_midage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_norse_female_nose_midage:d3"
-			"GFX_norse_female_eyes_midage:d6"
-			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -686,9 +727,9 @@ spriteTypes = {
 			"GFX_norse_female_chin_oldage:d1"
 			"GFX_norse_female_cheeks_oldage:d4"
 			"GFX_norse_female_mouth_oldage:d2"
+			"GFX_norman_female_eyes_oldage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_norse_female_nose_oldage:d3"
-			"GFX_norse_female_eyes_oldage:d6"
-			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
