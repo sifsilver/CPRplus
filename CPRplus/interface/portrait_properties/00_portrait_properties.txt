@@ -1145,8 +1145,15 @@
 			OR = {
 				graphical_culture = normangfx
 				graphical_culture = frankishgfx
-				graphical_culture = englishgfx
-				graphical_culture = germangfx
+				AND = {
+					graphical_culture = bretongfx
+					year = 950
+				}
+				AND = {
+					graphical_culture = hungariangfx
+					religion_group = christian
+				}
+				graphical_culture = otakugfx
 			}
 			NOT = { year = 1100 }
 			NOT = { trait = monk }
@@ -1187,6 +1194,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1247,6 +1256,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1307,6 +1318,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1361,8 +1374,12 @@
 			OR = {
 				graphical_culture = normangfx
 				graphical_culture = frankishgfx
-				graphical_culture = englishgfx
-				graphical_culture = germangfx
+				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = hungariangfx
+					religion_group = christian
+				}
+				graphical_culture = otakugfx
 			}
 			year = 1100
 			NOT = { trait = monk }
@@ -1403,6 +1420,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1501,6 +1520,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1642,6 +1663,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1698,8 +1721,12 @@
 			OR = {
 				graphical_culture = normangfx
 				graphical_culture = frankishgfx
-				graphical_culture = englishgfx
-				graphical_culture = germangfx
+				graphical_culture = bretongfx
+				AND = {
+					graphical_culture = hungariangfx
+					religion_group = christian
+				}
+				graphical_culture = otakugfx
 			}
 			year = 1100
 			NOT = { trait = monk }
@@ -1785,6 +1812,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1859,6 +1888,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -1942,6 +1973,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -2022,6 +2055,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -2063,6 +2098,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -2123,6 +2160,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -2164,6 +2203,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
@@ -2198,6 +2239,18 @@
 			}
 			NOT = { religion_group = pagan_group }
 		}
+		modifier = { # Norman bowl cut
+			factor = 20
+			culture = norman
+			is_female = no
+			OR = {
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
+			}
+			NOT = { year = 1100 }
+			NOT = { trait = monk }
+		}
 		modifier = {
 			factor = 0
 			trait = monk
@@ -2215,6 +2268,8 @@
 					religion_group = christian
 				}
 				graphical_culture = normangfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
 				graphical_culture = otakugfx
 			}
 		}
