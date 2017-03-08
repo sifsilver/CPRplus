@@ -548,14 +548,11 @@ italian_group = {
 	sicilian = {
 		graphical_cultures = { siciliangfx italiangfx }
 	}
-	corsican = {
-		graphical_cultures = {italiangfx}
-	}
-	central_italian = {
+	umbrian = {
 		graphical_cultures = { italiangfx }
 	}
-	southern_italian = {
-		graphical_cultures = { siciliangfx italiangfx }
+	laziale = {
+		graphical_cultures = { italiangfx }
 	}
 	neapolitan = {
 		graphical_cultures = { siciliangfx italiangfx }
