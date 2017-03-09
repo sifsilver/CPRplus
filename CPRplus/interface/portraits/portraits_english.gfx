@@ -868,7 +868,7 @@ spriteTypes = {
 			{ 109 136 151 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# English female midage
@@ -940,7 +940,7 @@ spriteTypes = {
 			{ 109 136 151 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# English female oldage
@@ -1013,7 +1013,7 @@ spriteTypes = {
 			{ 109 136 151 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 ########## English MALES ##########

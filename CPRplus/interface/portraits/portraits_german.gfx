@@ -839,7 +839,7 @@ spriteTypes = {
 			{ 109 136 151 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# german female midage
@@ -905,7 +905,7 @@ spriteTypes = {
 			{ 109 136 151 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# german female oldage
@@ -972,7 +972,7 @@ spriteTypes = {
 			{ 109 136 151 } #Blueish
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }
