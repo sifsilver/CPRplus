@@ -227,13 +227,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_norse_male_eyes2"
-		texturefile = "gfx\\characters\\norse_male\\norse_male_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_norse_male_headgear_mid"
 		texturefile = "gfx\\characters\\norse_male\\norse_male_headgear_mid.dds"
 		noOfFrames = 12
@@ -1089,7 +1082,7 @@ spriteTypes = {
 			"GFX_norse_female_chin:d1"
 			"GFX_norse_female_cheeks:d4"
 			"GFX_norse_female_eyes:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_nose:d3"
 			"GFX_norse_female_mouth:d2"
 			"GFX_character_scars:p7:y"
@@ -1148,7 +1141,7 @@ spriteTypes = {
 			"GFX_norse_female_chin_midage:d1"
 			"GFX_norse_female_cheeks_midage:d4"
 			"GFX_norse_female_eyes_midage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_nose_midage:d3"
 			"GFX_norse_female_mouth_midage:d2"
 			"GFX_character_scars:p7:y"
@@ -1208,7 +1201,7 @@ spriteTypes = {
 			"GFX_norse_female_cheeks_oldage:d4"
 			"GFX_norse_female_mouth_oldage:d2"
 			"GFX_norse_female_eyes_oldage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -1262,7 +1255,7 @@ spriteTypes = {
 			"GFX_norse_female_cheeks:d4"
 			"GFX_norse_female_mouth:d2"
 			"GFX_norse_female_eyes:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -1321,7 +1314,7 @@ spriteTypes = {
 			"GFX_norse_female_cheeks_midage:d4"
 			"GFX_norse_female_mouth_midage:d2"
 			"GFX_norse_female_eyes_midage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -1380,7 +1373,7 @@ spriteTypes = {
 			"GFX_norse_female_cheeks_oldage:d4"
 			"GFX_norse_female_mouth_oldage:d2"
 			"GFX_norse_female_eyes_oldage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_norse_female_eyes2:d6:e"
 			"GFX_norse_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
