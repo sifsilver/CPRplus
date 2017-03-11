@@ -555,7 +555,7 @@ italian_group = {
 		graphical_cultures = { italiangfx }
 	}
 	neapolitan = {
-		graphical_cultures = { siciliangfx italiangfx }
+		graphical_cultures = { italiangfx }
 	}
 	tuscan = {
 		graphical_cultures = { italiangfx }

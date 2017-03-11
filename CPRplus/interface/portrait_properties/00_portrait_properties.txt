@@ -4412,26 +4412,34 @@
 				AND = {
 					year = 950
 					OR = {
-						AND = {
-							culture_group = central_germanic
-							NOR = {
-								culture = visigothic
-								culture = suebi
-							}
-						}
-						culture_group = west_germanic
+						culture = old_frankish
 						AND = {
 							culture_group = latin
+							NOT = { culture = italian }
+						}
+						AND = {
+							OR = {
+								culture = norman
+								AND = {
+									culture_group = west_germanic
+									NOT = { culture = english }
+								}
+							}
 							NOT = {
-								culture = italian
+								year = 1200
 							}
 						}
-						culture = occitan
-						culture = ligurian
+						culture = dutch
+						culture = frisian
 						culture_group = celtic
 						culture_group = west_slavic
 						culture_group = south_slavic
+						culture = ligurian
 					}
+				}
+				AND = {
+					year = 1200
+					culture = english
 				}
 				AND = {
 					religion_group = christian
@@ -4457,26 +4465,34 @@
 				AND = {
 					year = 950
 					OR = {
-						AND = {
-							culture_group = central_germanic
-							NOR = {
-								culture = visigothic
-								culture = suebi
-							}
-						}
-						culture_group = west_germanic
+						culture = old_frankish
 						AND = {
 							culture_group = latin
+							NOT = { culture = italian }
+						}
+						AND = {
+							OR = {
+								culture = norman
+								AND = {
+									culture_group = west_germanic
+									NOT = { culture = english }
+								}
+							}
 							NOT = {
-								culture = italian
+								year = 1200
 							}
 						}
-						culture = occitan
-						culture = ligurian
+						culture = dutch
+						culture = frisian
 						culture_group = celtic
 						culture_group = west_slavic
 						culture_group = south_slavic
+						culture = ligurian
 					}
+				}
+				AND = {
+					year = 1200
+					culture = english
 				}
 				AND = {
 					religion_group = christian
@@ -4507,26 +4523,34 @@
 				AND = {
 					year = 950
 					OR = {
-						AND = {
-							culture_group = central_germanic
-							NOR = {
-								culture = visigothic
-								culture = suebi
-							}
-						}
-						culture_group = west_germanic
+						culture = old_frankish
 						AND = {
 							culture_group = latin
+							NOT = { culture = italian }
+						}
+						AND = {
+							OR = {
+								culture = norman
+								AND = {
+									culture_group = west_germanic
+									NOT = { culture = english }
+								}
+							}
 							NOT = {
-								culture = italian
+								year = 1200
 							}
 						}
-						culture = occitan
-						culture = ligurian
+						culture = dutch
+						culture = frisian
 						culture_group = celtic
 						culture_group = west_slavic
 						culture_group = south_slavic
+						culture = ligurian
 					}
+				}
+				AND = {
+					year = 1200
+					culture = english
 				}
 				AND = {
 					religion_group = christian
@@ -4858,26 +4882,34 @@
 				AND = {
 					year = 950
 					OR = {
-						AND = {
-							culture_group = central_germanic
-							NOR = {
-								culture = visigothic
-								culture = suebi
-							}
-						}
-						culture_group = west_germanic
+						culture = old_frankish
 						AND = {
 							culture_group = latin
+							NOT = { culture = italian }
+						}
+						AND = {
+							OR = {
+								culture = norman
+								AND = {
+									culture_group = west_germanic
+									NOT = { culture = english }
+								}
+							}
 							NOT = {
-								culture = italian
+								year = 1200
 							}
 						}
-						culture = occitan
-						culture = ligurian
+						culture = dutch
+						culture = frisian
 						culture_group = celtic
 						culture_group = west_slavic
 						culture_group = south_slavic
+						culture = ligurian
 					}
+				}
+				AND = {
+					year = 1200
+					culture = english
 				}
 				AND = {
 					religion_group = christian
