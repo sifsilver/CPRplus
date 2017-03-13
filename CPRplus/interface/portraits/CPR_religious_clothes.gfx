@@ -1,0 +1,78 @@
+spriteTypes = {
+	
+	# Male
+	
+	portraitType = {
+		name = "PORTRAIT_monk_clothing_male"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				portrait_has_trait = monk
+			}
+		}
+		
+		layer = {
+			"GFX_society_benedictine_male_clothing_behind:c0"
+			"GFX_society_benedictine_male_clothing_front:c2"
+			"GFX_society_benedictine_male_headgear_front:c5"
+			"GFX_western_male_hair_behind_midage"
+			"GFX_western_male_hair_midage"
+			"GFX_empty:c3"
+			"GFX_empty:c1"
+			"GFX_empty:c4"
+		}
+		
+		# Tonsure hairstyle, no beard
+		allow_property_values = {
+			1 = {
+				6 = {
+					always = yes
+				}
+			}
+			4 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
+	}
+	
+	# Female
+	
+	portraitType = {
+		name = "PORTRAIT_nun_clothing_female"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = yes
+				portrait_clothing = yes
+				portrait_has_trait = nun
+			}
+		}
+		
+		layer = { 
+			"GFX_society_benedictine_female_clothing_behind:c0"
+			"GFX_society_benedictine_female_clothing_front:c2"
+			"GFX_empty:c3"
+			"GFX_society_benedictine_female_headgear_behind:c1"
+			"GFX_society_benedictine_female_headgear_front:c5"
+			"GFX_empty:c4"
+		}
+		
+		# Hide hair
+		allow_property_values = {
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
+	}
+
+}

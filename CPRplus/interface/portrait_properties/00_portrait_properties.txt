@@ -1156,7 +1156,6 @@
 				graphical_culture = otakugfx
 			}
 			NOT = { year = 1100 }
-			NOT = { trait = monk }
 		}
 		
 		# Does not suit African females of a Western Culture
@@ -1177,28 +1176,6 @@
 		#		has_minor_title = title_prince
 		#	}
 		#}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
 		modifier = {
 			factor = 0
 			age = 81
@@ -1241,28 +1218,6 @@
 		#}
 		modifier = {
 			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
-		modifier = {
-			factor = 0
 			age = 81
 			is_female = no
 		}
@@ -1301,28 +1256,6 @@
 		#		has_minor_title = title_prince
 		#	}
 		#}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
 		modifier = {
 			factor = 0
 			age = 81
@@ -1382,7 +1315,6 @@
 				graphical_culture = otakugfx
 			}
 			year = 1100
-			NOT = { trait = monk }
 		}
 		
 		# Does not suit Western females with African style headgear
@@ -1403,28 +1335,6 @@
 		#		has_minor_title = title_prince
 		#	}
 		#}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
 		modifier = {
 			factor = 0
 			age = 81
@@ -1501,28 +1411,6 @@
 					has_landed_title = k_papal_state
 					has_landed_title = d_fraticelli
 				}
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
 			}
 		}
 		modifier = {
@@ -1646,9 +1534,9 @@
 				}
 			}
 		}
-		modifier = {
+		modifier = { #tonsure not available unless a monk
 			factor = 0
-			NOT = { trait = monk }
+			is_female = no
 			OR = {
 				#graphical_culture = westerngfx
 				graphical_culture = germangfx
@@ -1729,7 +1617,6 @@
 				graphical_culture = otakugfx
 			}
 			year = 1100
-			NOT = { trait = monk }
 		}
 		
 		# Does not suit Western females with African style headgear
@@ -1797,28 +1684,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
-		modifier = {
-			factor = 0
 			age = 81
 			is_female = no
 			NOR = {
@@ -1871,28 +1736,6 @@
 	
 	8 = { # Short Curly
 		factor = 1
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
 		modifier = {
 			factor = 0
 			age = 81
@@ -1958,28 +1801,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
-		modifier = {
-			factor = 0
 			age = 81
 			is_female = no
 			NOR = {
@@ -2040,28 +1861,6 @@
 		#}
 		modifier = {
 			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
-		modifier = {
-			factor = 0
 			age = 81
 			is_female = no
 		}
@@ -2081,28 +1880,6 @@
 	
 	11 = { # Balding
 		factor = 1
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
 		modifier = {
 			factor = 0
 			age = 81
@@ -2145,28 +1922,6 @@
 		#}
 		modifier = {
 			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
-		modifier = {
-			factor = 0
 			age = 81
 			is_female = no
 		}
@@ -2186,28 +1941,6 @@
 	
 	13 = { # Mohawk
 		factor = 1
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
-		}
 		modifier = {
 			factor = 0
 			age = 81
@@ -2249,29 +1982,6 @@
 				graphical_culture = saxongfx
 			}
 			NOT = { year = 1100 }
-			NOT = { trait = monk }
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				#graphical_culture = westerngfx
-				graphical_culture = germangfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				graphical_culture = englishgfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-				graphical_culture = normangfx
-				graphical_culture = dutchgfx
-				graphical_culture = saxongfx
-				graphical_culture = otakugfx
-			}
 		}
 		modifier = {
 			factor = 0
@@ -2315,10 +2025,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
-		}
-		modifier = {
-			factor = 0
 			NOT = { real_tier = emperor }
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = emperor } }
@@ -2355,10 +2061,6 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2401,10 +2103,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
-		}
-		modifier = {
-			factor = 0
 			NOT = { real_tier = emperor }
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = emperor } }
@@ -2441,10 +2139,6 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
 		}
 		modifier = {
 			factor = 0
@@ -2488,10 +2182,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
-		}
-		modifier = {
-			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
@@ -2532,10 +2222,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = monk
-		}
-		modifier = {
-			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = duke }
 			NOT = { real_tier = count }
@@ -2568,7 +2254,6 @@
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = monk }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2589,7 +2274,6 @@
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = monk }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2605,7 +2289,6 @@
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = monk }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -2726,7 +2409,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = leper }
 		}
@@ -2752,7 +2434,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			trait = bad_priest_christian
 		}
@@ -2770,7 +2451,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOR = {
 				has_nickname = nick_the_pious
@@ -2830,7 +2510,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -2847,7 +2526,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -2893,7 +2571,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -2910,7 +2587,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -2956,7 +2632,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -2973,7 +2648,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3022,7 +2696,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3039,7 +2712,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3088,7 +2760,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3105,7 +2776,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3151,7 +2821,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3168,7 +2837,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3232,7 +2900,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3249,7 +2916,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3328,7 +2994,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3345,7 +3010,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3411,7 +3075,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3428,7 +3091,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3512,7 +3174,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3529,7 +3190,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3582,7 +3242,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3599,7 +3258,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3652,7 +3310,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3669,7 +3326,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3722,7 +3378,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3739,7 +3394,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3792,7 +3446,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			NOT = { trait = bad_priest_christian }
 		}
@@ -3809,7 +3462,6 @@
 					is_landed = yes
 				}
 				has_job_title = job_spiritual
-				trait = monk
 			}
 			OR = {
 				has_nickname = nick_the_pious
@@ -3883,22 +3535,15 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
 			}
 		}
 	}
@@ -3963,22 +3608,15 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
 			}
 		}
 		modifier = {
@@ -4065,22 +3703,15 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
 			}
 		}
 		modifier = {
@@ -4167,22 +3798,15 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
 			}
 		}
 		modifier = {
@@ -4264,22 +3888,15 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
 			}
 		}
 		modifier = {
@@ -4342,17 +3959,10 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		#Prevent Guanche from having turbans
 		modifier = {
 			factor = 0
@@ -4368,7 +3978,6 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
-			NOT = { trait = monk }
 			OR = {
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
@@ -4402,55 +4011,6 @@
 					is_nomadic = yes
 				}
 			}
-			NOT = { trait = monk }
-		}
-		modifier = {
-			factor = 100
-			trait = monk
-			in_command = no
-			OR = {
-				AND = {
-					year = 950
-					OR = {
-						culture = old_frankish
-						AND = {
-							culture_group = latin
-							NOT = { culture = italian }
-						}
-						AND = {
-							OR = {
-								culture = norman
-								AND = {
-									culture_group = west_germanic
-									NOT = { culture = english }
-								}
-							}
-							NOT = {
-								year = 1200
-							}
-						}
-						culture = dutch
-						culture = frisian
-						culture_group = celtic
-						culture_group = west_slavic
-						culture_group = south_slavic
-						culture = ligurian
-					}
-				}
-				AND = {
-					year = 1200
-					culture = english
-				}
-				AND = {
-					religion_group = christian
-					OR = {
-						culture_group = magyar
-						culture_group = north_germanic
-						culture_group = baltic
-						culture = livonian
-					}
-				}
-			}
 		}
 		modifier = {
 			factor = 0
@@ -4460,7 +4020,6 @@
 				spouse = { real_tier = count }
 				spouse = { real_tier = baron }
 			}
-			NOT = { trait = monk }
 			OR = {
 				AND = {
 					year = 950
@@ -4518,7 +4077,6 @@
 					}
 				}
 			}
-			NOT = { trait = monk }
 			NOR = {
 				AND = {
 					year = 950
@@ -4567,19 +4125,10 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			trait = nun
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 	}
 
 	# Common headgear 3 - Red hat
@@ -4623,22 +4172,15 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
 			}
 		}
 		modifier = {
@@ -4720,17 +4262,10 @@
 			factor = 0
 			trait = in_hiding
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = monk
-				trait = nun
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		#Prevent Guanche from having turbans
 		modifier = {
 			factor = 0
@@ -4757,17 +4292,13 @@
 			factor = 0
 			in_command = yes
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			trait = in_hiding
-		}
-		modifier = {
-			factor = 0
-			trait = nun
 		}
 	}
 
@@ -4825,10 +4356,10 @@
 				has_job_title  = job_marshal
 			}
 		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
+		#modifier = {
+		#	factor = 0
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			trait = blinded
@@ -4844,10 +4375,8 @@
 		factor = 4
 		modifier = {
 			factor = 0
-			prisoner = no
+			#prisoner = no
 			NOT = { trait = in_hiding }
-			NOT = { trait = monk }
-			NOT = { trait = nun }
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
@@ -4872,53 +4401,6 @@
 						family = ROOT
 					}
 					is_ruler = no
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			trait = monk
-			OR = {
-				AND = {
-					year = 950
-					OR = {
-						culture = old_frankish
-						AND = {
-							culture_group = latin
-							NOT = { culture = italian }
-						}
-						AND = {
-							OR = {
-								culture = norman
-								AND = {
-									culture_group = west_germanic
-									NOT = { culture = english }
-								}
-							}
-							NOT = {
-								year = 1200
-							}
-						}
-						culture = dutch
-						culture = frisian
-						culture_group = celtic
-						culture_group = west_slavic
-						culture_group = south_slavic
-						culture = ligurian
-					}
-				}
-				AND = {
-					year = 1200
-					culture = english
-				}
-				AND = {
-					religion_group = christian
-					OR = {
-						culture_group = magyar
-						culture_group = north_germanic
-						culture_group = baltic
-						culture = livonian
-					}
 				}
 			}
 		}
@@ -4972,6 +4454,9 @@
 		modifier = {
 			factor = 0
 			prisoner = no
+		}
+		hide_layers = {
+			5 = { always = yes }
 		}
 	}
 	
@@ -5057,6 +4542,12 @@
 			factor = 0
 			prisoner = yes
 		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
 	}
 	
 	3 = { # Western knight armor #2
@@ -5141,6 +4632,12 @@
 			factor = 0
 			prisoner = yes
 		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
 	}
 	
 	4 = { # Western knight armor #3
@@ -5212,6 +4709,12 @@
 			factor = 0
 			prisoner = yes
 		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
 	}
 	
 	5 = { # Western knight armor #4
@@ -5282,6 +4785,12 @@
 		modifier = {
 			factor = 0
 			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
 		}
 	}
 	
@@ -5363,6 +4872,12 @@
 			factor = 0
 			prisoner = yes
 		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
 	}
 	
 	7 = { # Crusader armor #2
@@ -5433,6 +4948,12 @@
 		modifier = {
 			factor = 0
 			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
 		}
 	}
 	
@@ -5505,8 +5026,789 @@
 			factor = 0
 			prisoner = yes
 		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
 	}
-	
+	9 = { # Muslim armor #1
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = arabic
+				culture_group = iranian
+				AND = {
+					culture_group = east_african
+					religion_group = muslim
+				}
+				culture = andalusian_arabic
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
+				culture_group = north_african
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	10 = { # Muslim armor #2
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = arabic
+				culture_group = iranian
+				AND = {
+					culture_group = east_african
+					religion_group = muslim
+				}
+				culture = andalusian_arabic
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
+				culture_group = north_african
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	11 = { # Muslim armor #3
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = arabic
+				culture_group = iranian
+				AND = {
+					culture_group = east_african
+					religion_group = muslim
+				}
+				culture = andalusian_arabic
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
+				culture_group = north_african
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	12 = { # Muslim armor #4
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = arabic
+				culture_group = iranian
+				AND = {
+					culture_group = east_african
+					religion_group = muslim
+				}
+				culture = andalusian_arabic
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
+				culture_group = north_african
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	13 = { # Muslim armor #5
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = arabic
+				culture_group = iranian
+				AND = {
+					culture_group = east_african
+					religion_group = muslim
+				}
+				culture = andalusian_arabic
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
+				culture_group = north_african
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	14 = { # Steppe armor #1
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = east_slavic
+				AND = {
+					culture_group = altaic
+					NOR = {
+						culture = mongol
+						culture = khitan
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+					}
+				}
+				culture = alan
+				culture = mordvin
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	15 = { # Steppe armor #2
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = east_slavic
+				AND = {
+					culture_group = altaic
+					NOR = {
+						culture = mongol
+						culture = khitan
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+					}
+				}
+				culture = alan
+				culture = mordvin
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	16 = { # Steppe armor #3
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = east_slavic
+				AND = {
+					culture_group = altaic
+					NOR = {
+						culture = mongol
+						culture = khitan
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+					}
+				}
+				culture = alan
+				culture = mordvin
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	17 = { # Steppe armor #4
+		factor = 100
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = east_slavic
+				AND = {
+					culture_group = altaic
+					NOR = {
+						culture = mongol
+						culture = khitan
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+					}
+				}
+				culture = alan
+				culture = mordvin
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					OR = {
+						combat_rating = 7
+						AND = {
+							combat_rating = 5
+							trait = brilliant_strategist
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					OR = {
+						combat_rating = 4
+						AND = {
+							combat_rating = 3
+							trait = brilliant_strategist
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			martial = 20
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
 }
 
 # p7 scars
@@ -6032,14 +6334,6 @@
 		}
 		modifier = {
 			factor = 0
-			trait = nun
-			NOR = {
-				in_command = yes
-				prisoner = yes
-			}
-		}
-		modifier = {
-			factor = 0
 			has_character_flag = cardinal
 			NOR = {
 				has_landed_title = k_papal_state
@@ -6059,7 +6353,7 @@
 							combat_rating = 3
 						}
 					}
-					religion_group = christian
+					#religion_group = christian
 					OR = {
 						culture_group = north_germanic
 						culture_group = central_germanic
@@ -6094,7 +6388,7 @@
 	}
 	
 	2 = { # nun
-		factor = 100
+		factor = 0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -6108,6 +6402,11 @@
 		modifier = {
 			factor = 0
 			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			5 = { always = yes }
 		}
 	}
 	
@@ -6161,6 +6460,11 @@
 		modifier = {
 			factor = 0
 			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			5 = { always = yes }
 		}
 	}
 }
