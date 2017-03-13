@@ -4429,7 +4429,7 @@
 					combat_rating = 3
 				}
 			}
-			religion_group = christian
+			#religion_group = christian
 			OR = {
 				culture_group = north_germanic
 				culture_group = central_germanic
@@ -4447,6 +4447,54 @@
 				culture_group = italian_group
 			}
 		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			year = 950
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+			OR = {
+				martial = 20
+				AND = {
+					martial = 18
+					trait = mujahid
+				}
+			}
+			OR = {
+				culture_group = arabic
+				culture_group = iranian
+				AND = {
+					culture_group = east_african
+					religion_group = muslim
+				}
+				culture = andalusian_arabic
+				culture = turkish
+				culture_group = east_slavic
+				AND = {
+					culture_group = altaic
+					NOR = {
+						culture = mongol
+						culture = khitan
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+					}
+				}
+				culture = alan
+				culture = mordvin
+				culture = oghuz
+				culture = turkmen
+				culture_group = north_african
+			}
+		}
 	}
 
 	1 = { # prisoner
@@ -4461,7 +4509,7 @@
 	}
 	
 	2 = { # Western knight armor #1
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4551,7 +4599,7 @@
 	}
 	
 	3 = { # Western knight armor #2
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4641,7 +4689,7 @@
 	}
 	
 	4 = { # Western knight armor #3
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4718,7 +4766,7 @@
 	}
 	
 	5 = { # Western knight armor #4
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4795,7 +4843,7 @@
 	}
 	
 	6 = { # Crusader armor #1
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4881,7 +4929,7 @@
 	}
 	
 	7 = { # Crusader armor #2
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4958,7 +5006,7 @@
 	}
 	
 	8 = { # Crusader armor #3
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -4990,23 +5038,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
+					combat_rating = 5
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
-					}
+					combat_rating = 3
 				}
 			}
 		}
@@ -5034,7 +5070,7 @@
 		}
 	}
 	9 = { # Muslim armor #1
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5075,32 +5111,13 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
-					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
-					}
+					martial = 18
+					trait = mujahid
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5118,7 +5135,7 @@
 		}
 	}
 	10 = { # Muslim armor #2
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5159,32 +5176,13 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
-					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
-					}
+					martial = 18
+					trait = mujahid
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5202,7 +5200,7 @@
 		}
 	}
 	11 = { # Muslim armor #3
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5243,32 +5241,13 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
-					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
-					}
+					martial = 18
+					trait = mujahid
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5286,7 +5265,7 @@
 		}
 	}
 	12 = { # Muslim armor #4
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5327,32 +5306,13 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
-					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
-					}
+					martial = 18
+					trait = mujahid
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5370,7 +5330,7 @@
 		}
 	}
 	13 = { # Muslim armor #5
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5411,32 +5371,13 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
-					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
-					}
+					martial = 18
+					trait = mujahid
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5454,7 +5395,7 @@
 		}
 	}
 	14 = { # Steppe armor #1
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5500,32 +5441,17 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
+					martial = 18
 					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
+						trait = ukkos_shield
+						trait = peruns_chosen
+						trait = tengri_warrior
 					}
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5543,7 +5469,7 @@
 		}
 	}
 	15 = { # Steppe armor #2
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5589,32 +5515,17 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
+					martial = 18
 					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
+						trait = ukkos_shield
+						trait = peruns_chosen
+						trait = tengri_warrior
 					}
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5632,7 +5543,7 @@
 		}
 	}
 	16 = { # Steppe armor #3
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5678,32 +5589,17 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
+					martial = 18
 					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
+						trait = ukkos_shield
+						trait = peruns_chosen
+						trait = tengri_warrior
 					}
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5721,7 +5617,7 @@
 		}
 	}
 	17 = { # Steppe armor #4
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			in_command = no
@@ -5767,32 +5663,17 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
+			NOR = {
+				martial = 20
 				AND = {
-					has_global_flag = EMF
+					martial = 18
 					OR = {
-						combat_rating = 7
-						AND = {
-							combat_rating = 5
-							trait = brilliant_strategist
-						}
-					}
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						combat_rating = 4
-						AND = {
-							combat_rating = 3
-							trait = brilliant_strategist
-						}
+						trait = ukkos_shield
+						trait = peruns_chosen
+						trait = tengri_warrior
 					}
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			martial = 20
 		}
 		modifier = {
 			factor = 0
@@ -5834,7 +5715,7 @@
    	}
 
 	1 = { # scar 1
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOR = {
@@ -5852,7 +5733,7 @@
    	}
 
 	2 = { # scar 2
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOR = {
@@ -5870,7 +5751,7 @@
    	}
 
 	3 = { # scar 3
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOR = {
@@ -5888,7 +5769,7 @@
    	}
 
 	4 = { # scar 4
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOR = {
