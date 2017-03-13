@@ -690,17 +690,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -764,17 +761,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -838,17 +832,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -863,6 +854,7 @@ spriteTypes = {
 			"GFX_english_female_clothes_behind:p3:c0"
 			"GFX_english_female_headgear_behind:p5:c1"
 			"GFX_english_female_hair_behind:p1:h:y"
+			"GFX_english_female_hair_ties_behind:p1:y"
 			"GFX_english_female_base:p2"
 			"GFX_english_female_neck:d0"
 			"GFX_english_female_chin:d1"
@@ -880,6 +872,7 @@ spriteTypes = {
 			"GFX_english_female_ear:d7"
 			"GFX_english_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair:p1:h:y"
+			"GFX_english_female_hair_ties_front:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear:p5:c5"
@@ -910,17 +903,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -935,6 +925,7 @@ spriteTypes = {
 			"GFX_english_female_clothes_behind:p3:c0"
 			"GFX_english_female_headgear_behind:p5:c1"
 			"GFX_english_female_hair_behind_midage:p1:h:y"
+			"GFX_english_female_hair_ties_behind:p1:y"
 			"GFX_english_female_base_midage:p2"
 			"GFX_english_female_neck_midage:d0"
 			"GFX_english_female_chin_midage:d1"
@@ -952,6 +943,7 @@ spriteTypes = {
 			"GFX_english_female_ear_midage:d7"
 			"GFX_english_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair_midage:p1:h:y"
+			"GFX_english_female_hair_ties_front:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear:p5:c5"
@@ -982,17 +974,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1007,6 +996,7 @@ spriteTypes = {
 			"GFX_english_female_clothes_behind:p3:c0"
 			"GFX_english_female_headgear_behind:p5:c1"
 			"GFX_english_female_hair_behind_oldage:p1:y"
+			"GFX_english_female_hair_ties_behind:p1:y"
 			"GFX_english_female_base_oldage:p2"
 			"GFX_english_female_neck_oldage:d0"
 			"GFX_english_female_chin_oldage:d1"
@@ -1024,6 +1014,7 @@ spriteTypes = {
 			"GFX_english_female_ear_oldage:d7"
 			"GFX_english_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair_oldage:p1:y"
+			"GFX_english_female_hair_ties_front:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear:p5:c5"
@@ -1055,17 +1046,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1133,17 +1121,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1208,17 +1193,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1283,17 +1265,14 @@ spriteTypes = {
 		
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1360,17 +1339,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1432,17 +1408,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1506,17 +1479,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1580,17 +1550,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1654,17 +1621,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1728,17 +1692,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1753,6 +1714,7 @@ spriteTypes = {
 			"GFX_english_female_clothes_behind_late:p3:c0"
 			"GFX_english_female_headgear_behind_late:p5:c1"
 			"GFX_english_female_hair_behind:p1:h:y"
+			"GFX_english_female_hair_ties_behind:p1:y"
 			"GFX_english_female_base:p2"
 			"GFX_english_female_neck:d0"
 			"GFX_english_female_chin:d1"
@@ -1770,6 +1732,7 @@ spriteTypes = {
 			"GFX_english_female_ear:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair:p1:h:y"
+			"GFX_english_female_hair_ties_front:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear_late:p5:c5"
@@ -1800,17 +1763,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1825,6 +1785,7 @@ spriteTypes = {
 			"GFX_english_female_clothes_behind_late:p3:c0"
 			"GFX_english_female_headgear_behind_late:p5:c1"
 			"GFX_english_female_hair_behind_midage:p1:h:y"
+			"GFX_english_female_hair_ties_behind:p1:y"
 			"GFX_english_female_base_midage:p2"
 			"GFX_english_female_neck_midage:d0"
 			"GFX_english_female_chin_midage:d1"
@@ -1842,6 +1803,7 @@ spriteTypes = {
 			"GFX_english_female_ear_midage:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair_midage:p1:h:y"
+			"GFX_english_female_hair_ties_front:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear_late:p5:c5"
@@ -1872,17 +1834,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -1897,6 +1856,7 @@ spriteTypes = {
 			"GFX_english_female_clothes_behind_late:p3:c0"
 			"GFX_english_female_headgear_behind_late:p5:c1"
 			"GFX_english_female_hair_behind_oldage:p1:y"
+			"GFX_english_female_hair_ties_behind:p1:y"
 			"GFX_english_female_base_oldage:p2"
 			"GFX_english_female_neck_oldage:d0"
 			"GFX_english_female_chin_oldage:d1"
@@ -1914,6 +1874,7 @@ spriteTypes = {
 			"GFX_english_female_ear_oldage:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair_oldage:p1:y"
+			"GFX_english_female_hair_ties_front:p1:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_english_female_headgear_late:p5:c5"
@@ -1945,17 +1906,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
-			{ 120 74 46 }
-			{ 34 103 36 }
-			{ 74 120 182}
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
-			{ 95 125 145 } #Grey
-			{ 148 96 72 } #Auburn 
-			{ 109 136 151 } #Blueish
+			{ 80 64 38 } #Dark Brown
+			{ 77 54 21 } #Medium Brown
+			{ 134 97 34 } #Light Hazel
+			{ 47 52 121 } #Dark blue
+			{ 98 120 164 } #Light blue 01
+			{ 22 44 85 } #Dark Blue
+			{ 45 100 37 } #Green
+			#{ 148 96 72 } #Auburn
 		}
 		
 		headgear_that_hides_hair = { 10 }
