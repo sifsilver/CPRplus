@@ -462,7 +462,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -523,7 +523,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -578,7 +578,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -639,7 +639,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -700,7 +700,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -754,7 +754,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -1115,7 +1115,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -1174,7 +1174,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -1228,7 +1228,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -1287,7 +1287,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -1346,7 +1346,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey
@@ -1400,7 +1400,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 120 74 46 }
 			{ 34 103 36 }
 			{ 95 120 100 } #Grey

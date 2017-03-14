@@ -70,11 +70,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 12 1 7 10 }
@@ -129,11 +129,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 12 1 7 10 }
@@ -186,11 +186,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 12 1 7 10 }
@@ -244,11 +244,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -303,11 +303,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -360,11 +360,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -419,11 +419,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -476,11 +476,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -531,11 +531,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -587,11 +587,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -644,11 +644,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -699,11 +699,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 }
-			{ 74 120 182}
+			{ 75 95 125}
 			{ 34 103 36 }
 			{ 85 110 150 }
 			{ 86 74 46 }
-			{ 36 32 24 }
+			{ 55 30 15 }
 		}
 		
 		headgear_that_hides_hair = { 10 }

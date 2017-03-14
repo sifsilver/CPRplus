@@ -332,7 +332,7 @@ spriteTypes = {
 			{ 140 90 28 } #Green
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
-			{ 36 32 24 } #Dark Brown
+			{ 55 30 15 } #Dark Brown
 			{ 128 74 47 } #Auburn 
 		}
 		
@@ -389,7 +389,7 @@ spriteTypes = {
 			{ 140 90 28 } #Green
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
-			{ 36 32 24 } #Dark Brown
+			{ 55 30 15 } #Dark Brown
 			{ 128 74 47 } #Auburn 
 		}
 		
@@ -446,7 +446,7 @@ spriteTypes = {
 			{ 140 90 28 } #Green
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
-			{ 36 32 24 } #Dark Brown
+			{ 55 30 15 } #Dark Brown
 			{ 128 74 47 } #Auburn 
 		}
 		
@@ -716,7 +716,7 @@ spriteTypes = {
 			{ 140 90 28 } #Green
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
-			{ 36 32 24 } #Dark Brown
+			{ 55 30 15 } #Dark Brown
 			{ 128 74 47 } #Auburn 
 		}
 		
@@ -771,7 +771,7 @@ spriteTypes = {
 			{ 140 90 28 } #Green
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
-			{ 36 32 24 } #Dark Brown
+			{ 55 30 15 } #Dark Brown
 			{ 128 74 47 } #Auburn 
 		}
 		
@@ -826,7 +826,7 @@ spriteTypes = {
 			{ 140 90 28 } #Green
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
-			{ 36 32 24 } #Dark Brown
+			{ 55 30 15 } #Dark Brown
 			{ 128 74 47 } #Auburn 
 		}
 		

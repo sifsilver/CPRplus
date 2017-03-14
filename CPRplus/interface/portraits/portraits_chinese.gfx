@@ -226,7 +226,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -272,7 +272,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -318,7 +318,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 74 120 182}
+			{ 75 95 125}
 		}
 		
 		headgear_that_hides_hair = { 10 }
