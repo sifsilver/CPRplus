@@ -4029,23 +4029,19 @@
 							culture_group = latin
 							NOT = { culture = italian }
 						}
-						AND = {
-							OR = {
-								culture = norman
-								AND = {
-									culture_group = west_germanic
-									NOT = { culture = english }
-								}
-							}
-							NOT = {
-								year = 1200
-							}
-						}
+						culture = occitan
 						culture = dutch
 						culture = frisian
 						culture_group = celtic
 						culture_group = west_slavic
-						culture_group = south_slavic
+						AND = {
+							culture_group = south_slavic
+							NOR = {
+								culture = serbian
+								culture = bulgarian
+								culture = romanian
+							}
+						}
 						culture = ligurian
 						culture = low_saxon
 						culture = low_frankish
@@ -4053,15 +4049,19 @@
 				}
 				AND = {
 					year = 1200
-					culture = english
+					culture_group = west_germanic
 				}
 				AND = {
 					religion_group = christian
 					OR = {
 						culture_group = magyar
-						culture_group = north_germanic
+						AND = {
+							culture_group = north_germanic
+							NOT = { culture = frisian }
+						}
 						culture_group = baltic
 						culture = livonian
+						culture = avar
 					}
 				}
 			}
@@ -4421,7 +4421,43 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				culture = turkish
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
+				culture_group = north_african
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			year = 950
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 5
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+			OR = {
+				martial = 20
+				AND = {
+					martial = 18
+					OR = {
+						trait = ukkos_shield
+						trait = peruns_chosen
+						trait = tengri_warrior
+					}
+				}
+			}
+			OR = {
 				culture_group = east_slavic
 				AND = {
 					culture_group = altaic
@@ -4435,9 +4471,14 @@
 				}
 				culture = alan
 				culture = mordvin
-				culture = oghuz
-				culture = turkmen
-				culture_group = north_african
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
+				}
 			}
 		}
 	}
