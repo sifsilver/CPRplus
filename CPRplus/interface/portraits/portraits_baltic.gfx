@@ -419,7 +419,7 @@ spriteTypes = {
 			"GFX_baltic_male_mouth:d2"
 			"GFX_baltic_male_nose:d3"
 			"GFX_baltic_male_eyes:d6"
-			"GFX_ugric_male_eyes2:d6:e"
+			"GFX_baltic_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
