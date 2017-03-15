@@ -46,11 +46,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 120 74 46 } #Brown
-			{ 150 139 92 } #Green
+			{ 100 62 46 } #Brown
+			{ 120 110 75 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 148 96 72 } #Auburn 
+			{ 125 83 63 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -100,11 +100,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 120 74 46 } #Brown
-			{ 150 139 92 } #Green
+			{ 100 62 46 } #Brown
+			{ 120 110 75 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 148 96 72 } #Auburn 
+			{ 125 83 63 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -154,11 +154,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 120 74 46 } #Brown
-			{ 150 139 92 } #Green
+			{ 100 62 46 } #Brown
+			{ 120 110 75 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 148 96 72 } #Auburn 
+			{ 125 83 63 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -208,11 +208,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 120 74 46 } #Brown
-			{ 150 139 92 } #Green
+			{ 100 62 46 } #Brown
+			{ 120 110 75 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 148 96 72 } #Auburn 
+			{ 125 83 63 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -260,11 +260,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 120 74 46 } #Brown
-			{ 150 139 92 } #Green
+			{ 100 62 46 } #Brown
+			{ 120 110 75 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 148 96 72 } #Auburn 
+			{ 125 83 63 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -312,11 +312,11 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 120 74 46 } #Brown
-			{ 150 139 92 } #Green
+			{ 100 62 46 } #Brown
+			{ 120 110 75 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 148 96 72 } #Auburn 
+			{ 125 83 63 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
