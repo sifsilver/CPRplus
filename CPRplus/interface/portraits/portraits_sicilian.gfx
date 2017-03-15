@@ -27,7 +27,7 @@ spriteTypes = {
 			"GFX_italian_male_clothes_behind:p3:c0"
 			"GFX_german_male_headgear_behind:p5:c1"
 			"GFX_byzantine_male_hair_behind:p1:h:y"
-			"GFX_byzantine_male_beard_behind:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_behind:p4:o1x-3:h:y"
 			"GFX_norse_male_base:p2"
 			"GFX_norse_male_neck:d0"
 			"GFX_norse_male_chin:d1"
@@ -43,7 +43,7 @@ spriteTypes = {
 			"GFX_italian_male_clothes:p3:c2"
 			"GFX_german_male_headgear_mid:p5:c3"
 			"GFX_norse_male_ear:d7"			
-			"GFX_byzantine_male_beard:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard:p4:o1x-3:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_byzantine_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -77,7 +77,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -98,7 +98,7 @@ spriteTypes = {
 			"GFX_italian_male_clothes_behind:p3:c0"
 			"GFX_german_male_headgear_behind:p5:c1"
 			"GFX_byzantine_male_hair_behind_midage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_midage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_behind_midage:p4:o1x-3:h:y"
 			"GFX_norse_male_base_midage:p2"
 			"GFX_norse_male_neck_midage:d0"
 			"GFX_norse_male_chin_midage:d1"
@@ -114,7 +114,7 @@ spriteTypes = {
 			"GFX_italian_male_clothes:p3:c2"
 			"GFX_german_male_headgear_mid:p5:c3"
 			"GFX_norse_male_ear_midage:d7"
-			"GFX_byzantine_male_beard_midage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_midage:p4:o1x-3:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_byzantine_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -147,7 +147,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -168,7 +168,7 @@ spriteTypes = {
 			"GFX_italian_male_clothes_behind:p3:c0"
 			"GFX_german_male_headgear_behind:p5:c1"
 			"GFX_byzantine_male_hair_behind_oldage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_oldage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_behind_oldage:p4:o1x-3:h:y"
 			"GFX_norse_male_base_oldage:p2"
 			"GFX_norse_male_neck_oldage:d0"
 			"GFX_norse_male_chin_oldage:d1"
@@ -184,7 +184,7 @@ spriteTypes = {
 			"GFX_italian_male_clothes:p3:c2"
 			"GFX_german_male_headgear_mid:p5:c3"
 			"GFX_norse_male_ear_oldage:d7"
-			"GFX_byzantine_male_beard_oldage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_oldage:p4:o1x-3:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_byzantine_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -217,7 +217,7 @@ spriteTypes = {
 		
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -289,7 +289,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -356,7 +356,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -425,7 +425,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -448,7 +448,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_byzantine_male_hair_behind:p1:h:y"
-			"GFX_byzantine_male_beard_behind:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_behind:p4:o1x-3:h:y"
 			"GFX_norse_male_base:p2"
 			"GFX_norse_male_neck:d0"
 			"GFX_norse_male_chin:d1"
@@ -464,7 +464,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_male_ear:d7"			
-			"GFX_byzantine_male_beard:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard:p4:o1x-3:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_byzantine_male_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -498,7 +498,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -519,7 +519,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_byzantine_male_hair_behind_midage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_midage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_behind_midage:p4:o1x-3:h:y"
 			"GFX_norse_male_base_midage:p2"
 			"GFX_norse_male_neck_midage:d0"
 			"GFX_norse_male_chin_midage:d1"
@@ -535,7 +535,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_male_ear_midage:d7"
-			"GFX_byzantine_male_beard_midage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_midage:p4:o1x-3:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_byzantine_male_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -568,7 +568,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -589,7 +589,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_byzantine_male_hair_behind_oldage:p1:h:y"
-			"GFX_byzantine_male_beard_behind_oldage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_behind_oldage:p4:o1x-3:h:y"
 			"GFX_norse_male_base_oldage:p2"
 			"GFX_norse_male_neck_oldage:d0"
 			"GFX_norse_male_chin_oldage:d1"
@@ -605,7 +605,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_norse_male_ear_oldage:d7"
-			"GFX_byzantine_male_beard_oldage:p4:o3x-3:h:y"
+			"GFX_byzantine_male_beard_oldage:p4:o1x-3:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_byzantine_male_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
@@ -638,7 +638,7 @@ spriteTypes = {
 		
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -710,7 +710,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -777,7 +777,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -846,7 +846,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1

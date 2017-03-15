@@ -78,9 +78,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -143,9 +147,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -208,9 +216,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -275,9 +287,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -338,9 +354,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -402,9 +422,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { }
@@ -474,9 +498,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -539,9 +567,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -604,9 +636,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -671,9 +707,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -734,9 +774,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -798,9 +842,13 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 75 95 125}
-			{ 120 74 46 }
-			{ 34 103 36 }
+			{ 85 90 135} #Light Blue
+			{ 63 40 26 } #Brown
+			{ 56 80 57 } #Green
+			{ 30 22 18 } #Dark Brown 1
+			{ 10 10 10 } #Black
+			{ 93 57 35 } #Light Brown
+			{ 54 43 34 } #Dark Brown 2
 		}
 		
 		headgear_that_hides_hair = { 10 }

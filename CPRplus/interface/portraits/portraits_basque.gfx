@@ -76,7 +76,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -147,7 +147,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -218,7 +218,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -289,7 +289,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -360,7 +360,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -431,7 +431,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -500,7 +500,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -569,7 +569,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -639,7 +639,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -708,7 +708,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -777,7 +777,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
@@ -847,7 +847,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1

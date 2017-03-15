@@ -64,7 +64,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -137,7 +137,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -209,7 +209,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -283,7 +283,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -356,7 +356,7 @@ spriteTypes = {
 		 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -427,7 +427,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -502,7 +502,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -573,7 +573,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -643,7 +643,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -715,7 +715,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -786,7 +786,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -856,7 +856,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -930,7 +930,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -1003,7 +1003,7 @@ spriteTypes = {
 		 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -1075,7 +1075,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -1147,7 +1147,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -1218,7 +1218,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
@@ -1288,7 +1288,7 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 110 150} #Light Blue
+			{ 85 90 135} #Light Blue
 			{ 120 74 46 }
 			{ 78 100 132 }
 			{ 63 40 26 } #Brown
