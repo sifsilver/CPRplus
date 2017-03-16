@@ -53,28 +53,6 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 	}
-
-	spriteType = {
-		name = "GFX_afghan_male_hair_behind"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_hair_behind_1.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_hair_behind_midage"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_hair_behind_2.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_hair_behind_oldage"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_hair_behind_3.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-	
 	
 	spriteType = {
 		name = "GFX_afghan_male_cheeks"
@@ -242,27 +220,6 @@ spriteTypes = {
 		name = "GFX_afghan_male_beard_oldage"
 		texturefile = "gfx\\characters\\afghan_male\\afghan_male_beard_3.dds"
 		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_hair"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_hair_1.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_hair_midage"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_hair_2.dds"
-		noOfFrames = 14
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_male_hair_oldage"
-		texturefile = "gfx\\characters\\afghan_male\\afghan_male_hair_3.dds"
-		noOfFrames = 14
 		norefcount = yes
 	}
 
@@ -456,27 +413,6 @@ spriteTypes = {
 #### afghan FEMALE ####
 
 	spriteType = {
-		name = "GFX_afghan_female_hair_behind"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_behind_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_female_hair_behind_midage"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_behind_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_female_hair_behind_oldage"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_behind_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
 		name = "GFX_afghan_female_base"
 		texturefile = "gfx\\characters\\afghan_female\\afghan_female_base_1.dds"
 		noOfFrames = 1
@@ -644,27 +580,6 @@ spriteTypes = {
 		name = "GFX_afghan_female_ear_oldage"
 		texturefile = "gfx\\characters\\afghan_female\\afghan_female_ear_3.dds"
 		noOfFrames = 4
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_female_hair"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_female_hair_midage"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_afghan_female_hair_oldage"
-		texturefile = "gfx\\characters\\afghan_female\\afghan_female_hair_3.dds"
-		noOfFrames = 10
 		norefcount = yes
 	}
 

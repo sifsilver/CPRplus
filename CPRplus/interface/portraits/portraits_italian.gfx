@@ -222,13 +222,6 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
-		
-	spriteType = {
-		name = "GFX_italian_male_clothes_infront"
-		texturefile = "gfx\\characters\\italian_male\\italian_male_clothes_infront.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_italian_male_headgear"

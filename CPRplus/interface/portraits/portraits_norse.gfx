@@ -988,13 +988,6 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
-	
-	spriteType = {
-		name = "GFX_norse_female_clothes_infront"
-		texturefile = "gfx\\characters\\norse_female\\norse_female_clothes_infront.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_norse_female_hair"

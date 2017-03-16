@@ -74,13 +74,6 @@ spriteTypes = {
 		noOfFrames = 10
 		norefcount = yes
 	}
-
-	spriteType = {
-		name = "GFX_georgian_male_eyes2"
-		texturefile = "gfx\\characters\\georgian_male\\georgian_male_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
 	
 	spriteType = {
 		name = "GFX_georgian_female_eyes"
@@ -100,13 +93,6 @@ spriteTypes = {
 		name = "GFX_georgian_female_eyes_oldage"
 		texturefile = "gfx\\characters\\georgian_female\\georgian_female_eyes_3.dds"
 		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_georgian_female_eyes2"
-		texturefile = "gfx\\characters\\georgian_female\\georgian_female_eyes2.dds"
-		noOfFrames = 13
 		norefcount = yes
 	}
 	
