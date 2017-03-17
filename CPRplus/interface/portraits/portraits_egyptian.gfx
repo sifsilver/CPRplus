@@ -147,21 +147,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_egyptian_male_eyes"
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_eyes_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_egyptian_male_eyes_midage"
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_eyes_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_egyptian_male_eyes_oldage"
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_eyes_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 	
@@ -184,8 +184,8 @@ spriteTypes = {
 			"GFX_egyptian_male_chin:d1"
 			"GFX_egyptian_male_cheeks:d4"
 			"GFX_egyptian_male_mouth:d2"
-			"GFX_egyptian_male_eyes:d6:o51x76"
-			"GFX_muslim_male_eyes2:d6:e:o72x88"
+			"GFX_egyptian_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_egyptian_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -240,8 +240,8 @@ spriteTypes = {
 			"GFX_egyptian_male_cheeks_midage:d4"
 			"GFX_egyptian_male_mouth_midage:d2"
 			"GFX_egyptian_male_nose_midage:d3"
-			"GFX_egyptian_male_eyes_midage:d6:o47x75"
-			"GFX_muslim_male_eyes2:d6:e:o72x88"
+			"GFX_egyptian_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -295,8 +295,8 @@ spriteTypes = {
 			"GFX_egyptian_male_cheeks_oldage:d4"
 			"GFX_egyptian_male_mouth_oldage:d2"
 			"GFX_egyptian_male_nose_oldage:d3"
-			"GFX_egyptian_male_eyes_oldage:d6:o46x74"
-			"GFX_muslim_male_eyes2:d6:e:o72x88"
+			"GFX_egyptian_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -467,21 +467,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_egyptian_female_eyes"
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_eyes_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_egyptian_female_eyes_midage"
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_eyes_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_egyptian_female_eyes_oldage"
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_eyes_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 	}
 
@@ -502,8 +502,8 @@ spriteTypes = {
 			"GFX_egyptian_female_cheeks:d4"
 			"GFX_egyptian_female_mouth:d2"
 			"GFX_maghreb_female_ear:d7"
-			"GFX_egyptian_female_eyes:d6:o50x78"                      #10
-			"GFX_muslim_female_eyes2:d6:e:o72x88"
+			"GFX_egyptian_female_eyes:d6"                      #10
+			"GFX_german_female_eyes2:d6:e"
 			"GFX_egyptian_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -555,8 +555,8 @@ spriteTypes = {
 			"GFX_egyptian_female_cheeks_midage:d4"
 			"GFX_egyptian_female_mouth_midage:d2"
 			"GFX_maghreb_female_ear_midage:d7"
-			"GFX_egyptian_female_eyes_midage:d6:o49x74"
-			"GFX_muslim_female_eyes2:d6:e:o72x88"
+			"GFX_egyptian_female_eyes_midage:d6"
+			"GFX_german_female_eyes2:d6:e"
 			"GFX_egyptian_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -608,8 +608,8 @@ spriteTypes = {
 			"GFX_egyptian_female_cheeks_oldage:d4"
 			"GFX_egyptian_female_mouth_oldage:d2"
 			"GFX_maghreb_female_ear_oldage:d7"
-			"GFX_egyptian_female_eyes_oldage:d6:o47x75"
-			"GFX_muslim_female_eyes2:d6:e:o72x88"
+			"GFX_egyptian_female_eyes_oldage:d6"
+			"GFX_german_female_eyes2:d6:e"
 			"GFX_egyptian_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -665,8 +665,8 @@ spriteTypes = {
 			"GFX_egyptian_male_cheeks:d4"
 			"GFX_egyptian_male_mouth:d2"
 			"GFX_egyptian_male_nose:d3"
-			"GFX_egyptian_male_eyes:d6:o51x76"
-			"GFX_muslim_male_eyes2:d6:e:o72x88"
+			"GFX_egyptian_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -720,8 +720,8 @@ spriteTypes = {
 			"GFX_egyptian_male_cheeks_midage:d4"
 			"GFX_egyptian_male_mouth_midage:d2"
 			"GFX_egyptian_male_nose_midage:d3"
-			"GFX_egyptian_male_eyes_midage:d6:o47x75"
-			"GFX_muslim_male_eyes2:d6:e:o72x88"
+			"GFX_egyptian_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -775,8 +775,8 @@ spriteTypes = {
 			"GFX_egyptian_male_cheeks_oldage:d4"
 			"GFX_egyptian_male_mouth_oldage:d2"
 			"GFX_egyptian_male_nose_oldage:d3"
-			"GFX_egyptian_male_eyes_oldage:d6:o46x74"
-			"GFX_muslim_male_eyes2:d6:e:o72x88"
+			"GFX_egyptian_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -833,8 +833,8 @@ spriteTypes = {
 			"GFX_egyptian_female_cheeks:d4"
 			"GFX_egyptian_female_mouth:d2"
 			"GFX_maghreb_female_ear:d7"
-			"GFX_egyptian_female_eyes:d6:o50x78"                      #10
-			"GFX_muslim_female_eyes2:d6:e:o72x88"
+			"GFX_egyptian_female_eyes:d6"                      #10
+			"GFX_german_female_eyes2:d6:e"
 			"GFX_egyptian_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -886,8 +886,8 @@ spriteTypes = {
 			"GFX_egyptian_female_cheeks_midage:d4"
 			"GFX_egyptian_female_mouth_midage:d2"
 			"GFX_maghreb_female_ear_midage:d7"
-			"GFX_egyptian_female_eyes_midage:d6:o49x74"
-			"GFX_muslim_female_eyes2:d6:e:o72x88"
+			"GFX_egyptian_female_eyes_midage:d6"
+			"GFX_german_female_eyes2:d6:e"
 			"GFX_egyptian_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
@@ -939,8 +939,8 @@ spriteTypes = {
 			"GFX_egyptian_female_cheeks_oldage:d4"
 			"GFX_egyptian_female_mouth_oldage:d2"
 			"GFX_maghreb_female_ear_oldage:d7"
-			"GFX_egyptian_female_eyes_oldage:d6:o47x75"
-			"GFX_muslim_female_eyes2:d6:e:o72x88"
+			"GFX_egyptian_female_eyes_oldage:d6"
+			"GFX_german_female_eyes2:d6:e"
 			"GFX_egyptian_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"

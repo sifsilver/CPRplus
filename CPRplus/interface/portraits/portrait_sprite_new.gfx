@@ -376,7 +376,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_arabic_female_eyes"
 		texturefile = "gfx\\characters\\arabic_female\\arabic_female_eyes_1.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -384,7 +384,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_arabic_female_eyes_midage"
 		texturefile = "gfx\\characters\\arabic_female\\arabic_female_eyes_2.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
@@ -392,7 +392,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_arabic_female_eyes_oldage"
 		texturefile = "gfx\\characters\\arabic_female\\arabic_female_eyes_3.dds"
-		noOfFrames = 13
+		noOfFrames = 10
 		norefcount = yes
 		can_be_lowres = yes
 	}
