@@ -5071,16 +5071,20 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					religion_group = muslim
-				}
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
 				culture_group = north_african
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5136,16 +5140,20 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					religion_group = muslim
-				}
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
 				culture_group = north_african
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5201,16 +5209,20 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					religion_group = muslim
-				}
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
 				culture_group = north_african
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5266,16 +5278,20 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					religion_group = muslim
-				}
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
 				culture_group = north_african
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5331,16 +5347,20 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					religion_group = muslim
-				}
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
 				culture_group = north_african
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5402,15 +5422,21 @@
 				}
 				culture = alan
 				culture = mordvin
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					NOT = { religion_group = muslim }
+				OR = {
+					culture = turkish
+					culture = oghuz
+					culture = turkmen
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5476,15 +5502,21 @@
 				}
 				culture = alan
 				culture = mordvin
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					NOT = { religion_group = muslim }
+				OR = {
+					culture = turkish
+					culture = oghuz
+					culture = turkmen
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5550,15 +5582,21 @@
 				}
 				culture = alan
 				culture = mordvin
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					NOT = { religion_group = muslim }
+				OR = {
+					culture = turkish
+					culture = oghuz
+					culture = turkmen
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5624,15 +5662,21 @@
 				}
 				culture = alan
 				culture = mordvin
-				AND = {
-					OR = {
-						culture = turkish
-						culture = oghuz
-						culture = turkmen
-					}
-					NOT = { religion_group = muslim }
+				OR = {
+					culture = turkish
+					culture = oghuz
+					culture = turkmen
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = turkish
+				culture = oghuz
+				culture = turkmen
+			}
+			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
