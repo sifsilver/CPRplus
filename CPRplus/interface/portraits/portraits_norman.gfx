@@ -797,7 +797,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_headgear_mid_early:p5:c3"             #14
+			"GFX_empty:p5:c3"             #14
 			"GFX_western_female_hair:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -856,7 +856,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_headgear_mid_early:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -915,7 +915,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_western_female_headgear_mid_early:p5:c3"
+			"GFX_empty:p5:c3"
 			"GFX_western_female_hair_oldage:p1:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"

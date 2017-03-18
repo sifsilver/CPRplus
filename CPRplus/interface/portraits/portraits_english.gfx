@@ -818,6 +818,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_english_female_clothes_behind_late"
+		texturefile = "gfx\\characters\\english_female\\english_female_clothes_behind_late.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_english_female_headgear_late"
 		texturefile = "gfx\\characters\\english_female\\english_female_headgear_late.dds"
 		noOfFrames = 12
