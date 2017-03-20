@@ -37,7 +37,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_persian_male_clothes_behind:p3:c0"
-			"GFX_muslim_male_headgear_behind:p5:c1"
+			"GFX_levantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:h:o-2x0:y"
 			"GFX_muslim_male_beard_behind:p4:h:y:o-2x2"
 			"GFX_persian_male_base:p2"
@@ -60,7 +60,7 @@ spriteTypes = {
 			"GFX_muslim_male_hair:p1:h:o-2x0:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_kurdish_male_clothes_infront:p3:c4"
-			"GFX_muslim_male_headgear:p5:c5"
+			"GFX_levantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -95,7 +95,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_persian_male_clothes_behind:p3:c0"
-			"GFX_muslim_male_headgear_behind:p5:c1"
+			"GFX_levantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:h:o-2x0:y"
 			"GFX_muslim_male_beard_behind_midage:p4:h:y:o-2x2"
 			"GFX_persian_male_base_midage:p2"
@@ -118,7 +118,7 @@ spriteTypes = {
 			"GFX_muslim_male_hair_midage:p1:h:o-2x0:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_kurdish_male_clothes_infront:p3:c4"
-			"GFX_muslim_male_headgear:p5:c5"
+			"GFX_levantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -152,7 +152,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_persian_male_clothes_behind:p3:c0"
-			"GFX_muslim_male_headgear_behind:p5:c1"
+			"GFX_levantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:h:o-2x0:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:h:y:o-2x2"
 			"GFX_persian_male_base_oldage:p2"
@@ -175,7 +175,7 @@ spriteTypes = {
 			"GFX_muslim_male_hair_oldage:p1:h:o-2x0:y"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_kurdish_male_clothes_infront:p3:c4"
-			"GFX_muslim_male_headgear:p5:c5"
+			"GFX_levantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
