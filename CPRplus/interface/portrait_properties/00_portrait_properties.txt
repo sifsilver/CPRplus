@@ -511,10 +511,6 @@
 			}
 		}
 		modifier = {
-			factor = 100
-			location = { is_land = no }
-		}
-		modifier = {
 			factor = 0
 			location = {
 				holding_type = nomad
