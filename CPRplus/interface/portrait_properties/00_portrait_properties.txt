@@ -511,6 +511,10 @@
 			}
 		}
 		modifier = {
+			factor = 100
+			location = { is_land = no }
+		}
+		modifier = {
 			factor = 0
 			location = {
 				holding_type = nomad
@@ -6065,6 +6069,7 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
+				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
 			}
@@ -6076,6 +6081,7 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
+				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
 			}
@@ -6087,6 +6093,7 @@
 			factor = 0
 			NOR = {
 				trait = has_bubonic_plague
+				trait = syphilitic
 				trait = has_aztec_disease
 			}
 		}
@@ -6108,6 +6115,7 @@
 			factor = 0
 			OR = {
 				trait = has_bubonic_plague
+				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
 			}
@@ -6128,6 +6136,7 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
+				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
 			}
