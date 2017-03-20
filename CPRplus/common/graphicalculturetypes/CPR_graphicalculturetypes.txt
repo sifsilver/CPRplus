@@ -99,7 +99,7 @@ ashkenazigfx = {
 	skin_tone = 0
 }
 centralindiangfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 somaligfx = {
 	skin_tone = 3

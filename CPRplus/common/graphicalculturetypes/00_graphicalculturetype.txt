@@ -136,7 +136,7 @@ westafricanholygfx = {
 }
 
 southindiangfx = {
-	skin_tone = 3
+	skin_tone = 2
 }
 
 # Culture groups
