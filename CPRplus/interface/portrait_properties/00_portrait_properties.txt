@@ -937,7 +937,7 @@
 		}
 		modifier = {
 			factor = 2
-			location = { culture_group = andalusian_arabic }
+			location = { culture = andalusian_arabic }
 		}
 		modifier = {
 			factor = 0
