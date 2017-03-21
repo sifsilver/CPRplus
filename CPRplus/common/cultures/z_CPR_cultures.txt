@@ -377,7 +377,7 @@ indo_aryan_group = {
 	
 	bengali = { # Indo-Aryan
 
-		graphical_cultures = { southindiangfx indiangfx }
+		graphical_cultures = { centralindiangfx indiangfx }
 	}
 	
 	oriya = { # Indo-Aryan

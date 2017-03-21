@@ -590,7 +590,7 @@ indo_aryan_group = {
 	graphical_cultures = {indiangfx muslimgfx}
 	
 	bengali = { # Indo-Aryan
-		graphical_cultures = {southindiangfx indiangfx}
+		graphical_cultures = {centralindiangfx indiangfx}
 	}
 	
 	oriya = { # Indo-Aryan
