@@ -114,13 +114,13 @@ spriteTypes = {
 		}
 		
 		# Hide hair
-		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
-		}
+		#allow_property_values = {
+		#	1 = {
+		#		0 = {
+		#			always = yes
+		#		}
+		#	}
+		#}
 	}
 	
 	# monastic_order_dominican
@@ -235,13 +235,13 @@ spriteTypes = {
 		}
 		
 		# Hide hair
-		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
-		}
+		#allow_property_values = {
+		#	1 = {
+		#		0 = {
+		#			always = yes
+		#		}
+		#	}
+		#}
 	}
 	
 	# monastic_order_orthodox
@@ -377,11 +377,11 @@ spriteTypes = {
 		
 		# Hide hair, ranks, slot 3 is for Greek orthodox, 4 for Russian orthodox.
 		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
+			#1 = {
+			#	0 = {
+			#		always = yes
+			#	}
+			#}
 			3 = {
 				0 = {
 					portrait_society_rank = 1
@@ -922,13 +922,13 @@ spriteTypes = {
 		}
 		
 		# Hide hair
-		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
-		}
+		#allow_property_values = {
+		#	1 = {
+		#		0 = {
+		#			always = yes
+		#		}
+		#	}
+		#}
 	}
 	
 	# Theravada
@@ -1025,13 +1025,13 @@ spriteTypes = {
 		}
 		
 		# Hide hair
-		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
-		}
+		#allow_property_values = {
+		#	1 = {
+		#		0 = {
+		#			always = yes
+		#		}
+		#	}
+		#}
 	}
 	
 	# Mahayana
@@ -1128,13 +1128,13 @@ spriteTypes = {
 		}
 		
 		# Hide hair
-		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
-		}
+		#allow_property_values = {
+		#	1 = {
+		#		0 = {
+		#			always = yes
+		#		}
+		#	}
+		#}
 	}
 	
 	# monastic_order_jain
@@ -1430,6 +1430,7 @@ spriteTypes = {
 						portrait_culture_group = latin
 						portrait_culture_group = iberian
 						portrait_culture_group = celtic
+						portrait_culture_group = italian_group
 					}
 				}
 				1 = { # Nordic
@@ -1448,20 +1449,22 @@ spriteTypes = {
 				}
 				3 = { # Muslim
 					OR = {
-						portrait_culture_group = altaic
 						portrait_culture_group = arabic
 						portrait_culture_group = iranian
 						portrait_culture_group = israelite
+						portrait_culture_group = north_african
 					}
 				}
 				4 = { # Indian
 					OR = {
 						portrait_culture_group = indo_aryan_group
-						portrait_culture_group = dravidian_group	
+						portrait_culture_group = dravidian_group
 					}
 				}
 				5 = { # Central Asian
 					portrait_culture_group = magyar
+					portrait_culture_group = altaic
+					portrait_culture_group = sinic
 				}
 				6 = { # West African
 					portrait_culture_group = west_african
@@ -1471,6 +1474,7 @@ spriteTypes = {
 				}
 				8 = { # Byzantine
 					portrait_culture_group = byzantine
+					portrait_culture_group = aramaic
 				}
 			}
 			5 = {
@@ -1481,6 +1485,7 @@ spriteTypes = {
 						portrait_culture_group = latin
 						portrait_culture_group = iberian
 						portrait_culture_group = celtic
+						portrait_culture_group = italian_group
 					}
 				}
 				1 = { # Nordic
@@ -1499,20 +1504,22 @@ spriteTypes = {
 				}
 				3 = { # Muslim
 					OR = {
-						portrait_culture_group = altaic
 						portrait_culture_group = arabic
 						portrait_culture_group = iranian
 						portrait_culture_group = israelite
+						portrait_culture_group = north_african
 					}
 				}
 				4 = { # Indian
 					OR = {
 						portrait_culture_group = indo_aryan_group
-						portrait_culture_group = dravidian_group	
+						portrait_culture_group = dravidian_group
 					}
 				}
 				5 = { # Central Asian
 					portrait_culture_group = magyar
+					portrait_culture_group = altaic
+					portrait_culture_group = sinic
 				}
 				6 = { # West African
 					portrait_culture_group = west_african
@@ -1522,6 +1529,7 @@ spriteTypes = {
 				}
 				8 = { # Byzantine
 					portrait_culture_group = byzantine
+					portrait_culture_group = aramaic
 				}
 			}
 		}
@@ -1584,23 +1592,23 @@ spriteTypes = {
 		
 		# Hide hair on 3rd, 4th, and 9th slot ( slavic, muslim, byzantine )
 		allow_property_values = {
-			1 = {
-				0 = {
-					OR = {
-						portrait_culture_group = baltic
-						portrait_culture_group = east_slavic
-						portrait_culture_group = west_slavic
-						portrait_culture_group = south_slavic
-						
-						portrait_culture_group = altaic
-						portrait_culture_group = arabic
-						portrait_culture_group = iranian
-						portrait_culture_group = israelite
-						
-						portrait_culture_group = byzantine
-					}
-				}
-			}
+			#1 = {
+			#	0 = {
+			#		OR = {
+			#			portrait_culture_group = baltic
+			#			portrait_culture_group = east_slavic
+			#			portrait_culture_group = west_slavic
+			#			portrait_culture_group = south_slavic
+			#			
+			#			portrait_culture_group = altaic
+			#			portrait_culture_group = arabic
+			#			portrait_culture_group = iranian
+			#			portrait_culture_group = israelite
+			#			
+			#			portrait_culture_group = byzantine
+			#		}
+			#	}
+			#}
 			3 = {
 				0 = { # Western
 					OR = {
@@ -1609,6 +1617,7 @@ spriteTypes = {
 						portrait_culture_group = latin
 						portrait_culture_group = iberian
 						portrait_culture_group = celtic
+						portrait_culture_group = italian_group
 					}
 				}
 				1 = { # Nordic
@@ -1627,20 +1636,22 @@ spriteTypes = {
 				}
 				3 = { # Muslim
 					OR = {
-						portrait_culture_group = altaic
 						portrait_culture_group = arabic
 						portrait_culture_group = iranian
 						portrait_culture_group = israelite
+						portrait_culture_group = north_african
 					}
 				}
 				4 = { # Indian
 					OR = {
 						portrait_culture_group = indo_aryan_group
-						portrait_culture_group = dravidian_group	
+						portrait_culture_group = dravidian_group
 					}
 				}
 				5 = { # Central Asian
 					portrait_culture_group = magyar
+					portrait_culture_group = altaic
+					portrait_culture_group = sinic
 				}
 				6 = { # West African
 					portrait_culture_group = west_african
@@ -1650,6 +1661,7 @@ spriteTypes = {
 				}
 				8 = { # Byzantine
 					portrait_culture_group = byzantine
+					portrait_culture_group = aramaic
 				}
 			}
 			5 = {
@@ -1660,6 +1672,7 @@ spriteTypes = {
 						portrait_culture_group = latin
 						portrait_culture_group = iberian
 						portrait_culture_group = celtic
+						portrait_culture_group = italian_group
 					}
 				}
 				1 = { # Nordic
@@ -1678,20 +1691,22 @@ spriteTypes = {
 				}
 				3 = { # Muslim
 					OR = {
-						portrait_culture_group = altaic
 						portrait_culture_group = arabic
 						portrait_culture_group = iranian
 						portrait_culture_group = israelite
+						portrait_culture_group = north_african
 					}
 				}
 				4 = { # Indian
 					OR = {
 						portrait_culture_group = indo_aryan_group
-						portrait_culture_group = dravidian_group	
+						portrait_culture_group = dravidian_group
 					}
 				}
 				5 = { # Central Asian
 					portrait_culture_group = magyar
+					portrait_culture_group = altaic
+					portrait_culture_group = sinic
 				}
 				6 = { # West African
 					portrait_culture_group = west_african
@@ -1701,6 +1716,7 @@ spriteTypes = {
 				}
 				8 = { # Byzantine
 					portrait_culture_group = byzantine
+					portrait_culture_group = aramaic
 				}
 			}
 		}
@@ -1946,11 +1962,11 @@ spriteTypes = {
 		
 		# No hair, correct rank
 		allow_property_values = {
-			1 = {
-				0 = {
-					always = yes
-				}
-			}
+			#1 = {
+			#	0 = {
+			#		always = yes
+			#	}
+			#}
 			3 = {
 				0 = {
 					portrait_society_rank = 1
