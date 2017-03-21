@@ -49,11 +49,11 @@ title_cardinal = {
 	}
 	
 	gain_effect = {
-		set_character_flag = cardinal
+		add_trait = cardinal
 	}
 	
 	lose_effect = {
-		clr_character_flag = cardinal
+		remove_trait = cardinal
 	}
 
 	message = yes
@@ -96,11 +96,11 @@ title_fraticelli_cardinal = {
 	}
 	
 	gain_effect = {
-		set_character_flag = cardinal
+		add_trait = cardinal
 	}
 	
 	lose_effect = {
-		clr_character_flag = cardinal
+		remove_trait = cardinal
 	}
 
 	message = yes

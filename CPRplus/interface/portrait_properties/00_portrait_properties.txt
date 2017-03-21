@@ -6248,48 +6248,6 @@
 				multiplayer = yes
 			}
 		}
-		modifier = {
-			factor = 0
-			has_character_flag = cardinal
-			NOR = {
-				has_landed_title = k_papal_state
-				has_landed_title = d_fraticelli
-			}
-			NOR = {
-				AND = {
-					in_command = yes
-					year = 950
-					OR = {
-						AND = {
-							has_global_flag = EMF
-							combat_rating = 5
-						}
-						AND = {
-							NOT = { has_global_flag = EMF }
-							combat_rating = 3
-						}
-					}
-					#religion_group = christian
-					OR = {
-						culture_group = north_germanic
-						culture_group = central_germanic
-						culture_group = west_germanic
-						culture_group = latin
-						culture_group = iberian
-						culture_group = celtic
-						culture_group = west_slavic
-						culture_group = magyar
-						culture_group = baltic
-						AND = {
-							culture_group = south_slavic
-							NOT = { culture = bulgarian }
-						}
-						culture_group = italian_group
-					}
-				}
-				prisoner = yes
-			}
-		}
 	}
 
 	1 = { # player
@@ -6300,87 +6258,6 @@
 				ai = yes
 				multiplayer = no
 			}
-		}
-	}
-	
-	2 = { # nun
-		factor = 0
-		modifier = {
-			factor = 0
-			NOT = {
-				trait = nun
-			}
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		hide_layers = {
-			1 = { always = yes }
-			3 = { always = yes }
-			5 = { always = yes }
-		}
-	}
-	
-	3 = { # cardinal
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = {
-				has_character_flag = cardinal
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_landed_title = k_papal_state
-				has_landed_title = d_fraticelli
-			}
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-			year = 950
-			OR = {
-				AND = {
-					has_global_flag = EMF
-					combat_rating = 5
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					combat_rating = 3
-				}
-			}
-			religion_group = christian
-			OR = {
-				culture_group = north_germanic
-				culture_group = central_germanic
-				culture_group = west_germanic
-				culture_group = latin
-				culture_group = iberian
-				culture_group = celtic
-				culture_group = west_slavic
-				culture_group = magyar
-				culture_group = baltic
-				AND = {
-					culture_group = south_slavic
-					NOT = { culture = bulgarian }
-				}
-				culture_group = italian_group
-			}
-		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		hide_layers = {
-			1 = { always = yes }
-			3 = { always = yes }
-			5 = { always = yes }
 		}
 	}
 }
