@@ -1,0 +1,12 @@
+# -*- ck2.on_actions -*-
+
+on_new_holder_inheritance = {
+	events = {
+		cpr.1
+	}
+}
+on_new_holder_usurpation = {
+	events = {
+		cpr.1
+	}
+}
