@@ -83,9 +83,14 @@ spriteTypes = {
 	# Cardinal
 	
 	spriteType = {
-		name = "GFX_religious_male_headgear_front"
-		textureFile = "gfx/characters/shared/religious_male_headgear_front.dds"
-		noOfFrames = 2
+		name = "GFX_cpr_religious_male_headgear_behind"
+		textureFile = "gfx/characters/cpr_religious_male_headgear_behind.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_cpr_religious_male_headgear_front"
+		textureFile = "gfx/characters/cpr_religious_male_headgear_front.dds"
+		noOfFrames = 1
 	}
 	
 	portraitType = {
@@ -98,15 +103,15 @@ spriteTypes = {
 				portrait_is_female = no
 				portrait_clothing = yes
 				portrait_has_trait = cardinal
-				NOT = { portrait_tier = king }
+				#NOT = { portrait_tier = king }
 			}
 		}
 		
 		layer = {
 			"GFX_religious_male_clothes_behind:c0"
 			"GFX_religious_male_clothes:c2"
-			"GFX_empty:c1"
-			"GFX_religious_male_headgear_front:c5"
+			"GFX_cpr_religious_male_headgear_behind:c1"
+			"GFX_cpr_religious_male_headgear_front:c5"
 			"GFX_empty:c3"
 			"GFX_english_male_hair_behind_midage"
 			"GFX_english_male_hair_midage"
