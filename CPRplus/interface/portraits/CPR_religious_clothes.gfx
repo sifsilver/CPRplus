@@ -20,6 +20,10 @@ spriteTypes = {
 					portrait_religion = lollard
 					portrait_religion = messalian
 				}
+				NOR = {
+					portrait_society = monastic_order_benedictine
+					portrait_society = monastic_order_dominican
+				}
 			}
 		}
 		
@@ -78,6 +82,9 @@ spriteTypes = {
 					portrait_religion = apostolic
 					portrait_religion = tondrakian
 				}
+				NOT = {
+					portrait_society = monastic_order_orthodox
+				}
 			}
 		}
 		
@@ -125,6 +132,10 @@ spriteTypes = {
 					portrait_religion = lollard
 					portrait_religion = messalian
 				}
+				NOR = {
+					portrait_society = monastic_order_benedictine
+					portrait_society = monastic_order_dominican
+				}
 			}
 		}
 		
@@ -170,6 +181,9 @@ spriteTypes = {
 					portrait_religion = maronite
 					portrait_religion = apostolic
 					portrait_religion = tondrakian
+				}
+				NOT = {
+					portrait_society = monastic_order_orthodox
 				}
 			}
 		}
