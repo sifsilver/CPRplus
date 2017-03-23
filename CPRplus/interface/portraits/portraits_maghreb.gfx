@@ -271,6 +271,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_maghreb_male_headgear_behind"
+		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_maghreb_male_headgear"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_headgear.dds"
 		noOfFrames = 12
@@ -312,7 +319,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_muslim_male_headgear_behind:p5:c1"
+			"GFX_maghreb_male_headgear_behind:p5:c1"
 			"GFX_maghreb_male_hair_behind:p1:h:y"
 			"GFX_maghreb_male_beard_behind:p4:y"
 			"GFX_maghreb_male_base:p2"
@@ -365,7 +372,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_muslim_male_headgear_behind:p5:c1"
+			"GFX_maghreb_male_headgear_behind:p5:c1"
 			"GFX_maghreb_male_hair_behind_midage:p1:h:y"
 			"GFX_maghreb_male_beard_behind_midage:p4:y"
 			"GFX_maghreb_male_base_midage:p2"
@@ -418,7 +425,7 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_muslim_male_headgear_behind:p5:c1"
+			"GFX_maghreb_male_headgear_behind:p5:c1"
 			"GFX_maghreb_male_hair_behind_oldage:p1:h:y"
 			"GFX_maghreb_male_beard_behind_oldage:p4:y"
 			"GFX_maghreb_male_base_oldage:p2"
