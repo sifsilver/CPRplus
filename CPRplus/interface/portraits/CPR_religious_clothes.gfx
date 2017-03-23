@@ -3,7 +3,7 @@ spriteTypes = {
 	# Monk
 	
 	portraitType = {
-		name = "PORTRAIT_monk_clothing_male"
+		name = "PORTRAIT_catholic_monk_clothing_male"
 		
 		weight = {
 			additive_modifier = {
@@ -12,6 +12,14 @@ spriteTypes = {
 				portrait_is_female = no
 				portrait_clothing = yes
 				portrait_has_trait = monk
+				OR = {
+					portrait_religion = catholic
+					portrait_religion = cathar
+					portrait_religion = fraticelli
+					portrait_religion = waldensian
+					portrait_religion = lollard
+					portrait_religion = messalian
+				}
 			}
 		}
 		
@@ -46,10 +54,61 @@ spriteTypes = {
 		}
 	}
 	
+	portraitType = {
+		name = "PORTRAIT_orthodox_monk_clothing_male"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				portrait_has_trait = monk
+				OR = {
+					portrait_religion = orthodox
+					portrait_religion = miaphysite
+					portrait_religion = monophysite
+					portrait_religion = bogomilist
+					portrait_religion = monothelite
+					portrait_religion = iconoclast
+					portrait_religion = paulician
+					portrait_religion = nestorian
+					portrait_religion = syriac
+					portrait_religion = maronite
+					portrait_religion = apostolic
+					portrait_religion = tondrakian
+				}
+			}
+		}
+		
+		layer = {
+			"GFX_society_orthodox_monk_male_clothing_behind:c0"
+			"GFX_society_orthodox_monk_male_clothing_front:c2"
+			"GFX_easternslavic_male_headgear_behind:c1"
+			"GFX_easternslavic_male_headgear:c5"
+			"GFX_easternslavic_male_headgear_mid:c3"
+			"GFX_empty:c4"
+		}
+		
+		# Tonsure hairstyle, no beard
+		allow_property_values = {
+			3 = {
+				0 = {
+					always = yes
+				}
+			}
+			5 = {
+				9 = {
+					always = yes
+				}
+			}
+		}
+	}
+	
 	# Nun
 	
 	portraitType = {
-		name = "PORTRAIT_nun_clothing_female"
+		name = "PORTRAIT_catholic_nun_clothing_female"
 		
 		weight = {
 			additive_modifier = {
@@ -58,6 +117,14 @@ spriteTypes = {
 				portrait_is_female = yes
 				portrait_clothing = yes
 				portrait_has_trait = nun
+				OR = {
+					portrait_religion = catholic
+					portrait_religion = cathar
+					portrait_religion = fraticelli
+					portrait_religion = waldensian
+					portrait_religion = lollard
+					portrait_religion = messalian
+				}
 			}
 		}
 		
@@ -78,6 +145,56 @@ spriteTypes = {
 		#		}
 		#	}
 		#}
+	}
+	
+	portraitType = {
+		name = "PORTRAIT_orthodox_nun_clothing_female"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = yes
+				portrait_clothing = yes
+				portrait_has_trait = nun
+				OR = {
+					portrait_religion = orthodox
+					portrait_religion = miaphysite
+					portrait_religion = monophysite
+					portrait_religion = bogomilist
+					portrait_religion = monothelite
+					portrait_religion = iconoclast
+					portrait_religion = paulician
+					portrait_religion = nestorian
+					portrait_religion = syriac
+					portrait_religion = maronite
+					portrait_religion = apostolic
+					portrait_religion = tondrakian
+				}
+			}
+		}
+		
+		layer = { 
+			"GFX_empty:c0"
+			"GFX_empty:c2"
+			"GFX_empty:c3"
+			"GFX_society_orthodox_monk_female_headgear_behind:c1"
+			"GFX_society_orthodox_monk_female_headgear_front:c5"
+			"GFX_empty:c4"
+		}
+		
+		allow_property_values = {
+			3 = {
+				0 = {
+					always = yes
+				}
+			}
+			5 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
 	}
 	
 	# Cardinal
