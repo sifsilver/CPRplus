@@ -836,7 +836,7 @@
 		}
 		modifier = {
 			factor = 2.5
-			holding_type = temple
+			location = { holding_type = temple }
 		}
 		modifier = {
 			factor = 2
