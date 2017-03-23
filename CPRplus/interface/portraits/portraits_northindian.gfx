@@ -194,7 +194,7 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
 			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
@@ -372,7 +372,7 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
 			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 } #Second Black
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}

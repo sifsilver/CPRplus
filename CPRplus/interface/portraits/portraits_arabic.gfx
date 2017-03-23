@@ -42,7 +42,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
@@ -96,7 +96,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
@@ -150,7 +150,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
@@ -204,7 +204,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
@@ -256,7 +256,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
@@ -308,7 +308,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 46 42 39 } { 255 255 255 }
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
