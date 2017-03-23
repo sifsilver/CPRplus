@@ -540,6 +540,10 @@
 			factor = 0
 			is_alive = no
 		}
+		modifier = {
+			factor = 0
+			has_character_modifier = in_seclusion
+		}
 	}
 	13 = { # Muslim interior
 		factor = 2
