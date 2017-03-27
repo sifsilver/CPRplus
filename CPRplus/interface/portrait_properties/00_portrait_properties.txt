@@ -2190,15 +2190,18 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = duke }
-			NOT = { real_tier = count }
-			NOT = { real_tier = baron }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { spouse = { real_tier = count } }
-			NOT = { spouse = { real_tier = baron } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				real_tier = king
+				real_tier = duke
+				real_tier = count
+				real_tier = baron
+				spouse = { real_tier = king }
+				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
+				spouse = { real_tier = baron }
+				has_job_title = job_chancellor
+				has_minor_title = title_prince
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2230,15 +2233,18 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = duke }
-			NOT = { real_tier = count }
-			NOT = { real_tier = baron }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { spouse = { real_tier = count } }
-			NOT = { spouse = { real_tier = baron } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				real_tier = king
+				real_tier = duke
+				real_tier = count
+				real_tier = baron
+				spouse = { real_tier = king }
+				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
+				spouse = { real_tier = baron }
+				has_job_title = job_chancellor
+				has_minor_title = title_prince
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2270,15 +2276,18 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = duke }
-			NOT = { real_tier = count }
-			NOT = { real_tier = baron }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { spouse = { real_tier = count } }
-			NOT = { spouse = { real_tier = baron } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				real_tier = king
+				real_tier = duke
+				real_tier = count
+				real_tier = baron
+				spouse = { real_tier = king }
+				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
+				spouse = { real_tier = baron }
+				has_job_title = job_chancellor
+				has_minor_title = title_prince
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2305,6 +2314,7 @@
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
+				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
 		}
@@ -2325,6 +2335,7 @@
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
+				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
 		}
@@ -2340,6 +2351,7 @@
 			OR = {
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
+				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
 		}
@@ -3890,9 +3902,11 @@
 				is_feudal = yes
 				is_tribal = yes
 			}
-			NOT = { real_tier = duke }
-			NOT = { spouse = { real_tier = duke } }
-			NOT = { has_minor_title = title_prince }
+			NOR = {
+				real_tier = duke
+				spouse = { real_tier = duke }
+				has_minor_title = title_prince
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4388,6 +4402,8 @@
 			OR = {
 				real_tier = baron
 				spouse = { real_tier = baron }
+				has_job_title = job_chancellor
+				has_job_title = job_treasurer
 				AND = {
 					liege = {
 						is_nomadic = yes
