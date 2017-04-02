@@ -4,14 +4,14 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_siciliangfx_child_male"
-		texturefile = "gfx\\characters\\default_son_english.tga"
+		texturefile = "gfx\\characters\\default_son_southern.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "PORTRAIT_siciliangfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_english.tga"
+		texturefile = "gfx\\characters\\default_daughter_southern.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}

@@ -5,7 +5,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "PORTRAIT_levantinegfx_child_male"
-		texturefile = "gfx\\characters\\default_son_muslim.tga"
+		texturefile = "gfx\\characters\\default_son_byzantine.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -13,7 +13,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_levantinegfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_muslim.tga"
+		texturefile = "gfx\\characters\\default_daughter_byzantine.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
