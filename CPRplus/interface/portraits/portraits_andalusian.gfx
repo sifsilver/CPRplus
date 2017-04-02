@@ -348,14 +348,14 @@ spriteTypes = {
 	########## IBERIAN CHILDREN ##########
 	
 	spriteType = {
-		name = "PORTRAIT_andalusiangfxgfx_child_male"
+		name = "PORTRAIT_andalusiangfx_child_male"
 		texturefile = "gfx\\characters\\default_son_southern.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_andalusiangfxgfx_child_female"
+		name = "PORTRAIT_andalusiangfx_child_female"
 		texturefile = "gfx\\characters\\default_daughter_southern.tga"
 		noOfFrames = 1
 		norefcount = yes
