@@ -99,8 +99,8 @@
 			is_alive = no
 			NOR = {
 				death_reason = death_dungeon
-				death_reason = death_execution
-				death_reason = death_sacrificed
+				death_execution_trigger = yes
+				death_sacrificed_trigger = yes
 			}
 		}
 		modifier = {
@@ -185,7 +185,10 @@
 			is_alive = yes
 			NOR = {
 				trait = incapable
-				trait = infirm
+				AND = {
+					trait = infirm
+					prisoner = no
+				}
 				AND = {
 					prisoner = yes
 					has_character_modifier = house_arrest
@@ -197,20 +200,19 @@
 			in_command = yes
 		}
 		modifier = {
-			factor = 0.001
+			factor = 0
 			OR = {
-				death_reason = death_sacrificed
+				death_sacrificed_trigger = yes
 				death_reason = death_battle
-				death_reason = death_execution
+				death_execution_trigger = yes
 				death_reason = death_dungeon
 			}
 		}
-		modifier = {
-			factor = 0.02
-			trait = infirm
-			is_alive = yes
-			prisoner = no
-		}
+		#modifier = {
+		#	factor = 0
+		#	trait = infirm
+		#	prisoner = yes
+		#}
 		modifier = {
 			factor = 0
 			trait = saint
@@ -4347,6 +4349,21 @@
 		modifier = {
 			factor = 0
 			is_alive = no
+			primary_title = {
+				NOR = {
+					holy_order = yes
+					mercenary = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			religion_group = christian
+			NOR = {
+				has_minor_title = title_commander
+				trait = shieldmaiden
+			}
 		}
 		modifier = {
 			factor = 0
