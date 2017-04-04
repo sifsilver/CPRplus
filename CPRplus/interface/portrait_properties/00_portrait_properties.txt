@@ -2414,10 +2414,6 @@
 		#}
 		modifier = {
 			factor = 0
-			is_alive = no
-		}
-		modifier = {
-			factor = 0
 			OR = {
 				is_nomadic = yes
 				AND = {
@@ -4348,25 +4344,6 @@
 		#}
 		modifier = {
 			factor = 0
-			is_alive = no
-			primary_title = {
-				NOR = {
-					holy_order = yes
-					mercenary = yes
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			religion_group = christian
-			NOR = {
-				has_minor_title = title_commander
-				trait = shieldmaiden
-			}
-		}
-		modifier = {
-			factor = 0
 			OR = {
 				is_nomadic = yes
 				AND = {
@@ -6142,10 +6119,12 @@
 			is_alive = yes
 			OR = {
 				trait = ill
+				trait = flu
 				trait = pneumonic
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
+				trait = has_typhus
 				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
@@ -6158,6 +6137,7 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
+				trait = has_typhus
 				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
@@ -6186,6 +6166,7 @@
 			NOR = {
 				trait = has_measles
 				trait = has_small_pox
+				trait = has_typhus
 			}
 		}
 		modifier = {
@@ -6204,6 +6185,7 @@
 			factor = 0
 			NOR = {
 				trait = ill
+				trait = flu
 				trait = pneumonic
 			}
 		}
@@ -6213,6 +6195,7 @@
 				trait = has_bubonic_plague
 				trait = has_measles
 				trait = has_small_pox
+				trait = has_typhus
 				trait = syphilitic
 				trait = has_aztec_disease
 				trait = leper
