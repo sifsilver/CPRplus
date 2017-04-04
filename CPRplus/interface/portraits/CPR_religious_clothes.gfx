@@ -19,6 +19,7 @@ spriteTypes = {
 					portrait_religion = waldensian
 					portrait_religion = lollard
 					portrait_religion = messalian
+					portrait_religion = adoptionist
 				}
 				NOR = {
 					portrait_society = monastic_order_benedictine
@@ -131,6 +132,7 @@ spriteTypes = {
 					portrait_religion = waldensian
 					portrait_religion = lollard
 					portrait_religion = messalian
+					portrait_religion = adoptionist
 				}
 				NOR = {
 					portrait_society = monastic_order_benedictine
@@ -268,6 +270,91 @@ spriteTypes = {
 			}
 			5 = {
 				1 = {
+					always = yes
+				}
+			}
+		}
+	}
+	
+	# Desert Father - CK2Plus only
+	
+	portraitType = {
+		name = "PORTRAIT_desert_father_clothing_male"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				portrait_has_trait = desert_father
+			}
+		}
+		
+		layer = {
+			"GFX_religious_male_clothes_behind:c0"
+			"GFX_religious_male_clothes:c2"
+			"GFX_western_male_headgear_behind:c1"
+			"GFX_western_male_headgear:c5"
+			"GFX_western_male_headgear_mid:c3"
+			"GFX_western_male_hair_behind_midage"
+			"GFX_western_male_hair_midage"
+			"GFX_empty:c4"
+		}
+		
+		# No hair
+		allow_property_values = {
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
+			3 = {
+				3 = {
+					always = yes
+				}
+			}
+			5 = {
+				6 = {
+					always = yes
+				}
+			}
+		}
+	}
+	
+	# Desert Mother - CK2Plus only
+	
+	portraitType = {
+		name = "PORTRAIT_desert_mother_clothing_female"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = yes
+				portrait_clothing = yes
+				portrait_has_trait = desert_mother
+			}
+		}
+		
+		layer = {
+			"GFX_religious_female_clothes_behind:c0"
+			"GFX_religious_female_clothes:c2"
+			"GFX_western_male_headgear_behind:c1"
+			"GFX_western_male_headgear:c5"
+			"GFX_western_male_headgear_mid:c3"
+			"GFX_empty:c4"
+		}
+		
+		# No hair
+		allow_property_values = {
+			3 = {
+				9 = {
+					always = yes
+				}
+			}
+			5 = {
+				6 = {
 					always = yes
 				}
 			}
