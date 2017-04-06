@@ -7,7 +7,7 @@ spriteTypes = {
 		
 		weight = {
 			additive_modifier = {
-				value = 10000
+				value = 1000
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
@@ -64,7 +64,7 @@ spriteTypes = {
 		
 		weight = {
 			additive_modifier = {
-				value = 10000
+				value = 1000
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
@@ -120,7 +120,7 @@ spriteTypes = {
 		
 		weight = {
 			additive_modifier = {
-				value = 10000
+				value = 1000
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
@@ -165,7 +165,7 @@ spriteTypes = {
 		
 		weight = {
 			additive_modifier = {
-				value = 10000
+				value = 1000
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
