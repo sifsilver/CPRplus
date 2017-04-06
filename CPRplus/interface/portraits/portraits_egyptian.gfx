@@ -230,10 +230,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -285,10 +285,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -340,10 +340,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -546,10 +546,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -599,10 +599,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -653,10 +653,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -710,10 +710,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -765,10 +765,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -820,10 +820,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -877,10 +877,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -930,10 +930,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }
@@ -984,10 +984,10 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 86 74 46 } #Second Brown
 			{ 36 32 24 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { }

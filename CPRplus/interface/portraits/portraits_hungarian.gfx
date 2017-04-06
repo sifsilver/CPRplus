@@ -284,8 +284,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -345,8 +345,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -408,8 +408,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -471,8 +471,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -532,8 +532,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -596,8 +596,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -656,8 +656,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -714,8 +714,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -773,8 +773,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -833,8 +833,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		
@@ -891,8 +891,8 @@ spriteTypes = {
 			{ 85 90 135 }
 			{ 86 74 46 }
 			{ 55 30 15 }
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 		}
 		

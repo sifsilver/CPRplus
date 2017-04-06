@@ -286,11 +286,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 55 30 15 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 7 10 }
@@ -343,11 +343,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 55 30 15 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 7 10 }
@@ -400,11 +400,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 55 30 15 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 7 10 }
@@ -628,11 +628,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 55 30 15 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -683,11 +683,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 55 30 15 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -738,11 +738,11 @@ spriteTypes = {
 		eye_color_index = 9
 		eye_color = {
 			{ 120 74 46 } #Brown
-			{ 140 90 28 } #Green
+			{ 115 80 28 } #Light Brown
 			{ 66 99 57 } #Green
 			{ 86 74 46 } #Second Brown
 			{ 55 30 15 } #Dark Brown
-			{ 128 74 47 } #Auburn 
+			{ 105 80 65 } #Auburn 
 		}
 		
 		headgear_that_hides_hair = { 10 }

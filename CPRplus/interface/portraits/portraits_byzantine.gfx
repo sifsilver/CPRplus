@@ -70,8 +70,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -143,8 +143,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -215,8 +215,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -289,8 +289,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -362,8 +362,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -433,8 +433,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -508,8 +508,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -579,8 +579,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -649,8 +649,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -721,8 +721,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -792,8 +792,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -862,8 +862,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -936,8 +936,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -1009,8 +1009,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -1081,8 +1081,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -1153,8 +1153,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -1224,8 +1224,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
@@ -1294,8 +1294,8 @@ spriteTypes = {
 			{ 63 40 26 } #Brown
 			{ 56 80 57 } #Green
 			{ 30 22 18 } #Dark Brown 1
-			{ 140 90 28 } #Green
-			{ 128 74 47 } #Auburn 
+			{ 115 80 28 } #Light Brown
+			{ 105 80 65 } #Auburn 
 			{ 82 101 155 } #Blueish
 			{ 93 57 35 } #Light Brown
 		}
