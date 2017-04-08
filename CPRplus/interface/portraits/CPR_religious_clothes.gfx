@@ -29,8 +29,8 @@ spriteTypes = {
 		}
 		
 		layer = {
-			"GFX_society_benedictine_male_clothing_behind:c0"
-			"GFX_society_benedictine_male_clothing_front:c2"
+			"GFX_society_dominican_male_clothing_behind:c0"
+			"GFX_society_dominican_male_clothing_front:c2"
 			"GFX_western_male_headgear_behind:c1"
 			"GFX_western_male_headgear:c5"
 			"GFX_western_male_headgear_mid:c3"
@@ -43,6 +43,11 @@ spriteTypes = {
 		allow_property_values = {
 			1 = {
 				6 = {
+					always = yes
+				}
+			}
+			3 = {
+				0 = {
 					always = yes
 				}
 			}
@@ -191,8 +196,8 @@ spriteTypes = {
 		}
 		
 		layer = { 
-			"GFX_empty:c0"
-			"GFX_empty:c2"
+			"GFX_society_dominican_male_clothing_behind:c0"
+			"GFX_society_dominican_male_clothing_front:c2"
 			"GFX_empty:c3"
 			"GFX_society_orthodox_monk_female_headgear_behind:c1"
 			"GFX_society_orthodox_monk_female_headgear_front:c5"
@@ -292,8 +297,8 @@ spriteTypes = {
 		}
 		
 		layer = {
-			"GFX_religious_male_clothes_behind:c0"
-			"GFX_religious_male_clothes:c2"
+			"GFX_society_dominican_male_clothing_behind:c0"
+			"GFX_society_dominican_male_clothing_front:c2"
 			"GFX_western_male_headgear_behind:c1"
 			"GFX_western_male_headgear:c5"
 			"GFX_western_male_headgear_mid:c3"
@@ -310,7 +315,7 @@ spriteTypes = {
 				}
 			}
 			3 = {
-				3 = {
+				0 = {
 					always = yes
 				}
 			}
@@ -338,8 +343,8 @@ spriteTypes = {
 		}
 		
 		layer = {
-			"GFX_religious_female_clothes_behind:c0"
-			"GFX_religious_female_clothes:c2"
+			"GFX_society_dominican_male_clothing_behind:c0"
+			"GFX_society_dominican_male_clothing_front:c2"
 			"GFX_western_male_headgear_behind:c1"
 			"GFX_western_male_headgear:c5"
 			"GFX_western_male_headgear_mid:c3"
@@ -349,7 +354,7 @@ spriteTypes = {
 		# No hair
 		allow_property_values = {
 			3 = {
-				9 = {
+				0 = {
 					always = yes
 				}
 			}
