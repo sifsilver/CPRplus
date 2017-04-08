@@ -367,8 +367,8 @@ spriteTypes = {
 		}
 		
 		layer = { 
-			"GFX_empty:c0"
-			"GFX_empty:c2"
+			"GFX_society_dominican_male_clothing_behind:c0"
+			"GFX_society_dominican_male_clothing_front:c2"
 			"GFX_empty:c3"
 			"GFX_society_orthodox_monk_female_headgear_behind:c1"
 			"GFX_society_orthodox_monk_female_headgear_front:c5"
@@ -384,21 +384,7 @@ spriteTypes = {
 			#}
 			3 = {
 				0 = {
-					portrait_society_rank = 1
-				}
-				1 = {
-					portrait_society_rank = 2
-				}
-				2 = {
-					portrait_society_rank = 3
-				}
-				3 = {
-					portrait_society_rank = 4
-					portrait_culture = greek
-				}
-				4 = {
-					portrait_society_rank = 4
-					NOT = { portrait_culture = greek }
+					always = yes
 				}
 			}
 			5 = {
