@@ -226,8 +226,8 @@ spriteTypes = {
 		}
 		
 		layer = { 
-			"GFX_empty:c0"
-			"GFX_empty:c2"
+			"GFX_society_dominican_male_clothing_behind:c0"
+			"GFX_society_dominican_male_clothing_front:c2"
 			"GFX_empty:c3"
 			"GFX_society_dominican_female_headgear_behind:c1"
 			"GFX_society_dominican_female_headgear_front:c5"
@@ -235,13 +235,18 @@ spriteTypes = {
 		}
 		
 		# Hide hair
-		#allow_property_values = {
+		allow_property_values = {
 		#	1 = {
 		#		0 = {
 		#			always = yes
 		#		}
 		#	}
-		#}
+			3 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
 	}
 	
 	# monastic_order_orthodox
@@ -502,13 +507,20 @@ spriteTypes = {
 			}
 		}
 		
-		layer = { 
+		layer = {
+			"GFX_indian_female_clothes_behind:c0"
+			"GFX_indian_female_clothes_front:c2"
 			"GFX_society_monastic_order_hindu_vaishnavite_female_headgear_behind:c1"
 			"GFX_society_monastic_order_hindu_vaishnavite_female_headgear_front:c5"
 			"GFX_society_monastic_order_hindu_vaishnavite_female_headgear_mid:c3"
-			"GFX_empty:c0"
-			"GFX_empty:c2"
 			"GFX_empty:c4"
+		}
+		allow_property_values = {
+			3 = {
+				11 = {
+					always = yes
+				}
+			}
 		}
 	}
 	
@@ -802,13 +814,20 @@ spriteTypes = {
 			}
 		}
 		
-		layer = { 
+		layer = {
+			"GFX_indian_female_clothes_behind:c0"
+			"GFX_indian_female_clothes_front:c2"
 			"GFX_society_monastic_order_hindu_shaivite_female_headgear_behind:c1"
 			"GFX_society_monastic_order_hindu_shaivite_female_headgear_front:c5"
 			"GFX_society_monastic_order_hindu_shaivite_female_headgear_mid:c3"
-			"GFX_empty:c0"
-			"GFX_empty:c2"
 			"GFX_empty:c4"
+		}
+		allow_property_values = {
+			3 = {
+				11 = {
+					always = yes
+				}
+			}
 		}
 	}
 	
