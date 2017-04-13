@@ -30,6 +30,7 @@
 					is_landed = no
 				}
 			}
+			NOT = { is_theocracy = yes }
 		}
 		modifier = {
 			factor = 0
@@ -38,16 +39,42 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				NOR = {
-					holding_type = castle
-					holding_type = city
-				}
-			}
 			NOR = {
 				is_feudal = yes
 				is_theocracy = yes
 				is_republic = yes
+				AND = {
+					liege = {
+						OR = {
+							is_feudal = yes
+							is_theocracy = yes
+							is_republic = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			liege = {
+				OR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+			OR = {
+				is_landed = no
+				AND = {
+					is_landed = yes
+					has_job_title = yes
+				}
 			}
 		}
 	}
@@ -66,11 +93,11 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				NOT = {
-					holding_type = castle
-				}
-			}
+			#location = {
+			#	NOT = {
+			#		holding_type = castle
+			#	}
+			#}
 			NOT = {
 				is_feudal = yes
 			}
@@ -78,6 +105,22 @@
 		modifier = {
 			factor = 0
 			trait = in_hiding
+		}
+		modifier = {
+			factor = 0
+			liege = {
+				OR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+			OR = {
+				is_landed = no
+				AND = {
+					is_landed = yes
+					has_job_title = yes
+				}
+			}
 		}
 	}
 
@@ -358,8 +401,18 @@
 		}
 		modifier = {
 			factor = 2
-			location = {
-				holding_type = nomad
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
 			}
 		}
 		modifier = {
@@ -384,8 +437,18 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				holding_type = nomad
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
 			}
 		}
 		modifier = {
@@ -403,6 +466,11 @@
 			is_landed = yes
 		}
 		modifier = {
+			factor = 3
+			liege = { is_theocracy = yes }
+			is_landed = no
+		}
+		modifier = {
 			factor = 0
 			NOR = {
 				is_priest = yes
@@ -414,6 +482,27 @@
 				trait = mastermind_theologian
 				government = theocracy_government
 				is_theocracy = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			liege = {
+				NOT = { is_theocracy = yes }
+			}
+			OR = {
+				AND = {
+					is_landed = no
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+				}
+				AND = {
+					is_landed = yes
+					has_job_title = yes
+				}
 			}
 		}
 	}
@@ -459,8 +548,18 @@
 		}
 		modifier = {
 			factor = 5
-			location = {
-				holding_type = nomad
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
 			}
 		}
 		modifier = {
@@ -534,8 +633,18 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				holding_type = nomad
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
 			}
 		}
 		modifier = {
@@ -576,16 +685,42 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				NOR = {
-					holding_type = castle
-					holding_type = city
-				}
-			}
 			NOR = {
 				is_feudal = yes
 				is_theocracy = yes
 				is_republic = yes
+				AND = {
+					liege = {
+						OR = {
+							is_feudal = yes
+							is_theocracy = yes
+							is_republic = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			liege = {
+				OR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+			OR = {
+				is_landed = no
+				AND = {
+					is_landed = yes
+					has_job_title = yes
+				}
 			}
 		}
 	}
@@ -646,16 +781,42 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				NOR = {
-					holding_type = castle
-					holding_type = city
-				}
-			}
 			NOR = {
 				is_feudal = yes
 				is_theocracy = yes
 				is_republic = yes
+				AND = {
+					liege = {
+						OR = {
+							is_feudal = yes
+							is_theocracy = yes
+							is_republic = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			liege = {
+				OR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+			OR = {
+				is_landed = no
+				AND = {
+					is_landed = yes
+					has_job_title = yes
+				}
 			}
 		}
 	}
@@ -664,9 +825,17 @@
 		factor = 2
 		modifier = {
 			factor = 0
-			location = {
-				NOT = {
-					holding_type = nomad
+			NOR = {
+				is_nomadic = yes
+				AND = {
+					liege = { is_nomadic = yes }
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
 				}
 			}
 		}
@@ -698,6 +867,10 @@
 					liege = { family = ROOT }
 					is_landed = no
 				}
+				AND = {
+					liege = { is_nomadic = yes }
+					has_job_title = yes
+				}
 			}
 		}
 		modifier = {
@@ -728,9 +901,13 @@
 	}
 
 	17 = { # Mongol camp 2 - changed to "tribal" interior 
-		factor = 2
+		factor = 1
 		modifier = {
-			factor = 10
+			factor = 2
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 5
 			OR = {
 				is_landed = yes
 				spouse = { is_landed = yes }
@@ -747,22 +924,38 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				NOR = {
-					holding_type = tribal
-					region = world_africa_west
-					region = world_steppe_west
-					region = world_steppe_east
-					AND = {
-						holding_type = temple
+			NOR = {
+				is_tribal = yes
+				is_nomadic = yes
+				AND = {
+					liege = {
+						OR = {
+							is_tribal = yes
+							is_nomadic = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+				AND = {
+					is_theocracy = yes
+					religion_group = pagan_group
+				}
+				AND = {
+					liege = {
+						is_theocracy = yes
 						religion_group = pagan_group
 					}
-					AND = {
-						holding_type = nomad
-						OR = {
-							terrain = desert
-							terrain = mountain
-							region = world_africa
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
 						}
 					}
 				}
@@ -822,10 +1015,23 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				OR = {
-					holding_type = nomad
-					holding_type = tribal
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
 				}
 			}
 		}
@@ -842,7 +1048,17 @@
 		}
 		modifier = {
 			factor = 2.5
-			location = { holding_type = temple }
+			is_theocracy = yes
+			AND = {
+				liege = { is_theocracy = yes }
+				OR = {
+					is_landed = no
+					AND = {
+						is_landed = yes
+						has_job_title = yes
+					}
+				}
+			}
 		}
 		modifier = {
 			factor = 2
@@ -987,10 +1203,23 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				OR = {
-					holding_type = nomad
-					holding_type = tribal
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
 				}
 			}
 		}
@@ -1019,10 +1248,23 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				OR = {
-					holding_type = nomad
-					holding_type = tribal
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
 				}
 			}
 		}
@@ -1040,10 +1282,23 @@
 		}
 		modifier = {
 			factor = 0
-			location = {
-				OR = {
-					holding_type = nomad
-					holding_type = tribal
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
 				}
 			}
 		}
@@ -1053,7 +1308,7 @@
 		}
 	}
 	
-	26 = { # African Savanna 2 - changed to African dune - changed to saint
+	26 = { # African Savanna 2 - changed to saint
 		factor = 100
 		modifier = {
 			factor = 0
