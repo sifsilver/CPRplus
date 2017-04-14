@@ -466,11 +466,17 @@
 			government = theocracy_government
 			is_landed = yes
 		}
-		modifier = {
-			factor = 3
-			liege = { government = theocracy_government }
-			is_landed = no
-		}
+		#modifier = {
+		#	factor = 3
+		#	liege = { is_theocracy = yes }
+		#	OR = {
+		#		is_landed = no
+		#		AND = {
+		#			is_landed = yes
+		#			has_job_title = yes
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOR = {
@@ -1032,6 +1038,9 @@
 			OR = {
 				trait = zealous
 				trait = faqih
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
 			}
 		}
 		modifier = {
@@ -3769,9 +3778,9 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				is_feudal = yes
-				is_tribal = yes
+			NOR = {
+				is_republic = yes
+				is_nomadic = yes
 			}
 			NOR = {
 				real_tier = duke
