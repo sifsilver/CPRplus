@@ -31,6 +31,7 @@
 				}
 			}
 			NOT = { is_theocracy = yes }
+			NOT = { government = theocracy_government }
 		}
 		modifier = {
 			factor = 0
@@ -114,13 +115,7 @@
 					is_nomadic = yes
 				}
 			}
-			OR = {
-				is_landed = no
-				AND = {
-					is_landed = yes
-					has_job_title = yes
-				}
-			}
+			has_job_title = yes
 		}
 	}
 
@@ -439,8 +434,14 @@
 			factor = 0
 			OR = {
 				is_nomadic = yes
+				is_tribal = yes
 				AND = {
-					liege = { is_nomadic = yes }
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
 					OR = {
 						is_landed = no
 						AND = {
@@ -467,7 +468,7 @@
 		}
 		modifier = {
 			factor = 3
-			liege = { is_theocracy = yes }
+			liege = { government = theocracy_government }
 			is_landed = no
 		}
 		modifier = {
@@ -484,43 +485,9 @@
 				is_theocracy = yes
 			}
 		}
-		modifier = {
-			factor = 0
-			liege = {
-				NOT = { is_theocracy = yes }
-			}
-			OR = {
-				AND = {
-					is_landed = no
-					liege = {
-						OR = {
-							is_nomadic = yes
-							is_tribal = yes
-						}
-					}
-				}
-				AND = {
-					is_landed = yes
-					has_job_title = yes
-				}
-			}
-		}
 	}
 	10 = { # Desert
 		factor = 1
-		modifier = {
-			factor = 0.5
-			location = {
-				OR = {
-					region = world_africa
-					region = world_middle_east
-					region = world_persia
-					region = world_asia_minor
-					region = world_steppe_tarim
-				}
-			}
-			location = { NOT = { terrain = desert } }
-		}
 		modifier = {
 			factor = 0
 			location = {
@@ -563,7 +530,7 @@
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 10
 			OR = {
 				trait = desert_father
 				trait = desert_mother
@@ -608,7 +575,7 @@
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 2
 			is_landed = no
 		}
 		modifier = {
