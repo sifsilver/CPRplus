@@ -23,7 +23,7 @@ spriteTypes = {
 	
 	# Bohemian Male
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_male"
+		name = "PORTRAIT_bohemiangfx_male_christian"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -83,7 +83,7 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_male1"
+		name = "PORTRAIT_bohemiangfx_male_christian1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"						#0
@@ -144,7 +144,7 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_male2"
+		name = "PORTRAIT_bohemiangfx_male_christian2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -203,7 +203,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_male_early"
+		name = "PORTRAIT_bohemiangfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -263,7 +263,7 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_male_early1"
+		name = "PORTRAIT_bohemiangfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"						#0
@@ -324,7 +324,7 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_male_early2"
+		name = "PORTRAIT_bohemiangfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -389,7 +389,7 @@ spriteTypes = {
 
 	# Bohemian female
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_female"
+		name = "PORTRAIT_bohemiangfx_female_christian"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -446,7 +446,7 @@ spriteTypes = {
 
 	# Bohemian female midage
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_female1"
+		name = "PORTRAIT_bohemiangfx_female_christian1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -504,7 +504,7 @@ spriteTypes = {
 
 	# Bohemian female oldage
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_female2"
+		name = "PORTRAIT_bohemiangfx_female_christian2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -562,7 +562,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_female_early"
+		name = "PORTRAIT_bohemiangfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -619,7 +619,7 @@ spriteTypes = {
 
 	# Bohemian female midage
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_female_early1"
+		name = "PORTRAIT_bohemiangfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
@@ -677,7 +677,7 @@ spriteTypes = {
 
 	# Bohemian female oldage
 	portraitType = {
-		name = "PORTRAIT_bohemiangfx_female_early2"
+		name = "PORTRAIT_bohemiangfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"

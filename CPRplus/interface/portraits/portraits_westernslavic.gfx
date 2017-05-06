@@ -91,7 +91,7 @@ spriteTypes = {
 
 	# Westernslavic Male
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_male"
+		name = "PORTRAIT_westernslavicgfx_male_christian"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -152,7 +152,7 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_male1"
+		name = "PORTRAIT_westernslavicgfx_male_christian1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -213,7 +213,7 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_male2"
+		name = "PORTRAIT_westernslavicgfx_male_christian2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -340,7 +340,7 @@ spriteTypes = {
 
 	# Westernslavic female
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_female"
+		name = "PORTRAIT_westernslavicgfx_female_christian"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -398,7 +398,7 @@ spriteTypes = {
 
 	# Westernslavic female midage
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_female1"
+		name = "PORTRAIT_westernslavicgfx_female_christian1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -456,7 +456,7 @@ spriteTypes = {
 
 	# Westernslavic female oldage
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_female2"
+		name = "PORTRAIT_westernslavicgfx_female_christian2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -513,7 +513,7 @@ spriteTypes = {
 
 	# Westernslavic Male
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_male_early"
+		name = "PORTRAIT_westernslavicgfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -574,7 +574,7 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_male_early1"
+		name = "PORTRAIT_westernslavicgfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -635,7 +635,7 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_male_early2"
+		name = "PORTRAIT_westernslavicgfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -698,7 +698,7 @@ spriteTypes = {
 
 	# Westernslavic female
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_female_early"
+		name = "PORTRAIT_westernslavicgfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -756,7 +756,7 @@ spriteTypes = {
 
 	# Westernslavic female midage
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_female_early1"
+		name = "PORTRAIT_westernslavicgfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -814,7 +814,7 @@ spriteTypes = {
 
 	# Westernslavic female oldage
 	portraitType = {
-		name = "PORTRAIT_westernslavicgfx_female_early2"
+		name = "PORTRAIT_westernslavicgfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
