@@ -4320,7 +4320,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4450,7 +4453,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4540,7 +4546,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4630,7 +4639,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4707,7 +4719,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4784,7 +4799,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4870,7 +4888,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
@@ -4947,7 +4968,10 @@
 				culture_group = central_germanic
 				culture_group = west_germanic
 				culture_group = latin
-				culture_group = iberian
+				AND = {
+					culture_group = iberian
+					NOT = { culture = andalusian_arabic }
+				}
 				culture_group = celtic
 				culture_group = west_slavic
 				culture_group = magyar
