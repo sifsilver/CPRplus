@@ -3954,7 +3954,7 @@
 				}
 			}
 		}
-		modifier = {
+		modifier = { #hood unavailable if landed
 			factor = 0
 			OR = {
 				real_tier = count
@@ -3975,7 +3975,10 @@
 						culture = dutch
 						culture = frisian
 						culture_group = celtic
-						culture_group = west_slavic
+						AND = {
+							culture_group = west_slavic
+							NOT = { religion_group = pagan_group }
+						}
 						AND = {
 							culture_group = south_slavic
 							NOR = {
@@ -3983,6 +3986,7 @@
 								culture = bulgarian
 								culture = romanian
 							}
+							NOT = { religion_group = pagan_group }
 						}
 						culture = ligurian
 						culture = low_saxon
@@ -3990,11 +3994,7 @@
 					}
 				}
 				AND = {
-					year = 1200
-					culture_group = west_germanic
-				}
-				AND = {
-					religion_group = christian
+					NOT = { religion_group = pagan_group }
 					OR = {
 						culture_group = magyar
 						AND = {
