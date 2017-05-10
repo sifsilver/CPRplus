@@ -3975,19 +3975,6 @@
 						culture = dutch
 						culture = frisian
 						culture_group = celtic
-						AND = {
-							culture_group = west_slavic
-							NOT = { religion_group = pagan_group }
-						}
-						AND = {
-							culture_group = south_slavic
-							NOR = {
-								culture = serbian
-								culture = bulgarian
-								culture = romanian
-							}
-							NOT = { religion_group = pagan_group }
-						}
 						culture = ligurian
 						culture = low_saxon
 						culture = low_frankish
@@ -3996,6 +3983,15 @@
 				AND = {
 					NOT = { religion_group = pagan_group }
 					OR = {
+						culture_group = west_slavic
+						AND = {
+							culture_group = south_slavic
+							NOR = {
+								culture = serbian
+								culture = bulgarian
+								culture = romanian
+							}
+						}
 						culture_group = magyar
 						AND = {
 							culture_group = north_germanic
