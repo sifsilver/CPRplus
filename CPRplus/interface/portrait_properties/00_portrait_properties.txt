@@ -1327,7 +1327,7 @@
 				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
-				graphical_culture = copticgfx
+				graphical_culture = assyriangfx
 				AND = {
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
@@ -1351,7 +1351,7 @@
 				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
-				graphical_culture = copticgfx
+				graphical_culture = assyriangfx
 				AND = {
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
@@ -1767,7 +1767,7 @@
 				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
-				graphical_culture = copticgfx
+				graphical_culture = assyriangfx
 			}
 		}
 		modifier = {
@@ -1779,7 +1779,7 @@
 				graphical_culture = egyptiangfx
 				graphical_culture = kurdishgfx
 				graphical_culture = levantinegfx
-				graphical_culture = copticgfx
+				graphical_culture = assyriangfx
 			}
 		}
 	}
