@@ -305,7 +305,7 @@ aramaic = {
 	graphical_cultures = {muslimgfx}
 
 	assyrian = { 
-		graphical_cultures = {copticgfx muslimgfx}
+		graphical_cultures = {assyriangfx muslimgfx}
 	}
 }
 	

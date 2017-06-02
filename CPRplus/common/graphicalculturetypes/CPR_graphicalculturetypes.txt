@@ -63,7 +63,7 @@ levantinegfx = {
 	skin_tone = 1
 }
 egyptiangfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 basquegfx = {
 	skin_tone = 0
@@ -112,6 +112,9 @@ kurdishgfx = {
 }
 copticgfx = {
 	skin_tone = 2
+}
+assyriangfx = {
+	skin_tone = 1
 }
 finnishgfx = {
 	skin_tone = 0
