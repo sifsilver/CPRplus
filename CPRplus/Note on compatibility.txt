@@ -1,8 +1,9 @@
-CPRplus is compatible with two overhaul mods listed below, but you must make sure to provide a compatibility measure
+CPRplus is compatible with three overhaul mods listed below, but you must make sure to provide a compatibility measure
 (If you installed CPRplus through the HIP installer, no further step is necessary for using CPRplus with Historical Immersion Project)
 
-Patch for CK2 Plus: https://forum.paradoxplaza.com/forum/index.php?threads/sub-mod-viet.802186/
+Patch for CK2 Plus: https://forum.paradoxplaza.com/forum/index.php?threads/ck2plus-cprplus-compatibility-patch.1025356/
 Patch for Historical Immersion Project: (installing CPRplus from the HIP installer recommended): https://forum.paradoxplaza.com/forum/index.php?threads/historical-immersion-project-download-faq.748775/
+Patch for A Game of Thrones mod (you must run the game with both CPRplus the submod enabled): http://steamcommunity.com/sharedfiles/filedetails/?id=942303847
 
 In addition to other overhaul and portrait mods,  CPRplus is not compatible with mods that modify the following files:
 
