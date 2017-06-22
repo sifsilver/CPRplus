@@ -4303,7 +4303,7 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4338,7 +4338,7 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4378,7 +4378,7 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4469,7 +4469,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4483,9 +4483,9 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 7
+						combat_rating = 8
 						AND = {
-							combat_rating = 5
+							combat_rating = 6
 							trait = brilliant_strategist
 						}
 					}
@@ -4562,7 +4562,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4576,9 +4576,9 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 7
+						combat_rating = 8
 						AND = {
-							combat_rating = 5
+							combat_rating = 6
 							trait = brilliant_strategist
 						}
 					}
@@ -4656,9 +4656,9 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 7
+						combat_rating = 8
 						AND = {
-							combat_rating = 5
+							combat_rating = 6
 							trait = brilliant_strategist
 						}
 					}
@@ -4736,9 +4736,9 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 7
+						combat_rating = 8
 						AND = {
-							combat_rating = 5
+							combat_rating = 6
 							trait = brilliant_strategist
 						}
 					}
@@ -4815,7 +4815,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4829,9 +4829,9 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 7
+						combat_rating = 8
 						AND = {
-							combat_rating = 5
+							combat_rating = 6
 							trait = brilliant_strategist
 						}
 					}
@@ -4905,9 +4905,9 @@
 				AND = {
 					has_global_flag = EMF
 					OR = {
-						combat_rating = 7
+						combat_rating = 8
 						AND = {
-							combat_rating = 5
+							combat_rating = 6
 							trait = brilliant_strategist
 						}
 					}
@@ -4984,7 +4984,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5051,7 +5051,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5120,7 +5120,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5189,7 +5189,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5258,7 +5258,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5327,7 +5327,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5403,7 +5403,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5483,7 +5483,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5563,7 +5563,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -5643,7 +5643,7 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 5
+					combat_rating = 6
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
