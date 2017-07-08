@@ -81,10 +81,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -150,10 +151,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -219,10 +221,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -255,8 +258,8 @@ spriteTypes = {
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes:p3:c2"
 			"GFX_german_female_ear:d7"
+			"GFX_western_female_clothes:p3:c2"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair:p1:o1x-4:h:y"
 			"GFX_english_female_hair_ties_front:p1:o1x-4:y"
@@ -292,10 +295,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { }
@@ -323,9 +327,9 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes:p3:c2"			
+			"GFX_character_eyepatch:p13:y:o30x63"			
 			"GFX_german_female_ear_midage:d7"
+			"GFX_western_female_clothes:p3:c2"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair_midage:p1:o1x-4:h:y"
 			"GFX_english_female_hair_ties_front:p1:o1x-4:y"
@@ -361,10 +365,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { }
@@ -392,9 +397,9 @@ spriteTypes = {
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes:p3:c2"			
+			"GFX_character_eyepatch:p13:y:o30x63"			
 			"GFX_german_female_ear_oldage:d7"
+			"GFX_western_female_clothes:p3:c2"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_english_female_hair_oldage:p1:o1x-4:y"
 			"GFX_english_female_hair_ties_front:p1:o1x-4:y"
@@ -431,10 +436,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { }
@@ -507,10 +513,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -576,10 +583,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -645,10 +653,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -718,10 +727,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -787,10 +797,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -857,10 +868,11 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
+			{ 209 190 128 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
-			{ 98 120 164 } #Light blue 01
-			{ 86 124 152 } #Light blue 02
-			{ 45 100 37 } #Green
+			{ 85 122 209 } #Light blue 01
+			{ 101 163 226 } #Light blue 02
+			{ 105 182 93 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
