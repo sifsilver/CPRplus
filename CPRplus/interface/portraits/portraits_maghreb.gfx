@@ -365,7 +365,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin 
+ 			{ 192 171 142 } #skin 
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -424,7 +424,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -483,7 +483,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
@@ -765,7 +765,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -824,7 +824,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -884,7 +884,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
@@ -945,7 +945,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -1004,7 +1004,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -1063,7 +1063,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { 12 5 6 7 9 }
@@ -1126,7 +1126,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { }
@@ -1185,7 +1185,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { }
@@ -1245,7 +1245,7 @@ spriteTypes = {
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
  			{ 158 101 45 } #Auburn2  
- 			{ 245 194 161 } #skin
+ 			{ 192 171 142 } #skin
 		}
 		
 		headgear_that_hides_hair = { }
