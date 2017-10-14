@@ -2092,11 +2092,19 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					real_tier = king
+					higher_real_tier_than = duke
+				}
+				AND = {
+					is_nomadic = yes
+					real_tier = emperor
 				}
 				spouse = {
 					is_nomadic = no
-					real_tier = king
+					higher_real_tier_than = duke
+				}
+				spouse = {
+					is_nomadic = yes
+					real_tier = emperor
 				}
 			}
 		}
@@ -2135,11 +2143,19 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					real_tier = king
+					higher_real_tier_than = duke
+				}
+				AND = {
+					is_nomadic = yes
+					real_tier = emperor
 				}
 				spouse = {
 					is_nomadic = no
-					real_tier = king
+					higher_real_tier_than = duke
+				}
+				spouse = {
+					is_nomadic = yes
+					real_tier = emperor
 				}
 			}
 		}
@@ -2178,11 +2194,19 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					real_tier = king
+					higher_real_tier_than = duke
+				}
+				AND = {
+					is_nomadic = yes
+					real_tier = emperor
 				}
 				spouse = {
 					is_nomadic = no
-					real_tier = king
+					higher_real_tier_than = duke
+				}
+				spouse = {
+					is_nomadic = yes
+					real_tier = emperor
 				}
 			}
 		}
