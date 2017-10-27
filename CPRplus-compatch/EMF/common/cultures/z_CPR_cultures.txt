@@ -87,6 +87,12 @@ latin = {
 	sicilian = {
 		graphical_cultures = { siciliangfx italiangfx }
 	}
+	neapolitan = {
+		graphical_cultures = { siciliangfx italiangfx }
+	}
+	outremer = {
+		graphical_cultures = { frankishgfx }
+	}
 }
 
 iberian = {
