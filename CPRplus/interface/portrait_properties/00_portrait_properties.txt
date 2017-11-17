@@ -1358,6 +1358,16 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			follows_filial_piety_trigger = yes
+			NOT = { age = 81 }
+			is_female = no
+		}
+		modifier = {
+			factor = 100
+			is_devout_chinese_buddhist_trigger = yes
+		}
 		
 		# Does not suit African females of a Western Culture
 		#modifier = {
@@ -1823,6 +1833,11 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			follows_filial_piety_trigger = yes
+		}
 	}
 	
 	10 = {  # Long Uncouth
@@ -1856,6 +1871,15 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			follows_filial_piety_trigger = yes
+		}
 	}
 	
 	11 = { # Balding
@@ -1864,6 +1888,11 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			follows_filial_piety_trigger = yes
 		}
 	}
 	
@@ -1893,6 +1922,19 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 2
+			filial_piety_maiden_trigger = yes
+		}
 	}
 	
 	13 = { # Mohawk
@@ -1901,6 +1943,19 @@
 			factor = 0
 			age = 81
 			is_female = no
+		}
+		modifier = {
+			factor = 0
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 2
+			filial_piety_maiden_trigger = yes
 		}
 	}
 	
@@ -1932,6 +1987,23 @@
 			age = 81
 			is_female = no
 		}
+		modifier = {
+			factor = 0
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			follows_filial_piety_trigger = yes
+		}
+		modifier = {
+			factor = 2
+			filial_piety_maiden_trigger = yes
+		}
+	}
+	
+	15 = { # Mohawk
+		factor = 1
 	}
 }
 
@@ -1954,6 +2026,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1962,6 +2035,7 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1993,6 +2067,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2001,6 +2076,7 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2032,6 +2108,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2040,6 +2117,7 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2241,6 +2319,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
+				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_job_title = job_chancellor
@@ -2257,6 +2336,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
+				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_job_title = job_chancellor
@@ -2471,6 +2551,10 @@
 				has_nickname = nick_the_confessor
 				has_nickname = nick_the_monk
 			}
+		}
+		modifier = {
+			factor = 100
+			is_devout_chinese_buddhist_trigger = yes
 		}
 		#modifier = {
 		#	factor = 0.5
@@ -3506,13 +3590,14 @@
 
 # p5 headgear
 5 = {
-	# Imperial crown/Chaliph turban
+	# Imperial crown/Caliph turban
 	0 = {
 		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -3557,6 +3642,15 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
+		}
+		modifier = {
+			factor = 0
+			song_dynasty_futou_trigger = yes
+		}
+		modifier = {
+			factor = 0
+			has_landed_title = e_china_west_governor # Uses martial clothing instead
 		}
 	}
 	
@@ -3768,6 +3862,7 @@
 					NOT = { spouse = { real_tier = emperor } }
 				}
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -3805,6 +3900,7 @@
 				is_nomadic = yes
 				NOT = { real_tier = emperor }
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -3820,6 +3916,11 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
+		}
+		modifier = {
+			factor = 100
+			song_dynasty_futou_trigger = yes
 		}
 		modifier = {
 			factor = 0
@@ -3947,6 +4048,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
+				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
@@ -4168,6 +4270,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
+				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
