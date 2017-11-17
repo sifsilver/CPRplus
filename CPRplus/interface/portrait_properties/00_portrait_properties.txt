@@ -2295,6 +2295,7 @@
 					OR = {
 						mercenary = yes
 						holy_order = yes
+						title = e_china_west_governor
 					}
 				}
 			}
@@ -2333,6 +2334,14 @@
 				has_job_title  = job_marshal
 			}
 		}
+		modifier = {
+			factor = 0.99
+			chinese_martial_modifier_trigger = yes
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 10 }
+		}
 	}
 	
 	# Ragged prison clothes
@@ -2347,6 +2356,45 @@
 					has_character_modifier = house_arrest
 				}
 			}
+		}
+	}
+	
+	# Chinese Martial Extension 1
+	12 = {
+		factor = 99
+		modifier = {
+			factor = 0
+			chinese_generals_modifier_trigger = no
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 12 }
+		}
+	}
+	
+	# Chinese Martial Extension 2
+	13 = {
+		factor = 99
+		modifier = {
+			factor = 0
+			chinese_martial_modifier_trigger = no
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 13 }
+		}
+	}
+	
+	# Chinese Martial Extension 3
+	14 = {
+		factor = 99
+		modifier = {
+			factor = 0
+			chinese_generals_modifier_trigger = no
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 14 }
 		}
 	}
 }
@@ -4221,6 +4269,7 @@
 					OR = {
 						mercenary = yes
 						holy_order = yes
+						title = e_china_west_governor
 					}
 				}
 			}
@@ -4271,6 +4320,14 @@
 			is_alive = yes
 			NOT = { trait = lunatic }
 		}
+		modifier = {
+			factor = 0.99
+			chinese_martial_modifier_trigger = yes
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 10 }
+		}
 	}
 
 	# Blank
@@ -4308,6 +4365,33 @@
 					is_ruler = no
 				}
 			}
+		}
+	}
+	
+	# Chinese Martial Extension 1
+	12 = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { has_portrait_property = { layer = 3 index = 12 } }
+		}
+	}
+	
+	# Chinese Martial Extension 2
+	13 = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { has_portrait_property = { layer = 3 index = 13 } }
+		}
+	}
+	
+	# Chinese Martial Extension 3
+	14 = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { has_portrait_property = { layer = 3 index = 14 } }
 		}
 	}
 }
@@ -6951,5 +7035,96 @@
 			factor = 0
 			trait = blinded
 		}
+	}
+}
+
+# p14 chinese makeup
+14 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			chinese_makeup_trigger = yes
+		}
+	}
+
+	1 = { # white powder
+		factor = 1
+	}
+	
+	2 = { # rouge a only
+		factor = 1
+	}
+	
+	3 = { # white powder and rouge a
+		factor = 1
+	}
+	
+	4 = { # rouge b only
+		factor = 1
+	}
+
+	5 = { # white powder and rouge b
+		factor = 1
+	}
+}
+
+# p15 chinese makeup 2
+15 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			chinese_makeup_trigger = yes
+		}
+	}
+
+	1 = { # full lips
+		factor = 1
+	}
+	
+	2 = { # top lip
+		factor = 1
+	}
+	
+	3 = { # 'heart' lips
+		factor = 1
+	}
+}
+
+# p16 chinese empress jewelry
+16 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			chinese_empress_jewelry_trigger = yes
+		}
+	}
+
+	1 = { # Full face pearls and earrings
+		factor = 1
+	}
+	
+	2 = { # pearl earrings only
+		factor = 1
+	}
+	
+	3 = { # full face pearls and earrings 2
+		factor = 1
+	}
+}
+
+# p17 immortality
+17 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			immortal = yes
+		}
+	}
+	1 = {
+		factor = 100
 	}
 }
