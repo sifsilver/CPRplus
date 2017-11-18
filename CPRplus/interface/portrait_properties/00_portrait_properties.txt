@@ -17,6 +17,7 @@
 					region = world_africa_west
 					region = world_steppe_west
 					region = world_steppe_east
+					region = world_himalayas
 				}
 			}
 		}
@@ -91,6 +92,7 @@
 			factor = 0
 			in_command = yes
 			NOT = { siege = { is_attacker = no } }
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -277,6 +279,7 @@
 					region = world_europe_north
 					region = world_europe_east
 					region = world_steppe
+					region = world_himalayas
 				}
 			}
 		}
@@ -503,6 +506,7 @@
 					region = world_persia
 					region = world_asia_minor
 					region = world_steppe_tarim
+					region = world_himalayas
 				}
 			}
 			location = { NOT = { terrain = desert } }
@@ -2375,10 +2379,11 @@
 					OR = {
 						mercenary = yes
 						holy_order = yes
-						title = e_china_west_governor
+						#title = e_china_west_governor
 					}
 				}
 			}
+			NOT = { primary_title = { title = e_china_west_governor } }
 		}
 		modifier = {
 			factor = 0
@@ -2387,6 +2392,7 @@
 				spouse = { higher_real_tier_than = duke }
 			}
 			in_command = no
+			NOT = { primary_title = { title = e_china_west_governor } }
 		}
 		#modifier = {
 		#	factor = 0
@@ -2413,6 +2419,7 @@
 				siege = { is_attacker = yes }
 				has_job_title  = job_marshal
 			}
+			NOT = { primary_title = { title = e_china_west_governor } }
 		}
 		modifier = {
 			factor = 0.99
@@ -3592,7 +3599,7 @@
 5 = {
 	# Imperial crown/Caliph turban
 	0 = {
-		factor = 1
+		factor = 100
 		modifier = {
 			factor = 0
 			NOT = { real_tier = emperor }
@@ -4337,26 +4344,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			OR = {
-				higher_real_tier_than = duke
-				spouse = { higher_real_tier_than = duke }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_job_title = job_spymaster }
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-		}
-		#modifier = {
-		#	factor = 0
-		#	prisoner = yes
-		#}
-		modifier = {
-			factor = 0
-			trait = in_hiding
+			NOT = { has_portrait_property = { layer = 3 index = 9 } }
 		}
 	}
 
@@ -4365,71 +4353,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			in_command = no
-			NOT = { has_job_title  = job_marshal }
-			NOT = {
-				primary_title = {
-					OR = {
-						mercenary = yes
-						holy_order = yes
-						title = e_china_west_governor
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = duke
-				spouse = { higher_real_tier_than = duke }
-			}
-			in_command = no
-		}
-		#modifier = {
-		#	factor = 0
-		#	religion_group = christian
-		#	OR = {
-		#		AND = {
-		#			government = theocracy_government
-		#			is_landed = yes
-		#		}
-		#		has_job_title = job_spiritual
-		#	}
-		#}
-		modifier = {
-			factor = 0
-			OR = {
-				is_nomadic = yes
-				AND = {
-					liege = { is_nomadic = yes }
-					is_ruler = no
-				}
-			}
-			war = no
-			NOR = {
-				siege = { is_attacker = yes }
-				has_job_title  = job_marshal
-			}
-		}
-		#modifier = {
-		#	factor = 0
-		#	prisoner = yes
-		#}
-		modifier = {
-			factor = 0
-			trait = blinded
-			graphical_culture = westafricangfx
-			religion_group = pagan_group
-			is_alive = yes
-			NOT = { trait = lunatic }
-		}
-		modifier = {
-			factor = 0.99
-			chinese_martial_modifier_trigger = yes
-		}
-		modifier = {
-			factor = 100 # This ensures that the reverse order check stays matched
-			has_portrait_property = { layer = 5 index = 10 }
+			NOT = { has_portrait_property = { layer = 3 index = 10 } }
 		}
 	}
 

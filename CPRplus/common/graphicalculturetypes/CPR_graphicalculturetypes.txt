@@ -1,5 +1,17 @@
 # Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
 
+turkishgfx = {
+	skin_tone = 2
+	christian_portraits = yes
+}
+westafricangfx = {
+	skin_tone = 3
+	christian_portraits = yes
+}
+southindiangfx = {
+	skin_tone = 2
+}
+
 bulgargfx = {
 	skin_tone = 0
 }
