@@ -281,7 +281,7 @@ altaic = {
 	bolghar = { # Turkic Bulghars not to confuse with Bulgarians
 		graphical_cultures = {bulgargfx turkishgfx}
 	}	
-	avar = { 
+	avar = {
 		graphical_cultures = {hungariangfx turkishgfx easterngfx }
 	}
 	karluk = {
@@ -298,6 +298,12 @@ altaic = {
 	}
 	bashkir = {
 		graphical_cultures = {bulgargfx turkishgfx}
+	}
+	khitan = {
+		graphical_cultures = {khitangfx mongolgfx}
+	}
+	jurchen = {
+		graphical_cultures = {khitangfx mongolgfx}
 	}
 }
 
@@ -410,12 +416,12 @@ iranian = {
 		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	tocharian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = { sogdiangfx persiangfx }
+		graphical_cultures = { khotanesegfx persiangfx }
 	}
 	tajik = {
 		graphical_cultures = {sogdiangfx persiangfx}
 	}
-	khotanese = {
+	saka = {
 		graphical_cultures = {khotanesegfx persiangfx}
 	}
 	daylamite = {
@@ -602,7 +608,7 @@ indo_aryan_group = {
 	}
 
 	hindustani = { # Indo-Aryan
-		graphical_cultures = {centralindiangfx indiangfx}
+		graphical_cultures = {northindiangfx indiangfx}
 	}
 	
 	gujurati = { # Indo-Aryan
@@ -628,6 +634,9 @@ indo_aryan_group = {
 	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 		graphical_cultures = {indiangfx}
 	}
+	nepali = {
+		graphical_cultures = { bodpagfx indiangfx }
+	}
 }
 
 dravidian_group = {
@@ -649,13 +658,28 @@ dravidian_group = {
 		graphical_cultures = {southindiangfx indiangfx}
 	}
 }
-sinic = {
-	graphical_cultures = {mongolgfx}
+
+tibetan_group = {
+	graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
 	
-	khitan = {
-		graphical_cultures = {khitangfx mongolgfx}
+	bodpa = { # Tibetan
+		graphical_cultures = { bodpagfx }
 	}
+	tangut = {
+		graphical_cultures = { bodpagfx }
+	}
+	zhangzhung = { # Zhangzhung
+		graphical_cultures = { bodpagfx }
+	}
+	sumpa = { # Sumpa
+		graphical_cultures = { bodpagfx }
+	}
+	
 }
 
-
-
+chinese_group = {
+	graphical_cultures = { chinesegfx mongolgfx muslimgfx }
+	han = {
+		graphical_cultures = { chinesegfx }
+	}
+}

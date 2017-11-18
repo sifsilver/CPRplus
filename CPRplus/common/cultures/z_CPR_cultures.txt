@@ -201,7 +201,6 @@ altaic = {
 	}
 	
 	avar = { # Oghur Turkish
-
 		graphical_cultures = { hungariangfx turkishgfx easterngfx }
 	}
 	
@@ -215,11 +214,9 @@ altaic = {
 	uyghur = {
 		graphical_cultures = { uyghurgfx turkishgfx }
 	}
-
 	mongol = {
 		graphical_cultures = { mongolgfx }
 	}
-	
 	khitan = {
 		graphical_cultures = { khitangfx mongolgfx }
 	}
@@ -456,11 +453,9 @@ tibetan_group = {
 	bodpa = { # Tibetan
 		graphical_cultures = { bodpagfx }
 	}
-	
 	tangut = {
 		graphical_cultures = { bodpagfx }
 	}
-	
 	zhangzhung = { # Zhangzhung
 		graphical_cultures = { bodpagfx }
 	}

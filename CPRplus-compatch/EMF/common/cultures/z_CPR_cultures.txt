@@ -130,6 +130,9 @@ byzantine = {
 	georgian = {
 		graphical_cultures = { georgiangfx byzantinegfx }
 	}
+	assyrian = {
+		graphical_cultures = { assyriangfx byzantinegfx }
+	}
 }
 
 celtic = {
@@ -216,7 +219,6 @@ altaic = {
 	}
 	
 	avar = { # Oghur Turkish
-
 		graphical_cultures = { hungariangfx turkishgfx easterngfx }
 	}
 	
@@ -230,12 +232,13 @@ altaic = {
 	uyghur = {
 		graphical_cultures = { uyghurgfx turkishgfx }
 	}
-
 	mongol = {
 		graphical_cultures = { mongolgfx }
 	}
-	
 	khitan = {
+		graphical_cultures = { khitangfx mongolgfx }
+	}
+	jurchen = {
 		graphical_cultures = { khitangfx mongolgfx }
 	}
 }
@@ -328,7 +331,7 @@ iranian = {
 	}
 	
 	tocharian = {
-		graphical_cultures = { sogdiangfx persiangfx }
+		graphical_cultures = { khotanesegfx persiangfx }
 	}
 	
 	kurdish = {
@@ -338,7 +341,9 @@ iranian = {
 	afghan = { # a.k.a. Pashtun
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
-	
+	saka = {
+		graphical_cultures = { khotanesegfx persiangfx } #arabicgfx
+	}
 	baloch = {
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
@@ -409,7 +414,7 @@ indo_aryan_group = {
 
 	hindustani = { # Indo-Aryan
 
-		graphical_cultures = { centralindiangfx indiangfx }
+		graphical_cultures = { northindiangfx indiangfx }
 	}
 	
 	gujurati = { # Indo-Aryan
@@ -438,6 +443,9 @@ indo_aryan_group = {
 	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 		graphical_cultures = { indiangfx }
 	}
+	nepali = {
+		graphical_cultures = { bodpagfx indiangfx }
+	}
 }
 
 dravidian_group = {
@@ -454,5 +462,30 @@ dravidian_group = {
 	
 	kannada = { # Dravidian
 		graphical_cultures = { southindiangfx indiangfx }
+	}
+}
+
+tibetan_group = {
+	graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+	
+	bodpa = { # Tibetan
+		graphical_cultures = { bodpagfx }
+	}
+	tangut = {
+		graphical_cultures = { bodpagfx }
+	}
+	zhangzhung = { # Zhangzhung
+		graphical_cultures = { bodpagfx }
+	}
+	sumpa = { # Sumpa
+		graphical_cultures = { bodpagfx }
+	}
+	
+}
+
+chinese_group = {
+	graphical_cultures = { chinesegfx mongolgfx muslimgfx }
+	han = {
+		graphical_cultures = { chinesegfx }
 	}
 }
