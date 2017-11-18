@@ -40,7 +40,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_khotanese_male_clothes_behind"
-		texturefile = "gfx\\characters\\khotanese_female\\khotanese_female_clothes_behind.dds"
+		texturefile = "gfx\\characters\\khotanese_male\\khotanese_male_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
@@ -104,7 +104,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_eastasian_male_hair:p1:h:y"
 			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_khotanese_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_khotanese_male_headgear:p5:c5"				
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
@@ -159,7 +159,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_eastasian_male_hair_midage:p1:h:y"
 			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_khotanese_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_khotanese_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
@@ -214,7 +214,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_eastasian_male_hair_oldage:p1:h:y"
 			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_khotanese_male_clothes_front:p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_khotanese_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
