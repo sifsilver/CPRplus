@@ -2363,6 +2363,10 @@
 		}
 		modifier = {
 			factor = 0
+			prisoner = yes
+		}
+		modifier = {
+			factor = 0
 			in_command = yes
 		}
 	}
@@ -2379,11 +2383,9 @@
 					OR = {
 						mercenary = yes
 						holy_order = yes
-						#title = e_china_west_governor
 					}
 				}
 			}
-			NOT = { primary_title = { title = e_china_west_governor } }
 		}
 		modifier = {
 			factor = 0
@@ -2392,7 +2394,6 @@
 				spouse = { higher_real_tier_than = duke }
 			}
 			in_command = no
-			NOT = { primary_title = { title = e_china_west_governor } }
 		}
 		#modifier = {
 		#	factor = 0
@@ -2419,11 +2420,17 @@
 				siege = { is_attacker = yes }
 				has_job_title  = job_marshal
 			}
-			NOT = { primary_title = { title = e_china_west_governor } }
 		}
 		modifier = {
-			factor = 0.99
-			chinese_martial_modifier_trigger = yes
+			factor = 0
+			prisoner = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				chinese_martial_modifier_trigger = yes
+				chinese_generals_modifier_trigger = yes
+			}
 		}
 		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
@@ -2454,6 +2461,10 @@
 			chinese_generals_modifier_trigger = no
 		}
 		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
 			has_portrait_property = { layer = 5 index = 12 }
 		}
@@ -2467,6 +2478,10 @@
 			chinese_martial_modifier_trigger = no
 		}
 		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
 			has_portrait_property = { layer = 5 index = 13 }
 		}
@@ -2478,6 +2493,10 @@
 		modifier = {
 			factor = 0
 			chinese_generals_modifier_trigger = no
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
 		}
 		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
@@ -3599,7 +3618,7 @@
 5 = {
 	# Imperial crown/Caliph turban
 	0 = {
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { real_tier = emperor }
@@ -3650,6 +3669,10 @@
 				trait = heresiarch
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
+		}
+		modifier = {
+			factor = 100
+			is_or_was_offmap_power_ruler = yes
 		}
 		modifier = {
 			factor = 0
@@ -4102,6 +4125,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
+				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
@@ -4203,6 +4227,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
+				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
 				AND = {
