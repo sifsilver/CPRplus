@@ -313,7 +313,7 @@ iranian = {
 	}
 	
 	tocharian = {
-		graphical_cultures = { khotanesegfx persiangfx }
+		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	
 	kurdish = {
@@ -324,7 +324,7 @@ iranian = {
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 	saka = {
-		graphical_cultures = { sogdiangfx persiangfx } #arabicgfx
+		graphical_cultures = { khotanesegfx persiangfx } #arabicgfx
 	}
 	baloch = {
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
