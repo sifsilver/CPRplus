@@ -324,7 +324,7 @@ iranian = {
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
 	}
 	saka = {
-		graphical_cultures = { khotanesegfx persiangfx } #arabicgfx
+		graphical_cultures = { sogdiangfx persiangfx } #arabicgfx
 	}
 	baloch = {
 		graphical_cultures = { afghangfx persiangfx } #arabicgfx
