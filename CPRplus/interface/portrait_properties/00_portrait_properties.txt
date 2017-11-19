@@ -4486,7 +4486,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -4557,7 +4560,10 @@
 				}
 			}
 			OR = {
-				culture_group = east_slavic
+				AND = {
+					culture_group = east_slavic
+					NOT = { religion_group = christian }
+				}
 				AND = {
 					culture_group = altaic
 					NOR = {
@@ -4577,6 +4583,39 @@
 						culture = turkmen
 					}
 					NOT = { religion_group = muslim }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			year = 950
+			OR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+			martial = 20
+			OR = {
+				AND = {
+					culture_group = byzantine
+					NOT = { culture = alan }
+				}
+				AND = {
+					culture_group = east_slavic
+					religion_group = christian
+				}
+				AND = {
+					culture_group = south_slavic
+					OR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 			}
 		}
@@ -4619,7 +4658,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -4712,7 +4754,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -4805,7 +4850,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -4885,7 +4933,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -4965,7 +5016,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -5054,7 +5108,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -5134,7 +5191,10 @@
 				culture_group = baltic
 				AND = {
 					culture_group = south_slavic
-					NOT = { culture = bulgarian }
+					NOR = {
+						culture = bulgarian
+						culture = romanian
+					}
 				}
 				culture_group = italian_group
 			}
@@ -5191,20 +5251,16 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
 				culture_group = north_african
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5260,20 +5316,16 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
 				culture_group = north_african
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5329,20 +5381,16 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
 				culture_group = north_african
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5398,20 +5446,16 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
 				culture_group = north_african
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5467,20 +5511,16 @@
 					religion_group = muslim
 				}
 				culture = andalusian_arabic
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					religion_group = muslim
+				}
 				culture_group = north_african
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -5529,7 +5569,10 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				culture_group = east_slavic
+				AND = {
+					culture_group = east_slavic
+					NOT = { religion_group = christian }
+				}
 				AND = {
 					culture_group = altaic
 					NOR = {
@@ -5542,21 +5585,15 @@
 				}
 				culture = alan
 				culture = mordvin
-				OR = {
-					culture = turkish
-					culture = oghuz
-					culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5609,7 +5646,10 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				culture_group = east_slavic
+				AND = {
+					culture_group = east_slavic
+					NOT = { religion_group = christian }
+				}
 				AND = {
 					culture_group = altaic
 					NOR = {
@@ -5622,21 +5662,15 @@
 				}
 				culture = alan
 				culture = mordvin
-				OR = {
-					culture = turkish
-					culture = oghuz
-					culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5689,7 +5723,10 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				culture_group = east_slavic
+				AND = {
+					culture_group = east_slavic
+					NOT = { religion_group = christian }
+				}
 				AND = {
 					culture_group = altaic
 					NOR = {
@@ -5702,21 +5739,15 @@
 				}
 				culture = alan
 				culture = mordvin
-				OR = {
-					culture = turkish
-					culture = oghuz
-					culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5769,7 +5800,10 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				culture_group = east_slavic
+				AND = {
+					culture_group = east_slavic
+					NOT = { religion_group = christian }
+				}
 				AND = {
 					culture_group = altaic
 					NOR = {
@@ -5782,21 +5816,15 @@
 				}
 				culture = alan
 				culture = mordvin
-				OR = {
-					culture = turkish
-					culture = oghuz
-					culture = turkmen
+				AND = {
+					OR = {
+						culture = turkish
+						culture = oghuz
+						culture = turkmen
+					}
+					NOT = { religion_group = muslim }
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = turkish
-				culture = oghuz
-				culture = turkmen
-			}
-			religion_group = muslim
 		}
 		modifier = {
 			factor = 0
@@ -5823,6 +5851,186 @@
 						trait = tengri_warrior
 					}
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	18 = { # Byzantine armor #1
+		factor = 1
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					culture_group = byzantine
+					NOT = { culture = alan }
+				}
+				AND = {
+					culture_group = east_slavic
+					religion_group = christian
+				}
+				AND = {
+					culture_group = south_slavic
+					OR = {
+						culture = bulgarian
+						culture = romanian
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	19 = { # Byzantine armor #2
+		factor = 1
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					culture_group = byzantine
+					NOT = { culture = alan }
+				}
+				AND = {
+					culture_group = east_slavic
+					religion_group = christian
+				}
+				AND = {
+					culture_group = south_slavic
+					OR = {
+						culture = bulgarian
+						culture = romanian
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		hide_layers = {
+			1 = { always = yes }
+			3 = { always = yes }
+			4 = { always = yes }
+			5 = { always = yes }
+		}
+	}
+	20 = { # Byzantine armor #3
+		factor = 1
+		modifier = {
+			factor = 0
+			in_command = no
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					culture_group = byzantine
+					NOT = { culture = alan }
+				}
+				AND = {
+					culture_group = east_slavic
+					religion_group = christian
+				}
+				AND = {
+					culture_group = south_slavic
+					OR = {
+						culture = bulgarian
+						culture = romanian
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					has_global_flag = EMF
+					combat_rating = 8
+				}
+				AND = {
+					NOT = { has_global_flag = EMF }
+					combat_rating = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				martial = 20
 			}
 		}
 		modifier = {

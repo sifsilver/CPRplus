@@ -13,7 +13,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_character_imprisoned"
 		texturefile = "gfx\\characters\\shared\\imprisoned.dds"
-		noOfFrames = 18
+		noOfFrames = 21
 		norefcount = yes
 		can_be_lowres = yes
 	}
