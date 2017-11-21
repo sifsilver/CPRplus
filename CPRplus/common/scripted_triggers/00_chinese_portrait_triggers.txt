@@ -82,12 +82,26 @@ chinese_martial_modifier_trigger = {			### Similar to the default "Martial" gear
 			OR = {
 				mercenary = yes
 				holy_order = yes
-				real_tier = duke
+			}
+		}
+		AND = {
+			is_nomadic = yes
+			real_tier = king
+			OR = {
+				war = yes
+				siege = { is_attacker = yes }
 			}
 		}
 		AND = {
 			has_job_title = job_marshal
-			liege = { real_tier = king }
+			liege = {
+				real_tier = king
+				OR = {
+					culture_group = chinese_group
+					culture = khitan
+					culture = jurchen
+				}
+			}
 		}
 	}
 }
@@ -122,7 +136,14 @@ chinese_generals_modifier_trigger = {				### Like the above, but for characters 
 		}
 		AND = {
 			has_job_title = job_marshal
-			liege = { real_tier = emperor }
+			liege = {
+				real_tier = emperor
+				OR = {
+					culture_group = chinese_group
+					culture = khitan
+					culture = jurchen
+				}
+			}
 		}
 	}
 }
