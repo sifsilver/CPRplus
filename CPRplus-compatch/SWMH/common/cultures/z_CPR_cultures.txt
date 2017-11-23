@@ -416,7 +416,7 @@ iranian = {
 		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	tocharian = { ## VANILLA COMPATIBILITY ONLY (REQ'D)
-		graphical_cultures = { khotanesegfx persiangfx }
+		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	tajik = {
 		graphical_cultures = {sogdiangfx persiangfx}

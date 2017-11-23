@@ -331,7 +331,7 @@ iranian = {
 	}
 	
 	tocharian = {
-		graphical_cultures = { khotanesegfx persiangfx }
+		graphical_cultures = { sogdiangfx persiangfx }
 	}
 	
 	kurdish = {
