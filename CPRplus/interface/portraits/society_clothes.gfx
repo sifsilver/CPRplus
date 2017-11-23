@@ -25,6 +25,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_benedictine_clothing_male"
 		
 		weight = {
@@ -91,6 +92,7 @@ spriteTypes = {
 	}	
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_benedictine_clothing_female"
 		
 		weight = {
@@ -158,6 +160,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_dominican_clothing_male"
 		
 		weight = {
@@ -212,6 +215,7 @@ spriteTypes = {
 	}	
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_dominican_clothing_female"
 		
 		weight = {
@@ -278,6 +282,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_orthodox_clothing_male"
 		
 		weight = {
@@ -358,6 +363,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_orthodox_clothing_female"
 		
 		weight = {
@@ -449,6 +455,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_vaishnavite_clothing_male"
 		
 		weight = {
@@ -494,6 +501,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_vaishnavite_clothing_female"
 		
 		weight = {
@@ -559,6 +567,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_smarta_clothing_male"
 		
 		weight = {
@@ -616,6 +625,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_smarta_clothing_female"
 		
 		weight = {
@@ -663,6 +673,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_shakti_clothing_male"
 		
 		weight = {
@@ -708,6 +719,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_shakti_clothing_female"
 		
 		weight = {
@@ -755,6 +767,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_shaivite_clothing_male"
 		
 		weight = {
@@ -800,6 +813,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_hindu_shaivite_clothing_female"
 		
 		weight = {
@@ -850,6 +864,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_buddhist_vajrayana_clothing_male"
 		
 		weight = {
@@ -903,6 +918,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_buddhist_vajrayana_clothing_female"
 		
 		weight = {
@@ -953,6 +969,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_buddhist_theravada_clothing_male"
 		
 		weight = {
@@ -1006,6 +1023,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_buddhist_theravada_clothing_female"
 		
 		weight = {
@@ -1056,6 +1074,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_buddhist_mahayana_clothing_male"
 		
 		weight = {
@@ -1109,6 +1128,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_buddhist_mahayana_clothing_female"
 		
 		weight = {
@@ -1155,6 +1175,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_jain_digambara_clothing_male"
 		
 		weight = {
@@ -1208,6 +1229,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_jain_digambara_clothing_female"
 		
 		weight = {
@@ -1261,6 +1283,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_jain_svetambara_clothing_male"
 		
 		weight = {
@@ -1312,6 +1335,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_monastic_order_jain_svetambara_clothing_female"
 		
 		weight = {
@@ -1403,6 +1427,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_hermetic_clothing_male"
 		
 		weight = {
@@ -1470,7 +1495,7 @@ spriteTypes = {
 					OR = {
 						portrait_culture_group = magyar
 						portrait_culture_group = altaic
-						portrait_culture_group = sinic
+						#portrait_culture_group = sinic
 					}
 				}
 				6 = { # West African
@@ -1529,7 +1554,7 @@ spriteTypes = {
 					OR = {
 						portrait_culture_group = magyar
 						portrait_culture_group = altaic
-						portrait_culture_group = sinic
+						#portrait_culture_group = sinic
 					}
 				}
 				6 = { # West African
@@ -1581,6 +1606,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_hermetic_clothing_female"
 		
 		weight = {
@@ -1665,7 +1691,7 @@ spriteTypes = {
 					OR = {
 						portrait_culture_group = magyar
 						portrait_culture_group = altaic
-						portrait_culture_group = sinic
+						#portrait_culture_group = sinic
 					}
 				}
 				6 = { # West African
@@ -1724,7 +1750,7 @@ spriteTypes = {
 					OR = {
 						portrait_culture_group = magyar
 						portrait_culture_group = altaic
-						portrait_culture_group = sinic
+						#portrait_culture_group = sinic
 					}
 				}
 				6 = { # West African
@@ -1770,6 +1796,7 @@ spriteTypes = {
     }
     
     portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
         name = "PORTRAIT_society_assassin_clothing"
         
         weight = {
@@ -1867,6 +1894,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_satanist_clothing_male"
 		
 		weight = {
@@ -1954,6 +1982,7 @@ spriteTypes = {
 	}
 	
 	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
 		name = "PORTRAIT_society_satanist_clothing_female"
 		
 		weight = {
