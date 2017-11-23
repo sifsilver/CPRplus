@@ -4,6 +4,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_catholic_monk_clothing_male"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
@@ -66,6 +67,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_orthodox_monk_clothing_male"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
@@ -122,6 +124,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_catholic_nun_clothing_female"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
@@ -167,6 +170,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_orthodox_nun_clothing_female"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
@@ -285,6 +289,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_desert_father_clothing_male"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
@@ -331,6 +336,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_desert_mother_clothing_female"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
