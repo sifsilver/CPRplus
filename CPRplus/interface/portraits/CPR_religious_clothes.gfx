@@ -237,6 +237,7 @@ spriteTypes = {
 	
 	portraitType = {
 		name = "PORTRAIT_cardinal_clothing_male"
+		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
 			additive_modifier = {
