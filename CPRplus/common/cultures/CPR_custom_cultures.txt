@@ -9,22 +9,7 @@
 
 
 CPR_culture_group = {
-	
-	asiancustom = { #Asian
-		graphical_cultures = { chinesegfx mongolgfx }
-		color = { 0.0 0.0 0.0 }
-		
-		used_for_random = no
-		
-		male_names = {
-			Jackie_John William_William Edward_Edward James_James Kevin
-		}
-		female_names = {
-			Tiffany_Theophano Jennifer Tammy
-		}
-		
-		modifier = default_culture_modifier
-	}		
+
 	otaku = { #Celtic apperance with Asian hair and clothing
 		graphical_cultures = { otakugfx celticgfx }
 		color = { 0.0 0.0 0.0 }
