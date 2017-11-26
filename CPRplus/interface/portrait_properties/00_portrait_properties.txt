@@ -87,6 +87,7 @@
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -104,6 +105,7 @@
 			NOT = {
 				is_feudal = yes
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2056,6 +2058,7 @@
 					}
 				}
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -2097,6 +2100,7 @@
 					}
 				}
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -2138,6 +2142,7 @@
 					}
 				}
 			}
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -2306,6 +2311,7 @@
 				spouse = { higher_real_tier_than = baron }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
+				is_offmap_tag_including_dead = offmap_china
 			}
 		}
 		#modifier = {
@@ -3933,6 +3939,7 @@
 					population_and_manpower = 60000
 				}
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -3969,6 +3976,7 @@
 				AND = {
 					real_tier = emperor
 					is_nomadic = no
+					NOT = { song_dynasty_futou_trigger = yes }
 				}
 				AND = {
 					real_tier = emperor
