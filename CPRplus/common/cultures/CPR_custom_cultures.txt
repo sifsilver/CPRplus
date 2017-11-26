@@ -9,22 +9,7 @@
 
 
 CPR_culture_group = {
-
-	otaku = { #Celtic apperance with Asian hair and clothing
-		graphical_cultures = { otakugfx celticgfx }
-		color = { 0.0 0.0 0.0 }
-		
-		used_for_random = no
-		
-		male_names = {
-			Otaku Weeaboo John_John James_James Smith Sushi Sensei
-		}
-		female_names = {
-			Miku Sakura Kawaii Desudesu
-		}
-		
-		modifier = default_culture_modifier
-	}		
+	
 	urzhailculture = { #Western apperance with Greek hair and clothing
 		graphical_cultures = { urzhailculturegfx byzantinegfx westerngfx }
 		color = { 0.0 0.0 0.0 }
@@ -36,51 +21,6 @@ CPR_culture_group = {
 		}
 		female_names = {
 			Urzhailia Urzhailiana Urzhaile Uzhaila Uruzeiro Abracadabria
-		}
-		
-		modifier = default_culture_modifier
-	}	
-	commieculture = { #Western apperance with Russian hair and clothing
-		graphical_cultures = { commiegfx easternslavicgfx easterngfx }
-		color = { 0.0 0.0 0.0 }
-		
-		used_for_random = no
-		
-		male_names = {
-			Boris Vladimir_Vladimir Lev_Leo Ivan_John Dmitriy_Demetrius Karl_Charles
-		}
-		female_names = {
-			Yulia_Julia Natalia_Natalia Olga
-		}
-		
-		modifier = default_culture_modifier
-	}
-	kpop = { #Mongol appearance with Iranian clothes and hair
-		graphical_cultures = { kpopgfx persiangfx mongolgfx }
-		color = { 0.0 0.0 0.0 }
-		
-		used_for_random = no
-		
-		male_names = {
-			Timmy Beef-Jerky Sejong Chung Wongydongy
-		}
-		female_names = {
-			Silken Spicy Eunice Grace Hannah Hanna Hannana Hanananana Yaoi
-		}
-		
-		modifier = default_culture_modifier
-	}
-	silkroad = { #Mongol appearance with Arab clothes and hair
-		graphical_cultures = { silkroadgfx muslimgfx mongolgfx }
-		color = { 0.0 0.0 0.0 }
-		
-		used_for_random = no
-		
-		male_names = {
-			Silky Silkius Camel-Herder Loplop Trapezeus Banchao
-		}
-		female_names = {
-			Silken Silkia Turfania Xinjiang Missa
 		}
 		
 		modifier = default_culture_modifier
