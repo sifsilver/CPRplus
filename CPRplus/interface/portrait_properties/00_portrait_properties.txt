@@ -1424,7 +1424,6 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				graphical_culture = otakugfx
 			}
 			NOT = { year = 1100 }
 		}
@@ -1537,7 +1536,6 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				graphical_culture = otakugfx
 			}
 			year = 1100
 		}
@@ -1697,7 +1695,6 @@
 				graphical_culture = normangfx
 				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
-				graphical_culture = otakugfx
 			}
 		}
 		modifier = {
@@ -1730,7 +1727,6 @@
 					graphical_culture = hungariangfx
 					religion_group = christian
 				}
-				graphical_culture = otakugfx
 			}
 			year = 1100
 		}
@@ -1973,7 +1969,6 @@
 			OR = {
 				graphical_culture = westernslavicgfx
 				graphical_culture = easternslavicgfx
-				graphical_culture = commiegfx
 			}
 			NOT = { religion_group = pagan_group }
 		}
@@ -3102,7 +3097,6 @@
 		#		#graphical_culture = byzantinegfx
 		#		graphical_culture = steppegfx
 		#		graphical_culture = easternslavicgfx
-		#		graphical_culture = commiegfx
 		#	}
 		#}
 		#modifier = {
