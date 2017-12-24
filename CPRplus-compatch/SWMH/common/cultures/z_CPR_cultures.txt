@@ -162,9 +162,9 @@ byzantine = {
 	caucasian_avar = {
 		graphical_cultures = {alangfx turkishgfx}
 	}
-    sicilian_greek = {
-		graphical_cultures = {byzantinegfx}
-	}
+    #sicilian_greek = {
+	#	graphical_cultures = {byzantinegfx}
+	#}
 	arberian = {
 		graphical_cultures = {southernslavicgfx byzantinegfx}
 	}
