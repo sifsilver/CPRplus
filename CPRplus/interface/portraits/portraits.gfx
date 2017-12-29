@@ -15,6 +15,7 @@ spriteTypes = {
 			"GFX_western_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
 			"GFX_western_male_beard_behind:p4:h:y"
+			":p5:c6"
 			"GFX_western_male_base:p2"
 			"GFX_western_male_neck:d0"
 			"GFX_western_male_cheeks:d4"
@@ -33,6 +34,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_western_male_hair:p1:h:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
@@ -71,6 +73,7 @@ spriteTypes = {
 			"GFX_western_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
 			"GFX_western_male_beard_behind_midage:p4:h:y"
+			":p5:c6"
 			"GFX_western_male_base_midage:p2"					#5
 			"GFX_western_male_neck_midage:d0"
 			"GFX_western_male_cheeks_midage:d4"
@@ -89,6 +92,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_male_hair_midage:p1:h:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
@@ -128,6 +132,7 @@ spriteTypes = {
 			"GFX_western_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
 			"GFX_western_male_beard_behind_oldage:p4:h:y"
+			":p5:c6"
 			"GFX_western_male_base_oldage:p2"
 			"GFX_western_male_neck_oldage:d0"
 			"GFX_western_male_cheeks_oldage:d4"
@@ -146,6 +151,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_male_hair_oldage:p1:h:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_western_male_clothes_infront:p3:c4"
 			"GFX_western_male_headgear:p5:c5"
@@ -173,7 +179,7 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 10 }
 	}
-	
+
 
 ### WESTERN FEMALE ####
 
@@ -189,6 +195,7 @@ spriteTypes = {
 			"GFX_western_female_clothes_behind:p3:c0"              #1
 			"GFX_western_female_headgear_behind:p5:c1"             #2
 			"GFX_western_female_hair_behind:p1:h:y"             #3
+			":p5:c6"
 			"GFX_western_female_base:p2"                        #4
 			"GFX_western_female_neck:d0"                        #5
 			"GFX_western_female_cheeks:d4"               #6
@@ -206,6 +213,7 @@ spriteTypes = {
 			"GFX_western_female_ear:d7:o28x54"                         #13
 			"GFX_western_female_headgear_mid:p5:c3"             #14
 			"GFX_western_female_hair:p1:h:y"                    #15
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"									#19
 			"GFX_western_female_headgear:p5:c5"                 #20
@@ -243,6 +251,7 @@ spriteTypes = {
 			"GFX_western_female_clothes_behind:p3:c0"
 			"GFX_western_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_midage:p1:h:y"
+			":p5:c6"
 			"GFX_western_female_base_midage:p2"
 			"GFX_western_female_neck_midage:d0"
 			"GFX_western_female_cheeks_midage:d4"
@@ -260,6 +269,7 @@ spriteTypes = {
 			"GFX_western_female_ear_midage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5"
@@ -297,6 +307,7 @@ spriteTypes = {
 			"GFX_western_female_clothes_behind:p3:c0"
 			"GFX_western_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_oldage:p1:h:y"
+			":p5:c6"
 			"GFX_western_female_base_oldage:p2"
 			"GFX_western_female_neck_oldage:d0"
 			"GFX_western_female_cheeks_oldage:d4"
@@ -314,6 +325,7 @@ spriteTypes = {
 			"GFX_western_female_ear_oldage:d7:o28x54"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_oldage:p1:h:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_female_headgear:p5:c5"
@@ -344,7 +356,6 @@ spriteTypes = {
 	}
 	
 	
-	
 ############## MUSLIM ##########################
 
 
@@ -361,6 +372,7 @@ spriteTypes = {
 			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:y"
 			"GFX_muslim_male_beard_behind:p4:y"
+			":p5:c6"
 			"GFX_muslim_male_base:p2"							#5
 			"GFX_muslim_male_neck:d0"
 			"GFX_muslim_male_cheeks:d4"		
@@ -378,6 +390,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_ear:d7:o24x48"							#15
 			"GFX_muslim_male_hair:p1:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"											#20
 			"GFX_muslim_male_headgear:p5:c5"
@@ -408,6 +421,7 @@ spriteTypes = {
 			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:y"
 			"GFX_muslim_male_beard_behind_midage:p4:y"
+			":p5:c6"
 			"GFX_muslim_male_base_midage:p2"
 			"GFX_muslim_male_neck_midage:d0"
 			"GFX_muslim_male_cheeks_midage:d4"
@@ -425,6 +439,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_ear_midage:d7:o25x53"
 			"GFX_muslim_male_hair_midage:p1:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
@@ -455,6 +470,7 @@ spriteTypes = {
 			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:y"
+			":p5:c6"
 			"GFX_muslim_male_base_oldage:p2"
 			"GFX_muslim_male_neck_oldage:d0"
 			"GFX_muslim_male_cheeks_oldage:d4"
@@ -472,6 +488,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_ear_oldage:d7:o23x50"
 			"GFX_muslim_male_hair_oldage:p1:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
@@ -504,6 +521,7 @@ spriteTypes = {
 			"GFX_muslim_female_clothes_behind:p3:c0"            
 			"GFX_muslim_female_headgear_behind:p5:c1"           
 			"GFX_muslim_female_hair_behind:p1:y"           
+			":p5:c6"
 			"GFX_muslim_female_base:p2"                      
 			"GFX_muslim_female_neck:d0"                      #5
 			"GFX_muslim_female_mouth:d2:o74x49"                     
@@ -520,6 +538,7 @@ spriteTypes = {
 			"GFX_muslim_female_clothes:p3:c2"                   
 			"GFX_empty:p5:c3"
 			"GFX_muslim_female_hair:p1:y"                         
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"               #20
@@ -549,6 +568,7 @@ spriteTypes = {
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind_midage:p1:y"
+			":p5:c6"
 			"GFX_muslim_female_base_midage:p2"
 			"GFX_muslim_female_neck_midage:d0"
 			"GFX_muslim_female_mouth_midage:d2:o74x52"
@@ -565,6 +585,7 @@ spriteTypes = {
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_muslim_female_hair_midage:p1:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
@@ -594,6 +615,7 @@ spriteTypes = {
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind_oldage:p1:y"
+			":p5:c6"
 			"GFX_muslim_female_base_oldage:p2"
 			"GFX_muslim_female_neck_oldage:d0"
 			"GFX_muslim_female_mouth_oldage:d2:o74x52"
@@ -610,6 +632,7 @@ spriteTypes = {
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_muslim_female_hair_oldage:p1:y"
+			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
