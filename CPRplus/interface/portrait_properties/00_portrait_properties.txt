@@ -1416,7 +1416,6 @@
 			OR = {
 				graphical_culture = normangfx
 				graphical_culture = frankishgfx
-				graphical_culture = lombardgfx
 				AND = {
 					graphical_culture = bretongfx
 					year = 950
@@ -1532,7 +1531,6 @@
 			OR = {
 				graphical_culture = normangfx
 				graphical_culture = frankishgfx
-				graphical_culture = lombardgfx
 				graphical_culture = bretongfx
 				AND = {
 					graphical_culture = hungariangfx
@@ -1690,7 +1688,6 @@
 				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
-				graphical_culture = lombardgfx
 				AND = {
 					graphical_culture = hungariangfx
 					religion_group = christian
@@ -1725,7 +1722,6 @@
 			OR = {
 				graphical_culture = normangfx
 				graphical_culture = frankishgfx
-				graphical_culture = lombardgfx
 				graphical_culture = bretongfx
 				AND = {
 					graphical_culture = hungariangfx
