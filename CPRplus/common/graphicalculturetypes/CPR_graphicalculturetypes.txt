@@ -137,3 +137,6 @@ bejagfx = {
 pecheneggfx = {
 	skin_tone = 2
 }
+tangutgfx = {
+	skin_tone = 1
+}

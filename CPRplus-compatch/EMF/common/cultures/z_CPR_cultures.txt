@@ -472,7 +472,7 @@ tibetan_group = {
 		graphical_cultures = { bodpagfx }
 	}
 	tangut = {
-		graphical_cultures = { bodpagfx }
+		graphical_cultures = { tangutgfx bodpagfx }
 	}
 	zhangzhung = { # Zhangzhung
 		graphical_cultures = { bodpagfx }
