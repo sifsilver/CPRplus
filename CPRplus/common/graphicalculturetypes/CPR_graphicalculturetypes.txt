@@ -4,6 +4,9 @@ turkishgfx = {
 	skin_tone = 2
 	christian_portraits = yes
 }
+oghuzgfx = {
+	skin_tone = 2
+}
 westafricangfx = {
 	skin_tone = 3
 	christian_portraits = yes

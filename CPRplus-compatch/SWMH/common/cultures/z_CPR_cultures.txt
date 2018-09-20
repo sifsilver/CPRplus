@@ -264,7 +264,7 @@ altaic = {
 		graphical_cultures = {turkishgfx}
 	}
 	oghuz = { # original Oghuz Turkish
-		graphical_cultures = {turkishgfx}
+		graphical_cultures = {oghuzgfx turkishgfx}
 	}
 	mongol = {
 		graphical_cultures = { mongolgfx }
