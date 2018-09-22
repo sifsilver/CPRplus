@@ -87,13 +87,11 @@
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
 			in_command = yes
 			NOT = { siege = { is_attacker = no } }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -105,7 +103,6 @@
 			NOT = {
 				is_feudal = yes
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1290,26 +1287,16 @@
 		}
 	}
 	
-	26 = { # African Savanna 2 - changed to saint
+	26 = { # African Savanna 2 - changed to China
 		factor = 100
 		modifier = {
 			factor = 0
-			is_alive = yes
+			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
-			has_global_flag = EMF
-			NOT = { trait = saint }
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_global_flag = EMF }
-			NOR = {
-				has_nickname = nick_the_saint
-				has_nickname = nick_the_martyr
-				has_nickname = nick_the_apostle
-				
-			}
+			has_landed_title = e_china_west_governor
+			is_landed = yes
 		}
 	}
 }

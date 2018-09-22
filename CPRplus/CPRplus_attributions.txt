@@ -7,6 +7,9 @@ Richard Seidenmann: Wikimedia Commons image of a forest in Sächsische Schweiz
 Tout-pour-la-science: Wikimedia Commons image of Col d'Izoard
 (https://commons.wikimedia.org/wiki/File:Isoard2.JPG)
 
+Jamguo: Wikimedia Commons image of Xi'an's city wall
+(https://commons.wikimedia.org/wiki/File:XiAn_CityWall_DiLou.jpg)
+
 LordPeter: retouched existing portrait background images from CPR and Wikimedia Commons images (Adam63's and Richard Seidenmann's)
 
 SirRitter: retouched military headgear assets for Georgian and Baltic portrait sets
