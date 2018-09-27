@@ -3678,6 +3678,10 @@
 		}
 		modifier = {
 			factor = 0
+			tang_dynasty_putou_trigger = yes
+		}
+		modifier = {
+			factor = 0
 			primary_title = { title = e_china_west_governor } # Uses martial clothing instead
 		}
 	}
@@ -4130,6 +4134,7 @@
 				spouse = { higher_real_tier_than = count }
 				has_minor_title = title_prince
 			}
+			NOT = { tang_dynasty_putou_trigger = yes }
 		}
 		modifier = {
 			factor = 2
@@ -4149,6 +4154,7 @@
 						real_tier = duke
 					}
 					is_nomadic = no
+					NOT = { tang_dynasty_putou_trigger = yes }
 				}
 				AND = {
 					OR = {
@@ -4208,6 +4214,10 @@
 					}
 				}
 			}
+		}
+		modifier = {
+			factor = 100
+			tang_dynasty_putou_trigger = yes
 		}
 		modifier = {
 			factor = 0
