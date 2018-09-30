@@ -2042,6 +2042,24 @@
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture_group = chinese_group
+				culture = khitan
+				culture = jurchen
+			}
+			NOT = { has_portrait_property = { layer = 5 index = 0 } }
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			OR = {
+				culture_group = chinese_group
+				culture = khitan
+				culture = jurchen
+			}
+			has_portrait_property = { layer = 5 index = 0 }
+		}
 	}
 	
 	1 = { # Royal clothes 2
