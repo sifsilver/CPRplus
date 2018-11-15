@@ -55,7 +55,7 @@ georgiangfx = {
 norsegaelgfx = {
 	skin_tone = 0
 }
-hungariangfx = {
+magyargfx = {
 	skin_tone = 0
 	christian_portraits = yes
 }
