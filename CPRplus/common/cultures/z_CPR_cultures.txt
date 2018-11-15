@@ -73,7 +73,13 @@ latin = {
 		graphical_cultures = { occitangfx }
 	}
 	roman = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { romangfx italiangfx }
+	}
+	dalmatian = {
+		graphical_cultures = { dalmatiangfx italiangfx }
+	}
+	outremer = {
+		graphical_cultures = { outremergfx muslimgfx }
 	}
 }
 
@@ -100,6 +106,9 @@ iberian = {
 byzantine = {
 	graphical_cultures =  { easterngfx }
 
+	arberian = {
+		graphical_cultures = { byzantinegfx }
+	}
 	armenian = {
 		graphical_cultures = { georgiangfx byzantinegfx }
 	}
@@ -114,6 +123,12 @@ byzantine = {
 	}
 	assyrian = {
 		graphical_cultures = { assyriangfx byzantinegfx }
+	}
+	coptic = {
+		graphical_cultures = { copticgfx byzantinegfx }
+	}
+	crimean_gothic = {
+		graphical_cultures = { crimeangfx byzantinegfx }
 	}
 }
 
@@ -161,6 +176,9 @@ finno_ugric = {
 		graphical_cultures = { siberiangfx ugricgfx }
 	}
 	mordvin = {
+		graphical_cultures = { ugricgfx }
+	}
+	meshchera = {
 		graphical_cultures = { ugricgfx }
 	}
 }
@@ -280,16 +298,22 @@ south_slavic = {
 	graphical_cultures = { easterngfx }
 
 	croatian = {
-		graphical_cultures = { bohemiangfx westernslavicgfx }
+		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
 	}
 	serbian = {
-		graphical_cultures = { southernslavicgfx westernslavicgfx }
+		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
 	}
 	romanian = {
-		graphical_cultures = { southernslavicgfx westernslavicgfx }
+		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
 	}
 	bulgarian = {
-		graphical_cultures = { southernslavicgfx westernslavicgfx }
+		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
+	}
+	bosnian = {
+		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
+	}
+	carantanian = {
+		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
 	}
 }
 
@@ -297,7 +321,7 @@ magyar = {
 	graphical_cultures = { easterngfx }
 
 	hungarian = {
-		graphical_cultures = { hungariangfx westernslavicgfx }
+		graphical_cultures = { magyargfx westernslavicgfx }
 	}
 }
 
@@ -345,6 +369,24 @@ east_african = {
 	nubian = {
 		graphical_cultures = { africangfx westafricangfx }
 	}
+	daju = {
+		graphical_cultures = { bejagfx africangfx westafricangfx }
+	}
+}
+
+central_african = {
+	graphical_cultures = { africangfx muslimgfx }
+
+	
+	kanuri = {
+		graphical_cultures = { southernberbergfx westafricangfx }
+	}
+	hausa = {
+		graphical_cultures = { southernberbergfx westafricangfx }
+	}
+	hausa = {
+		graphical_cultures = { somaligfx }
+	}
 }
 
 west_african = {
@@ -352,6 +394,12 @@ west_african = {
 
 	
 	manden = {
+		graphical_cultures = { westafricangfx }
+	}
+	soninke = {
+		graphical_cultures = { westafricangfx }
+	}
+	songhay = {
 		graphical_cultures = { westafricangfx }
 	}
 }

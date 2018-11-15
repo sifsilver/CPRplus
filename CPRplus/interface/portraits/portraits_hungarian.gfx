@@ -4,14 +4,14 @@ spriteTypes = {
 ############## hungarian ##########################
 
 	spriteType = {
-		name = "PORTRAIT_hungariangfx_child_male"
+		name = "PORTRAIT_magyargfx_child_male"
 		texturefile = "gfx\\characters\\default_son_ugric.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_hungariangfx_child_female"
+		name = "PORTRAIT_magyargfx_child_female"
 		texturefile = "gfx\\characters\\default_daughter_ugric.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -171,7 +171,7 @@ spriteTypes = {
 
 	# hungarian Male
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_male"
+		name = "PORTRAIT_magyargfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -179,7 +179,8 @@ spriteTypes = {
 			"GFX_hungarian_male_headgear_behind:p5:c1"
 			"GFX_steppe_male_hair_behind:p1:o-2x-3:h:y"
 			"GFX_steppe_male_beard_behind:p4:o-1x2:h:y"
-			":p5:c6"			"GFX_ugric_male_base:p2"
+			":p5:c6"
+			"GFX_ugric_male_base:p2"
 			"GFX_ugric_male_neck:d0"
 			"GFX_ugric_male_chin:d1"
 			"GFX_ugric_male_cheeks:d4"
@@ -197,7 +198,8 @@ spriteTypes = {
 			"GFX_steppe_male_beard:p4:o-1x2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_steppe_male_hair:p1:o-2x-3:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6" 
@@ -231,7 +233,7 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_male1"
+		name = "PORTRAIT_magyargfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -239,7 +241,8 @@ spriteTypes = {
 			"GFX_hungarian_male_headgear_behind:p5:c1"
 			"GFX_steppe_male_hair_behind_midage:p1:o-2x-3:h:y"
 			"GFX_steppe_male_beard_behind_midage:p4:o-1x2:h:y"
-			":p5:c6"			"GFX_ugric_male_base_midage:p2"
+			":p5:c6"
+			"GFX_ugric_male_base_midage:p2"
 			"GFX_ugric_male_neck_midage:d0"
 			"GFX_ugric_male_chin_midage:d1"
 			"GFX_ugric_male_cheeks_midage:d4"
@@ -257,7 +260,8 @@ spriteTypes = {
 			"GFX_steppe_male_beard_midage:p4:o-1x2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_steppe_male_hair_midage:p1:o-2x-3:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -294,7 +298,7 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_male2"
+		name = "PORTRAIT_magyargfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -302,7 +306,8 @@ spriteTypes = {
 			"GFX_hungarian_male_headgear_behind:p5:c1"
 			"GFX_steppe_male_hair_behind_oldage:p1:o-2x-3:h:y"
 			"GFX_steppe_male_beard_behind_oldage:p4:o-1x2:h:y"
-			":p5:c6"			"GFX_ugric_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_ugric_male_base_oldage:p2"
 			"GFX_ugric_male_neck_oldage:d0"
 			"GFX_ugric_male_chin_oldage:d1"
 			"GFX_ugric_male_cheeks_oldage:d4"
@@ -320,7 +325,8 @@ spriteTypes = {
 			"GFX_steppe_male_beard_oldage:p4:o-1x2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_steppe_male_hair_oldage:p1:o-2x-3:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -355,15 +361,16 @@ spriteTypes = {
 	
 	# Westernslavic Male
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_male_christian"
+		name = "PORTRAIT_magyargfx_male_christian"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
-			"GFX_westernslavic_male_headgear_behind:p5:c1"
+			"GFX_serbsouthslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind:p1:h:y"
 			"GFX_hungarian_male_beard_behind:p4:h:y:o0x3"
-			":p5:c6"			"GFX_ugric_male_base:p2"
+			":p5:c6"
+			"GFX_ugric_male_base:p2"
 			"GFX_ugric_male_neck:d0"
 			"GFX_ugric_male_chin:d1"
 			"GFX_ugric_male_cheeks:d4"
@@ -380,10 +387,11 @@ spriteTypes = {
 			"GFX_hungarian_male_beard:p4:h:y:o0x3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_western_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_westernslavic_male_headgear_mid:p5:c3"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_serbsouthslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
-			"GFX_westernslavic_male_headgear:p5:c5"
+			"GFX_serbsouthslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -418,15 +426,16 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_male_christian1"
+		name = "PORTRAIT_magyargfx_male_christian1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
-			"GFX_westernslavic_male_headgear_behind:p5:c1"
+			"GFX_serbsouthslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_midage:p1:h:y"
 			"GFX_hungarian_male_beard_behind_midage:p4:h:y:o0x3"
-			":p5:c6"			"GFX_ugric_male_base_midage:p2"
+			":p5:c6"
+			"GFX_ugric_male_base_midage:p2"
 			"GFX_ugric_male_neck_midage:d0"
 			"GFX_ugric_male_chin_midage:d1"
 			"GFX_ugric_male_cheeks_midage:d4"
@@ -443,10 +452,11 @@ spriteTypes = {
 			"GFX_hungarian_male_beard_midage:p4:h:y:o0x3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_westernslavic_male_headgear_mid:p5:c3"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_serbsouthslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
-			"GFX_westernslavic_male_headgear:p5:c5"
+			"GFX_serbsouthslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -481,15 +491,16 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_male_christian2"
+		name = "PORTRAIT_magyargfx_male_christian2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_male_clothes_behind_christian:p3:c0"
-			"GFX_westernslavic_male_headgear_behind:p5:c1"
+			"GFX_serbsouthslavic_male_headgear_behind:p5:c1"
 			"GFX_western_male_hair_behind_oldage:p1:h:y"
 			"GFX_hungarian_male_beard_behind_oldage:p4:h:y:o0x3"
-			":p5:c6"			"GFX_ugric_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_ugric_male_base_oldage:p2"
 			"GFX_ugric_male_neck_oldage:d0"
 			"GFX_ugric_male_chin_oldage:d1"
 			"GFX_ugric_male_cheeks_oldage:d4"
@@ -506,10 +517,11 @@ spriteTypes = {
 			"GFX_hungarian_male_beard_oldage:p4:h:y:o0x3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_westernslavic_male_headgear_mid:p5:c3"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_serbsouthslavic_male_headgear_mid:p5:c3"
 			"GFX_empty:p3:c4"
-			"GFX_westernslavic_male_headgear:p5:c5"
+			"GFX_serbsouthslavic_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -546,14 +558,15 @@ spriteTypes = {
 
 	# hungarian female
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_female"
+		name = "PORTRAIT_magyargfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_female_clothes_behind:p3:c0"
 			"GFX_hungarian_female_headgear_behind:p5:c1"
 			"GFX_centralasian_female_hair_behind:p1:o1x0:h:y"
-			":p5:c6"			"GFX_ugric_female_base:p2"
+			":p5:c6"
+			"GFX_ugric_female_base:p2"
 			"GFX_ugric_female_neck:d0"
 			"GFX_ugric_female_chin:d1"
 			"GFX_ugric_female_cheeks:d4"
@@ -570,7 +583,8 @@ spriteTypes = {
 			"GFX_ugric_female_ear:d7"
 			"GFX_empty:p5:c3"
 			"GFX_centralasian_female_hair:p1:o1x0:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -606,14 +620,15 @@ spriteTypes = {
 
 	# hungarian female midage
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_female1"
+		name = "PORTRAIT_magyargfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_female_clothes_behind:p3:c0"
 			"GFX_hungarian_female_headgear_behind:p5:c1"
 			"GFX_centralasian_female_hair_behind_midage:p1:o1x0:h:y"
-			":p5:c6"			"GFX_ugric_female_base_midage:p2"
+			":p5:c6"
+			"GFX_ugric_female_base_midage:p2"
 			"GFX_ugric_female_neck_midage:d0"
 			"GFX_ugric_female_chin_midage:d1"
 			"GFX_ugric_female_cheeks_midage:d4"
@@ -630,7 +645,8 @@ spriteTypes = {
 			"GFX_ugric_female_ear_midage:d7"
 			"GFX_empty:p5:c3"
 			"GFX_centralasian_female_hair_midage:p1:o1x0:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -666,14 +682,15 @@ spriteTypes = {
 
 	# hungarian female oldage
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_female2"
+		name = "PORTRAIT_magyargfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_female_clothes_behind:p3:c0"
 			"GFX_hungarian_female_headgear_behind:p5:c1"
 			"GFX_centralasian_female_hair_behind_oldage:p1:o1x0:h:y"
-			":p5:c6"			"GFX_ugric_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_ugric_female_base_oldage:p2"
 			"GFX_ugric_female_neck_oldage:d0"
 			"GFX_ugric_female_chin_oldage:d1"
 			"GFX_ugric_female_cheeks_oldage:d4"
@@ -690,7 +707,8 @@ spriteTypes = {
 			"GFX_ugric_female_ear_oldage:d7"
 			"GFX_empty:p5:c3"
 			"GFX_centralasian_female_hair_oldage:p1:o1x0:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_hungarian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -723,14 +741,15 @@ spriteTypes = {
 	}
 	# Westernslavic female
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_female_christian"
+		name = "PORTRAIT_magyargfx_female_christian"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_female_clothes_behind_christian:p3:c0"
-			"GFX_westernslavic_female_headgear_behind:p5:c1"             #2
+			"GFX_serbsouthslavic_female_headgear_behind:p5:c1"             #2
 			"GFX_western_female_hair_behind:p1:h:y" 
-			":p5:c6"			"GFX_ugric_female_base:p2"
+			":p5:c6"
+			"GFX_ugric_female_base:p2"
 			"GFX_ugric_female_neck:d0"
 			"GFX_ugric_female_chin:d1"
 			"GFX_ugric_female_cheeks:d4"
@@ -747,9 +766,10 @@ spriteTypes = {
 			"GFX_ugric_female_ear:d7"
 			"GFX_western_female_headgear_mid:p5:c3"             #14
 			"GFX_western_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_westernslavic_female_headgear:p5:c5"
+			"GFX_serbsouthslavic_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -783,14 +803,15 @@ spriteTypes = {
 
 	# Westernslavic female midage
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_female_christian1"
+		name = "PORTRAIT_magyargfx_female_christian1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_female_clothes_behind_christian:p3:c0"
-			"GFX_westernslavic_female_headgear_behind:p5:c1"
+			"GFX_serbsouthslavic_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_ugric_female_base_midage:p2"
+			":p5:c6"
+			"GFX_ugric_female_base_midage:p2"
 			"GFX_ugric_female_neck_midage:d0"
 			"GFX_ugric_female_chin_midage:d1"
 			"GFX_ugric_female_cheeks_midage:d4"
@@ -807,9 +828,10 @@ spriteTypes = {
 			"GFX_ugric_female_ear_midage:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_westernslavic_female_headgear:p5:c5"
+			"GFX_serbsouthslavic_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
@@ -843,14 +865,15 @@ spriteTypes = {
 
 	# Westernslavic female oldage
 	portraitType = {
-		name = "PORTRAIT_hungariangfx_female_christian2"
+		name = "PORTRAIT_magyargfx_female_christian2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_hungarian_female_clothes_behind_christian:p3:c0"
-			"GFX_westernslavic_female_headgear_behind:p5:c1"
+			"GFX_serbsouthslavic_female_headgear_behind:p5:c1"
 			"GFX_western_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_ugric_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_ugric_female_base_oldage:p2"
 			"GFX_ugric_female_neck_oldage:d0"
 			"GFX_ugric_female_chin_oldage:d1"
 			"GFX_ugric_female_cheeks_oldage:d4"
@@ -867,9 +890,10 @@ spriteTypes = {
 			"GFX_ugric_female_ear_oldage:d7"
 			"GFX_western_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_westernslavic_female_headgear:p5:c5"
+			"GFX_serbsouthslavic_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
 			"GFX_player_overlay:p11" 
 		}
