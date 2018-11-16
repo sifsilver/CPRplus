@@ -3,6 +3,98 @@ spriteTypes = {
 	
 ############## Medieval Italian ##########################
 
+	spriteType = {
+		name = "PORTRAIT_italiangfx_child_male"
+		texturefile = "gfx\\characters\\default_son_italian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_italiangfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_italian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_clothes_behind"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_headgear_behind"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_hair_behind"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_hair_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_hair_behind_midage"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_hair_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_hair_behind_oldage"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_hair_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+#	spriteType = {
+#		name = "GFX_italian_male_headgear_mid"
+#		texturefile = "gfx\\characters\\italian_male\\italian_male_headgear_mid.dds"
+#		noOfFrames = 12
+#		norefcount = yes
+#	}
+
+	spriteType = {
+		name = "GFX_italian_male_hair"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_hair_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_hair_midage"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_hair_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_hair_oldage"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_hair_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_male_clothes"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_italian_male_headgear"
+		texturefile = "gfx\\characters\\italian_male\\italian_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
 	# Italian MALE
@@ -17,7 +109,7 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_italian_male_hair_behind:p1:h:y"
 			":p5:c6"
-			"GFX_roman_male_beard_behind:p4:h:y"
+			"GFX_frankish_male_beard_behind:p4:o-2x0:h:y"
 			"GFX_roman_male_base:p2"
 			"GFX_roman_male_neck:d0"
 			"GFX_roman_male_chin:d1"
@@ -43,7 +135,7 @@ spriteTypes = {
 			"GFX_character_possessed:p30"
 			"GFX_italian_male_clothes:p3:c2"
 			"GFX_italian_male_headgear_mid:p5:c3"			
-			"GFX_roman_male_beard:p4:h:y"
+			"GFX_frankish_male_beard:p4:o-2x0:h:y"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_italian_male_hair:p1:h:y"
@@ -97,7 +189,7 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_italian_male_hair_behind_midage:p1:h:y"
 			":p5:c6"
-			"GFX_roman_male_beard_behind_midage:p4:h:y"
+			"GFX_frankish_male_beard_behind_midage:p4:o-2x0:h:y"
 			"GFX_roman_male_base_midage:p2"
 			"GFX_roman_male_neck_midage:d0"
 			"GFX_roman_male_chin_midage:d1"
@@ -123,7 +215,7 @@ spriteTypes = {
 			"GFX_character_possessed:p30"
 			"GFX_italian_male_clothes:p3:c2"
 			"GFX_italian_male_headgear_mid:p5:c3"
-			"GFX_roman_male_beard_midage:p4:h:y"
+			"GFX_frankish_male_beard_midage:p4:o-2x0:h:y"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_italian_male_hair_midage:p1:h:y"
@@ -177,7 +269,7 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_italian_male_hair_behind_oldage:p1:h:y"
 			":p5:c6"
-			"GFX_roman_male_beard_behind_oldage:p4:h:y"
+			"GFX_frankish_male_beard_behind_oldage:p4:o-2x0:h:y"
 			"GFX_roman_male_base_oldage:p2"
 			"GFX_roman_male_neck_oldage:d0"
 			"GFX_roman_male_chin_oldage:d1"
@@ -203,7 +295,7 @@ spriteTypes = {
 			"GFX_character_possessed:p30"
 			"GFX_italian_male_clothes:p3:c2"
 			"GFX_italian_male_headgear_mid:p5:c3"
-			"GFX_roman_male_beard_oldage:p4:h:y"
+			"GFX_frankish_male_beard_oldage:p4:o-2x0:h:y"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_italian_male_hair_oldage:p1:h:y"
@@ -245,6 +337,80 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 6 8 9 10 }
 	}
+
+	#### Medieval Italian FEMALE  ####
+
+	spriteType = {
+		name = "GFX_italian_female_clothes_behind"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_italian_female_headgear_behind"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_hair_behind"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_hair_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_hair_behind_midage"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_hair_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_hair_behind_oldage"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_hair_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_clothes"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_hair"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_hair_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_hair_midage"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_hair_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_hair_oldage"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_hair_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_italian_female_headgear"
+		texturefile = "gfx\\characters\\italian_female\\italian_female_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
