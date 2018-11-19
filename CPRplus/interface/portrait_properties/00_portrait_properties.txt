@@ -2335,6 +2335,9 @@
 	}
 	9 = { # Shady clothes
 		factor = 100
+		hide_layers = { 31 = { } } #Veil overload.
+		hide_layers = { 32 = { } } 
+		hide_layers = { 33 = { } }
 		modifier = {
 			factor = 0
 			OR = {
@@ -2353,12 +2356,20 @@
 		modifier = {
 			factor = 0
 			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
 		}
 	}
 	
 	# Martial
 	10 = {
 		factor = 100
+		modifier = {
+			factor = 0
+			trait = saint 
+		}
 		modifier = {
 			factor = 0
 			in_command = no
@@ -2431,6 +2442,17 @@
 		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
 			has_portrait_property = { layer = 5 index = 10 }
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 	}
 	
@@ -3614,6 +3636,12 @@
 	# Imperial crown/Caliph turban
 	0 = {
 		factor = 1
+		hide_layers = { 31 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		hide_layers = { 32 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		modifier = {
+			factor = 0
+			trait = saint 
+		}
 		modifier = {
 			factor = 0
 			NOT = { real_tier = emperor }
@@ -3659,6 +3687,94 @@
 		#}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
+			factor = 0
+			real_tier = EMPEROR
+			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = EMPEROR
+			is_alive = yes
+			OR = { 
+				religion = catholic
+				religion = fraticelli
+			} 
+			NOR = { 
+				trait = crowned_by_priest 
+				trait = crowned_by_bishop
+				trait = crowned_by_pope
+				trait = crowned_by_myself 
+			}
+		}
+		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = EMPEROR }
+			spouse = { 
+				real_tier = EMPEROR
+				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+			} 
+		}
+		modifier = {
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = EMPEROR }
+			spouse = { 
+				real_tier = EMPEROR
+				is_alive = yes 
+				OR = { 
+					religion = catholic
+					religion = fraticelli
+				} 
+				NOR = { 
+					trait = crowned_by_priest 
+					trait = crowned_by_bishop
+					trait = crowned_by_pope
+					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
+			is_feudal = no
+			is_tribal = no
+			is_nomadic = no
+			NOT = { is_offmap_tag_including_dead = offmap_china }
+		}
+		modifier = {
+			factor = 0
+			is_republic = yes
+			is_alive = no
+		}
+		modifier = {
+			factor = 0 
+			spouse = { is_republic = yes } #Dead wives of Patricians are nogovernment, thus they would wear crowns for being married to a King-tier.
+			is_alive = no
+			is_ruler = no
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
@@ -3686,6 +3802,19 @@
 	# Royal crown/turban 1
 	1 = {
 		factor = 1
+		hide_layers = { 31 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		hide_layers = { 32 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		modifier = {
+			factor = 0
+			OR = { 
+				has_portrait_property = { layer = 5 index = 2 }
+				has_portrait_property = { layer = 5 index = 3 } 
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = saint 
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -3747,6 +3876,94 @@
 		#	factor = 0
 		#	prisoner = yes
 		#}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			real_tier = KING
+			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = KING
+			is_alive = yes
+			OR = { 
+				religion = catholic
+				religion = fraticelli
+			} 
+			NOR = { 
+				trait = crowned_by_priest 
+				trait = crowned_by_bishop
+				trait = crowned_by_pope
+				trait = crowned_by_myself 
+			}
+		}
+		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = KING }
+			spouse = { 
+				real_tier = KING
+				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+			} 
+		}
+		modifier = {
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = KING }
+			spouse = { 
+				real_tier = KING
+				is_alive = yes 
+				OR = { 
+					religion = catholic
+					religion = fraticelli
+				} 
+				NOR = { 
+					trait = crowned_by_priest 
+					trait = crowned_by_bishop
+					trait = crowned_by_pope
+					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
+			is_feudal = no
+			is_tribal = no
+			is_nomadic = no
+		}
+		modifier = {
+			factor = 0
+			is_republic = yes
+			is_alive = no
+		}
+		modifier = {
+			factor = 0 
+			spouse = { is_republic = yes } #Dead wives of Patricians are nogovernment, thus they would wear crowns for being married to a King-tier.
+			is_alive = no
+			is_ruler = no
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -3781,6 +3998,19 @@
 	# Royal crown/turban 2
 	2 = {
 		factor = 1
+		hide_layers = { 31 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		hide_layers = { 32 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		modifier = {
+			factor = 0
+			OR = { 
+				has_portrait_property = { layer = 5 index = 1 }
+				has_portrait_property = { layer = 5 index = 3 } 
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = saint 
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -3842,6 +4072,94 @@
 		#	factor = 0
 		#	prisoner = yes
 		#}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			real_tier = KING
+			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = KING
+			is_alive = yes
+			OR = { 
+				religion = catholic
+				religion = fraticelli
+			} 
+			NOR = { 
+				trait = crowned_by_priest 
+				trait = crowned_by_bishop
+				trait = crowned_by_pope
+				trait = crowned_by_myself 
+			}
+		}
+		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = KING }
+			spouse = { 
+				real_tier = KING
+				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+			} 
+		}
+		modifier = {
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = KING }
+			spouse = { 
+				real_tier = KING
+				is_alive = yes 
+				OR = { 
+					religion = catholic
+					religion = fraticelli
+				} 
+				NOR = { 
+					trait = crowned_by_priest 
+					trait = crowned_by_bishop
+					trait = crowned_by_pope
+					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
+			is_feudal = no
+			is_tribal = no
+			is_nomadic = no
+		}
+		modifier = {
+			factor = 0
+			is_republic = yes
+			is_alive = no
+		}
+		modifier = {
+			factor = 0 
+			spouse = { is_republic = yes } #Dead wives of Patricians are nogovernment, thus they would wear crowns for being married to a King-tier.
+			is_alive = no
+			is_ruler = no
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -3876,6 +4194,19 @@
 	# Royal crown/turban 3
 	3 = {
 		factor = 1
+		hide_layers = { 31 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		hide_layers = { 32 = { } } #Prevent hedge-incompatibilities with Ducal French Overlayers.
+		modifier = {
+			factor = 0
+			OR = { 
+				has_portrait_property = { layer = 5 index = 1 } 
+				has_portrait_property = { layer = 5 index = 2 }
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = saint 
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -3940,6 +4271,87 @@
 		#	factor = 0
 		#	prisoner = yes
 		#}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
+			is_republic = yes
+			is_alive = no
+		}
+		modifier = {
+			factor = 0 
+			spouse = { is_republic = yes } #Dead wives of Patricians are nogovernment, thus they would wear crowns for being married to a King-tier.
+			is_alive = no
+			is_ruler = no
+		}
+		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			real_tier = KING
+			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = KING
+			is_alive = yes
+			OR = { 
+				religion = catholic
+				religion = fraticelli
+			} 
+			NOR = { 
+				trait = crowned_by_priest 
+				trait = crowned_by_bishop
+				trait = crowned_by_pope
+				trait = crowned_by_myself 
+			}
+		}
+		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = KING }
+			spouse = { 
+				real_tier = KING
+				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
+			} 
+		}
+		modifier = {
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = KING }
+			spouse = { 
+				real_tier = KING
+				is_alive = yes 
+				OR = { 
+					religion = catholic
+					religion = fraticelli
+				} 
+				NOR = { 
+					trait = crowned_by_priest 
+					trait = crowned_by_bishop
+					trait = crowned_by_pope
+					trait = crowned_by_myself 
+				}
+			} 
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -3982,19 +4394,93 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOR = {
-				is_republic = yes
-				is_nomadic = yes
-			}
-			NOR = {
-				real_tier = duke
-				spouse = { real_tier = duke }
-				has_minor_title = title_prince
+			trait = saint 
+		}
+		modifier = {
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				#is_feudal = yes
+			OR = { 
+				AND = { 
+					higher_real_tier_than = DUKE 
+					OR = { 
+						religion = catholic
+						religion = fraticelli
+					}
+					OR = { 
+						trait = crowned_by_priest
+						trait = crowned_by_bishop
+						trait = crowned_by_pope
+						trait = crowned_by_myself
+						AND = {
+							is_alive = no
+							NOT = { trait = uncrowned }
+						}
+						AND = { 
+							has_game_started = no
+							is_save_game = no
+							is_alive = yes
+						}
+					}
+				}
+				spouse = { 
+					higher_real_tier_than = DUKE 
+					OR = { 
+						religion = catholic
+						religion = fraticelli
+					}
+					OR = { 
+						trait = crowned_by_priest
+						trait = crowned_by_bishop
+						trait = crowned_by_pope
+						trait = crowned_by_myself
+						AND = {
+							is_alive = no
+							NOT = { trait = uncrowned }
+						}
+						AND = { 
+							has_game_started = no
+							is_save_game = no
+							is_alive = yes
+						}
+					}
+				}
 			}
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+			higher_real_tier_than = DUKE
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+			spouse = { higher_real_tier_than = DUKE }
+		}
+		modifier = {
+			factor = 0
+			is_ruler = yes
+			NOT = { trait = uncrowned }
+			NOT = { religion = catholic }
+			NOT = { religion = fraticelli }
+			higher_real_tier_than = DUKE
+
+		}
+		modifier = {
+			factor = 0 #Dead Doges should not wear crowns.
 			is_republic = yes
+			is_alive = no
+		}
+		modifier = {
+			factor = 0
 			NOT = { real_tier = duke }
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
@@ -4002,11 +4488,17 @@
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = duke } }
-		}
-		modifier = {
-			factor = 0
-			is_feudal = yes
-			real_tier = king
+			OR = { 
+				AND = { 
+					NOT = { culture = frankish }
+					NOT = { culture = occitan }
+				}
+				AND = { 
+					NOT = { real_tier = count }
+					NOT = { has_minor_title = title_prince }
+					NOT = { spouse = { real_tier = count } }
+				} 
+			}
 		}
 		modifier = {
             factor = 0
@@ -4076,6 +4568,10 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			trait = saint 
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
@@ -4085,12 +4581,62 @@
 				has_minor_title = title_prince
 			}
 		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+		}
 		#modifier = {
 		#	factor = 10
 		#	is_landed = yes
 		#	is_theocracy = yes
 		#	religion_group = pagan_group
 		#}
+		modifier = {
+			factor = 2
+			is_female = yes
+			OR = {
+				culture = pommeranian
+				culture = bohemian
+				culture = polish
+				culture = croatian
+				culture = serbian
+				culture = bulgarian
+				culture = romanian
+				AND = {
+					culture_group = magyar
+					NOT = { religion_group = pagan_group }
+				}
+			}
+			is_married = no
+		}
+		modifier = { # Specific rules for frankish / Occitanian layering
+			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			OR = {
+				culture = frankish
+				culture = occitan
+			}
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+			}
+			OR = {
+				is_married = no
+				NOT = { age = 40 }
+			}
+			NOT = {
+				has_portrait_property = { layer = 3 index = 10 }
+			}
+		}
 		modifier = {
 			factor = 2
 			is_ruler = no
@@ -4123,6 +4669,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			trait = saint 
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
@@ -4132,6 +4694,26 @@
 				has_minor_title = title_prince
 			}
 			NOT = { tang_dynasty_putou_trigger = yes }
+		}
+		modifier = { # Specific rules for frankish / Occitanian layering
+			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			OR = {
+				culture = frankish
+				culture = occitan
+			}
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+			}
+			OR = {
+				is_married = no
+				NOT = { age = 40 }
+			}
+			NOT = {
+				has_portrait_property = { layer = 3 index = 10 }
+			}
 		}
 		modifier = {
 			factor = 2
@@ -4162,7 +4744,7 @@
 				}
 			}
 		}
-		modifier = { #hood unavailable if landed
+		modifier = { #Vanilla western hood unavailable if landed
 			factor = 0
 			OR = {
 				real_tier = count
@@ -4203,29 +4785,49 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			trait = saint 
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = count
 				spouse = { higher_real_tier_than = count }
-				AND = {
-					NOT = { higher_real_tier_than = baron }
-					NOT = { real_tier = baron }
-					OR = {
-						is_married = no
-						spouse = {
-							OR = {
-								AND = {
-									NOT = { higher_real_tier_than = baron }
-									NOT = { real_tier = baron }
-								}
-								higher_real_tier_than = count
-							}
-						}
-					}
-				}
 				has_minor_title = title_prince
+			}
+		}
+		modifier = { # Specific rules for frankish / Occitanian layering
+			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			OR = {
+				culture = frankish
+				culture = occitan
+			}
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+			}
+			OR = {
+				is_married = no
+				NOT = { age = 40 }
+			}
+			NOT = {
+				has_portrait_property = { layer = 3 index = 10 }
 			}
 		}
 		modifier = {
@@ -4278,6 +4880,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			trait = saint 
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
@@ -4285,6 +4903,44 @@
 				higher_real_tier_than = baron
 				spouse = { higher_real_tier_than = baron }
 				has_minor_title = title_prince
+			}
+		}
+		modifier = {
+			factor = 2
+			is_female = yes
+			OR = {
+				culture = pommeranian
+				culture = bohemian
+				culture = polish
+				culture = croatian
+				culture = serbian
+				culture = bulgarian
+				culture = romanian
+				AND = {
+					culture_group = magyar
+					NOT = { religion_group = pagan_group }
+				}
+			}
+			is_married = no
+		}
+		modifier = { # Specific rules for frankish / Occitanian layering
+			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			OR = {
+				culture = frankish
+				culture = occitan
+			}
+			OR = {
+				is_ruler = yes
+				spouse = { is_ruler = yes }
+			}
+			OR = {
+				is_married = no
+				NOT = { age = 40 }
+			}
+			NOT = {
+				has_portrait_property = { layer = 3 index = 10 }
 			}
 		}
 		modifier = {
@@ -4346,6 +5002,9 @@
 	# Shady headgear
 	9 = {
 		factor = 100
+		hide_layers = { 31 = { } } #Veil overload.
+		hide_layers = { 32 = { } } 
+		hide_layers = { 33 = { } }
 		modifier = {
 			factor = 0
 			NOT = { has_portrait_property = { layer = 3 index = 9 } }
@@ -4364,6 +5023,30 @@
 	# Blank
 	11 = {
 		factor = 4
+		modifier = {
+			factor = 20000
+			trait = saint 
+		}
+		modifier = {
+			factor = 20000
+			trait = shieldmaiden
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+			NOT = { trait = saint }
+		}
 		modifier = {
 			factor = 0
 			#prisoner = no
@@ -4606,9 +5289,9 @@
 			factor = 0
 			prisoner = no
 		}
-		hide_layers = {
-			5 = { always = yes }
-		}
+		hide_layers = { 18 = { } } #Hide layers with special crowns.
+		hide_layers = { 19 = { } } #Hide layers with special crowns.
+		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
 	}
 	
 	2 = { # Western knight armor #1
@@ -6648,12 +7331,12 @@
 				}
 				AND = {
 					is_landed = yes
-					NOT = { higher_tier_than = DUKE }
+					NOT = { higher_real_tier_than = DUKE }
 				}
 				AND = {
 					is_landed = no
 					is_married = yes
-					spouse = { NOT = { higher_tier_than = DUKE } }
+					spouse = { NOT = { higher_real_tier_than = DUKE } }
 				}
 				is_tribal = yes
 				is_nomadic = yes
@@ -6664,8 +7347,9 @@
 		modifier = {
 			factor = 0
 			OR = {
-				culture = manden
+				culture_group = west_african
 				culture = maghreb_arabic
+				culture_group = north_african
 			}
 		}
 	}
@@ -6682,12 +7366,12 @@
 				}
 				AND = {
 					is_landed = yes
-					higher_tier_than = DUKE
+					higher_real_tier_than = DUKE
 				}
 				AND = {
 					is_landed = no
 					is_married = yes
-					spouse = { higher_tier_than = DUKE }
+					spouse = { higher_real_tier_than = DUKE }
 				}
 				is_tribal = yes
 				is_nomadic = yes
@@ -6775,7 +7459,7 @@
 			NOR = {
 				religion = west_african_pagan
 				religion = west_african_pagan_reformed
-				culture = manden
+				culture_group = west_african
 				culture_group = east_african
 			}
 		}
@@ -6813,7 +7497,7 @@
 			NOR = {
 				religion = west_african_pagan
 				religion = west_african_pagan_reformed
-				culture = manden
+				culture_group = west_african
 				culture_group = east_african
 			}
 		}
@@ -6881,12 +7565,12 @@
 				}
 				AND = {
 					is_landed = yes
-					NOT = { higher_tier_than = DUKE }
+					NOT = { higher_real_tier_than = DUKE }
 				}
 				AND = {
 					is_landed = no
 					is_married = yes
-					spouse = { NOT = { higher_tier_than = DUKE } }
+					spouse = { NOT = { higher_real_tier_than = DUKE } }
 				}
 				is_tribal = yes
 				is_nomadic = yes
@@ -6897,8 +7581,9 @@
 		modifier = {
 			factor = 0
 			OR = {
-				culture = manden
+				culture_group = west_african
 				culture = maghreb_arabic
+				culture_group = north_african
 			}
 		}
 	}
@@ -6919,12 +7604,12 @@
 				}
 				AND = {
 					is_landed = yes
-					NOT = { higher_tier_than = DUKE }
+					NOT = { higher_real_tier_than = DUKE }
 				}
 				AND = {
 					is_landed = no
 					is_married = yes
-					spouse = { NOT = { higher_tier_than = DUKE } }
+					spouse = { NOT = { higher_real_tier_than = DUKE } }
 				}
 				is_tribal = yes
 				is_nomadic = yes
@@ -6939,8 +7624,9 @@
 				trait = proud
 				trait = ambitious
 				trait = envious
-				culture = manden
+				culture_group = west_african
 				culture = maghreb_arabic
+				culture_group = north_african
 			}
 			NOT = { has_character_modifier = golden_mask }
 		}
@@ -6970,12 +7656,12 @@
 				}
 				AND = {
 					is_landed = yes
-					NOT = { higher_tier_than = DUKE }
+					NOT = { higher_real_tier_than = DUKE }
 				}
 				AND = {
 					is_landed = no
 					is_married = yes
-					spouse = { NOT = { higher_tier_than = DUKE } }
+					spouse = { NOT = { higher_real_tier_than = DUKE } }
 				}
 				religion_group = pagan_group
 				has_character_modifier = golden_mask
@@ -6999,12 +7685,12 @@
 				}
 				AND = {
 					is_landed = yes
-					NOT = { higher_tier_than = DUKE }
+					NOT = { higher_real_tier_than = DUKE }
 				}
 				AND = {
 					is_landed = no
 					is_married = yes
-					spouse = { NOT = { higher_tier_than = DUKE } }
+					spouse = { NOT = { higher_real_tier_than = DUKE } }
 				}
 				religion_group = pagan_group
 				has_character_modifier = golden_mask
@@ -10890,8 +11576,8 @@
 				has_portrait_property = { layer = 5 index = 10 }
 			}
 			OR = {
-				higher_tier_than = BARON
-				spouse = { higher_tier_than = BARON }
+				higher_real_tier_than = BARON
+				spouse = { higher_real_tier_than = BARON }
 			}
 			OR = {
 				culture = frankish
