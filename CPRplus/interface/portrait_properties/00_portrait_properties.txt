@@ -146,12 +146,9 @@
 		}
 		modifier = {
 			factor = 0
-			trait = saint
-		}
-		modifier = {
-			factor = 0
 			is_alive = no
 			OR = {
+				trait = saint
 				has_nickname = nick_the_saint
 				has_nickname = nick_the_martyr
 				has_nickname = nick_the_apostle
@@ -254,12 +251,9 @@
 		#}
 		modifier = {
 			factor = 0
-			trait = saint
-		}
-		modifier = {
-			factor = 0
 			is_alive = no
 			OR = {
+				trait = saint
 				has_nickname = nick_the_saint
 				has_nickname = nick_the_martyr
 				has_nickname = nick_the_apostle
@@ -324,12 +318,9 @@
 		}
 		modifier = {
 			factor = 0
-			trait = saint
-		}
-		modifier = {
-			factor = 0
 			is_alive = no
 			OR = {
+				trait = saint
 				has_nickname = nick_the_saint
 				has_nickname = nick_the_martyr
 				has_nickname = nick_the_apostle
@@ -1252,19 +1243,19 @@
 	}
 	
 	26 = { # African Savanna 2 - changed to Saint Halo
-		factor = 1
+		factor = 1000
 		hide_layers = { 18 = { } } #Hide layers with special crowns.
 		hide_layers = { 19 = { } } #Hide layers with special crowns.
 		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
 		
 		modifier = {
-			factor = 1000
-			trait = saint 
+			factor = 0
+			is_alive = yes
 		}
 		modifier = {
-			factor = 1000
-			is_alive = no
-			OR = {
+			factor = 0
+			NOR = {
+				trait = saint
 				has_nickname = nick_the_saint
 				has_nickname = nick_the_martyr
 				has_nickname = nick_the_apostle
