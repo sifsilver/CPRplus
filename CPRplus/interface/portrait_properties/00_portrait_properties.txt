@@ -147,11 +147,9 @@
 		modifier = {
 			factor = 0
 			trait = saint
-			has_global_flag = EMF
 		}
 		modifier = {
 			factor = 0
-			NOT = { has_global_flag = EMF }
 			is_alive = no
 			OR = {
 				has_nickname = nick_the_saint
@@ -257,11 +255,9 @@
 		modifier = {
 			factor = 0
 			trait = saint
-			has_global_flag = EMF
 		}
 		modifier = {
 			factor = 0
-			NOT = { has_global_flag = EMF }
 			is_alive = no
 			OR = {
 				has_nickname = nick_the_saint
@@ -329,11 +325,9 @@
 		modifier = {
 			factor = 0
 			trait = saint
-			has_global_flag = EMF
 		}
 		modifier = {
 			factor = 0
-			NOT = { has_global_flag = EMF }
 			is_alive = no
 			OR = {
 				has_nickname = nick_the_saint
@@ -1264,12 +1258,18 @@
 		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
 		
 		modifier = {
-			factor = 0
-			NOT = { trait = saint }
+			factor = 1000
+			trait = saint 
 		}
 		modifier = {
 			factor = 1000
-			trait = saint 
+			is_alive = no
+			OR = {
+				has_nickname = nick_the_saint
+				has_nickname = nick_the_martyr
+				has_nickname = nick_the_apostle
+				
+			}
 		}
 	}
 }
