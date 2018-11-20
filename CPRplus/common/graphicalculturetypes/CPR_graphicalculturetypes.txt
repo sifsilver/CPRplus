@@ -4,9 +4,6 @@ turkishgfx = {
 	skin_tone = 2
 	christian_portraits = yes
 }
-oghuzgfx = {
-	skin_tone = 2
-}
 westafricangfx = {
 	skin_tone = 3
 	christian_portraits = yes
@@ -14,12 +11,13 @@ westafricangfx = {
 southindiangfx = {
 	skin_tone = 2
 }
+magyargfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
 
 bulgargfx = {
 	skin_tone = 0
-}
-berbergfx = {
-	skin_tone = 2
 }
 centralasiangfx = {
 	skin_tone = 1
@@ -29,6 +27,9 @@ steppegfx = {
 }
 siberiangfx = {
 	skin_tone = 1
+}
+oghuzgfx = {
+	skin_tone = 2
 }
 balticgfx = {
 	skin_tone = 0
@@ -55,12 +56,8 @@ georgiangfx = {
 norsegaelgfx = {
 	skin_tone = 0
 }
-magyargfx = {
-	skin_tone = 0
-	christian_portraits = yes
-}
-crimeangothicgfx = {
-	skin_tone = 0
+nubiangfx = {
+	skin_tone = 3
 }
 sogdiangfx = {
 	skin_tone = 1
@@ -71,26 +68,17 @@ uyghurgfx = {
 khotanesegfx = {
 	skin_tone = 2
 }
-chinesegfx = {
-	skin_tone = 1
-}
-levantinegfx = {
-	skin_tone = 1
-}
 egyptiangfx = {
 	skin_tone = 2
 }
 basquegfx = {
 	skin_tone = 0
 }
-southernslavicgfx = {
-	skin_tone = 0
-}
 maghrebgfx = {
 	skin_tone = 2
 }
 sindhigfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 northindiangfx = {
 	skin_tone = 2

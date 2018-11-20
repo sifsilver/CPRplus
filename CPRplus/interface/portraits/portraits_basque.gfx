@@ -1,25 +1,207 @@
 # hair, mouth, chin, nose, eyes, cheek, ear, neck
 spriteTypes = {
-	
+
 ############## Basque ##########################
 
 	spriteType = {
 		name = "PORTRAIT_basquegfx_child_male"
-		texturefile = "gfx\\characters\\default_son_german.tga"
+		texturefile = "gfx\\characters\\default_son_southern.tga"
 		noOfFrames = 1
 		norefcount = yes
+		can_be_lowres = yes
 	}
 	
 	spriteType = {
 		name = "PORTRAIT_basquegfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_german.tga"
+		texturefile = "gfx\\characters\\default_daughter_southern.tga"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_base"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
-	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+	spriteType = {
+		name = "GFX_basque_male_base_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
 
-	# basque Male
+	spriteType = {
+		name = "GFX_basque_male_base_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_basque_male_cheeks"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_basque_male_cheeks_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_basque_male_cheeks_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_neck"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_neck_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_neck_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+
+
+	spriteType = {
+		name = "GFX_basque_male_chin"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_chin_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_chin_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_mouth"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_mouth_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_mouth_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_nose"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_nose_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_nose_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_nose_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_basque_male_nose_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_nose_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_basque_male_eyes"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_eyes_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_eyes_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_eyes2"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_eyes2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_basque_male_ear"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_ear_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_ear_midage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_ear_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_male_ear_oldage"
+		texturefile = "gfx\\characters\\basque_male\\basque_male_ear_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	### BASQUE MALE ####
+	
+	# Basque Male
 	portraitType = {
 		name = "PORTRAIT_basquegfx_male"
 		effectFile = "gfx/FX/portrait.lua"
@@ -27,32 +209,51 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_southern_male_clothes_behind:p3:c0"
 			"GFX_southern_male_headgear_behind:p5:c1"
-			"GFX_southern_male_hair_behind:p1:o3x0:h:y"
-			"GFX_southern_male_beard_behind:p4:o1x-2:h:y"
+			"GFX_frankish_male_overlayer_behind:p31"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_male_hair_behind:p1:h:y"
+			"GFX_southern_male_beard_behind:p4:h:y"
 			":p5:c6"
-			"GFX_german_male_base:p2"
-			"GFX_german_male_neck:d0"
-			"GFX_german_male_chin:d1"
-			"GFX_german_male_cheeks:d4"
-			"GFX_german_male_mouth:d2"
-			"GFX_southern_male_nose:d3:o-1x-1"
-			"GFX_german_male_eyes:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_basque_male_base:p2"
+			"GFX_basque_male_neck:d0"
+			"GFX_basque_male_cheeks:d4"
+			"GFX_basque_male_chin:d1"
+			"GFX_character_frankish_male_physique:p21"
+			"GFX_basque_male_mouth:d2:o75x49"
+			"GFX_basque_male_ear:d7:o27x54"	
+			"GFX_basque_male_nose:d3:o80x65"
+			"GFX_basque_male_eyes:d6:o47x74"
+			"GFX_basque_male_eyes2:d6:e:o74x92"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"
 			"GFX_southern_male_clothes:p3:c2"
 			"GFX_southern_male_headgear_mid:p5:c3"
-			"GFX_german_male_ear:d7"			
-			"GFX_southern_male_beard:p4:o1x-2:h:y"
-		   	"GFX_southern_male_hair:p1:o3x0:h:y"
+			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_southern_male_beard:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+		   	"GFX_southern_male_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_southern_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_male_overlayer:p31"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -78,15 +279,10 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 90 135} #Light Blue
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 95 120 100 } #Grey
-			{ 105 80 65 } #Auburn 
-			{ 82 101 155 } #Blueish
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
+			{ 58 109 193} #Blue
+			{ 120 74 46 } #Brown 01
+			{ 48 37 19 } #Brown 02
+			{ 34 103 36 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -97,35 +293,54 @@ spriteTypes = {
 		name = "PORTRAIT_basquegfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"
+			"GFX_character_background:p0"						#0
 			"GFX_southern_male_clothes_behind:p3:c0"
 			"GFX_southern_male_headgear_behind:p5:c1"
-			"GFX_southern_male_hair_behind_midage:p1:o3x0:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:o1x-2:h:y"
+			"GFX_frankish_male_overlayer_behind:p31"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_male_hair_behind_midage:p1:h:y"
+			"GFX_southern_male_beard_behind_midage:p4:h:y"
 			":p5:c6"
-			"GFX_german_male_base_midage:p2"
-			"GFX_german_male_neck_midage:d0"
-			"GFX_german_male_chin_midage:d1"
-			"GFX_german_male_cheeks_midage:d4"
-			"GFX_german_male_mouth_midage:d2"
-			"GFX_southern_male_nose_midage:d3:o-1x-1"
-			"GFX_german_male_eyes_midage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_basque_male_base_midage:p2"					#5
+			"GFX_basque_male_neck_midage:d0"
+			"GFX_basque_male_cheeks_midage:d4"
+			"GFX_basque_male_chin_midage:d1"
+			"GFX_character_frankish_male_physique:p21"
+			"GFX_basque_male_mouth_midage:d2:o80x51"
+			"GFX_basque_male_ear_midage:d7:o27x54"					#15
+			"GFX_basque_male_nose_midage:d3:o81x65"					#10
+			"GFX_basque_male_eyes_midage:d6:o46x74"
+			"GFX_basque_male_eyes2:d6:e:o74x92"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"
 			"GFX_southern_male_clothes:p3:c2"
 			"GFX_southern_male_headgear_mid:p5:c3"
-			"GFX_german_male_ear_midage:d7"
-			"GFX_southern_male_beard_midage:p4:o1x-2:h:y"
-			"GFX_southern_male_hair_midage:p1:o3x0:h:y"
+			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_southern_male_beard_midage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_southern_male_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_southern_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_male_overlayer:p31"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -141,7 +356,7 @@ spriteTypes = {
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -151,15 +366,10 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 85 90 135} #Light Blue
-			{ 63 40 26 } #Brown
-			{ 56 80 57 } #Green
-			{ 30 22 18 } #Dark Brown 1
-			{ 95 120 100 } #Grey
-			{ 105 80 65 } #Auburn 
-			{ 82 101 155 } #Blueish
-			{ 93 57 35 } #Light Brown
-			{ 54 43 34 } #Dark Brown 2
+			{ 58 109 193} #Blue
+			{ 120 74 46 } #Brown 01
+			{ 48 37 19 } #Brown 02
+			{ 34 103 36 } #Green
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -173,32 +383,51 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_southern_male_clothes_behind:p3:c0"
 			"GFX_southern_male_headgear_behind:p5:c1"
-			"GFX_southern_male_hair_behind_oldage:p1:o3x0:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:o1x-2:h:y"
+			"GFX_frankish_male_overlayer_behind:p31"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_male_hair_behind_oldage:p1:h:y"
+			"GFX_southern_male_beard_behind_oldage:p4:h:y"
 			":p5:c6"
-			"GFX_german_male_base_oldage:p2"
-			"GFX_german_male_neck_oldage:d0"
-			"GFX_german_male_chin_oldage:d1"
-			"GFX_german_male_cheeks_oldage:d4"
-			"GFX_german_male_mouth_oldage:d2"
-			"GFX_southern_male_nose_oldage:d3:o-1x-1"
-			"GFX_german_male_eyes_oldage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_basque_male_base_oldage:p2"
+			"GFX_basque_male_neck_oldage:d0"
+			"GFX_basque_male_cheeks_oldage:d4"
+			"GFX_basque_male_chin_oldage:d1"
+			"GFX_character_frankish_male_physique:p21"
+			"GFX_basque_male_mouth_oldage:d2:o75x52"
+			"GFX_basque_male_ear_oldage:d7:o25x51"
+			"GFX_basque_male_nose_oldage:d3:o80x66"
+			"GFX_basque_male_eyes_oldage:d6:o46x73"
+			"GFX_basque_male_eyes2:d6:e:o74x92"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"
 			"GFX_southern_male_clothes:p3:c2"
 			"GFX_southern_male_headgear_mid:p5:c3"
-			"GFX_german_male_ear_oldage:d7"
-			"GFX_southern_male_beard_oldage:p4:o1x-2:h:y"
-			"GFX_southern_male_hair_oldage:p1:o3x0:h:y"
+			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_southern_male_beard_oldage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_southern_male_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_southern_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_male_overlayer:p31"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -237,8 +466,8 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 10 }
 	}
-	
-	# basque Male early
+
+	# Basque Male
 	portraitType = {
 		name = "PORTRAIT_basquegfx_male_early"
 		effectFile = "gfx/FX/portrait.lua"
@@ -246,32 +475,51 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_southern_male_hair_behind:p1:o3x0:h:y"
-			"GFX_southern_male_beard_behind:p4:o1x-2:h:y"
+			"GFX_frankish_male_overlayer_behind:p31"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_male_hair_behind:p1:h:y"
+			"GFX_southern_male_beard_behind:p4:h:y"
 			":p5:c6"
-			"GFX_german_male_base:p2"
-			"GFX_german_male_neck:d0"
-			"GFX_german_male_chin:d1"
-			"GFX_german_male_cheeks:d4"
-			"GFX_german_male_mouth:d2"
-			"GFX_southern_male_nose:d3:o-1x-1"
-			"GFX_german_male_eyes:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_basque_male_base:p2"
+			"GFX_basque_male_neck:d0"
+			"GFX_basque_male_cheeks:d4"
+			"GFX_basque_male_chin:d1"
+			"GFX_character_frankish_male_physique:p21"
+			"GFX_basque_male_mouth:d2:o75x49"
+			"GFX_basque_male_ear:d7:o27x54"	
+			"GFX_basque_male_nose:d3:o80x65"
+			"GFX_basque_male_eyes:d6:o47x74"
+			"GFX_basque_male_eyes2:d6:e:o74x92"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_german_male_ear:d7"			
-			"GFX_southern_male_beard:p4:o1x-2:h:y"
-		   	"GFX_southern_male_hair:p1:o3x0:h:y"
+			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_southern_male_beard:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+		   	"GFX_southern_male_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_male_overlayer:p31"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -316,35 +564,54 @@ spriteTypes = {
 		name = "PORTRAIT_basquegfx_male_early1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_character_background:p0"
+			"GFX_character_background:p0"						#0
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_southern_male_hair_behind_midage:p1:o3x0:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:o1x-2:h:y"
+			"GFX_frankish_male_overlayer_behind:p31"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_male_hair_behind_midage:p1:h:y"
+			"GFX_southern_male_beard_behind_midage:p4:h:y"
 			":p5:c6"
-			"GFX_german_male_base_midage:p2"
-			"GFX_german_male_neck_midage:d0"
-			"GFX_german_male_chin_midage:d1"
-			"GFX_german_male_cheeks_midage:d4"
-			"GFX_german_male_mouth_midage:d2"
-			"GFX_southern_male_nose_midage:d3:o-1x-1"
-			"GFX_german_male_eyes_midage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_basque_male_base_midage:p2"					#5
+			"GFX_basque_male_neck_midage:d0"
+			"GFX_basque_male_cheeks_midage:d4"
+			"GFX_basque_male_chin_midage:d1"
+			"GFX_character_frankish_male_physique:p21"
+			"GFX_basque_male_mouth_midage:d2:o80x51"
+			"GFX_basque_male_ear_midage:d7:o27x54"					#15
+			"GFX_basque_male_nose_midage:d3:o81x65"					#10
+			"GFX_basque_male_eyes_midage:d6:o46x74"
+			"GFX_basque_male_eyes2:d6:e:o74x92"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_german_male_ear_midage:d7"
-			"GFX_southern_male_beard_midage:p4:o1x-2:h:y"
-			"GFX_southern_male_hair_midage:p1:o3x0:h:y"
+			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_southern_male_beard_midage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_southern_male_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_male_overlayer:p31"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -360,7 +627,7 @@ spriteTypes = {
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -392,32 +659,51 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_western_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
-			"GFX_southern_male_hair_behind_oldage:p1:o3x0:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:o1x-2:h:y"
+			"GFX_frankish_male_overlayer_behind:p31"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_male_hair_behind_oldage:p1:h:y"
+			"GFX_southern_male_beard_behind_oldage:p4:h:y"
 			":p5:c6"
-			"GFX_german_male_base_oldage:p2"
-			"GFX_german_male_neck_oldage:d0"
-			"GFX_german_male_chin_oldage:d1"
-			"GFX_german_male_cheeks_oldage:d4"
-			"GFX_german_male_mouth_oldage:d2"
-			"GFX_southern_male_nose_oldage:d3:o-1x-1"
-			"GFX_german_male_eyes_oldage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_basque_male_base_oldage:p2"
+			"GFX_basque_male_neck_oldage:d0"
+			"GFX_basque_male_cheeks_oldage:d4"
+			"GFX_basque_male_chin_oldage:d1"
+			"GFX_character_frankish_male_physique:p21"
+			"GFX_basque_male_mouth_oldage:d2:o75x52"
+			"GFX_basque_male_ear_oldage:d7:o25x51"
+			"GFX_basque_male_nose_oldage:d3:o80x66"
+			"GFX_basque_male_eyes_oldage:d6:o46x73"
+			"GFX_basque_male_eyes2:d6:e:o74x92"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_german_male_ear_oldage:d7"
-			"GFX_southern_male_beard_oldage:p4:o1x-2:h:y"
-			"GFX_southern_male_hair_oldage:p1:o3x0:h:y"
+			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_southern_male_beard_oldage:p4:h:y"
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_southern_male_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_western_male_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_male_overlayer:p31"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -456,39 +742,243 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 10 }
 	}
+
+
+	#### Basque FEMALE ####
+
+	spriteType = {
+		name = "GFX_basque_female_base"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_base_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_base_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
 	
-	# basque Female
+	spriteType = {
+		name = "GFX_basque_female_cheeks"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_basque_female_cheeks_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_basque_female_cheeks_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_neck"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_neck_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_neck_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_basque_female_chin"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_chin_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_chin_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_mouth"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_mouth_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_mouth_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_nose"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_nose_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_nose_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_nose_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_basque_female_nose_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_nose_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_basque_female_eyes"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_eyes_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_eyes_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_eyes2"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_eyes2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_basque_female_ear"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_ear_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_ear_midage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_ear_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_basque_female_ear_oldage"
+		texturefile = "gfx\\characters\\basque_female\\basque_female_ear_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	# Basque Female
 	portraitType = {
 		name = "PORTRAIT_basquegfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
+			"GFX_frankish_female_undermain_behind:p33"
+			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_southern_female_clothes_behind:p3:c0"
 			"GFX_southern_female_headgear_behind:p5:c1"
-			"GFX_southern_female_hair_behind:o-1x1:p1:h:y"
+			"GFX_frankish_female_overlayer_behind:p32"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_female_hair_behind:p1:h:y"
 			":p5:c6"
-			"GFX_german_female_base:p2"
-			"GFX_german_female_neck:d0"
-			"GFX_german_female_chin:d1"
-			"GFX_german_female_cheeks:d4"
-			"GFX_german_female_mouth:d2"
-			"GFX_southern_female_nose:d3:o-2x-1"
-			"GFX_german_female_eyes:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_basque_female_base:p2"
+			"GFX_basque_female_neck:d0"
+			"GFX_basque_female_cheeks:d4"
+			"GFX_basque_female_chin:d1"
+			"GFX_character_frankish_female_physique:p21"  
+			"GFX_basque_female_mouth:d2:o72x48"
+			"GFX_basque_female_nose:d3:o80x65"
+			"GFX_basque_female_eyes:d6:o49x79"
+			"GFX_basque_female_eyes2:d6:e:o72x88"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"       
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_female_clothes:p3:c2"
-			"GFX_german_female_ear:d7"
+			"GFX_basque_female_ear:d7:o28x54"
 			"GFX_southern_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair:o-1x1:p1:h:y"
+			"GFX_southern_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
+			"GFX_frankish_female_undermain_hair:p33:h"
+			"GFX_frankish_female_undermain:p33"
 			"GFX_southern_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_female_overlayer:p32"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -525,41 +1015,63 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 9 10 }
 	}
 
-	# basque female midage
+	# Basque female midage
 	portraitType = {
 		name = "PORTRAIT_basquegfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
+			"GFX_frankish_female_undermain_behind:p33"
+			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_southern_female_clothes_behind:p3:c0"
 			"GFX_southern_female_headgear_behind:p5:c1"
-			"GFX_southern_female_hair_behind_midage:o-1x1:p1:h:y"
+			"GFX_frankish_female_overlayer_behind:p32"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
-			"GFX_german_female_base_midage:p2"
-			"GFX_german_female_neck_midage:d0"
-			"GFX_german_female_chin_midage:d1"
-			"GFX_german_female_cheeks_midage:d4"
-			"GFX_german_female_mouth_midage:d2"
-			"GFX_southern_female_nose_midage:d3:o-2x-1"			
-			"GFX_german_female_eyes_midage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_basque_female_base_midage:p2"
+			"GFX_basque_female_neck_midage:d0"
+			"GFX_basque_female_cheeks_midage:d4"
+			"GFX_basque_female_chin_midage:d1"
+			"GFX_character_frankish_female_physique:p21"  
+			"GFX_basque_female_mouth_midage:d2:o72x49"
+			"GFX_basque_female_nose_midage:d3:o80x64"			
+			"GFX_basque_female_eyes_midage:d6:o46x76"
+			"GFX_basque_female_eyes2:d6:e:o72x88"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_southern_female_clothes:p3:c2"		
-			"GFX_german_female_ear_midage:d7"
+			"GFX_character_possessed:p30"       
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_southern_female_clothes:p3:c2"			
+			"GFX_basque_female_ear_midage:d7:o28x54"
 			"GFX_southern_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair_midage:o-1x1:p1:h:y"
+			"GFX_southern_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
+			"GFX_frankish_female_undermain_hair:p33:h"
+			"GFX_frankish_female_undermain:p33"
 			"GFX_southern_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_female_overlayer:p32"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -596,41 +1108,63 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 9 10 }
 	}
 
-	# basque female oldage
+	# Basque female oldage
 	portraitType = {
 		name = "PORTRAIT_basquegfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
+			"GFX_frankish_female_undermain_behind:p33"
+			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_southern_female_clothes_behind:p3:c0"
 			"GFX_southern_female_headgear_behind:p5:c1"
-			"GFX_southern_female_hair_behind_oldage:o-1x1:p1:y"
+			"GFX_frankish_female_overlayer_behind:p32"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
-			"GFX_german_female_base_oldage:p2"
-			"GFX_german_female_neck_oldage:d0"
-			"GFX_german_female_chin_oldage:d1"
-			"GFX_german_female_cheeks_oldage:d4"
-			"GFX_german_female_mouth_oldage:d2"
-			"GFX_southern_female_nose_oldage:d3:o-2x-1"			
-			"GFX_german_female_eyes_oldage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_basque_female_base_oldage:p2"
+			"GFX_basque_female_neck_oldage:d0"
+			"GFX_basque_female_cheeks_oldage:d4"
+			"GFX_basque_female_chin_oldage:d1"
+			"GFX_character_frankish_female_physique:p21"  
+			"GFX_basque_female_mouth_oldage:d2:o72x50"
+			"GFX_basque_female_nose_oldage:d3:o79x64"			
+			"GFX_basque_female_eyes_oldage:d6:o47x74"
+			"GFX_basque_female_eyes2:d6:e:o72x88"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_southern_female_clothes:p3:c2"		
-			"GFX_german_female_ear_oldage:d7"
+			"GFX_character_possessed:p30"       
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_southern_female_clothes:p3:c2"			
+			"GFX_basque_female_ear_oldage:d7:o28x54"
 			"GFX_southern_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair_oldage:o-1x1:p1:y"
+			"GFX_southern_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
+			"GFX_frankish_female_undermain_hair:p33:h"
+			"GFX_frankish_female_undermain:p33"
 			"GFX_southern_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_female_overlayer:p32"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -668,41 +1202,63 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 9 10 }
 	}
-	
-	# basque Female early
+
+	# Basque Female
 	portraitType = {
 		name = "PORTRAIT_basquegfx_female_early"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
+			"GFX_frankish_female_undermain_behind:p33"
+			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
-			"GFX_southern_female_hair_behind:o-1x1:p1:h:y"
+			"GFX_frankish_female_overlayer_behind:p32"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_female_hair_behind:p1:h:y"
 			":p5:c6"
-			"GFX_german_female_base:p2"
-			"GFX_german_female_neck:d0"
-			"GFX_german_female_chin:d1"
-			"GFX_german_female_cheeks:d4"
-			"GFX_german_female_mouth:d2"
-			"GFX_southern_female_nose:d3:o-2x-1"
-			"GFX_german_female_eyes:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_basque_female_base:p2"
+			"GFX_basque_female_neck:d0"
+			"GFX_basque_female_cheeks:d4"
+			"GFX_basque_female_chin:d1"
+			"GFX_character_frankish_female_physique:p21"  
+			"GFX_basque_female_mouth:d2:o72x48"
+			"GFX_basque_female_nose:d3:o80x65"
+			"GFX_basque_female_eyes:d6:o49x79"
+			"GFX_basque_female_eyes2:d6:e:o72x88"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
+			"GFX_character_possessed:p30"       
+			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_german_female_ear:d7"
+			"GFX_basque_female_ear:d7:o28x54"
 			"GFX_empty:p5:c3"
-			"GFX_southern_female_hair:o-1x1:p1:h:y"
+			"GFX_southern_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
+			"GFX_frankish_female_undermain_hair:p33:h"
+			"GFX_frankish_female_undermain:p33"
 			"GFX_western_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_female_overlayer:p32"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -739,41 +1295,63 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 9 10 }
 	}
 
-	# basque female midage
+	# Basque female midage
 	portraitType = {
 		name = "PORTRAIT_basquegfx_female_early1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
+			"GFX_frankish_female_undermain_behind:p33"
+			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
-			"GFX_southern_female_hair_behind_midage:o-1x1:p1:h:y"
+			"GFX_frankish_female_overlayer_behind:p32"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
-			"GFX_german_female_base_midage:p2"
-			"GFX_german_female_neck_midage:d0"
-			"GFX_german_female_chin_midage:d1"
-			"GFX_german_female_cheeks_midage:d4"
-			"GFX_german_female_mouth_midage:d2"
-			"GFX_southern_female_nose_midage:d3:o-2x-1"			
-			"GFX_german_female_eyes_midage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_basque_female_base_midage:p2"
+			"GFX_basque_female_neck_midage:d0"
+			"GFX_basque_female_cheeks_midage:d4"
+			"GFX_basque_female_chin_midage:d1"
+			"GFX_character_frankish_female_physique:p21"  
+			"GFX_basque_female_mouth_midage:d2:o72x49"
+			"GFX_basque_female_nose_midage:d3:o80x64"			
+			"GFX_basque_female_eyes_midage:d6:o46x76"
+			"GFX_basque_female_eyes2:d6:e:o72x88"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes_early:p3:c2"		
-			"GFX_german_female_ear_midage:d7"
+			"GFX_character_possessed:p30"       
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_western_female_clothes_early:p3:c2"			
+			"GFX_basque_female_ear_midage:d7:o28x54"
 			"GFX_empty:p5:c3"
-			"GFX_southern_female_hair_midage:o-1x1:p1:h:y"
+			"GFX_southern_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
+			"GFX_frankish_female_undermain_hair:p33:h"
+			"GFX_frankish_female_undermain:p33"
 			"GFX_western_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_female_overlayer:p32"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -810,41 +1388,63 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 9 10 }
 	}
 
-	# basque female oldage
+	# Basque female oldage
 	portraitType = {
 		name = "PORTRAIT_basquegfx_female_early2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
+			"GFX_frankish_female_undermain_behind:p33"
+			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_western_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
-			"GFX_southern_female_hair_behind_oldage:o-1x1:p1:y"
+			"GFX_frankish_female_overlayer_behind:p32"
+			"GFX_character_special_crowns_behind:p18"
+			"GFX_southern_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
-			"GFX_german_female_base_oldage:p2"
-			"GFX_german_female_neck_oldage:d0"
-			"GFX_german_female_chin_oldage:d1"
-			"GFX_german_female_cheeks_oldage:d4"
-			"GFX_german_female_mouth_oldage:d2"
-			"GFX_southern_female_nose_oldage:d3:o-2x-1"			
-			"GFX_german_female_eyes_oldage:d6"
-			"GFX_german_female_eyes2:d6:e"
+			"GFX_basque_female_base_oldage:p2"
+			"GFX_basque_female_neck_oldage:d0"
+			"GFX_basque_female_cheeks_oldage:d4"
+			"GFX_basque_female_chin_oldage:d1"
+			"GFX_character_frankish_female_physique:p21"  
+			"GFX_basque_female_mouth_oldage:d2:o72x50"
+			"GFX_basque_female_nose_oldage:d3:o79x64"			
+			"GFX_basque_female_eyes_oldage:d6:o47x74"
+			"GFX_basque_female_eyes2:d6:e:o72x88"
+			"GFX_character_freckles:p20"
+			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
+			"GFX_character_scars_mid:p25"
+			"GFX_character_scars_high:p26"
+			"GFX_character_black_eye:p23"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
+			"GFX_character_tattoos:p28"
+			"GFX_character_warpaint:p29"
+			"GFX_character_harelip_frankish:p24"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o30x63"
-			"GFX_western_female_clothes_early:p3:c2"		
-			"GFX_german_female_ear_oldage:d7"
+			"GFX_character_possessed:p30"       
+			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_western_female_clothes_early:p3:c2"			
+			"GFX_basque_female_ear_oldage:d7:o28x54"
 			"GFX_empty:p5:c3"
-			"GFX_southern_female_hair_oldage:o-1x1:p1:y"
+			"GFX_southern_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
+			"GFX_frankish_female_undermain_hair:p33:h"
+			"GFX_frankish_female_undermain:p33"
 			"GFX_western_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
+			"GFX_frankish_female_overlayer:p32"
+			"GFX_character_special_crowns:p19"
+			"GFX_character_special_helmets:p34"
+			"GFX_character_special_masks:p35"
+			"GFX_character_special_scepters:p36"
+			"GFX_character_blood_splatter:p27"
+			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
 
@@ -882,7 +1482,8 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 9 10 }
 	}
-	
+
 }
+

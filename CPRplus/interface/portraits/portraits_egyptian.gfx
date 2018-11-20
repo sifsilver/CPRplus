@@ -18,24 +18,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_egyptian_male_headgear_behind"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_headgear_behind.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_egyptian_male_headgear"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_headgear.dds"
-		noOfFrames = 12
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_egyptian_male_base"
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -43,6 +30,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_base_2.dds"
 		noOfFrames = 1
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -50,28 +38,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_base_3.dds"
 		noOfFrames = 1
 		norefcount = yes
-	}
-
-	
-	spriteType = {
-		name = "GFX_egyptian_male_cheeks"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_cheeks_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_egyptian_male_cheeks_midage"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_cheeks_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_egyptian_male_cheeks_oldage"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_cheeks_3.dds"
-		noOfFrames = 10
-		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -79,6 +46,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_neck_1.dds"
 		noOfFrames = 4
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -86,6 +54,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_neck_2.dds"
 		noOfFrames = 4
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -93,6 +62,32 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_neck_3.dds"
 		noOfFrames = 4
 		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_cheeks"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+
+	spriteType = {
+		name = "GFX_egyptian_male_cheeks_midage"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_cheeks_oldage"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -100,6 +95,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_chin_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -107,6 +103,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_chin_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -114,6 +111,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_chin_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -121,6 +119,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_mouth_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -128,6 +127,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_mouth_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -135,34 +135,23 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_mouth_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
-	spriteType = {
-		name = "GFX_egyptian_male_nose"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_nose_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_egyptian_male_nose_midage"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_nose_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_egyptian_male_nose_oldage"
-		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_nose_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
+#	spriteType = {
+#		name = "GFX_egyptian_male_head"
+#		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_head_1.dds"
+#		noOfFrames = 3
+#		norefcount = yes
+#		can_be_lowres = yes
+#	}
 
 	spriteType = {
 		name = "GFX_egyptian_male_eyes"
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_eyes_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -170,6 +159,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_eyes_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -177,54 +167,117 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_eyes_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
+	spriteType = {
+		name = "GFX_egyptian_male_nose"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_nose_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_nose_midage"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_nose_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_nose_oldage"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_nose_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_ear"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_ear_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_ear_midage"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_ear_2.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_male_ear_oldage"
+		texturefile = "gfx\\characters\\egyptian_male\\egyptian_male_ear_3.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_muslim_male_headgear_behind"
+		texturefile = "gfx\\characters\\egyptian_male\\muslim_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_muslim_male_headgear"
+		texturefile = "gfx\\characters\\egyptian_male\\muslim_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 	
 
 
-	# egyptian Male
+		# Egyptian male
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_male"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_character_background:p0"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"						#0
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_egyptian_male_headgear_behind:p5:c1"
+			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:h:y"
-			"GFX_muslim_male_beard_behind:p4:h:y:o0x-2"
-			":p5:c6"			"GFX_egyptian_male_base:p2"
+			"GFX_muslim_male_beard_behind:p4:h:y"
+			":p5:c6"
+			"GFX_egyptian_male_base:p2"							#5
 			"GFX_egyptian_male_neck:d0"
+			"GFX_egyptian_male_cheeks:d4"		
 			"GFX_egyptian_male_chin:d1"
-			"GFX_egyptian_male_cheeks:d4"
-			"GFX_egyptian_male_mouth:d2"
+			"GFX_egyptian_male_mouth:d2:o73x46"
+			"GFX_egyptian_male_nose:d3:o80x66"
 			"GFX_egyptian_male_eyes:d6"
 			"GFX_english_male_eyes2:d6:e"
-			"GFX_egyptian_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_male_clothes:p3:c2"
-			"GFX_empty:p5:c3"
-			"GFX_maghreb_male_ear:d7:o5x0"			
-			"GFX_muslim_male_beard:p4:h:y:o0x-2"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_empty:p5:c3"										#10
+			"GFX_muslim_male_beard:p4:h:y"
+			"GFX_egyptian_male_ear:d7:o24x48"							#15
 			"GFX_muslim_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_egyptian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"											#20
+			"GFX_muslim_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -234,7 +287,7 @@ spriteTypes = {
  			{ 115 80 28 } #Light Brown 
  			{ 166 163 111 } #Lighter Brown 
  			{ 140 166 111 } #Green 
- 			{ 159 163 171 } #silver  
+ 			{ 159 163 171 } #silver 
  			{ 86 74 46 } #Second Brown 
  			{ 55 30 15 } #Dark Brown 
  			{ 105 80 65 } #Auburn  
@@ -244,48 +297,49 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
-	
-	# middle age
+
+	# Egyptian male midage
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_egyptian_male_headgear_behind:p5:c1"
+			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:h:y"
-			"GFX_muslim_male_beard_behind_midage:p4:h:y:o0x-2"
-			":p5:c6"			"GFX_egyptian_male_base_midage:p2"
+			"GFX_muslim_male_beard_behind_midage:p4:h:y"
+			":p5:c6"
+			"GFX_egyptian_male_base_midage:p2"
 			"GFX_egyptian_male_neck_midage:d0"
-			"GFX_egyptian_male_chin_midage:d1"
 			"GFX_egyptian_male_cheeks_midage:d4"
-			"GFX_egyptian_male_mouth_midage:d2"
-			"GFX_egyptian_male_nose_midage:d3"
+			"GFX_egyptian_male_chin_midage:d1"
+			"GFX_egyptian_male_mouth_midage:d2:o73x46"			
+			"GFX_egyptian_male_nose_midage:d3:o80x65"
 			"GFX_egyptian_male_eyes_midage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_male_clothes:p3:c2"
-			"GFX_empty:p5:c3"	
-			"GFX_maghreb_male_ear_midage:d7:o5x0"
-			"GFX_muslim_male_beard_midage:p4:h:y:o0x-2"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_empty:p5:c3"
+			"GFX_muslim_male_beard_midage:p4:h:y"
+			"GFX_egyptian_male_ear_midage:d7:o25x53"
 			"GFX_muslim_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_egyptian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_muslim_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -305,48 +359,49 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
 	}
-	
-	# old age
+
+	# Egyptian male oldage
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_muslim_male_clothes_behind:p3:c0"
-			"GFX_egyptian_male_headgear_behind:p5:c1"
+			"GFX_muslim_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
-			"GFX_muslim_male_beard_behind_oldage:p4:h:y:o0x-2"
-			":p5:c6"			"GFX_egyptian_male_base_oldage:p2"
+			"GFX_muslim_male_beard_behind_oldage:p4:h:y"
+			":p5:c6"
+			"GFX_egyptian_male_base_oldage:p2"
 			"GFX_egyptian_male_neck_oldage:d0"
-			"GFX_egyptian_male_chin_oldage:d1"
 			"GFX_egyptian_male_cheeks_oldage:d4"
-			"GFX_egyptian_male_mouth_oldage:d2"
-			"GFX_egyptian_male_nose_oldage:d3"
+			"GFX_egyptian_male_chin_oldage:d1"
+			"GFX_egyptian_male_mouth_oldage:d2:o74x46"			
+			"GFX_egyptian_male_nose_oldage:d3:o80x66"
 			"GFX_egyptian_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_male_clothes:p3:c2"
-			"GFX_empty:p5:c3"	
-			"GFX_maghreb_male_ear_oldage:d7:o5x0"
-			"GFX_muslim_male_beard_oldage:p4:h:y:o0x-2"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_empty:p5:c3"
+			"GFX_muslim_male_beard_oldage:p4:h:y"
+			"GFX_egyptian_male_ear_oldage:d7:o23x50"
 			"GFX_muslim_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_egyptian_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_muslim_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
-			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 167 160 147 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -374,6 +429,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -381,6 +437,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_base_2.dds"
 		noOfFrames = 1
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -388,28 +445,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_base_3.dds"
 		noOfFrames = 1
 		norefcount = yes
-	}
-
-	
-	spriteType = {
-		name = "GFX_egyptian_female_cheeks"
-		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_cheeks_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_egyptian_female_cheeks_midage"
-		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_cheeks_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_egyptian_female_cheeks_oldage"
-		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_cheeks_3.dds"
-		noOfFrames = 10
-		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -417,6 +453,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_neck_1.dds"
 		noOfFrames = 4
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -424,6 +461,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_neck_2.dds"
 		noOfFrames = 4
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -431,14 +469,39 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_neck_3.dds"
 		noOfFrames = 4
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
+	spriteType = {
+		name = "GFX_egyptian_female_cheeks"
+		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_female_cheeks_midage"
+		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_female_cheeks_oldage"
+		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
 
 	spriteType = {
 		name = "GFX_egyptian_female_chin"
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_chin_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -446,6 +509,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_chin_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -453,6 +517,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_chin_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -460,6 +525,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_mouth_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -467,6 +533,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_mouth_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -474,6 +541,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_mouth_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -481,6 +549,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_nose_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -488,20 +557,31 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_nose_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
-	
+
 	spriteType = {
 		name = "GFX_egyptian_female_nose_oldage"
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_nose_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
+
+#	spriteType = {
+#		name = "GFX_egyptian_female_head"
+#		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_head_1.dds"
+#		noOfFrames = 3
+#		norefcount = yes
+#		can_be_lowres = yes
+#	}
 
 	spriteType = {
 		name = "GFX_egyptian_female_eyes"
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_eyes_1.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -509,6 +589,7 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_eyes_2.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	spriteType = {
@@ -516,49 +597,76 @@ spriteTypes = {
 		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_eyes_3.dds"
 		noOfFrames = 10
 		norefcount = yes
+		can_be_lowres = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_egyptian_female_ear"
+		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_ear_1.dds"
+		noOfFrames = 6
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_female_ear_midage"
+		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_ear_2.dds"
+		noOfFrames = 6
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_egyptian_female_ear_oldage"
+		texturefile = "gfx\\characters\\egyptian_female\\egyptian_female_ear_3.dds"
+		noOfFrames = 6
+		norefcount = yes
+		can_be_lowres = yes
 	}
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-	# egyptian female
+	# Muslim female
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_female"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_character_background:p0"
-			"GFX_muslim_female_clothes_behind:p3:c0"
-			"GFX_muslim_female_headgear_behind:p5:c1"
-			"GFX_muslim_female_hair_behind:p1:h:y" 
-			":p5:c6"			"GFX_egyptian_female_base:p2"
-			"GFX_egyptian_female_neck:d0"
-			"GFX_egyptian_female_chin:d1"
-			"GFX_egyptian_female_cheeks:d4"
-			"GFX_egyptian_female_mouth:d2"
-			"GFX_maghreb_female_ear:d7"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"                    #0
+			"GFX_muslim_female_clothes_behind:p3:c0"            
+			"GFX_muslim_female_headgear_behind:p5:c1"           
+			"GFX_muslim_female_hair_behind:p1:h:y"           
+			":p5:c6"
+			"GFX_egyptian_female_base:p2"                      
+			"GFX_egyptian_female_neck:d0"                      #5            
 			"GFX_egyptian_female_eyes:d6"                      #10
-			"GFX_german_female_eyes2:d6:e"
-			"GFX_egyptian_female_nose:d3"
-			"GFX_character_scars:p7:y"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_german_female_eyes2:d6:e"                     
+			"GFX_egyptian_female_nose:d3:o78x64"                      
+			"GFX_egyptian_female_cheeks:d4"
+			"GFX_egyptian_female_mouth:d2:o74x49"           
+			"GFX_egyptian_female_chin:d1"                   
+			"GFX_egyptian_female_ear:d7:o28x51"                  
+			"GFX_character_scars:p7:y"                         #15
+			"GFX_character_reddots:p8"                       
+			"GFX_character_boils:p9"                                            
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_muslim_female_clothes:p3:c2"
+			"GFX_character_eyepatch:p13:y:o31x63"
+			"GFX_muslim_female_clothes:p3:c2"                   
 			"GFX_empty:p5:c3"
-			"GFX_muslim_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			"GFX_muslim_female_hair:p1:h:y"                         
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_muslim_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
-		}
+			"GFX_muslim_female_headgear:p5:c5"               #20
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}                                                    
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -583,41 +691,42 @@ spriteTypes = {
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_egyptian_female_base_midage:p2"
+			":p5:c6"
+			"GFX_egyptian_female_base_midage:p2"
 			"GFX_egyptian_female_neck_midage:d0"
-			"GFX_egyptian_female_chin_midage:d1"
-			"GFX_egyptian_female_cheeks_midage:d4"
-			"GFX_egyptian_female_mouth_midage:d2"
-			"GFX_maghreb_female_ear_midage:d7"
 			"GFX_egyptian_female_eyes_midage:d6"
 			"GFX_german_female_eyes2:d6:e"
-			"GFX_egyptian_female_nose_midage:d3"
+			"GFX_egyptian_female_nose_midage:d3:o79x61"
+			"GFX_egyptian_female_cheeks_midage:d4"
+			"GFX_egyptian_female_mouth_midage:d2:o74x52"
+			"GFX_egyptian_female_chin_midage:d1"
+			"GFX_egyptian_female_ear_midage:d7:o28x52"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_muslim_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -642,42 +751,42 @@ spriteTypes = {
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_egyptian_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_egyptian_female_base_oldage:p2"
 			"GFX_egyptian_female_neck_oldage:d0"
-			"GFX_egyptian_female_chin_oldage:d1"
-			"GFX_egyptian_female_cheeks_oldage:d4"
-			"GFX_egyptian_female_mouth_oldage:d2"
-			"GFX_maghreb_female_ear_oldage:d7"
 			"GFX_egyptian_female_eyes_oldage:d6"
 			"GFX_german_female_eyes2:d6:e"
-			"GFX_egyptian_female_nose_oldage:d3"
+			"GFX_egyptian_female_nose_oldage:d3:o79x61"
+			"GFX_egyptian_female_cheeks_oldage:d4"
+			"GFX_egyptian_female_mouth_oldage:d2:o74x52"
+			"GFX_egyptian_female_chin_oldage:d1"
+			"GFX_egyptian_female_ear_oldage:d7:o28x60"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_muslim_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
-			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 167 160 147 } { 255 255 255 }
-		
 		}
 
 		eye_color_index = 9
@@ -696,7 +805,7 @@ spriteTypes = {
 		}
 		
 		headgear_that_hides_hair = { 8 10 }
-	}		
+	}	
 	
 	############## egyptian Early ##########################
 
@@ -710,12 +819,13 @@ spriteTypes = {
 			"GFX_muslim_male_headgear_behind_early:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:h:y"
 			"GFX_muslim_male_beard_behind:p4:h:y:o0x-2"
-			":p5:c6"			"GFX_egyptian_male_base:p2"
+			":p5:c6"
+			"GFX_egyptian_male_base:p2"
 			"GFX_egyptian_male_neck:d0"
 			"GFX_egyptian_male_chin:d1"
 			"GFX_egyptian_male_cheeks:d4"
-			"GFX_egyptian_male_mouth:d2"
-			"GFX_egyptian_male_nose:d3"
+			"GFX_egyptian_male_mouth:d2:o73x46"
+			"GFX_egyptian_male_nose:d3:o80x66"
 			"GFX_egyptian_male_eyes:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -724,11 +834,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"	
-			"GFX_maghreb_male_ear:d7:o5x0"			
+			"GFX_maghreb_male_ear:d7:o24x48"			
 			"GFX_muslim_male_beard:p4:h:y:o0x-2"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_muslim_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -771,12 +882,13 @@ spriteTypes = {
 			"GFX_muslim_male_headgear_behind_early:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:h:y"
 			"GFX_muslim_male_beard_behind_midage:p4:h:y:o0x-2"
-			":p5:c6"			"GFX_egyptian_male_base_midage:p2"
+			":p5:c6"
+			"GFX_egyptian_male_base_midage:p2"
 			"GFX_egyptian_male_neck_midage:d0"
 			"GFX_egyptian_male_chin_midage:d1"
 			"GFX_egyptian_male_cheeks_midage:d4"
-			"GFX_egyptian_male_mouth_midage:d2"
-			"GFX_egyptian_male_nose_midage:d3"
+			"GFX_egyptian_male_mouth_midage:d2:o73x46"
+			"GFX_egyptian_male_nose_midage:d3:o80x65"
 			"GFX_egyptian_male_eyes_midage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -785,11 +897,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"	
-			"GFX_maghreb_male_ear_midage:d7:o5x0"
+			"GFX_maghreb_male_ear_midage:d7:o25x53"
 			"GFX_muslim_male_beard_midage:p4:h:y:o0x-2"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -832,12 +945,13 @@ spriteTypes = {
 			"GFX_muslim_male_headgear_behind_early:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:h:y:o0x-2"
-			":p5:c6"			"GFX_egyptian_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_egyptian_male_base_oldage:p2"
 			"GFX_egyptian_male_neck_oldage:d0"
 			"GFX_egyptian_male_chin_oldage:d1"
 			"GFX_egyptian_male_cheeks_oldage:d4"
-			"GFX_egyptian_male_mouth_oldage:d2"
-			"GFX_egyptian_male_nose_oldage:d3"
+			"GFX_egyptian_male_mouth_oldage:d2:o74x46"
+			"GFX_egyptian_male_nose_oldage:d3:o80x66"
 			"GFX_egyptian_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
@@ -846,11 +960,12 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"	
-			"GFX_maghreb_male_ear_oldage:d7:o5x0"
+			"GFX_maghreb_male_ear_oldage:d7:o23x50"
 			"GFX_muslim_male_beard_oldage:p4:h:y:o0x-2"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear_early:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -887,45 +1002,234 @@ spriteTypes = {
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-	# egyptian female
+	# Egyptian male
 	portraitType = {
-		name = "PORTRAIT_egyptiangfx_female_early"
+		name = "PORTRAIT_egyptiangfx_male_early"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_character_background:p0"
-			"GFX_muslim_female_clothes_behind_early:p3:c0"
-			"GFX_muslim_female_headgear_behind_early:p5:c1"
-			"GFX_muslim_female_hair_behind:p1:h:y" 
-			":p5:c6"			"GFX_egyptian_female_base:p2"
-			"GFX_egyptian_female_neck:d0"
-			"GFX_egyptian_female_chin:d1"
-			"GFX_egyptian_female_cheeks:d4"
-			"GFX_egyptian_female_mouth:d2"
-			"GFX_maghreb_female_ear:d7"
-			"GFX_egyptian_female_eyes:d6"                      #10
-			"GFX_german_female_eyes2:d6:e"
-			"GFX_egyptian_female_nose:d3"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"						
+			"GFX_muslim_male_clothes_behind_early:p3:c0"
+			"GFX_muslim_male_headgear_behind_early:p5:c1"
+			"GFX_muslim_male_hair_behind:p1:h:y"
+			"GFX_muslim_male_beard_behind:p4:h:y"
+			":p5:c6"
+			"GFX_egyptian_male_base:p2"							
+			"GFX_egyptian_male_neck:d0"
+			"GFX_egyptian_male_cheeks:d4"		
+			"GFX_egyptian_male_chin:d1"
+			"GFX_egyptian_male_mouth:d2:o73x46"
+			"GFX_egyptian_male_nose:d3:o80x66"
+			"GFX_egyptian_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_muslim_female_clothes_early:p3:c2"
-			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_muslim_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
-			"GFX_empty:p3:c4"
-			"GFX_muslim_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_character_eyepatch:p13:y:o31x63"
+			"GFX_muslim_male_clothes_early:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_muslim_male_beard:p4:h:y"
+			"GFX_egyptian_male_ear:d7:o24x48"							
+			"GFX_muslim_male_hair:p1:h:y"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"											
+			"GFX_muslim_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown 
+ 			{ 115 103 73 } #brown2 
+ 			{ 115 80 28 } #Light Brown 
+ 			{ 166 163 111 } #Lighter Brown 
+ 			{ 140 166 111 } #Green 
+ 			{ 159 163 171 } #silver  
+ 			{ 86 74 46 } #Second Brown 
+ 			{ 55 30 15 } #Dark Brown 
+ 			{ 105 80 65 } #Auburn  
+ 			{ 158 101 45 } #Auburn2  
+ 			{ 185 162 137 } #skin
+		}
+		
+		headgear_that_hides_hair = { 12 5 6 7 9 }
+	}
+
+	# Egyptian male midage
+	portraitType = {
+		name = "PORTRAIT_egyptiangfx_male_early1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_muslim_male_clothes_behind_early:p3:c0"
+			"GFX_muslim_male_headgear_behind_early:p5:c1"
+			"GFX_muslim_male_hair_behind_midage:p1:h:y"
+			"GFX_muslim_male_beard_behind_midage:p4:h:y"
+			":p5:c6"
+			"GFX_egyptian_male_base_midage:p2"
+			"GFX_egyptian_male_neck_midage:d0"
+			"GFX_egyptian_male_cheeks_midage:d4"
+			"GFX_egyptian_male_chin_midage:d1"
+			"GFX_egyptian_male_mouth_midage:d2:o73x46"
+			"GFX_egyptian_male_nose_midage:d3:o80x65"
+			"GFX_egyptian_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o31x63"
+			"GFX_muslim_male_clothes_early:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_muslim_male_beard_midage:p4:h:y"
+			"GFX_egyptian_male_ear_midage:d7:o25x53"
+			"GFX_muslim_male_hair_midage:p1:h:y"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_muslim_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown 
+ 			{ 115 103 73 } #brown2 
+ 			{ 115 80 28 } #Light Brown 
+ 			{ 166 163 111 } #Lighter Brown 
+ 			{ 140 166 111 } #Green 
+ 			{ 159 163 171 } #silver  
+ 			{ 86 74 46 } #Second Brown 
+ 			{ 55 30 15 } #Dark Brown 
+ 			{ 105 80 65 } #Auburn  
+ 			{ 158 101 45 } #Auburn2  
+ 			{ 185 162 137 } #skin
+		}
+		
+		headgear_that_hides_hair = { 12 5 6 7 9 }
+	}
+
+	# Egyptian male oldage
+	portraitType = {
+		name = "PORTRAIT_egyptiangfx_male_early2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"
+			"GFX_muslim_male_clothes_behind_early:p3:c0"
+			"GFX_muslim_male_headgear_behind_early:p5:c1"
+			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
+			"GFX_muslim_male_beard_behind_oldage:p4:h:y"
+			":p5:c6"
+			"GFX_egyptian_male_base_oldage:p2"
+			"GFX_egyptian_male_neck_oldage:d0"
+			"GFX_egyptian_male_cheeks_oldage:d4"
+			"GFX_egyptian_male_chin_oldage:d1"
+			"GFX_egyptian_male_mouth_oldage:d2:o74x46"
+			"GFX_egyptian_male_nose_oldage:d3:o80x66"
+			"GFX_egyptian_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o31x63"
+			"GFX_muslim_male_clothes_early:p3:c2"
+			"GFX_empty:p5:c3"			
+			"GFX_muslim_male_beard_oldage:p4:h:y"
+			"GFX_egyptian_male_ear_oldage:d7:o23x50"
+			"GFX_muslim_male_hair_oldage:p1:h:y"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_muslim_male_headgear_early:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 120 74 46 } #Brown 
+ 			{ 115 103 73 } #brown2 
+ 			{ 115 80 28 } #Light Brown 
+ 			{ 166 163 111 } #Lighter Brown 
+ 			{ 140 166 111 } #Green 
+ 			{ 159 163 171 } #silver  
+ 			{ 86 74 46 } #Second Brown 
+ 			{ 55 30 15 } #Dark Brown 
+ 			{ 105 80 65 } #Auburn  
+ 			{ 158 101 45 } #Auburn2  
+ 			{ 185 162 137 } #skin
+		}
+		
+		headgear_that_hides_hair = { 12 5 6 7 9 }
+	}
+	
+	### Egyptian FEMALE ####
+
+	# Egyptian female
+	portraitType = {
+		name = "PORTRAIT_egyptiangfx_female_early"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_character_background:p0"                    
+			"GFX_muslim_female_clothes_behind_early:p3:c0"            
+			"GFX_muslim_female_headgear_behind_early:p5:c1"           
+			"GFX_muslim_female_hair_behind:p1:h:y"           
+			":p5:c6"
+			"GFX_egyptian_female_base:p2"                      
+			"GFX_egyptian_female_neck:d0"                    
+			"GFX_egyptian_female_eyes:d6" 
+			"GFX_german_female_eyes2:d6:e"                       
+			"GFX_egyptian_female_nose:d3:o78x64"                      
+			"GFX_egyptian_female_cheeks:d4"                          
+			"GFX_egyptian_female_mouth:d2:o74x49"             
+			"GFX_egyptian_female_chin:d1"                        
+			"GFX_egyptian_female_ear:d7:o28x51"                  
+			"GFX_character_scars:p7:y"                         
+			"GFX_character_reddots:p8"                       
+			"GFX_character_boils:p9"                                            
+			"GFX_character_blinded_eyes:p10"
+			"GFX_character_eyepatch:p13:y:o31x63"
+			"GFX_muslim_female_clothes_early:p3:c2"                   
+			"GFX_muslim_female_headgear_mid_early:p5:c3"
+			"GFX_muslim_female_hair:p1:h:y"                         
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
+			"GFX_empty:p3:c4"
+			"GFX_muslim_female_headgear_early:p5:c5"               
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
+		}                                                    
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -946,45 +1250,46 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# egyptian female midage
+	# Egyptian female midage
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_female_early1"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind_early:p3:c0"
 			"GFX_muslim_female_headgear_behind_early:p5:c1"
 			"GFX_muslim_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_egyptian_female_base_midage:p2"
+			":p5:c6"
+			"GFX_egyptian_female_base_midage:p2"
 			"GFX_egyptian_female_neck_midage:d0"
-			"GFX_egyptian_female_chin_midage:d1"
-			"GFX_egyptian_female_cheeks_midage:d4"
-			"GFX_egyptian_female_mouth_midage:d2"
-			"GFX_maghreb_female_ear_midage:d7"
 			"GFX_egyptian_female_eyes_midage:d6"
 			"GFX_german_female_eyes2:d6:e"
-			"GFX_egyptian_female_nose_midage:d3"
+			"GFX_egyptian_female_nose_midage:d3:o79x61"
+			"GFX_egyptian_female_cheeks_midage:d4"
+			"GFX_egyptian_female_mouth_midage:d2:o74x52"
+			"GFX_egyptian_female_chin_midage:d1"
+			"GFX_egyptian_female_ear_midage:d7:o28x52"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
 			"GFX_muslim_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
@@ -1005,46 +1310,46 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# egyptian female oldage
+	# Egyptian female oldage
 	portraitType = {
 		name = "PORTRAIT_egyptiangfx_female_early2"
 		effectFile = "gfx/FX/portrait.lua"
-		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
 			"GFX_muslim_female_clothes_behind_early:p3:c0"
 			"GFX_muslim_female_headgear_behind_early:p5:c1"
 			"GFX_muslim_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_egyptian_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_egyptian_female_base_oldage:p2"
 			"GFX_egyptian_female_neck_oldage:d0"
-			"GFX_egyptian_female_chin_oldage:d1"
-			"GFX_egyptian_female_cheeks_oldage:d4"
-			"GFX_egyptian_female_mouth_oldage:d2"
-			"GFX_maghreb_female_ear_oldage:d7"
 			"GFX_egyptian_female_eyes_oldage:d6"
 			"GFX_german_female_eyes2:d6:e"
-			"GFX_egyptian_female_nose_oldage:d3"
+			"GFX_egyptian_female_nose_oldage:d3:o79x61"
+			"GFX_egyptian_female_cheeks_oldage:d4"
+			"GFX_egyptian_female_mouth_oldage:d2:o74x52"
+			"GFX_egyptian_female_chin_oldage:d1"
+			"GFX_egyptian_female_ear_oldage:d7:o28x60"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_character_eyepatch:p13:y:o32x63"
+			"GFX_character_eyepatch:p13:y:o31x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
 			"GFX_muslim_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear_early:p5:c5"
-			"GFX_character_imprisoned:p6" 
-			"GFX_player_overlay:p11" 
+			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
 			{ 10 10 10 } { 150 146 140 } { 255 255 255 }
 			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
-			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
-			{ 10 10 10 } { 167 160 147 } { 255 255 255 }
-		
 		}
 
 		eye_color_index = 9

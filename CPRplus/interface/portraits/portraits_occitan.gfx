@@ -19,6 +19,180 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 
+	spriteType = {
+		name = "GFX_occitan_male_base"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_base_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_base_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_occitan_male_cheeks"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_cheeks_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_occitan_male_cheeks_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_cheeks_2.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_occitan_male_cheeks_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_cheeks_3.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_neck"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_neck_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_neck_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+
+
+	spriteType = {
+		name = "GFX_occitan_male_chin"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_chin_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_chin_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_chin_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_chin_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_chin_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_mouth"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_mouth_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_mouth_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_mouth_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_mouth_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_mouth_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_nose"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_nose_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_nose_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_nose_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_occitan_male_nose_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_nose_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_occitan_male_eyes"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_eyes_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_eyes_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_occitan_male_ear"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_ear_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_ear_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_ear_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_ear_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_ear_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
 	### OCCITAN MALE ####
 	
 	# Occitan Male
@@ -32,18 +206,18 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind:p1:h:y"
-			"GFX_southern_male_beard_behind:p4:h:y"
+			"GFX_southern_male_beard_behind:p4:o2x-2:h:y"
 			":p5:c6"
-			"GFX_frankish_male_base:p2"
-			"GFX_frankish_male_neck:d0"
-			"GFX_frankish_male_cheeks:d4"
-			"GFX_frankish_male_chin:d1"
+			"GFX_occitan_male_base:p2"
+			"GFX_occitan_male_neck:d0"
+			"GFX_occitan_male_cheeks:d4"
+			"GFX_occitan_male_chin:d1"
 			"GFX_character_frankish_male_physique:p21"
-			"GFX_frankish_male_mouth:d2"
-			"GFX_frankish_male_ear:d7"	
-			"GFX_frankish_male_nose:d3"
-			"GFX_frankish_male_eyes:d6"
-			"GFX_frankish_male_eyes2:d6:e"
+			"GFX_occitan_male_mouth:d2:o75x49"
+			"GFX_occitan_male_ear:d7:o27x54"	
+			"GFX_occitan_male_nose:d3:o80x65"
+			"GFX_occitan_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -60,7 +234,7 @@ spriteTypes = {
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_frankish_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard:p4:h:y"
+			"GFX_southern_male_beard:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_southern_male_hair:p1:h:y"
 			":p5:c7"
@@ -83,6 +257,10 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
@@ -95,10 +273,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -115,18 +297,18 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_midage:p1:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:h:y"
+			"GFX_southern_male_beard_behind_midage:p4:o2x-2:h:y"
 			":p5:c6"
-			"GFX_frankish_male_base_midage:p2"					#5
-			"GFX_frankish_male_neck_midage:d0"
-			"GFX_frankish_male_cheeks_midage:d4"
-			"GFX_frankish_male_chin_midage:d1"
+			"GFX_occitan_male_base_midage:p2"					#5
+			"GFX_occitan_male_neck_midage:d0"
+			"GFX_occitan_male_cheeks_midage:d4"
+			"GFX_occitan_male_chin_midage:d1"
 			"GFX_character_frankish_male_physique:p21"
-			"GFX_frankish_male_mouth_midage:d2"
-			"GFX_frankish_male_ear_midage:d7"					#15
-			"GFX_frankish_male_nose_midage:d3"					#10
-			"GFX_frankish_male_eyes_midage:d6"
-			"GFX_frankish_male_eyes2:d6:e"
+			"GFX_occitan_male_mouth_midage:d2:o80x51"
+			"GFX_occitan_male_ear_midage:d7:o27x54"					#15
+			"GFX_occitan_male_nose_midage:d3:o81x65"					#10
+			"GFX_occitan_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -143,7 +325,7 @@ spriteTypes = {
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_frankish_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_midage:p4:h:y"
+			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_midage:p1:h:y"
 			":p5:c7"
@@ -166,9 +348,13 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -178,10 +364,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -198,18 +388,18 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_oldage:p1:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:h:y"
+			"GFX_southern_male_beard_behind_oldage:p4:o2x-2:h:y"
 			":p5:c6"
-			"GFX_frankish_male_base_oldage:p2"
-			"GFX_frankish_male_neck_oldage:d0"
-			"GFX_frankish_male_cheeks_oldage:d4"
-			"GFX_frankish_male_chin_oldage:d1"
+			"GFX_occitan_male_base_oldage:p2"
+			"GFX_occitan_male_neck_oldage:d0"
+			"GFX_occitan_male_cheeks_oldage:d4"
+			"GFX_occitan_male_chin_oldage:d1"
 			"GFX_character_frankish_male_physique:p21"
-			"GFX_frankish_male_mouth_oldage:d2"
-			"GFX_frankish_male_ear_oldage:d7"
-			"GFX_frankish_male_nose_oldage:d3"
-			"GFX_frankish_male_eyes_oldage:d6"
-			"GFX_frankish_male_eyes2:d6:e"
+			"GFX_occitan_male_mouth_oldage:d2:o75x52"
+			"GFX_occitan_male_ear_oldage:d7:o25x51"
+			"GFX_occitan_male_nose_oldage:d3:o80x66"
+			"GFX_occitan_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -226,7 +416,7 @@ spriteTypes = {
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_frankish_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_oldage:p4:h:y"
+			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_oldage:p1:h:y"
 			":p5:c7"
@@ -249,6 +439,10 @@ spriteTypes = {
 			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
 			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
 			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
+			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
+			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
+			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
+			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
 			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
@@ -261,10 +455,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -281,18 +479,18 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind:p1:h:y"
-			"GFX_southern_male_beard_behind:p4:h:y"
+			"GFX_southern_male_beard_behind:p4:o2x-2:h:y"
 			":p5:c6"
-			"GFX_frankish_male_base:p2"
-			"GFX_frankish_male_neck:d0"
-			"GFX_frankish_male_cheeks:d4"
-			"GFX_frankish_male_chin:d1"
+			"GFX_occitan_male_base:p2"
+			"GFX_occitan_male_neck:d0"
+			"GFX_occitan_male_cheeks:d4"
+			"GFX_occitan_male_chin:d1"
 			"GFX_character_frankish_male_physique:p21"
-			"GFX_frankish_male_mouth:d2"
-			"GFX_frankish_male_ear:d7"	
-			"GFX_frankish_male_nose:d3"
-			"GFX_frankish_male_eyes:d6"
-			"GFX_frankish_male_eyes2:d6:e"
+			"GFX_occitan_male_mouth:d2:o75x49"
+			"GFX_occitan_male_ear:d7:o27x54"	
+			"GFX_occitan_male_nose:d3:o80x65"
+			"GFX_occitan_male_eyes:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -309,7 +507,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard:p4:h:y"
+			"GFX_southern_male_beard:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_southern_male_hair:p1:h:y"
 			":p5:c7"
@@ -332,6 +530,10 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
@@ -344,10 +546,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -364,18 +570,18 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_midage:p1:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:h:y"
+			"GFX_southern_male_beard_behind_midage:p4:o2x-2:h:y"
 			":p5:c6"
-			"GFX_frankish_male_base_midage:p2"					#5
-			"GFX_frankish_male_neck_midage:d0"
-			"GFX_frankish_male_cheeks_midage:d4"
-			"GFX_frankish_male_chin_midage:d1"
+			"GFX_occitan_male_base_midage:p2"					#5
+			"GFX_occitan_male_neck_midage:d0"
+			"GFX_occitan_male_cheeks_midage:d4"
+			"GFX_occitan_male_chin_midage:d1"
 			"GFX_character_frankish_male_physique:p21"
-			"GFX_frankish_male_mouth_midage:d2"
-			"GFX_frankish_male_ear_midage:d7"					#15
-			"GFX_frankish_male_nose_midage:d3"					#10
-			"GFX_frankish_male_eyes_midage:d6"
-			"GFX_frankish_male_eyes2:d6:e"
+			"GFX_occitan_male_mouth_midage:d2:o80x51"
+			"GFX_occitan_male_ear_midage:d7:o27x54"					#15
+			"GFX_occitan_male_nose_midage:d3:o81x65"					#10
+			"GFX_occitan_male_eyes_midage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -392,7 +598,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_midage:p4:h:y"
+			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_midage:p1:h:y"
 			":p5:c7"
@@ -415,9 +621,13 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -427,10 +637,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -447,18 +661,18 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_oldage:p1:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:h:y"
+			"GFX_southern_male_beard_behind_oldage:p4:o2x-2:h:y"
 			":p5:c6"
-			"GFX_frankish_male_base_oldage:p2"
-			"GFX_frankish_male_neck_oldage:d0"
-			"GFX_frankish_male_cheeks_oldage:d4"
-			"GFX_frankish_male_chin_oldage:d1"
+			"GFX_occitan_male_base_oldage:p2"
+			"GFX_occitan_male_neck_oldage:d0"
+			"GFX_occitan_male_cheeks_oldage:d4"
+			"GFX_occitan_male_chin_oldage:d1"
 			"GFX_character_frankish_male_physique:p21"
-			"GFX_frankish_male_mouth_oldage:d2"
-			"GFX_frankish_male_ear_oldage:d7"
-			"GFX_frankish_male_nose_oldage:d3"
-			"GFX_frankish_male_eyes_oldage:d6"
-			"GFX_frankish_male_eyes2:d6:e"
+			"GFX_occitan_male_mouth_oldage:d2:o75x52"
+			"GFX_occitan_male_ear_oldage:d7:o25x51"
+			"GFX_occitan_male_nose_oldage:d3:o80x66"
+			"GFX_occitan_male_eyes_oldage:d6"
+			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_male_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -475,7 +689,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_oldage:p4:h:y"
+			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_oldage:p1:h:y"
 			":p5:c7"
@@ -498,6 +712,10 @@ spriteTypes = {
 			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
 			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
 			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
+			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
+			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
+			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
+			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
 			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
@@ -510,13 +728,192 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 10 }
+	}
+
+
+	#### Occitan FEMALE ####
+
+	spriteType = {
+		name = "GFX_occitan_female_base"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_base_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_base_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_occitan_female_cheeks"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_occitan_female_cheeks_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_occitan_female_cheeks_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_neck"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_neck_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_neck_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_occitan_female_chin"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_chin_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_chin_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_mouth"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_mouth_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_mouth_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_nose"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_nose_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_nose_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_nose_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_occitan_female_nose_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_nose_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_occitan_female_eyes"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_eyes_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_eyes_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_occitan_female_ear"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_ear_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_ear_midage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_ear_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_female_ear_oldage"
+		texturefile = "gfx\\characters\\occitan_female\\occitan_female_ear_3.dds"
+		noOfFrames = 13
+		norefcount = yes
 	}
 	
 	# Occitan Female
@@ -531,17 +928,17 @@ spriteTypes = {
 			"GFX_frankish_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_southern_female_hair_behind:p1:h:y"
+			"GFX_southern_female_hair_behind:p1:o0x2:h:y"
 			":p5:c6"
-			"GFX_frankish_female_base:p2"
-			"GFX_frankish_female_neck:d0"
-			"GFX_frankish_female_cheeks:d4"
-			"GFX_frankish_female_chin:d1"
+			"GFX_occitan_female_base:p2"
+			"GFX_occitan_female_neck:d0"
+			"GFX_occitan_female_cheeks:d4"
+			"GFX_occitan_female_chin:d1"
 			"GFX_character_frankish_female_physique:p21"  
-			"GFX_frankish_female_mouth:d2"
-			"GFX_frankish_female_nose:d3"
-			"GFX_frankish_female_eyes:d6"
-			"GFX_frankish_female_eyes2:d6:e"
+			"GFX_occitan_female_mouth:d2:o72x48"
+			"GFX_occitan_female_nose:d3:o80x65"
+			"GFX_occitan_female_eyes:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -557,9 +954,9 @@ spriteTypes = {
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_frankish_female_clothes:p3:c2"
-			"GFX_frankish_female_ear:d7"
+			"GFX_occitan_female_ear:d7:o28x54"
 			"GFX_frankish_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair:p1:h:y"
+			"GFX_southern_female_hair:p1:o0x2:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -582,6 +979,10 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
@@ -594,10 +995,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 9 10 }
@@ -615,17 +1020,17 @@ spriteTypes = {
 			"GFX_frankish_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_southern_female_hair_behind_midage:p1:h:y"
+			"GFX_southern_female_hair_behind_midage:p1:o0x2:h:y"
 			":p5:c6"
-			"GFX_frankish_female_base_midage:p2"
-			"GFX_frankish_female_neck_midage:d0"
-			"GFX_frankish_female_cheeks_midage:d4"
-			"GFX_frankish_female_chin_midage:d1"
+			"GFX_occitan_female_base_midage:p2"
+			"GFX_occitan_female_neck_midage:d0"
+			"GFX_occitan_female_cheeks_midage:d4"
+			"GFX_occitan_female_chin_midage:d1"
 			"GFX_character_frankish_female_physique:p21"  
-			"GFX_frankish_female_mouth_midage:d2"
-			"GFX_frankish_female_nose_midage:d3"			
-			"GFX_frankish_female_eyes_midage:d6"
-			"GFX_frankish_female_eyes2:d6:e"
+			"GFX_occitan_female_mouth_midage:d2:o72x49"
+			"GFX_occitan_female_nose_midage:d3:o80x64"			
+			"GFX_occitan_female_eyes_midage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -641,9 +1046,9 @@ spriteTypes = {
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_frankish_female_clothes:p3:c2"			
-			"GFX_frankish_female_ear_midage:d7"
+			"GFX_occitan_female_ear_midage:d7:o28x54"
 			"GFX_frankish_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair_midage:p1:h:y"
+			"GFX_southern_female_hair_midage:p1:o0x2:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -666,9 +1071,13 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -678,10 +1087,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 9 10 }
@@ -699,17 +1112,17 @@ spriteTypes = {
 			"GFX_frankish_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_southern_female_hair_behind_oldage:p1:h:y"
+			"GFX_southern_female_hair_behind_oldage:p1:o0x2:h:y"
 			":p5:c6"
-			"GFX_frankish_female_base_oldage:p2"
-			"GFX_frankish_female_neck_oldage:d0"
-			"GFX_frankish_female_cheeks_oldage:d4"
-			"GFX_frankish_female_chin_oldage:d1"
+			"GFX_occitan_female_base_oldage:p2"
+			"GFX_occitan_female_neck_oldage:d0"
+			"GFX_occitan_female_cheeks_oldage:d4"
+			"GFX_occitan_female_chin_oldage:d1"
 			"GFX_character_frankish_female_physique:p21"  
-			"GFX_frankish_female_mouth_oldage:d2"
-			"GFX_frankish_female_nose_oldage:d3"			
-			"GFX_frankish_female_eyes_oldage:d6"
-			"GFX_frankish_female_eyes2:d6:e"
+			"GFX_occitan_female_mouth_oldage:d2:o72x50"
+			"GFX_occitan_female_nose_oldage:d3:o79x64"			
+			"GFX_occitan_female_eyes_oldage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -725,9 +1138,9 @@ spriteTypes = {
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_frankish_female_clothes:p3:c2"			
-			"GFX_frankish_female_ear_oldage:d7"
+			"GFX_occitan_female_ear_oldage:d7:o28x54"
 			"GFX_frankish_female_headgear_mid:p5:c3"
-			"GFX_southern_female_hair_oldage:p1:h:y"
+			"GFX_southern_female_hair_oldage:p1:o0x2:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -751,6 +1164,10 @@ spriteTypes = {
 			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
 			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
 			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
+			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
+			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
+			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
+			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
 			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
@@ -763,10 +1180,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 9 10 }
@@ -784,17 +1205,17 @@ spriteTypes = {
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_southern_female_hair_behind:p1:h:y"
+			"GFX_southern_female_hair_behind:p1:o0x2:h:y"
 			":p5:c6"
-			"GFX_frankish_female_base:p2"
-			"GFX_frankish_female_neck:d0"
-			"GFX_frankish_female_cheeks:d4"
-			"GFX_frankish_female_chin:d1"
+			"GFX_occitan_female_base:p2"
+			"GFX_occitan_female_neck:d0"
+			"GFX_occitan_female_cheeks:d4"
+			"GFX_occitan_female_chin:d1"
 			"GFX_character_frankish_female_physique:p21"  
-			"GFX_frankish_female_mouth:d2"
-			"GFX_frankish_female_nose:d3"
-			"GFX_frankish_female_eyes:d6"
-			"GFX_frankish_female_eyes2:d6:e"
+			"GFX_occitan_female_mouth:d2:o72x48"
+			"GFX_occitan_female_nose:d3:o80x65"
+			"GFX_occitan_female_eyes:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -810,9 +1231,9 @@ spriteTypes = {
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_female_clothes_early:p3:c2"
-			"GFX_frankish_female_ear:d7"
+			"GFX_occitan_female_ear:d7:o28x54"
 			"GFX_empty:p5:c3"
-			"GFX_southern_female_hair:p1:h:y"
+			"GFX_southern_female_hair:p1:o0x2:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -835,6 +1256,10 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
@@ -847,10 +1272,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 9 10 }
@@ -868,17 +1297,17 @@ spriteTypes = {
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_southern_female_hair_behind_midage:p1:h:y"
+			"GFX_southern_female_hair_behind_midage:p1:o0x2:h:y"
 			":p5:c6"
-			"GFX_frankish_female_base_midage:p2"
-			"GFX_frankish_female_neck_midage:d0"
-			"GFX_frankish_female_cheeks_midage:d4"
-			"GFX_frankish_female_chin_midage:d1"
+			"GFX_occitan_female_base_midage:p2"
+			"GFX_occitan_female_neck_midage:d0"
+			"GFX_occitan_female_cheeks_midage:d4"
+			"GFX_occitan_female_chin_midage:d1"
 			"GFX_character_frankish_female_physique:p21"  
-			"GFX_frankish_female_mouth_midage:d2"
-			"GFX_frankish_female_nose_midage:d3"			
-			"GFX_frankish_female_eyes_midage:d6"
-			"GFX_frankish_female_eyes2:d6:e"
+			"GFX_occitan_female_mouth_midage:d2:o72x49"
+			"GFX_occitan_female_nose_midage:d3:o80x64"			
+			"GFX_occitan_female_eyes_midage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -894,9 +1323,9 @@ spriteTypes = {
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_female_clothes_early:p3:c2"			
-			"GFX_frankish_female_ear_midage:d7"
+			"GFX_occitan_female_ear_midage:d7:o28x54"
 			"GFX_empty:p5:c3"
-			"GFX_southern_female_hair_midage:p1:h:y"
+			"GFX_southern_female_hair_midage:p1:o0x2:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -919,9 +1348,13 @@ spriteTypes = {
 			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
 			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
 			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black Hair
+			{ 15 8 0 } { 74 64 39 } { 255 255 255 } #Light Brown
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } #Brown
+			{ 15 8 0 } { 56 35 20 } { 255 255 255 } #Darker Brown
 			#{ 10 10 10 } { 242 218 145 } { 255 255 255 } #Blonde
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -931,10 +1364,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 9 10 }
@@ -952,17 +1389,17 @@ spriteTypes = {
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_southern_female_hair_behind_oldage:p1:h:y"
+			"GFX_southern_female_hair_behind_oldage:p1:o0x2:h:y"
 			":p5:c6"
-			"GFX_frankish_female_base_oldage:p2"
-			"GFX_frankish_female_neck_oldage:d0"
-			"GFX_frankish_female_cheeks_oldage:d4"
-			"GFX_frankish_female_chin_oldage:d1"
+			"GFX_occitan_female_base_oldage:p2"
+			"GFX_occitan_female_neck_oldage:d0"
+			"GFX_occitan_female_cheeks_oldage:d4"
+			"GFX_occitan_female_chin_oldage:d1"
 			"GFX_character_frankish_female_physique:p21"  
-			"GFX_frankish_female_mouth_oldage:d2"
-			"GFX_frankish_female_nose_oldage:d3"			
-			"GFX_frankish_female_eyes_oldage:d6"
-			"GFX_frankish_female_eyes2:d6:e"
+			"GFX_occitan_female_mouth_oldage:d2:o72x50"
+			"GFX_occitan_female_nose_oldage:d3:o79x64"			
+			"GFX_occitan_female_eyes_oldage:d6"
+			"GFX_english_female_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_frankish_female_pale:p22"
 			"GFX_character_scars:p7:y"
@@ -978,9 +1415,9 @@ spriteTypes = {
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_western_female_clothes_early:p3:c2"			
-			"GFX_frankish_female_ear_oldage:d7"
+			"GFX_occitan_female_ear_oldage:d7:o28x54"
 			"GFX_empty:p5:c3"
-			"GFX_southern_female_hair_oldage:p1:h:y"
+			"GFX_southern_female_hair_oldage:p1:o0x2:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1004,6 +1441,10 @@ spriteTypes = {
 			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
 			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
 			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
+			{ 10 10 10 } { 100 100 100 } { 255 255 255 } #Black Hair turning gray
+			{ 15 8 0 } { 150 150 150 } { 255 255 255 } #Light Brown turning white
+			{ 10 10 10 } { 117 92 77 } { 255 255 255 } #Brown Hair turning gray
+			{ 15 8 0 } { 90 84 80 } { 255 255 255 } #Darker Brown turning gray
 			#{ 10 10 10 } { 247 238 209 } { 255 255 255 } #Blonde Hair turning white
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
@@ -1016,10 +1457,14 @@ spriteTypes = {
 
 		eye_color_index = 9
 		eye_color = {
-			{ 58 109 193} #Blue
-			{ 120 74 46 } #Brown 01
-			{ 48 37 19 } #Brown 02
-			{ 34 103 36 } #Green
+			{ 80 64 38 } #Dark Brown 
+ 			{ 77 54 21 } #Medium Brown 
+ 			{ 134 97 34 } #Light Hazel 
+ 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 47 52 121 } #Dark blue 
+ 			{ 85 122 209 } #Light blue 01 
+ 			{ 80 145 185 } #Light blue 02 
+ 			{ 105 155 93 } #Green 
 		}
 		
 		headgear_that_hides_hair = { 9 10 }

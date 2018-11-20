@@ -93,7 +93,7 @@ iberian = {
 		graphical_cultures = { southerngfx }
 	}
 	catalan = {
-		graphical_cultures = { southerngfx }
+		graphical_cultures = { basquegfx southerngfx }
 	}
 	portuguese = {
 		graphical_cultures = { southerngfx }
@@ -367,7 +367,7 @@ east_african = {
 	}
 	
 	nubian = {
-		graphical_cultures = { africangfx westafricangfx }
+		graphical_cultures = { nubiangfx africangfx westafricangfx }
 	}
 	daju = {
 		graphical_cultures = { bejagfx africangfx westafricangfx }
