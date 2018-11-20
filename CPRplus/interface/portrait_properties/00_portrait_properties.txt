@@ -1360,25 +1360,6 @@
 	1 = { # Black Adder
 		factor = 1
 		
-		modifier = { # Norman bowl cut
-			factor = 20
-			culture = norman
-			is_female = no
-			OR = {
-				graphical_culture = normangfx
-				graphical_culture = frankishgfx
-				AND = {
-					graphical_culture = bretongfx
-					year = 950
-				}
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-			}
-			NOT = { year = 1100 }
-		}
-		
 		# Does not suit African females of a Western Culture
 		#modifier = {
 		#	factor = 0
@@ -1473,22 +1454,6 @@
 				graphical_culture = norsegfx
 				graphical_culture = crimeangothicgfx
 			}
-		}
-		
-		modifier = { # Norman modified bowl cut
-			factor = 10
-			culture = norman
-			is_female = no
-			OR = {
-				graphical_culture = normangfx
-				graphical_culture = frankishgfx
-				graphical_culture = bretongfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-			}
-			year = 1100
 		}
 		
 		# Does not suit Western females with African style headgear
@@ -1645,13 +1610,18 @@
 				graphical_culture = bohemiangfx
 				AND = {
 					graphical_culture = hungariangfx
-					religion_group = christian
+					NOT = { religion_group = pagan_group }
 				}
 				graphical_culture = normangfx
 				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
 				graphical_culture = dalmatiangfx
 				graphical_culture = siciliangfx
+				graphical_culture = muslimgfx
+				graphical_culture = levantinegfx
+				graphical_culture = egyptiangfx
+				graphical_culture = kurdishgfx
+				graphical_culture = assyriangfx
 			}
 		}
 		modifier = {
@@ -1671,22 +1641,6 @@
 	
 	7 = {  # Short
 		factor = 1
-		
-		modifier = { # Norman modified bowl cut
-			factor = 10
-			culture = norman
-			is_female = no
-			OR = {
-				graphical_culture = normangfx
-				graphical_culture = frankishgfx
-				graphical_culture = bretongfx
-				AND = {
-					graphical_culture = hungariangfx
-					religion_group = christian
-				}
-			}
-			year = 1100
-		}
 		
 		# Does not suit Western females with African style headgear
 		#modifier = {
@@ -1923,10 +1877,7 @@
 		modifier = { #"Cossack"-style hair only available if pagan
 			factor = 0
 			is_female = no
-			OR = {
-				graphical_culture = westernslavicgfx
-				graphical_culture = easternslavicgfx
-			}
+			graphical_culture = easternslavicgfx
 			NOT = { religion_group = pagan_group }
 		}
 		modifier = { # Norman bowl cut
@@ -1937,6 +1888,10 @@
 				graphical_culture = englishgfx
 				graphical_culture = dutchgfx
 				graphical_culture = saxongfx
+				AND = {
+					graphical_culture = normangfx
+					NOT = { religion_group = pagan_group }
+				}
 			}
 			NOT = { year = 1100 }
 		}
