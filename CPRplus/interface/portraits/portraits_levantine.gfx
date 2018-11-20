@@ -396,7 +396,8 @@ spriteTypes = {
 			"GFX_levantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind:p1:h:y"
 			"GFX_muslim_male_beard_behind:p4:h:y:o-2x2"
-			":p5:c6"			"GFX_levantine_male_base:p2"
+			":p5:c6"
+			"GFX_levantine_male_base:p2"
 			"GFX_levantine_male_neck:d0"
 			"GFX_levantine_male_chin:d1"
 			"GFX_levantine_male_cheeks:d4"
@@ -414,7 +415,8 @@ spriteTypes = {
 			"GFX_muslim_male_beard:p4:h:y:o-2x2"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_muslim_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_levantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -457,7 +459,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
+		headgear_that_hides_hair = { 0 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	# middle age
@@ -470,7 +472,8 @@ spriteTypes = {
 			"GFX_levantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_midage:p1:h:y"
 			"GFX_muslim_male_beard_behind_midage:p4:h:y:o-2x2"
-			":p5:c6"			"GFX_levantine_male_base_midage:p2"
+			":p5:c6"
+			"GFX_levantine_male_base_midage:p2"
 			"GFX_levantine_male_neck_midage:d0"
 			"GFX_levantine_male_chin_midage:d1"
 			"GFX_levantine_male_cheeks_midage:d4"
@@ -488,7 +491,8 @@ spriteTypes = {
 			"GFX_muslim_male_beard_midage:p4:h:y:o-2x2"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_muslim_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_levantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -530,7 +534,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
+		headgear_that_hides_hair = { 0 1 2 3 4 5 6 7 8 9 10}
 	}
 	
 	# old age
@@ -543,7 +547,8 @@ spriteTypes = {
 			"GFX_levantine_male_headgear_behind:p5:c1"
 			"GFX_muslim_male_hair_behind_oldage:p1:h:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:h:y:o-2x2"
-			":p5:c6"			"GFX_levantine_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_levantine_male_base_oldage:p2"
 			"GFX_levantine_male_neck_oldage:d0"
 			"GFX_levantine_male_chin_oldage:d1"
 			"GFX_levantine_male_cheeks_oldage:d4"
@@ -561,7 +566,8 @@ spriteTypes = {
 			"GFX_muslim_male_beard_oldage:p4:h:y:o-2x2"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_muslim_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_levantine_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -603,7 +609,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 12 1 2 3 4 5 6 7 8 9 10}
+		headgear_that_hides_hair = { 0 1 2 3 4 5 6 7 8 9 10}
 	}
 
 #### Levantine FEMALE ####
@@ -619,7 +625,8 @@ spriteTypes = {
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind:p1:h:y" 
-			":p5:c6"			"GFX_levantine_female_base:p2"
+			":p5:c6"
+			"GFX_levantine_female_base:p2"
 			"GFX_levantine_female_neck:d0"
 			"GFX_levantine_female_chin:d1"
 			"GFX_levantine_female_cheeks:d4"
@@ -634,9 +641,10 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_muslim_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_muslim_female_headgear_mid:p5:c3"
 			"GFX_muslim_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -677,7 +685,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 8 10 }
+		headgear_that_hides_hair = { 0 1 2 3 4 5 6 8 9 }
 	}
 
 	# Levantine female midage
@@ -689,7 +697,8 @@ spriteTypes = {
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_levantine_female_base_midage:p2"
+			":p5:c6"
+			"GFX_levantine_female_base_midage:p2"
 			"GFX_levantine_female_neck_midage:d0"
 			"GFX_levantine_female_chin_midage:d1"
 			"GFX_levantine_female_cheeks_midage:d4"
@@ -704,9 +713,10 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_muslim_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_muslim_female_headgear_mid:p5:c3"
 			"GFX_muslim_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -747,7 +757,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 8 10 }
+		headgear_that_hides_hair = { 0 1 2 3 4 5 6 8 9 }
 	}
 
 	# Levantine female oldage
@@ -759,7 +769,8 @@ spriteTypes = {
 			"GFX_muslim_female_clothes_behind:p3:c0"
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_muslim_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_levantine_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_levantine_female_base_oldage:p2"
 			"GFX_levantine_female_neck_oldage:d0"
 			"GFX_levantine_female_chin_oldage:d1"
 			"GFX_levantine_female_cheeks_oldage:d4"
@@ -774,9 +785,10 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_muslim_female_clothes:p3:c2"
-			"GFX_empty:p5:c3"
+			"GFX_muslim_female_headgear_mid:p5:c3"
 			"GFX_muslim_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -818,7 +830,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 8 10 }
+		headgear_that_hides_hair = { 0 1 2 3 4 5 6 8 9 }
 	}		
 	
 }

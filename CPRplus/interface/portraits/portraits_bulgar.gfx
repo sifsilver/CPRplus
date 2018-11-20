@@ -112,7 +112,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 12 1 7 10 }
+		headgear_that_hides_hair = { 0 1 7 10 }
 	}
 	
 	# middle age
@@ -178,7 +178,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 12 1 7 10 }
+		headgear_that_hides_hair = { 0 1 7 10 }
 	}
 	
 	# old age
@@ -242,7 +242,7 @@ spriteTypes = {
  			{ 192 171 142 } #skin
 		}
 		
-		headgear_that_hides_hair = { 12 1 7 10 }
+		headgear_that_hides_hair = { 0 1 7 10 }
 	}
 	
 	portraitType = {
