@@ -14,7 +14,7 @@ LordPeter: retouched existing portrait background images from CPR and Wikimedia 
 
 SirRitter: retouched military headgear assets for Georgian and Baltic portrait sets
 
-Lux Invicta: various headgear, including the Italian "martial" headgear
+Lux Invicta: various headgear
 (https://forum.paradoxplaza.com/forum/index.php?threads/mod-lux-invicta.612823/)
 
 A Game of Thrones: various headgear

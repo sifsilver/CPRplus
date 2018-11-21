@@ -1277,14 +1277,9 @@
 			}
 			NOR = {
 				graphical_culture = norsegfx
-				graphical_culture = crimeangothicgfx
+				graphical_culture = crimeangfx
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
-				graphical_culture = arabicgfx
-				graphical_culture = egyptiangfx
-				graphical_culture = kurdishgfx
-				graphical_culture = levantinegfx
-				graphical_culture = assyriangfx
 				AND = {
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
@@ -1301,14 +1296,9 @@
 			is_female = no
 			OR = {
 				graphical_culture = norsegfx
-				graphical_culture = crimeangothicgfx
+				graphical_culture = crimeangfx
 				graphical_culture = celticgfx
 				graphical_culture = norsegaelgfx
-				graphical_culture = arabicgfx
-				graphical_culture = egyptiangfx
-				graphical_culture = kurdishgfx
-				graphical_culture = levantinegfx
-				graphical_culture = assyriangfx
 				AND = {
 					graphical_culture = bretongfx
 					NOT = { year = 950 }
@@ -1452,7 +1442,7 @@
 			}
 			OR = {
 				graphical_culture = norsegfx
-				graphical_culture = crimeangothicgfx
+				graphical_culture = crimeangfx
 			}
 		}
 		
@@ -1480,7 +1470,7 @@
 			is_female = no
 			NOR = {
 				graphical_culture = norsegfx
-				graphical_culture = crimeangothicgfx
+				graphical_culture = crimeangfx
 			}
 		}
 	}
@@ -1609,7 +1599,7 @@
 				graphical_culture = serbsouthslavicgfx
 				graphical_culture = bohemiangfx
 				AND = {
-					graphical_culture = hungariangfx
+					graphical_culture = magyargfx
 					NOT = { religion_group = pagan_group }
 				}
 				graphical_culture = normangfx
@@ -1679,32 +1669,6 @@
 		#		has_minor_title = title_prince
 		#	}
 		#}
-		modifier = {
-			factor = 0.1
-			is_female = no
-			NOT = {
-				age = 50
-			}
-			OR = {
-				graphical_culture = arabicgfx
-				graphical_culture = egyptiangfx
-				graphical_culture = kurdishgfx
-				graphical_culture = levantinegfx
-				graphical_culture = assyriangfx
-			}
-		}
-		modifier = {
-			factor = 0
-			age = 81
-			is_female = no
-			NOR = {
-				graphical_culture = arabicgfx
-				graphical_culture = egyptiangfx
-				graphical_culture = kurdishgfx
-				graphical_culture = levantinegfx
-				graphical_culture = assyriangfx
-			}
-		}
 	}
 	
 	8 = { # Short Curly
@@ -4915,12 +4879,12 @@
 				}
 				AND = {
 					OR = {
-						culture_group = arabic
-						culture = andalusian_arabic
+						#culture_group = arabic
+						#culture = andalusian_arabic
 						culture = bolghar
-						culture = somali
-						culture = kurdish
-						culture = sephardi
+						#culture = somali
+						#culture = kurdish
+						#culture = sephardi
 						culture = sanhaja
 						culture = zaghawa
 						culture = bashkir
