@@ -4654,28 +4654,6 @@
 				}
 			}
 		}
-		modifier = { #Vanilla western hood unavailable if landed
-			factor = 0
-			OR = {
-				real_tier = count
-				real_tier = baron
-				spouse = { real_tier = count }
-				spouse = { real_tier = baron }
-			}
-			OR = {
-				AND = {
-					year = 950
-					culture_group = celtic
-				}
-				AND = {
-					NOT = { religion_group = pagan_group }
-					OR = {
-						culture_group = baltic
-						culture = livonian
-					}
-				}
-			}
-		}
 		modifier = {
 			factor = 100
 			tang_dynasty_putou_trigger = yes
