@@ -31,7 +31,8 @@ spriteTypes = {
 			"GFX_westafrican_male_headgear_behind_christian:p5:c1"
 			"GFX_maghreb_male_hair_behind:p1:h:y"
 			"GFX_muslim_male_beard_behind:p4:y"
-			":p5:c6"			"GFX_westafrican_male_base:p2"
+			":p5:c6"
+			"GFX_westafrican_male_base:p2"
 			"GFX_westafrican_male_neck:d0"
 			"GFX_westafrican_male_chin:d1"
 			"GFX_westafrican_male_cheeks:d4"
@@ -49,7 +50,8 @@ spriteTypes = {
 			"GFX_muslim_male_beard:p4:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_maghreb_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westafrican_male_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -77,7 +79,7 @@ spriteTypes = {
  			{ 185 162 137 } #skin
 		}
 		
-		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 0 }
 	}
 	
 	# middle age
@@ -90,7 +92,8 @@ spriteTypes = {
 			"GFX_westafrican_male_headgear_behind_christian:p5:c1"
 			"GFX_maghreb_male_hair_behind_midage:p1:h:y"
 			"GFX_muslim_male_beard_behind_midage:p4:y"
-			":p5:c6"			"GFX_westafrican_male_base_midage:p2"
+			":p5:c6"
+			"GFX_westafrican_male_base_midage:p2"
 			"GFX_westafrican_male_neck_midage:d0"
 			"GFX_westafrican_male_chin_midage:d1"
 			"GFX_westafrican_male_cheeks_midage:d4"
@@ -108,7 +111,8 @@ spriteTypes = {
 			"GFX_muslim_male_beard_midage:p4:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westafrican_male_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -136,7 +140,7 @@ spriteTypes = {
  			{ 185 162 137 } #skin
 		}
 		
-		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 0 }
 	}
 	
 	# old age
@@ -149,7 +153,8 @@ spriteTypes = {
 			"GFX_westafrican_male_headgear_behind_christian:p5:c1"
 			"GFX_maghreb_male_hair_behind_oldage:p1:h:y"
 			"GFX_muslim_male_beard_behind_oldage:p4:y"
-			":p5:c6"			"GFX_westafrican_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_westafrican_male_base_oldage:p2"
 			"GFX_westafrican_male_neck_oldage:d0"
 			"GFX_westafrican_male_chin_oldage:d1"
 			"GFX_westafrican_male_cheeks_oldage:d4"
@@ -167,7 +172,8 @@ spriteTypes = {
 			"GFX_muslim_male_beard_oldage:p4:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westafrican_male_headgear_christian:p5:c5"
 			"GFX_character_imprisoned:p6" 
@@ -195,7 +201,7 @@ spriteTypes = {
  			{ 185 162 137 } #skin
 		}
 		
-		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 3 4 5 6 7 8 9 10 0 }
 	}
 
 	#### AFRICAN FEMALE ####
@@ -212,7 +218,8 @@ spriteTypes = {
 			"GFX_african_female_clothes_behind:p3:c0"            
 			"GFX_westafrican_female_headgear_behind_christian:p5:c1" 
 			"GFX_maghreb_female_hair_behind:p1:y"
-			":p5:c6"			"GFX_westafrican_female_base:p2"
+			":p5:c6"
+			"GFX_westafrican_female_base:p2"
 			"GFX_westafrican_female_neck:d0"
 			"GFX_westafrican_female_mouth:d2"
 			"GFX_westafrican_female_nose:d3"
@@ -229,7 +236,8 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_female_hair:p1:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westafrican_female_headgear_christian:p5:c5" 
 			"GFX_character_imprisoned:p6" 
@@ -256,7 +264,7 @@ spriteTypes = {
  			{ 185 162 137 } #skin
 		}
 		
-		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 0 }
 	}
 
 	# African female midage
@@ -268,7 +276,8 @@ spriteTypes = {
 			"GFX_african_female_clothes_behind:p3:c0"            
 			"GFX_westafrican_female_headgear_behind_christian:p5:c1" 
 			"GFX_maghreb_female_hair_behind_midage:p1:y"
-			":p5:c6"			"GFX_westafrican_female_base_midage:p2"
+			":p5:c6"
+			"GFX_westafrican_female_base_midage:p2"
 			"GFX_westafrican_female_neck_midage:d0"
 			"GFX_westafrican_female_mouth_midage:d2"
 			"GFX_westafrican_female_nose_midage:d3"
@@ -285,7 +294,8 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_female_hair_midage:p1:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westafrican_female_headgear_christian:p5:c5" 
 			"GFX_character_imprisoned:p6" 
@@ -312,7 +322,7 @@ spriteTypes = {
  			{ 185 162 137 } #skin
 		}
 		
-		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 0 }
 	}
 
 	# African female oldage
@@ -324,7 +334,8 @@ spriteTypes = {
 			"GFX_african_female_clothes_behind:p3:c0"            
 			"GFX_westafrican_female_headgear_behind_christian:p5:c1" 
 			"GFX_maghreb_female_hair_behind_oldage:p1:y"
-			":p5:c6"			"GFX_westafrican_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_westafrican_female_base_oldage:p2"
 			"GFX_westafrican_female_neck_oldage:d0"
 			"GFX_westafrican_female_mouth_oldage:d2"
 			"GFX_westafrican_female_nose_oldage:d3"
@@ -341,7 +352,8 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_female_hair_oldage:p1:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_westafrican_female_headgear_christian:p5:c5" 
 			"GFX_character_imprisoned:p6" 
@@ -369,7 +381,7 @@ spriteTypes = {
  			{ 185 162 137 } #skin
 		}
 		
-		headgear_that_hides_hair = { 1 2 4 7 8 9 10 12 }
+		headgear_that_hides_hair = { 1 2 4 7 8 9 10 0 }
 	}
 
 }
