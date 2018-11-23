@@ -1902,6 +1902,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -1962,6 +1963,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2004,6 +2006,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2050,6 +2053,7 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { government = order_government }
 			NOR = {
 				real_tier = king
 				real_tier = duke
@@ -2069,6 +2073,7 @@
 				AND = {
 					is_nomadic = no
 					higher_real_tier_than = duke
+					NOT = { government = order_government }
 				}
 				AND = {
 					is_nomadic = yes
@@ -2077,6 +2082,7 @@
 				spouse = {
 					is_nomadic = no
 					higher_real_tier_than = duke
+					NOT = { government = order_government }
 				}
 				spouse = {
 					is_nomadic = yes
@@ -2101,6 +2107,7 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { government = order_government }
 			NOR = {
 				real_tier = king
 				real_tier = duke
@@ -2120,6 +2127,7 @@
 				AND = {
 					is_nomadic = no
 					higher_real_tier_than = duke
+					NOT = { government = order_government }
 				}
 				AND = {
 					is_nomadic = yes
@@ -2128,6 +2136,7 @@
 				spouse = {
 					is_nomadic = no
 					higher_real_tier_than = duke
+					NOT = { government = order_government }
 				}
 				spouse = {
 					is_nomadic = yes
@@ -2152,6 +2161,7 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { government = order_government }
 			NOR = {
 				real_tier = king
 				real_tier = duke
@@ -2171,6 +2181,7 @@
 				AND = {
 					is_nomadic = no
 					higher_real_tier_than = duke
+					NOT = { government = order_government }
 				}
 				AND = {
 					is_nomadic = yes
@@ -2179,6 +2190,7 @@
 				spouse = {
 					is_nomadic = no
 					higher_real_tier_than = duke
+					NOT = { government = order_government }
 				}
 				spouse = {
 					is_nomadic = yes
@@ -2250,26 +2262,7 @@
 		hide_layers = { 33 = { } }
 		modifier = {
 			factor = 0
-			OR = {
-				higher_real_tier_than = duke
-				spouse = { higher_real_tier_than = duke }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_job_title = job_spymaster }
-		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
+			NOT = { has_portrait_property = { layer = 5 index = 9 } }
 		}
 	}
 	
@@ -2278,91 +2271,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			trait = saint 
-		}
-		modifier = {
-			factor = 0
-			in_command = no
-			NOT = { has_job_title  = job_marshal }
-			NOT = {
-				primary_title = {
-					OR = {
-						mercenary = yes
-						holy_order = yes
-						title = e_china_west_governor
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = duke
-				spouse = { higher_real_tier_than = duke }
-			}
-			in_command = no
-			NOT = { primary_title = { title = e_china_west_governor } }
-		}
-		modifier = {
-			factor = 0
-			primary_title = { title = e_china_west_governor }
-			OR = {
-				culture_group = chinese_group
-				culture = khitan
-				culture = jurchen
-			}
-		}
-		#modifier = {
-		#	factor = 0
-		#	religion_group = christian
-		#	OR = {
-		#		AND = {
-		#			government = theocracy_government
-		#			is_landed = yes
-		#		}
-		#		has_job_title = job_spiritual
-		#	}
-		#}
-		modifier = {
-			factor = 0
-			OR = {
-				is_nomadic = yes
-				AND = {
-					liege = { is_nomadic = yes }
-					is_ruler = no
-				}
-			}
-			war = no
-			NOR = {
-				siege = { is_attacker = yes }
-				has_job_title  = job_marshal
-			}
-		}
-		modifier = {
-			factor = 0
-			prisoner = yes
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				chinese_martial_modifier_trigger = yes
-				chinese_generals_modifier_trigger = yes
-			}
-		}
-		modifier = {
-			factor = 100 # This ensures that the reverse order check stays matched
-			has_portrait_property = { layer = 5 index = 10 }
-		}
-		modifier = {
-			factor = 0
-			trait = shieldmaiden
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
+			NOT = { has_portrait_property = { layer = 5 index = 10 } }
 		}
 	}
 	
@@ -3602,6 +3511,19 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				AND = {
+					is_nomadic = no
+				}
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
@@ -3688,6 +3610,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -3793,6 +3716,19 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				AND = {
+					is_nomadic = no
+				}
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
@@ -3879,6 +3815,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 		}
 		modifier = {
@@ -3989,6 +3926,19 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				AND = {
+					is_nomadic = no
+				}
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
@@ -4075,6 +4025,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 		}
 		modifier = {
@@ -4188,6 +4139,19 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				AND = {
+					is_nomadic = no
+				}
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4267,6 +4231,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = order_government
 			}
 			NOT = { song_dynasty_futou_trigger = yes }
 		}
@@ -4310,49 +4275,51 @@
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
 				#is_feudal = yes
+			higher_real_tier_than = DUKE
+			NOT = { government = order_government }
 			OR = { 
-				AND = { 
-					higher_real_tier_than = DUKE 
-					OR = { 
-						religion = catholic
-						religion = fraticelli
-					}
-					OR = { 
-						trait = crowned_by_priest
-						trait = crowned_by_bishop
-						trait = crowned_by_pope
-						trait = crowned_by_myself
-						AND = {
-							is_alive = no
-							NOT = { trait = uncrowned }
-						}
-						AND = { 
-							has_game_started = no
-							is_save_game = no
-							is_alive = yes
-						}
-					}
+				religion = catholic
+				religion = fraticelli
+			}
+			OR = { 
+				trait = crowned_by_priest
+				trait = crowned_by_bishop
+				trait = crowned_by_pope
+				trait = crowned_by_myself
+				AND = {
+					is_alive = no
+					NOT = { trait = uncrowned }
 				}
-				spouse = { 
-					higher_real_tier_than = DUKE 
-					OR = { 
-						religion = catholic
-						religion = fraticelli
+				AND = { 
+					has_game_started = no
+					is_save_game = no
+					is_alive = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			spouse = { 
+				higher_real_tier_than = DUKE
+				NOT = { government = order_government }
+				OR = { 
+					religion = catholic
+					religion = fraticelli
+				}
+				OR = { 
+					trait = crowned_by_priest
+					trait = crowned_by_bishop
+					trait = crowned_by_pope
+					trait = crowned_by_myself
+					AND = {
+						is_alive = no
+						NOT = { trait = uncrowned }
 					}
-					OR = { 
-						trait = crowned_by_priest
-						trait = crowned_by_bishop
-						trait = crowned_by_pope
-						trait = crowned_by_myself
-						AND = {
-							is_alive = no
-							NOT = { trait = uncrowned }
-						}
-						AND = { 
-							has_game_started = no
-							is_save_game = no
-							is_alive = yes
-						}
+					AND = { 
+						has_game_started = no
+						is_save_game = no
+						is_alive = yes
 					}
 				}
 			}
@@ -4364,26 +4331,61 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				AND = {
+					is_nomadic = no
+				}
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = {
 			factor = 0
 			NOT = { has_dlc = "Holy Fury" }
-			higher_real_tier_than = DUKE
+			OR = {
+				AND = {
+					is_nomadic = no
+					higher_real_tier_than = DUKE
+					NOT = { government = order_government }
+				}
+				AND = {
+					is_nomadic = yes
+					real_tier = emperor
+				}
+			}
 		}
 		modifier = {
 			factor = 0
 			NOT = { has_dlc = "Holy Fury" }
-			spouse = { higher_real_tier_than = DUKE }
+			spouse = {
+				OR = {
+					AND = {
+						is_nomadic = no
+						higher_real_tier_than = DUKE
+						NOT = { government = order_government }
+					}
+					AND = {
+						is_nomadic = yes
+						real_tier = emperor
+					}
+				}
+			}
 		}
-		modifier = {
-			factor = 0
-			is_ruler = yes
-			NOT = { trait = uncrowned }
-			NOT = { religion = catholic }
-			NOT = { religion = fraticelli }
-			higher_real_tier_than = DUKE
-
-		}
+		#modifier = {
+		#	factor = 0
+		#	is_ruler = yes
+		#	NOT = { trait = uncrowned }
+		#	NOT = { religion = catholic }
+		#	NOT = { religion = fraticelli }
+		#	NOT = { government = order_government }
+		#	higher_real_tier_than = DUKE
+		#}
 		modifier = {
 			factor = 0 #Dead Doges should not wear crowns.
 			is_republic = yes
@@ -4410,19 +4412,6 @@
 				} 
 			}
 		}
-		modifier = {
-            factor = 0
-            OR = {
-                AND = {
-                    real_tier = emperor
-                    is_nomadic = yes
-                }
-                spouse = {
-                    real_tier = emperor
-                    is_nomadic = yes
-                }
-            }
-        }
         modifier = {
             factor = 0
             liege = { is_nomadic = yes }
@@ -4454,22 +4443,6 @@
 			religion_group = pagan_group
 			is_alive = yes
 			NOT = { trait = lunatic }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				AND = {
-					OR = {
-						real_tier = emperor
-						real_tier = king
-					}
-					is_nomadic = no
-				}
-				AND = {
-					real_tier = emperor
-					is_nomadic = yes
-				}
-			}
 		}
 	}
 
@@ -4895,7 +4868,30 @@
 		hide_layers = { 33 = { } }
 		modifier = {
 			factor = 0
-			NOT = { has_portrait_property = { layer = 3 index = 9 } }
+			OR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_job_title = job_spymaster }
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 3 index = 9 }
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
 		}
 	}
 
@@ -4904,7 +4900,90 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { has_portrait_property = { layer = 3 index = 10 } }
+			trait = saint 
+		}
+		modifier = {
+			factor = 0
+			in_command = no
+			NOT = { has_job_title  = job_marshal }
+			NOT = {
+				primary_title = {
+					OR = {
+						mercenary = yes
+						holy_order = yes
+						title = e_china_west_governor
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				higher_real_tier_than = duke
+				spouse = { higher_real_tier_than = duke }
+			}
+			in_command = no
+			NOT = { primary_title = { title = e_china_west_governor } }
+		}
+		modifier = {
+			factor = 0
+			primary_title = { title = e_china_west_governor }
+			OR = {
+				culture_group = chinese_group
+				culture = khitan
+				culture = jurchen
+			}
+		}
+		#modifier = {
+		#	factor = 0
+		#	religion_group = christian
+		#	OR = {
+		#		AND = {
+		#			government = theocracy_government
+		#			is_landed = yes
+		#		}
+		#		has_job_title = job_spiritual
+		#	}
+		#}
+		modifier = {
+			factor = 0
+			in_command = yes 
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+			is_nomadic = yes
+			NOR = {
+				war = yes
+				siege = { is_attacker = yes }
+				has_job_title  = job_marshal
+			}
+		}
+		modifier = {
+			factor = 0
+			prisoner = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				chinese_martial_modifier_trigger = yes
+				chinese_generals_modifier_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 3 index = 10 }
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 	}
 
@@ -4925,15 +5004,6 @@
 					value = on
 				}
 			}
-		}
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-			NOT = { trait = saint }
 		}
 		modifier = {
 			factor = 0
