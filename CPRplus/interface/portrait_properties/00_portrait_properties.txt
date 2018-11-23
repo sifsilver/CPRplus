@@ -3579,9 +3579,7 @@
 				value = on
 			}
 			OR = {
-				AND = {
-					is_nomadic = no
-				}
+				is_nomadic = no
 				AND = {
 					is_nomadic = yes
 					OR = {
@@ -5321,9 +5319,15 @@
 	
 	2 = { # Western knight armor #1
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5417,9 +5421,15 @@
 	
 	3 = { # Western knight armor #2
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5513,9 +5523,15 @@
 	
 	4 = { # Western knight armor #3
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5596,9 +5612,15 @@
 	
 	5 = { # Western knight armor #4
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5679,9 +5701,15 @@
 	
 	6 = { # Crusader armor #1
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5771,9 +5799,15 @@
 	
 	7 = { # Crusader armor #2
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5854,9 +5888,15 @@
 	
 	8 = { # Crusader armor #3
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5924,9 +5964,15 @@
 	}
 	9 = { # Muslim armor #1
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -5989,9 +6035,15 @@
 	}
 	10 = { # Muslim armor #2
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6054,9 +6106,15 @@
 	}
 	11 = { # Muslim armor #3
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6119,9 +6177,15 @@
 	}
 	12 = { # Muslim armor #4
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6184,9 +6248,15 @@
 	}
 	13 = { # Muslim armor #5
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6249,9 +6319,15 @@
 	}
 	14 = { # Steppe armor #1
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6326,9 +6402,15 @@
 	}
 	15 = { # Steppe armor #2
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6403,9 +6485,15 @@
 	}
 	16 = { # Steppe armor #3
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6480,9 +6568,15 @@
 	}
 	17 = { # Steppe armor #4
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6557,9 +6651,15 @@
 	}
 	18 = { # Byzantine armor #1
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6617,9 +6717,15 @@
 	}
 	19 = { # Byzantine armor #2
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -6677,9 +6783,15 @@
 	}
 	20 = { # Byzantine armor #3
 		factor = 1
-		modifier = {
+		modifier = { 
 			factor = 0
-			in_command = no
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -8098,6 +8210,17 @@
 					name = martial_headgear
 					value = on
 				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
+				}
 			}
 			OR = {
 				trait = dead_crown_hre #Dead kings don't have artifacts
@@ -8121,6 +8244,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 			any_artifact = {
@@ -8272,6 +8406,17 @@
 					name = martial_headgear
 					value = on
 				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
+				}
 			}
 			OR = {
 				trait = dead_crown_hre #Dead kings don't have artifacts
@@ -8295,6 +8440,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 			any_artifact = {
@@ -8328,6 +8484,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #HRE crown
 			factor = 0
@@ -8350,6 +8517,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 		}
 		modifier = { #Byzantine Crown
@@ -8374,6 +8552,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #Cursed Diamond Crown
 			factor = 0
@@ -8395,6 +8584,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 		}
 		modifier = { #Iron Crown of Lombardy
@@ -8418,6 +8618,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #Imperial Laurels
 			factor = 0
@@ -8433,6 +8644,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 		}
 		modifier = { #Pahlavi Crown
@@ -8456,6 +8678,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #Fylkir Crown
 			factor = 0
@@ -8477,6 +8710,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 		}
 		modifier = { #Tengri Fylkir Crown
@@ -8500,6 +8744,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #Finnish Fylkir Crown
 			factor = 0
@@ -8522,6 +8777,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #West-African Fylkir Crown
 			factor = 0
@@ -8543,6 +8809,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 		}
 		modifier = { #Slavic/Romva Fylkir Crown
@@ -12058,13 +12335,9 @@
 		modifier = { #Incompatible with most society clothes.
 			factor = 0
 			OR = {
-				in_command = no 
-				has_game_rule = {
-					name = martial_headgear
-					value = off
-				}
+				is_in_society = yes
+				is_merchant_republic = yes
 			}
-			is_in_society = yes
 		}
 		modifier = {
 			factor = 0
@@ -12430,6 +12703,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 			religion = catholic
 			OR = {
 				has_landed_title = d_knights_templar 
@@ -12454,6 +12738,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 			OR = { 
 				any_artifact = { artifact_type = crown_crusader_king is_artifact_equipped = yes } 
@@ -12480,6 +12775,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 		}
@@ -12523,6 +12829,17 @@
 					name = martial_headgear
 					value = on
 				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
+				}
 			}
 		}
 	}
@@ -12558,6 +12875,17 @@
 					name = martial_headgear
 					value = on
 				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
+				}
 			}
 		}
 	}
@@ -12579,6 +12907,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 		}
@@ -12608,6 +12947,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 		}
@@ -12648,6 +12998,17 @@
 					name = martial_headgear
 					value = on
 				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
+				}
 			}
 		}
 	}
@@ -12669,6 +13030,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 		}
@@ -12709,6 +13081,17 @@
 					name = martial_headgear
 					value = on
 				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
+				}
 			}
 		}
 	}
@@ -12730,6 +13113,17 @@
 				has_game_rule = {
 					name = martial_headgear
 					value = on
+				}
+				OR = {
+					is_nomadic = no
+					AND = {
+						is_nomadic = yes
+						OR = {
+							war = yes
+							siege = { is_attacker = yes }
+							has_job_title = job_marshal
+						}
+					}
 				}
 			}
 		}
@@ -12910,6 +13304,17 @@
 				name = martial_headgear
 				value = on
 			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
+			}
 		}
 		modifier = { #Bon Fylkir Scepter
 			factor = 0
@@ -12931,6 +13336,17 @@
 			has_game_rule = {
 				name = martial_headgear
 				value = on
+			}
+			OR = {
+				is_nomadic = no
+				AND = {
+					is_nomadic = yes
+					OR = {
+						war = yes
+						siege = { is_attacker = yes }
+						has_job_title = job_marshal
+					}
+				}
 			}
 		}
 		modifier = { #Hellenic Fylkir Scepter
