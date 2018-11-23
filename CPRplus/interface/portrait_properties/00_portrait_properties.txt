@@ -1895,6 +1895,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 1 }
+				has_portrait_property = { layer = 3 index = 2 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -1956,6 +1963,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 0 }
+				has_portrait_property = { layer = 3 index = 2 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -1999,6 +2013,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 0 }
+				has_portrait_property = { layer = 3 index = 1 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -2040,6 +2061,13 @@
 	
 	3 = { # Noble clothes 1
 		factor = 1
+		modifier = {
+			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 4 }
+				has_portrait_property = { layer = 3 index = 5 } 
+			}
+		}
 		modifier = {
 			factor = 0
 			trait = in_hiding
@@ -2096,6 +2124,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 3 }
+				has_portrait_property = { layer = 3 index = 5 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -2148,6 +2183,13 @@
 	
 	5 = { # Noble clothes 3
 		factor = 1
+		modifier = {
+			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 3 }
+				has_portrait_property = { layer = 3 index = 4 } 
+			}
+		}
 		modifier = {
 			factor = 0
 			trait = in_hiding
@@ -2204,6 +2246,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 7 }
+				has_portrait_property = { layer = 3 index = 8 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -2226,6 +2275,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 6 }
+				has_portrait_property = { layer = 3 index = 8 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -2243,6 +2299,13 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			OR = { #Prevent clothes switching on portrait refresh.
+				has_portrait_property = { layer = 3 index = 6 }
+				has_portrait_property = { layer = 3 index = 7 } 
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -2256,22 +2319,26 @@
 		}
 	}
 	9 = { # Shady clothes
-		factor = 100
+		factor = 99
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
 		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 9 } }
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 9 }
 		}
 	}
 	
 	# Martial
 	10 = {
-		factor = 100
+		factor = 99
 		modifier = {
 			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
+			prisoner = yes
+		}
+		modifier = {
+			factor = 100 # This ensures that the reverse order check stays matched
+			has_portrait_property = { layer = 5 index = 10 }
 		}
 	}
 	
@@ -4882,8 +4949,8 @@
 			prisoner = yes
 		}
 		modifier = {
-			factor = 100 # This ensures that the reverse order check stays matched
-			has_portrait_property = { layer = 3 index = 9 }
+			factor = 0
+			NOT = { has_portrait_property = { layer = 3 index = 9 } }
 		}
 		modifier = {
 			factor = 0
@@ -4971,8 +5038,8 @@
 			}
 		}
 		modifier = {
-			factor = 100 # This ensures that the reverse order check stays matched
-			has_portrait_property = { layer = 3 index = 10 }
+			factor = 0
+			NOT = { has_portrait_property = { layer = 3 index = 10 } }
 		}
 		modifier = {
 			factor = 0
