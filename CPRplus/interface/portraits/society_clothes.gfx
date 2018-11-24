@@ -512,6 +512,7 @@ spriteTypes = {
 				portrait_clothing = yes
 				portrait_society = monastic_order_hindu
 				portrait_has_trait = vaishnavist_hindu
+				NOT = { portrait_tier = count }
 			}
 		}
 		
@@ -1499,7 +1500,10 @@ spriteTypes = {
 					}
 				}
 				6 = { # West African
-					portrait_culture_group = west_african
+					OR = {
+						portrait_culture_group = west_african
+						portrait_culture_group = central_african
+					}
 				}
 				7 = { # East African
 					portrait_culture_group = east_african
@@ -1558,7 +1562,10 @@ spriteTypes = {
 					}
 				}
 				6 = { # West African
-					portrait_culture_group = west_african
+					OR = {
+						portrait_culture_group = west_african
+						portrait_culture_group = central_african
+					}
 				}
 				7 = { # East African
 					portrait_culture_group = east_african
@@ -1695,7 +1702,10 @@ spriteTypes = {
 					}
 				}
 				6 = { # West African
-					portrait_culture_group = west_african
+					OR = {
+						portrait_culture_group = west_african
+						portrait_culture_group = central_african
+					}
 				}
 				7 = { # East African
 					portrait_culture_group = east_african
@@ -1754,7 +1764,10 @@ spriteTypes = {
 					}
 				}
 				6 = { # West African
-					portrait_culture_group = west_african
+					OR = {
+						portrait_culture_group = west_african
+						portrait_culture_group = central_african
+					}
 				}
 				7 = { # East African
 					portrait_culture_group = east_african
